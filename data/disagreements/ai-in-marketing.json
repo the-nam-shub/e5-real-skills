@@ -1,0 +1,93 @@
+{
+  "category": "ai-in-marketing",
+  "analysis_date": "2026-04-19",
+  "analysis_model": "claude-sonnet-4-6",
+  "disagreements": [
+    {
+      "disagreement_id": "ai-replaces-vs-enables-marketers",
+      "title": "Will AI primarily replace marketing work or enable marketers to do more?",
+      "category": "ai-in-marketing",
+      "positions": [
+        {
+          "position_id": "ai-will-automate-most-marketing-work",
+          "stance": "The bear case is that approximately 80% of current marketing work will be automated away. Marketers must proactively reinvent their roles or face disruption. Routine work like dashboards, campaign setup, and reporting will largely disappear.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest, episode 346",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Explicitly framed this as the 'bear case' — that ~80% of what marketers do today will be automated, requiring marketers to shift into builder mode or be disrupted.",
+              "practice_id": "bear-case-80-percent-marketing-automation"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-enables-not-replaces-creative-teams",
+          "stance": "AI creative tools should be positioned as enablers that free up creative professionals to do more strategic and high-value work, not as replacements for creative talent. Designers, creative directors, and other creative roles remain essential — they now use AI tools to execute faster and handle more volume.",
+          "supporters": [
+            {
+              "guest_name": "Liz",
+              "guest_context": "Guest, episode 345",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Argued that AI should be framed as an enabler to help with team buy-in, and that creative professionals remain essential — they just use AI to do more. Did not frame significant job displacement as likely.",
+              "practice_id": "ai-creative-enable-team-not-replace"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Drew Pinta's 80% automation claim applies broadly to all marketing roles including operational/campaign work, while Liz's 'enable not replace' framing is specifically about creative teams. However, both are making claims about the same general question of whether AI displaces or augments marketers, and their stances are genuinely in tension — one predicts massive displacement, the other argues for augmentation as the primary outcome.",
+      "trend_note": null,
+      "why_it_matters": "How a marketing leader frames AI adoption internally — as a threat requiring reinvention or as an enabler of better work — shapes team culture, hiring decisions, and how aggressively they push automation. Getting this framing wrong could either cause unnecessary attrition or leave the team dangerously under-prepared for disruption."
+    },
+    {
+      "disagreement_id": "ai-content-generation-vs-assembly",
+      "title": "Should you use AI to generate content directly or to assemble it from structured sources?",
+      "category": "ai-in-marketing",
+      "positions": [
+        {
+          "position_id": "ai-as-research-synthesizer-not-generator",
+          "stance": "Rather than using AI to generate original content from scratch, use it as a research and synthesis tool. Gather multiple source materials, provide them to Claude with clear context, and have Claude help organize and synthesize. The subject matter expert stays in control of narrative, voice, and strategic direction.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Explicitly recommended using Claude as a research assistant to synthesize content from multiple sources rather than generating original content from scratch, emphasizing keeping the human expert in control.",
+              "practice_id": "claude-as-research-assistant-for-content"
+            },
+            {
+              "guest_name": "Adina Timar",
+              "guest_context": "Guest, episode 336",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Advocated for 'AI assembly not AI generation' — breaking content into granular pieces from real intelligence sources (sales calls, competitor data, product docs) and assembling them, explicitly to prevent generic output.",
+              "practice_id": "ai-assembled-not-generated-content"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-agents-generate-full-content-at-scale",
+          "stance": "Build AI agents that can generate complete go-to-market strategies, landing pages, SEO keyword strategies, and sales enablement materials end-to-end with a single click. The goal is to scale content production from 1 vertical to 50+ without proportional headcount increases.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest, episode 346",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Described building AI agents that spin up complete vertical go-to-market strategies — including market research, SEO keyword strategy, landing page generation, and sales enablement materials — automatically, positioning full AI generation as the goal.",
+              "practice_id": "ai-agents-for-vertical-go-to-market"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: the assembly/synthesis approach is advocated for content quality and brand differentiation use cases, while the full-generation agent approach is advocated for scaling repeatable vertical GTM work. However, both are making claims about how AI should be used in content production workflows, and the underlying philosophies conflict — one warns against generic AI output, the other automates full content generation at scale.",
+      "trend_note": null,
+      "why_it_matters": "Teams that default to full AI generation risk producing generic, undifferentiated content that fails to rank in AI search or resonate with buyers; teams that over-index on manual assembly may fail to capture the efficiency gains that make AI transformative at scale."
+    }
+  ]
+}

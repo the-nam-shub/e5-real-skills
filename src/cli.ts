@@ -195,14 +195,195 @@ program
     }
   });
 
-// Placeholder commands (not implemented in Phase 1/2)
+program
+  .command("compile")
+  .description("Recompile skills from existing practice data")
+  .option("--category <slug>", "Recompile a single category")
+  .action(async (opts: { category?: string }) => {
+    const config = loadConfig();
+    ensureDataDirs(config.data_dir);
+    const manifest = readManifest(config.data_dir);
+    const { loadAllPracticeFiles, rebuildCategoryIndex, writeCategoryIndex } =
+      await import("./category-index.js");
+    const practiceFiles = loadAllPracticeFiles(config.data_dir, manifest);
+    const index = rebuildCategoryIndex(practiceFiles, manifest);
+    writeCategoryIndex(config.data_dir, index);
+    const categories = opts.category
+      ? [opts.category]
+      : Object.keys(index.categories).sort();
+    const { compileCategory } = await import("./compile.js");
+    let failures = 0;
+    for (const cat of categories) {
+      if (!index.categories[cat] || index.categories[cat]!.practice_count === 0) {
+        console.log(`skip ${cat}: no practices`);
+        continue;
+      }
+      console.log(`compiling ${cat} (${index.categories[cat]!.practice_count} practices)...`);
+      try {
+        const result = await compileCategory(cat, index, config);
+        if (result.status === "pass") {
+          console.log(`  PASS   ${cat} → ${result.skillPath} (${result.cycles} review${result.cycles === 1 ? "" : "s"})`);
+        } else if (result.status === "review_stalled") {
+          console.log(
+            `  STALL  ${cat} → ${result.skillPath} (${result.cycles} reviews, published best draft)`
+          );
+          failures += 1;
+        } else {
+          console.log(
+            `  REJECT ${cat}: ${result.rejection.overall_assessment}`
+          );
+          for (const issue of result.rejection.issues) {
+            console.log(`    [${issue.severity}] ${issue.criterion}: ${issue.problem}`);
+          }
+          failures += 1;
+        }
+      } catch (err) {
+        console.error(`  ERROR  ${cat}: ${err instanceof Error ? err.message : String(err)}`);
+        failures += 1;
+      }
+    }
+    if (failures > 0) process.exitCode = 4;
+  });
+
+program
+  .command("review")
+  .description("Re-review an existing skill without recompiling")
+  .requiredOption("--category <slug>", "Category slug")
+  .action(async (opts: { category: string }) => {
+    const config = loadConfig();
+    ensureDataDirs(config.data_dir);
+    const manifest = readManifest(config.data_dir);
+    const { readFileSync } = await import("node:fs");
+    const { loadAllPracticeFiles, rebuildCategoryIndex } = await import(
+      "./category-index.js"
+    );
+    const { reviewSkill, saveReview } = await import("./agents/reviewer.js");
+    const index = rebuildCategoryIndex(
+      loadAllPracticeFiles(config.data_dir, manifest),
+      manifest
+    );
+    const categoryData = index.categories[opts.category];
+    if (!categoryData) {
+      console.error(`Unknown category: ${opts.category}`);
+      process.exit(1);
+    }
+    const skillMd = readFileSync(
+      resolve(config.skills_dir, opts.category, "SKILL.md"),
+      "utf8"
+    );
+    const result = await reviewSkill(
+      {
+        category: opts.category,
+        skillMarkdown: skillMd,
+        sourcePractices: categoryData.practices,
+        disagreements: [],
+      },
+      config
+    );
+    const path = saveReview(config.data_dir, opts.category, {
+      category: opts.category,
+      review_date: new Date().toISOString(),
+      review_model: config.review_model,
+      revision_cycle: 0,
+      ...result,
+    });
+    console.log(`${result.verdict.toUpperCase()}: ${result.overall_assessment}`);
+    for (const issue of result.issues) {
+      console.log(`  [${issue.severity}] ${issue.criterion}: ${issue.problem}`);
+    }
+    console.log(`→ ${path}`);
+  });
+
+program
+  .command("review-log")
+  .description("Show review history for a category")
+  .requiredOption("--category <slug>", "Category slug")
+  .action(async (opts: { category: string }) => {
+    const config = loadConfig();
+    const { listReviewsForCategory } = await import("./agents/reviewer.js");
+    const files = listReviewsForCategory(config.data_dir, opts.category);
+    if (files.length === 0) {
+      console.log(`No reviews for category ${opts.category}`);
+      return;
+    }
+    const { readFileSync } = await import("node:fs");
+    for (const f of files) {
+      const abs = resolve(config.data_dir, "reviews", f);
+      const r = JSON.parse(readFileSync(abs, "utf8"));
+      console.log(
+        `${r.review_date}  cycle=${r.revision_cycle}  ${r.verdict.toUpperCase()}  ${r.overall_assessment}`
+      );
+    }
+  });
+
+program
+  .command("disagreements")
+  .description("Run disagreement analysis per category and rebuild the index")
+  .option("--category <slug>", "Run for a single category")
+  .option("--summary", "Print summary counts only")
+  .action(async (opts: { category?: string; summary?: boolean }) => {
+    const config = loadConfig();
+    ensureDataDirs(config.data_dir);
+    const { rebuildDisagreementsIndex } = await import(
+      "./disagreements-index.js"
+    );
+    if (opts.summary) {
+      const idx = rebuildDisagreementsIndex(config.data_dir);
+      console.log(`Total disagreements: ${idx.total_disagreements}`);
+      console.log(`Last updated: ${idx.last_updated}`);
+      for (const [cat, n] of Object.entries(idx.by_category)) {
+        console.log(`  ${cat.padEnd(35)} ${n}`);
+      }
+      return;
+    }
+    const manifest = readManifest(config.data_dir);
+    const { loadAllPracticeFiles, rebuildCategoryIndex, writeCategoryIndex } =
+      await import("./category-index.js");
+    const index = rebuildCategoryIndex(
+      loadAllPracticeFiles(config.data_dir, manifest),
+      manifest
+    );
+    writeCategoryIndex(config.data_dir, index);
+    const { meetsDisagreementThreshold, runDisagreementAnalyst } = await import(
+      "./agents/disagreement-analyst.js"
+    );
+    const categories = opts.category
+      ? [opts.category]
+      : Object.keys(index.categories).sort();
+    for (const cat of categories) {
+      const data = index.categories[cat];
+      if (!data) {
+        console.log(`skip ${cat}: unknown category`);
+        continue;
+      }
+      if (!meetsDisagreementThreshold(data, config)) {
+        console.log(
+          `skip ${cat}: below threshold (practices=${data.practice_count}, episodes=${data.episode_sources.length})`
+        );
+        continue;
+      }
+      console.log(
+        `analyzing ${cat} (${data.practice_count} practices from ${data.episode_sources.length} episodes)...`
+      );
+      try {
+        const { file, path } = await runDisagreementAnalyst(cat, data, config);
+        console.log(
+          `  ${file.disagreements.length} disagreement${file.disagreements.length === 1 ? "" : "s"} → ${path}`
+        );
+      } catch (err) {
+        console.error(
+          `  ERROR ${cat}: ${err instanceof Error ? err.message : String(err)}`
+        );
+      }
+    }
+    const idx = rebuildDisagreementsIndex(config.data_dir);
+    console.log(`Disagreements index: ${idx.total_disagreements} total`);
+  });
+
+// Placeholder commands (implemented in later phases)
 for (const [name, desc] of [
   ["backfill", "Scrape and process all available episodes"],
-  ["compile", "Recompile skills from practice data"],
-  ["review", "Re-review a specific skill"],
-  ["disagreements", "Run disagreement analysis"],
   ["analyze", "Regenerate episode analysis"],
-  ["review-log", "Show review history for a category"],
 ] as const) {
   program
     .command(name)

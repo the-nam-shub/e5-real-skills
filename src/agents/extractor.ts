@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, renameSync, mkdirSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { complete, extractJsonArray } from "../anthropic.js";
+import { CATEGORIES } from "../types.js";
 import type {
   Config,
   Manifest,
@@ -8,6 +9,8 @@ import type {
   PracticesFile,
   TranscriptFile,
 } from "../types.js";
+
+const VALID_CATEGORIES = new Set<string>(CATEGORIES);
 
 const EXTRACTOR_SYSTEM_PROMPT = `You are analyzing a B2B marketing podcast transcript to extract specific, actionable best practices.
 
@@ -33,6 +36,12 @@ For each best practice extracted, provide:
 6. specificity_score: Rate 1-5 how specific and implementable this practice is (1 = vague principle, 5 = step-by-step playbook). Only include practices scoring 3+.
 7. guest_name: Who articulated this practice
 8. guest_context: Their role/company (relevant for weighting credibility on topic)
+
+HOST ATTRIBUTION:
+Dave Gerhardt is the host of the Exit Five podcast, not a guest. When Dave articulates a practice (which he will, frequently — he is a B2B marketing practitioner and his views count as expert signal), attribute it correctly:
+- guest_name: "Dave Gerhardt"
+- guest_context: "Host of Exit Five podcast; former CMO"
+Do NOT label Dave as "Guest on episode N" or similar. His role is host across the entire corpus, and that matters for how readers interpret his voice relative to one-off guest appearances. Capture his practices with the same rigor as any guest — same specificity threshold, same evidence requirements — but label him accurately.
 
 CATEGORY TAXONOMY:
 - positioning-and-messaging
@@ -108,6 +117,15 @@ function buildUserMessage(transcript: TranscriptFile): string {
   return `${header}\n\nTranscript:\n${lines}\n${SCHEMA_HINT}`;
 }
 
+function normalizeCategories(categories: string[]): string[] {
+  const out = new Set<string>();
+  for (const c of categories) {
+    out.add(VALID_CATEGORIES.has(c) ? c : "uncategorized");
+  }
+  // Preserve order but deduped.
+  return [...out];
+}
+
 function validatePractice(p: unknown, idx: number): Practice {
   if (!p || typeof p !== "object" || Array.isArray(p)) {
     throw new Error(`Practice #${idx} is not an object`);
@@ -150,7 +168,7 @@ export async function runExtractor(
     model: config.extraction_model,
     system: EXTRACTOR_SYSTEM_PROMPT,
     user: buildUserMessage(transcript),
-    max_tokens: 8192,
+    max_tokens: 16384,
     temperature: 0,
   });
 
@@ -162,6 +180,10 @@ export async function runExtractor(
   const parsed = extractJsonArray(raw);
   const practices: Practice[] = parsed
     .map((p, i) => validatePractice(p, i))
+    .map((p) => ({
+      ...p,
+      categories: normalizeCategories(p.categories),
+    }))
     .filter((p) => p.specificity_score >= config.min_specificity_score);
 
   const practicesFile: PracticesFile = {

@@ -170,6 +170,12 @@ For each best practice extracted, provide:
 7. guest_name: Who articulated this practice
 8. guest_context: Their role/company (relevant for weighting credibility on topic)
 
+HOST ATTRIBUTION:
+Dave Gerhardt is the host of the Exit Five podcast, not a guest. When Dave articulates a practice (which he will, frequently — he is a B2B marketing practitioner and his views count as expert signal), attribute it correctly:
+- guest_name: "Dave Gerhardt"
+- guest_context: "Host of Exit Five podcast; former CMO"
+Do NOT label Dave as "Guest on episode N" or similar. His role is host across the entire corpus, and that matters for how readers interpret his voice relative to one-off guest appearances. Capture his practices with the same rigor as any guest — same specificity threshold, same evidence requirements — but label him accurately.
+
 CATEGORY TAXONOMY:
 - positioning-and-messaging
 - content-strategy
@@ -301,12 +307,12 @@ For each disagreement identified, return:
    - stance: 2-3 sentence summary of this position
    - supporters: Array of guest objects, each with:
      - guest_name
-     - guest_context (role/company)
+     - guest_context (role/company; for Dave Gerhardt use "Host of Exit Five podcast; former CMO" — never label him as a guest)
      - episode_number
      - episode_date
      - evidence: What reasoning or data did this guest cite?
      - practice_id: Reference to the source practice
-5. support_summary: Human-readable count describing the distribution (e.g., "6 vs 1", "3 vs 3", "4 vs 2 vs 1"). This captures the degree of disagreement.
+5. support_summary: Human-readable count describing the distribution (e.g., "6 vs 1", "3 vs 3", "4 vs 2 vs 1"). This captures the degree of disagreement. Dave Gerhardt counts as one supporter like any other expert voice — his views are not weighted differently from guests — but the stance he's taking should be clearly attributable to him as host in the supporters array, not misrepresented as a one-off guest position.
 6. context_dependency: Does this disagreement dissolve if you account for different company stages, industries, or GTM motions? Be specific. If no, say "genuine disagreement regardless of context."
 7. trend_note: If there's a chronological pattern where recent guests cluster on one side and older guests on the other, describe it specifically. Otherwise set to null. This is the only way a "field is shifting" signal gets captured.
 8. why_it_matters: 1-2 sentences explaining why a B2B marketer should care about which side is right.
