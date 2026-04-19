@@ -446,7 +446,7 @@ VOICE AND FORMAT:
 - Assume the reader is a B2B marketer who may or may not have listened to the episode.
 - Lead with what's actually new. If the episode mostly restated existing consensus, say so directly.
 - When covering disagreements, attribute both sides and surface the support counts. "Guest X joins Guest Y in arguing against Guest Z's position from episode #200" is the right level of specificity.
-- Under 500 words. Tight.
+- Under 1000 words. Favor completeness over compression — these files are reference material for internal audit and archival purposes.
 - No em dashes.
 
 STRUCTURE:
@@ -462,9 +462,6 @@ STRUCTURE:
 
 ## Where this creates tension
 {If this episode introduces new disagreements or reinforces existing ones, explain them with attribution. If not, say "No new disagreements surfaced in this episode" and move on.}
-
-## Verdict
-{1-2 sentences: Is this episode a must-listen for a specific function/role, or is it incremental? Be direct.}
 
 WHAT TO AVOID:
 - "This episode was packed with insights" or similar filler

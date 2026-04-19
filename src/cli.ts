@@ -380,10 +380,61 @@ program
     console.log(`Disagreements index: ${idx.total_disagreements} total`);
   });
 
+program
+  .command("analyze")
+  .description("Generate per-episode analysis markdown")
+  .option("--episode <n>", "Analyze a single episode", (v) => Number(v))
+  .option("--all", "Analyze every processed episode")
+  .action(async (opts: { episode?: number; all?: boolean }) => {
+    const config = loadConfig();
+    ensureDataDirs(config.data_dir);
+    const manifest = readManifest(config.data_dir);
+    const { computeEpisodeDiff, loadDiffInputs } = await import("./skill-diff.js");
+    const { runEpisodeAnalyst, loadTranscript, listProcessedEpisodes } = await import(
+      "./agents/episode-analyst.js"
+    );
+    let episodes: number[] = [];
+    if (opts.all) {
+      episodes = listProcessedEpisodes(manifest);
+    } else if (opts.episode !== undefined) {
+      episodes = [opts.episode];
+    } else {
+      console.error("Specify --episode <n> or --all");
+      process.exit(1);
+    }
+    let failures = 0;
+    for (const ep of episodes) {
+      try {
+        const inputs = loadDiffInputs(config.data_dir, config.skills_dir, ep);
+        const diff = computeEpisodeDiff({
+          episodeNumber: ep,
+          episodePractices: inputs.episodePractices,
+          categoryIndex: inputs.categoryIndex,
+          disagreementFiles: inputs.disagreementFiles,
+          skillsDir: inputs.skillsDir,
+        });
+        const transcript = loadTranscript(config.data_dir, ep);
+        const { path, frontmatter, body } = await runEpisodeAnalyst(
+          { transcript, diff },
+          config
+        );
+        const wc = body.split(/\s+/).filter((w) => /[A-Za-z0-9]/.test(w)).length;
+        console.log(
+          `#${ep} → ${path} (${wc} words, skills=${frontmatter.skills_updated.length}, new-dis=${frontmatter.new_disagreements}, reinf-dis=${frontmatter.reinforced_disagreements})`
+        );
+      } catch (err) {
+        failures += 1;
+        console.error(
+          `#${ep} FAILED: ${err instanceof Error ? err.message : String(err)}`
+        );
+      }
+    }
+    if (failures > 0) process.exitCode = 5;
+  });
+
 // Placeholder commands (implemented in later phases)
 for (const [name, desc] of [
   ["backfill", "Scrape and process all available episodes"],
-  ["analyze", "Regenerate episode analysis"],
 ] as const) {
   program
     .command(name)
