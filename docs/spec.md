@@ -136,7 +136,7 @@ The pipeline uses five specialized agents rather than one general-purpose agent.
 
 ### 3. Agent 1: Extractor
 
-This is the core differentiator. The extraction prompt must be precise enough to pull specific, implementable advice and reject vague platitudes. This agent operates on one transcript at a time and never sees skill files or other episodes' practices.
+This is the core differentiator. The extraction prompt must be precise enough to pull specific, implementable advice and reject vague platitudes. This agent operates on one transcript at a time and never sees skill files or other episodes' practices. It proposes descriptive labels for each practice; a separate Label Curator step (Agent 1.5) reconciles those proposals against the living library.
 
 **Input:** One transcript JSON file
 
@@ -165,7 +165,7 @@ For each best practice extracted, provide:
 2. title: A concise, descriptive title
 3. description: 2-5 sentences capturing the specific practice with enough detail to implement
 4. direct_evidence: The key quotes or paraphrased statements from the transcript that support this practice (include speaker name and approximate timestamp)
-5. categories: 1-3 category tags from the taxonomy (see below)
+5. proposed_labels: 1-3 descriptive labels (lowercase, hyphenated slugs) that capture what marketing topic this practice is about. Use established marketing terminology where it exists. Good examples: "positioning-and-messaging", "paid-media", "ai-content-strategy", "sales-enablement", "event-marketing". Avoid over-specific or one-off labels ("drew-pinta-ramp-budget-framework" is too narrow). Prefer labels that could plausibly apply to practices from other episodes on the same topic.
 6. specificity_score: Rate 1-5 how specific and implementable this practice is (1 = vague principle, 5 = step-by-step playbook). Only include practices scoring 3+.
 7. guest_name: Who articulated this practice
 8. guest_context: Their role/company (relevant for weighting credibility on topic)
@@ -176,29 +176,13 @@ Dave Gerhardt is the host of the Exit Five podcast, not a guest. When Dave artic
 - guest_context: "Host of Exit Five podcast; former CMO"
 Do NOT label Dave as "Guest on episode N" or similar. His role is host across the entire corpus, and that matters for how readers interpret his voice relative to one-off guest appearances. Capture his practices with the same rigor as any guest — same specificity threshold, same evidence requirements — but label him accurately.
 
-CATEGORY TAXONOMY:
-- positioning-and-messaging
-- content-strategy
-- demand-generation
-- paid-media
-- linkedin-marketing
-- email-marketing
-- website-optimization
-- abm-account-based-marketing
-- sales-marketing-alignment
-- marketing-measurement
-- brand-building
-- product-marketing
-- marketing-leadership
-- career-development
-- marketing-operations
-- outbound-and-prospecting
-- events-and-community
-- ai-in-marketing
-- creative-and-design
-- customer-marketing
+LABEL GUIDANCE:
+The library's taxonomy is emergent — it grows based on what practices actually appear across the corpus. You are proposing labels; a downstream curator reconciles your proposals against the existing library. Your job is to label accurately, not to predict what the curator will accept.
 
-If a practice doesn't fit cleanly into any existing category, tag it as "uncategorized" for manual review. Do NOT invent new categories. The taxonomy is intentionally fixed to keep the skill library curated — adding new categories is a manual decision, not an extraction-time one.
+- Prefer broad, well-established marketing categories when they fit (e.g., "demand-generation", "content-strategy", "positioning-and-messaging")
+- Use more specific labels when the practice is about something genuinely distinct that wouldn't fit under a broader category (e.g., "ai-search-optimization" for practices specifically about optimizing content for LLM-based search, rather than bundling into generic "seo")
+- When a practice spans multiple topics (e.g., using AI to generate paid-media creative), tag both (["paid-media", "ai-in-marketing"])
+- Do not invent labels that describe the guest, episode, or specific product/company. Labels should describe the marketing topic, not the source.
 
 OUTPUT FORMAT: Return a JSON array of practice objects. If the episode yields no practices meeting the 3+ specificity threshold, return an empty array. Do not pad the output with marginal practices to fill space.
 ```
@@ -223,7 +207,8 @@ OUTPUT FORMAT: Return a JSON array of practice objects. If the episode yields no
           "content": "[paraphrased quote or key statement]"
         }
       ],
-      "categories": ["marketing-measurement", "demand-generation"],
+      "proposed_labels": ["marketing-measurement", "budget-allocation"],
+      "assigned_labels": ["marketing-measurement", "demand-generation"],
       "specificity_score": 4,
       "guest_name": "Drew Pinta",
       "guest_context": "Director of Growth Data at Ramp"
@@ -232,9 +217,82 @@ OUTPUT FORMAT: Return a JSON array of practice objects. If the episode yields no
 }
 ```
 
-### 4. Category Index
+Note: `proposed_labels` are what Agent 1 suggested. `assigned_labels` are the final labels after Agent 1.5 (Label Curator) reconciles proposals against the living library. Both fields are preserved so label evolution can be audited — a practice might be initially labeled `budget-allocation` by Agent 1 and reassigned to `marketing-measurement` by the curator when that topic doesn't yet warrant its own label.
 
-**Purpose:** Maintains a single aggregated index of all practices across all episodes, grouped by category.
+### 4. Agent 1.5: Label Curator
+
+**Purpose:** Reconciles Agent 1's proposed labels against the living library taxonomy. Ensures labels merge coherently when they describe the same topic, while allowing genuinely new topics to enter the library.
+
+**Input:**
+- The per-episode practices file from Agent 1 (with `proposed_labels` populated)
+- The current state of `data/labels.json`
+
+**Model:** Claude Sonnet 4.6 (the judgment required — "is this new label genuinely distinct from existing ones, or should it merge?" — is beyond what Haiku reliably handles)
+
+**When it runs:** Once per episode, after Agent 1 completes extraction. Sequential dependency — the episode cannot proceed to downstream agents until Agent 1.5 finalizes labels.
+
+**System prompt for label curation:**
+
+```
+You are curating the taxonomy for a B2B marketing skills library. Each practice in a podcast episode has been tagged with proposed labels. Your job is to decide for each proposed label whether it matches an existing label in the library (use the existing one) or describes a genuinely distinct topic (create a new label).
+
+Bias moderately toward using existing labels. When fit is reasonably clean (roughly 70%+ semantic overlap with an existing label's description and example practices), use the existing label. Only create a new label when the proposed topic is genuinely distinct — a different enough concept that lumping it into an existing category would mislead readers.
+
+WHEN TO REUSE AN EXISTING LABEL:
+- The proposed label is a phrasing variant of an existing label (e.g., existing "content-strategy" + proposed "content-marketing" → use existing)
+- The proposed label describes a narrower version of an existing label, but not narrow enough to warrant its own skill (e.g., existing "paid-media" + proposed "meta-ads-strategy" → use existing, unless the library already has strong signal that paid-media should split by platform)
+- The proposed label describes a slightly different angle on the same topic (e.g., existing "brand-building" + proposed "brand-positioning" → use existing)
+
+WHEN TO CREATE A NEW LABEL:
+- The proposed topic has no reasonable home in existing labels
+- The proposed topic is distinct enough that a reader would expect separate treatment (e.g., existing library lacks "ai-search-optimization"; the practice is specifically about optimizing content for LLM-based search, which is a meaningfully different activity than traditional SEO)
+- Multiple practices across episodes have been getting clustered under a broad label, and a narrower label would better serve the emerging topic. In this case, also flag the existing label for potential future split.
+
+NEVER:
+- Create labels that describe the guest, episode, or company (e.g., "ramp-growth-strategy"). Labels describe the marketing topic, not the source.
+- Create labels with fewer than 3 words of content value (e.g., "marketing", "growth", "strategy" alone are too broad)
+- Collapse genuinely distinct topics to force library size down
+
+OUTPUT FORMAT:
+For each practice in the input, return the practice_id plus the final assigned_labels array. Also return any new labels that should be added to labels.json with a short description and which practice first introduced them.
+
+{
+  "practice_assignments": [
+    { "practice_id": "...", "assigned_labels": ["...", "..."] }
+  ],
+  "new_labels": [
+    { "label": "ai-search-optimization", "description": "Optimizing content for citation in LLM-based search results (ChatGPT, Perplexity, Google AI Overviews). Distinct from traditional SEO in that it prioritizes frontier knowledge, expert quotes, and structured answerability over keyword ranking.", "first_introduced_by_practice_id": "..." }
+  ],
+  "split_candidates": [
+    { "existing_label": "...", "reason": "..." }
+  ]
+}
+```
+
+**Output:** Updates `data/practices/{n}.json` with the `assigned_labels` field populated on each practice. Appends to `data/labels.json` any new labels.
+
+**File: `data/labels.json`**
+```json
+{
+  "labels": {
+    "positioning-and-messaging": {
+      "description": "How products and companies describe their value proposition, differentiation, and ICP. Covers frameworks like April Dunford's positioning canvas, message-market fit, and category creation.",
+      "practice_count": 14,
+      "episode_sources": [97, 142, 203, 335, 344],
+      "first_introduced_episode": 97,
+      "first_introduced_date": "2024-03-15",
+      "last_practice_added_date": "2026-04-09"
+    }
+  },
+  "last_updated": "2026-04-16T10:00:00Z"
+}
+```
+
+**Growth pattern:** The labels file starts empty. The first episode processed creates the initial set of labels. Each subsequent episode either reinforces existing labels (most common) or adds new ones (expected to taper as the corpus matures — by the time 50+ episodes are processed, most new episodes should add zero or one new label).
+
+### 5. Category Index
+
+**Purpose:** Maintains a single aggregated index of all practices across all episodes, grouped by assigned label. (Formerly "Category Index" — the name is retained for continuity but categories are now emergent labels from the curator, not a fixed taxonomy.)
 
 **File: `data/category_index.json`**
 ```json
@@ -260,13 +318,27 @@ OUTPUT FORMAT: Return a JSON array of practice objects. If the episode yields no
 }
 ```
 
-**Rebuild logic:** After each new episode's practices are extracted, merge them into the category index. This is a deterministic data operation, not an AI call.
+**Rebuild logic:** After each new episode's practices are extracted and curated, merge them into the category index using `assigned_labels`. This is a deterministic data operation, not an AI call.
 
-### 5. Agent 4: Disagreement Analyst
+### 6. Skill Compilation Threshold
+
+Not every label becomes a published SKILL.md. To keep the skill library curated, a label must accumulate enough signal to justify a standalone skill file.
+
+**Promotion threshold:** A label becomes an "active skill" when it has:
+- 5 or more practices
+- from at least 3 distinct episodes
+
+Labels below this threshold remain in `labels.json` and the category index as tags on practices, but no SKILL.md is compiled for them. As more episodes process, labels cross the threshold and new skills appear — this is the mechanism by which the emergent taxonomy produces skills.
+
+**Why this threshold:** matches the minimum practice count needed for Agent 4 disagreement analysis (5+ practices from 3+ episodes), ensuring every published skill has enough signal density to meaningfully support disagreement surfacing if conflicts exist. Below this threshold, a skill would be thin and single-sourced.
+
+**Adjustment:** The threshold is tunable after the initial backfill. If many labels linger just below (say, 4 practices from 3 episodes), lowering the threshold slightly may promote real-but-small topics to skills. If many labels sit just above but produce weak skill files, raising the threshold filters more aggressively.
+
+### 7. Agent 4: Disagreement Analyst
 
 A dedicated agent that compares practices within each category to identify where experts actually disagree. "Contradiction" was the wrong mental model: real disagreements often aren't 1-on-1, they're majority-vs-minority, evenly split, or emerging shifts in the field. This agent captures the full shape of disagreement.
 
-**Scope boundary:** Agent 4 detects *active disagreements between named positions*. Its `trend_note` field captures chronological patterns that exist *within* a disagreement (e.g., "all pro-gating voices are from 2024, all anti-gating from 2026"). It does NOT detect general topic evolution where no explicit disagreement exists — for example, the gradual disappearance of 2023-era SEO advice as guests shift to AI-search strategies without explicitly arguing against the old approach. That case is out of scope here and is handled by the future Agent 6 (Trend Analyst, see Component Spec 10). Keep Agent 4 focused on opposition, not drift.
+**Scope boundary:** Agent 4 detects *active disagreements between named positions*. Its `trend_note` field captures chronological patterns that exist *within* a disagreement (e.g., "all pro-gating voices are from 2024, all anti-gating from 2026"). It does NOT detect general topic evolution where no explicit disagreement exists — for example, the gradual disappearance of 2023-era SEO advice as guests shift to AI-search strategies without explicitly arguing against the old approach. That case is out of scope here and is handled by the future Agent 6 (Trend Analyst, see Component Spec 11). Keep Agent 4 focused on opposition, not drift.
 
 **Two-pass intersection filtering (stability):** Agent 4's raw output is non-deterministic — a single run can surface genuine disagreements alongside run-dependent artifacts (a framing the model latched onto this time but might not surface next time). Because the product's value is rigor and attribution, the pipeline runs Agent 4 **twice in parallel on the same input** and keeps only disagreements reproduced across both runs.
 
@@ -417,7 +489,7 @@ OUTPUT FORMAT: Return a JSON array of disagreement objects. If no genuine disagr
 
 **Integration with skills:** The Skill Writer (Agent 2) receives both the practices AND the disagreement objects for a category. It references them in a "Where Experts Disagree" section rather than trying to detect conflicts on its own.
 
-### 6. Agent 5: Episode Analyst
+### 8. Agent 5: Episode Analyst
 
 Generates a human-readable analysis after each new episode is processed. This is the content engine: every new episode produces a publishable markdown artifact suitable for the website.
 
@@ -488,7 +560,7 @@ reinforced_disagreements: 2
 ---
 ```
 
-### 7. Agent 2: Skill Writer
+### 9. Agent 2: Skill Writer
 
 This is where practices become Claude skills. Each skill file is a standalone SKILL.md that follows the Claude skill format (YAML frontmatter + markdown body). The writer works exclusively from structured practice objects. It never sees raw transcripts.
 
@@ -558,7 +630,7 @@ episode_count: {number of episodes contributing practices}
 **Conflict handling example:**
 If Guest A in Episode 200 says "always gate your best content" and Guest B in Episode 340 says "ungated content outperforms gated 3:1 in pipeline contribution," the skill file should present both positions with attribution and note the more recent stance. Do NOT silently pick one.
 
-### 8. Agent 3: Skill Reviewer
+### 10. Agent 3: Skill Reviewer
 
 An adversarial QA agent that reads compiled skill files and determines whether they meet the quality bar. This agent has no knowledge of the writer's intent or the raw transcripts. It evaluates the skill purely on whether the output would make a marketer better at the task.
 
@@ -686,7 +758,7 @@ When the reviewer returns `"pass"`:
 2. Save the review to `data/reviews/` for audit trail
 3. Proceed to GitHub Publisher
 
-### 9. Agent 6: Trend Analyst (Future, Not In MVP)
+### 11. Agent 6: Trend Analyst (Future, Not In MVP)
 
 A planned future agent, deliberately out of scope for the initial build. Documented here so that Agent 4's scope is unambiguous and so the data model never needs retrofitting.
 
@@ -703,7 +775,7 @@ A planned future agent, deliberately out of scope for the initial build. Documen
 
 **Scope guardrail for the MVP:** do not stretch Agent 4's `trend_note` field to cover this case. If a chronological pattern exists without explicit opposition between positions, it belongs to the future Agent 6 and should be left undetected in the MVP.
 
-### 10. GitHub Publisher
+### 12. GitHub Publisher
 
 **Behavior:**
 - The public repo contains three directories plus README: `skills/`, `disagreements/`, and `episode-analyses/`
@@ -870,27 +942,30 @@ e5-skills run --dry-run
 
 ## Processing Pipeline (for `run` command)
 
+**Ordering note:** Backfill processes episodes in chronological order (oldest first). Daily runs process new episodes as they drop. This matters because the library's taxonomy (`data/labels.json`) is incremental — each episode sees the labels that already exist and either fits into them or proposes new ones. Processing out of order means later episodes would see a library that "knows" about future terminology, distorting the curator's decisions.
+
 ```
 1. Fetch RSS feed
-2. Compare against manifest → identify new episodes above min_episode_number
-3. For each new episode (parallel, up to max_parallel_extractions):
+2. Compare against manifest → identify new episodes above min_episode_number, sorted by date ascending
+3. For each new episode (sequentially — see ordering note; within-stage parallelism still applies to sub-steps):
    a. Scrape transcript from episode page
    b. Save transcript to data/transcripts/{n}.json
-   c. Run Agent 1: Extractor (Claude API call)
-   d. Save practices to data/practices/{n}.json
-4. Deterministic merge of all new practices into data/category_index.json (single-threaded, fast)
+   c. Run Agent 1: Extractor (Claude API call) → produces practices with proposed_labels
+   d. Run Agent 1.5: Label Curator (Claude API call) → reconciles proposed_labels against data/labels.json, produces assigned_labels, appends any new labels to labels.json
+   e. Save practices to data/practices/{n}.json (with both proposed_labels and assigned_labels populated)
+4. Deterministic merge of all new practices into data/category_index.json using assigned_labels (single-threaded, fast)
 5. Update manifest status for each episode to "processed"
-6. Identify which categories received new practices AND meet the disagreement analysis threshold (5+ practices from 3+ episodes)
-7. For each affected category (parallel):
-   a. Run Agent 4: Disagreement Analyst (Claude API call)
-   b. Save disagreements to data/disagreements/{category}.json
+6. Identify which labels received new practices AND meet the skill promotion threshold (5+ practices from 3+ episodes). Labels below threshold stay as tags; no skill compiled.
+7. For labels that meet the threshold AND meet the disagreement analysis threshold (5+ practices from 3+ episodes — same threshold), in parallel:
+   a. Run Agent 4: Disagreement Analyst (two-pass with intersection filtering, see §7)
+   b. Save disagreements to data/disagreements/{label-slug}.json
 8. Deterministic rebuild of data/disagreements/_index.json
-9. For each affected category (parallel, up to max_parallel_skill_compilations):
+9. For each label meeting the skill promotion threshold (parallel, up to max_parallel_skill_compilations):
    a. Run Agent 2: Skill Writer with practices + disagreements as input → draft SKILL.md
    b. Run Agent 3: Skill Reviewer → verdict
-   c. If "revise": feed issues back to Agent 2, re-run Agent 3 (max 2 cycles, sequential within a single category)
-   d. If "reject": log, mark category as needs_rewrite, skip publish
-   e. If "pass": write SKILL.md to skills/{category}/SKILL.md
+   c. If "revise": feed issues back to Agent 2, re-run Agent 3 (max 2 cycles, sequential within a single label)
+   d. If "reject": log, mark label as needs_rewrite, skip publish
+   e. If "pass": write SKILL.md to skills/{label-slug}/SKILL.md
    f. Save review to data/reviews/ for audit trail
 10. For each new episode (parallel):
     a. Compute skill diff (which skills were updated, what changed)
@@ -899,23 +974,23 @@ e5-skills run --dry-run
     d. Save markdown post to data/episode-analyses/{n}.md
 11. Update README skill inventory table (deterministic)
 12. Git commit and push all changes to the public repo
-13. Log summary: episodes processed, practices extracted, disagreements found, skills updated, review verdicts, analyses generated
+13. Log summary: episodes processed, practices extracted, new labels introduced, labels that crossed promotion threshold, disagreements found, skills updated, review verdicts, analyses generated
 ```
 
 ### Parallelization
 
-The pipeline has natural parallelization boundaries created by the data dependencies between stages. Respect the stage boundaries, parallelize aggressively within each stage.
+The pipeline has natural parallelization boundaries created by the data dependencies between stages. Respect the stage boundaries, parallelize aggressively within each stage — but note that Step 3 is now sequential across episodes (see ordering note above), not parallel across episodes as in earlier versions of the spec. Within a single episode, Agent 1 and Agent 1.5 run sequentially.
 
 **What can run in parallel:**
 
-- **Step 3 (Episode extraction):** Each episode is independent. Process up to `max_parallel_extractions` at once (default: 5). The bottleneck is Anthropic API rate limits, not logic.
-- **Step 7 (Disagreement analysis):** Each category is independent and has no shared state. Process all eligible categories in parallel.
-- **Step 9 (Skill writing + review):** Each category is independent. Process up to `max_parallel_skill_compilations` at once (default: 3). Lower than extractions because each compilation can trigger multiple agents (writer + reviewer + possibly revision cycles), so the per-task API call count is higher.
+- **Step 7 (Disagreement analysis):** Each label is independent and has no shared state. Process all eligible labels in parallel.
+- **Step 9 (Skill writing + review):** Each label is independent. Process up to `max_parallel_skill_compilations` at once (default: 3). Lower than extractions because each compilation can trigger multiple agents (writer + reviewer + possibly revision cycles), so the per-task API call count is higher.
 - **Step 10 (Episode analyses):** Each episode is independent. All can run in parallel.
 
 **What must be sequential:**
 
-- **Step 3 within a single episode:** Scrape → extract → save. Agent 1 must complete before the episode is considered "processed."
+- **Step 3 across episodes:** Episodes must process in chronological order so the label library evolves coherently. The `max_parallel_extractions` config is retained but now effectively caps at 1 for Step 3 in backfill mode. (For daily runs processing a single new episode, this is moot.)
+- **Step 3 within a single episode:** Scrape → extract → curate labels → save. Agent 1.5 depends on Agent 1's output.
 - **Step 4 (Category index merge):** All extractions must complete before merge. The merge itself is deterministic and fast, no parallelization needed.
 - **Step 9 within a single category:** Writer → reviewer → (possibly) writer → reviewer. Revision cycles require the previous output to exist.
 - **Agent 5 depends on Agents 2 + 4:** Episode analyses must run after skill updates and disagreement analysis complete, because they report on what changed.
@@ -970,9 +1045,12 @@ GITHUB_REPO=               # e.g., "the-nam-shub/e5-real-skills"
   "scrape_delay_ms": 2500,
   "min_episode_number": 150,
   "min_specificity_score": 3,
+  "min_practices_for_skill_promotion": 5,
+  "min_episodes_for_skill_promotion": 3,
   "min_practices_for_disagreement_analysis": 5,
   "min_episodes_for_disagreement_analysis": 3,
   "extraction_model": "claude-haiku-4-5-20251001",
+  "curator_model": "claude-sonnet-4-6",
   "compilation_model": "claude-sonnet-4-6",
   "review_model": "claude-sonnet-4-6",
   "disagreement_model": "claude-sonnet-4-6",
