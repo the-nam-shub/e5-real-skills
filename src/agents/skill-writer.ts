@@ -60,7 +60,16 @@ episode_count: {number of episodes contributing practices}
 
 const REVISION_INSTRUCTION_PREFIX = `The following skill file was reviewed and needs revision. Address each issue listed below. Do not add new content from general knowledge to fix gaps. If removing a flagged section leaves a gap, leave the gap. Rewrite only what is necessary to resolve the issues.
 
+CRITICAL: When an issue is flagged with criterion \`monday_morning_test\` at severity \`major\` or \`critical\`, the correct response is to REMOVE the practice entirely from the skill file — do not rename it, reframe it, add a checklist around it, or rewrite it under a new heading. The underlying source practice is failing because its substance is posture, forecast, or philosophy, not because of its wording. Self-aware disclaimers ("this is a framing principle, not a workflow step") do not rescue a flagged practice; they confirm the problem. Cutting content makes the skill thinner, which is honest. Do not try to operationalize a flagged philosophical claim by inventing review mechanisms, "apply this lens" framings, or "when to invoke" criteria — these all fail the same test.
+
+The same principle applies to source contamination issues flagged as major or critical: remove the contaminated content, do not rephrase it to sound more sourced.
+
 ISSUES:
+`;
+
+const STALL_REMOVAL_INSTRUCTION = `This skill file has been through the maximum number of revision cycles and still has unresolved issues. Produce one final version that REMOVES the flagged content entirely instead of attempting another rewrite. Do not substitute general knowledge to fill the gaps left behind. A thinner, honest skill is the correct output here.
+
+REMAINING ISSUES TO RESOLVE BY REMOVAL:
 `;
 
 export interface SkillWriterInput {
@@ -154,6 +163,42 @@ export async function reviseSkill(
     input.previousSkillMarkdown,
     "",
     REVISION_INSTRUCTION_PREFIX + issuesText,
+  ].join("\n");
+  const raw = await complete({
+    model: config.compilation_model,
+    system: SKILL_WRITER_SYSTEM_PROMPT,
+    user,
+    max_tokens: 8192,
+    temperature: 0,
+  });
+  const markdown = stripFence(raw);
+  validateSkillMarkdown(markdown, input.category);
+  return markdown;
+}
+
+/**
+ * Called when the revision loop has stalled (max cycles exceeded, reviewer
+ * still flagging). Asks the writer for one final pass with explicit
+ * "remove, do not revise" instructions so the published draft isn't carrying
+ * the same unresolved content under yet another heading.
+ */
+export async function reviseSkillRemovingFlagged(
+  input: SkillWriterRevisionInput,
+  config: Config
+): Promise<string> {
+  const issuesText = input.issues
+    .map(
+      (i, idx) =>
+        `${idx + 1}. [${i.severity}] ${i.criterion} @ ${i.location}\n   Problem: ${i.problem}`
+    )
+    .join("\n\n");
+  const user = [
+    buildPracticesPayload(input),
+    "",
+    "PREVIOUS DRAFT (to be cut down, not reframed):",
+    input.previousSkillMarkdown,
+    "",
+    STALL_REMOVAL_INSTRUCTION + issuesText,
   ].join("\n");
   const raw = await complete({
     model: config.compilation_model,

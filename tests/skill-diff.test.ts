@@ -13,7 +13,7 @@ import type {
 
 function practice(
   id: string,
-  categories: string[],
+  labels: string[],
   guest: string,
   score = 4
 ): Practice {
@@ -24,7 +24,8 @@ function practice(
     direct_evidence: [
       { speaker: guest, approx_timestamp: "10:00", content: "quote" },
     ],
-    categories,
+    proposed_labels: labels,
+    assigned_labels: labels,
     specificity_score: score,
     guest_name: guest,
     guest_context: `${guest} context`,

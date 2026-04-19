@@ -11,7 +11,7 @@ function emptyIndex(): CategoryIndex {
 
 function practice(
   id: string,
-  categories: string[],
+  labels: string[],
   score = 4
 ): PracticesFile["practices"][number] {
   return {
@@ -21,7 +21,8 @@ function practice(
     direct_evidence: [
       { speaker: "Guest", approx_timestamp: "10:00", content: "quote" },
     ],
-    categories,
+    proposed_labels: labels,
+    assigned_labels: labels,
     specificity_score: score,
     guest_name: "Guest",
     guest_context: "Role",

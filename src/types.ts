@@ -1,29 +1,3 @@
-export const CATEGORIES = [
-  "positioning-and-messaging",
-  "content-strategy",
-  "demand-generation",
-  "paid-media",
-  "linkedin-marketing",
-  "email-marketing",
-  "website-optimization",
-  "abm-account-based-marketing",
-  "sales-marketing-alignment",
-  "marketing-measurement",
-  "brand-building",
-  "product-marketing",
-  "marketing-leadership",
-  "career-development",
-  "marketing-operations",
-  "outbound-and-prospecting",
-  "events-and-community",
-  "ai-in-marketing",
-  "creative-and-design",
-  "customer-marketing",
-  "uncategorized",
-] as const;
-
-export type Category = (typeof CATEGORIES)[number];
-
 export type EpisodeStatus =
   | "new"
   | "scrape_failed"
@@ -31,6 +5,7 @@ export type EpisodeStatus =
   | "processed"
   | "processed_no_practices"
   | "extraction_failed"
+  | "curation_failed"
   | "compilation_failed"
   | "review_failed"
   | "needs_rewrite"
@@ -83,7 +58,8 @@ export interface Practice {
   title: string;
   description: string;
   direct_evidence: PracticeEvidence[];
-  categories: string[];
+  proposed_labels: string[];
+  assigned_labels: string[];
   specificity_score: number;
   guest_name: string;
   guest_context: string;
@@ -188,15 +164,53 @@ export interface ReviewRecord extends ReviewResult {
   revision_cycle: number;
 }
 
+export interface LabelEntry {
+  description: string;
+  practice_count: number;
+  episode_sources: number[];
+  first_introduced_episode: number;
+  first_introduced_date: string;
+  last_practice_added_date: string;
+}
+
+export interface LabelsFile {
+  labels: Record<string, LabelEntry>;
+  last_updated: string;
+}
+
+export interface CuratorNewLabel {
+  label: string;
+  description: string;
+  first_introduced_by_practice_id: string;
+}
+
+export interface CuratorPracticeAssignment {
+  practice_id: string;
+  assigned_labels: string[];
+}
+
+export interface CuratorSplitCandidate {
+  existing_label: string;
+  reason: string;
+}
+
+export interface CuratorOutput {
+  practice_assignments: CuratorPracticeAssignment[];
+  new_labels: CuratorNewLabel[];
+  split_candidates: CuratorSplitCandidate[];
+}
+
 export interface Config {
   rss_feed_url: string;
   base_episode_url: string;
   scrape_delay_ms: number;
   min_episode_number: number;
   min_specificity_score: number;
+  min_practices_for_skill_promotion: number;
   min_practices_for_disagreement_analysis: number;
   min_episodes_for_disagreement_analysis: number;
   extraction_model: string;
+  curator_model: string;
   compilation_model: string;
   review_model: string;
   disagreement_model: string;

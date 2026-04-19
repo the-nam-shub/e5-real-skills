@@ -96,7 +96,11 @@ export function mergePracticesIntoIndex(
   for (const pf of practiceFiles) {
     for (const practice of pf.practices) {
       const entry = toEntry(pf, practice, manifest);
-      for (const cat of practice.categories) {
+      const labels =
+        practice.assigned_labels.length > 0
+          ? practice.assigned_labels
+          : practice.proposed_labels;
+      for (const cat of labels) {
         next.categories[cat] = upsertCategory(next.categories[cat], entry);
       }
     }
@@ -113,6 +117,13 @@ export function rebuildCategoryIndex(
     practiceFiles,
     manifest
   );
+}
+
+export function meetsSkillPromotionThreshold(
+  category: CategoryIndexCategory,
+  minPractices: number
+): boolean {
+  return category.practice_count >= minPractices;
 }
 
 export function loadAllPracticeFiles(dataDir: string, manifest: Manifest): PracticesFile[] {

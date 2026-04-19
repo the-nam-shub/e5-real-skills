@@ -147,6 +147,8 @@ This is the core differentiator. The extraction prompt must be precise enough to
 ```
 You are analyzing a B2B marketing podcast transcript to extract specific, actionable best practices.
 
+The intended use: these practices become Claude skill files that help marketers execute specific tasks — e.g., "what's the right way to measure LinkedIn ad performance," "how do I structure a brand awareness survey," "how do I set up an incrementality test." Skills built from these practices are execution manuals, not general marketing guidance or thought leadership. Extract accordingly: favor practices a marketer could walk away from the page and do, and reject content that only helps a marketer think about marketing.
+
 WHAT COUNTS AS A BEST PRACTICE:
 - A specific technique, framework, process, or approach that a marketer could implement
 - Must include enough detail that someone could act on it without needing to listen to the episode
@@ -157,8 +159,17 @@ WHAT DOES NOT COUNT:
 - Generic advice ("know your audience", "be authentic", "test and iterate")
 - Opinions without supporting reasoning or evidence
 - Observations about industry trends without actionable implications
+- Predictions or forecasts about the future of marketing or the industry (e.g., "X% of marketing will be automated," "Channel Y is dead," "the bear case is..."), even when stated with specific numbers or strong personal conviction. A forecast is not a practice unless the guest also describes a concrete mechanism the listener can execute today that stands independent of whether the forecast is correct.
+- Posture or mindset recommendations ("shift into builder mode," "embrace the change," "reinvent yourself," "get ahead of it") without a specific mechanism. Strong imperative phrasing, personal anecdote, and contrarian confidence are not substitutes for a mechanism a marketer can execute on Monday.
 - Self-promotion or product pitches by the guest
 - Banter, anecdotes told purely for entertainment, or tangential stories that don't resolve into a transferable lesson
+
+CONCRETE REJECTED FRAMINGS (reject any practice whose substance resembles these — do not extract variants either):
+- "Expect N% of marketing to be automated; reinvent your role / shift from execution to higher-leverage work." This is a forecast wrapped in generic career advice. The 80% is a vibes number, not a measurement. "Reinvent your role" is posture, not a mechanism. Reject.
+- "Marketers are better positioned than engineers in the AI era because AI produces median/average output and marketing requires creativity and taste." This is a philosophical claim about the structure of the AI era. It tells a marketer nothing about what to do on Monday. Reject.
+- "Acknowledge that [macro trend] and proactively [mindset shift]." Any practice whose core imperative is acknowledge / accept / embrace / reinvent / shift into X mindset, without a specific first step, tool, metric, or procedure. Reject.
+
+These are not exhaustive. Apply the same test to analogous framings: if the practice's "action" boils down to updating one's beliefs or self-positioning about the industry, it is posture, not a practice.
 
 For each best practice extracted, provide:
 1. practice_id: A unique slug (e.g., "ramp-70-30-budget-split")
@@ -322,17 +333,17 @@ For each practice in the input, return the practice_id plus the final assigned_l
 
 ### 6. Skill Compilation Threshold
 
-Not every label becomes a published SKILL.md. To keep the skill library curated, a label must accumulate enough signal to justify a standalone skill file.
+Not every label becomes a published SKILL.md. To keep the skill library curated, a label must accumulate enough practices to justify a standalone skill file.
 
-**Promotion threshold:** A label becomes an "active skill" when it has:
-- 5 or more practices
-- from at least 3 distinct episodes
+**Promotion threshold:** A label becomes an "active skill" when it has 5 or more practices. There is no minimum episode count.
 
 Labels below this threshold remain in `labels.json` and the category index as tags on practices, but no SKILL.md is compiled for them. As more episodes process, labels cross the threshold and new skills appear — this is the mechanism by which the emergent taxonomy produces skills.
 
-**Why this threshold:** matches the minimum practice count needed for Agent 4 disagreement analysis (5+ practices from 3+ episodes), ensuring every published skill has enough signal density to meaningfully support disagreement surfacing if conflicts exist. Below this threshold, a skill would be thin and single-sourced.
+**Why no episode minimum:** Exit Five frequently covers frontier practices with deep single-episode treatment — one guest who has actually built the thing walks through it in detail, and the next episode moves to an unrelated topic. Requiring multi-episode breadth (a prior 3-episode minimum) buries these real, usable practices behind a temporal gate that the podcast's own release pattern won't clear. Because every recommendation in a skill file carries its source attribution — `(Source: [Guest Name], Episode #[N])` — single-source skills remain transparent: a reader sees immediately that a skill is backed by one guest, weighs the credibility of that guest, and decides accordingly. Attribution is the integrity layer, not episode breadth.
 
-**Adjustment:** The threshold is tunable after the initial backfill. If many labels linger just below (say, 4 practices from 3 episodes), lowering the threshold slightly may promote real-but-small topics to skills. If many labels sit just above but produce weak skill files, raising the threshold filters more aggressively.
+**Implication for disagreement analysis:** Agent 4 keeps its own threshold of 5+ practices from 3+ episodes. A promoted single-source skill will therefore have an empty "Where Experts Disagree" section until multiple episodes contribute practices on the same topic. That is the honest state: one voice cannot disagree with itself across one episode.
+
+**Adjustment:** The practice-count threshold is tunable after the initial backfill. If 5-practice skills consistently produce thin or weak SKILL.md files, raise the threshold. If many labels linger at 4 practices with strong content, lower it.
 
 ### 7. Agent 4: Disagreement Analyst
 
@@ -652,6 +663,10 @@ Failure examples:
 - "Focus on the problems your buyers actually have" (too vague to act on)
 - "Use data to drive decisions" (universal advice, not a skill)
 - "Build trust with your audience" (no mechanism described)
+- "Acknowledge that approximately 80% of current marketing tasks will be automated by AI and proactively reinvent your role" (forecast + career posture; "reinvent your role" is not a Monday-morning action)
+- "Marketers have a structural advantage over engineers because AI produces median output and marketing requires creativity" (philosophical claim about the AI era; tells a marketer nothing to do)
+- "Shift from execution-focused work to higher-leverage activities like strategy" (mindset shift without a mechanism, first step, or criterion for what counts as "higher-leverage")
+- Any recommendation whose imperative is acknowledge / accept / embrace / reinvent / shift into X mindset, without a specific first step, tool, metric, or procedure. These are posture dressed as action; flag as major or critical.
 
 Pass examples:
 - "Split your budget 70% proven channels / 30% experimental. The 70% funds the machine, the 30% funds bets that could become the next part of the 70%." (specific ratio, clear logic)
@@ -664,6 +679,8 @@ Compare the skill file against the source practices provided. Flag any recommend
 - Introduces frameworks, terminology, or advice that appears to come from general knowledge rather than the podcast transcripts
 
 This is the most important check. The entire value proposition of this project is that skills contain ONLY what podcast guests actually said. Any general knowledge contamination destroys credibility.
+
+IMPORTANT — what does NOT count as source contamination: the writer silently dropping a source practice whose substance is pure forecast, posture, or philosophical framing (i.e., a practice that would itself fail the Monday Morning Test). Cutting an unactionable source practice is correct editorial judgment, not contamination. Do not flag an "absent source practice" as contamination when that practice is the kind of posture/forecast/mindset content covered in the MMT failure examples above. Contamination means adding content that has no source; it does not mean omitting content that failed the actionability bar. Only flag a missing source practice as contamination when the practice contains a concrete, implementable mechanism that the skill should have carried forward.
 
 3. ATTRIBUTION COMPLETENESS
 Every specific recommendation should be attributed to a guest and episode number. Flag any unattributed claims. One-off missing attributions are a "revise" issue. Systematic missing attributions are a "reject" issue.
@@ -740,13 +757,17 @@ When the reviewer returns `"revise"`:
 ```
 The following skill file was reviewed and needs revision. Address each issue listed below. Do not add new content from general knowledge to fix gaps. If removing a flagged section leaves a gap, leave the gap. Rewrite only what is necessary to resolve the issues.
 
+CRITICAL: When an issue is flagged with criterion `monday_morning_test` at severity `major` or `critical`, the correct response is to REMOVE the practice entirely from the skill file — do not rename it, reframe it, add a checklist around it, or rewrite it under a new heading. The underlying source practice is failing because its substance is posture, forecast, or philosophy, not because of its wording. Self-aware disclaimers ("this is a framing principle, not a workflow step") do not rescue a flagged practice; they confirm the problem. Cutting content makes the skill thinner, which is honest. Do not try to operationalize a flagged philosophical claim by inventing review mechanisms, "apply this lens" framings, or "when to invoke" criteria — these all fail the same test.
+
+The same principle applies to source contamination issues flagged as major or critical: remove the contaminated content, do not rephrase it to sound more sourced.
+
 ISSUES:
 {reviewer's issues array, formatted as readable text}
 ```
 
 2. The writer produces a revised SKILL.md
 3. The revised SKILL.md goes back to Agent 3 for re-review
-4. **Maximum 2 revision cycles.** If the skill hasn't passed after 2 revisions, log it as `"review_stalled"` and publish the best version with a note in the commit message. Manual review needed.
+4. **Maximum 2 revision cycles.** If the skill hasn't passed after 2 revisions, do not publish the latest still-flagged draft as-is. Run one final writer pass with an explicit "remove, do not reframe" instruction that tells the writer to cut the flagged content entirely rather than attempt another rewrite. Publish that output, log the outcome as `"review_stalled"`, and add a note to the commit message so a human can follow up. This prevents the common failure mode where the writer keeps renaming or re-dressing a rejected practice until the loop runs out, then publishes the dressed-up version.
 
 When the reviewer returns `"reject"`:
 1. Log the rejection with full review output
@@ -1022,7 +1043,7 @@ const extractionResults = await Promise.all(
 - If the Claude API call for extraction returns an empty array, that's valid (not all episodes yield extractable practices). Mark as `"processed_no_practices"`
 - If any Claude API call fails (rate limit, network error), retry 3x with exponential backoff. If all retries fail, mark as `"extraction_failed"` or `"compilation_failed"` or `"review_failed"` and continue
 - If the reviewer returns `"reject"` on a category, do NOT publish the skill. Mark it as `"needs_rewrite"` and log the full review. It will be recompiled from scratch on the next pipeline run
-- If a skill stalls after 2 revision cycles (reviewer keeps returning `"revise"`), publish the best version with a commit message noting it did not pass full review. Log it as `"review_stalled"` for manual follow-up
+- If a skill stalls after 2 revision cycles (reviewer keeps returning `"revise"`), run one final writer pass with a "remove the flagged content entirely, do not reframe" instruction, publish that output with a commit message noting the skill did not pass full review, and log as `"review_stalled"` for manual follow-up
 - If the Git push fails, log the error but don't fail the run. The files are written locally and will be pushed on the next successful run
 - If parallel tasks within a stage fail, isolate the failure: one failed episode extraction should not block the others. Collect failures into the run summary and continue
 
@@ -1046,7 +1067,6 @@ GITHUB_REPO=               # e.g., "the-nam-shub/e5-real-skills"
   "min_episode_number": 150,
   "min_specificity_score": 3,
   "min_practices_for_skill_promotion": 5,
-  "min_episodes_for_skill_promotion": 3,
   "min_practices_for_disagreement_analysis": 5,
   "min_episodes_for_disagreement_analysis": 3,
   "extraction_model": "claude-haiku-4-5-20251001",

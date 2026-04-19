@@ -20,6 +20,10 @@ Failure examples:
 - "Focus on the problems your buyers actually have" (too vague to act on)
 - "Use data to drive decisions" (universal advice, not a skill)
 - "Build trust with your audience" (no mechanism described)
+- "Acknowledge that approximately 80% of current marketing tasks will be automated by AI and proactively reinvent your role" (forecast + career posture; "reinvent your role" is not a Monday-morning action)
+- "Marketers have a structural advantage over engineers because AI produces median output and marketing requires creativity" (philosophical claim about the AI era; tells a marketer nothing to do)
+- "Shift from execution-focused work to higher-leverage activities like strategy" (mindset shift without a mechanism, first step, or criterion for what counts as "higher-leverage")
+- Any recommendation whose imperative is acknowledge / accept / embrace / reinvent / shift into X mindset, without a specific first step, tool, metric, or procedure. These are posture dressed as action; flag as major or critical.
 
 Pass examples:
 - "Split your budget 70% proven channels / 30% experimental. The 70% funds the machine, the 30% funds bets that could become the next part of the 70%." (specific ratio, clear logic)
@@ -32,6 +36,8 @@ Compare the skill file against the source practices provided. Flag any recommend
 - Introduces frameworks, terminology, or advice that appears to come from general knowledge rather than the podcast transcripts
 
 This is the most important check. The entire value proposition of this project is that skills contain ONLY what podcast guests actually said. Any general knowledge contamination destroys credibility.
+
+IMPORTANT — what does NOT count as source contamination: the writer silently dropping a source practice whose substance is pure forecast, posture, or philosophical framing (i.e., a practice that would itself fail the Monday Morning Test). Cutting an unactionable source practice is correct editorial judgment, not contamination. Do not flag an "absent source practice" as contamination when that practice is the kind of posture/forecast/mindset content covered in the MMT failure examples above. Contamination means adding content that has no source; it does not mean omitting content that failed the actionability bar. Only flag a missing source practice as contamination when the practice contains a concrete, implementable mechanism that the skill should have carried forward.
 
 3. ATTRIBUTION COMPLETENESS
 Every specific recommendation should be attributed to a guest and episode number. Flag any unattributed claims. One-off missing attributions are a "revise" issue. Systematic missing attributions are a "reject" issue.

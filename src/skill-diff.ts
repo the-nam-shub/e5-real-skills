@@ -38,8 +38,8 @@ export interface EpisodeDiff {
   reinforced_disagreements: ReinforcedDisagreement[];
 }
 
-function practiceCategories(p: Practice): string[] {
-  return p.categories;
+function practiceLabels(p: Practice): string[] {
+  return p.assigned_labels.length > 0 ? p.assigned_labels : p.proposed_labels;
 }
 
 function skillFileExists(skillsDir: string, category: string): boolean {
@@ -97,10 +97,10 @@ export function computeEpisodeDiff(input: {
   const { episodeNumber, episodePractices, categoryIndex, disagreementFiles, skillsDir } =
     input;
 
-  // Group this episode's practices by category.
+  // Group this episode's practices by assigned label (or proposed as fallback).
   const byCategory = new Map<string, Practice[]>();
   for (const p of episodePractices.practices) {
-    for (const cat of practiceCategories(p)) {
+    for (const cat of practiceLabels(p)) {
       if (!byCategory.has(cat)) byCategory.set(cat, []);
       byCategory.get(cat)!.push(p);
     }

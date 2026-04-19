@@ -12,18 +12,13 @@ Every recommendation in these skills traces back to a specific guest, a specific
 
 ## Available Skills
 
-| Skill | Practices | Episodes | Last Updated |
-|-------|-----------|----------|--------------|
-| [Ai In Marketing](./skills/ai-in-marketing/SKILL.md) | 43 | 4 | 2026-04-19 |
-| [Marketing Measurement](./skills/marketing-measurement/SKILL.md) | 17 | 4 | 2026-04-19 |
+_No skills compiled yet._
 
 ## Where the Experts Disagree
 
 Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
 
-| Debate | Category | Support | Type |
-|--------|----------|---------|------|
-| Will AI primarily replace marketing work or enable marketers to do more? | Ai In Marketing | 1 vs 1 | 2 positions |
+_No disagreements surfaced yet. When the corpus grows, cross-episode disagreements between guests will appear here._
 
 Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
 

@@ -7,7 +7,11 @@ import type {
   DisagreementsFile,
   ReviewResult,
 } from "./types.js";
-import { writeSkill, reviseSkill } from "./agents/skill-writer.js";
+import {
+  writeSkill,
+  reviseSkill,
+  reviseSkillRemovingFlagged,
+} from "./agents/skill-writer.js";
 import { reviewSkill, saveReview } from "./agents/reviewer.js";
 
 export type CompileOutcome =
@@ -89,6 +93,22 @@ export async function compileCategory(
       return { status: "needs_rewrite", rejection: review, cycles, reviews };
     }
     if (cycles > maxCycles) {
+      // Stall fallback: the writer has exhausted its revise budget and the
+      // reviewer is still flagging issues. Rather than publishing the latest
+      // (still-flagged) draft as-is, do one final writer pass with explicit
+      // "remove, don't reframe" instructions. Publish that output.
+      try {
+        draft = await reviseSkillRemovingFlagged(
+          { ...input, previousSkillMarkdown: draft, issues: review.issues },
+          config
+        );
+      } catch (err) {
+        console.warn(
+          `[compile] ${category} stall-removal pass failed: ${
+            err instanceof Error ? err.message : String(err)
+          }. Publishing last successful draft.`
+        );
+      }
       const out = skillPath(config.skills_dir, category);
       atomicWriteText(out, draft);
       return { status: "review_stalled", skillPath: out, cycles, reviews };
