@@ -1064,7 +1064,7 @@ GITHUB_REPO=               # e.g., "the-nam-shub/e5-real-skills"
   "rss_feed_url": "https://feeds.transistor.fm/exit-five-podcast",
   "base_episode_url": "https://exitfive.com/podcast",
   "scrape_delay_ms": 2500,
-  "min_episode_number": 150,
+  "min_episode_number": 0,
   "min_specificity_score": 3,
   "min_practices_for_skill_promotion": 5,
   "min_practices_for_disagreement_analysis": 5,
@@ -1123,30 +1123,31 @@ jobs:
 
 ## Backfill Strategy
 
-The podcast has ~346 episodes as of April 2026, going back several years. Transcripts are not available for every episode — the site started reliably publishing transcripts at some point, and episodes before that cutoff will either lack transcripts entirely or have them in a different format. There's no reason to hammer the site attempting to scrape episodes that don't have transcripts.
+As of April 2026 the Transistor feed contains ~348 items going back to 2021-12-12. **All items carry a `podcast:transcript` URL** (Transistor auto-generates transcripts for the whole archive). There is no transcript cutoff — the pipeline can process the full history.
 
-**Determining the cutoff:**
+**Default:** `min_episode_number: 0` in config. Every episode in the feed is eligible. The `--no-floor` CLI flag on `backfill` is kept as an override for any future case where we want to explicitly include items below a configured floor.
 
-Before running the full backfill, spot-check transcript availability by sampling episode pages at different points in the archive (e.g., episode 50, 100, 150, 200, 250, 300). Identify the earliest episode that reliably has a full transcript and use that as the backfill floor. Set it as `min_episode_number` in config.
+**Non-episode filter:**
 
-As a starting assumption, **default to episode 150 as the backfill floor** and adjust based on the spot check. This captures roughly the last ~2 years of content, which is where the most relevant and current advice lives anyway. Advice from 2022 about paid ads or AI tooling has questionable applicability in 2026.
+Transistor's feed occasionally includes promo posts (hiring announcements, contest announcements, cross-promotions) tagged with a duplicate `itunes:episode` number. The RSS parser drops these at ingest by title pattern — titles starting with "We're Hiring", "Announcing", or "New from Exit Five:" are skipped before they reach the manifest. See [src/rss.ts](../src/rss.ts) `NON_EPISODE_TITLE_PATTERNS` for the exact list; update as new promo formats appear.
+
+**Duplicate episode numbers:**
+
+Even after the non-episode filter, a small number of main-episode items in the archive share an `itunes:episode` value (podcast-side tagging errors). Current behavior: the manifest keys by `episode_number` so a collision silently overwrites. If this becomes a meaningful source of content loss (measurable in a backfill summary), revisit by keying the manifest on `rss_guid` and carrying `episode_number` as a display field.
 
 **Backfill procedure:**
 
-1. Scrape the podcast listing page, paginating through all pages to collect every episode URL above `min_episode_number`
-2. Attempt to scrape transcripts from each episode page
-3. Episodes without transcripts get marked `"no_transcript"` and skipped (no retries)
-4. Process all transcribed episodes through the extraction pipeline in parallel batches (see Parallelization section)
-5. After all episodes are extracted, run disagreement analysis on every eligible category
-6. Compile and review all skills
-7. Generate episode analyses for each processed episode
-8. Commit everything to the repo in a single batch
+1. Fetch the RSS feed
+2. Drop non-episode promo items by title pattern
+3. Sort remaining episodes by date ascending (chronological)
+4. For each episode in order: scrape transcript → Agent 1 extraction → Agent 1.5 label curation
+5. After all episodes are extracted, rebuild category index from `assigned_labels`
+6. Run disagreement analysis on every label meeting the disagreement threshold
+7. Compile and review every label meeting the skill promotion threshold
+8. Generate episode analyses for each processed episode
+9. Publisher step commits everything to the repo
 
-**Override for historical completeness:**
-
-If the user explicitly wants to attempt the full archive including old episodes, expose a `--no-floor` flag on the backfill CLI command. Most older episodes will just come back marked `"no_transcript"` and be skipped, but the attempt is logged.
-
-**Cost estimate for backfill:** Assume ~200 episodes have transcripts within the cutoff range. Average transcript is ~8,000 tokens. Extraction prompt + response adds ~2,000 tokens overhead. That's ~10,000 tokens per episode for extraction. For 200 episodes: ~2M input tokens + ~500K output tokens for extraction. Skill compilation across ~20 categories adds ~200K tokens. Reviewer adds ~150K tokens per pass, and with an average of ~1.5 passes per skill, that's roughly ~250K tokens for review. Revision cycles add another ~200K tokens for rewriting. Disagreement detection runs once per eligible category with all practices as input; assume ~400K tokens total. Episode analyses add ~1M tokens (200 episodes × ~5K tokens each). Ballpark total: $15-35 in API costs for the full backfill.
+**Cost estimate for backfill (April 2026 feed):** ~343 unique episodes. At ~$0.20 per episode all-in (Haiku extraction + Sonnet curation + amortized Agent 4/2/3/5 cost), ballpark **$60–90** for the full backfill. Per-episode steady-state after backfill is ~$0.30–0.70 depending on how many labels an episode touches above promotion threshold.
 
 ---
 

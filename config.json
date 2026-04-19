@@ -2,7 +2,7 @@
   "rss_feed_url": "https://feeds.transistor.fm/exit-five-podcast",
   "base_episode_url": "https://exitfive.com/podcast",
   "scrape_delay_ms": 2500,
-  "min_episode_number": 150,
+  "min_episode_number": 0,
   "min_specificity_score": 3,
   "min_practices_for_skill_promotion": 5,
   "min_practices_for_disagreement_analysis": 5,

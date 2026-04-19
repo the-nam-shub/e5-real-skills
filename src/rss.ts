@@ -71,12 +71,27 @@ function extractPodcastTranscriptUrl(rawXml: string, guid: string): string | nul
   return txMatch?.[1] ?? null;
 }
 
+// Feed items whose titles match these patterns are promo/hiring/announcement
+// posts that Transistor sometimes tags with a duplicate itunes:episode number.
+// They are not main podcast episodes and should be skipped before they enter
+// the manifest. See rss.test.ts for cases.
+const NON_EPISODE_TITLE_PATTERNS: RegExp[] = [
+  /^we'?re hiring\b/i,
+  /^announcing\b/i,
+  /^new from exit five:/i,
+];
+
+export function isNonEpisodeTitle(title: string): boolean {
+  return NON_EPISODE_TITLE_PATTERNS.some((re) => re.test(title));
+}
+
 export function rssItemToEpisode(
   item: RssItem,
   baseEpisodeUrl: string
 ): ManifestEpisode | null {
   const title = (item.title ?? "").trim();
   if (!title) return null;
+  if (isNonEpisodeTitle(title)) return null;
   const episodeNumber = extractEpisodeNumber(item);
   if (episodeNumber === null) return null;
   const episodeUrl = episodeUrlFromTitle(baseEpisodeUrl, title);
