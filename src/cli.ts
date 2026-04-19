@@ -89,35 +89,19 @@ program
   .action(async (opts: { dryRun?: boolean }) => {
     const config = loadConfig();
     ensureDataDirs(config.data_dir);
-    let manifest = readManifest(config.data_dir);
-    const rssEpisodes = await fetchRssEpisodes(
-      config.rss_feed_url,
-      config.base_episode_url
-    );
-    const feedAsManifest = rssEpisodes.map((r) => r.episode);
-    const newEpisodes = findNewEpisodes(manifest, feedAsManifest, config.min_episode_number);
-    console.log(`RSS feed: ${rssEpisodes.length} episodes`);
-    console.log(`Manifest: ${manifest.episodes.length} known`);
-    console.log(
-      `New (>= ep ${config.min_episode_number}): ${newEpisodes.length}`
-    );
+    const { runPipeline, logSummary } = await import("./pipeline.js");
+    const summary = await runPipeline(config, { dryRun: opts.dryRun });
     if (opts.dryRun) {
-      for (const e of newEpisodes.slice(0, 20)) {
+      console.log(`new episodes (>= #${config.min_episode_number}): ${summary.new_episodes.length}`);
+      for (const e of summary.new_episodes.slice(0, 30)) {
         console.log(`  - #${e.episode_number} ${e.title}`);
+      }
+      if (summary.new_episodes.length > 30) {
+        console.log(`  ... ${summary.new_episodes.length - 30} more`);
       }
       return;
     }
-    for (const e of newEpisodes) {
-      manifest = upsertEpisode(manifest, e);
-    }
-    for (const e of newEpisodes) {
-      manifest = await scrapeAndSave(rssEpisodes, manifest, config.data_dir, e);
-      writeManifest(config.data_dir, manifest);
-      await delay(config.scrape_delay_ms);
-    }
-    manifest = { ...manifest, last_checked: new Date().toISOString() };
-    writeManifest(config.data_dir, manifest);
-    console.log("Phase 1: extraction, compilation, and publish NOT wired yet.");
+    logSummary(summary);
   });
 
 program
@@ -432,18 +416,38 @@ program
     if (failures > 0) process.exitCode = 5;
   });
 
-// Placeholder commands (implemented in later phases)
-for (const [name, desc] of [
-  ["backfill", "Scrape and process all available episodes"],
-] as const) {
-  program
-    .command(name)
-    .description(`${desc} (not implemented yet)`)
-    .action(() => {
-      console.error(`Command "${name}" is not implemented yet.`);
-      process.exit(64);
+program
+  .command("backfill")
+  .description("Scrape and process all available episodes")
+  .option("--no-floor", "Attempt episodes below min_episode_number too")
+  .option("--concurrency <n>", "Override max_parallel_extractions", (v) => Number(v))
+  .option("--dry-run", "Show what would change without writing files")
+  .action(async (opts: {
+    noFloor?: boolean;
+    concurrency?: number;
+    dryRun?: boolean;
+  }) => {
+    const config = loadConfig();
+    ensureDataDirs(config.data_dir);
+    const { runPipeline, logSummary } = await import("./pipeline.js");
+    const summary = await runPipeline(config, {
+      dryRun: opts.dryRun,
+      backfill: true,
+      noFloor: opts.noFloor,
+      concurrency: opts.concurrency,
     });
-}
+    if (opts.dryRun) {
+      console.log(`backfill candidates: ${summary.new_episodes.length}`);
+      for (const e of summary.new_episodes.slice(0, 50)) {
+        console.log(`  - #${e.episode_number} ${e.title}`);
+      }
+      if (summary.new_episodes.length > 50) {
+        console.log(`  ... ${summary.new_episodes.length - 50} more`);
+      }
+      return;
+    }
+    logSummary(summary);
+  });
 
 program.parseAsync(process.argv).catch((err) => {
   console.error(err);

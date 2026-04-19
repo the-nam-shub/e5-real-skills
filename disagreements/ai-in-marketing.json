@@ -1,0 +1,48 @@
+{
+  "category": "ai-in-marketing",
+  "analysis_date": "2026-04-19",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-replaces-vs-enables-marketers",
+      "title": "Will AI primarily replace marketing work or enable marketers to do more?",
+      "category": "ai-in-marketing",
+      "positions": [
+        {
+          "position_id": "ai-will-automate-most-marketing-work",
+          "stance": "The bear case is that approximately 80% of current marketing work will be automated away. Marketers must proactively reinvent their roles or face disruption. Routine work like dashboards, campaign setup, and reporting will largely disappear.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest, episode 346",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Explicitly framed this as the 'bear case' — that ~80% of what marketers do today will be automated, requiring marketers to shift into builder mode or be disrupted.",
+              "practice_id": "bear-case-80-percent-marketing-automation"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-enables-not-replaces-creative-teams",
+          "stance": "AI creative tools should be positioned as enablers that free up creative professionals to do more strategic and high-value work, not as replacements for creative talent. Designers, creative directors, and other creative roles remain essential — they now use AI tools to execute faster and handle more volume.",
+          "supporters": [
+            {
+              "guest_name": "Liz",
+              "guest_context": "Guest, episode 345",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Argued that AI should be framed as an enabler to help with team buy-in, and that creative professionals remain essential — they just use AI to do more. Did not frame significant job displacement as likely.",
+              "practice_id": "ai-creative-enable-team-not-replace"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Drew Pinta's 80% automation claim applies broadly to all marketing roles including operational/campaign work, while Liz's 'enable not replace' framing is specifically about creative teams. However, both are making claims about the same general question of whether AI displaces or augments marketers, and their stances genuinely conflict on the degree of displacement expected.",
+      "trend_note": null,
+      "why_it_matters": "How a marketing leader frames AI adoption internally — as a threat or an enabler — shapes team culture, hiring decisions, and how aggressively they invest in AI transformation. Getting this framing wrong risks either under-investing in AI readiness or destroying team morale."
+    }
+  ]
+}
