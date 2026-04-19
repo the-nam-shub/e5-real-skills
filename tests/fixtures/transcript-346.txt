@@ -1,0 +1,2421 @@
+Dave [0:00:01]: You're listening to The Dave Gerhardt.
+
+Dave [0:00:02]: Ramp might be building one of the best B2B brands of the last decade.
+
+Dave [0:00:20]: They're doing compelling brand and out of home stuff like putting a famous actor in a glass box in Madison Square park to file paper expenses for twelve hours, while live streaming the whole thing and One of their employees actually got married inside the box for real during the stunt, but it's not all just big creative bets Ramp is also deeply data driven and their marketing team right now is going through an aggressive Ai transformation.
+
+Dave [0:00:43]: Marketers at Ramp are using Claude to do things like build their own dashboards, spin up go to market strategy for new verticals with a click of a button and reinvent what their job looks like.
+
+Dave [0:00:53]: Their CEO told the team last year, hey, it's okay to drop the ball on some of the things in your current job for a bit if it means learning how to rebuild and do better, work smarter and more efficiently and be more effective with Ai.
+
+Dave [0:01:05]: I talked to Drew Pinta who leads the growth data effort at Ramp and partners with their marketing team about all of it.
+
+Dave [0:01:11]: How they use Ai to scan thousands of gong calls and discovered something that was off in their marketing attribution, even though every attribution model said the opposite of what they ended up finding here.
+
+Dave [0:01:22]: We learned how they run incremental testing, their channel maturity framework, how they split budgets seventy thirty between proven channels and experimental bets and Drew dropped a line that I can't stop thinking about that was the the headline for this whole episode, which is the fastest way to kill creative marketing ideas is to try to measure them like direct response.
+
+Dave [0:01:40]: His whole thing is that measurement should meet the marketing not the other way around.
+
+Dave [0:01:45]: Then the back half of the interview went somewhere and expect, Drew actually made the bull case for why marketers are in a better position than engineers in the age of Ai, And he didn't sugar coat the barricades either.
+
+Dave [0:01:55]: We talked about both sides of it.
+
+Dave [0:01:56]: I thought this was a great discussion with Drew from Ramp.
+
+Dave [0:01:58]: And if you like B2B marketing.
+
+Dave [0:02:00]: You wanna get smarter about it.
+
+Dave [0:02:01]: You're in the world of Ai and marketing right now.
+
+Dave [0:02:03]: I think you're gonna enjoy this conversation packed with good stuff from Drew.
+
+Dave [0:02:07]: Here it is.
+
+Dave [0:02:08]: My conversation with Drew Pinta from Ramp.
+
+Dave [0:02:10]: So Drew, Drew, this is a repeat...
+
+Dave [0:02:13]: Repeat visit.
+
+Dave [0:02:13]: We had Drew Drew is on a, a webinar that we did, all about Ab.
+
+Dave [0:02:17]: Turns out that's awesome way to meet cool guests.
+
+Dave [0:02:19]: Drew is, I guess, technically not a marketing guy, but you're part of the marketing org, director of growth had a growth data at Ramp, which is a really cool company.
+
+Dave [0:02:30]: I was happy to hear that the marketing team at Ramp listens to the pod.
+
+Dave [0:02:34]: So let's...
+
+Dave [0:02:34]: We'll represent for them and and do a good job today, Drew.
+
+Dave [0:02:38]: Can you just kick us off with, like, a little background about, like, in in your words, tell me about your role at Ramp.
+
+Drew [0:02:44]: Yeah.
+
+Drew [0:02:44]: For sure.
+
+Drew [0:02:44]: So I lead the data function for all of growth.
+
+Drew [0:02:47]: So that basically means I'm a strategic partner to our marketing team.
+
+Drew [0:02:50]: So everything from, like, measurement to strategy is kinda in my team's wheelhouse.
+
+Drew [0:02:55]: And although not a marketer, Like to think Picked up some marketing stuff over the...
+
+Drew [0:03:00]: I'm doing this for like eight years now.
+
+Drew [0:03:01]: So hopefully know a bit about it.
+
+Dave [0:03:03]: Yeah.
+
+Dave [0:03:03]: You have interesting back?
+
+Dave [0:03:04]: You were you like...
+
+Dave [0:03:04]: Did you...
+
+Dave [0:03:05]: I briefly looked at your Linkedin past?
+
+Dave [0:03:07]: Like, did you work at the Fed or something like that?
+
+Dave [0:03:08]: You had to what what were you doing?
+
+Dave [0:03:10]: The treasury?
+
+Dave [0:03:11]: What were you doing before?
+
+Dave [0:03:12]: You got into to tech.
+
+Drew [0:03:14]: I did not plan this, D.
+
+Drew [0:03:15]: I I wanted to be an economist when I was another.
+
+Dave [0:03:19]: Okay.
+
+Drew [0:03:19]: I I...
+
+Drew [0:03:19]: Yeah.
+
+Drew [0:03:19]: That's true.
+
+Drew [0:03:20]: So I went and, like, I did this two year ra program at the Fed where you're just, like, assisting economist.
+
+Drew [0:03:25]: And within, like, three months, I was like, I definitely don't wanna be in a economist.
+
+Drew [0:03:29]: I had a great time there.
+
+Drew [0:03:31]: It's just, like, academia is pretty slow.
+
+Drew [0:03:33]: So Was like, what do I do?
+
+Drew [0:03:35]: And I ended up in like, a data science role.
+
+Drew [0:03:36]: I got randomly placed on a growth team.
+
+Drew [0:03:38]: And it turned out to be a great fit.
+
+Drew [0:03:40]: There's actually like a ton of parallels between growth and marketing and economics, like, in hindsight?
+
+Dave [0:03:46]: Say tell me him.
+
+Dave [0:03:47]: Explain that.
+
+Drew [0:03:49]: I mean, I guess the way I think about it is, In economics, you're trying to model a really complicated system.
+
+Drew [0:03:54]: The economy is probably the most complicated system out there.
+
+Drew [0:03:57]: You've got tons of inputs, tons of outputs.
+
+Drew [0:03:59]: It's really hard to just, like measure and know if it's even working without, like, a year long lag.
+
+Drew [0:04:03]: And a growth marketing team's kind of same way.
+
+Drew [0:04:06]: Right?
+
+Drew [0:04:07]: Like, you have all these channels, you can adjust a ton of things on them.
+
+Drew [0:04:10]: You don't really get great feedback right away.
+
+Drew [0:04:13]: And so it's an interesting, like, data and modeling problem that kinda curate over.
+
+Dave [0:04:17]: I like this.
+
+Dave [0:04:17]: I don't know a ton about, like, the Ramp marketing org setup, but I like the idea of...
+
+Dave [0:04:23]: I'm just a big believer in, like, having the marketing, have a having the marketing team be good at marketing and I rant about this a lot with, like, something that comes up a lot is, like, the market, you know, the CMO needs to, like, really know the P and L and all the finance and the background of the company and I'm kinda...
+
+Dave [0:04:40]: I'm like, kinda, yeah.
+
+Dave [0:04:42]: Like, they can't be a moron.
+
+Dave [0:04:43]: They have to know how, like, the sausage gets made and how much everything costs.
+
+Dave [0:04:46]: But, like, the two CFO that I've worked with, they're, like, you know, dude, I want you to be great at, like, getting people to pay attention to us and make it the catch register editor ring and, like, I'll be your partner, is that kinda parallel to, like, why this the data...
+
+Dave [0:05:00]: Like, your role and how you, like, support your partner to the marketing team.
+
+Drew [0:05:04]: Yeah.
+
+Drew [0:05:04]: I would say that's part of it.
+
+Drew [0:05:06]: And then the other part is just giving them information they need to make these decisions on, like, where they put budget, for example.
+
+Drew [0:05:11]: Right?
+
+Drew [0:05:11]: It's like, as you know, it's not that easy to know what's working.
+
+Drew [0:05:13]: What's not.
+
+Drew [0:05:14]: So that's, like, probably our most important role is, like, where shouldn't we put money?
+
+Dave [0:05:19]: What why is that?
+
+Dave [0:05:20]: Let's take the, like, higher level lens and just kinda...
+
+Dave [0:05:22]: Yeah.
+
+Dave [0:05:23]: I talk about this a lot on the pod that, like, a lot of the things that are good marketing are a bit harder to measure, but if they work, they end up working, and then it's an obvious how they work.
+
+Dave [0:05:32]: So I'm curious to how you how you think about some of those those things.
+
+Dave [0:05:35]: And I see Ramp.
+
+Dave [0:05:36]: Like, Ramp does a a lot of stuff that's more on the brand side of things, but I'm sure deep down, you you have a way to measure the the impact there.
+
+Drew [0:05:44]: We try.
+
+Drew [0:05:45]: It's never perfect, and it's not possible to perfectly measure everything.
+
+Drew [0:05:48]: But a lot times that's where the kinda alpha is is doing the things that are harder to measure.
+
+Drew [0:05:51]: Right?
+
+Drew [0:05:52]: Everyone can, like, run Facebook ads and those are not easy to measure, but easier.
+
+Drew [0:05:56]: Not a room can, like, put a guy doing, like, expenses in a park in a class box for a day and run a ton of ads around that.
+
+Drew [0:06:05]: And we did we did measure that.
+
+Drew [0:06:07]: Like, we did an event study for that.
+
+Drew [0:06:08]: I can't give you exact numbers, but...
+
+Dave [0:06:10]: What's an event study?
+
+Drew [0:06:12]: So we basically look at, like, how's our marketing going today.
+
+Drew [0:06:15]: We forecast what it would look like over the next week, then we do something crazy like a box done.
+
+Drew [0:06:20]: And then we look at what actually happened?
+
+Drew [0:06:21]: And you compare those two things, and you can get a read on what impact was.
+
+Drew [0:06:25]: Doing your marketing information.
+
+Dave [0:06:28]: So you're just measuring.
+
+Dave [0:06:29]: I mean, I I I love...
+
+Dave [0:06:30]: I like when we can take things like this and make them simple.
+
+Dave [0:06:32]: I often use the example of, like, there's a lady down the street.
+
+Dave [0:06:35]: She runs an amazing, you know, sandwich shop.
+
+Dave [0:06:37]: If she did some ad.
+
+Dave [0:06:39]: Like, what what's...
+
+Dave [0:06:39]: What I love a small business is it's like, it is easy to measure because it's like, if you did if you did a crazy stun, it just dis some shit.
+
+Dave [0:06:45]: More people started to come to her store next week, she'd be like, that worked.
+
+Dave [0:06:49]: Right?
+
+Dave [0:06:50]: She wouldn't be like, you know, deeply measuring the metrics on the on the Facebook ads, but I think something...
+
+Dave [0:06:55]: It's because of how B2B works, and I had the a VP of marketing of on the Linkedin ads business on a couple weeks ago, and he had the stat that was, like, the average, you know, deal deal a buying cycle in B2B is, like, two hundred and eleven days.
+
+Dave [0:07:09]: So that's, you know, what seventy percent of the year, and there's twenty two people involved.
+
+Dave [0:07:15]: So it's like no wonder this is this is harder to measure.
+
+Dave [0:07:17]: You mentioned even in that briefing.
+
+Dave [0:07:20]: You mentioned, like, marketing performance right now Just baseline, like, what it explain Ramps funnel, what metrics are you looking at, like, right now to know if But what's the baseline of Ramp this week?
+
+Dave [0:07:32]: Is it like, free free trials, sales demos, How does the business work?
+
+Drew [0:07:36]: Yeah.
+
+Drew [0:07:36]: We're about seventy percent sales led.
+
+Drew [0:07:38]: So the marketing team is, like, primarily trying to drive sales qualified leads?
+
+Drew [0:07:42]: They'll move through the funnel.
+
+Drew [0:07:44]: We don't a free trial, but we'll move them through to, like, actually signing up activating, and then, you, expansion retention.
+
+Drew [0:07:50]: Kind of a classic funnel.
+
+Dave [0:07:52]: What is it what is a sales qualified lead at Ramp.
+
+Drew [0:07:54]: Yeah.
+
+Drew [0:07:54]: I mean, someone who's like, actively considering the product.
+
+Drew [0:07:57]: They're actually they can buy right now.
+
+Drew [0:08:00]: And I think we talked about the webinar, like, our Tam is huge, but a lot of our customers are just can't buy right now.
+
+Drew [0:08:05]: They may have, like, a four year contracts signed with.
+
+Drew [0:08:08]: Right?
+
+Drew [0:08:09]: So we'll catch them in four years.
+
+Drew [0:08:10]: Maybe now we'll try to sell them in other products in our suite, but they need to be actually, like, a potential buyer today.
+
+Dave [0:08:18]: How do Identify that person?
+
+Dave [0:08:19]: Sometimes we get on the phone with them?
+
+Drew [0:08:21]: Yeah.
+
+Drew [0:08:21]: For self serve leads, last in questions onboarding.
+
+Drew [0:08:24]: When we can, we'll try to use data to surface that.
+
+Dave [0:08:28]: Which would be what, like, signals?
+
+Dave [0:08:29]: Or there's...
+
+Dave [0:08:30]: Is there some level of, like, intent or data?
+
+Dave [0:08:32]: What what what data would would give you a, like, a bread crumb of that?
+
+Drew [0:08:35]: I mean, there's the audio obvious stuff like, if we can identify that they're coming to our website, looking at our pricing page, things like that.
+
+Drew [0:08:41]: There's stuff like a new CFO going to the company who maybe use Ramp at their last company.
+
+Drew [0:08:46]: Sort of like, those kind obvious things, but it isn't a pretty tricky thing to to actually parse out, like, do they have a contract with a competitor where they're locked into right now?
+
+Dave [0:08:57]: Right.
+
+Dave [0:08:57]: Yeah.
+
+Dave [0:08:57]: That's a hard part.
+
+Dave [0:08:57]: Like, they might love Ramp.
+
+Dave [0:08:58]: Love the marketing, came in, really wanna, like, move to something cooler than whatever they're using now.
+
+Dave [0:09:04]: Ramp has a lot of buzz, and they just can't...
+
+Dave [0:09:07]: They can't buy it.
+
+Dave [0:09:07]: Okay.
+
+Dave [0:09:08]: I've already sent us in a in a different direction.
+
+Dave [0:09:10]: We we have prep for this episode.
+
+Dave [0:09:12]: I've I've been well prepped this.
+
+Dave [0:09:13]: So first I wanna get into is how we gave leadership the confidence to grow the marketing budget.
+
+Dave [0:09:19]: This is a great topic for a lot of people that listen to this, and I think from where you sit, it'd be really interesting.
+
+Dave [0:09:25]: So it seems like this is a note that I have here.
+
+Dave [0:09:28]: Used use Ai to listen to ten thousand sales calls and discovered that our attribution was completely wrong.
+
+Drew [0:09:33]: Yeah.
+
+Drew [0:09:33]: It's a good one.
+
+Dave [0:09:34]: Can you tell me about that?
+
+Drew [0:09:36]: Accountants are, like, the people whose lives we make easier.
+
+Drew [0:09:38]: They go from, like, having it manually process expenses to...
+
+Drew [0:09:42]: It's fully automated for them.
+
+Drew [0:09:44]: So we put them in a box for, I think guess twelve hours.
+
+Drew [0:09:47]: There's a glass box in a, Madison Square park, super busy park in New York, and we hadn't filed expenses, like, paper expenses for twelve hours.
+
+Drew [0:09:55]: We had a lot of special guests come in, pop into the box every hour.
+
+Drew [0:09:59]: Someone of my team actually got legitimately married.
+
+Drew [0:10:02]: By Brian in the box on this live stream.
+
+Drew [0:10:06]: So now Crazy shit.
+
+Drew [0:10:09]: And, like, it wasn't most expensive campaign we ever done, but we spent...
+
+Drew [0:10:13]: It's any significant amount of money on it.
+
+Drew [0:10:14]: So we wanted to know if it worked and the wanted to know we should do some more things.
+
+Drew [0:10:17]: So we do...
+
+Drew [0:10:18]: Like, I mentioned...
+
+Drew [0:10:19]: We did the event study on, it's like the classic thing to do.
+
+Drew [0:10:21]: But there's a lot more do you can do now, especially being a B2B.
+
+Drew [0:10:23]: Our sales...
+
+Drew [0:10:24]: Our motion pretty much sales led.
+
+Drew [0:10:26]: So we have a lot of conversations with our customers as they're kind of, like, in the buying process, both over phone and email.
+
+Drew [0:10:33]: And we get transcripts of all of this.
+
+Dave [0:10:36]: Yep.
+
+Drew [0:10:37]: We use Gong.
+
+Drew [0:10:37]: So we're getting, like, those gong transcripts.
+
+Drew [0:10:39]: So it's pretty easy nowadays to, like, pipe all that through an L and just be, like, tell me every time a lead or customer mentioned the box done.
+
+Drew [0:10:50]: Or tell me a time when they said that's how they heard about Ramp, even better.
+
+Drew [0:10:54]: And we can do that and get a chart of, like, wow.
+
+Drew [0:10:57]: We've got hundreds of leads mentioning this.
+
+Drew [0:11:00]: And it's it's hard to quantify the value of that.
+
+Drew [0:11:02]: Like, I don't know how what percent of that deal the box that you got credit for, but it tells you that it's at least working and or getting awareness.
+
+Drew [0:11:10]: And the same principle applies, like, podcast podcasts, for example.
+
+Drew [0:11:12]: I'm sure you have sponsors of your podcast.
+
+Drew [0:11:15]: There's no...
+
+Drew [0:11:17]: We do that all the time.
+
+Drew [0:11:17]: There's no great way to measure that mathematically.
+
+Drew [0:11:20]: So we'll go look at how much are customers mentioning this podcast, and it does influence our buying decisions going forward.
+
+Dave [0:11:28]: Yes.
+
+Dave [0:11:28]: So the podcast ads is, like, a perfect example of this because So we do have sponsors and I think one thing that we've learned over the years is there's often a gap between what the sponsor wants to do to drive leads in the short term adverse what's actually works on this medium of podcast ads.
+
+Dave [0:11:44]: And so we still are in this world as marketers we're, like, okay.
+
+Dave [0:11:48]: We're sponsoring this podcast and so we we're gonna use this custom Url, and there's gonna be a form there, and we're gonna, like, know that everyone that came in through this page came from Dave's podcast.
+
+Dave [0:11:57]: Okay.
+
+Dave [0:11:59]: But think about your podcast listening experience.
+
+Dave [0:12:01]: Right?
+
+Dave [0:12:02]: I'm listening to a podcast when.
+
+Dave [0:12:03]: I'm at the gym when I'm on a run when I'm around the house.
+
+Dave [0:12:06]: And so I might hear an ad.
+
+Dave [0:12:07]: I often listen to, an example would be like, listen to, like, my first million while I'm doing the dishes.
+
+Dave [0:12:12]: At my kids are taking a bath.
+
+Dave [0:12:13]: I'm doing the dishes.
+
+Dave [0:12:14]: I hear that.
+
+Dave [0:12:14]: I'm not gonna stop what I'm doing doing the dishes, pull up my phone, go to the go to the website, type in the form, put in the code and sign up for, you know, Ramp if they advertise my podcast on the spot.
+
+Dave [0:12:24]: But I listen to, you know, founders podcast with David Sunrise.
+
+Dave [0:12:29]: And I've been listening for, you know, three to six months and Ramp Ramp Ramp Ramp over time, I hear Ramp Ramp Ramp brandon.
+
+Dave [0:12:36]: So guess what?
+
+Dave [0:12:36]: Guess what happened.
+
+Dave [0:12:37]: We we use Ramp now at at Exit Five and, like, that's how we...
+
+Dave [0:12:41]: That's how we got on that because it was like, finally got to the point.
+
+Dave [0:12:45]: Like, should we be considering Ramp?
+
+Dave [0:12:46]: Like I don't, I've never thought of this.
+
+Dave [0:12:48]: I said at the Dan and Dan's Like, I love Ramp.
+
+Dave [0:12:49]: And and now we use it.
+
+Dave [0:12:50]: And it's like, that's how marketing works.
+
+Dave [0:12:53]: But the problem is inside of a company, it's often, like, Dave is the marketing manager.
+
+Dave [0:12:58]: Dave owns a channel.
+
+Dave [0:13:00]: Dave owned...
+
+Dave [0:13:01]: Dave has to deliver, you know, in your case, you mentioned Sql.
+
+Dave [0:13:04]: So I'll just use that Dave has to deliver I'm on the hook.
+
+Dave [0:13:08]: I decided to sponsor his podcast.
+
+Dave [0:13:09]: So I'm on the hook for twenty Sql this month from the podcast.
+
+Dave [0:13:12]: But the actual window of when people would actually convert from the podcast is much longer, which which throws off the whole thing and it's like, I got into marketing because I like doing the fun creative stuff I wanna get people to pay attention, not everything in marketing is direct response, but we often will try to like, measure it that way.
+
+Drew [0:13:29]: It's like measuring a Super Bowl ad with, like, website sessions.
+
+Drew [0:13:31]: Like, if I see is Super Bowl adam.
+
+Drew [0:13:33]: I'm not, like, on my phone going to, like, the website or buy or thinking about buying putting my email it right now.
+
+Drew [0:13:38]: They total waste of time.
+
+Drew [0:13:39]: And, like, the fastest way to kill creative marketing ideas is to try to measure them, like, direct response.
+
+Drew [0:13:44]: And you shouldn't even try to do it.
+
+Drew [0:13:46]: Like, you can, but it...
+
+Drew [0:13:47]: It's a waste of time.
+
+Drew [0:13:48]: I strongly believe that the marketing or the measurement should meet the marketing, not vice versa.
+
+Drew [0:13:54]: I think Mh.
+
+Drew [0:13:55]: Too often people try to force the marketing to fit into the measurement.
+
+Drew [0:14:00]: Meaning, they'll do things that they know will look good in the measurement strategy the company has.
+
+Drew [0:14:04]: But really, the measurement should meet the marketing where it is.
+
+Dave [0:14:09]: Hell, yeah.
+
+Dave [0:14:09]: That's a that's a quota right there.
+
+Dave [0:14:11]: The fastest way to kill creative.
+
+Dave [0:14:12]: Damn.
+
+Dave [0:14:13]: I don't even...
+
+Dave [0:14:14]: I'll I'll I'll play it back But Man.
+
+Dave [0:14:16]: This is exactly what we wanna talk about.
+
+Dave [0:14:17]: This is this is a stuff.
+
+Dave [0:14:20]: Okay.
+
+Dave [0:14:20]: So so how do you how do you build a culture?
+
+Dave [0:14:22]: How do how do you...
+
+Dave [0:14:23]: Like, how have you enable that at the team?
+
+Dave [0:14:25]: Like, I want people to listen to this and be like, I get it.
+
+Dave [0:14:27]: Most people will say, yeah, that will must be nice if you Ramp and you have a data science guy on the marketing team and you can do all this stuff, but like, let's kinda make this like approachable to people.
+
+Dave [0:14:36]: Like, that's a core that's a core philosophy.
+
+Dave [0:14:39]: Right?
+
+Dave [0:14:39]: You're not just doing marketing in a vacuum you're having you're having a philosophy on this?
+
+Dave [0:14:42]: So how how do we make this, like, approachable for most people?
+
+Drew [0:14:46]: Yeah.
+
+Drew [0:14:46]: That...
+
+Drew [0:14:46]: That's a fair question.
+
+Drew [0:14:47]: I don't think you needed a data a science team to do a lot of this?
+
+Drew [0:14:49]: I I go back to my to my econ roots where, like, you're creating hypotheses about the economy or your marketing.
+
+Drew [0:14:58]: And then you figure out ways to test them.
+
+Drew [0:15:00]: And that test is going to be different depending on the channel.
+
+Drew [0:15:03]: So you're doing something like direct mail, it's pretty straightforward to hold out ten percent of your audience and do an Ab test and see what impact is.
+
+Drew [0:15:12]: If you hear...
+
+Drew [0:15:13]: If you're doing something like a podcast, it's way harder to measurement it, but you can still form a hypothesis and test it, and that could be around, like, maybe you have a how you hear about a survey.
+
+Drew [0:15:22]: I think most companies have that you don't need a data scientist for that.
+
+Drew [0:15:25]: How often are people going to mention this podcast in that survey.
+
+Drew [0:15:28]: And I kinda go from there.
+
+Drew [0:15:30]: But I think where you kinda ground yourself because on the flip side, it's like, you don't measure anything you just do a bunch of random stuff.
+
+Drew [0:15:35]: So you need to, like, form hypotheses and test them.
+
+Drew [0:15:38]: You need to be flexible about how you're testing them.
+
+Drew [0:15:40]: We have had a lot of success with incremental mortality testing.
+
+Drew [0:15:43]: That's kind of for us what to get back to your headline, gave leadership the confidence to two or three xr budget?
+
+Dave [0:15:50]: Can you define and explain incremental testing for people that might not be familiar with a concept.
+
+Drew [0:15:54]: Yeah.
+
+Drew [0:15:54]: For sure.
+
+Drew [0:15:54]: I mean, it can kind of, like, vary depending on the channel, But the idea is you're trying to figure out the causal impact of spending money on a channel.
+
+Drew [0:16:01]: Not, like, I spent more money and then we got more leads, more Mta said that, but if I did an experiment and was actually able to say, like, fifty for percent my audience, can't see these ads, what would have happened.
+
+Drew [0:16:12]: That's kind of the gold standard.
+
+Drew [0:16:13]: And so how you do that depends on the channel.
+
+Drew [0:16:16]: For something like billboards, you do a Gl lift test.
+
+Drew [0:16:19]: You run them in certain areas, other areas you don't, and then you compare those two geographies over time and see if the one that you're running billboards in is now doing much better.
+
+Drew [0:16:28]: And that tells you, like, what would have happened in absence of that marketing spend, and you can back out an Roi from that.
+
+Dave [0:16:34]: In that example of the billboards?
+
+Dave [0:16:35]: Like, would the measure of success be, like, sales did Ramp close more customers in, you know, Vermont where where we were now?
+
+Dave [0:16:44]: Or is there some other leading indicator that might also prove to be successful because to your point earlier, just because you show the ads to those people, you might have just shown them to a whole group of people who now know who Ramp is and likes Ramp, but, like, is stuck in a contractor is not ready to buy.
+
+Dave [0:16:59]: It's not think one of the hardest things that marketing can...
+
+Dave [0:17:02]: One of the biggest things...
+
+Dave [0:17:04]: The challenges is to create...
+
+Dave [0:17:05]: Is to create urgency.
+
+Dave [0:17:06]: Like, why do...
+
+Dave [0:17:07]: How do how do does that...
+
+Dave [0:17:08]: That billboard is not gonna get you to buy Ramp now?
+
+Dave [0:17:10]: Okay?
+
+Dave [0:17:10]: But we're gonna look at and be like, well, we spend all this money in this geo, like, how do we prove that out.
+
+Drew [0:17:15]: Yeah.
+
+Drew [0:17:15]: It's a great question.
+
+Drew [0:17:16]: This is one of the hardest parts.
+
+Drew [0:17:17]: It's, like, what do you use in a B2B company as your sort of metric you're optimizing to.
+
+Drew [0:17:22]: We'd love to do, like, actual closed deals, but that takes too way too long for these tests.
+
+Drew [0:17:27]: So we'll look at Sql We'll also look at some upper funnel stuff.
+
+Drew [0:17:30]: We'll look at website sessions even though it's not the best thing.
+
+Drew [0:17:33]: We'll also look at brand awareness.
+
+Drew [0:17:35]: So we we have a brand awareness survey we run weekly, and it has a geo component to it, and we can see if brand awareness has increased.
+
+Drew [0:17:42]: We know the value of increasing brand awareness by one point on, like, down funnel metrics based on historical that doesn't necessarily mean it a hundred percent carries through to any experiment we do, but we have a rough idea of, like, how that'll impact us going forward.
+
+Dave [0:17:56]: Who's kinda like the whole game is, like, you're trying to...
+
+Dave [0:17:59]: It's like a portfolio management.
+
+Dave [0:18:01]: Right?
+
+Dave [0:18:01]: Like, you have all these things that, like, all these people...
+
+Dave [0:18:04]: We have the baseline.
+
+Dave [0:18:05]: If we turned everything off, here's how many people would just show up to Ramp because we exist.
+
+Dave [0:18:10]: Right?
+
+Dave [0:18:10]: And I know this as an example for my, you know, small little business that's Exit Five.
+
+Dave [0:18:15]: We don't really do much outside of, like Linkedin ads.
+
+Dave [0:18:17]: And so I kinda know what website traffic is gonna be steady state and if we turn that off.
+
+Dave [0:18:21]: And then you're like, okay.
+
+Dave [0:18:23]: We're gonna place a bet here and we're gonna measure that.
+
+Dave [0:18:25]: We're gonna place here if we're gonna measure that.
+
+Dave [0:18:26]: And then you're...
+
+Dave [0:18:27]: It's just like this kind this constant game of, like, this thing is working.
+
+Dave [0:18:30]: Let's do more.
+
+Dave [0:18:31]: Right?
+
+Drew [0:18:32]: Yeah.
+
+Drew [0:18:32]: And you're gonna have a lot of else.
+
+Drew [0:18:33]: Most of them probably aren't gonna work.
+
+Drew [0:18:35]: And that can be, like, a frustrating part of testing.
+
+Drew [0:18:37]: But you gotta think about them as, like, actually valuable lessons.
+
+Drew [0:18:40]: A because you can real that money.
+
+Drew [0:18:43]: And b, because it may just mean that you're not as mature on a platform as you thought you were.
+
+Drew [0:18:48]: Yeah.
+
+Drew [0:18:48]: We've had some some losses where we were like, how did this lose?
+
+Drew [0:18:51]: We were short worked.
+
+Drew [0:18:52]: And then we go look at the platform, We dig in we're, like, Oh, we're...
+
+Drew [0:18:55]: Our audiences are fucked up.
+
+Drew [0:18:57]: Or we're optimizing something stupid, and it's, like, we actually weren't even ready to run mortality tests, but we did it.
+
+Drew [0:19:02]: But now we know.
+
+Drew [0:19:03]: We need to improve on this spot.
+
+Dave [0:19:05]: So one of the biggest mistakes I've made in my marketing career was, I was running marketing and a company was growing really fast.
+
+Dave [0:19:11]: And I was so caught up in the...
+
+Dave [0:19:14]: There's just so much going on that I only was able to focus on, like, right now.
+
+Dave [0:19:18]: Like, the leads this month the leads this quarter And then when you get the plan for next year, and it's like, okay.
+
+Dave [0:19:24]: Great.
+
+Dave [0:19:24]: We did fifteen million next year, We're gonna grow to, you know, twenty twenty six next year, it doesn't work like you just drag the spreadsheet of the existing channels.
+
+Dave [0:19:33]: But I didn't have enough like, I wasn't forward thinking enough to be testing enough channels, so then when we got into the New Year.
+
+Dave [0:19:40]: It wasn't like, okay.
+
+Dave [0:19:41]: Cool.
+
+Dave [0:19:41]: We're gonna go dump all this.
+
+Dave [0:19:42]: We're gonna spend this money here and spend this money here because we hadn't tested and learn.
+
+Dave [0:19:46]: And so I was like, It's almost like you need to have...
+
+Dave [0:19:48]: You have the main thing, and this thing is working, but you're kinda always, like running experiments behind the scenes to figure out what the next channel could be.
+
+Dave [0:19:56]: And I love what you said about accepting that things are not always if everything worked, like, just not reality that all your tests...
+
+Dave [0:20:02]: All your ideas are gonna work.
+
+Dave [0:20:03]: And so it's like, you gotta have ten ideas and maybe two of them are gonna hit and we're gonna kill a and then we're gonna double down.
+
+Dave [0:20:10]: Do do you see it as that type of game and marketing?
+
+Drew [0:20:13]: Yeah.
+
+Drew [0:20:13]: I mean, it's totally shots on that, I think.
+
+Drew [0:20:15]: I'm constantly surprised by what works.
+
+Drew [0:20:17]: And...
+
+Drew [0:20:18]: It was is why, like I love being in growth in marketing is I'm constantly surprised by what's works and what does?
+
+Dave [0:20:24]: Wasn't something that was surprising?
+
+Drew [0:20:25]: I mean I'll go back to the example of, like, scanning our gone calls.
+
+Drew [0:20:27]: So we scan all our gong calls.
+
+Drew [0:20:29]: We're, like, finding mentions of how people heard about us.
+
+Drew [0:20:32]: And when we looked at that, Linkedin was mentioned, I think three times more than meta.
+
+Drew [0:20:36]: Even though all of our prior measurement using, like, an Mta model, things like that.
+
+Drew [0:20:41]: Headset Meta was, like, three times more effective than Linkedin.
+
+Drew [0:20:43]: We saw that we were kinda like shocked, and it...
+
+Drew [0:20:46]: What it led to was, like, we didn't just go real the budget overnight, but we did a bunch of incremental mortality tests to actually, like, prove that hypothesis out, and it did lead to us making, like, substantial decisions.
+
+Drew [0:20:55]: That's not like a cool.
+
+Drew [0:20:57]: Example Well, I feel like you wanted a cool exam.
+
+Dave [0:20:59]: No.
+
+Dave [0:20:59]: It's okay.
+
+Dave [0:20:59]: I'm sorry.
+
+Dave [0:21:00]: Whatever.
+
+Dave [0:21:00]: It's okay.
+
+Dave [0:21:01]: You're doing a good job either right.
+
+Dave [0:21:02]: This is kinda of what's really interesting now about, especially if you're in a company where you have that touch of, like, someone has to get on the phone and talk to sales because almost...
+
+Dave [0:21:12]: It's making a big dent on the attribution puzzle because you're getting that data without having to ask it.
+
+Dave [0:21:18]: So is there a best practice there?
+
+Dave [0:21:20]: Like, is there a a standard operating...
+
+Dave [0:21:22]: Procedure with sales where you want them to ask, like, hey, How did you how did you hear about us and get some of that data so then we know we can get the transcript and kinda crawl that stuff later?
+
+Drew [0:21:32]: We haven't done that at all.
+
+Drew [0:21:34]: Our sales team is hungry.
+
+Drew [0:21:35]: Right?
+
+Drew [0:21:35]: They're just...
+
+Drew [0:21:36]: The main thing they care hitting their put and, like, yeah.
+
+Dave [0:21:39]: They're not, like, let me let me make sure I ask...
+
+Drew [0:21:40]: Let me
+
+Dave [0:21:41]: make sure your Drew knows the sort.
+
+Dave [0:21:42]: Oh, what was the source of your lead, sir?
+
+Drew [0:21:44]: Yeah.
+
+Drew [0:21:44]: I could ask it'd be nice, but I have a feeling.
+
+Drew [0:21:46]: It it may not totally land.
+
+Dave [0:21:49]: Okay.
+
+Dave [0:21:49]: But don't you I I feel like even in our little business example, I feel like that stuff just comes up all the time.
+
+Dave [0:21:54]: We have this product that we sell the CMOs, and we ask every...
+
+Dave [0:21:57]: Like, people are...
+
+Dave [0:21:58]: Oh, you know, I I decided to apply for this thing because like I heard about you on the...
+
+Dave [0:22:01]: I heard about on on Dave's linkedin or heard about it on the podcast.
+
+Dave [0:22:04]: I'm so I'm always surprised at how willing people just kinda offer that up in in conversations.
+
+Dave [0:22:08]: Right?
+
+Drew [0:22:09]: I mean, and that's arguably better read is when they just pause.
+
+Drew [0:22:11]: Yeah.
+
+Drew [0:22:12]: Right.
+
+Drew [0:22:12]: Versus us asking them.
+
+Drew [0:22:13]: Well, right.
+
+Drew [0:22:14]: But but this is
+
+Dave [0:22:15]: a whole game of, like, tri.
+
+Dave [0:22:16]: It's never gonna be, like this, like, paint by numbers approach of, like, how to get more customers.
+
+Dave [0:22:20]: It's, like, you're looking at...
+
+Dave [0:22:21]: You're matching up all the data.
+
+Dave [0:22:23]: You're, like, looking at what you're seeing, and then you're hearing well, actually, but everyone's kinda telling us they're hearing about us from this thing.
+
+Dave [0:22:29]: So this thing is clearly working and, you know, it's never gonna be perfect, but...
+
+Drew [0:22:32]: Yeah.
+
+Drew [0:22:32]: No agreed.
+
+Dave [0:22:34]: So this is an interesting note I have in our dog care.
+
+Dave [0:22:36]: Linkedin was mentioned three times more than Meta, even though your your Mta showed the opposite.
+
+Drew [0:22:41]: Yeah.
+
+Drew [0:22:41]: No.
+
+Drew [0:22:42]: It it was very surprising to us.
+
+Drew [0:22:44]: I mean, in hindsight looking back, like, I think Linkedin more of a view through channel than it clicked through channel, and we have much better data on when people are, like, clicking ads it coming to our site.
+
+Drew [0:22:53]: So it wasn't surprising but this is kind of why, like, I wouldn't trust any sort of deter attribution model like Mta or last touch or anything like that, especially today with all the privacy stuff that's going on.
+
+Drew [0:23:07]: So you really need to be testing and looking at, like, like talking to your customer.
+
+Dave [0:23:11]: That's the other that's the other wrinkle in this thing.
+
+Dave [0:23:13]: Like, there's so much, you know, so many things that you can't do anymore or or just straight up illegal now because of data and privacy, how can you perfectly track all the touches that led to Dave becoming, you know, in Sql and then and ended up buying from from you.
+
+Drew [0:23:28]: You can't.
+
+Drew [0:23:28]: And it's so it's crazy to try.
+
+Drew [0:23:30]: You'll never get it.
+
+Drew [0:23:31]: Right?
+
+Drew [0:23:31]: So it can be a useful signal, and it's useful for, like, goal tracking.
+
+Drew [0:23:35]: We have an Nda model.
+
+Drew [0:23:36]: But we don't use it for, like, allocating budget across channels.
+
+Drew [0:23:39]: We use it for, like, setting goals within a channel and understanding, like, within a channel, what campaigns are working, things like that.
+
+Dave [0:23:45]: Let's talk about that The out, the the budget allocation piece.
+
+Dave [0:23:47]: So...
+
+Dave [0:23:48]: Yeah.
+
+Dave [0:23:48]: How does that play into Give me some lessons learned advice for those listening out there.
+
+Dave [0:23:54]: A lot of people ask hey, my company gave me a million dollars in the marketing budget this year and I gotta figure out where to spend it.
+
+Dave [0:24:01]: How would you go about solving that problem based on what you've learned from your from your work Ramp?
+
+Drew [0:24:05]: I'd go start spending it and see it works based on tests.
+
+Drew [0:24:08]: Like, if you've have no data to go off of, I'd go start spending it.
+
+Drew [0:24:11]: You gotta start to figure out what are the efficiency curves on each of these channels and the only way to do that is to go spend and get some data points.
+
+Dave [0:24:18]: But, okay.
+
+Dave [0:24:18]: I wanna I wanna, like, crack into, like, the real reason of you saying that though.
+
+Dave [0:24:22]: I think Yeah.
+
+Dave [0:24:22]: People ask because it's, like, a defense.
+
+Dave [0:24:25]: Like, I don't wanna...
+
+Dave [0:24:26]: Oh my god.
+
+Dave [0:24:26]: I got all this.
+
+Dave [0:24:27]: I got this budget to spend I don't wanna go spend it in the wrong places yet, or even if you have data, we often want Data is very rarely.
+
+Dave [0:24:35]: It's very really going to be a perfect path for, like, if you go and spend this money here.
+
+Dave [0:24:39]: If I go and spend this money on Linkedin, I'm...
+
+Dave [0:24:42]: I absolutely going to get X out and I'm going to hit our goals.
+
+Dave [0:24:45]: And it's like, well, But thing would how many variables there in our...
+
+Dave [0:24:48]: There there are in there.
+
+Dave [0:24:49]: Like, there's the copy.
+
+Dave [0:24:50]: There's the creative.
+
+Dave [0:24:51]: There's the audience.
+
+Dave [0:24:52]: There's the competitive situation.
+
+Dave [0:24:53]: There's the market conditions.
+
+Dave [0:24:55]: There's there's so many.
+
+Dave [0:24:55]: So I wanna try to just, like, give people that that attitude other than just, like, Yeah.
+
+Dave [0:25:00]: Go spend the money.
+
+Dave [0:25:00]: There's actually a real...
+
+Dave [0:25:01]: The bigger lesson in there is like, you got...
+
+Dave [0:25:04]: You gotta, like, be in the game to to know some of these things.
+
+Dave [0:25:06]: Part of it is, like, they give you the money to...
+
+Dave [0:25:09]: They give you the budget because they want you...
+
+Dave [0:25:10]: You you need to spend it.
+
+Dave [0:25:11]: Right?
+
+Dave [0:25:11]: Like, don't be afraid to spend the budget.
+
+Drew [0:25:13]: Yeah.
+
+Drew [0:25:13]: I mean, to go back to your tags five.
+
+Drew [0:25:15]: You mentioned, like, you guys are just spending on Linkedin.
+
+Drew [0:25:18]: Right?
+
+Drew [0:25:18]: So I I wouldn't...
+
+Drew [0:25:19]: I don't think you need any of this fancy stuff when you're starting.
+
+Drew [0:25:21]: If you...
+
+Drew [0:25:22]: If you're just spending on, like, one or two channels, you can just do that and see if your metric goes up or down.
+
+Drew [0:25:27]: Every month, and you kinda understand if it's working better or worse.
+
+Drew [0:25:29]: That's probably fine to start.
+
+Drew [0:25:31]: And it's not until you start getting into, like, maybe three plus channels more than...
+
+Drew [0:25:35]: I don't know if few hundred thousand a month that you really need to go beyond just, like, the top line, are we getting better or worse.
+
+Drew [0:25:41]: And what are the in platform numbers show me in matter linkedin dinner wherever you're spending?
+
+Dave [0:25:47]: Do do you have any perspective on, like, how much you should be focusing on from a budget standpoint?
+
+Dave [0:25:52]: Today's growth?
+
+Dave [0:25:53]: Versus, like, testing into those new channels?
+
+Dave [0:25:55]: I think we've often talked about?
+
+Dave [0:25:57]: It's like, is it, like, seventy percent on today and thirty percent on the future eighty twenty?
+
+Drew [0:26:01]: Actually exactly where we're at...
+
+Drew [0:26:02]: We're seventy thirty.
+
+Drew [0:26:03]: Yeah.
+
+Dave [0:26:04]: What is it set?
+
+Dave [0:26:05]: Seventy thirty?
+
+Dave [0:26:05]: Rick Roughly.
+
+Dave [0:26:06]: Yeah.
+
+Dave [0:26:06]: And so that that thirty percent, Is that for, like, next quarter or next year or, like, just future things that you want to take off?
+
+Dave [0:26:14]: Like, can you can you explain, take me through that seventy thirty split and how you think about it from a marketing budget standpoint?
+
+Dave [0:26:20]: We'd love for it
+
+Drew [0:26:22]: to be next quarter.
+
+Drew [0:26:22]: Like, you know, perfect world.
+
+Drew [0:26:24]: We test the new channel, and it goes great and we're like, boom this the core channel now.
+
+Drew [0:26:28]: We're we're moving to core.
+
+Drew [0:26:29]: We're we're scaling it up a lot.
+
+Drew [0:26:31]: Real realistically, it's probably more like six to twelve months out.
+
+Drew [0:26:34]: For those channels.
+
+Drew [0:26:35]: We have a sort of channel maturity framework.
+
+Drew [0:26:37]: We actually take new channels through.
+
+Drew [0:26:39]: And this is because, like, you actually don't want to jump incremental testing.
+
+Drew [0:26:42]: Like, in reality testing is great, but I wanna come off as being, like, it's gonna solve all your problems.
+
+Drew [0:26:46]: It's really expensive and slow.
+
+Drew [0:26:48]: So we start by just kind of, like, getting the fundamentals right on a channel.
+
+Drew [0:26:51]: We'll allocate, like, some amount of our experimental budget to it.
+
+Drew [0:26:54]: And I do think, by the way, having an experimental budget and having that worked out with finances is key.
+
+Drew [0:26:58]: You need a budget that's not...
+
+Drew [0:27:00]: They're not gonna be analyzing and being like, your Lt C overall is terrible because you tested a new channel and it was terrible.
+
+Drew [0:27:06]: That's healthy, and that's fine.
+
+Drew [0:27:08]: Need a way to measure, like, what is our else to c on the core stuff that we really believe and that's mature versus, like, be able to take bets and not have it tank your overall numbers.
+
+Drew [0:27:16]: Sorry.
+
+Drew [0:27:17]: Get back to your question.
+
+Drew [0:27:18]: So I don't know that I answered it Dave?
+
+Dave [0:27:21]: Yeah.
+
+Dave [0:27:21]: You got...
+
+Dave [0:27:22]: You got me...
+
+Dave [0:27:22]: Like, so I wrote down this nugget that I was I come back to, but just, like...
+
+Dave [0:27:25]: So you you mentioned, like, you ended up saying this channel...
+
+Dave [0:27:28]: You have a channel maturity framework.
+
+Dave [0:27:30]: So you mentioned, like, okay.
+
+Dave [0:27:33]: A channel becomes score.
+
+Dave [0:27:34]: So we got seventy percent we're spending now.
+
+Dave [0:27:36]: Thirty percent is to, like, scale up in the future and we're testing new channels and, you know, reddit ads or whatever.
+
+Dave [0:27:41]: Different stunt or we're testing a different trade show.
+
+Dave [0:27:44]: What actually goes into that channel maturity framework?
+
+Dave [0:27:48]: You don't have to give away, like, the secrets at Ramp, but I'm just curious about how do you how do you think about that?
+
+Dave [0:27:53]: Like, there's all the marketing channels?
+
+Dave [0:27:54]: These are the three mature ones?
+
+Dave [0:27:56]: So what do you want from the others?
+
+Dave [0:27:57]: I think just giving people some kinda like, general framework on on how to think of all of the marketing channels and put it put a wrap on them is is interesting.
+
+Dave [0:28:04]: So I'd love to dive into that a little bit.
+
+Drew [0:28:06]: Yeah.
+
+Drew [0:28:06]: We kinda have gates on what it takes to graduate through each step and their framework.
+
+Drew [0:28:10]: So there are things like, need to have solid optimization events set up.
+
+Drew [0:28:14]: You need to have solid, like, just baseline reporting set up to move from, like, the earliest stage.
+
+Drew [0:28:20]: We need to be seeing it come up in those customer calls and that how to do your about survey.
+
+Drew [0:28:24]: And then we'll sort move it through and then after that, it's, like, you're kind of actually running this thing.
+
+Drew [0:28:29]: So we'll try to do some channels what you do doing in platform incremental tests, and these are a lot cheaper, Probably a lot less trustworthy.
+
+Drew [0:28:36]: But right, this is, like, you go into Meta, and Meta is running a test for you where they take half your audience, and they say, we're not gonna show them any Ramp ads.
+
+Drew [0:28:44]: And then we're gonna show the other half Ramp beds.
+
+Drew [0:28:45]: We're gonna tell you what the impact of that was.
+
+Drew [0:28:48]: It's great because you don't need to do one of these long geo hold out expensive tests It's bad because you have to trust meta that they're gonna tell you the truth about, like, impact.
+
+Drew [0:28:57]: Right?
+
+Drew [0:28:57]: But we'll do that first to just prove out that a channel actually works.
+
+Drew [0:29:01]: And then after that, we'll go to sort of, that the true incremental test.
+
+Drew [0:29:05]: That we trust and compare across channels.
+
+Drew [0:29:07]: And once it passes that, then it's sort of mature for us.
+
+Dave [0:29:10]: So if you're looking at how you're gonna hit the plan for, like, a quarter or a year.
+
+Dave [0:29:13]: I've made the mistake of, like, making two big assumptions about, like, new channels, then it's like, well, actually, we're gonna get a million new from this channel It's like, well, we haven't even proven that out yet.
+
+Dave [0:29:23]: So do you build the plan with assumptions around core channels and, like, how how do you factor in only core?
+
+Dave [0:29:30]: What only core
+
+Drew [0:29:32]: only or?
+
+Drew [0:29:32]: But we're we're further along.
+
+Drew [0:29:35]: I think.
+
+Drew [0:29:35]: Right?
+
+Drew [0:29:35]: We have enough core channels where we can do that?
+
+Drew [0:29:37]: Sure.
+
+Drew [0:29:38]: If I was just starting out.
+
+Drew [0:29:39]: I don't think you you probably wouldn't have a luxury of being like, oh, we're gonna drive zero In the plan, but we're gonna spend a bunch of...
+
+Dave [0:29:45]: What are some of the core channels today?
+
+Drew [0:29:47]: Yeah.
+
+Drew [0:29:47]: I mean, Google huge lame, Linkedin lame.
+
+Drew [0:29:51]: Meta.
+
+Drew [0:29:51]: Yeah.
+
+Drew [0:29:52]: I mean, they're the they're big ones.
+
+Drew [0:29:53]: Like, I think we...
+
+Drew [0:29:55]: I mentioned on the webinar we're we're prep big...
+
+Dave [0:29:57]: The biggest scam in the world.
+
+Dave [0:29:58]: I'm I'm I'm I'm awake to this now the biggest scam in the world is venture capital dollars trading hands because, all the...
+
+Dave [0:30:06]: All, we all just...
+
+Dave [0:30:06]: We all spend our money on Google.
+
+Dave [0:30:08]: It goes back to Google it's it's insane.
+
+Dave [0:30:10]: Let's just do...
+
+Dave [0:30:10]: I want more Gorilla market.
+
+Dave [0:30:11]: I want more actors and boxes.
+
+Dave [0:30:14]: Okay?
+
+Dave [0:30:14]: Take that back to the Ramp team.
+
+Drew [0:30:16]: I would love a world where everyone declares truth and says we're not gonna spend any money on, like, Google branded stuff.
+
+Drew [0:30:23]: Or maybe any anyway.
+
+Drew [0:30:24]: So like, how nice would that like, back...
+
+Dave [0:30:26]: This is for my first time running marketing the fucking bane of my existence was, like, not spending paid and then having to have the VP of sales and CFO, literally, no disrespect.
+
+Dave [0:30:36]: I don't think either of these people could use their cell phones effectively, but they were, like,
+
+Drew [0:30:41]: look at Why are we...
+
+Dave [0:30:42]: Why is this...
+
+Dave [0:30:42]: Why is this had from intercom appearing ahead of the drift ad?
+
+Dave [0:30:46]: I'm like, well, because they're spending, like, and un un amount of money on this keyword that we don't even wanna...
+
+Dave [0:30:51]: I don't care.
+
+Dave [0:30:52]: Why are we showing up and it's like, how many companies have to play that game because of internal politics and...
+
+Drew [0:30:57]: Did you tested did?
+
+Dave [0:30:59]: No.
+
+Dave [0:30:59]: I'm not that's smart.
+
+Drew [0:31:00]: That's what I would...
+
+Drew [0:31:00]: If I was your data partner.
+
+Drew [0:31:01]: I would have been like, great.
+
+Drew [0:31:03]: Like, that...
+
+Drew [0:31:03]: They've got a good hypothesis.
+
+Drew [0:31:04]: Let's test this.
+
+Dave [0:31:05]: So what what we have done there?
+
+Dave [0:31:06]: Turn it off, like, turn it off and see or or run some and see what would they increment out incremental mentality test be?
+
+Drew [0:31:12]: We probably...
+
+Drew [0:31:12]: Like, we really wanted to be rigorous.
+
+Drew [0:31:13]: We would have done a Gl lift test Right?
+
+Drew [0:31:15]: Like, where we say we're gonna exclude these twenty five Dm or whatever.
+
+Drew [0:31:19]: From this campaign, and then we're gonna compare those Dm to the ones where we kept it on.
+
+Drew [0:31:24]: And we're gonna see if there was, like, actually notice one back.
+
+Drew [0:31:27]: My guess is there probably wouldn't...
+
+Dave [0:31:28]: But if you were, like, this was early stage, like, I don't a couple million in revenue.
+
+Dave [0:31:31]: Do you pick geographies where feel like a lot of customer, You're not gonna run them in Mobile, Alabama, you're gonna run them in Boston in San Francisco and, you know New York.
+
+Dave [0:31:39]: Do you pick cut...
+
+Dave [0:31:40]: Is that how you choose the markets?
+
+Drew [0:31:41]: You need to do it randomly, actually.
+
+Drew [0:31:43]: Oh, well making sure you're you're sort of preserving some assumptions.
+
+Drew [0:31:46]: And this this is where, like, it can get a little complicated, but there are great vendors out there.
+
+Drew [0:31:50]: Like, can help you with this stuff.
+
+Drew [0:31:51]: So you really don't need a data science team to do this.
+
+Drew [0:31:54]: And we we use a vendor too, By the way.
+
+Drew [0:31:55]: Because it's like, they're pros at it.
+
+Drew [0:31:57]: It's not the highest leverage thing for my team to be spending our time on
+
+Dave [0:32:01]: That's my takeaway.
+
+Dave [0:32:02]: Increment that We were we're actually just were talking about something in a in a newsletter with a newsletter ad that we ran yesterday and Dan and I were, like, we just test it.
+
+Dave [0:32:09]: And I think that's the...
+
+Dave [0:32:10]: That's my mentality is I'm always like, I move really fast.
+
+Dave [0:32:13]: I have a bias action but I don't think like, a scientist or a data science person.
+
+Dave [0:32:17]: I don't go back to the scientific method and so then I'm almost like, damn.
+
+Dave [0:32:20]: I guess we should isolated that variable and and test it.
+
+Dave [0:32:23]: But...
+
+Dave [0:32:23]: And then we had I don't know if you've ever heard Dave Dave Kellogg speaker familiar with his his content and all, like, He's been a CEO, CMO and Saas for a long time.
+
+Dave [0:32:32]: He spoke at our event two weeks ago.
+
+Dave [0:32:33]: And I love this.
+
+Dave [0:32:35]: He said the job of the marketing leaders is to be a dis passionate analyst, which I thought was great, which like, I'm looking at all.
+
+Dave [0:32:41]: I'm I'm poor placing all these bets we're doing all this and I but I don't have a dog in the fight.
+
+Dave [0:32:45]: I don't care if we win in this market or that.
+
+Dave [0:32:47]: I don't care if this channel went not.
+
+Dave [0:32:48]: I'm gonna be like, a the ar of the of the truth.
+
+Dave [0:32:51]: And I kinda feel like that's what's cool about your role in partnership of the marketing team.
+
+Dave [0:32:56]: You're like, I don't really care if Linkedin works or doesn't work.
+
+Dave [0:32:58]: I'm just gonna tell you the truth about, like, what what we're seeing from this.
+
+Drew [0:33:02]: Yeah.
+
+Drew [0:33:02]: I mean, I think of a marketing leader is, like, sitting in the cockpit of a a plane.
+
+Drew [0:33:06]: My team's job is give them more instruments.
+
+Drew [0:33:08]: Right?
+
+Drew [0:33:09]: Tools in their sort of toolbox to know what's going on.
+
+Drew [0:33:11]: And then they're trying to, like, take actions based on that.
+
+Drew [0:33:13]: And increasingly, maybe, like, there's machines in Ai making those calls.
+
+Drew [0:33:17]: But at least now that's kind of the world we're in, they are gonna take an action and to go back to the complicated system modeling problem.
+
+Drew [0:33:24]: It's like, some of those instruments are gonna react to it.
+
+Drew [0:33:27]: They're gonna react on a lag, and then we have to kind of interpret what the impact of it was.
+
+Dave [0:33:34]: So the market leaders flying the plane, but there's, like, some ladies in, like, row seven, and she's, like, don't we have oat milk on this flight?
+
+Dave [0:33:41]: Then there's some guy and in, you know, row ten.
+
+Dave [0:33:43]: He's like, it's too hot here.
+
+Dave [0:33:44]: Like, everyone's unhappy.
+
+Dave [0:33:45]: Everyone wants something different.
+
+Dave [0:33:47]: Your job is just, like keep give me there on time.
+
+Dave [0:33:50]: Yeah.
+
+Dave [0:33:51]: I think that's about it.
+
+Dave [0:33:52]: Yeah.
+
+Dave [0:33:53]: Or something like that.
+
+Dave [0:33:53]: You mentioned machines in Ai.
+
+Dave [0:33:55]: And I do wanna ask you about Ai because where do you think a a lot of this stuff is going?
+
+Dave [0:33:59]: I, I'm sure a lot of your work in growth in data sciences is, you know, you're spending high vol.
+
+Dave [0:34:04]: You you you got high volume activity with a company like, Ramp on Linkedin on meta, Are we getting...
+
+Dave [0:34:09]: Are we gonna get to the point where you're really just, like, letting the...
+
+Dave [0:34:11]: I don't I know a lot of this is happening already.
+
+Dave [0:34:13]: We're just letting the Ai and the Ai ad systems at these companies just choose which ads to run and it's just gonna happen for us.
+
+Dave [0:34:20]: Like, verse, man.
+
+Dave [0:34:22]: I remember trying to figure out adwords, you know, fifteen years ago, and it was, like, learning a new language and trying to figure out, you know, you got a spreadsheet.
+
+Dave [0:34:28]: And you got all the bids and you got all the keywords and the exclusion it was insane.
+
+Dave [0:34:31]: Now we've kinda shifted more words.
+
+Dave [0:34:33]: Like, you're gonna press a button is is that a positive trend?
+
+Dave [0:34:36]: Or are you seeing that?
+
+Dave [0:34:36]: Am I making this up?
+
+Dave [0:34:37]: It's kinda like, why can't Claude just do...
+
+Dave [0:34:39]: Claude is just doing all my work for me?
+
+Dave [0:34:41]: Can I just log in Linkedin and say, like, run these ads to these people and, like, I'm just gonna sit back?
+
+Drew [0:34:47]: I mean, I don't think you do linkedin them because I don't think they're as advanced is like that at Google.
+
+Drew [0:34:50]: But I think we're pretty close to that on Meta and Google.
+
+Drew [0:34:53]: It's easy for me to say that in my chair where I'm not the one sitting there.
+
+Drew [0:34:57]: Like, in the platforms every day.
+
+Drew [0:34:58]: But, yeah, we're doing a lot of work to automate both on our side with, like, like, launching campaigns and creative then also just kind of trusting the Black box on their end.
+
+Drew [0:35:08]: It's like, the the most important thing is we give them a really good signal to optimize on, then we sort of just let them run?
+
+Dave [0:35:13]: What's the signal that they...
+
+Dave [0:35:14]: What do you mean?
+
+Drew [0:35:15]: What I mean is, like, few years ago, we did a lot of work on setting up really custom argument audiences and segments and targeting.
+
+Drew [0:35:22]: Trying to basically tell Meta or Google, like, here's exactly who we wanna show ads to and what you want to show them.
+
+Drew [0:35:29]: And now, I think the machines are smart enough on their end where it's, like, you should just tell them anytime someone converts.
+
+Drew [0:35:36]: You should just tell those platforms.
+
+Drew [0:35:38]: Hey.
+
+Drew [0:35:38]: So this person converted.
+
+Drew [0:35:39]: Here's who they are in an way.
+
+Drew [0:35:42]: Of course.
+
+Drew [0:35:42]: And, like, here's how valuable they work to us.
+
+Drew [0:35:44]: And other than that, you just take the kick the reins off and let the machine kinda run and figure out like, who looks like that person, What ads will resonate with them.
+
+Drew [0:35:53]: That makes sense.
+
+Dave [0:35:55]: Yeah.
+
+Dave [0:35:55]: Makes sense.
+
+Dave [0:35:56]: I'm just happy to be looking at your linkedin while Just you you've have a master's degree computer science.
+
+Drew [0:36:01]: Yeah.
+
+Drew [0:36:01]: Yeah.
+
+Dave [0:36:01]: But where does the world going?
+
+Dave [0:36:02]: You specialize in machine learning.
+
+Dave [0:36:04]: What's your opinion about where marketing is going.
+
+Dave [0:36:06]: Like, my...
+
+Dave [0:36:07]: This audience is all marketers.
+
+Dave [0:36:08]: Yeah.
+
+Dave [0:36:09]: You work with a high performing marketing team?
+
+Dave [0:36:11]: You have a background in computer science.
+
+Drew [0:36:13]: Yeah.
+
+Drew [0:36:13]: Have some takes.
+
+Dave [0:36:14]: Can we...
+
+Dave [0:36:14]: Yeah.
+
+Dave [0:36:14]: Give me some takes, man.
+
+Dave [0:36:15]: Get that I hope there...
+
+Dave [0:36:16]: I hope there they're, like, I wanna make that...
+
+Dave [0:36:17]: I hope we're making, like, the bull case for marketers.
+
+Drew [0:36:20]: I'm overall bullish bullshit.
+
+Drew [0:36:21]: But I'm gonna be...
+
+Drew [0:36:22]: I'm also gonna be a little bit, maybe harsh.
+
+Dave [0:36:25]: Okay.
+
+Dave [0:36:25]: Hit
+
+Drew [0:36:26]: me.
+
+Drew [0:36:26]: Do you want the bowl...
+
+Drew [0:36:27]: I'll give the bull case first.
+
+Drew [0:36:28]: So Ai and L is trained to give you the median output.
+
+Drew [0:36:33]: That's how these things are built.
+
+Drew [0:36:35]: They're statistical machines and they're spitting out the average or the median.
+
+Drew [0:36:39]: And in marketing, the median is is death.
+
+Drew [0:36:44]: If you just run, like, average ads, your debt.
+
+Drew [0:36:47]: Like, you're not gonna stand out.
+
+Drew [0:36:48]: You need to be unique and, like the alpha is being creative and having taste and things like that that.
+
+Drew [0:36:54]: I don't think Ai is right out today, it could be in the future, But I I don't know.
+
+Drew [0:36:58]: I think they'll always be a human element there, and I compare that to, like, back end engineering.
+
+Drew [0:37:04]: Right?
+
+Drew [0:37:04]: Where they're just, like writing back end code all day.
+
+Drew [0:37:06]: For a back end engineer, average is good enough.
+
+Drew [0:37:09]: Right?
+
+Drew [0:37:10]: If the code runs and it passes the test base succeeded.
+
+Drew [0:37:13]: And honestly, being average when you're writing code is actually better than being, like, above average because you want to write standard, easy to understand, easy to test code.
+
+Drew [0:37:24]: You don't wanna write this, like, crazy fancy code.
+
+Drew [0:37:26]: So I would argue that, like, compared to engineers, I think marketers are in a much better place where there's still a important place for the human element.
+
+Drew [0:37:35]: That's my bulk case.
+
+Dave [0:37:36]: Okay?
+
+Dave [0:37:36]: I'm I'm into that.
+
+Dave [0:37:37]: I believe it, my bias is that I am having a lot of fun.
+
+Dave [0:37:41]: Right?
+
+Dave [0:37:41]: I'll be look, I...
+
+Dave [0:37:42]: The the thing that...
+
+Dave [0:37:43]: And pile...
+
+Dave [0:37:43]: Apologies if somebody listen to.
+
+Dave [0:37:45]: They've listen to my podcast lot.
+
+Dave [0:37:46]: I've talked about this lot, but I got promoted into, like, running the marketing team because I was good at marketing.
+
+Dave [0:37:51]: And so eventually, that...
+
+Dave [0:37:52]: That's what happens in a lot of people's career like you you do good at the job, and then all of a sudden, you're the leader of the of the...
+
+Dave [0:37:57]: You know, you're the manager of the people that do the job.
+
+Dave [0:37:59]: But what I'm actually good at is, like, the storytelling creative the idea, the landing page that does the...
+
+Dave [0:38:03]: And what's so cool to me about what's possible with the Ai tools right now is, like, I can have an idea for this.
+
+Dave [0:38:09]: I can have an idea for something and, like, the time from idea to me shipping that is, like, you know, I don't need to designer, I don't need to developer.
+
+Dave [0:38:16]: I don't need to do this or that, I can, like, actually make stuff.
+
+Dave [0:38:19]: And so I'm like, that's that's the case for me.
+
+Dave [0:38:21]: And I do think sprinkling...
+
+Dave [0:38:22]: Like, even I've noticed in in our writing.
+
+Dave [0:38:24]: Like, I'm using Ai to, like, help me write in research But the things that people react to are what the the the the person little injections of personality or a joke that I make or something like that, which is the whole taste piece.
+
+Dave [0:38:35]: Yeah.
+
+Dave [0:38:35]: The only problem...
+
+Dave [0:38:36]: The only issue, one of the things that I am worried about though is, like, in B2B, what happens if They just cut everything out of the middle where it's is, like, it's Ramps, Ai.
+
+Dave [0:38:46]: Davis Davis buying, however you would define Ramp.
+
+Dave [0:38:50]: I don't expense management.
+
+Dave [0:38:51]: A credit card.
+
+Dave [0:38:52]: I need a company credit card.
+
+Dave [0:38:53]: I'm not gonna do the research for them I'm gonna have my...
+
+Dave [0:38:55]: I'm gonna have my Ai agent.
+
+Dave [0:38:56]: Go do the research and do all that.
+
+Dave [0:38:58]: And so it's really just my Ai agent is talking to Ramps Ai, and then they're gonna give me a list.
+
+Dave [0:39:02]: It's like, alright, Dave You should go by one of these and so there's no human involved in at all.
+
+Dave [0:39:06]: That's the that's the middle that I'm worried about where it's like, I think if as long as humans are involved in the buying process, I think there's always gonna be.
+
+Dave [0:39:13]: You know what I kinda I like that.
+
+Dave [0:39:14]: I like that brand.
+
+Dave [0:39:15]: I like that brand better, You know?
+
+Dave [0:39:16]: I wanna I wanna...
+
+Dave [0:39:17]: I'm gonna buy them.
+
+Dave [0:39:18]: I like...
+
+Dave [0:39:18]: I Went to hubspot inbound conference and I really like them.
+
+Dave [0:39:21]: I'm gonna buy Hubspot.
+
+Dave [0:39:22]: You know?
+
+Dave [0:39:22]: Yeah.
+
+Dave [0:39:22]: I don't know.
+
+Drew [0:39:24]: I I'm gonna answer for that.
+
+Dave [0:39:24]: Nobody knows.
+
+Dave [0:39:25]: I mean, if
+
+Drew [0:39:26]: we get that world and, like, what what what is any human doing?
+
+Drew [0:39:29]: It's if all machines talking to each other.
+
+Dave [0:39:31]: That's why I do.
+
+Dave [0:39:32]: I'm dead serious about this.
+
+Dave [0:39:33]: I am I'm gonna be...
+
+Dave [0:39:34]: Like, I wanna be I wanna be in both.
+
+Dave [0:39:35]: I wanna have a foot in each.
+
+Dave [0:39:37]: I'm going to be I'm gonna build a local business in my town.
+
+Dave [0:39:40]: Fact, it's gonna happen guaranteed.
+
+Dave [0:39:42]: I'm a be in the community.
+
+Dave [0:39:43]: I'm gonna build something in in real life and then I'm a have a Internet business because because I wanna have...
+
+Dave [0:39:47]: I wanna I need that have both sides
+
+Drew [0:39:49]: What's your real life business gonna be...
+
+Drew [0:39:50]: What are you gonna do?
+
+Dave [0:39:51]: It's gonna be, like, a gym, not like a gym, a a gym, but it's slash community connection.
+
+Dave [0:39:55]: Like, I think people wanna hang out in person.
+
+Dave [0:39:58]: There's a huge...
+
+Dave [0:39:59]: I don't have the...
+
+Dave [0:40:01]: I I don't have the perfect thing yet, but...
+
+Dave [0:40:02]: And I'm I never will, but There's, like, a venn diagram that overlaps with, like, a lot of trends right now, which is, like, community, run clubs, Sauna.
+
+Dave [0:40:10]: Golf simulators, hanging out in real life, book clubs.
+
+Dave [0:40:14]: Like, people want...
+
+Dave [0:40:15]: We wanna hang out with each other and we're not going away.
+
+Dave [0:40:18]: We're gonna hang there.
+
+Dave [0:40:18]: And so I would love to own a...
+
+Dave [0:40:20]: My wife and I were just talking with this morning.
+
+Dave [0:40:22]: I'd love to build and create an awesome gym.
+
+Dave [0:40:24]: Maybe there's an element to this We're, like, a huge part of my youth was, like, grown up and playing basketball.
+
+Dave [0:40:29]: My my parents would dropped me off on a Saturday morning and, like, me and, like, six my friends we play three on three year pick basketball at the Y, like, for the entire day.
+
+Dave [0:40:37]: And I think that's an important part of our culture and society that I wanna miss out.
+
+Dave [0:40:42]: And so I I wanna be a part that.
+
+Dave [0:40:43]: And I think it's...
+
+Dave [0:40:44]: I also really want my kids to see me do something in in person and not just in my office and talk talk to that.
+
+Drew [0:40:49]: They listen to the podcast.
+
+Dave [0:40:52]: Well, they're eight and six and so my...
+
+Dave [0:40:54]: They both just actually trolled me.
+
+Dave [0:40:55]: They're like, what the heck is B2B marketing and why my son...
+
+Dave [0:40:59]: My son literally said to me like again get, how boring is your job.
+
+Dave [0:41:02]: You just literally sit in front of the commuter and you go, marketing.
+
+Dave [0:41:04]: Oh, marketing.
+
+Dave [0:41:05]: Blah blah marketing my fair.
+
+Dave [0:41:07]: Fair.
+
+Dave [0:41:07]: That's fair.
+
+Dave [0:41:08]: I'm like, but you but you like the house that we live in.
+
+Dave [0:41:10]: Don't you buddy?
+
+Dave [0:41:11]: Okay.
+
+Dave [0:41:13]: What's the flip side case?
+
+Dave [0:41:14]: What's the what's the bear with the bear case.
+
+Drew [0:41:16]: Okay.
+
+Drew [0:41:16]: So I mean, I think the the harsh I think Marketers are in pretty good position, but we probably eighty percent of what we're doing today is going away and gonna be automated, which means we need to, like...
+
+Drew [0:41:28]: And you're already doing...
+
+Drew [0:41:29]: Like, you're told me you're using Cloud code all time.
+
+Drew [0:41:30]: But, like, we we need to change our jobs.
+
+Drew [0:41:33]: And even, like, my job has drastically changed in the last nine months.
+
+Drew [0:41:38]: I don't do nine years percent of what I was doing.
+
+Drew [0:41:40]: Nine months ago.
+
+Dave [0:41:41]: Well, right.
+
+Dave [0:41:42]: I mean, you're you're the perfect role of this You...
+
+Dave [0:41:44]: I was thinking about this normally, it'd be like, you gotta know...
+
+Dave [0:41:48]: You gotta learn Sql and you gotta be able to, you know, know all the all the, like, technical stuff that you that you went and got a degree in computer science because you're the only guy.
+
+Dave [0:41:56]: An average Joe like me inside the company can't run the queries and get the data that you can.
+
+Dave [0:42:00]: Now I'm like, yeah.
+
+Dave [0:42:00]: I used to troll my my my my best friend, best man in my wedding.
+
+Dave [0:42:04]: For years.
+
+Dave [0:42:05]: I'm texting...
+
+Dave [0:42:06]: We had a...
+
+Dave [0:42:06]: You know, we were in a g g chatter.
+
+Dave [0:42:08]: I'd be texting them all time like, How do you...
+
+Dave [0:42:10]: How do I do a V look?
+
+Dave [0:42:11]: You know, like, Now, like, I that's a simple example, but for for processing data, like, I can just do that in Claude without anybody else's help.
+
+Drew [0:42:21]: Oh, for sure.
+
+Drew [0:42:22]: And, like, our marketers aren't very good at using Claude now.
+
+Drew [0:42:25]: So they're by coding their own dashboards and apps.
+
+Drew [0:42:28]: Like, data apps.
+
+Drew [0:42:29]: They don't really need me for that stuff anymore.
+
+Drew [0:42:32]: So...
+
+Drew [0:42:33]: And I think everyone will face this eventually, and you can either accept it now and be excited that you don't to do shitty stuff like making dashboards anymore and then figure out what your new job is.
+
+Drew [0:42:42]: Or you can wait for the market to kinda dictate that to you, and I personally would much rather get ahead of it and reinvent reinvest myself now and wait for it to be forced Sunday.
+
+Dave [0:42:52]: That's a good message.
+
+Dave [0:42:52]: I like that.
+
+Dave [0:42:53]: That's a good message because it's, like, it's the bare case, but it's giving something actionable.
+
+Dave [0:42:58]: You're not saying, like, I don't know.
+
+Dave [0:42:59]: Go back to trade school and become a plumber?
+
+Drew [0:43:01]: No.
+
+Drew [0:43:01]: No.
+
+Drew [0:43:02]: No.
+
+Drew [0:43:02]: I think there's still place for marketers especially.
+
+Dave [0:43:04]: So Harry, what what have you been doing?
+
+Dave [0:43:05]: So what is...
+
+Dave [0:43:06]: What is Drew like reinvent invention?
+
+Dave [0:43:08]: What's different, you know, versus last year and half.
+
+Drew [0:43:10]: Well Honestly, right now, I'm focusing on how do I make our entire growth and go to market org agent?
+
+Drew [0:43:15]: And so how do I help all these marketers get through this transition?
+
+Dave [0:43:18]: What does that mean?
+
+Dave [0:43:19]: What does that mean?
+
+Dave [0:43:19]: Agent though?
+
+Dave [0:43:20]: Yeah.
+
+Dave [0:43:20]: Everybody uses Claude?
+
+Dave [0:43:21]: What does it mean?
+
+Drew [0:43:22]: It means where we're going is, like, Everyone on the team, instead of, like, marketing and then going into the platforms and clicking buttons, they are building agents that do marketing at tremendous scale.
+
+Drew [0:43:33]: All these marketers are shifting from running campaigns to building.
+
+Drew [0:43:39]: Like, they are becoming builders, enabled by cloud code, but also able to build something that is much more effective than what a person who has no marketing expertise would build because they deeply understand the domain and they understand the platforms.
+
+Dave [0:43:52]: Yeah.
+
+Dave [0:43:52]: Dan and I have this...
+
+Dave [0:43:53]: We work with this guy, and he's just kinda like, a moon moonlight on some side projects for us with Ai.
+
+Dave [0:43:58]: And he was telling us the company that he's working with, they didn't wanna go spend, you know, whatever money on some Mart tech vendor for for this tool that they were gonna do...
+
+Dave [0:44:09]: And so they just built it.
+
+Dave [0:44:10]: And I'm like, oh, man, this is the future, which is, like, wait a second.
+
+Dave [0:44:13]: I'm not gonna go spend, you know, fifty grand on a contract for this this thing because I could just build my own agent that could do roughly the same thing.
+
+Dave [0:44:20]: That's that's an interest.
+
+Dave [0:44:21]: I was like, oh, shit.
+
+Dave [0:44:22]: That's kinda interesting thing.
+
+Drew [0:44:24]: Yeah.
+
+Drew [0:44:24]: I don't think Saas is gonna...
+
+Drew [0:44:25]: I mean we're seeing that too.
+
+Drew [0:44:26]: I don't think Saas is gonna die, but I think the margins are gonna be incredibly compressed.
+
+Dave [0:44:30]: Yeah.
+
+Dave [0:44:30]: Look, I I could also poke holes in the argument that I just said, and I I just wrote about this on Linkedin the other day and people got really mad.
+
+Dave [0:44:36]: Really bad about it, but I was like, look, I do think there's a lot of performance theater right now where, like, people are spending weekends building.
+
+Dave [0:44:42]: Personally, I would rather just spend the twenty dollars a month for, like, calendar or whatever than, like, vibe code my own calendar app, and I think that's always gonna be the case and then eventually when that ship breaks who's gonna fix it.
+
+Dave [0:44:54]: Yada yada yada, We're probably still your years from that.
+
+Dave [0:44:56]: But.
+
+Dave [0:44:57]: You're gonna mention a bunch of, adjunct workflows as an example.
+
+Drew [0:45:00]: Yeah.
+
+Drew [0:45:00]: Let me tell you...
+
+Drew [0:45:01]: And we're we're honestly early stages in this.
+
+Drew [0:45:04]: But let me tell you some of the cooler things that I'm seeing the marketing team shi.
+
+Drew [0:45:07]: And these are things that, like, to the point about marketers still having a place and subject matter expertise matter.
+
+Drew [0:45:13]: I could have built these six months ago, but I never would have thought to build them.
+
+Drew [0:45:16]: So what the real unlock was for us was getting everyone on cloud code, getting everyone in that builder mindset and giving them Also, honestly giving them permission to stop doing their old day jobs.
+
+Drew [0:45:26]: That had to come from the top where we said, hey, we are okay with the numbers going down for a couple months while everyone learns this stuff and and shifts into, like, builder mode.
+
+Drew [0:45:34]: And the this just been dramatic.
+
+Drew [0:45:35]: So, okay.
+
+Drew [0:45:36]: Example one, is called the vertical machine.
+
+Drew [0:45:38]: I'm gonna give credit to El alana on our team for coming up with this.
+
+Drew [0:45:42]: So El alana runs our vertical virtualization effort, which is where we pick a vertical, like, construction, and we try to sell into.
+
+Drew [0:45:48]: And so that means like, we just go super hard on, like, what are the pain pinpoint in construction.
+
+Drew [0:45:52]: How do we build parts of our website to rank an Seo for those people who and what they're searching for and come up in, like Ai agent results?
+
+Drew [0:45:59]: What sales materials do we need?
+
+Drew [0:46:00]: All of this, like, supporting stuff where you wanna go sell to new vertical?
+
+Drew [0:46:03]: Also, like, what product do we have to build, like, support them?
+
+Drew [0:46:06]: And A alana started about a year and a half ago, did an amazing job on construction and got that, like, up and running?
+
+Drew [0:46:12]: And then we were like, alright.
+
+Drew [0:46:13]: What next?
+
+Drew [0:46:13]: Should Wanna move on to the next vertical?
+
+Drew [0:46:15]: Should be higher three more people to each focus on three verticals like what we do.
+
+Drew [0:46:19]: And instead of that, we said, let's build a end to end agent to replicate what Alana did for construction.
+
+Drew [0:46:26]: And then that will allow us to scale out to fifty or a hundred verticals with the click of a button.
+
+Drew [0:46:31]: So concrete what that looks like is an agent that you tell it, hey, I wanna spin up a vertical virtualization effort for, let's say, health care.
+
+Drew [0:46:39]: Or medical manufacturing.
+
+Drew [0:46:40]: Whatever.
+
+Drew [0:46:41]: It goes and into a bunch of research on, like, what are companies like in the space, What do they care about, what are their pain points?
+
+Drew [0:46:46]: It uses, like, public resources, but also, like, we'll scan our sales calls like we talked about Gone calls before.
+
+Drew [0:46:52]: Right.
+
+Drew [0:46:52]: This stuff is, like, incredibly value.
+
+Dave [0:46:55]: What's crazy is, like, that that used to it used to be, like, hiring product...
+
+Dave [0:46:58]: Like, a hiring a product marketer an example, you to be like, we're gonna hire a product marketer that is specific that has deep experience in health care.
+
+Drew [0:47:05]: Right.
+
+Dave [0:47:05]: But it's like, who has that experience.
+
+Dave [0:47:07]: Realistically, no one, and something that I've always, like, had a beef with in marketing is, like, we I this is not an aegis comment.
+
+Dave [0:47:13]: Please don't take it at this way.
+
+Dave [0:47:14]: But like, we have a twenty two year old fresh grad trying to sell to the CMO of a building up our company about an industry that they have no deep expertise.
+
+Dave [0:47:22]: Now you have this, like, insane product marketing assistant where I can go and I can go and do all the research.
+
+Dave [0:47:28]: I can do all the sale sales enable.
+
+Dave [0:47:30]: So we're gonna go to market in this vertical our I can have the messaging down.
+
+Dave [0:47:33]: I can have the landing page right?
+
+Dave [0:47:34]: I can have the deck right.
+
+Dave [0:47:35]: Like, that's a that's a very cool use case.
+
+Dave [0:47:38]: Yeah.
+
+Dave [0:47:39]: Automatically.
+
+Drew [0:47:40]: And I don't need to go talk to sales.
+
+Dave [0:47:42]: If you figure out who's the health care, with health care guy or are you gonna put in a box in in New York.
+
+Dave [0:47:47]: You know?
+
+Drew [0:47:48]: Yeah.
+
+Drew [0:47:48]: Then maybe they have will come up those ideas.
+
+Drew [0:47:50]: But we've got this machine.
+
+Drew [0:47:51]: So it does the research.
+
+Drew [0:47:52]: It then it goes into...
+
+Drew [0:47:54]: Then it goes into each channel and figures out, like, how do we market it to this vertical.
+
+Drew [0:47:56]: So for example, on the Seo side, it'll go look at based on the research.
+
+Drew [0:48:01]: It'll sort of be, like, what are the search terms or kinda keywords that someone in this vertical would be searching for while they're kind of, like, looking for our product.
+
+Drew [0:48:10]: It'll go hit a bunch of external tools to get more similar keywords to that.
+
+Drew [0:48:14]: And then it will spin up hundreds of pages on our website.
+
+Drew [0:48:17]: That it thinks will rank for those searches in Google or Ai searches as well to, like, see there.
+
+Drew [0:48:23]: And all of a sudden, we have, like, our full Seo strategy, just, like, deployed with a click of a button for a new vertical.
+
+Drew [0:48:29]: And we do that across channels.
+
+Drew [0:48:30]: Right?
+
+Drew [0:48:31]: And then it's, like, how do you prep sales, all...
+
+Drew [0:48:34]: You can think about it for every channel.
+
+Drew [0:48:35]: Now El alana has gone from, like, manually marketing to one vertical at time to building this thing and continuing to add on parts to it so that we can click button and market to new verticals.
+
+Dave [0:48:46]: And is this all done within cloud codes specifically?
+
+Dave [0:48:48]: Or is it like the person owns this and there might be multiple tools that you're stitching together to make this happen?
+
+Drew [0:48:55]: It's all in cloud code, but the the key insight that kinda made this possible?
+
+Drew [0:48:59]: Was sitting down with Alana and being like, what is your actual workflow look like here?
+
+Drew [0:49:04]: And how do we decompose it into Yeah.
+
+Drew [0:49:07]: Like a comic pieces.
+
+Drew [0:49:08]: And then for each of those, we sort set, okay.
+
+Drew [0:49:10]: Here's an atomic piece.
+
+Drew [0:49:11]: Let's go create a cloud skill for that?
+
+Drew [0:49:13]: Right?
+
+Drew [0:49:14]: And a cloud skill is like a reusable sort of instruction set for cloud that tells how to do a thing.
+
+Drew [0:49:19]: So you break it down into these small pieces, which you can write a really clear skill for with the fine inputs and outputs.
+
+Drew [0:49:25]: You can write eval, which are kinda, like, test cases on that skill.
+
+Drew [0:49:28]: And then you can chain them all together and you get an end to end workflow.
+
+Drew [0:49:31]: But the key piece is you're not just, like, cloud goes spin up a vertical.
+
+Drew [0:49:34]: You're, like, here are all of these small pieces and I'm...
+
+Drew [0:49:37]: And they're really well tested and defined.
+
+Dave [0:49:39]: What's been the enable inside of the the team to, like, get everybody in the marketing team fluent with Claude, Claude code being able to build stuff.
+
+Dave [0:49:48]: Was there...
+
+Dave [0:49:48]: Did someone come in and do a training.
+
+Dave [0:49:50]: Deborah everybody just learning on their own, One person learning and teach everybody else.
+
+Dave [0:49:53]: How how is it working?
+
+Drew [0:49:54]: It's been a journey.
+
+Drew [0:49:55]: It's a mix of, like, a mandate from the top all the way from the top of our company and drew ahead of growth as well?
+
+Drew [0:50:01]: And then, like, I think the thing...
+
+Drew [0:50:03]: There's also a box?
+
+Dave [0:50:05]: What what's the...
+
+Dave [0:50:05]: How do you para the mandate?
+
+Dave [0:50:07]: What what was the mandate?
+
+Drew [0:50:08]: I mean, our CEO is literally, like, said what I just said to you.
+
+Drew [0:50:11]: I'm okay with you dropping the ball a little bit on your...
+
+Drew [0:50:15]: I I'm para.
+
+Drew [0:50:16]: Sure.
+
+Drew [0:50:16]: But, like, I'm...
+
+Drew [0:50:17]: I I want you to invest time in this.
+
+Drew [0:50:19]: Now is the time to do it, and it is okay if that means you'd have to, like, away from your.
+
+Drew [0:50:24]: Yeah.
+
+Dave [0:50:25]: Yeah.
+
+Dave [0:50:25]: That's interesting because I, I I came up in an era where, like, if someone kinda, like, Rogue built a landing page for a new vertical everybody like, whoa whoa, whoa, whoa, whoa, where does this fit in?
+
+Dave [0:50:33]: But now it's like, the way to learn is by doing?
+
+Dave [0:50:36]: And so if Lana wants to figure that out, she's gonna go build a landing page and, like, Think part of it is letting go a little bit of, like, the guard rails from the creative and brands team and be like, well, this isn't perfectly on brand.
+
+Dave [0:50:46]: It's like, well, that's not the point.
+
+Dave [0:50:47]: Think about what we just spun up and we can always create a skill We can...
+
+Dave [0:50:51]: I'm sure you all have it.
+
+Dave [0:50:52]: We can we have a skill that has our brand guidelines in there and we're spitting out stuff that looks on brand.
+
+Drew [0:50:57]: Total?
+
+Drew [0:50:57]: What else?
+
+Drew [0:50:57]: The other piece on enable, I think is really important.
+
+Drew [0:50:59]: They're I guarantee in any org.
+
+Drew [0:51:01]: There are pockets of people who are, like, super Ai pill in using this stuff, and there they much just be quiet about it.
+
+Drew [0:51:06]: So we spun up sort of, like, a simple dashboard that's, like, tells us in each team who's using it the most.
+
+Drew [0:51:13]: And then we wouldn't found those people, and we're were like, how are you using it?
+
+Drew [0:51:16]: How did you start using it?
+
+Drew [0:51:17]: And we turned them into kind of, like, Evangelist for their team.
+
+Drew [0:51:20]: So we're were like, I basically went and all I'd like, beat them over the head.
+
+Drew [0:51:24]: I was, like, record a loom video showing what you built and how you did this and share it with the team, constant demos, and, like, that bottoms up piece really worked too.
+
+Drew [0:51:31]: People get, like, super excited when they see someone like them being able to actually use this stuff and build with it.
+
+Dave [0:51:37]: Yeah.
+
+Dave [0:51:37]: I'm for sure.
+
+Dave [0:51:37]: I think the biggest piece on the enable is, you need to do it for yourself.
+
+Drew [0:51:42]: Say more.
+
+Dave [0:51:43]: You know, I think there's a lot of, like, if I just listen to podcast and hear people talk about Claude, cloud code, whatever Codecs, whatever you're building.
+
+Dave [0:51:50]: But I think it's more of, like, this challenge of, like, what's something that's happening in your...
+
+Dave [0:51:54]: And this is, like, a call action for somebody listening this before we wrap Like, what's something that's happening in your current workflow and in your life and marketing inside of your company And like, you know what I'm gonna use this as opportunity to go deeper and and build this thing?
+
+Dave [0:52:06]: Has there been any, like, negative negative pieces of this?
+
+Dave [0:52:09]: Like, if you have this org where everyone has cloud code?
+
+Dave [0:52:12]: Everyone's enabled to, like, create and ship stuff?
+
+Dave [0:52:15]: You publish a landing page it doesn't work or isn't on branding Or you send out a bad email?
+
+Dave [0:52:18]: Like, has there has there already been any negative, you know, or, like, something broke the whole.
+
+Dave [0:52:22]: The whole marketing funnel one day.
+
+Dave [0:52:24]: I don't know.
+
+Drew [0:52:25]: This is a Linkedin example.
+
+Drew [0:52:26]: So I don't know how True it is.
+
+Drew [0:52:28]: But, it luckily didn't happen us, but I saw someone who was like, yeah.
+
+Drew [0:52:31]: I had, like, a Google Ads or maybe it was meta Mc.
+
+Drew [0:52:34]: They built and it was, you know, bidding for them and then they their whole account got, like, locked down.
+
+Drew [0:52:38]: They were spending, like, over a million a month, and they can't get their, you know, the support for those things is not great.
+
+Drew [0:52:43]: They're, like, fully just locked out and the marketing off.
+
+Drew [0:52:45]: So that's something to watch out for is, like, anytime these things are interacting, we classify things currently like, low risk and a high risk.
+
+Drew [0:52:52]: So if it's just like you're generating creative, or you're doing something internal, that's low risk and it's, like, go crazy.
+
+Drew [0:52:58]: If your agent is interacting with the outside world or with customers like sending them emails, for example, that's where we try to put some more guard rails on things.
+
+Drew [0:53:06]: So for example, our life lifecycle team, Super They're doing a ton with cloud code, interacting with, like Hubspot and sending emails.
+
+Drew [0:53:13]: Through
+
+Dave [0:53:13]: it.
+
+Dave [0:53:13]: Mh.
+
+Drew [0:53:14]: We don't really want that to be just like wild above West.
+
+Drew [0:53:17]: So any hubspot interactions go through an Mc that we've built internally that puts guard rails on things and make sure we're not, like, blasting the same person with a hundred emails, things like that.
+
+Dave [0:53:27]: So does does a...
+
+Dave [0:53:28]: Does someone have to manually review that or if it like, if it goes through that, it's okay.
+
+Dave [0:53:32]: Like, has to...
+
+Dave [0:53:32]: It's a, like, a code check of some kind to code check.
+
+Drew [0:53:36]: Yeah.
+
+Drew [0:53:36]: It's not perfect.
+
+Dave [0:53:37]: Do you guys have opinions on Claude versus cloud codes specifically?
+
+Drew [0:53:42]: Right now, we're in, like, user over tools best for you.
+
+Dave [0:53:44]: Let me tell you where why Asking this question.
+
+Dave [0:53:46]: Like, yeah, please.
+
+Dave [0:53:46]: Part of me is, like, everything's this is getting so good so fast, so so much better.
+
+Dave [0:53:51]: I'm, like, there, you know, you have Claude.
+
+Dave [0:53:53]: You have c, you have cloud code.
+
+Dave [0:53:55]: I'm like, You should see what I can do with just regular vanilla Claude.
+
+Dave [0:54:00]: Like, are we...
+
+Dave [0:54:01]: Or eventually, like, a year from now is it just gonna be, like, there isn't Claude code or Claude code.
+
+Dave [0:54:06]: There's just this tool and it does it all in there for.
+
+Dave [0:54:09]: Like, I kinda I I keep going like, I feel like that's where we're gonna end up.
+
+Drew [0:54:12]: Yeah.
+
+Drew [0:54:12]: Wouldn't shock me.
+
+Drew [0:54:13]: A lot of the marketers are using cloud cloud c.
+
+Drew [0:54:15]: Yeah.
+
+Drew [0:54:16]: It's sort of like, if you like that better, go for it.
+
+Drew [0:54:18]: You can use cloud code through the desktop app now too.
+
+Drew [0:54:21]: So some of them are doing that.
+
+Drew [0:54:21]: We have some internal tools that make it easier to work with cloud code too.
+
+Drew [0:54:25]: But Yeah.
+
+Drew [0:54:26]: It's kinda cheers on country screen.
+
+Dave [0:54:28]: There's also some cool shit.
+
+Dave [0:54:29]: There there's some cool stuff.
+
+Dave [0:54:30]: This is not...
+
+Dave [0:54:30]: You know, I think I saw...
+
+Dave [0:54:32]: I think it maybe it was last week or so, like, somebody shared something about Ramp as an interest company of, like, having your own, I'm not a technical guy for forgive me if this is the wrong way to say, but, like, Ramp has their own Mc p server now.
+
+Dave [0:54:45]: Every company does and, like, here's all the stuff that you can do with expense reports now because I can connect Ramp to Claude, and I can say, like, you know, do these expense reports for me.
+
+Dave [0:54:55]: And this is what this is what's get what's getting really fun.
+
+Dave [0:54:58]: You know, our our example too is, like, we use Wear Hubspot customer.
+
+Dave [0:55:01]: We use Hubspot for our marketing automation.
+
+Dave [0:55:03]: We use Claude.
+
+Dave [0:55:04]: It's amazing that I can be like, I feel I feel like our our email list growth has slowed over the ninety days.
+
+Dave [0:55:10]: Is that true?
+
+Dave [0:55:10]: And I can get an amazing, you know, an analysis from that?
+
+Dave [0:55:14]: Or I think it's cool to have this I can be the marketer where I have all these things plug into my Ai tool of choice, and I have all this access to stuff being, like, before, it'd literally be like, let me go down to the third floor and find Drew.
+
+Dave [0:55:26]: I'm gonna need him to, like, go find this data for me because I wanna do this thing.
+
+Dave [0:55:29]: Great.
+
+Dave [0:55:30]: Alright Drew.
+
+Dave [0:55:30]: We're gonna wrap, man.
+
+Dave [0:55:31]: This was awesome.
+
+Dave [0:55:31]: Thank you very much for coming on the show, Big fan of yours fan of Ramp.
+
+Dave [0:55:35]: Although my only beef for the Ramp is...
+
+Dave [0:55:37]: With since we move the...
+
+Dave [0:55:38]: We move the company to Ramp.
+
+Dave [0:55:39]: I'm I get way less credit personal credit card points, which is one of the benefits of being a founder.
+
+Dave [0:55:44]: But I don't have the headache of, like, having to file expense reports or or do any of that month.
+
+Drew [0:55:49]: Yeah.
+
+Drew [0:55:49]: Would you rather get points or save your whole company time and money.
+
+Dave [0:55:53]: That's Depends I got.
+
+Dave [0:55:56]: I got a lot of points I, you know, I can fly nicely with those points.
+
+Dave [0:56:01]: You know, I flew my parents.
+
+Dave [0:56:03]: I've I actually...
+
+Dave [0:56:03]: We...
+
+Dave [0:56:04]: I I'll get...
+
+Dave [0:56:04]: I did flew my parents in first class on my points to our event as they've never...
+
+Dave [0:56:09]: They've...
+
+Dave [0:56:10]: They've never flown in the in the front of the plane before.
+
+Dave [0:56:12]: And it was an amazing.
+
+Dave [0:56:13]: I wish I I wish I've vlog.
+
+Dave [0:56:15]: I wish I've vlog it, but no.
+
+Dave [0:56:16]: I'm just being excited.
+
+Drew [0:56:17]: That is priceless.
+
+Drew [0:56:18]: So I get
+
+Dave [0:56:19]: less points, but it's okay.
+
+Dave [0:56:20]: Ramp has been great.
+
+Dave [0:56:21]: And that's not even a Ramp ad.
+
+Dave [0:56:22]: Just good good product.
+
+Dave [0:56:23]: And I also like the way you guys used the data speaking of data science that I think the best Ramp ads are, like, the ads on the podcast ads about, like, how Ramp only hires some absurd low percentage of engineers, and therefore, the talent is so good.
+
+Dave [0:56:38]: It come therefore, their product must be great.
+
+Dave [0:56:40]: I love that.
+
+Dave [0:56:41]: Great marketing play.
+
+Drew [0:56:43]: Thanks, Dave.
+
+Drew [0:56:43]: Love it.
+
+Dave [0:56:44]: Alright.
+
+Dave [0:56:44]: And then, look, I'm still waiting for like, a Ramp hat or something.
+
+Dave [0:56:46]: My god.
+
+Dave [0:56:47]: I you know,
+
+Drew [0:56:48]: we'll get you some swag.
+
+Drew [0:56:48]: Don't worry.
+
+Dave [0:56:49]: God, no.
+
+Dave [0:56:50]: I'm going to the wrong people, man.
+
+Dave [0:56:51]: I
+
+Drew [0:56:53]: No.
+
+Drew [0:56:53]: No.
+
+Drew [0:56:54]: We'll make it happen.
+
+Drew [0:56:54]: I know the the Swag person.
+
+Drew [0:56:56]: So I'll go.
+
+Drew [0:56:57]: Alright.
+
+Dave [0:56:57]: And I just shout out shout out to the marketing team at Ramp.
+
+Dave [0:56:59]: I know you all listened to this podcast.
+
+Drew [0:57:01]: We do.
+
+Drew [0:57:02]: No.
+
+Drew [0:57:02]: They love you.
+
+Drew [0:57:02]: I'll send you some screenshots when I said I was going on.
+
+Drew [0:57:05]: Yeah.
+
+Dave [0:57:06]: Going crazy in Slack.
+
+Dave [0:57:07]: Alright.
+
+Dave [0:57:08]: Thank you for coming on.
+
+Dave [0:57:09]: I appreciate it Drew.
+
+Dave [0:57:10]: Good good to have you on the pod, and I'll talk
+
+Drew [0:57:12]: to you soon.
+
+Drew [0:57:12]: Alright.
+
+Drew [0:57:12]: Thanks, Dave.
+
+Drew [0:57:13]: Have a good one day.
+
+Dave [0:57:18]: Hey.
+
+Dave [0:57:18]: Thanks for listening to this podcast.
+
+Dave [0:57:20]: If you like this episode.
+
+Dave [0:57:21]: You know what?
+
+Dave [0:57:21]: I'm not even gonna ask you to subscribe and leave a review because I don't really care about that.
+
+Dave [0:57:26]: I have something better for you.
+
+Dave [0:57:27]: So we've built the number one private community for B2B marketers at Exit Five, and you can go and check that out instead of leaving a rating review, go check it out right now on our website, exitfive.com.
+
+Dave [0:57:39]: Our mission at Exit Five is to help you grow your career in B2B marketing, and there's no better place to do that than with us at Exit Five.
+
+Dave [0:57:46]: There's nearly five thousand members now in our community People are in there posting every day, asking questions about things like marketing planning, ideas, inspiration, asking questions and getting feedback from your peers, building your own network of marketers who are doing the same thing you are so you can have a peer group.
+
+Dave [0:58:02]: Or maybe just venting about your boss when you need to get in there and get something off your chest.
+
+Dave [0:58:07]: It's a hundred percent free to join for seven days so you can go and check it out risk free, and then there's a small annual fee to pay if you wanna become a member for the year.
+
+Dave [0:58:16]: Go check it out, learn more exitfive.com, and I will see you over there in the community.

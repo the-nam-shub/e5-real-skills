@@ -1,1 +1,8 @@
 .env
+node_modules/
+dist/
+data/transcripts/
+data/practices/
+data/reviews/
+data/manifest.json
+data/category_index.json

@@ -1,0 +1,30 @@
+{
+  "name": "e5-real-skills",
+  "version": "0.1.0",
+  "description": "Exit Five podcast → Claude skill files pipeline",
+  "type": "module",
+  "bin": {
+    "e5-skills": "dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "cheerio": "^1.0.0",
+    "commander": "^12.1.0",
+    "p-limit": "^6.1.0",
+    "rss-parser": "^3.13.0",
+    "simple-git": "^3.27.0",
+    "yaml": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

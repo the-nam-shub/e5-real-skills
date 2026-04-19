@@ -260,6 +260,8 @@ OUTPUT FORMAT: Return a JSON array of practice objects. If the episode yields no
 
 A dedicated agent that compares practices within each category to identify where experts actually disagree. "Contradiction" was the wrong mental model: real disagreements often aren't 1-on-1, they're majority-vs-minority, evenly split, or emerging shifts in the field. This agent captures the full shape of disagreement.
 
+**Scope boundary:** Agent 4 detects *active disagreements between named positions*. Its `trend_note` field captures chronological patterns that exist *within* a disagreement (e.g., "all pro-gating voices are from 2024, all anti-gating from 2026"). It does NOT detect general topic evolution where no explicit disagreement exists — for example, the gradual disappearance of 2023-era SEO advice as guests shift to AI-search strategies without explicitly arguing against the old approach. That case is out of scope here and is handled by the future Agent 6 (Trend Analyst, see Component Spec 10). Keep Agent 4 focused on opposition, not drift.
+
 **Input:** All practices for a single category from the category index (minimum 5 practices from 3+ episodes to be worth analyzing)
 
 **Model:** Claude Sonnet
@@ -668,7 +670,24 @@ When the reviewer returns `"pass"`:
 2. Save the review to `data/reviews/` for audit trail
 3. Proceed to GitHub Publisher
 
-### 9. GitHub Publisher
+### 9. Agent 6: Trend Analyst (Future, Not In MVP)
+
+A planned future agent, deliberately out of scope for the initial build. Documented here so that Agent 4's scope is unambiguous and so the data model never needs retrofitting.
+
+**Problem it solves:** Agent 4 captures active disagreements between named positions. It does not capture gradual topic evolution where the consensus quietly shifts without explicit argument — for example, SEO advice from 2023 becoming dormant as guests in 2026 discuss AI-search strategies instead. No one is arguing against the old approach; it has simply stopped being recommended. This is a different signal than disagreement and requires a different detector.
+
+**Planned behavior (when built):**
+- Input: all practices in a single category from the category index, sorted chronologically. Gate by a larger minimum than Agent 4 — likely 15+ practices spanning 18+ months of episode dates, tuned after backfill reveals actual distributions.
+- Model: Claude Sonnet (same tier as other analysts).
+- Output (`data/trends/{category}.json`): for each identified trend, a structured object with `trend_id`, `topic`, `early_period` (date range + characteristic practices + representative guests), `recent_period` (same structure), `shift_summary`, approximate `turning_point`, and `confidence` rating (strong/moderate/weak based on practice density and recency).
+
+**Dependencies on existing architecture:** None. The current schemas already carry every field Agent 6 will need — `episode_date` is present on practice entries in the category index and on disagreement supporters, and `data/practices/{n}.json` files are keyed by episode number and reference the manifest's `date`. No schema migration is needed to add this agent later.
+
+**Why deferred:** trend detection on a small corpus is noise, not signal. The decision to build Agent 6 should come after the initial backfill reveals which categories have enough temporal coverage to support meaningful drift analysis. Some categories (SEO, AI-in-marketing, paid media) are likely to have rich signal; others (positioning fundamentals, basic email hygiene) are topic-stable and will produce nothing interesting. Build this after Agent 6 has real data to validate against.
+
+**Scope guardrail for the MVP:** do not stretch Agent 4's `trend_note` field to cover this case. If a chronological pattern exists without explicit opposition between positions, it belongs to the future Agent 6 and should be left undetected in the MVP.
+
+### 10. GitHub Publisher
 
 **Behavior:**
 - The public repo contains three directories plus README: `skills/`, `disagreements/`, and `episode-analyses/`

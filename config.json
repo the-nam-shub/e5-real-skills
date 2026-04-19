@@ -1,0 +1,19 @@
+{
+  "rss_feed_url": "https://feeds.transistor.fm/exit-five-podcast",
+  "base_episode_url": "https://exitfive.com/podcast",
+  "scrape_delay_ms": 2500,
+  "min_episode_number": 150,
+  "min_specificity_score": 3,
+  "min_practices_for_disagreement_analysis": 5,
+  "min_episodes_for_disagreement_analysis": 3,
+  "extraction_model": "claude-haiku-4-5-20251001",
+  "compilation_model": "claude-sonnet-4-6",
+  "review_model": "claude-sonnet-4-6",
+  "disagreement_model": "claude-sonnet-4-6",
+  "analyst_model": "claude-sonnet-4-6",
+  "max_revision_cycles": 2,
+  "max_parallel_extractions": 5,
+  "max_parallel_skill_compilations": 3,
+  "data_dir": "./data",
+  "skills_dir": "./skills"
+}
