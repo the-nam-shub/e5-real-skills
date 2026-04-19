@@ -268,6 +268,19 @@ A dedicated agent that compares practices within each category to identify where
 
 **Scope boundary:** Agent 4 detects *active disagreements between named positions*. Its `trend_note` field captures chronological patterns that exist *within* a disagreement (e.g., "all pro-gating voices are from 2024, all anti-gating from 2026"). It does NOT detect general topic evolution where no explicit disagreement exists — for example, the gradual disappearance of 2023-era SEO advice as guests shift to AI-search strategies without explicitly arguing against the old approach. That case is out of scope here and is handled by the future Agent 6 (Trend Analyst, see Component Spec 10). Keep Agent 4 focused on opposition, not drift.
 
+**Two-pass intersection filtering (stability):** Agent 4's raw output is non-deterministic — a single run can surface genuine disagreements alongside run-dependent artifacts (a framing the model latched onto this time but might not surface next time). Because the product's value is rigor and attribution, the pipeline runs Agent 4 **twice in parallel on the same input** and keeps only disagreements reproduced across both runs.
+
+Two disagreements from different runs are treated as "the same disagreement" if their supporter sets (matched by `guest_name` + `practice_id`, case-insensitive) overlap by at least 50% of the larger set's size. Matching is greedy: candidate pairs are sorted by intersection size desc, then paired uniquely.
+
+When a pair matches, the runs are merged:
+- Title, per-position `stance`, `position_id`, `context_dependency`, `trend_note`, and `why_it_matters` come from run A (the first run).
+- Supporters are the union of both runs. Run-B-only supporters are placed in whichever run-A position already contains the most supporters from the same run-B position.
+- `support_summary` is recomputed deterministically as the position supporter counts, sorted descending, joined with " vs " (e.g., "3 vs 1"). The model's prose summary is discarded because it came from one run's framing.
+
+Disagreements that appear in only one run are dropped. The count is recorded in the output as `filtered_count` and logged to the terminal at INFO level with each dropped disagreement's title and supporters, so the filter is auditable rather than invisible. The output file also carries `analysis_runs: 2` so downstream readers know the filter was applied.
+
+**Explicit trade-off:** this filter accepts potential under-reporting of subtle disagreements — real tensions that only one of the two runs surfaces will be dropped as "not stable enough." That is the intended behavior. A disagreement the system claims must survive the stability bar; one the system misses is recoverable on the next pipeline run as the corpus grows. False positives (manufactured or run-dependent tensions) are more corrosive to credibility than false negatives here.
+
 **Input:** All practices for a single category from the category index (minimum 5 practices from 3+ episodes to be worth analyzing)
 
 **Model:** Claude Sonnet

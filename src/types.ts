@@ -149,6 +149,8 @@ export interface DisagreementsFile {
   category: string;
   analysis_date: string;
   analysis_model: string;
+  analysis_runs: number;
+  filtered_count: number;
   disagreements: Disagreement[];
 }
 
