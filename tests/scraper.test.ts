@@ -40,6 +40,72 @@ describe("parseTranscriptText", () => {
     const full = buildFullText(lines);
     expect(full).toContain("Dave: You're listening to The Dave Gerhardt.");
   });
+
+  it("parses mid-era multi-line format: header on one line, dialogue on next", () => {
+    const raw = [
+      "Brian Kotlyar [00:00:00]:",
+      "A, if they don't make it, you don't get paid.",
+      "B, you're now in a much more revenue-facing role.",
+      "",
+      "Dave Gerhardt [00:00:31]:",
+      "All right, let's dig in.",
+    ].join("\n");
+    const lines = parseTranscriptText(raw);
+    expect(lines).toHaveLength(2);
+    expect(lines[0]).toEqual({
+      speaker: "Brian Kotlyar",
+      timestamp: "00:00:00",
+      text: "A, if they don't make it, you don't get paid. B, you're now in a much more revenue-facing role.",
+    });
+    expect(lines[1]).toEqual({
+      speaker: "Dave Gerhardt",
+      timestamp: "00:00:31",
+      text: "All right, let's dig in.",
+    });
+  });
+
+  it("parses older format: Speaker: [H:MM:SS] Text (colon before timestamp)", () => {
+    const raw = [
+      "Peep",
+      "===",
+      "",
+      "Dave Gerhardt: [00:00:00] This episode is brought to you by knack.",
+      "Peep Laja: [00:00:30] Thanks for having me on.",
+    ].join("\n");
+    const lines = parseTranscriptText(raw);
+    expect(lines).toHaveLength(2);
+    expect(lines[0]!.speaker).toBe("Dave Gerhardt");
+    expect(lines[0]!.timestamp).toBe("00:00:00");
+    expect(lines[0]!.text).toContain("knack");
+    expect(lines[1]!.speaker).toBe("Peep Laja");
+  });
+
+  it("handles mixed same-line and wrapped dialogue in a single transcript", () => {
+    const raw = [
+      "Dave [0:00:01]: Short opening.",
+      "Drew [0:00:05]:",
+      "This is a wrapped",
+      "dialogue block.",
+      "Dave [0:00:10]: Back to same-line format.",
+    ].join("\n");
+    const lines = parseTranscriptText(raw);
+    expect(lines).toHaveLength(3);
+    expect(lines[1]!.text).toBe("This is a wrapped dialogue block.");
+  });
+
+  it("discards stray header lines before the first speaker block", () => {
+    // Older transcripts occasionally prefix the dialogue with a speaker name
+    // alone and a '===' separator. These should be ignored, not merged.
+    const raw = [
+      "Peep",
+      "===",
+      "",
+      "Dave [0:00:01]: First real line.",
+    ].join("\n");
+    const lines = parseTranscriptText(raw);
+    expect(lines).toHaveLength(1);
+    expect(lines[0]!.text).toBe("First real line.");
+  });
 });
 
 describe("show notes + timestamps extraction", () => {

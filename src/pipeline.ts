@@ -105,6 +105,21 @@ async function scrapeOne(
   }
 }
 
+function maybeLogRollingCost(
+  episodesDone: number,
+  episodesTotal: number,
+  _episodeStartMs: number
+): void {
+  // Print a rolling cost snapshot every 10 episodes (and always on the last).
+  if (episodesDone % 10 !== 0 && episodesDone !== episodesTotal) return;
+  const usage = getUsage();
+  const { total_usd } = estimateCost(usage);
+  const avg = episodesDone > 0 ? (total_usd / episodesDone).toFixed(4) : "0";
+  console.log(
+    `[pipeline] rolling cost at ep ${episodesDone}/${episodesTotal}: $${total_usd.toFixed(4)} ($${avg}/ep avg)`
+  );
+}
+
 function affectedLabelsFor(
   practicesFiles: PracticesFile[]
 ): string[] {
@@ -229,13 +244,18 @@ export async function runPipeline(
   // The label library is incremental; each episode sees the labels that
   // existed when it ran. Running in parallel would let later episodes see
   // labels created by earlier ones only by race timing, distorting the curator.
+  console.log(
+    `[pipeline] --- stage 3: extract + curate (${newEpisodes.length} episodes, chronological) ---`
+  );
   for (let idx = 0; idx < newEpisodes.length; idx++) {
     const ep = newEpisodes[idx]!;
+    const progress = `ep ${ep.episode_number} (${idx + 1}/${newEpisodes.length})`;
     if (idx > 0) await delay(config.scrape_delay_ms);
     const rssEntry = rssEpisodes.find(
       (r) => r.episode.episode_number === ep.episode_number
     );
     if (!rssEntry) {
+      console.log(`[pipeline] ${progress}: rss entry missing, marking scrape_failed`);
       summary.scrape_failed.push(ep.episode_number);
       manifest = setStatus(
         readManifest(config.data_dir),
@@ -245,8 +265,11 @@ export async function runPipeline(
       writeManifest(config.data_dir, manifest);
       continue;
     }
+    console.log(`[pipeline] ${progress}: scraping`);
+    const t0 = Date.now();
     const { outcome, err } = await scrapeOne(rssEntry, config);
     if (outcome === "no_transcript") {
+      console.log(`[pipeline] ${progress}: no_transcript, skipping`);
       summary.no_transcript.push(ep.episode_number);
       manifest = setStatus(
         readManifest(config.data_dir),
@@ -258,7 +281,7 @@ export async function runPipeline(
     }
     if (outcome === "scrape_failed") {
       console.error(
-        `[pipeline] ep ${ep.episode_number} scrape failed: ${err ?? "unknown"}`
+        `[pipeline] ${progress}: scrape failed: ${err ?? "unknown"}`
       );
       summary.scrape_failed.push(ep.episode_number);
       manifest = setStatus(
@@ -272,6 +295,8 @@ export async function runPipeline(
     summary.scraped += 1;
 
     // Agent 1: extraction.
+    console.log(`[pipeline] ${progress}: extracting`);
+    const tExtractStart = Date.now();
     let practiceCount = 0;
     try {
       const { practicesFile, path } = await runExtractor(
@@ -280,6 +305,10 @@ export async function runPipeline(
         manifest
       );
       practiceCount = practicesFile.practices.length;
+      const extractSec = ((Date.now() - tExtractStart) / 1000).toFixed(1);
+      console.log(
+        `[pipeline] ${progress}: extracted ${practiceCount} practices in ${extractSec}s`
+      );
       summary.extracted.push({
         episode: ep.episode_number,
         practice_count: practiceCount,
@@ -315,16 +344,26 @@ export async function runPipeline(
 
     if (practiceCount === 0) {
       // Nothing to curate; keep the processed_no_practices status.
+      console.log(`[pipeline] ${progress}: no practices, skipping curation`);
+      maybeLogRollingCost(idx + 1, newEpisodes.length, t0);
       continue;
     }
 
     // Agent 1.5: label curation. Updates practices/{n}.json with assigned_labels
     // and appends to data/labels.json.
+    console.log(`[pipeline] ${progress}: curating labels`);
     try {
       const curatorResult = await runLabelCurator(
         ep.episode_number,
         config,
         ep.date
+      );
+      const libSize = Object.keys(curatorResult.labels.labels).length;
+      const newLabelsSuffix = curatorResult.newLabels.length
+        ? `, +${curatorResult.newLabels.length} new`
+        : "";
+      console.log(
+        `[pipeline] ${progress}: curated (library=${libSize} labels${newLabelsSuffix})`
       );
       summary.curated.push({
         episode: ep.episode_number,
@@ -333,7 +372,7 @@ export async function runPipeline(
       if (curatorResult.splitCandidates.length > 0) {
         for (const s of curatorResult.splitCandidates) {
           console.log(
-            `[pipeline] ep ${ep.episode_number} split candidate: ${s.existing_label} — ${s.reason}`
+            `[pipeline] ${progress} split candidate: ${s.existing_label} — ${s.reason}`
           );
         }
       }
@@ -347,7 +386,7 @@ export async function runPipeline(
     } catch (curErr) {
       const msg = curErr instanceof Error ? curErr.message : String(curErr);
       console.error(
-        `[pipeline] ep ${ep.episode_number} label curation failed: ${msg}`
+        `[pipeline] ${progress}: label curation failed: ${msg}`
       );
       summary.curation_failed.push(ep.episode_number);
       manifest = setStatus(
@@ -357,9 +396,11 @@ export async function runPipeline(
       );
       writeManifest(config.data_dir, manifest);
     }
+    maybeLogRollingCost(idx + 1, newEpisodes.length, t0);
   }
 
   // --- Step 4 + 5: rebuild category index from ALL processed episodes ---
+  console.log("[pipeline] --- stage 4: rebuild category index ---");
   manifest = readManifest(config.data_dir);
   manifest = { ...manifest, last_checked: new Date().toISOString() };
   writeManifest(config.data_dir, manifest);
@@ -367,6 +408,9 @@ export async function runPipeline(
   const practiceFiles = loadAllPracticeFiles(config.data_dir, manifest);
   const index = rebuildCategoryIndex(practiceFiles, manifest);
   writeCategoryIndex(config.data_dir, index);
+  console.log(
+    `[pipeline] category index: ${Object.keys(index.categories).length} total labels`
+  );
 
   // Labels touched by THIS run's newly-extracted episodes.
   const thisRunPractices = newEpisodes
@@ -394,6 +438,9 @@ export async function runPipeline(
   }
   summary.promoted_labels = promoted;
   summary.below_threshold_labels = belowThreshold;
+  console.log(
+    `[pipeline] promotion: ${promoted.length} above threshold, ${belowThreshold.length} below`
+  );
 
   // --- Step 7 + 8: disagreements on promoted labels (same threshold) ---
   const disagreementLimit = pLimit(config.max_parallel_skill_compilations);
@@ -401,6 +448,9 @@ export async function runPipeline(
     const data = index.categories[cat];
     return data ? meetsDisagreementThreshold(data, config) : false;
   });
+  console.log(
+    `[pipeline] --- stage 7: disagreement analysis on ${eligibleCategories.length} eligible labels ---`
+  );
   await Promise.all(
     eligibleCategories.map((cat) =>
       disagreementLimit(async () => {
@@ -409,6 +459,9 @@ export async function runPipeline(
           const { file } = await runDisagreementAnalyst(cat, data, config);
           summary.disagreements_per_category[cat] = file.disagreements.length;
           summary.disagreements_filtered[cat] = file.filtered_count;
+          console.log(
+            `[pipeline] disagreements ${cat}: ${file.disagreements.length} kept, ${file.filtered_count} filtered`
+          );
         } catch (err) {
           console.error(
             `[pipeline] disagreement analysis failed for ${cat}: ${
@@ -422,6 +475,9 @@ export async function runPipeline(
   rebuildDisagreementsIndex(config.data_dir);
 
   // --- Step 9: compile + review promoted labels only ---
+  console.log(
+    `[pipeline] --- stage 9: compile ${promoted.length} promoted skills (max ${config.max_parallel_skill_compilations} parallel) ---`
+  );
   const compileLimit = pLimit(config.max_parallel_skill_compilations);
   await Promise.all(
     promoted.map((cat) =>
@@ -429,6 +485,9 @@ export async function runPipeline(
         try {
           const result = await compileCategory(cat, index, config);
           if (result.status === "pass") {
+            console.log(
+              `[pipeline] compile ${cat}: pass (${result.cycles} cycle${result.cycles === 1 ? "" : "s"})`
+            );
             summary.skills_compiled.push({
               category: cat,
               status: "pass",
@@ -476,6 +535,9 @@ export async function runPipeline(
     );
     return entry?.status === "processed";
   });
+  console.log(
+    `[pipeline] --- stage 10: ${processedThisRun.length} episode analyses (max ${config.max_parallel_skill_compilations} parallel) ---`
+  );
   await Promise.all(
     processedThisRun.map((e) =>
       analystLimit(async () => {

@@ -2,21 +2,56 @@ import * as cheerio from "cheerio";
 import type { RssEpisode } from "./rss.js";
 import type { TranscriptFile, TranscriptLine } from "./types.js";
 
-const LINE_RE = /^([A-Za-z][A-Za-z0-9 .'-]*?)\s*\[(\d{1,2}:\d{2}:\d{2})\]:\s*(.*)$/;
+// Transistor emits transcripts in at least three line layouts we've observed
+// across the Exit Five archive. Each regex captures speaker (group 1),
+// timestamp (group 2), and optional same-line text (group 3).
+//
+//  A: "Speaker [H:MM:SS]: Text"           - recent (2024-2026 episodes)
+//  B: "Speaker [H:MM:SS]:" then \n then "Text..." - mid-era; dialogue on next line(s)
+//  C: "Speaker: [H:MM:SS] Text"            - older episodes; colon precedes timestamp
+//
+// Pattern A and B share the same header regex — B just has an empty text capture.
+const LINE_RE_A_OR_B = /^([A-Za-z][A-Za-z0-9 .'-]*?)\s*\[(\d{1,2}:\d{2}:\d{2})\]:\s*(.*)$/;
+const LINE_RE_C = /^([A-Za-z][A-Za-z0-9 .'-]*?):\s*\[(\d{1,2}:\d{2}:\d{2})\]\s*(.*)$/;
+
+interface PartialLine {
+  speaker: string;
+  timestamp: string;
+  textParts: string[];
+}
+
+function commit(lines: TranscriptLine[], partial: PartialLine | null): void {
+  if (!partial) return;
+  const text = partial.textParts.join(" ").replace(/\s+/g, " ").trim();
+  if (text.length === 0) return;
+  lines.push({ speaker: partial.speaker, timestamp: partial.timestamp, text });
+}
 
 export function parseTranscriptText(text: string): TranscriptLine[] {
   const lines: TranscriptLine[] = [];
+  let current: PartialLine | null = null;
   for (const raw of text.split(/\r?\n/)) {
     const trimmed = raw.trim();
     if (!trimmed) continue;
-    const m = trimmed.match(LINE_RE);
-    if (!m) continue;
-    lines.push({
-      speaker: m[1]!.trim(),
-      timestamp: m[2]!,
-      text: m[3]!.trim(),
-    });
+    const m = trimmed.match(LINE_RE_A_OR_B) ?? trimmed.match(LINE_RE_C);
+    if (m) {
+      // Start of a new speaker block: commit any in-progress block first.
+      commit(lines, current);
+      const sameLineText = (m[3] ?? "").trim();
+      current = {
+        speaker: m[1]!.trim(),
+        timestamp: m[2]!,
+        textParts: sameLineText ? [sameLineText] : [],
+      };
+    } else if (current) {
+      // Continuation line: append to the current block's text.
+      current.textParts.push(trimmed);
+    }
+    // Lines that don't match a header and have no current block (e.g., the
+    // stray "Peep\n===" prefix seen on some old transcripts) are silently
+    // dropped.
   }
+  commit(lines, current);
   return lines;
 }
 
