@@ -68,6 +68,46 @@ describe("isNonEpisodeTitle", () => {
   });
 });
 
+describe("parseRssXml handles items without podcast:transcript tags", () => {
+  // Regression test: items missing <podcast:transcript> must surface as
+  // transcript_url: null so the scraper marks them no_transcript. A prior
+  // buggy fallback returned a neighboring item's URL, silently processing
+  // 10 early episodes against the wrong transcript.
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Test</title>
+    <item>
+      <title>#346: Recent episode with transcript</title>
+      <itunes:episode>346</itunes:episode>
+      <guid>guid-346</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <podcast:transcript url="https://share.transistor.fm/s/346abc/transcript.txt" type="text/plain"/>
+    </item>
+    <item>
+      <title>#3: Old episode with no transcript</title>
+      <itunes:episode>3</itunes:episode>
+      <guid>guid-3</guid>
+      <pubDate>Mon, 16 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>`;
+
+  it("returns transcript_url for items with the tag", async () => {
+    const result = await parseRssXml(xml, "https://exitfive.com/podcast");
+    const ep346 = result.find((e) => e.episode.episode_number === 346);
+    expect(ep346!.transcript_url).toBe(
+      "https://share.transistor.fm/s/346abc/transcript.txt"
+    );
+  });
+
+  it("returns null transcript_url for items without the tag (no cross-item bleed)", async () => {
+    const result = await parseRssXml(xml, "https://exitfive.com/podcast");
+    const ep3 = result.find((e) => e.episode.episode_number === 3);
+    expect(ep3!.transcript_url).toBeNull();
+  });
+});
+
 describe("parseRssXml drops non-episode promo items", () => {
   const promoXml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">

@@ -38,6 +38,7 @@ import {
   loadTranscript,
 } from "./agents/episode-analyst.js";
 import { publish, type PublishResult } from "./publisher.js";
+import { getUsage, estimateCost } from "./anthropic.js";
 
 function writeJson(path: string, value: unknown): void {
   mkdirSync(dirname(path), { recursive: true });
@@ -51,6 +52,10 @@ export interface RunOptions {
   backfill?: boolean;
   noFloor?: boolean;
   concurrency?: number;
+  /** Cap the number of episodes processed this run (applied after chronological sort). */
+  limit?: number;
+  /** Skip the publisher step at the end. Local artifacts still get written. */
+  noPublish?: boolean;
 }
 
 export interface RunSummary {
@@ -172,6 +177,42 @@ export async function runPipeline(
     if (a.date !== b.date) return a.date < b.date ? -1 : 1;
     return a.episode_number - b.episode_number;
   });
+  // Dedupe by episode_number. Transistor occasionally tags two different items
+  // with the same itunes:episode value; the chronological sort above means the
+  // earliest one wins. Warn loudly on each skip so the drop is auditable.
+  {
+    const seen = new Set<number>();
+    const deduped: ManifestEpisode[] = [];
+    for (const e of newEpisodes) {
+      if (seen.has(e.episode_number)) {
+        console.warn(
+          `[pipeline] duplicate episode_number ${e.episode_number}: dropping later item "${e.title.slice(0, 80)}"`
+        );
+        continue;
+      }
+      seen.add(e.episode_number);
+      deduped.push(e);
+    }
+    newEpisodes = deduped;
+  }
+  if (opts.limit !== undefined && opts.limit > 0) {
+    // Apply the limit only to episodes that have a transcript URL, so that a
+    // limit of N yields N actual extractions instead of burning the cap on
+    // older items that will resolve to no_transcript. Episodes without a
+    // transcript URL are still included in newEpisodes so the pipeline marks
+    // them appropriately — we just don't count them against the cap.
+    const rssByNumber = new Map(
+      rssEpisodes.map((r) => [r.episode.episode_number, r])
+    );
+    let kept = 0;
+    newEpisodes = newEpisodes.filter((e) => {
+      const rssEntry = rssByNumber.get(e.episode_number);
+      if (!rssEntry?.transcript_url) return false;
+      if (kept >= opts.limit!) return false;
+      kept += 1;
+      return true;
+    });
+  }
   summary.new_episodes = newEpisodes;
 
   if (opts.dryRun) {
@@ -473,15 +514,19 @@ export async function runPipeline(
   );
 
   // --- Step 11 + 12: publish ---
-  try {
-    summary.publish = await publish(
-      { data_dir: config.data_dir, skills_dir: config.skills_dir },
-      { episodesThisRun: processedThisRun }
-    );
-  } catch (err) {
-    console.error(
-      `[pipeline] publish failed: ${err instanceof Error ? err.message : String(err)}`
-    );
+  if (opts.noPublish) {
+    console.log("[pipeline] skipping publish step (--no-publish)");
+  } else {
+    try {
+      summary.publish = await publish(
+        { data_dir: config.data_dir, skills_dir: config.skills_dir },
+        { episodesThisRun: processedThisRun }
+      );
+    } catch (err) {
+      console.error(
+        `[pipeline] publish failed: ${err instanceof Error ? err.message : String(err)}`
+      );
+    }
   }
 
   return summary;
@@ -509,6 +554,20 @@ export function logSummary(summary: RunSummary): void {
     );
   }
   console.log(`episode analyses:       ${summary.episode_analyses.length}`);
+
+  const usage = getUsage();
+  const perModel = Object.entries(usage);
+  if (perModel.length > 0) {
+    const cost = estimateCost(usage);
+    console.log(`api usage (this process):`);
+    for (const [model, u] of perModel) {
+      console.log(
+        `  ${model.padEnd(32)} calls=${u.call_count} in=${u.input_tokens} out=${u.output_tokens}`
+      );
+    }
+    console.log(`  total cost estimate:        $${cost.total_usd.toFixed(4)}`);
+  }
+
   if (summary.publish) {
     console.log(
       `publish: changed=${summary.publish.changed} copied_disagreements=${summary.publish.copied_disagreements.length} copied_analyses=${summary.publish.copied_analyses.length}`

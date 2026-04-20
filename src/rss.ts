@@ -56,21 +56,6 @@ export function isoDate(item: RssItem): string {
   return "";
 }
 
-function extractPodcastTranscriptUrl(rawXml: string, guid: string): string | null {
-  if (!guid) return null;
-  // Find the <item> block containing this guid, then look inside it for podcast:transcript
-  const guidEsc = guid.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
-  const itemRe = new RegExp(
-    `<item>([\\s\\S]*?<guid[^>]*>${guidEsc}</guid>[\\s\\S]*?)</item>`,
-    "i"
-  );
-  const m = rawXml.match(itemRe);
-  if (!m) return null;
-  const block = m[1] ?? "";
-  const txMatch = block.match(/<podcast:transcript[^>]*url="([^"]+)"[^>]*>/i);
-  return txMatch?.[1] ?? null;
-}
-
 // Feed items whose titles match these patterns are promo/hiring/announcement
 // posts that Transistor sometimes tags with a duplicate itunes:episode number.
 // They are not main podcast episodes and should be skipped before they enter
@@ -121,17 +106,20 @@ export async function parseRssXml(
   for (const raw of feed.items as ExtendedFeedItem[]) {
     const episode = rssItemToEpisode(raw, baseEpisodeUrl);
     if (!episode) continue;
-    // rss-parser returns attribute-only elements as { $: { url: ... } } or the attribute value
-    // depending on parser quirks. Be defensive and fall back to raw regex.
+    // Self-closing <podcast:transcript url="..." type="text/plain"/> tags show up
+    // on rss-parser's customFields path as { $: { url, type } }. Only treat the
+    // item as having a transcript when that shape is present. If the tag is
+    // missing entirely, leave transcript_url null — the scraper will mark the
+    // episode no_transcript and skip. Do NOT fall back to any cross-item regex
+    // search; that previously assigned a nearby item's transcript URL to items
+    // that had no tag, silently producing garbage extractions.
     let transcriptUrl: string | null = null;
     const tx = (raw as unknown as { podcast_transcript_url?: unknown }).podcast_transcript_url;
-    if (typeof tx === "string") transcriptUrl = tx;
-    else if (tx && typeof tx === "object" && "$" in (tx as object)) {
+    if (typeof tx === "string" && tx.startsWith("http")) {
+      transcriptUrl = tx;
+    } else if (tx && typeof tx === "object" && "$" in (tx as object)) {
       const dollar = (tx as { $?: { url?: string } }).$;
-      if (dollar?.url) transcriptUrl = dollar.url;
-    }
-    if (!transcriptUrl) {
-      transcriptUrl = extractPodcastTranscriptUrl(xml, episode.rss_guid);
+      if (dollar?.url && dollar.url.startsWith("http")) transcriptUrl = dollar.url;
     }
     const description =
       raw["content:encoded"] ?? raw.content ?? raw.itunes?.summary ?? "";

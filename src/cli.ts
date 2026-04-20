@@ -421,10 +421,14 @@ program
   .description("Scrape and process all available episodes")
   .option("--no-floor", "Attempt episodes below min_episode_number too")
   .option("--concurrency <n>", "Override max_parallel_extractions", (v) => Number(v))
+  .option("--limit <n>", "Cap the number of episodes processed this run (chronological from oldest)", (v) => Number(v))
+  .option("--no-publish", "Skip the publisher step at the end (local artifacts still written)")
   .option("--dry-run", "Show what would change without writing files")
   .action(async (opts: {
     noFloor?: boolean;
     concurrency?: number;
+    limit?: number;
+    publish?: boolean;
     dryRun?: boolean;
   }) => {
     const config = loadConfig();
@@ -435,6 +439,10 @@ program
       backfill: true,
       noFloor: opts.noFloor,
       concurrency: opts.concurrency,
+      limit: opts.limit,
+      // commander inverts --no-publish: opts.publish is false when flag is present,
+      // undefined (treated as true) otherwise.
+      noPublish: opts.publish === false,
     });
     if (opts.dryRun) {
       console.log(`backfill candidates: ${summary.new_episodes.length}`);
