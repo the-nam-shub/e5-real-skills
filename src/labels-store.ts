@@ -115,3 +115,61 @@ export function meetsPromotionThreshold(
 ): boolean {
   return label.practice_count >= minPractices;
 }
+
+/**
+ * Rebuild labels.json from scratch by replaying every practice file's
+ * assigned_labels in chronological order. Intended for bulk edits (manual
+ * split/merge passes after backfill) where incremental curator-driven updates
+ * are no longer in sync with practice files. Preserves descriptions from the
+ * existing labels.json where possible; labels that don't have a prior
+ * description get an empty string.
+ */
+export function rebuildLabelsFromPractices(
+  practiceFiles: Array<{
+    episode_number: number;
+    practices: Array<{ practice_id: string; assigned_labels: string[] }>;
+  }>,
+  episodeDateByNumber: Map<number, string>,
+  existingLabels: LabelsFile
+): LabelsFile {
+  const ordered = [...practiceFiles].sort((a, b) => {
+    const aDate = episodeDateByNumber.get(a.episode_number) ?? "";
+    const bDate = episodeDateByNumber.get(b.episode_number) ?? "";
+    if (aDate !== bDate) return aDate < bDate ? -1 : 1;
+    return a.episode_number - b.episode_number;
+  });
+
+  let labels: LabelsFile = {
+    labels: {},
+    last_updated: new Date(0).toISOString(),
+  };
+
+  for (const pf of ordered) {
+    const epDate = episodeDateByNumber.get(pf.episode_number) ?? "";
+    const assignments = pf.practices
+      .filter((p) => p.assigned_labels.length > 0)
+      .map((p) => ({
+        practice_id: p.practice_id,
+        assigned_labels: p.assigned_labels,
+      }));
+    const knownSlugs = new Set(Object.keys(labels.labels));
+    const newLabelSlugs = new Set(
+      assignments.flatMap((a) => a.assigned_labels).filter((s) => !knownSlugs.has(s))
+    );
+    const newLabels = [...newLabelSlugs].map((slug) => ({
+      label: slug,
+      // Preserve description from prior labels.json if it had one, else blank.
+      description: existingLabels.labels[slug]?.description ?? "",
+      first_introduced_by_practice_id:
+        assignments.find((a) => a.assigned_labels.includes(slug))?.practice_id ?? "",
+    }));
+    labels = applyEpisodeToLabels(labels, {
+      episodeNumber: pf.episode_number,
+      episodeDate: epDate,
+      assignments,
+      newLabels,
+    });
+  }
+
+  return labels;
+}
