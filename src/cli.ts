@@ -423,12 +423,17 @@ program
   .option("--concurrency <n>", "Override max_parallel_extractions", (v) => Number(v))
   .option("--limit <n>", "Cap the number of episodes processed this run (chronological from oldest)", (v) => Number(v))
   .option("--no-publish", "Skip the publisher step at the end (local artifacts still written)")
+  .option(
+    "--extract-only",
+    "Stop after stage 3 (extraction + label curation). Skips disagreements, compile, analyses, publish. Useful for chunked backfills — run the downstream commands (disagreements / compile / analyze --all) once at the end."
+  )
   .option("--dry-run", "Show what would change without writing files")
   .action(async (opts: {
     noFloor?: boolean;
     concurrency?: number;
     limit?: number;
     publish?: boolean;
+    extractOnly?: boolean;
     dryRun?: boolean;
   }) => {
     const config = loadConfig();
@@ -443,6 +448,7 @@ program
       // commander inverts --no-publish: opts.publish is false when flag is present,
       // undefined (treated as true) otherwise.
       noPublish: opts.publish === false,
+      extractOnly: opts.extractOnly,
     });
     if (opts.dryRun) {
       console.log(`backfill candidates: ${summary.new_episodes.length}`);

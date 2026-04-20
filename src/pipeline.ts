@@ -56,6 +56,13 @@ export interface RunOptions {
   limit?: number;
   /** Skip the publisher step at the end. Local artifacts still get written. */
   noPublish?: boolean;
+  /**
+   * Stop after stage 3 (extraction + label curation). Skips rebuilding the
+   * category index, disagreement analysis, skill compilation, episode
+   * analyses, and publish. Intended for chunked backfills where the
+   * downstream work should run once at the end rather than per-chunk.
+   */
+  extractOnly?: boolean;
 }
 
 export interface RunSummary {
@@ -397,6 +404,17 @@ export async function runPipeline(
       writeManifest(config.data_dir, manifest);
     }
     maybeLogRollingCost(idx + 1, newEpisodes.length, t0);
+  }
+
+  if (opts.extractOnly) {
+    console.log(
+      `[pipeline] --extract-only: stopping after stage 3. ` +
+        `extracted=${summary.extracted.length} ` +
+        `no_transcript=${summary.no_transcript.length} ` +
+        `extraction_failed=${summary.extraction_failed.length} ` +
+        `curation_failed=${summary.curation_failed.length}`
+    );
+    return summary;
   }
 
   // --- Step 4 + 5: rebuild category index from ALL processed episodes ---
