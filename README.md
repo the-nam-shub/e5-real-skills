@@ -12,15 +12,15 @@ Every recommendation in these skills traces back to a specific guest, a specific
 
 ## Where the Experts Disagree
 
-Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
+Not every best practice is settled. When podcast guests give conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
 
-**9 notable debates** are curated in [`FEATURED_DEBATES.md`](./FEATURED_DEBATES.md) — hand-picked for what's genuinely contested between thoughtful practitioners.
+**9 notable debates** are curated in [`FEATURED_DEBATES.md`](./FEATURED_DEBATES.md), selected for what's genuinely contested between thoughtful practitioners.
 
-All 264 disagreements are available as structured JSON in [`/disagreements`](./disagreements/). Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
+All 264 disagreements are available as structured JSON in [`/disagreements`](./disagreements/).
 
 ## Per-Episode Analysis
 
-Every processed episode produces a short analytical write-up covering what it added to the knowledge base: new practices extracted, which skills were updated, and any disagreements it surfaced or reinforced.
+Every processed episode produces a short write-up covering what it added to the knowledge base: new practices extracted, which skills were updated, and any disagreements it surfaced or reinforced.
 
 See [`/episode-analyses`](./episode-analyses/) for all analyses.
 
