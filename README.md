@@ -10,6 +10,33 @@ Every recommendation in these skills traces back to a specific guest, a specific
 2. Copy any `SKILL.md` file into your Claude Project's skill directory
 3. Claude will automatically apply the skill when relevant to your task
 
+## Where the Experts Disagree
+
+Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
+
+**9 notable debates** are curated in [`FEATURED_DEBATES.md`](./FEATURED_DEBATES.md) — hand-picked for what's genuinely contested between thoughtful practitioners.
+
+All 264 disagreements are available as structured JSON in [`/disagreements`](./disagreements/). Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
+
+## Per-Episode Analysis
+
+Every processed episode produces a short analytical write-up covering what it added to the knowledge base: new practices extracted, which skills were updated, and any disagreements it surfaced or reinforced.
+
+See [`/episode-analyses`](./episode-analyses/) for all analyses.
+
+## How It Works
+
+This repo is maintained by an automated pipeline that:
+1. Monitors the Exit Five podcast RSS feed for new episodes
+2. Pulls transcripts directly from the `podcast:transcript` URL in the RSS
+3. Uses Claude Haiku to identify specific, actionable best practices (not vague advice)
+4. Detects genuine disagreements between experts across episodes, with support counts
+5. Compiles practices into skill files, organized by marketing function
+6. Generates a per-episode analysis explaining what each new episode contributed
+7. Publishes updates after each new episode
+
+Every practice requires a specificity score of 3+ (out of 5) to be included. Generic advice like "know your audience" gets filtered out. What remains is the stuff you can actually do on Monday morning.
+
 ## Available Skills
 
 | Skill | Practices | Episodes | Last Updated |
@@ -161,33 +188,6 @@ Every recommendation in these skills traces back to a specific guest, a specific
 | [Win Loss Analysis](./skills/win-loss-analysis/SKILL.md) | 23 | 8 | 2026-04-21 |
 | [Workplace Communication And Feedback](./skills/workplace-communication-and-feedback/SKILL.md) | 13 | 8 | 2026-04-21 |
 | [Workplace Wellbeing And Mental Health](./skills/workplace-wellbeing-and-mental-health/SKILL.md) | 21 | 7 | 2026-04-21 |
-
-## Where the Experts Disagree
-
-Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
-
-**9 notable debates** are curated in [`FEATURED_DEBATES.md`](./FEATURED_DEBATES.md) — hand-picked for what's genuinely contested between thoughtful practitioners.
-
-All 264 disagreements are available as structured JSON in [`/disagreements`](./disagreements/). Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
-
-## Per-Episode Analysis
-
-Every processed episode produces a short analytical write-up covering what it added to the knowledge base: new practices extracted, which skills were updated, and any disagreements it surfaced or reinforced.
-
-See [`/episode-analyses`](./episode-analyses/) for all analyses.
-
-## How It Works
-
-This repo is maintained by an automated pipeline that:
-1. Monitors the Exit Five podcast RSS feed for new episodes
-2. Pulls transcripts directly from the `podcast:transcript` URL in the RSS
-3. Uses Claude Haiku to identify specific, actionable best practices (not vague advice)
-4. Detects genuine disagreements between experts across episodes, with support counts
-5. Compiles practices into skill files, organized by marketing function
-6. Generates a per-episode analysis explaining what each new episode contributed
-7. Publishes updates after each new episode
-
-Every practice requires a specificity score of 3+ (out of 5) to be included. Generic advice like "know your audience" gets filtered out. What remains is the stuff you can actually do on Monday morning.
 
 ## Attribution
 
