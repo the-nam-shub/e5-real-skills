@@ -125,6 +125,7 @@ describe("renderReadme", () => {
           margin: 2,
         },
       ],
+      featuredDebateCount: 5,
     });
     expect(md).toMatch(/^# Exit Five B2B Marketing Skills for Claude/);
     expect(md).toContain("## How to Use");
@@ -135,8 +136,9 @@ describe("renderReadme", () => {
     expect(md).toContain("## Attribution");
     // Deterministic content: skill row appears
     expect(md).toContain("[Ai In Marketing](./skills/ai-in-marketing/SKILL.md)");
-    // Disagreement row appears (ranked + filtered in the README render)
-    expect(md).toContain("| X? | Ai In Marketing | 3 vs 1 |");
+    // Featured debates link appears
+    expect(md).toContain("[`FEATURED_DEBATES.md`](./FEATURED_DEBATES.md)");
+    expect(md).toContain("**5 notable debates**");
   });
 
   it("produces byte-stable output for the same inputs", () => {
@@ -150,6 +152,7 @@ describe("renderReadme", () => {
         },
       ],
       disagreementRows: [],
+      featuredDebateCount: 0,
     };
     expect(renderReadme(inputs)).toBe(renderReadme(inputs));
   });

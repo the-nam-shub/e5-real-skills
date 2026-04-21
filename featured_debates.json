@@ -1,0 +1,14 @@
+{
+  "description": "Curated list of disagreements featured in FEATURED_DEBATES.md. Order here = order on the page.",
+  "debates": [
+    { "category": "ai-adoption-and-team-enablement", "id": "ai-adoption-dedicated-role-vs-distributed-responsibility" },
+    { "category": "ai-content-creation-and-repurposing", "id": "ai-as-content-generator-vs-assistant" },
+    { "category": "ai-search-optimization", "id": "own-site-vs-third-party-content-for-ai-visibility" },
+    { "category": "ai-search-optimization", "id": "seo-investment-vs-abandonment" },
+    { "category": "brand-and-content-demand-creation", "id": "gating-content-yes-or-no" },
+    { "category": "brand-and-content-demand-creation", "id": "founder-vs-multi-voice-brand-building" },
+    { "category": "category-creation-strategy", "id": "category-creation-vs-existing-category-competition" },
+    { "category": "channel-strategy", "id": "single-channel-focus-vs-multi-channel-diversification" },
+    { "category": "executive-stakeholder-management", "id": "marketing-reporting-to-cro" }
+  ]
+}

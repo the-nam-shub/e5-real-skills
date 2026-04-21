@@ -13,10 +13,21 @@ import { parse as parseYaml } from "yaml";
 import { simpleGit, type SimpleGit } from "simple-git";
 import type {
   CategoryIndex,
+  Disagreement,
   DisagreementsFile,
   DisagreementsIndex,
   ManifestEpisode,
 } from "./types.js";
+
+interface FeaturedDebateRef {
+  category: string;
+  id: string;
+}
+
+interface FeaturedDebatesConfig {
+  description?: string;
+  debates: FeaturedDebateRef[];
+}
 
 export interface PublishOptions {
   dryRun?: boolean;
@@ -157,23 +168,6 @@ export function collectDisagreementRows(
   return rows;
 }
 
-const README_DISAGREEMENT_LIMIT = 10;
-const README_DISAGREEMENT_MIN_SUPPORT = 3;
-
-export function rankDisagreementsForReadme(
-  rows: DisagreementRow[]
-): DisagreementRow[] {
-  return rows
-    .filter((r) => r.total_supporters >= README_DISAGREEMENT_MIN_SUPPORT)
-    .sort((a, b) => {
-      if (b.total_supporters !== a.total_supporters) {
-        return b.total_supporters - a.total_supporters;
-      }
-      return b.margin - a.margin;
-    })
-    .slice(0, README_DISAGREEMENT_LIMIT);
-}
-
 function renderSkillsTable(rows: SkillRow[]): string {
   if (rows.length === 0) return "_No skills compiled yet._";
   const header =
@@ -185,6 +179,82 @@ function renderSkillsTable(rows: SkillRow[]): string {
     )
     .join("\n");
   return `${header}\n${body}`;
+}
+
+export function loadFeaturedDebatesConfig(repoRoot: string): FeaturedDebatesConfig | null {
+  const p = resolve(repoRoot, "featured_debates.json");
+  if (!existsSync(p)) return null;
+  const parsed = JSON.parse(readFileSync(p, "utf8")) as FeaturedDebatesConfig;
+  if (!Array.isArray(parsed.debates)) return null;
+  return parsed;
+}
+
+function loadDebateByRef(dataDir: string, ref: FeaturedDebateRef): Disagreement | null {
+  const p = resolve(dataDir, "disagreements", `${ref.category}.json`);
+  if (!existsSync(p)) return null;
+  const file = JSON.parse(readFileSync(p, "utf8")) as DisagreementsFile;
+  return file.disagreements.find((d) => d.disagreement_id === ref.id) ?? null;
+}
+
+function renderDebateSection(d: Disagreement, index: number): string {
+  const anchor = d.disagreement_id;
+  const categoryLink = `[\`${d.category}\`](./skills/${d.category}/SKILL.md#where-experts-disagree)`;
+  // Dedupe supporters per position by (name, episode) — multiple practice cites
+  // from the same guest in the same episode count as one voice.
+  const dedupedPositions = d.positions.map((p) => {
+    const names = p.supporters
+      .map((s) => `${s.guest_name} (Ep #${s.episode_number})`)
+      .filter((v, i, arr) => arr.indexOf(v) === i);
+    return { stance: p.stance, names };
+  });
+  const supportSummary = dedupedPositions.map((p) => p.names.length).join(" vs ");
+  const parts: string[] = [];
+  parts.push(`## ${index}. ${d.title} {#${anchor}}`);
+  parts.push(`**Support: ${supportSummary}** · From ${categoryLink}`);
+  parts.push("");
+  parts.push(`> ${d.why_it_matters}`);
+  parts.push("");
+  for (const p of dedupedPositions) {
+    parts.push(`**${p.stance}**`);
+    parts.push(`*Supporters (${p.names.length}):* ${p.names.join(", ")}`);
+    parts.push("");
+  }
+  if (d.context_dependency) {
+    parts.push(`**Context:** ${d.context_dependency}`);
+    parts.push("");
+  }
+  return parts.join("\n");
+}
+
+export function renderFeaturedDebatesMarkdown(
+  config: FeaturedDebatesConfig,
+  dataDir: string
+): { markdown: string; resolved: Disagreement[]; missing: FeaturedDebateRef[] } {
+  const resolved: Disagreement[] = [];
+  const missing: FeaturedDebateRef[] = [];
+  for (const ref of config.debates) {
+    const d = loadDebateByRef(dataDir, ref);
+    if (d) resolved.push(d);
+    else missing.push(ref);
+  }
+  const header = `# Featured Debates in B2B Marketing
+
+A hand-picked set of genuine disagreements between Exit Five guests — moments where thoughtful practitioners give opposite advice on the same question.
+
+Each debate here was selected from the full corpus in [\`/disagreements\`](./disagreements/). Every disagreement reproduced across two independent analyst runs on the same practice set (a stability filter), so these aren't one-off quotes taken out of context — they're patterns.
+
+---
+
+`;
+  const body = resolved
+    .map((d, i) => renderDebateSection(d, i + 1))
+    .join("\n---\n\n");
+  const footer = `
+---
+
+_Want every disagreement, not just the featured ones? See [\`/disagreements\`](./disagreements/) for the full structured data._
+`;
+  return { markdown: header + body + footer, resolved, missing };
 }
 
 function renderDisagreementsTable(rows: DisagreementRow[]): string {
@@ -205,14 +275,15 @@ function renderDisagreementsTable(rows: DisagreementRow[]): string {
 export interface ReadmeInputs {
   skillRows: SkillRow[];
   disagreementRows: DisagreementRow[];
+  featuredDebateCount: number;
 }
 
 export function renderReadme(inputs: ReadmeInputs): string {
   return `# Exit Five B2B Marketing Skills for Claude
 
-Claude skill files grounded in actual best practices from [The Dave Gerhardt Show (Exit Five)](https://exitfive.com/podcast) — not general knowledge, not AI-generated fluff.
+Claude skill files grounded in expert best practices from [The Dave Gerhardt Show (Exit Five)](https://exitfive.com/podcast), not superficial advice with a pretty wrapper.
 
-Every recommendation in these skills traces back to a specific guest, a specific episode, and a specific thing they said. If a topic isn't covered, it's because no guest has addressed it yet.
+Every recommendation in these skills traces back to a specific guest, a specific episode, and a specific "practice" they detailed. If a topic isn't covered, it's because no guest has addressed it yet.
 
 ## How to Use
 
@@ -228,13 +299,11 @@ ${renderSkillsTable(inputs.skillRows)}
 
 Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
 
-**Top ${README_DISAGREEMENT_LIMIT} debates by guest engagement** (ranked by total supporters across positions, with lopsided debates breaking ties):
+${inputs.featuredDebateCount > 0
+  ? `**${inputs.featuredDebateCount} notable debates** are curated in [\`FEATURED_DEBATES.md\`](./FEATURED_DEBATES.md) — hand-picked for what's genuinely contested between thoughtful practitioners.`
+  : `See [\`/disagreements\`](./disagreements/) for the full structured data.`}
 
-${renderDisagreementsTable(rankDisagreementsForReadme(inputs.disagreementRows))}
-
-Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
-
-Browse all ${inputs.disagreementRows.length} disagreements in [\`/disagreements\`](./disagreements/).
+All ${inputs.disagreementRows.length} disagreements are available as structured JSON in [\`/disagreements\`](./disagreements/). Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
 
 ## Per-Episode Analysis
 
@@ -343,8 +412,36 @@ export async function publish(
     : { categories: {}, last_updated: new Date(0).toISOString() };
   const skillRows = collectSkillRows(skills_dir, categoryIndex);
   const disagreementRows = collectDisagreementRows(data_dir);
+
+  // Featured debates — optional curated highlight file.
+  const featuredConfig = loadFeaturedDebatesConfig(repoRoot);
+  let featuredMarkdown: string | null = null;
+  let featuredCount = 0;
+  let featuredMissing: FeaturedDebateRef[] = [];
+  if (featuredConfig && featuredConfig.debates.length > 0) {
+    const rendered = renderFeaturedDebatesMarkdown(featuredConfig, data_dir);
+    featuredMarkdown = rendered.markdown;
+    featuredCount = rendered.resolved.length;
+    featuredMissing = rendered.missing;
+    if (featuredMissing.length > 0) {
+      console.warn(
+        `[publisher] ${featuredMissing.length} featured debate(s) in featured_debates.json not found: ` +
+          featuredMissing.map((m) => `${m.category}/${m.id}`).join(", ")
+      );
+    }
+  }
+  const featuredDebatesPath = resolve(repoRoot, "FEATURED_DEBATES.md");
+  const currentFeatured = existsSync(featuredDebatesPath)
+    ? readFileSync(featuredDebatesPath, "utf8")
+    : "";
+  const featuredChanged = featuredMarkdown !== null && currentFeatured !== featuredMarkdown;
+
   const readmePath = resolve(repoRoot, "README.md");
-  const readme = renderReadme({ skillRows, disagreementRows });
+  const readme = renderReadme({
+    skillRows,
+    disagreementRows,
+    featuredDebateCount: featuredCount,
+  });
   const currentReadme = existsSync(readmePath) ? readFileSync(readmePath, "utf8") : "";
   const readmeChanged = currentReadme !== readme;
 
@@ -363,11 +460,12 @@ export async function publish(
       changed:
         plannedDisagreements.length > 0 ||
         plannedAnalyses.length > 0 ||
-        readmeChanged,
+        readmeChanged ||
+        featuredChanged,
     };
   }
 
-  // Non-dry-run path: actually mirror + write README.
+  // Non-dry-run path: actually mirror + write README + featured debates file.
   const copiedDisagreements = mirrorDir(disagreementsSrc, disagreementsDest, (n) =>
     n.endsWith(".json")
   );
@@ -375,8 +473,17 @@ export async function publish(
     n.endsWith(".md")
   );
   if (readmeChanged) atomicWriteText(readmePath, readme);
+  if (featuredChanged && featuredMarkdown !== null) {
+    atomicWriteText(featuredDebatesPath, featuredMarkdown);
+  }
 
-  const stagePaths = ["skills", "disagreements", "episode-analyses", "README.md"];
+  const stagePaths = [
+    "skills",
+    "disagreements",
+    "episode-analyses",
+    "README.md",
+    "FEATURED_DEBATES.md",
+  ];
 
   const git = simpleGit({ baseDir: repoRoot });
   const message = buildCommitMessage(opts.episodesThisRun ?? []);
