@@ -138,7 +138,7 @@ export async function writeSkill(
     model: config.compilation_model,
     system: SKILL_WRITER_SYSTEM_PROMPT,
     user: buildPracticesPayload(input),
-    max_tokens: 8192,
+    max_tokens: 32000,
     temperature: 0,
   });
   const markdown = stripFence(raw);
@@ -168,7 +168,7 @@ export async function reviseSkill(
     model: config.compilation_model,
     system: SKILL_WRITER_SYSTEM_PROMPT,
     user,
-    max_tokens: 8192,
+    max_tokens: 32000,
     temperature: 0,
   });
   const markdown = stripFence(raw);
@@ -204,7 +204,7 @@ export async function reviseSkillRemovingFlagged(
     model: config.compilation_model,
     system: SKILL_WRITER_SYSTEM_PROMPT,
     user,
-    max_tokens: 8192,
+    max_tokens: 32000,
     temperature: 0,
   });
   const markdown = stripFence(raw);
