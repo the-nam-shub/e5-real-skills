@@ -1,8 +1,8 @@
 # Exit Five B2B Marketing Skills for Claude
 
-Claude skill files grounded in actual best practices from [The Dave Gerhardt Show (Exit Five)](https://exitfive.com/podcast) — not general knowledge, not AI-generated fluff.
+Claude skill files grounded in expert best practices from [The Dave Gerhardt Show (Exit Five)](https://exitfive.com/podcast), not superficial advice with a pretty wrapper.
 
-Every recommendation in these skills traces back to a specific guest, a specific episode, and a specific thing they said. If a topic isn't covered, it's because no guest has addressed it yet.
+Every recommendation in these skills traces back to a specific guest, a specific episode, and a specific "practice" they detailed. If a topic isn't covered, it's because no guest has addressed it yet.
 
 ## How to Use
 
