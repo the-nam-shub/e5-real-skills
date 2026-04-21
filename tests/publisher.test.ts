@@ -90,11 +90,12 @@ describe("renderDisagreementsTable", () => {
         title: "Will AI replace or enable marketers?",
         category: "ai-in-marketing",
         support_summary: "1 vs 1",
-        type: "2 positions",
+        total_supporters: 2,
+        margin: 0,
       },
     ]);
-    expect(out).toContain("| Debate | Category | Support | Type |");
-    expect(out).toContain("| Will AI replace or enable marketers? | Ai In Marketing | 1 vs 1 | 2 positions |");
+    expect(out).toContain("| Debate | Category | Support |");
+    expect(out).toContain("| Will AI replace or enable marketers? | Ai In Marketing | 1 vs 1 |");
   });
 
   it("returns a placeholder when no disagreements exist", () => {
@@ -119,8 +120,9 @@ describe("renderReadme", () => {
         {
           title: "X?",
           category: "ai-in-marketing",
-          support_summary: "1 vs 1",
-          type: "2 positions",
+          support_summary: "3 vs 1",
+          total_supporters: 4,
+          margin: 2,
         },
       ],
     });
@@ -133,8 +135,8 @@ describe("renderReadme", () => {
     expect(md).toContain("## Attribution");
     // Deterministic content: skill row appears
     expect(md).toContain("[Ai In Marketing](./skills/ai-in-marketing/SKILL.md)");
-    // Disagreement row appears
-    expect(md).toContain("| X? | Ai In Marketing | 1 vs 1 | 2 positions |");
+    // Disagreement row appears (ranked + filtered in the README render)
+    expect(md).toContain("| X? | Ai In Marketing | 3 vs 1 |");
   });
 
   it("produces byte-stable output for the same inputs", () => {

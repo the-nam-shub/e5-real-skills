@@ -84,7 +84,8 @@ interface DisagreementRow {
   title: string;
   category: string;
   support_summary: string;
-  type: string;
+  total_supporters: number;
+  margin: number;
 }
 
 function readSkillFrontmatter(skillPath: string): Record<string, unknown> | null {
@@ -141,15 +142,36 @@ export function collectDisagreementRows(
     const abs = resolve(dir, name);
     const file = JSON.parse(readFileSync(abs, "utf8")) as DisagreementsFile;
     for (const d of file.disagreements) {
+      const counts = d.positions.map((p) => p.supporters?.length ?? 0);
+      const total = counts.reduce((a, b) => a + b, 0);
+      const margin = counts.length >= 2 ? Math.max(...counts) - Math.min(...counts) : 0;
       rows.push({
         title: d.title,
         category: file.category,
         support_summary: d.support_summary,
-        type: `${d.positions.length} positions`,
+        total_supporters: total,
+        margin,
       });
     }
   }
   return rows;
+}
+
+const README_DISAGREEMENT_LIMIT = 10;
+const README_DISAGREEMENT_MIN_SUPPORT = 3;
+
+export function rankDisagreementsForReadme(
+  rows: DisagreementRow[]
+): DisagreementRow[] {
+  return rows
+    .filter((r) => r.total_supporters >= README_DISAGREEMENT_MIN_SUPPORT)
+    .sort((a, b) => {
+      if (b.total_supporters !== a.total_supporters) {
+        return b.total_supporters - a.total_supporters;
+      }
+      return b.margin - a.margin;
+    })
+    .slice(0, README_DISAGREEMENT_LIMIT);
 }
 
 function renderSkillsTable(rows: SkillRow[]): string {
@@ -170,11 +192,11 @@ function renderDisagreementsTable(rows: DisagreementRow[]): string {
     return "_No disagreements surfaced yet. When the corpus grows, cross-episode disagreements between guests will appear here._";
   }
   const header =
-    "| Debate | Category | Support | Type |\n|--------|----------|---------|------|";
+    "| Debate | Category | Support |\n|--------|----------|---------|";
   const body = rows
     .map(
       (r) =>
-        `| ${r.title} | ${humanCategory(r.category)} | ${r.support_summary} | ${r.type} |`
+        `| ${r.title} | ${humanCategory(r.category)} | ${r.support_summary} |`
     )
     .join("\n");
   return `${header}\n${body}`;
@@ -206,11 +228,13 @@ ${renderSkillsTable(inputs.skillRows)}
 
 Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
 
-${renderDisagreementsTable(inputs.disagreementRows)}
+**Top ${README_DISAGREEMENT_LIMIT} debates by guest engagement** (ranked by total supporters across positions, with lopsided debates breaking ties):
+
+${renderDisagreementsTable(rankDisagreementsForReadme(inputs.disagreementRows))}
 
 Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
 
-Browse the full disagreement data in [\`/disagreements\`](./disagreements/).
+Browse all ${inputs.disagreementRows.length} disagreements in [\`/disagreements\`](./disagreements/).
 
 ## Per-Episode Analysis
 
