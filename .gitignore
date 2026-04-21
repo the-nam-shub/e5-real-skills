@@ -3,4 +3,5 @@ node_modules/
 dist/
 data/
 .claude/
+.DS_Store
 *.tmp
