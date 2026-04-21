@@ -1,0 +1,511 @@
+{
+  "category": "content-operations",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-content-generation-vs-repurposing",
+      "title": "Should AI be used to generate original content from scratch, or only to repurpose and refine existing content?",
+      "category": "content-operations",
+      "positions": [
+        {
+          "position_id": "ai-generates-drafts-from-scratch",
+          "stance": "AI can and should be used to generate first drafts of original content from scratch. With the right inputs (brand voice, messaging, examples), AI can produce 80% of the way to a finished piece, dramatically reducing time-to-draft while maintaining quality. The key is providing sufficient context and always having a human refine the output.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Recommends using AI to generate 80% drafts of copy, email, landing pages, or ad headlines, providing context via custom instructions to improve output quality.",
+              "practice_id": "use-ai-to-generate-80-percent-drafts"
+            },
+            {
+              "guest_name": "Jennifer Cannizzaro",
+              "guest_context": "Marketing leader",
+              "episode_number": 267,
+              "episode_date": "2025-07-24",
+              "evidence": "Deploys AI to generate first drafts of thought leadership, blogs, and website copy with 75% time savings, claiming AI involvement is undetectable in final output when done correctly.",
+              "practice_id": "ai-content-first-draft-workflow"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "Marketing executive",
+              "episode_number": 206,
+              "episode_date": "2024-12-30",
+              "evidence": "Advocates encoding entire content creation workflows (transcript → extract key points → structure as blog post) into AI tools to run with one click, scaling production without prompting expertise.",
+              "practice_id": "ai-workflow-codification"
+            },
+            {
+              "guest_name": "Adina Timar",
+              "guest_context": "Content strategist",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Describes building content through AI-assembled granular pieces, writing one section at a time with focused context—treating AI as a primary content generator with human editing at the end.",
+              "practice_id": "ai-assembled-content-granular-approach"
+            },
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Marketing professional (guest)",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "Uses ChatGPT and Gemini to generate initial drafts and brainstorm ideas, comparing outputs across tools and remixing with own work.",
+              "practice_id": "ai-tools-as-starting-point-not-replacement"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-for-repurposing-and-refinement-only",
+          "stance": "AI-generated content from scratch is ineffective because it lacks context, experience, and anecdotal details that make content compelling. AI works better for repurposing, reframing, and reformatting existing content, or for research and editing tasks. Generating original content with AI without deep context produces empty, commodity output.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "Content marketing expert",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Explicitly states AI content generation from scratch is overrated and ineffective; argues AI works better for repurposing and reframing existing content, and that generating 100 blog posts with AI without context results in empty commodity content.",
+              "practice_id": "ai-content-generation-overrated"
+            },
+            {
+              "guest_name": "Mark Schaefer",
+              "guest_context": "Marketing author and strategist",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "States AI produces 'best average answers' by synthesizing billions of data points, resulting in generic, undifferentiated output. Recommends using AI only for research and filling gaps, not for core narrative or creative work.",
+              "practice_id": "use-ai-for-research-not-core-creative"
+            },
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "LinkedIn content creator",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Recommends using AI only for editing, grammar, and structure—not for generating core ideas. Argues AI works best as an editor and formatter when you provide a clear idea, to preserve authenticity.",
+              "practice_id": "ai-for-editing-not-ideation"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Describes using Claude as a research assistant for content creation, spending 30 minutes upfront on a detailed brief, treating Claude as a research and editing assistant rather than a content generator.",
+              "practice_id": "ai-content-research-assistant"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 4",
+      "context_dependency": "Partially context-dependent: the 'generate from scratch' camp consistently emphasizes providing rich context (brand voice, examples, messaging). The 'repurposing only' camp argues that even with context, AI lacks the experiential and anecdotal depth that makes content compelling. This may dissolve somewhat based on content type—AI-generated drafts may work better for structured formats (landing pages, email) than for thought leadership or narrative content—but both camps are explicitly discussing general content creation, making this a genuine disagreement.",
+      "trend_note": "The 'repurposing only' position appears more frequently in earlier episodes (2024-2025), while the 'generate from scratch' position is represented across the full date range. No clear directional shift.",
+      "why_it_matters": "If AI can reliably generate quality first drafts, teams can dramatically scale content output with minimal headcount. If it can't, teams that rely on AI for original generation risk publishing generic content that damages brand credibility and fails to differentiate."
+    },
+    {
+      "disagreement_id": "linkedin-scheduling-vs-manual-posting",
+      "title": "Should you post to LinkedIn manually or use scheduling tools?",
+      "category": "content-operations",
+      "positions": [
+        {
+          "position_id": "manual-posting-preferred",
+          "stance": "Post content directly to LinkedIn rather than using third-party scheduling tools, as schedulers may result in reduced algorithmic reach. Manual posting also enables immediate comment engagement, which snowballs performance. If scheduling is necessary, use LinkedIn's native scheduler as a fallback.",
+          "supporters": [
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "LinkedIn content strategist",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Explicitly recommends posting manually rather than using third-party scheduling tools due to potential algorithmic throttling; notes manual posting allows immediate comment engagement. Acknowledges the difference is noticeable but not a dealbreaker.",
+              "practice_id": "linkedin-manual-posting-vs-scheduling"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Recommends publishing live when you have a strong idea, noting real-time engagement signals activity to LinkedIn's algorithm and boosts performance. Acknowledges scheduling causes a 10-20% reach reduction.",
+              "practice_id": "linkedin-post-real-time-publishing"
+            }
+          ]
+        },
+        {
+          "position_id": "scheduling-tools-are-fine-or-preferred",
+          "stance": "Use scheduling tools (Taplio, LinkedIn native scheduler, or similar) to batch-write and queue content in advance. The operational benefits of consistent posting cadence outweigh any minor algorithmic penalty. Some guests explicitly use third-party tools like Taplio without noting meaningful performance degradation.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 131,
+              "episode_date": "2024-04-11",
+              "evidence": "Describes using Taplio (a third-party tool) to schedule posts 2-3 weeks in advance, posting twice daily at 7 AM and 3 PM Eastern, with drag-and-drop timing adjustments. No mention of algorithmic penalty.",
+              "practice_id": "linkedin-content-batching-workflow"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 275,
+              "episode_date": "2025-08-21",
+              "evidence": "Describes scheduling LinkedIn posts by adding them to calendar at specific times and keeping a 500+ post idea backlog, explicitly noting this avoids the engagement drop from LinkedIn's native scheduler—implying third-party or calendar-based scheduling is the preferred method.",
+              "practice_id": "daily-linkedin-posting-calendar-system"
+            },
+            {
+              "guest_name": "Kait Stephens",
+              "guest_context": "Founder/marketer",
+              "episode_number": 156,
+              "episode_date": "2024-07-08",
+              "evidence": "Uses LinkedIn's native scheduler to queue content with flexibility to jump the queue for timely ideas, treating scheduling as a standard part of the workflow.",
+              "practice_id": "linkedin-daily-posting-cadence"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Content marketing strategist",
+              "episode_number": 121,
+              "episode_date": "2024-02-29",
+              "evidence": "Recommends batch-writing social content and scheduling with tools like Buffer and Typefully to reduce friction and maintain consistency.",
+              "practice_id": "batch-write-social-content-with-scheduling-tools"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially context-dependent: Dave Gerhardt himself holds both positions across different episodes, suggesting his view evolved or that the answer depends on whether you're optimizing for peak performance on a single post versus sustainable volume. The core tactical question—does scheduling hurt reach?—is a genuine disagreement.",
+      "trend_note": "Dave Gerhardt's earlier episode (131, April 2024) recommends Taplio scheduling, while his later episode (275, August 2025) warns against LinkedIn's native scheduler specifically. This suggests a possible shift toward more nuanced scheduling advice over time, but the direction is not clearly toward or away from scheduling overall.",
+      "why_it_matters": "If third-party scheduling meaningfully reduces LinkedIn reach, teams relying on batch scheduling are systematically underperforming. If it doesn't matter, manual posting is an unnecessary operational constraint that limits content volume."
+    },
+    {
+      "disagreement_id": "content-production-speed-vs-quality",
+      "title": "Should you ship content fast and imperfect, or invest in quality and polish before publishing?",
+      "category": "content-operations",
+      "positions": [
+        {
+          "position_id": "ship-fast-iterate",
+          "stance": "Don't wait for perfection before shipping. Release work quickly, gather real feedback signals (open rates, engagement, comments), and iterate. The cost of waiting for perfection is higher than the cost of shipping something good and improving it. Imperfect, scrappy content often resonates more than heavily produced formal content.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 314,
+              "episode_date": "2025-12-22",
+              "evidence": "Explicitly recommends shipping fast and iterating based on immediate feedback signals, arguing the cost of waiting for perfection is higher than shipping something good and improving it.",
+              "practice_id": "ship-fast-iterate-based-on-signal"
+            },
+            {
+              "guest_name": "Max Van Den Ingh",
+              "guest_context": "B2B marketing consultant",
+              "episode_number": 161,
+              "episode_date": "2024-07-25",
+              "evidence": "Advocates for imperfect, scrappy content over polished production, noting audiences understand the message even when execution is not flawless and authenticity often resonates more.",
+              "practice_id": "embrace-imperfect-scrappy-content"
+            },
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "LinkedIn video creator",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "States consistency and iteration matter more than perfection at the start; recommends posting content without waiting for it to be perfect and moving on to the next piece.",
+              "practice_id": "start-content-creation-imperfectly"
+            },
+            {
+              "guest_name": "Eliana Atia",
+              "guest_context": "Content leader",
+              "episode_number": 166,
+              "episode_date": "2024-08-12",
+              "evidence": "Recommends launching content initiatives with imperfect first versions and iterating based on real audience feedback, arguing the best feedback comes from real-world response, not internal review.",
+              "practice_id": "start-content-initiatives-imperfectly"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder (guest)",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Applies a five-minute rule: if a piece of content takes more than five minutes to write, kill it. This enforces speed as a quality signal—if it doesn't flow naturally, it's not ready.",
+              "practice_id": "five-minute-content-rule"
+            }
+          ]
+        },
+        {
+          "position_id": "adjust-quality-investment-to-stakes",
+          "stance": "Editing rigor should be calibrated to the stakes of the asset. High-stakes assets (premium event landing pages targeting CMOs) warrant multiple rounds of careful review. Lower-stakes assets (daily LinkedIn posts) can ship faster with less review. This is not a blanket 'ship fast' or 'polish everything' approach—it's a deliberate triage.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 314,
+              "episode_date": "2025-12-22",
+              "evidence": "Recommends adjusting editing rigor based on stakes: high-stakes landing pages get multiple rounds of feedback, daily LinkedIn posts ship faster. This nuances his own 'ship fast' advice.",
+              "practice_id": "consider-stakes-when-editing"
+            },
+            {
+              "guest_name": "Erin May",
+              "guest_context": "Marketing leader (guest)",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Warns against 'AI slop'—low-quality, generic content that damages your brand. Advocates maintaining human judgment on final output quality to prevent this.",
+              "practice_id": "ai-content-quality-guardrail"
+            },
+            {
+              "guest_name": "Will Hoekenga",
+              "guest_context": "Copywriter (guest)",
+              "episode_number": 181,
+              "episode_date": "2024-10-03",
+              "evidence": "Advocates for shitty first drafts as a starting point, but emphasizes that good copy emerges through iteration and refinement—not just shipping the first draft.",
+              "practice_id": "shitty-first-draft-themed-days"
+            }
+          ]
+        },
+        {
+          "position_id": "invest-in-quality-and-polish",
+          "stance": "Content quality is a differentiator. Generic, low-quality content—especially AI-generated content without a point of view—damages brand credibility. Invest in quality through multiple revision passes, subject matter expert involvement, and editorial standards. A newsletter with 7+ revision passes builds reader trust and drives higher open rates.",
+          "supporters": [
+            {
+              "guest_name": "Arielle Gordis",
+              "guest_context": "Newsletter creator",
+              "episode_number": 166,
+              "episode_date": "2024-08-12",
+              "evidence": "Describes reviewing and refining newsletter drafts 7+ times before sending, treating quality as a driver of reader trust and open rates.",
+              "practice_id": "newsletter-creation-timeline"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 286,
+              "episode_date": "2025-09-29",
+              "evidence": "Recommends cutting agencies that produce generic, perspective-less content and replacing with a single trusted content person who can develop a strong point of view—implying quality and differentiation matter more than volume or speed.",
+              "practice_id": "fire-misaligned-content-agency"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 3 vs 2",
+      "context_dependency": "Partially context-dependent: the stakes-based position explicitly resolves the tension by asset type. However, the 'ship fast' camp and 'invest in quality' camp are making broader philosophical claims about content strategy that conflict regardless of asset type.",
+      "trend_note": null,
+      "why_it_matters": "Teams that over-invest in polish on low-stakes content waste cycles that could be spent on volume and learning; teams that under-invest in quality on high-stakes content risk brand damage and missed conversion opportunities."
+    },
+    {
+      "disagreement_id": "batch-vs-reactive-content-creation",
+      "title": "Should you batch-create and pre-schedule content in advance, or create and post reactively based on daily observations?",
+      "category": "content-operations",
+      "positions": [
+        {
+          "position_id": "batch-and-pre-schedule",
+          "stance": "Batch-write multiple posts in a single session (weekly or monthly) and schedule them in advance. This removes daily decision-making friction, ensures consistent output even during busy periods, and allows you to maintain a content backlog. Pre-scheduling a full year of content guarantees baseline presence regardless of circumstances.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 131,
+              "episode_date": "2024-04-11",
+              "evidence": "Describes a weekly batch-writing process: one hour per week to write 4-5 LinkedIn posts from a Notion backlog, then schedule 2-3 weeks in advance using Taplio.",
+              "practice_id": "linkedin-content-batching-workflow"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and investor",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Recommends pre-scheduling content through an entire year to ensure consistent output, arguing this removes friction and guarantees presence even during busy periods.",
+              "practice_id": "pre-schedule-content-calendar"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and investor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Recommends building out a full year's worth of pre-scheduled content in advance as a safety net and to reduce daily mental load.",
+              "practice_id": "pre-schedule-content-calendar"
+            },
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "LinkedIn content creator",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Schedules posts 1 week in advance, dedicating Saturday mornings to writing and design to ensure quality and consistency.",
+              "practice_id": "carousel-format-personal-brand"
+            },
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "ClickUp social media leader",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Advocates batch filming 12-15 videos per week on a structured weekly production cycle, staying 4-6 weeks ahead of publishing schedule.",
+              "practice_id": "weekly-writers-room-production-cadence"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Content marketing strategist (guest)",
+              "episode_number": 121,
+              "episode_date": "2024-02-29",
+              "evidence": "Recommends writing multiple social posts in batches monthly and scheduling with Buffer and Typefully to reduce friction of daily posting.",
+              "practice_id": "batch-write-social-content-with-scheduling-tools"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "Content strategist (guest)",
+              "episode_number": 321,
+              "episode_date": "2026-01-15",
+              "evidence": "Batch-records an entire podcast season in 2 days in-person to maintain consistent chemistry and energy, planning episode order strategically.",
+              "practice_id": "batch-record-podcast-season"
+            }
+          ]
+        },
+        {
+          "position_id": "reactive-daily-creation",
+          "stance": "Rather than batching and scheduling content in advance, create content daily based on what you observe in the market—conversations, meetings, or emerging trends. This keeps content timely, authentic, and responsive to real signals. Pre-scheduled content can feel like an obligation and loses the freshness that makes content resonate.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen Knuth",
+              "guest_context": "B2B sales and marketing expert",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Explicitly recommends against pre-scheduling; instead, wake up each day and identify one thing you observed recently that reveals a flawed belief, then create content around that observation in the moment for authenticity and timeliness.",
+              "practice_id": "post-content-daily-based-on-market-signals"
+            }
+          ]
+        }
+      ],
+      "support_summary": "7 vs 1",
+      "context_dependency": "Partially context-dependent: reactive creation may work better for individuals with high market exposure (salespeople, consultants) who naturally encounter fresh signals daily. Batching works better for teams managing multiple accounts or founders with limited daily bandwidth. However, both camps are making claims about what produces better content quality and consistency, not just operational efficiency.",
+      "trend_note": null,
+      "why_it_matters": "The choice between batching and reactive creation affects both content quality and operational sustainability—teams that can't sustain reactive creation will go dark, while teams that over-batch may miss timely opportunities that drive outsized engagement."
+    },
+    {
+      "disagreement_id": "iphone-vs-professional-video-production",
+      "title": "Should you use iPhone/low-budget equipment or professional production gear for video content?",
+      "category": "content-operations",
+      "positions": [
+        {
+          "position_id": "iphone-and-low-budget-preferred",
+          "stance": "Shoot the majority of social video content on iPhone rather than professional cameras. iPhone footage performs better because it looks raw and authentic—similar to user-generated content. The casual aesthetic is a feature, not a limitation. Start with minimal equipment and invest in production quality only after proving consistency.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "ClickUp social media leader",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Explicitly recommends shooting the majority of short-form social content on iPhone rather than professional cameras, stating iPhone footage performs better because it looks raw and authentic. Reserves professional cameras only for high-end music videos.",
+              "practice_id": "iphone-video-production-over-professional-gear"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Recommends starting a podcast with a basic USB microphone and simple editing tools, investing in production quality only after proving consistency and building an audience.",
+              "practice_id": "podcast-start-simple-equipment"
+            },
+            {
+              "guest_name": "Anthony Kennada",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 145,
+              "episode_date": "2024-05-30",
+              "evidence": "Recommends launching video content production with under $1,000 in equipment (DSLR camera on desk, Amazon lighting kit) rather than outsourcing to agencies, allowing experimentation before committing to higher production budgets.",
+              "practice_id": "low-cost-in-house-video-production-setup"
+            },
+            {
+              "guest_name": "Max Van Den Ingh",
+              "guest_context": "B2B marketer (guest)",
+              "episode_number": 161,
+              "episode_date": "2024-07-25",
+              "evidence": "Advocates for imperfect, scrappy content over polished production, noting authenticity and directness often resonate more than heavily produced formal content.",
+              "practice_id": "embrace-imperfect-scrappy-content"
+            }
+          ]
+        },
+        {
+          "position_id": "invest-in-professional-production",
+          "stance": "Build an in-house professional video production studio to enable rapid, high-quality content creation at scale. Professional production infrastructure allows 3-4 shoots per week, faster iteration, and the ability to execute monthly launches without bottlenecks. The investment pays off through speed and quality at volume.",
+          "supporters": [
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "CMO",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Recommends building an in-house video production studio (rather than outsourcing or using low-budget setups) to enable 3-4 shoots per week and rapid launch content creation without production bottlenecks.",
+              "practice_id": "build-in-house-creative-studio"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Likely context-dependent by company stage and content volume: low-budget/iPhone advice is explicitly aimed at getting started and proving consistency, while the professional studio recommendation comes from a CMO at a company doing monthly product launches at scale. This may dissolve when accounting for stage, but the iPhone-is-better-for-authenticity claim from Chris Cunningham applies even at scale, creating genuine tension.",
+      "trend_note": null,
+      "why_it_matters": "Investing in professional production infrastructure prematurely wastes budget and creates bottlenecks; but under-investing in production quality at scale may limit content performance and brand perception."
+    },
+    {
+      "disagreement_id": "content-posting-frequency-more-vs-less",
+      "title": "How frequently should you post content on LinkedIn—more is better, or quality over quantity?",
+      "category": "content-operations",
+      "positions": [
+        {
+          "position_id": "high-frequency-twice-daily",
+          "stance": "Aim for posting LinkedIn content twice per day as the ideal frequency. This maximizes reach and engagement. Consistency and volume matter more than perfection; posting frequently with good-enough content outperforms posting rarely with perfect content.",
+          "supporters": [
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "LinkedIn video creator",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "Targets twice-daily LinkedIn video posting as optimal frequency, arguing this maximizes reach and engagement and that consistency matters more than perfection.",
+              "practice_id": "linkedin-video-posting-frequency-optimization"
+            },
+            {
+              "guest_name": "Brad Zomick",
+              "guest_context": "LinkedIn content strategist",
+              "episode_number": 156,
+              "episode_date": "2024-07-08",
+              "evidence": "Describes a daily posting rhythm of one primary post plus often a second post (share or commentary), establishing twice-daily as a standard cadence.",
+              "practice_id": "linkedin-daily-posting-cadence"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 131,
+              "episode_date": "2024-04-11",
+              "evidence": "Describes posting twice daily (7 AM and 3 PM Eastern) as his personal cadence in his batch-writing workflow.",
+              "practice_id": "linkedin-content-batching-workflow"
+            },
+            {
+              "guest_name": "Kait Stephens",
+              "guest_context": "Founder/marketer (guest)",
+              "episode_number": 156,
+              "episode_date": "2024-07-08",
+              "evidence": "Establishes a daily posting rhythm of one primary post plus often a second post (share or commentary), effectively posting twice daily.",
+              "practice_id": "linkedin-daily-posting-cadence"
+            }
+          ]
+        },
+        {
+          "position_id": "once-daily-optimal",
+          "stance": "Post once per day on LinkedIn during peak engagement windows (morning). If posting multiple times daily, space posts 6-8 hours apart, though subsequent posts typically receive less reach. Daily consistency is the goal, not twice-daily volume.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "Recommends one post per day on LinkedIn, noting that if posting multiple times daily, subsequent posts receive less reach. Frames once-daily as the optimal cadence.",
+              "practice_id": "linkedin-posting-frequency-cadence"
+            }
+          ]
+        },
+        {
+          "position_id": "max-three-times-per-week",
+          "stance": "Post a maximum of 3 times per week on LinkedIn to maintain quality and avoid audience fatigue. Do not outsource or scale content creation to maintain authenticity. Quality and intentionality per post matter more than volume.",
+          "supporters": [
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "LinkedIn content creator",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Explicitly recommends posting 3 times per week maximum to maintain quality and avoid audience fatigue, and advises against outsourcing or scaling content creation.",
+              "practice_id": "carousel-format-personal-brand"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: Sara Lattanzio is specifically discussing personal brand carousel content (high-effort format), while Tim Davidson is discussing video content, and Dave Gerhardt is discussing general LinkedIn posting. The twice-daily recommendation from ClickUp (episode 347) is for a brand account with a full production team, not an individual. However, the core question of optimal frequency for LinkedIn presence is a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Posting too frequently risks audience fatigue and diminishing returns per post; posting too infrequently means losing algorithmic momentum and audience mindshare—getting the frequency right directly affects content ROI."
+    }
+  ]
+}

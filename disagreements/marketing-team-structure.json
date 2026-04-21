@@ -1,0 +1,396 @@
+{
+  "category": "marketing-team-structure",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "team-size-small-lean-vs-larger-specialized",
+      "title": "Should marketing teams be kept intentionally small and lean, or scaled with specialized roles?",
+      "category": "marketing-team-structure",
+      "positions": [
+        {
+          "position_id": "keep-teams-small-and-lean",
+          "stance": "Marketing teams should be kept intentionally small (4-5 W2 employees rather than 50-100) to reduce fixed costs, avoid approval bureaucracy, move faster, and allow senior leaders to stay close to execution. Freed-up budget should go to programs, external experts, and creative work rather than internal headcount. Large organizations are slow and create restrictions.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist; founder of Refine Labs",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Explicitly recommended maintaining smaller internal W2 marketing teams (4-5 people vs. 50-100) to reduce fixed costs and increase the percentage of budget available for programs, external experts, and creative initiatives.",
+              "practice_id": "smaller-internal-teams-higher-program-budget"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist; founder of Refine Labs",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Argued most mature companies ($50M+ ARR) are over-staffed with internal marketing headcount. Smaller internal teams produce better work faster because they avoid meeting bloat and approval hierarchies.",
+              "practice_id": "smaller-internal-marketing-teams"
+            },
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "CMO and marketing org design expert; former CMO of GoTo/LogMeIn",
+              "episode_number": 202,
+              "episode_date": "2024-12-16",
+              "evidence": "Cited OpenAI (~1,500 employees, ~$100B enterprise value), Berkshire Hathaway corporate (25-30 people), and Plana (max 2 marketing employees outpacing a 200-person team) as evidence that smaller organizations move faster. Recommended resisting growth for growth's sake and using part-time specialists and outsourcing instead.",
+              "practice_id": "build-smallest-org-necessary"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "B2B marketing leader and AI marketing expert",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Predicted the future CMO role will shift toward being a hands-on craftsperson with a smaller team rather than a people manager overseeing large departments, enabled by AI reducing the need for large execution teams.",
+              "practice_id": "cmo-as-craftsperson-operator"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "B2B marketing leader and AI marketing expert",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Argued the future CMO role will shift toward smaller teams, more hands-on craft work, and less pure people management, enabled by AI.",
+              "practice_id": "cmo-role-evolution-smaller-teams-more-craft"
+            }
+          ]
+        },
+        {
+          "position_id": "scale-with-specialized-roles-at-right-budget",
+          "stance": "Marketing teams should scale with specialized roles once the budget justifies it. At $10M+ in marketing budget, you can and should afford specialized teams (brand, field, demand gen, growth) and a senior leader to manage them. Below that threshold, the VP/CMO should do hands-on execution. The right structure depends on budget and strategy, not a blanket preference for smallness.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder; B2B SaaS investor and advisor",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Argued that at $10M+ in marketing budget, you can afford specialized roles and a senior leader to manage them. Below $10M, hire people willing to execute. This is a budget-based scaling model, not a preference for permanent smallness.",
+              "practice_id": "marketing-budget-threshold-for-team-structure"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder; B2B SaaS investor and advisor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Repeated the $10M budget threshold argument: below that, hiring multiple specialists and agencies creates unsustainable cost structures; above it, full CMO structure with specialized teams is justified.",
+              "practice_id": "marketing-budget-threshold-for-team"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "CMO at ContentStack",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Described a large, multi-layered marketing org with five distinct functional groups (Product/Solution/Brand Marketing, Integrated Marketing, Earned Media, Digital Operations, Global Marketing), each with specialized sub-functions — implying a much larger team than Walker's 4-5 person model.",
+              "practice_id": "marketing-team-structure-by-function"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "CMO at ContentStack",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "Described the same multi-layered specialized org structure, with five distinct functional groups and multiple sub-functions within each.",
+              "practice_id": "marketing-team-structure-by-function"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 4",
+      "context_dependency": "Partially context-dependent: Jason Lemkin explicitly ties team size to budget ($10M threshold), which could reconcile with Walker's lean-team view if Walker is primarily addressing sub-$10M companies. However, Walker explicitly targets $50M+ ARR companies as over-staffed, which directly conflicts with Lemkin's and Dhillon's models at that scale. The disagreement is genuine for mid-to-large B2B companies.",
+      "trend_note": "The lean-team / AI-enabled-small-team position is more prominent in 2025-2026 episodes (Walker ep. 281 Sep 2025, Flanagan ep. 318 Jan 2026, Flanagan ep. 257 Jun 2025), while the specialized-scaling model appears across both 2024 and 2025. This may reflect an emerging AI-driven shift toward smaller teams, but the sample is too small to be definitive.",
+      "why_it_matters": "Team size decisions lock in fixed costs and organizational complexity that are hard to reverse; choosing the wrong model either leaves growth opportunities on the table (too lean) or creates bureaucratic drag that slows execution and burns budget (too large)."
+    },
+    {
+      "disagreement_id": "bdr-sdr-reporting-to-marketing-vs-sales",
+      "title": "Should BDR/SDR teams report to marketing rather than sales?",
+      "category": "marketing-team-structure",
+      "positions": [
+        {
+          "position_id": "bdrs-should-report-to-marketing",
+          "stance": "BDR/SDR teams should report to marketing to create unified pipeline accountability, eliminate the blame game between departments, and allow marketing to optimize the full funnel from lead generation through qualified meeting. This structural alignment is especially important when pipeline is a shared north star metric and outbound activities closely mirror marketing campaigns.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist; founder of Refine Labs",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Argued that consolidating all prospecting under marketing eliminates split accountability and allows the CMO to own and optimize the entire path from lead generation through qualified meeting. Called the BDR/SDR distinction semantic; what matters is unified ownership.",
+              "practice_id": "consolidate-prospecting-under-marketing"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist; founder of Refine Labs",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Repeated the same argument: moving prospecting under marketing creates a unified pipeline creation function that owns the entire journey from lead generation through qualified meeting booking.",
+              "practice_id": "consolidate-prospecting-under-marketing"
+            },
+            {
+              "guest_name": "Kelly Cheng",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 297,
+              "episode_date": "2025-10-23",
+              "evidence": "Recommended moving BDR team from sales to marketing when pipeline is a key north star metric for marketing and BDR activities are closely aligned with marketing campaigns (following up on webinar leads, nurturing marketing-generated prospects).",
+              "practice_id": "bdr-team-reporting-to-marketing"
+            },
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Advocated placing the SDR/ADR team under marketing's organizational structure to eliminate misalignment between marketing's account selection and sales' prospecting activities, creating unified accountability for pipeline generation.",
+              "practice_id": "marketing-owns-sdrs-adr-team"
+            },
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Argued outbound sales development should report to the marketing leader because outbound is fundamentally another distribution channel for messaging, and the marketing leader controls messaging strategy, landing pages, ads, and content.",
+              "practice_id": "outbound-reporting-to-marketing"
+            }
+          ]
+        },
+        {
+          "position_id": "bdrs-should-report-to-sales",
+          "stance": "Marketing should not report to a CRO and by extension BDR/SDR teams should remain under sales leadership. CROs are incentivized to hit short-term numbers, and consolidating prospecting under marketing-led or revenue-led structures corrupts marketing's ability to invest in longer-term initiatives. Sales, marketing, and post-sales should maintain separate reporting lines to the CEO.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder; B2B SaaS investor and advisor",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Explicitly argued marketing should not report to a CRO because CROs prioritize short-term sales numbers over strategic brand building and long-term pipeline development. Recommended separate reporting lines for Sales, Marketing, and Customer Success to the CEO.",
+              "practice_id": "avoid-marketing-under-cro"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder; B2B SaaS investor and advisor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Repeated the same position: marketing rolling up to sales loses strategic independence and becomes focused only on short-term lead generation. CROs being incentivized to hit monthly numbers corrupts marketing's ability to invest in longer-term initiatives.",
+              "practice_id": "avoid-marketing-under-cro"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially context-dependent: Chris Walker and Kelly Cheng specify conditions (pipeline as north star, campaigns tightly aligned with BDR activity) under which the move makes sense. Jason Lemkin's objection is specifically about marketing reporting to a CRO, which is a slightly different structural question than marketing owning BDRs while reporting to the CEO. However, the core tension — whether prospecting belongs organizationally under marketing or sales — is a genuine disagreement that persists even accounting for context.",
+      "trend_note": "The pro-marketing-ownership voices are clustered in 2025 (Walker ep. 211 Jan 2025, Lattanzio Jul 2025, Cheng Oct 2025, Walker ep. 281 Sep 2025, Nguyen Feb 2025), while Lemkin's objections span both 2024 and 2025. No clear directional shift.",
+      "why_it_matters": "Where BDRs report determines who owns pipeline accountability and how outbound messaging aligns with marketing strategy — a structural decision with direct revenue implications. Getting it wrong creates either a blame game between departments or short-term bias that undermines long-term brand investment."
+    },
+    {
+      "disagreement_id": "in-house-creative-vs-external-agencies",
+      "title": "Should creative/design be kept in-house or outsourced to external agencies?",
+      "category": "marketing-team-structure",
+      "positions": [
+        {
+          "position_id": "keep-creative-in-house",
+          "stance": "Creative and design should be embedded directly within marketing as an in-house team. An in-house team understands brand essence, company rhythms, and strategic direction deeply enough to execute with minimal direction, reducing transactional overhead and ensuring brand consistency without extensive briefing.",
+          "supporters": [
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Argued for keeping creative design in-house rather than outsourcing to agencies to maintain brand consistency and reduce creative direction overhead. In-house teams understand the brand deeply enough to execute with minimal direction.",
+              "practice_id": "in-house-creative-team-brand-consistency"
+            },
+            {
+              "guest_name": "Shane Murphy",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 173,
+              "episode_date": "2024-09-05",
+              "evidence": "Recommended organizing creative (video, motion, design, copy, web) as a centralized in-house resource reporting to a single creative director and supporting all marketing functions, rather than embedding creative talent within individual teams or outsourcing.",
+              "practice_id": "centralized-creative-team-structure"
+            }
+          ]
+        },
+        {
+          "position_id": "use-external-agencies-for-creative-velocity",
+          "stance": "Rather than relying solely on in-house creative resources (which get bogged down in operational work), use design-as-a-service agencies and freelancers to maintain creative velocity and avoid bottlenecks. A marketing leader's job is to get the work done well, not to do it all in-house. Maintain a list of external creative partners you can tap on-demand.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 153,
+              "episode_date": "2024-06-27",
+              "evidence": "Explicitly recommended using design-as-a-service agencies to maintain creative velocity and avoid delays, arguing that in-house resources often get bogged down in operational work. Advised maintaining a list of external creative partners for on-demand use.",
+              "practice_id": "use-design-as-service-for-leverage"
+            },
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Recommended outsourcing paid ads technical execution to expert freelancers rather than hiring full-time, especially early, to reduce hiring risk and accelerate learning — reflecting a broader preference for external execution over internal headcount.",
+              "practice_id": "outsource-paid-ads-execution-retain-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: the in-house advocates (Mollot, Murphy) appear to be speaking about larger, more mature marketing organizations where a full creative team is affordable. Dave Gerhardt's external-agency preference may reflect smaller team contexts where in-house creative gets overwhelmed. However, both positions are presented as general principles, not stage-specific advice, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "The choice between in-house and external creative directly affects brand consistency, execution speed, and cost structure — and the wrong choice either creates bottlenecks that slow campaigns or produces inconsistent brand output that undermines positioning."
+    },
+    {
+      "disagreement_id": "functional-silos-vs-outcome-pods",
+      "title": "Should marketing teams be organized around functional specialties or outcome-based pods?",
+      "category": "marketing-team-structure",
+      "positions": [
+        {
+          "position_id": "organize-by-functional-specialties",
+          "stance": "Organize marketing around functional jobs-to-be-done and specialized capabilities (product marketing, demand gen, brand, content, ops, etc.), grouped under leaders who can drive alignment within each function. This creates clear ownership of functional expertise and allows each specialty to be optimized. The key is designing functions around your actual strategic needs rather than copying competitor org charts.",
+          "supporters": [
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "CMO at ContentStack",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Described organizing marketing around five functional groups (Product/Solution/Brand Marketing, Integrated Marketing, Earned Media, Digital Operations, Global Marketing), each with specialized sub-functions, explicitly framed as organizing around 'functional jobs-to-be-done.'",
+              "practice_id": "marketing-team-structure-by-function"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "CMO at ContentStack",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "Described the same functional org structure, organized around shared outcomes within functional boundaries rather than arbitrary functional silos.",
+              "practice_id": "marketing-team-structure-by-function"
+            },
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "CMO and marketing org design expert; former CMO of GoTo/LogMeIn",
+              "episode_number": 202,
+              "episode_date": "2024-12-16",
+              "evidence": "Advocated for keeping top-level org structure simple with functional leaders (product marketing head, growth head, corporate marketing head, ops head) reporting to CMO, with clear service center vs. outcome center distinctions within functional groups.",
+              "practice_id": "simple-org-structure"
+            },
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Described organizing marketing around three targeted focus teams (demand gen, marketing growth, product marketing) plus two centers of excellence (brand studio, marketing ops) — a functional specialization model.",
+              "practice_id": "org-structure-focus-teams-centers-excellence"
+            },
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "CMO and marketing org design expert; former CMO at GoTo/LogMeIn",
+              "episode_number": 202,
+              "episode_date": "2024-12-16",
+              "evidence": "Argued org structure must follow from business strategy and that functional groupings (product marketing, growth, corporate marketing, ops) with clear accountability are the right model. Emphasized keeping top-level structure simple.",
+              "practice_id": "align-org-structure-to-strategy"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Recommended splitting marketing into two functional teams (strategy and pipeline) with different focuses and working styles, arguing that combining them creates friction.",
+              "practice_id": "split-marketing-strategy-pipeline-creation"
+            }
+          ]
+        },
+        {
+          "position_id": "organize-by-outcomes-or-pods",
+          "stance": "Replace traditional functional silos with outcome-focused work streams or pods. Each pod owns a measurable outcome and includes a mix of people and capabilities needed to achieve it. This enables faster shipping, clearer accountability, and better integration of AI tools. Examples include organizing around inbound, outbound, and communications rather than demand gen, product marketing, and brand.",
+          "supporters": [
+            {
+              "guest_name": "Kady Srinvivasan",
+              "guest_context": "CMO; B2B marketing leader",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Argued for replacing traditional functional silos with outcome-focused work streams (inbound, outbound, communications), where each stream owns the full set of tactics needed to achieve its outcome rather than each function owning a tactic across all outcomes.",
+              "practice_id": "ai-first-org-structure-by-outcomes"
+            },
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "B2B marketing leader; former CMO",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Recommended reorganizing marketing teams around outcomes and customer problems rather than traditional job titles and functions, creating cross-functional pods focused on specific outcomes (e.g., 'brand relationship building,' 'customer engagement and referrals') with clear KPIs.",
+              "practice_id": "outcome-based-pod-org-structure"
+            },
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 283,
+              "episode_date": "2025-09-18",
+              "evidence": "Described organizing marketing into cross-functional squads focused on specific motions (paid squad, product launch squad, SEO squad), each including all necessary functions and meeting weekly — a pod model rather than functional silos.",
+              "practice_id": "squad-based-team-structure-with-weekly-syncs"
+            },
+            {
+              "guest_name": "Emma Robinson",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "Advocated for organizing marketing teams as small, autonomous pods that can move quickly and test ideas without excessive approval layers, with mechanisms to share learnings across the organization.",
+              "practice_id": "small-empowered-teams-experimentation-model"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 4",
+      "context_dependency": "Partially context-dependent: the outcome/pod model advocates (Srinvivasan, Sloan, Lepoidevin) tend to be speaking about AI-first or rapidly scaling companies, while the functional model advocates (Dhillon, Mahoney, Lyman) tend to be speaking about larger, more mature organizations. However, both groups present their models as broadly applicable, and the disagreement is genuine for mid-market B2B companies deciding how to structure a 10-50 person marketing team.",
+      "trend_note": "The outcome/pod model advocates are clustered in mid-to-late 2025 (Srinvivasan Aug 2025, Robinson Aug 2025, Lepoidevin Sep 2025, Sloan Oct 2025), while functional model advocates span 2024-2025. This may reflect an emerging shift toward pod-based structures, potentially driven by AI enabling smaller cross-functional teams.",
+      "why_it_matters": "Org structure determines how accountability is assigned, how fast teams can execute, and whether specialists or generalists thrive — choosing the wrong model for your company stage can create either siloed dysfunction or diffuse accountability with no clear functional ownership."
+    },
+    {
+      "disagreement_id": "generalist-vs-specialist-marketer-hiring",
+      "title": "Should you hire specialist marketers or multi-threaded generalists?",
+      "category": "marketing-team-structure",
+      "positions": [
+        {
+          "position_id": "hire-channel-specialists",
+          "stance": "Rather than having one person be mediocre across all channels, identify one channel where someone can excel and let them master it. Build content team roles around channel mastery, not generalist execution. Once they've cracked the code on one channel, give them time to experiment with new channels.",
+          "supporters": [
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "B2B content marketing strategist; founder of Foundation Marketing",
+              "episode_number": 200,
+              "episode_date": "2024-12-09",
+              "evidence": "Explicitly argued for building content team roles around channel mastery rather than generalist execution, with each person excelling at one channel before expanding to others.",
+              "practice_id": "content-team-specialization-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "hire-multi-threaded-generalists",
+          "stance": "Rather than hiring specialists in demand gen, content, or product marketing, hire and develop marketers who can think strategically about how multiple tactics work together and execute across these areas. Multi-threaded marketers who understand how content, paid media, lifecycle marketing, and events interconnect create competitive advantage, especially in AI-first companies where you need fewer people doing more.",
+          "supporters": [
+            {
+              "guest_name": "Kady Srinvivasan",
+              "guest_context": "CMO; B2B marketing leader",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Argued for hiring multi-threaded marketers who can execute across integrated tactics rather than siloed specialties, especially in AI-first companies where the ability to integrate tactics creates competitive advantage.",
+              "practice_id": "multi-threaded-marketer-skill-set"
+            },
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Described AI tools enabling marketers to blur traditional role boundaries by handling design, engineering, and product work — creating 'hybrid operators' who execute across multiple disciplines, implying a preference for multi-disciplinary generalists over narrow specialists.",
+              "practice_id": "hybrid-marketer-role-expansion"
+            },
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 283,
+              "episode_date": "2025-09-18",
+              "evidence": "Recommended building self-sufficient team members who can handle tasks they would normally hand off, using AI tools and templates to enable end-to-end ownership of complete work streams.",
+              "practice_id": "self-sufficient-team-members-with-ai-tools"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Ross Simmonds is specifically discussing content team roles, while Kady Srinvivasan and Jess Lytle are discussing broader marketing team composition in AI-first contexts. However, the underlying tension — depth vs. breadth in individual marketer skill sets — is a genuine disagreement about hiring philosophy.",
+      "trend_note": "The multi-threaded generalist position appears in more recent episodes (Srinvivasan Aug 2025, Lytle Jan 2026), while Simmonds' specialist argument is from Dec 2024. Too few data points to confirm a trend.",
+      "why_it_matters": "Hiring philosophy determines whether your team can adapt to new channels and integrate tactics (generalists) or execute any single channel at world-class depth (specialists) — a tradeoff with direct implications for campaign quality and organizational agility."
+    }
+  ]
+}

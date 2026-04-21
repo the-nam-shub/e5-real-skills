@@ -1,0 +1,206 @@
+{
+  "category": "linkedin-ads-tactics",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "organic-test-before-paid-universal-vs-selective",
+      "title": "Should you always test content organically before boosting it as a paid ad?",
+      "category": "linkedin-ads-tactics",
+      "positions": [
+        {
+          "position_id": "always-test-organic-first",
+          "stance": "Post content organically on LinkedIn first to validate engagement and resonance before allocating paid budget. Only amplify content that has already demonstrated audience appeal through organic signals like likes, comments, and shares. This reduces creative risk and ensures you're only paying to scale proven content.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Explicitly recommended testing creative organically first to validate resonance before investing paid media budget behind it, using organic engagement signals as a clear indicator of paid performance.",
+              "practice_id": "organic-to-paid-creative-validation"
+            },
+            {
+              "guest_name": "Dasha Shakov",
+              "guest_context": "B2B marketing practitioner",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "Post content organically first to validate engagement before boosting as a thought leader ad with updated tracking URLs. Reported thought leader ads delivering 3x the return of all other LinkedIn ad types combined when using this approach.",
+              "practice_id": "linkedin-organic-test-before-paid-ads"
+            },
+            {
+              "guest_name": "Emeric Ernoult",
+              "guest_context": "B2B marketing practitioner",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "Argued thought leader ads work better partly because content has already been validated organically before being boosted, making it more authentic and avoiding ad fatigue from obviously promotional content.",
+              "practice_id": "linkedin-thought-leader-ads-mechanics"
+            },
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "B2B content and LinkedIn marketing practitioner",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Recommended identifying organic posts that perform well first, then amplifying them using LinkedIn's thought leader ads feature, framing organic content as real-time feedback on what resonates before paid amplification.",
+              "practice_id": "linkedin-organic-to-paid-amplification"
+            },
+            {
+              "guest_name": "Davang Shah",
+              "guest_context": "LinkedIn marketing leader",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Explicitly stated to test creative approaches organically first to validate they resonate before scaling with paid spend, as part of the broader principle that creative quality drives 60-70% of ad effectiveness.",
+              "practice_id": "creative-effectiveness-60-70-percent"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist and agency founder",
+              "episode_number": 228,
+              "episode_date": "2025-03-17",
+              "evidence": "For top-of-funnel cold ads, avoid leading with your company name or logo since prospects don't know you. Use imagery matching the target persona's workplace and demographics. This is a distinct creative strategy from organic content, implying organic validation doesn't translate directly to cold paid performance.",
+              "practice_id": "linkedin-cold-ad-creative-with-prospect-imagery"
+            },
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B LinkedIn ads practitioner",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Prioritize pattern interruption over brand consistency in LinkedIn ad creative—focus on visuals that feel like they're jumping out of the screen. This creative philosophy is about paid feed dynamics, not organic validation, suggesting paid creative should be engineered independently for interruption.",
+              "practice_id": "linkedin-ads-creative-break-pattern"
+            }
+          ]
+        },
+        {
+          "position_id": "paid-amplification-independent-of-organic-validation",
+          "stance": "Paid thought leader ads and sponsored influencer content can be run without requiring prior organic validation. When an influencer post performs well organically it's a good signal, but the primary driver for sponsoring content is strategic fit and creative quality—not organic performance metrics. Paid amplification of creator content is a distinct tactic that doesn't depend on organic testing as a prerequisite.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B LinkedIn ads practitioner",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Recommended sponsoring influencer posts when they perform well organically (strong discussion, questions in comments), but framed this as opportunistic amplification rather than a mandatory pre-validation step. Also recommended prioritizing pattern interruption over brand consistency, suggesting creative decisions are made independently of organic testing.",
+              "practice_id": "influencer-content-amplification-paid-ads"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 180,
+              "episode_date": "2024-09-30",
+              "evidence": "Described amplifying organic creator content by sponsoring posts as paid ads to extend shelf life of organic content, framing it as a distribution strategy rather than a validation-first approach—the goal is extending reach, not confirming resonance.",
+              "practice_id": "sponsor-organic-creator-posts-with-paid-ads"
+            }
+          ]
+        }
+      ],
+      "support_summary": "7 vs 2",
+      "context_dependency": "Partially context-dependent: the 'always test organic first' advice applies most cleanly to thought leader ads from internal executives where you control the posting cadence. The opposing position applies more to influencer/creator programs where you're amplifying third-party content opportunistically. However, both camps are discussing the same core question of whether organic validation is a prerequisite for paid amplification, making this a genuine disagreement in the overlapping use case of boosting LinkedIn posts as paid ads.",
+      "trend_note": null,
+      "why_it_matters": "If organic validation is truly necessary before paid amplification, marketers should build a testing cadence into their content calendar before allocating paid budget. If it's not required, teams can move faster by running paid amplification in parallel with or independent of organic posting, which changes both workflow and budget timing."
+    },
+    {
+      "disagreement_id": "lead-forms-vs-landing-pages-for-all-offers",
+      "title": "Should you use LinkedIn lead gen forms or send users to landing pages for high-intent offers like demos?",
+      "category": "linkedin-ads-tactics",
+      "positions": [
+        {
+          "position_id": "lead-forms-for-content-landing-pages-for-demos",
+          "stance": "LinkedIn lead gen forms should be used for content downloads and top-of-funnel offers because they auto-fill and keep users on LinkedIn, resulting in higher conversion rates. For demo requests and high-intent conversions, send users to your website landing page instead—this requires manual form completion but attracts higher-intent prospects willing to leave LinkedIn.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist and agency founder",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Explicitly distinguished between lead form use cases: lead forms for content downloads (higher conversion rate, lower intent) vs. landing pages for demo requests (lower conversion rate, higher intent). Argued matching form type to offer type is critical.",
+              "practice_id": "lead-forms-vs-landing-pages-by-offer"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist and agency founder",
+              "episode_number": 228,
+              "episode_date": "2025-03-17",
+              "evidence": "Explicitly framed gating as a budget-size decision: small budgets gate to capture leads, larger budgets ungate to increase sharing and organic reach. Only gate content with genuine value exchange (proprietary data, research, annual reports).",
+              "practice_id": "gated-vs-ungated-content-by-budget"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist and agency founder",
+              "episode_number": 152,
+              "episode_date": "2024-06-24",
+              "evidence": "Repeated the same framework: gate proprietary/high-value content for small budgets to capture leads via forms; ungate for larger budgets to increase sharing and dark social reach.",
+              "practice_id": "gated-vs-ungated-content-budget-dependent"
+            }
+          ]
+        },
+        {
+          "position_id": "landing-pages-with-interactive-demos-for-conversion",
+          "stance": "For conversion-focused LinkedIn campaigns, drive traffic to landing pages featuring interactive product demos rather than demo booking forms or LinkedIn lead gen forms. LinkedIn users are less likely to book a demo directly while scrolling, but will engage with a low-friction interactive product tour. This is especially effective for competitor-targeting campaigns.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "B2B product marketing and demand gen practitioner",
+              "episode_number": 176,
+              "episode_date": "2024-09-16",
+              "evidence": "Recommended driving LinkedIn ad traffic to landing pages with interactive product demos rather than demo booking forms, arguing LinkedIn users won't book demos while scrolling but will engage with low-friction product tours.",
+              "practice_id": "demo-in-linkedin-ads"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Blatner's advice is about form mechanics (lead gen form vs. landing page form), while Marcotullio's advice is about landing page content (interactive demo vs. booking form). They could be complementary if you send users to a landing page with an interactive demo AND a form. However, they genuinely conflict on whether the destination for high-intent conversion traffic should be a standard landing page with a form or an interactive demo experience—a real tactical choice marketers must make.",
+      "trend_note": null,
+      "why_it_matters": "The choice between lead gen forms and landing page destinations directly affects both conversion volume and lead quality, which determines how you report LinkedIn ROI and how sales teams prioritize follow-up."
+    },
+    {
+      "disagreement_id": "frequency-target-for-niche-audiences",
+      "title": "How many times per month should you target each person in a niche B2B LinkedIn audience?",
+      "category": "linkedin-ads-tactics",
+      "positions": [
+        {
+          "position_id": "cap-at-12-per-30-days",
+          "stance": "For B2B LinkedIn campaigns targeting niche audiences, cap frequency at 12 impressions per person within a 30-day period. This prevents ad fatigue while allowing enough repetition for message retention. Higher frequency leads to diminishing returns and audience annoyance.",
+          "supporters": [
+            {
+              "guest_name": "Tagg Bozied",
+              "guest_context": "B2B LinkedIn ads strategist",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Explicitly recommended a frequency cap of 12 impressions per 30 days for niche B2B audiences, framing it as the sweet spot between message retention and ad fatigue.",
+              "practice_id": "frequency-cap-12-per-30-days"
+            },
+            {
+              "guest_name": "Tagg Bozied",
+              "guest_context": "B2B LinkedIn ads strategist",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "When describing budget planning methodology, cited 8-12 as the typical frequency target for niche audiences, used to validate budget sizing.",
+              "practice_id": "budget-planning-with-cpm-and-frequency"
+            }
+          ]
+        },
+        {
+          "position_id": "target-5-10-impressions-per-month",
+          "stance": "For LinkedIn ABM campaigns, target 5-10 impressions per person per month as the frequency goal when calculating budget. This range provides meaningful repetition without overexposure and is the basis for working backward to determine required budget.",
+          "supporters": [
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "B2B LinkedIn ads and ABM practitioner",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "Recommended targeting 5-10 impressions per person per month as the frequency input for budget calculation, using the formula: audience size × 5-10 impressions × CPM = required budget.",
+              "practice_id": "linkedin-ad-audience-sizing-budget-calculation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Bozied's 12-impression cap is framed as a ceiling to avoid fatigue, while Davidson's 5-10 range is framed as a planning target for budget calculation. These could theoretically coexist (plan for 5-10, cap at 12). However, they represent meaningfully different frequency philosophies—Bozied's upper bound of 12 vs. Davidson's upper bound of 10 suggests a genuine difference in how aggressively to pursue frequency with niche audiences.",
+      "trend_note": null,
+      "why_it_matters": "Frequency targets directly determine budget requirements for niche campaigns—a 20% difference in frequency target translates to a 20% difference in required spend, which matters when justifying LinkedIn ad budgets to leadership."
+    }
+  ]
+}

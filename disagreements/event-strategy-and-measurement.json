@@ -1,0 +1,332 @@
+{
+  "category": "event-strategy-and-measurement",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "booth-vs-no-booth-conference-strategy",
+      "title": "Should you invest in a conference booth, or replace it with alternative activations?",
+      "category": "event-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "skip-booth-use-alternative-activations",
+          "stance": "Instead of spending $50K+ on a conference booth, invest in alternative activations like hosted dinners, breakfasts, off-site lunches, or pre-event digital campaigns. These create more intimate, high-quality interactions at lower cost and often deliver better ROI than booth traffic.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "Argued that hosting your own event (dinner, workout session, interview recording) at the conference venue creates deeper relationships and generates content at a fraction of the cost of a $50K+ booth.",
+              "practice_id": "event-strategy-host-own-events-at-conferences"
+            },
+            {
+              "guest_name": "Sandra Rand",
+              "guest_context": "Marketing leader",
+              "episode_number": 265,
+              "episode_date": "2025-07-17",
+              "evidence": "Recommended sponsoring breakfast or off-site lunch events instead of investing $50,000+ in a conference booth, citing more intimate settings and meaningful one-on-one conversations at lower cost.",
+              "practice_id": "event-breakfast-lunch-sponsorship-strategy"
+            },
+            {
+              "guest_name": "Tess Pfeifle",
+              "guest_context": "Marketing professional",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Achieved 2,000% ROI with $1K ad spend and no booth—65% of attendees visited her site vs. typical 35% booth traffic—by using pre-event branded ads and personalized follow-up to drive 11 on-site meetings.",
+              "practice_id": "conference-play-without-booth-branded-ads"
+            },
+            {
+              "guest_name": "Andrew Davies",
+              "guest_context": "Marketing executive",
+              "episode_number": 195,
+              "episode_date": "2024-11-21",
+              "evidence": "Recommended replacing large trade shows with intimate dinners (10 founders) or multi-day retreats, citing higher-fidelity conversations and stronger relationship building versus mixed-quality trade show leads.",
+              "practice_id": "replace-trade-shows-with-intimate-dinners-and-retreats"
+            }
+          ]
+        },
+        {
+          "position_id": "use-booths-and-trade-shows-for-new-pipeline",
+          "stance": "Trade shows and booth presence remain the primary vehicle for generating new qualified pipeline from cold prospects, who are already in a transactional mindset. For physical products especially, in-person trade show presence is essential because customers need to touch the product.",
+          "supporters": [
+            {
+              "guest_name": "Kera Wright",
+              "guest_context": "Marketing leader",
+              "episode_number": 124,
+              "episode_date": "2024-03-14",
+              "evidence": "Explicitly stated that trade shows (not hosted events) are the better choice for generating new qualified pipeline from cold prospects, because attendees are already in a transactional mindset and expect to learn about products.",
+              "practice_id": "trade-shows-vs-hosted-events-for-pipeline"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Marketing executive for physical B2B products",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Argued that in-person events and trade shows are critical for physical product marketing because customers need to touch the product and ask situation-specific questions that can't be answered via datasheets.",
+              "practice_id": "physical-product-marketing-mix-in-person-events"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially context-dependent: Priscilla Barolo's position is explicitly scoped to physical B2B products where tactile product experience is necessary. Kera Wright's position applies to cold pipeline generation specifically. The alternative-activation advocates are largely speaking about software/SaaS contexts. However, Dave Gerhardt, Sandra Rand, and Tess Pfeifle are making a general claim that booths are overpriced relative to alternatives, which conflicts with Kera Wright's general recommendation even in software contexts.",
+      "trend_note": "The most recent guests (Tess Pfeifle, ep. 341, 2026; Sandra Rand, ep. 265, 2025) cluster on the skip-booth side, while the booth-positive voices (Kera Wright, ep. 124, 2024; Priscilla Barolo, ep. 302, 2025) are older or product-specific. This may reflect a growing preference for alternative activations over time.",
+      "why_it_matters": "Conference budgets are among the largest line items in B2B marketing, and the choice between booth investment and alternative activations can mean the difference between measurable ROI and sunk cost. Getting this wrong at scale means either missing pipeline opportunities or overspending on low-conversion booth traffic."
+    },
+    {
+      "disagreement_id": "event-roi-measurement-timeframe",
+      "title": "Should event ROI be measured immediately (pipeline sourced) or over a longer time horizon (influenced pipeline)?",
+      "category": "event-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "measure-event-roi-over-multiple-quarters",
+          "stance": "Events deliver pipeline over 2-3 quarters, not immediately. Establish a portfolio approach measuring influence from events over time, working with sales and finance to set expectations that results will accrue over multiple quarters.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "Marketing leader",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Argued that some marketing efforts (especially events) deliver pipeline over 2-3 quarters, not immediately, and recommended documenting wins that trace back to past events to validate long-term ROI.",
+              "practice_id": "events-long-term-influence-measurement"
+            },
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Marketing leader",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Recommended measuring webinar/event success through longer-term pipeline influence with a 30-90 day lag to demo booked or closed deal, rather than optimizing for immediate demo bookings.",
+              "practice_id": "ungated-webinar-value-first-strategy"
+            },
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "CMO at LivePerson",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Argued events deliver strong ROI when used for influence on existing pipeline rather than first-touch sourcing, implying measurement should focus on deal acceleration and influence rather than immediate pipeline sourced.",
+              "practice_id": "events-for-influence-not-first-touch"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 294,
+              "episode_date": "2025-10-16",
+              "evidence": "Argued that the real ROI of in-person events is the community and relationships built, which compound over time and drive word-of-mouth growth. Described this as harder to measure than ticket sales but more valuable long-term.",
+              "practice_id": "event-community-roi-focus"
+            }
+          ]
+        },
+        {
+          "position_id": "measure-event-roi-on-immediate-pipeline-and-revenue-in-room",
+          "stance": "Measure event ROI by calculating the total prospect revenue and retention revenue represented by attendees in the room, and track pipeline generated and bookings as primary metrics. Events should show direct revenue exposure and pipeline sourced.",
+          "supporters": [
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "Marketing executive",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Recommended measuring event ROI by calculating total prospect revenue and retention revenue represented by attendees, and tracking this metric across events to demonstrate cumulative impact (e.g., touching 20% of total company revenue across a multi-city roadshow).",
+              "practice_id": "revenue-in-the-room-event-roi"
+            },
+            {
+              "guest_name": "Kristina DeBrito",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Recommended aligning event metrics to funnel stage, with top-of-funnel events measured on pipeline generation and new leads, and middle-of-funnel events measured on bookings and renewal rates—all relatively near-term metrics.",
+              "practice_id": "event-metrics-by-funnel-stage"
+            },
+            {
+              "guest_name": "Stephanie Christensen",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Recommended measuring event ROI across three pillars including new revenue and pipeline generated as the primary metric, alongside target account penetration and retention/expansion.",
+              "practice_id": "event-roi-measurement-three-pillars"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 3",
+      "context_dependency": "Partially context-dependent: the long-horizon camp may be more applicable to brand-building or top-of-funnel events, while the immediate-pipeline camp may be more applicable to field events and roadshows targeting warm prospects. However, both camps include guests speaking about similar event types (field events, roadshows), making this a genuine disagreement about measurement philosophy.",
+      "trend_note": null,
+      "why_it_matters": "How you measure event ROI determines whether events get budget in the next cycle; teams that measure only immediate pipeline will systematically undervalue events that build relationships and influence deals over time, while teams that only measure long-term influence may fund events that don't actually drive business outcomes."
+    },
+    {
+      "disagreement_id": "trade-shows-vs-hosted-intimate-events-for-pipeline",
+      "title": "Are trade shows or hosted intimate events (dinners, retreats) better for pipeline generation?",
+      "category": "event-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "trade-shows-better-for-new-pipeline",
+          "stance": "Trade shows are the better choice for generating new qualified pipeline from cold prospects, because attendees are already in a transactional mindset and expect to learn about products. Hosted events are better for brand building and pipeline acceleration with warm prospects.",
+          "supporters": [
+            {
+              "guest_name": "Kera Wright",
+              "guest_context": "Marketing leader",
+              "episode_number": 124,
+              "episode_date": "2024-03-14",
+              "evidence": "Explicitly stated that trade shows (not hosted events) are the primary vehicle for generating new qualified pipeline from cold prospects, and that hosted events are better suited for brand building and pipeline acceleration.",
+              "practice_id": "trade-shows-vs-hosted-events-for-pipeline"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "CMO for physical B2B products",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Recommended a mix of major trade shows, alliance partner events, and company-hosted roadshows for physical product marketing, with trade shows (Infocom, ISE) as a core component for reaching customers who need to touch the product.",
+              "practice_id": "physical-product-event-mix-trade-shows-roadshows"
+            }
+          ]
+        },
+        {
+          "position_id": "intimate-hosted-events-better-for-pipeline",
+          "stance": "Intimate hosted events (dinners, retreats, VIP experiences) generate higher-quality pipeline and relationships than trade shows. They enable high-fidelity conversations, better understanding of customer needs, and stronger relationship building, with less post-event filtering required.",
+          "supporters": [
+            {
+              "guest_name": "Andrew Davies",
+              "guest_context": "Marketing executive",
+              "episode_number": 195,
+              "episode_date": "2024-11-21",
+              "evidence": "Recommended replacing large trade shows with intimate dinners (10 founders) or multi-day retreats, citing higher-quality leads and customer relationships versus mixed-quality trade show leads requiring heavy post-event filtering.",
+              "practice_id": "replace-trade-shows-with-intimate-dinners-and-retreats"
+            },
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "Marketing and sales leader",
+              "episode_number": 162,
+              "episode_date": "2024-07-29",
+              "evidence": "Described a VIP dinner strategy (16 people, mix of customers and prospects) as a primary enterprise pipeline generation tactic, with structured discovery conversations converting attendees into pipeline.",
+              "practice_id": "vip-dinner-strategy-enterprise-pipeline"
+            },
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "Marketing and sales leader",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Recommended structuring dinner events with embedded discovery conversations to drive post-event pipeline, aiming for 50%+ of attendees to express interest in a demo by the end of the event.",
+              "practice_id": "event-discovery-conversation-structure"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Described intimate dinners (2 customers + 10 prospects) as a 'non-sexy but highly effective tactic for pipeline building' that scales better than large events.",
+              "practice_id": "small-group-customer-prospect-dinners"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially context-dependent: Kera Wright's position may apply more to companies without an established brand or customer base to leverage for intimate events. The intimate-event advocates may be speaking more to companies with existing customer relationships they can use as social proof. However, both camps are making claims about pipeline generation quality that genuinely conflict.",
+      "trend_note": "The intimate-event advocates are more recent (2024-2025) while Kera Wright's trade-show-first position is from early 2024, potentially reflecting a broader shift toward relationship-based pipeline generation over transactional trade show presence.",
+      "why_it_matters": "Choosing the wrong event format for pipeline generation means either spending heavily on trade show presence that generates low-quality leads, or investing in intimate events that don't reach enough cold prospects to fill the top of funnel."
+    },
+    {
+      "disagreement_id": "webinar-gating-strategy",
+      "title": "Should webinars be gated (requiring registration) or ungated to maximize reach?",
+      "category": "event-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "ungated-webinars-for-reach-and-trust",
+          "stance": "Remove gating from webinars to maximize attendance and audience reach. Measure success through engagement metrics and longer-term pipeline influence (30-90 day lag) rather than immediate lead capture. This builds long-term trust and word-of-mouth distribution.",
+          "supporters": [
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Marketing leader",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Explicitly recommended removing gating from webinars to maximize attendance, focusing on delivering genuine value rather than lead capture, and measuring success through engagement metrics and 30-90 day pipeline influence.",
+              "practice_id": "ungated-webinar-value-first-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "use-attend-to-receive-incentives-to-drive-live-attendance",
+          "stance": "Bake exclusive incentives into webinar marketing that attendees only receive if they show up live. This increases show rates by 30%+ and drives 4x higher pipeline conversion compared to on-demand viewing, implying registration and live attendance tracking are essential.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Webinar and email marketing expert",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Cited data showing 'attend to receive' incentives increase show rates by over 30% and drive 4x higher pipeline conversion vs. on-demand viewing. This approach requires gating and tracking live attendance to trigger the incentive.",
+              "practice_id": "attend-to-receive-webinar-hook"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Marketing professional",
+              "episode_number": 155,
+              "episode_date": "2024-07-04",
+              "evidence": "Recommended offering tangible incentives (free lunch, swag, tickets) to the first N registrants to boost registration and attendance rates, implying a gated/registration-required model.",
+              "practice_id": "use-incentive-to-drive-webinar-registration"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Eoin Clancy may be speaking about a more mature brand with existing audience trust, while Jay Schwedelson's approach may be more applicable to companies still building their webinar audience. However, both are making general claims about webinar strategy that conflict on the fundamental question of whether to gate and optimize for live attendance vs. maximize reach through ungating.",
+      "trend_note": "The most recent episode (Eoin Clancy, ep. 326, Feb 2026; Jay Schwedelson, ep. 329, Feb 2026) shows both positions appearing nearly simultaneously, so no clear chronological trend.",
+      "why_it_matters": "The choice between gated and ungated webinars directly affects both the size of your audience and the quality of leads you capture; optimizing for one typically comes at the expense of the other, making this a genuine strategic trade-off with pipeline implications."
+    },
+    {
+      "disagreement_id": "event-size-strategy",
+      "title": "Should you keep events small and focused, or go big at a small number of marquee conferences?",
+      "category": "event-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "keep-events-small-under-300",
+          "stance": "Keep events under 200-300 people and treat them as community enablers, not revenue sources. Large events (1000+ people) require enormous operational overhead, consume thousands of hours, and rarely generate meaningful profit. Cap events at 20% of total revenue.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and SaaS investor",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Argued from direct experience running SaaStr that large events require union labor, vendor management, and enormous logistics overhead. Events rarely generate meaningful profit at scale and distract leadership.",
+              "practice_id": "keep-events-small-and-focused"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and SaaS investor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Repeated the same position: events under 200-300 people are manageable and can be profitable; beyond that, operational complexity and cost explode.",
+              "practice_id": "keep-events-small-and-focused"
+            },
+            {
+              "guest_name": "Stephanie Christensen",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Set a specific threshold of 500+ attendees as the minimum before hosting a flagship customer conference, arguing that a half-empty event damages brand perception more than not hosting at all.",
+              "practice_id": "event-minimum-attendance-threshold"
+            }
+          ]
+        },
+        {
+          "position_id": "go-big-at-few-marquee-events",
+          "stance": "Rather than spreading resources thin across many events, identify 1-2 major conferences per year where your target buyers will be present and commit significant budget and creative resources to make a big impact. Explicitly skip events where you cannot compete effectively.",
+          "supporters": [
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "CMO",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Recommended choosing a small number of marquee conferences where you can make a significant impact and skipping others entirely, concentrating resources for maximum visibility and brand impact.",
+              "practice_id": "event-strategy-go-big-or-skip"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Jason Lemkin is speaking from the perspective of a company that runs events as a business model (SaaStr), while Mychelle Mollot is speaking about a company attending/sponsoring third-party events. However, both are making claims about resource allocation and event scale that apply broadly to B2B marketers deciding how to invest in events.",
+      "trend_note": null,
+      "why_it_matters": "Misallocating event budget—either by scaling a hosted event beyond its operational capacity or by spreading thin across too many conferences—is a common and costly mistake. Understanding which approach fits your stage and goals determines whether events become a strategic asset or a resource drain."
+    }
+  ]
+}

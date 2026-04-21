@@ -1,0 +1,103 @@
+{
+  "category": "product-led-growth",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "plg-team-structure-unified-vs-split",
+      "title": "Should PLG and enterprise sales motions be served by unified or separate marketing teams?",
+      "category": "product-led-growth",
+      "positions": [
+        {
+          "position_id": "split-specialized-teams",
+          "stance": "When a company has both PLG and enterprise sales motions, split the product marketing team into specialized roles—one group focused on PLG/product work and another on sales/enterprise enablement. This prevents individuals from being stretched across incompatible skill sets and allows each person to excel in their area of strength.",
+          "supporters": [
+            {
+              "guest_name": "Jeff Hardison",
+              "guest_context": "Product marketing leader; discussed team structure at companies with dual PLG and enterprise motions",
+              "episode_number": 335,
+              "episode_date": "2026-03-05",
+              "evidence": "Recommends creating one group of PMMs focused on product managers, research, data, and experimentation for free/freemium users, and a separate solutions marketing team focused on sales, CS, and demand gen for enterprise features.",
+              "practice_id": "product-marketing-team-structure-hybrid-plg-sales"
+            }
+          ]
+        },
+        {
+          "position_id": "unified-growth-leader",
+          "stance": "Combine self-serve and enterprise growth teams under a single growth leader to eliminate misaligned incentives and improve efficiency. A unified structure ensures high-quality leads from one funnel are properly nurtured through the other and allows the organization to capitalize on self-serve customers as the most efficient path to upmarket growth.",
+          "supporters": [
+            {
+              "guest_name": "Shane Murphy",
+              "guest_context": "Growth leader with experience managing both self-serve and enterprise funnels",
+              "episode_number": 173,
+              "episode_date": "2024-09-05",
+              "evidence": "Argues that merging separate growth teams under one leader eliminates misaligned incentives and improves efficiency, particularly for converting self-serve customers into enterprise accounts.",
+              "practice_id": "merge-growth-teams-unified-leader"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Jeff Hardison is specifically discussing the product marketing function (PMMs), while Shane Murphy is discussing the broader growth team structure (self-serve vs. enterprise funnels). However, both are addressing the same underlying question of whether to unify or separate the teams serving PLG and enterprise motions, making this a genuine structural disagreement even if the exact scope differs slightly.",
+      "trend_note": null,
+      "why_it_matters": "How you structure the team serving PLG vs. enterprise motions directly affects hiring profiles, incentive alignment, and whether your marketing can effectively serve both audiences—getting this wrong leads to either generalists stretched too thin or siloed teams that fail to convert self-serve users into enterprise accounts."
+    },
+    {
+      "disagreement_id": "plg-foundation-timing-parallel-vs-sequential",
+      "title": "Should enterprise SaaS companies build a PLG motion in parallel with sales-led, or only after proving the sales-led model?",
+      "category": "product-led-growth",
+      "positions": [
+        {
+          "position_id": "build-plg-in-parallel-immediately",
+          "stance": "Enterprise SaaS companies should begin building a PLG foundation (e.g., free tier) in parallel with their sales-led motion from early on. Waiting too long risks being displaced by competitors with strong bottom-up adoption when enterprise contracts come up for renewal, as happened with Figma vs. Envision.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "Enterprise SaaS marketing leader with experience at companies navigating PLG and sales-led motions",
+              "episode_number": 162,
+              "episode_date": "2024-07-29",
+              "evidence": "Cites the Figma vs. Envision example as a cautionary tale—companies that don't build PLG foundations early risk being displaced at renewal time by competitors with organic bottom-up adoption.",
+              "practice_id": "product-led-growth-foundation-enterprise-sales"
+            },
+            {
+              "guest_name": "Emma Robinson",
+              "guest_context": "B2B SaaS marketing leader; episode guest",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "Described leveraging widespread free/consumer adoption (95% of Fortune 500 employees using the product organically) as proof of value to approach C-suite, positioning enterprise as structuring what's already happening organically.",
+              "practice_id": "bottom-up-to-top-down-enterprise-motion"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Former VP Marketing at Zoom; episode guest",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Cited Zoom's early strategy as working specifically because the product was so much better than alternatives that word-of-mouth spread organically; cautioned that freemium virality is contingent on genuine product differentiation.",
+              "practice_id": "zoom-freemium-product-led-growth"
+            }
+          ]
+        },
+        {
+          "position_id": "introduce-plg-as-complement-after-sales-led-established",
+          "stance": "For companies that have historically been entirely sales-led, introduce a PLG motion as a complementary channel once the sales-led model is established. This allows you to reach additional customer segments and scale without proportionally increasing sales headcount.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "Marketing leader at a company transitioning from purely sales-led to a hybrid model",
+              "episode_number": 199,
+              "episode_date": "2024-12-05",
+              "evidence": "Frames PLG as a complementary channel introduced to support 10x growth goals without 10x team growth, implying it is added after the sales-led model is already in place rather than built simultaneously from the start.",
+              "practice_id": "product-led-growth-complement-sales-led"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Natalie Taylor is speaking to companies that still have the option to build PLG early, while Sylvia Lepoidevin is speaking to companies that are already established and sales-led. However, both are addressing the same strategic question of when and how to introduce PLG relative to a sales-led motion, and their advice genuinely conflicts for companies at the inflection point of deciding whether to add PLG.",
+      "trend_note": null,
+      "why_it_matters": "The timing of when to invest in a PLG motion relative to a sales-led model has major resource and competitive implications—building too late risks competitive displacement, while building too early may distract from proving the core sales motion."
+    }
+  ]
+}

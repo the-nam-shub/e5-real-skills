@@ -1,0 +1,190 @@
+{
+  "category": "copywriting-craft-and-execution",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-for-copy-generation-vs-editing-only",
+      "title": "Should AI be used to generate marketing copy, or only to analyze and edit human-written copy?",
+      "category": "copywriting-craft-and-execution",
+      "positions": [
+        {
+          "position_id": "ai-as-creative-partner-with-skill",
+          "stance": "AI can be a genuine creative partner for copy generation if you have strong copywriting skills and can prompt effectively. The problem isn't AI—it's that most marketers lack the underlying skill to prompt well. With skill, AI can help iterate, scale, and generate strong copy.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Marketing leader and growth expert",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "AI amplifies existing skill; skilled copywriters can use AI as a creative partner to iterate and scale. Without those skills, AI produces mediocre content faster.",
+              "practice_id": "ai-copy-requires-copy-skill"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Marketing leader and growth expert",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "To get good copy from AI, you need to be skilled at both copywriting and prompting. The more specific you are about the desired outcome, the better the AI will replicate it.",
+              "practice_id": "ai-copy-requires-copywriting-skill"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 275,
+              "episode_date": "2025-08-21",
+              "evidence": "Feed AI tools your own past posts and voice memos to build a personalized writing style guide, then use AI to help flesh out ideas, add research, and refine hooks—but always write the core content yourself.",
+              "practice_id": "use-ai-as-writing-assistant-not-generator"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 155,
+              "episode_date": "2024-07-04",
+              "evidence": "Use ChatGPT to research and validate ideas, find supporting research and frameworks, then weave those into your writing to strengthen it.",
+              "practice_id": "use-ai-to-analyze-trends-and-improve-writing"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 129,
+              "episode_date": "2024-04-04",
+              "evidence": "Use ChatGPT to analyze writing style and provide editing feedback; feed high-quality copy examples into ChatGPT and ask it to describe the writing style, tone, and techniques used.",
+              "practice_id": "chatgpt-copywriting-analysis-and-editing"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-for-ideation-not-final-copy",
+          "stance": "AI should be used for brainstorming and ideation only, not as a source of final marketing copy. Human-written copy consistently outperforms AI-generated copy on engagement metrics because AI lacks emotional resonance. AI is also useful for flagging clichés and weak language, but cannot generate ideas with conviction.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization expert",
+              "episode_number": 132,
+              "episode_date": "2024-04-15",
+              "evidence": "AI currently lacks the emotional resonance and human understanding needed for effective B2B messaging. Human-written emails and copy consistently outperform AI-generated versions on engagement metrics. Use AI to move faster on initial drafts, then apply human judgment.",
+              "practice_id": "ai-brainstorm-ideation-not-final-copy"
+            },
+            {
+              "guest_name": "Harry Dry",
+              "guest_context": "Copywriter and founder of Marketing Examples",
+              "episode_number": 303,
+              "episode_date": "2025-11-13",
+              "evidence": "AI is useful for identifying what's wrong with copy—clichés, abstract verbs, abstract nouns—but it cannot generate ideas with conviction. AI lacks the conviction needed to make bold creative choices.",
+              "practice_id": "use-ai-to-flag-cliches-not-generate-ideas"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially context-dependent: Kieran Flanagan and Dave Gerhardt's pro-AI-generation stance is explicitly conditioned on the marketer having strong underlying copywriting skills. Talia Wolf's and Harry Dry's skepticism may apply more broadly regardless of skill level. The disagreement partially dissolves if you accept that skilled copywriters can use AI generatively while unskilled ones should not—but Harry Dry's conviction argument is a genuine philosophical disagreement that doesn't dissolve with skill level.",
+      "trend_note": "The more recent episodes (2025-2026) from Kieran Flanagan and Dave Gerhardt lean toward AI as a capable creative partner, while the skeptical positions (Talia Wolf, Harry Dry) come from 2024-2025. This may reflect evolving AI capabilities rather than a stable disagreement.",
+      "why_it_matters": "Marketers deciding how to integrate AI into their copy workflow need to know whether to trust AI-generated output or treat it purely as a starting point—getting this wrong means either publishing mediocre AI copy at scale or leaving significant productivity gains on the table."
+    },
+    {
+      "disagreement_id": "five-minute-rule-vs-deep-work-for-writing",
+      "title": "Should good content flow quickly (five-minute rule) or require protected deep work time?",
+      "category": "copywriting-craft-and-execution",
+      "positions": [
+        {
+          "position_id": "good-content-flows-fast",
+          "stance": "If a piece of content takes longer than five minutes to write, kill it. Content that requires excessive deliberation isn't ready or isn't the right idea. Speed of execution is a quality signal—if it flows naturally, it's fully formed.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and B2B SaaS investor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "The five-minute rule helps identify what's already fully formed in your head versus what requires excessive deliberation. If it doesn't flow naturally within five minutes, it's either not ready or not the right idea.",
+              "practice_id": "five-minute-content-rule"
+            }
+          ]
+        },
+        {
+          "position_id": "writing-requires-protected-deep-work",
+          "stance": "Good writing and creative messaging require protected, uninterrupted time blocks. Constant context-switching prevents the kind of thinking needed for inspired ideas and great headlines. Creativity doesn't happen in fragmented time or under pressure.",
+          "supporters": [
+            {
+              "guest_name": "Emma Stratton",
+              "guest_context": "B2B messaging consultant and founder of Punchy",
+              "episode_number": 295,
+              "episode_date": "2025-10-20",
+              "evidence": "Good writing and creative messaging require space and breathing room. Constant context-switching prevents the kind of thinking needed for inspired ideas and great headlines.",
+              "practice_id": "deep-work-blocks-for-creative-writing"
+            },
+            {
+              "guest_name": "Will Hoekenga",
+              "guest_context": "B2B copywriter and conversion specialist",
+              "episode_number": 181,
+              "episode_date": "2024-10-03",
+              "evidence": "Block dedicated time to produce a rough first draft without aiming for polish. Good copy emerges through iteration, not inspiration—the shitty first draft approach requires dedicated time, not speed.",
+              "practice_id": "shitty-first-draft-themed-days"
+            },
+            {
+              "guest_name": "Will Hoekenga",
+              "guest_context": "Copywriter and conversion specialist",
+              "episode_number": 181,
+              "episode_date": "2024-10-03",
+              "evidence": "If you're struggling to write, it's not a creative block—it's a research deficit. Go back and spend more time reviewing customer interviews and gathering data. Once you have enough research, the writing flows naturally.",
+              "practice_id": "research-before-writing-signal"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 314,
+              "episode_date": "2025-12-22",
+              "evidence": "The first draft is rarely the final version. Generate multiple variations (e.g., 5-10 subject line options), then piece together the best elements from each. Editing is where the real work happens, not the initial writing.",
+              "practice_id": "editing-over-writing"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent: Jason Lemkin's five-minute rule may apply specifically to short-form social content (LinkedIn posts) where he has the most experience, while Emma Stratton and Will Hoekenga are speaking more broadly about messaging and landing page copy. The disagreement is real for short-form content but may dissolve for longer, higher-stakes assets.",
+      "trend_note": null,
+      "why_it_matters": "A marketer who applies the five-minute rule to all content will abandon ideas that need more development, while one who always schedules deep work blocks may miss the speed advantage of publishing ideas that are already fully formed."
+    },
+    {
+      "disagreement_id": "power-of-three-in-copy",
+      "title": "Should you use the 'power of three' structure in marketing copy and messaging?",
+      "category": "copywriting-craft-and-execution",
+      "positions": [
+        {
+          "position_id": "power-of-three-works-for-storytelling",
+          "stance": "The power of three is a proven narrative structure that aids retention and flow. It works well for overarching story structure—keynotes, brand stories, and macro-level frameworks.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 314,
+              "episode_date": "2025-12-22",
+              "evidence": "The story-problem-solution-CTA framework (a four-part structure, but implicitly endorsing structured frameworks) and formatting with clear sections (Thing One, Thing Two, Thing Three) suggests comfort with numbered structures in copy.",
+              "practice_id": "story-problem-solution-cta-framework"
+            }
+          ]
+        },
+        {
+          "position_id": "power-of-three-harmful-at-sentence-level",
+          "stance": "The power of three should not be applied to headlines, value propositions, or individual sentences. Forcing three benefits into a single headline produces fluffy, generic messaging where the third item exists only to complete the pattern. Prioritize ruthlessly at the sentence level: one message per sentence.",
+          "supporters": [
+            {
+              "guest_name": "Diane Wiredu",
+              "guest_context": "B2B messaging strategist and founder of Lion Word",
+              "episode_number": 226,
+              "episode_date": "2025-03-10",
+              "evidence": "When companies force three benefits into a single headline or value prop, they often end up with fluffy, generic messaging where the third item is included just to complete the pattern. Reserve the power of three for macro-level storytelling only.",
+              "practice_id": "power-of-three-caveat"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "This disagreement partially dissolves on closer inspection: Diane Wiredu explicitly allows the power of three at the macro storytelling level and only objects to its use in headlines and value propositions. Dave Gerhardt's use of numbered sections (Thing One, Thing Two, Thing Three) is at the formatting level, not the headline level. However, there is a genuine tension about whether structured numerical frameworks help or hurt clarity in marketing copy.",
+      "trend_note": null,
+      "why_it_matters": "Misapplying the power of three to headlines and value propositions is a common mistake that produces generic messaging—understanding when this structure helps versus hurts is critical for anyone writing positioning or homepage copy."
+    }
+  ]
+}

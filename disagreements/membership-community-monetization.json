@@ -1,0 +1,64 @@
+{
+  "category": "membership-community-monetization",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "engagement-vs-access-kpi",
+      "title": "Should community success be measured by engagement metrics or by membership retention/access?",
+      "category": "membership-community-monetization",
+      "positions": [
+        {
+          "position_id": "optimize-for-engagement",
+          "stance": "Communities should create recurring monthly engagement hooks and events that drive members to log in regularly. Meaningful value should be delivered at least once per billing cycle, with specific programs designed to bring members back each month. Engagement frequency is a core retention lever.",
+          "supporters": [
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Marketing at Exit Five",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Recommends designing at least one recurring monthly event or program (e.g., expert teardowns, matchmaking) to give members a concrete reason to log in, aligned with billing cycle.",
+              "practice_id": "monthly-engagement-hooks"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Marketing at Exit Five",
+              "episode_number": 233,
+              "episode_date": "2025-03-31",
+              "evidence": "Advises providing meaningful value at least once per billing period so members can recall recent value when they see the charge, focusing on 1-3 high-impact engagement plays per month.",
+              "practice_id": "value-frequency-billing-alignment"
+            }
+          ]
+        },
+        {
+          "position_id": "optimize-for-access-retention",
+          "stance": "Communities should be measured by whether members retain their membership year-over-year and use the resource when they need it—not by daily or monthly engagement activity. A member who logs in once every 60 days but finds critical resources is more valuable than a daily commenter who derives no lasting value. Chasing engagement metrics is a trap.",
+          "supporters": [
+            {
+              "guest_name": "Greg Isenberg",
+              "guest_context": "Community builder and entrepreneur",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Explicitly argues to stop optimizing around daily engagement metrics (likes, comments, posts) and instead measure by access and yearly retention. Frames engagement-chasing as unsustainable as communities scale.",
+              "practice_id": "membership-vs-engagement-kpi-shift"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Advocates building community as a searchable resource hub rather than a discussion forum, explicitly to avoid the failure mode of chasing engagement metrics. Members should be able to find value even after 60 days of inactivity.",
+              "practice_id": "community-value-beyond-discussion-forum"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: the engagement-first view (Carnevale) may apply more to communities in growth or activation phases where habit formation is critical, while the access-first view (Isenberg, Gerhardt) may apply more to mature communities at scale where daily engagement becomes unsustainable. However, both sides are explicitly discussing paid B2B communities in general terms, so a genuine tension remains about which metric should be primary.",
+      "trend_note": "The two guests advocating for engagement optimization (Carnevale, episodes 213 and 233) are more recent (Jan–Mar 2025), while the access/retention position (Isenberg and Gerhardt, episode 146) comes from mid-2024. This may reflect an operational evolution at Exit Five as the community scaled and required more active retention tactics, rather than a broader field shift.",
+      "why_it_matters": "Choosing the wrong primary KPI can lead community managers to either burn out chasing engagement theater or neglect the active programming that keeps members renewing. Getting this right determines how you staff, budget, and evaluate community health."
+    }
+  ]
+}

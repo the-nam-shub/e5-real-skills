@@ -1,0 +1,150 @@
+{
+  "category": "agency-and-vendor-management",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "do-it-in-house-first-vs-outsource-early",
+      "title": "Should you execute a marketing function in-house first before hiring an agency, or outsource early to accelerate learning?",
+      "category": "agency-and-vendor-management",
+      "positions": [
+        {
+          "position_id": "in_house_first",
+          "stance": "Always execute a marketing function in-house first—even at small scale—before outsourcing. This lets you understand the mechanics, define what 'good' looks like, and brief agencies effectively. Outsourcing before you understand the function leads to black-box spending and inability to evaluate results.",
+          "supporters": [
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Recommended doing any marketing function (ads, content, events) in-house at small scale first to understand success criteria and measurement before outsourcing with a clear brief.",
+              "practice_id": "define-good-before-outsourcing"
+            },
+            {
+              "guest_name": "Bruno Estrella",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 180,
+              "episode_date": "2024-09-30",
+              "evidence": "Argued that doing it in-house first lets you understand inputs, mechanics, and what actually works—only then should you decide whether to hire an agency or scale. Prevents hiring agencies to solve ambiguous problems.",
+              "practice_id": "do-it-first-before-hiring-agency"
+            }
+          ]
+        },
+        {
+          "position_id": "outsource_early_to_expert",
+          "stance": "Outsource technical execution to expert freelancers or agencies early, especially for specialized functions like paid ads. This reduces hiring risk and accelerates learning. You don't need to master the function yourself first—just retain control over strategy and messaging.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B marketing leader scaling paid ads",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Recommended outsourcing paid ads technical execution to expert freelancers early rather than hiring full-time, as a way to reduce hiring risk and accelerate learning—without requiring in-house mastery first.",
+              "practice_id": "outsource-paid-ads-execution-retain-strategy"
+            },
+            {
+              "guest_name": "Luke",
+              "guest_context": "AI creative practitioner",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Recommended hiring a contractor or agency as the first step to test and validate AI creative workflows before building internal expertise—explicitly using external help to learn, rather than learning internally first.",
+              "practice_id": "ai-creative-producer-contractor-testing"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: the 'in-house first' advocates speak broadly about any marketing function, while the 'outsource early' advocates focus on technically specialized areas (paid ads, AI creative). However, paid ads is exactly the kind of function Udell and Estrella would include in their advice, making this a genuine disagreement on approach.",
+      "trend_note": "The two 'outsource early' supporters (episodes 332 and 345) are both from 2026, while the 'in-house first' supporters (episodes 180 and 190) are from late 2024. This may reflect a shift toward trusting external specialists earlier as marketing functions become more technically complex.",
+      "why_it_matters": "Getting this wrong in either direction is costly: outsourcing too early can mean wasted budget on a function you can't evaluate, while insisting on in-house mastery first can slow down channels that require deep platform expertise to execute well."
+    },
+    {
+      "disagreement_id": "replace-content-agency-with-in-house-vs-use-agencies-for-velocity",
+      "title": "Should you replace content agencies with in-house talent, or use external agencies to maintain creative velocity?",
+      "category": "agency-and-vendor-management",
+      "positions": [
+        {
+          "position_id": "replace_agency_with_in_house",
+          "stance": "Cut content agencies that produce generic, SEO-optimized content without a brand point of view. Replace them with a single trusted in-house content person who understands your space and can develop a strong perspective. Generic agency content doesn't differentiate your brand.",
+          "supporters": [
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "B2B content marketing leader",
+              "episode_number": 286,
+              "episode_date": "2025-09-29",
+              "evidence": "Argued that content agencies producing perspective-less SEO content should be cut and replaced with one trusted in-house person who owns all content representation across channels.",
+              "practice_id": "fire-misaligned-content-agency"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "B2B content marketing leader",
+              "episode_number": 179,
+              "episode_date": "2024-09-26",
+              "evidence": "Recommended replacing agencies that produce generic, SEO-focused content without a distinct perspective with in-house talent who understands the company's positioning.",
+              "practice_id": "fire-misaligned-agencies"
+            }
+          ]
+        },
+        {
+          "position_id": "use_external_agencies_for_velocity",
+          "stance": "Use design-as-a-service agencies and external creative partners to maintain creative velocity and avoid bottlenecks. In-house resources get bogged down in operational work; external partners let you launch quickly. Maintain a list of external creative partners you can tap on-demand.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 153,
+              "episode_date": "2024-06-27",
+              "evidence": "Argued that marketing leaders should use design-as-a-service agencies to maintain creative velocity and avoid delays caused by in-house bottlenecks. The job is to get work done well, not to do it all in-house.",
+              "practice_id": "use-design-as-service-for-leverage"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Kevin White's advice specifically targets content/copy agencies producing generic SEO work, while Gerhardt's advice focuses on design and creative execution. However, the underlying philosophy conflicts—White argues in-house is better for quality and perspective, while Gerhardt argues external partners are essential for velocity and scale.",
+      "trend_note": null,
+      "why_it_matters": "This choice affects both content quality and team structure—over-relying on agencies risks brand dilution through generic content, while over-investing in in-house talent risks creative bottlenecks that slow campaign execution."
+    },
+    {
+      "disagreement_id": "retainer-vs-sprint-agency-model",
+      "title": "Should you use long-term retainers or sprint-based engagements for content and SEO agencies?",
+      "category": "agency-and-vendor-management",
+      "positions": [
+        {
+          "position_id": "pro_retainer_strategic_partner",
+          "stance": "Bring in a trusted strategic agency partner on an ongoing basis to develop positioning, messaging, and content. A long-term relationship allows the agency to become deeply embedded in your company's perspective and serve as a 'secret weapon' across multiple initiatives.",
+          "supporters": [
+            {
+              "guest_name": "Kimberly Storin",
+              "guest_context": "First-time CMO",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "Recommended hiring a small, specialized agency partner who works in the weeds with you over time, becoming a trusted partner you can bring across multiple companies. The ongoing relationship is what creates value.",
+              "practice_id": "strategic-agency-partner-positioning"
+            }
+          ]
+        },
+        {
+          "position_id": "anti_retainer_pro_sprint",
+          "stance": "Reject long-term retainers for content and SEO work. The '6-12 months to see results' narrative is used to justify retainers but is flawed—SEO improvements can show results in weeks. Front-load all strategic work in 2-3 month sprints, then let the client execute independently.",
+          "supporters": [
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "SEO and content agency founder",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Argued that retainer models misalign incentives by encouraging agencies to drip out work over time. Sprint-based engagements organized around specific initiatives (internal link sprint, content refresh sprint) deliver upfront value and respect the client's time and budget.",
+              "practice_id": "content-sprint-model-over-retainers"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Storin's advice is aimed at first-time CMOs needing strategic positioning help, while Hufford's advice targets content and SEO execution work. However, both are speaking to ongoing agency relationships in general, and their underlying philosophies about retainer value genuinely conflict.",
+      "trend_note": null,
+      "why_it_matters": "Choosing between retainers and sprints has major budget and accountability implications—retainers lock in spend with diffuse deliverables, while sprints force agencies to front-load value but may sacrifice relationship depth needed for strategic work."
+    }
+  ]
+}

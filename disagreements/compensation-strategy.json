@@ -1,0 +1,70 @@
+{
+  "category": "compensation-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "marketing-comp-metric-alignment",
+      "title": "Should marketing compensation be tied to pipeline outcomes, company revenue, or cross-functional North Star metrics?",
+      "category": "compensation-strategy",
+      "positions": [
+        {
+          "position_id": "tie-to-company-revenue",
+          "stance": "Marketing compensation should be tied to overall company revenue growth, not marketing-specific metrics like MQLs or marketing-sourced pipeline. This prevents attribution fights with sales and aligns marketing with the broader business outcome.",
+          "supporters": [
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Recommended structuring marketing leadership comp around company revenue growth rather than marketing-specific metrics; include a revenue kicker but avoid tying it solely to marketing-sourced revenue, which creates misalignment with sales-led motions.",
+              "practice_id": "align-marketing-to-company-revenue"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 118,
+              "episode_date": "2024-02-19",
+              "evidence": "Advocated tying a significant portion of marketing leader comp to actual company revenue (new revenue added or all-up revenue including churn), framing it as a negotiation lever with the CEO to shift from cost-center to revenue-owner mindset.",
+              "practice_id": "revenue-based-marketing-comp"
+            }
+          ]
+        },
+        {
+          "position_id": "tie-to-pipeline-outcomes",
+          "stance": "Marketing compensation and KPIs should be structured around pipeline outcomes and revenue impact rather than lead or MQL volume. This creates accountability to business results and aligns marketing with sales on deal quality.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Argued that tying comp to pipeline outcomes—and giving SDRs skin in the game on closed deals—eliminates turf wars and disconnects from vanity metrics; explicitly contrasted this with tying comp to company-wide revenue.",
+              "practice_id": "align-marketing-comp-to-pipeline-outcomes"
+            }
+          ]
+        },
+        {
+          "position_id": "tie-to-shared-north-star-cross-functional",
+          "stance": "Compensation and recognition should be structured around cross-functional North Star metrics (e.g., total pipeline across all sources) rather than either marketing-specific pipeline or company revenue alone. This removes incentives for teams to argue attribution and encourages a company-first mindset.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Recommended measuring success on overall pipeline attainment across marketing, outbound, and partners combined—never isolating marketing-sourced pipeline—so teams willingly deprioritize their own work if it serves the broader goal.",
+              "practice_id": "align-incentives-to-shared-north-star"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: pipeline-outcome alignment (Ruth Zive) may be more appropriate for companies where marketing has clear pipeline influence and SDR teams exist, while company-revenue alignment (Udell, Kotlyar) suits sales-led motions where marketing's direct pipeline contribution is harder to isolate. The cross-functional North Star approach (Lyman) may suit more mature, multi-channel GTM motions. However, all three guests are addressing the same core question of what marketing comp should be tied to, making this a genuine disagreement even accounting for context.",
+      "trend_note": "The two most recent guests (Lyman, 2025; Udell, 2024) both explicitly argue against isolating marketing-sourced pipeline as a comp metric, suggesting a possible shift away from pipeline-specific accountability toward broader shared metrics. The older guest (Kotlyar, 2024-02) and mid-period guest (Zive, 2024-09) represent the pipeline/revenue split. Not a strong enough pattern to call a clear trend.",
+      "why_it_matters": "The metric marketing is compensated on shapes behavior, team dynamics, and attribution battles with sales — choosing the wrong anchor can create perverse incentives or internal conflict. B2B marketers negotiating their own comp structure or designing team incentives need to understand which approach best fits their GTM motion."
+    }
+  ]
+}

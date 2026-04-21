@@ -1,0 +1,72 @@
+{
+  "category": "ai-in-marketing",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-output-as-final-copy-vs-starting-point",
+      "title": "Should AI-generated copy be used as final marketing output or only as a starting draft?",
+      "category": "ai-in-marketing",
+      "positions": [
+        {
+          "position_id": "ai-as-draft-accelerator",
+          "stance": "AI tools are valuable for generating 80% drafts, initial copy, and content that humans then refine and polish. The output won't be perfect but eliminates writer's block and speeds up production significantly. Providing detailed context and prompts improves output quality enough to make AI-generated drafts a legitimate starting point for final copy.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Explicitly recommends using AI to generate 80% drafts that you refine rather than starting from scratch, framing it as eliminating writer's block and reducing time to a polished final version.",
+              "practice_id": "use-ai-to-generate-80-percent-drafts"
+            },
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "AI marketing strategist and program director",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Recommends using AI to generate outlines and full content drafts, repurpose content across formats, and scale brand voice — treating AI output as a legitimate production input that humans review and refine, not just as inspiration.",
+              "practice_id": "ai-content-outline-before-drafting"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Founder, Foundation Marketing",
+              "episode_number": 121,
+              "episode_date": "2024-02-29",
+              "evidence": "Advocates using AI to convert voice notes directly into LinkedIn posts and other content, with reps adjusting tone afterward — treating AI output as a near-final draft that needs light editing, not a brainstorm.",
+              "practice_id": "sales-faq-to-social-content-workflow"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Founder, Foundation Marketing",
+              "episode_number": 121,
+              "episode_date": "2024-02-29",
+              "evidence": "Frames AI as a productivity multiplier, not a content replacement. Recommends using AI for specific tasks like converting voice notes to posts, with humans adjusting output to match tone and remove generic AI intros.",
+              "practice_id": "ai-tools-as-productivity-multiplier"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-for-ideation-only-not-final-copy",
+          "stance": "AI-generated copy should not be used as final marketing output because it lacks the emotional resonance and human understanding needed for effective B2B messaging. Human-written emails and copy consistently outperform AI-generated versions on engagement metrics. AI is best used for brainstorming and ideation, with human judgment applied to produce the actual final content.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization specialist and founder, GetUplift",
+              "episode_number": 132,
+              "episode_date": "2024-04-15",
+              "evidence": "Explicitly states AI currently lacks emotional resonance for effective B2B messaging and that human-written emails and copy consistently outperform AI-generated versions on engagement metrics. Recommends using AI only for brainstorming and ideation, then applying human judgment to produce final copy.",
+              "practice_id": "ai-brainstorm-ideation-not-final-copy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent: Talia Wolf's position is grounded in conversion optimization and emotional messaging, where performance data matters most. The draft-accelerator camp may be referring to lower-stakes content (social posts, email outlines, ad headlines) rather than high-conversion landing pages or sales emails. However, both sides make general claims about AI copy quality without restricting their advice to specific content types, so a genuine disagreement remains.",
+      "trend_note": null,
+      "why_it_matters": "If Talia Wolf is right that AI copy measurably underperforms human copy on engagement metrics, marketers who use AI drafts as near-final output are actively hurting conversion rates. The answer determines how much human rewriting effort is actually required after AI generation — a significant workflow and resourcing decision."
+    }
+  ]
+}

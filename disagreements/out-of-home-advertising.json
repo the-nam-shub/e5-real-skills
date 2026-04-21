@@ -1,0 +1,64 @@
+{
+  "category": "out-of-home-advertising",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "ooh-budget-threshold-vs-scrappy-low-budget",
+      "title": "Does out-of-home advertising require a significant minimum budget, or can it work for anyone with a scrappy approach?",
+      "category": "out-of-home-advertising",
+      "positions": [
+        {
+          "position_id": "minimum-budget-required",
+          "stance": "Out-of-home advertising only makes sense once a company is spending at least ~$5,000/month on performance marketing, with $100k+/month being the threshold where it becomes truly viable. Companies below this threshold should not pursue OOH. Start with a single-market test before scaling.",
+          "supporters": [
+            {
+              "guest_name": "Amrita Gurney",
+              "guest_context": "Marketing leader at Float",
+              "episode_number": 287,
+              "episode_date": "2025-10-02",
+              "evidence": "Explicitly stated that if a company is spending less than ~$5,000/month on performance marketing, out-of-home is not a good fit. Framed OOH as a channel that requires sufficient overall marketing budget to be cost-effective, and recommended starting with a single-market test to validate ROI before scaling.",
+              "practice_id": "out-of-home-budget-threshold"
+            }
+          ]
+        },
+        {
+          "position_id": "scrappy-low-cost-ooh-works",
+          "stance": "Out-of-home advertising can be executed effectively at very low cost by securing small, high-visibility placements and amplifying them through owned channels. The physical placement is primarily a content creation vehicle; the real reach comes from distributing that content on LinkedIn and other owned channels. Budget is not a barrier.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 316,
+              "episode_date": "2025-12-29",
+              "evidence": "Described hiring someone to post album-release-style posters in three strategic locations for under $10k, buying a one-hour Times Square billboard slot, and placing a digital billboard near the Super Bowl venue — all framed as accessible tactics for companies without large budgets. The strategy relies on documenting and distributing the content, not on the media buy's inherent reach.",
+              "practice_id": "scrappy-attention-plays-low-budget"
+            },
+            {
+              "guest_name": "Udi Ledergor",
+              "guest_context": "Former CMO at Gong",
+              "episode_number": 237,
+              "episode_date": "2025-04-14",
+              "evidence": "Explicitly framed the strategy as 'punching above your weight' — purchasing cheap, small versions of premium placements (e.g., regional WSJ ads, affordable Times Square billboards) and amplifying via owned channels. The entire premise is that this works without an enterprise-level budget.",
+              "practice_id": "punch-above-weight-billboard-formula"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Described renting the NASDAQ Times Square billboard in 30-minute increments, placing customer testimonial billboards à la carte, and wrapping transit hubs near events — all positioned as cost-effective tactics accessible to companies without large OOH budgets.",
+              "practice_id": "nasdaq-billboard-fractional-rental"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially. Amrita Gurney's advice is explicitly aimed at companies running OOH as a genuine awareness channel with measurable pipeline impact, while the scrappy approach treats OOH primarily as a content creation vehicle amplified through owned channels. However, both camps are addressing the same underlying question — 'should a company with limited budget do OOH?' — and give opposite answers. The disagreement is real even accounting for this nuance, because Gurney's threshold would rule out the very use cases Gerhardt and Ledergor are advocating for.",
+      "trend_note": null,
+      "why_it_matters": "A B2B marketer with a limited budget deciding whether to invest in OOH will get completely opposite guidance from these experts — one says don't bother until you hit a meaningful spend threshold, while three others say you can make it work for under $10k. Getting this wrong means either wasting budget prematurely or missing a high-leverage brand-building tactic."
+    }
+  ]
+}

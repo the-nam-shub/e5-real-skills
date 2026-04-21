@@ -1,0 +1,246 @@
+{
+  "category": "attribution-and-incrementality-measurement",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 3,
+  "disagreements": [
+    {
+      "disagreement_id": "self-reported-attribution-reliability",
+      "title": "How reliable is self-reported 'How did you hear about us?' data for marketing decisions?",
+      "category": "attribution-and-incrementality-measurement",
+      "positions": [
+        {
+          "position_id": "self-reported-directional-only",
+          "stance": "Self-reported attribution data is subject to recency bias and recall errors, making it useful only as a directional sanity check or hypothesis validator. It should never be used as the primary basis for budget allocation decisions and must be paired with more rigorous methods like correlation analysis or incrementality testing.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement and incrementality expert",
+              "episode_number": 144,
+              "episode_date": "2024-05-27",
+              "evidence": "Explicitly stated self-reported data is subject to recency bias and that people in multi-channel environments often cannot accurately recall where they first encountered a brand. Recommended pairing with correlation analysis.",
+              "practice_id": "use-self-reported-attribution-directionally"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement and incrementality expert",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Described 'How did you hear about us?' as a sanity check, not a decision-making metric, and warned about constructing it carefully to avoid lazy selections.",
+              "practice_id": "ask-where-did-you-hear-about-us-with-care"
+            }
+          ]
+        },
+        {
+          "position_id": "self-reported-valuable-primary-signal",
+          "stance": "Self-reported attribution data, when collected carefully (open text fields rather than dropdowns, or well-constructed options), provides genuinely valuable and actionable insights that can surface unexpected channels and validate marketing investments. It can be a primary signal for understanding channel effectiveness, especially when combined with other data.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia LePoidevin",
+              "guest_context": "B2B marketing leader at Kandji",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Advocated strongly for open text fields over dropdowns, citing that Kandji discovered 17% of inbound traffic attributed to LLM search using this method—an unexpected and actionable finding.",
+              "practice_id": "how-did-you-hear-about-us-open-text-field"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "B2B content and demand generation marketer",
+              "episode_number": 321,
+              "episode_date": "2026-01-15",
+              "evidence": "Recommended combining 'How did you hear about us?' form fields with AI-powered call recording as a lightweight but effective attribution approach, treating it as a meaningful data source.",
+              "practice_id": "use-call-recording-ai-for-attribution"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 141,
+              "episode_date": "2024-05-16",
+              "evidence": "Recommended piping signup source data into a shared Slack channel so the team can see patterns in real time, treating it as a meaningful directional signal to double down on high-performing channels.",
+              "practice_id": "capture-signup-source-data-community"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Community and marketing manager at Exit Five",
+              "episode_number": 233,
+              "episode_date": "2025-03-31",
+              "evidence": "Used automated post-signup surveys to measure audience-building effectiveness, finding that 60% of new members came from LinkedIn—data that directly validated their channel focus.",
+              "practice_id": "collect-signup-source-data-onboarding"
+            },
+            {
+              "guest_name": "Bruno Estrella",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 180,
+              "episode_date": "2024-09-30",
+              "evidence": "Argued that customer interviews and self-reported attribution are more accurate than pixel-based tracking for understanding which channels and content actually drive conversions, especially as cookie-based tracking degrades.",
+              "practice_id": "use-customer-interviews-for-attribution"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially context-dependent: Pranav Piyush's skepticism is most relevant for companies running complex multi-channel programs where recall bias is severe. The pro-self-reported camp may be speaking to simpler GTM motions or using it as one of several signals. However, both camps are addressing the same fundamental question of how much weight to give this data, making it a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "If self-reported data is systematically biased by recency, marketers who rely on it will over-credit bottom-funnel channels and under-invest in early-stage brand touchpoints that customers can't recall. Getting this wrong compounds over time as budget shifts away from channels that actually build pipeline."
+    },
+    {
+      "disagreement_id": "mta-models-usefulness",
+      "title": "Are multi-touch attribution (MTA) models useful for budget allocation decisions?",
+      "category": "attribution-and-incrementality-measurement",
+      "positions": [
+        {
+          "position_id": "mta-unreliable-for-budget-allocation",
+          "stance": "MTA models are fundamentally unreliable for cross-channel budget allocation due to privacy constraints, double-counting problems, and false causality. They should only be used for in-channel optimization or goal-setting, not for deciding where to invest budget across channels. Incrementality testing and customer feedback are the correct tools for budget allocation.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Marketing measurement practitioner",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Explicitly stated MTA and last-touch models are unreliable for cross-channel budget allocation in a privacy-constrained environment; recommended using incremental testing and customer feedback instead.",
+              "practice_id": "mta-model-limitations-budget-allocation"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Highlighted the double-counting problem in MTA where the same revenue dollar gets credited to 5-7 touchpoints, distorting decision-making and making it impossible to understand true channel efficiency.",
+              "practice_id": "avoid-multi-touch-attribution-double-counting"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement and incrementality expert",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "Argued that click-based attribution has four critical blind spots and that incrementality—not attribution credit—is the right measurement frame. Recommended correlation analysis and geo-tests over MTA.",
+              "practice_id": "incrementality-over-attribution-credit"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement and incrementality expert",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Recommended stopping use of first-touch, last-touch, or multi-touch attribution models entirely, replacing them with incrementality framing for leadership conversations.",
+              "practice_id": "reframe-attribution-as-incrementality"
+            }
+          ]
+        },
+        {
+          "position_id": "mta-useful-with-proper-framing",
+          "stance": "Multi-touch attribution models are useful when applied correctly—specifically for understanding the full buyer journey, measuring influence across long deal cycles, and storytelling to executives. The key is using them alongside other data sources (self-reported, sales call analysis) and being clear about what question you're answering.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "B2B CMO",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "Advocated for multi-touch attribution over long time periods to recognize cumulative contribution in up-market deals with 25+ touchpoints, arguing it justifies brand and event investments.",
+              "practice_id": "brand-attribution-pipeline-connection"
+            },
+            {
+              "guest_name": "Emir Atli",
+              "guest_context": "Marketing attribution platform founder",
+              "episode_number": 165,
+              "episode_date": "2024-08-12",
+              "evidence": "Recommended building custom, flexible attribution reports with multiple attribution models and buyer journey views to tell coherent stories to CFOs and drive optimization decisions.",
+              "practice_id": "custom-attribution-reports-for-storytelling"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "B2B marketing practitioner",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Recommended triangulating across first-touch, multi-touch, and last-touch attribution models alongside qualitative feedback to get a complete picture of channel effectiveness.",
+              "practice_id": "use-data-triangulation-for-attribution"
+            },
+            {
+              "guest_name": "Davang Shah",
+              "guest_context": "LinkedIn marketing solutions leader",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Recommended CRM sync and Conversions API as mandatory infrastructure for multi-touch attribution across the full 211-day B2B deal cycle.",
+              "practice_id": "crm-sync-conversions-api-measurement"
+            },
+            {
+              "guest_name": "Kristine Segrist",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "Recommended implementing an MTA model that uses algorithms to weight touchpoints across the funnel journey, paired with a 50/50 attribution agreement with sales.",
+              "practice_id": "multi-metric-attribution-model-b2b"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 4",
+      "context_dependency": "Partially context-dependent: the anti-MTA camp tends to be speaking about budget allocation specifically, while the pro-MTA camp tends to be speaking about influence measurement and storytelling. However, both camps are explicitly addressing the same B2B marketing context, and the disagreement is genuine on whether MTA should inform budget decisions at all.",
+      "trend_note": "The anti-MTA / pro-incrementality position is more heavily represented in recent episodes (2024–2026), with Pranav Piyush appearing multiple times across episodes 130, 144, 191, 239, and 259 consistently advocating for incrementality over attribution. The pro-MTA voices are more distributed across time. This suggests a possible field shift toward incrementality-first thinking.",
+      "why_it_matters": "If MTA models systematically double-count and misattribute, marketers using them for budget allocation are likely over-investing in bottom-funnel channels and under-investing in brand and awareness. Choosing the wrong measurement framework directly determines where millions in budget flow."
+    },
+    {
+      "disagreement_id": "brand-campaigns-short-vs-long-term-measurement",
+      "title": "Must brand and awareness campaigns show short-term measurable lift to be considered effective?",
+      "category": "attribution-and-incrementality-measurement",
+      "positions": [
+        {
+          "position_id": "brand-must-show-short-term-lift",
+          "stance": "All effective marketing, including brand campaigns, must show measurable short-term lift. If a brand campaign cannot demonstrate incrementality in the short term, it is almost certainly not working long-term either. Marketers who claim brand only works long-term are simply failing to measure its short-term effects correctly.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement and incrementality expert",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Explicitly stated: 'If a campaign does not show short-term lift, it is highly unlikely to show long-term lift.' Argued this shifts the mindset from 'brand awareness takes time' to 'brand campaigns must prove incrementality quickly or they are not working.'",
+              "practice_id": "brand-content-short-term-lift-requirement"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement and incrementality expert",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "Argued that the belief that some marketing only works long-term usually means you don't know how to measure its short-term effect, and that every piece of effective marketing drives some measurable short-term impact.",
+              "practice_id": "every-marketing-has-short-term-effect"
+            }
+          ]
+        },
+        {
+          "position_id": "brand-measurement-should-match-channel-objective",
+          "stance": "Brand and creative initiatives should not be measured with direct-response metrics or required to show short-term conversion lift. The fastest way to kill creative marketing is to apply direct-response measurement to it. Instead, use measurement approaches appropriate to the channel and objective—surveys for brand awareness, event studies for stunts, incrementality tests for paid channels—and accept that some brand investment builds awareness that converts over longer time horizons.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Marketing measurement practitioner",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Explicitly stated that 'the fastest way to kill creative marketing is to measure it with direct response metrics' and advocated for using surveys for brand awareness and event studies for stunts rather than requiring short-term conversion lift.",
+              "practice_id": "measurement-meets-marketing-not-vice-versa"
+            },
+            {
+              "guest_name": "Kelly Cheng",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 297,
+              "episode_date": "2025-10-23",
+              "evidence": "Argued for accepting directional attribution rather than requiring proof of short-term ROI, especially when founders understand marketing and are bought into brand strategy. Directional progress in organic search and referral traffic is sufficient.",
+              "practice_id": "directional-attribution-over-perfect-attribution"
+            },
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "B2B CMO",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "Advocated for multi-touch attribution over long time periods to recognize cumulative contribution, arguing that brand and event investments create conditions for pipeline conversion that don't show immediate ROI.",
+              "practice_id": "brand-attribution-pipeline-connection"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Genuine disagreement regardless of context. Both camps are explicitly addressing the same question of how to evaluate brand campaign effectiveness in B2B. The disagreement is about the fundamental measurement philosophy, not about company stage or industry.",
+      "trend_note": "Drew Pinta's episode (346, April 2026) is the most recent and takes the strongest stance against applying short-term direct-response measurement to brand work, potentially representing a reaction to the incrementality-first movement that Pranav Piyush has been advocating across multiple episodes.",
+      "why_it_matters": "If Pranav Piyush is right, marketers who don't require short-term proof from brand campaigns are wasting budget on ineffective work. If Drew Pinta is right, requiring short-term conversion lift from brand campaigns will systematically kill the creative and awareness work that builds long-term competitive advantage."
+    }
+  ]
+}

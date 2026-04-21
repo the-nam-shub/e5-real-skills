@@ -1,0 +1,450 @@
+{
+  "category": "brand-and-content-demand-creation",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "gating-content-yes-or-no",
+      "title": "Should B2B marketers gate content behind forms?",
+      "category": "brand-and-content-demand-creation",
+      "positions": [
+        {
+          "position_id": "anti-gating",
+          "stance": "Gating written content degrades trust and brand perception, creates a bait-and-switch experience, and provides weak intent signals since email addresses are obtainable via tools like Apollo or ZoomInfo anyway. In an AI-driven research environment, gating prevents content from being discovered, indexed, and shared. Distribute content freely to educate buyers and build trust.",
+          "supporters": [
+            {
+              "guest_name": "Tom Wentworth",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "In an AI-driven buying world where prospects do extensive research before engaging, gating prevents content from being discovered, indexed, and shared by AI systems and humans alike. Free distribution increases the likelihood content surfaces in AI research.",
+              "practice_id": "stop-gating-content"
+            },
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "B2B SaaS marketing leader",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Gating written content typically degrades trust and brand perception because it creates a bait-and-switch experience. For B2B SaaS, email addresses obtained through gating are often not strong intent signals anyway (can be obtained via Apollo, Clay, ZoomInfo). Reserve gating for truly exclusive, high-value experiences.",
+              "practice_id": "avoid-gated-content-for-b2b-saas"
+            },
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "B2B SaaS marketing leader",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Most gated content is mediocre, creating a bait-and-switch experience that damages the brand. Gate content only if it is genuinely high-value, exclusive, and worth the friction.",
+              "practice_id": "avoid-low-value-gated-content"
+            },
+            {
+              "guest_name": "Andrew Davies",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 195,
+              "episode_date": "2024-11-21",
+              "evidence": "If your product allows free signup and self-serve onboarding, eliminate gated ebook and content asset strategies entirely. Drive traffic directly to your website and product signup instead.",
+              "practice_id": "replace-gated-ebooks-with-free-product-access"
+            },
+            {
+              "guest_name": "Emir Atli",
+              "guest_context": "B2B SaaS marketing leader",
+              "episode_number": 165,
+              "episode_date": "2024-08-12",
+              "evidence": "Built an ungated content hub and used their own analytics product to track engagement and match it to known prospects via email or CRM data, measuring lift in conversion rates for engaged users.",
+              "practice_id": "ungated-content-hub-with-tracking"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 271,
+              "episode_date": "2025-08-07",
+              "evidence": "Recommends replacing traditional gated content (ebooks, whitepapers) with interactive tools that solve a specific problem for prospects in the mid-funnel, providing immediate value without requiring a demo request.",
+              "practice_id": "mid-funnel-tools-over-gated-content"
+            }
+          ]
+        },
+        {
+          "position_id": "pro-gating-with-high-value-offer",
+          "stance": "Gating is a valid and effective tactic when the asset is genuinely high-value (e.g., original research, benchmark data, exclusive reports). Use a gated offer to build an opt-in email list of engaged subscribers, then nurture them. The key is that the gated asset must be worth the friction.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Recommends creating a valuable gated asset (report, guide, benchmark data) based on customer research, gating it behind a form to capture emails, and promoting via paid ads to build a high-quality opted-in subscriber list.",
+              "practice_id": "build-list-with-gated-offer"
+            },
+            {
+              "guest_name": "Devin Reed",
+              "guest_context": "B2B content marketing leader",
+              "episode_number": 196,
+              "episode_date": "2024-11-25",
+              "evidence": "Using LinkedIn Creator Mode to pin gated content in the featured section has been shown to drive significant lead generation and is a top growth lever for driving MQLs and website traffic.",
+              "practice_id": "linkedin-creator-mode-gated-content"
+            }
+          ]
+        },
+        {
+          "position_id": "gate-after-value-delivery",
+          "stance": "Rather than a binary gate/no-gate decision, place the gate after the prospect has already experienced some value. For interactive demos, gate at step 5 rather than at the start. This increases conversion because prospects understand what they're signing up for.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "B2B SaaS growth and marketing leader",
+              "episode_number": 178,
+              "episode_date": "2024-09-23",
+              "evidence": "Gate an interactive demo after 5-8 steps rather than at the first step. This increases conversion because prospects understand what they're signing up for and have already seen enough to be interested.",
+              "practice_id": "gate-content-after-value-delivery"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "B2B SaaS growth and marketing leader",
+              "episode_number": 122,
+              "episode_date": "2024-03-04",
+              "evidence": "If you must gate an interactive demo, placing the gate at step 5 increases engagement by 15% compared to gating at the start. However, ungated demos (73% of top performers) still outperform gated ones.",
+              "practice_id": "gated-demo-step-five-placement"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 2 vs 2",
+      "context_dependency": "Partially context-dependent: the anti-gating camp often specifies B2B SaaS with self-serve models or AI-era research behavior, while the pro-gating camp focuses on genuinely high-value assets like original research. However, even within the same context (B2B SaaS), Chelsea Castle and Dave Gerhardt give conflicting advice across different episodes, making this a genuine disagreement that persists beyond context.",
+      "trend_note": "The anti-gating position is more prevalent in recent episodes (2025), while the pro-gating-with-high-value-offer position appears in earlier episodes (late 2024). This may reflect a shift in thinking driven by AI search behavior reducing the value of gated content.",
+      "why_it_matters": "Gating decisions directly affect list-building velocity, content discoverability in AI search, and brand trust—getting this wrong either starves your email list or damages your brand perception with every bait-and-switch experience."
+    },
+    {
+      "disagreement_id": "brand-vs-demand-gen-priority",
+      "title": "Should B2B marketing prioritize brand building and audience marketing over lead generation?",
+      "category": "brand-and-content-demand-creation",
+      "positions": [
+        {
+          "position_id": "brand-and-audience-first",
+          "stance": "Marketing's primary job is to build brand recall, mental availability, and trusted advisory relationships with target audiences—not to generate leads. Most of your target accounts are not in-market at any given time (90-97%), so the long game of brand building is more important than short-term lead generation. When buyers do enter the market, they'll think of you first.",
+          "supporters": [
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Reframes marketing strategy from generating leads to building an audience through authentic content. The metric of success is whether your brand is remembered when accounts are ready to buy, not how many leads you generate.",
+              "practice_id": "audience-marketing-over-lead-gen"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "In crowded markets where generic content has zero cost to produce, differentiation through high-quality, audience-focused content is an imperative. Focus on making your brand relevant in the minds of the right people.",
+              "practice_id": "audience-marketing-over-lead-gen"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder of Wynter; B2B marketing expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "When you are the only player in a category, 100% of marketing focus should be on awareness via LinkedIn because mental availability—ensuring buyers think of you when they have a problem—is the priority over conversion.",
+              "practice_id": "mental-availability-over-conversion"
+            },
+            {
+              "guest_name": "Andrew Davies",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 195,
+              "episode_date": "2024-11-21",
+              "evidence": "When your market doesn't yet understand the category or the problem you solve, focus marketing efforts on education and awareness rather than lead generation. Once prospects understand the problem and solution landscape, they will naturally seek you out.",
+              "practice_id": "focus-on-problem-and-solution-awareness-over-lead-gen"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Positions organic content (blogs, podcasts, social media, newsletters) as the core marketing strategy rather than one channel among many. Content is the game in B2B marketing—it drives awareness, builds trust, and creates the foundation for all other marketing activities.",
+              "practice_id": "organic-content-as-core-strategy"
+            },
+            {
+              "guest_name": "Jaina Mistry",
+              "guest_context": "B2B email marketing leader",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "In B2B, email should be designed to build relationships with your audience over time, not to drive immediate conversions. Recognize that 95% of your audience is not in-market at any given time.",
+              "practice_id": "think-email-as-relationship-building"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B CMO",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "In competitive markets, marketing's primary job is to win the memory game. Only 10% of target accounts are in-market at any given time; the 90% out-of-market need consistent brand presence so they remember you when they become ready to buy.",
+              "practice_id": "marketing-is-memory-game"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "B2B content marketing leader",
+              "episode_number": 321,
+              "episode_date": "2026-01-15",
+              "evidence": "A podcast should be an 'awareness magnet' to build top-of-funnel brand awareness rather than a direct lead generation tool. Measure success through secondary signals like social following growth and event registrations, not direct pipeline attribution.",
+              "practice_id": "podcast-awareness-magnet"
+            }
+          ]
+        },
+        {
+          "position_id": "integrate-brand-with-demand-pull-through",
+          "stance": "Brand awareness campaigns should be integrated with demand generation pull-through mechanisms (landing pages, CTAs, demo signups) so you can measure both brand perception lift and immediate business outcomes from the same campaign. Brand and demand are not mutually exclusive—they should be run together.",
+          "supporters": [
+            {
+              "guest_name": "Kristine Segrist",
+              "guest_context": "B2B brand and demand marketing leader",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "When running large brand awareness campaigns (out-of-home, digital, TV), create landing pages and CTAs that drive B2B actions (demo signups, contact sales). This bridges brand and performance marketing in a single campaign.",
+              "practice_id": "brand-awareness-campaign-with-demand-gen-pull-through"
+            },
+            {
+              "guest_name": "Morgan Cole",
+              "guest_context": "B2B demand generation leader",
+              "episode_number": 315,
+              "episode_date": "2025-12-25",
+              "evidence": "Allocate marketing budget to build brand awareness among high-propensity accounts even without current intent signals, creating predictable pipeline growth 2+ quarters out. Requires leadership alignment on different metrics than demand-capture campaigns.",
+              "practice_id": "brand-build-future-pipeline-investment"
+            },
+            {
+              "guest_name": "Tom Whatley",
+              "guest_context": "B2B SEO and content strategist",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Achieved a 33% increase in user signups in 12 months by shifting SEO focus to bottom-of-funnel commercial and transactional keywords, directly capturing high-intent users actively evaluating solutions rather than relying on top-of-funnel awareness content.",
+              "practice_id": "bottom-of-funnel-seo-strategy"
+            },
+            {
+              "guest_name": "Andrew Davies",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 195,
+              "episode_date": "2024-11-21",
+              "evidence": "When your business model allows self-serve signup, eliminate gated content strategies and drive traffic directly to product signup. This reduces friction, increases product trial, and generates revenue from users who discover you organically.",
+              "practice_id": "replace-gated-ebooks-with-free-product-access"
+            },
+            {
+              "guest_name": "Marcy Comer",
+              "guest_context": "B2B content and SEO strategist",
+              "episode_number": 324,
+              "episode_date": "2026-01-27",
+              "evidence": "Commit to a 6-month content calendar focused on 1-2 primary keywords targeting adjacent topics to circle the buyer, but with explicit focus on capturing the 80% not yet ready to buy — a demand creation rather than pure brand play.",
+              "practice_id": "circle-the-buyer-content-mapping"
+            }
+          ]
+        }
+      ],
+      "support_summary": "8 vs 5",
+      "context_dependency": "Partially context-dependent: the brand-first camp often cites the 90-97% out-of-market reality and category creation scenarios, while the integrated camp focuses on companies with established categories and measurable demand. However, both camps are addressing the same general B2B marketing context, making this a genuine strategic disagreement.",
+      "trend_note": null,
+      "why_it_matters": "How you answer this question determines where you allocate budget and how you measure marketing success—optimizing for brand recall and long-term pipeline versus immediate lead volume and short-term conversion are fundamentally different operating models."
+    },
+    {
+      "disagreement_id": "podcast-strategy-product-vs-audience-focus",
+      "title": "Should a B2B podcast focus on your product/industry narrative or on your audience's broader needs?",
+      "category": "brand-and-content-demand-creation",
+      "positions": [
+        {
+          "position_id": "audience-needs-not-product",
+          "stance": "A B2B podcast should be valuable to your target audience independent of your product. It should not be about selling your solution—focus on problems your audience faces, topics they care about, and conversations that make them better at their jobs. If you find yourself steering episodes back to your product, scrap the concept and pivot.",
+          "supporters": [
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "B2B content marketing leader",
+              "episode_number": 266,
+              "episode_date": "2025-07-21",
+              "evidence": "Create a podcast that is valuable to your target audience independent of your product. Focus on problems your audience faces (e.g., decisions marketing leaders make with their CEOs). If you find yourself constantly steering episodes back to your product, scrap the concept and pivot—even days before launch.",
+              "practice_id": "podcast-strategy-not-product-focused"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "B2B content marketing leader",
+              "episode_number": 321,
+              "episode_date": "2026-01-15",
+              "evidence": "The podcast should not be about selling your product; instead, it should be about topics and conversations your audience cares about. Position it as a way to build awareness and familiarity with your brand and leadership team.",
+              "practice_id": "podcast-awareness-magnet"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "A B2B podcast doesn't need to discuss your product or even your industry directly. Focus on topics that resonate with your target audience (books, lessons, entrepreneurship, industry trends) to build familiarity, trust, and brand affinity.",
+              "practice_id": "podcast-brand-building-non-product-focused"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 137,
+              "episode_date": "2024-05-02",
+              "evidence": "Podcasts serve dual purposes: building brand awareness and nurturing leads asynchronously. They are not direct-response channels and won't generate immediate sales. Measure success through brand metrics and long-term engagement rather than immediate conversion.",
+              "practice_id": "podcast-as-brand-and-nurture-tool"
+            }
+          ]
+        },
+        {
+          "position_id": "audience-needs-with-strategic-alignment",
+          "stance": "The podcast should serve your audience's needs, but it should also be strategically aligned to a specific message or problem that connects to your company's positioning. The content should power multiple downstream formats (newsletter, social clips, written summaries) to maximize ROI, and it should be hosted by company leaders who can have authentic conversations.",
+          "supporters": [
+            {
+              "guest_name": "Ryan Narod",
+              "guest_context": "B2B marketing leader at Rippling",
+              "episode_number": 330,
+              "episode_date": "2026-02-17",
+              "evidence": "Conduct podcast-style interviews with internal subject matter experts and external customers/non-customers aligned to a specific strategic message. Repurpose each interview into multiple formats: written content, video clips, and webinar assets.",
+              "practice_id": "interview-flywheel-content-production"
+            },
+            {
+              "guest_name": "Katelyn Bourgoin",
+              "guest_context": "B2B marketing strategist and educator",
+              "episode_number": 344,
+              "episode_date": "2026-04-07",
+              "evidence": "Build a repeatable content loop that reinforces your ownable idea by consistently addressing the problem you're solving, your point of view on that problem, the big promise or outcome, and proof that your approach works. Content should always connect back to your core idea.",
+              "practice_id": "authority-flywheel-content-framework"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "This disagreement is relatively minor—both positions agree the podcast should serve the audience. The real tension is whether the podcast should be completely decoupled from product narrative or strategically aligned to it. This is a genuine disagreement about degree rather than direction.",
+      "trend_note": null,
+      "why_it_matters": "A podcast that feels like a product pitch will fail to build the trust and audience loyalty that makes podcasts valuable as brand assets; but a podcast with no strategic alignment may build audience without building pipeline."
+    },
+    {
+      "disagreement_id": "founder-vs-multi-voice-brand-building",
+      "title": "Should B2B brand building center on a single founder/executive voice or be distributed across many employee voices?",
+      "category": "brand-and-content-demand-creation",
+      "positions": [
+        {
+          "position_id": "founder-single-voice",
+          "stance": "Build marketing strategy around the founder's expertise, background, and unique perspective as the primary content asset. Founders with deep domain experience (e.g., a lawyer who built legal tech) have the most compelling and authentic marketing content. In the AI era, audiences are skeptical of generic content and trust human expertise and voice—the founder's authentic story is the most differentiated asset.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Founders often have deep domain experience that becomes the most compelling marketing content. Rather than generic company messaging, surface the founder's authentic story, expertise, and insights as the primary content asset. This works especially well in the AI era because audiences trust human expertise.",
+              "practice_id": "founder-brand-content-leverage"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B SaaS founder and marketing leader",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Post regularly on LinkedIn with authentic, strong points of view relevant to your ICP. Track immediate engagement as a leading indicator that your positioning resonates. This creates a low-cost, repeatable channel for founder-led brand building and can eventually drive significant inbound pipeline.",
+              "practice_id": "founder-linkedin-content-immediate-feedback"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder of Wynter; B2B marketing expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Peep's existing audience of 100k emails and 250-300k monthly website visits (built around his personal brand) drove the first 10,000 signups for Wynter before any paid acquisition. Current Wynter strategy is 100% focused on awareness via LinkedIn.",
+              "practice_id": "build-audience-before-product-launch"
+            }
+          ]
+        },
+        {
+          "position_id": "distributed-multi-voice",
+          "stance": "Build brand around multiple employee voices rather than centralizing around one founder or executive. Empower dozens or hundreds of employees to create content authentically. This creates a brand that's stronger than any individual, survives personnel changes, and scales reach far beyond what a single person can achieve.",
+          "supporters": [
+            {
+              "guest_name": "Dan Cmejla",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Empower dozens or hundreds of employees to create content authentically rather than centralizing brand around one founder or executive. This creates a brand that's stronger than any individual and survives personnel changes.",
+              "practice_id": "build-brand-independent-of-single-person"
+            },
+            {
+              "guest_name": "Ryan Narod",
+              "guest_context": "B2B marketing leader at Rippling",
+              "episode_number": 330,
+              "episode_date": "2026-02-17",
+              "evidence": "Hire people with distinctive personalities who are comfortable being on camera and being the face of the company. Author content under individual names with clear voice and style. This makes content more trustworthy, memorable, and shareable and creates a flywheel where individual personalities become brand assets.",
+              "practice_id": "inject-human-personality-into-content"
+            },
+            {
+              "guest_name": "Erin May",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Amplify major campaigns by running incentivized contests where employees compete to get the most social shares. Provide employees with starter copy but encourage personalization. This extends reach beyond company channels by leveraging employee networks.",
+              "practice_id": "employee-advocacy-incentivized-contest"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 3",
+      "context_dependency": "Partially context-dependent: founder-led brand building is most relevant for early-stage companies or solo founders, while distributed employee advocacy scales better for larger organizations. However, both camps include examples from companies of varying sizes, and the disagreement persists even within similar company stages.",
+      "trend_note": null,
+      "why_it_matters": "Choosing between founder-led and distributed brand building determines your content org structure, hiring profile, and long-term brand resilience—a brand built entirely on one person is vulnerable to that person leaving or burning out."
+    },
+    {
+      "disagreement_id": "seo-investment-timing-by-stage",
+      "title": "Should early-stage B2B companies invest heavily in SEO?",
+      "category": "brand-and-content-demand-creation",
+      "positions": [
+        {
+          "position_id": "no-seo-at-seed-stage",
+          "stance": "Seed-stage founders should not heavily invest in SEO because it is too time-intensive with a slow payoff. For early-stage companies, PR and brand mentions are more critical because being mentioned in publications can surface your startup in LLM answers quickly, even without traditional SEO rankings.",
+          "supporters": [
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Strategy varies by company stage: seed-stage founders should not heavily invest in SEO (too time-intensive with slow payoff), but Series A/B companies should increase SEO investment while simultaneously building AI search presence. For early-stage companies, PR and brand mentions become critical.",
+              "practice_id": "ai-seo-hybrid-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "seo-as-core-early-strategy",
+          "stance": "SEO and content-driven organic traffic should be a foundational marketing strategy regardless of stage. Building bottom-of-funnel SEO pages targeting commercial and transactional keywords can drive significant signup growth. Organic content is the core engine of B2B marketing strategy, not a supporting tactic.",
+          "supporters": [
+            {
+              "guest_name": "Tom Whatley",
+              "guest_context": "B2B SEO and content strategist",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Pipedrive achieved a 33% increase in user signups in 12 months by shifting focus to bottom-of-funnel SEO keywords. Positions SEO-driven content as a direct signup driver, not just a long-term brand play.",
+              "practice_id": "bottom-of-funnel-seo-strategy"
+            },
+            {
+              "guest_name": "Marcy Comer",
+              "guest_context": "B2B content and SEO strategist",
+              "episode_number": 324,
+              "episode_date": "2026-01-27",
+              "evidence": "Recommends committing to a 6-month content calendar focused on 1-2 primary keywords and creating content for adjacent topics to build awareness with the 80% of prospects not yet ready to buy. Positions SEO as a core strategy for building awareness and consideration.",
+              "practice_id": "circle-the-buyer-content-mapping"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Positions organic content (including blog/SEO) as the core marketing strategy rather than one channel among many. Content is the game in B2B marketing.",
+              "practice_id": "organic-content-as-core-strategy"
+            },
+            {
+              "guest_name": "Bruno Estrella",
+              "guest_context": "Growth marketing leader at Clay",
+              "episode_number": 180,
+              "episode_date": "2024-09-30",
+              "evidence": "Leverage your product's data capabilities to build free tools, calculators, and email finders that solve specific problems for your target audience. This drives organic traffic through SEO while demonstrating your product's capabilities in action.",
+              "practice_id": "build-seo-tools-using-product-data"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "This disagreement is explicitly stage-dependent: Jess Lytle's advice is specifically for seed-stage companies, while the pro-SEO camp does not always specify stage. The disagreement partially dissolves if you account for company stage, but it remains a genuine disagreement for early-stage companies specifically.",
+      "trend_note": null,
+      "why_it_matters": "For early-stage B2B companies with limited resources, choosing between SEO investment and PR/brand mentions determines where scarce time and budget go—and SEO has a notoriously long payoff horizon that may not suit pre-product-market-fit companies."
+    }
+  ]
+}

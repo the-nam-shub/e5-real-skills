@@ -1,0 +1,393 @@
+{
+  "category": "channel-and-campaign-measurement",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "open-rate-as-email-metric",
+      "title": "Is open rate a useful primary metric for email performance?",
+      "category": "channel-and-campaign-measurement",
+      "positions": [
+        {
+          "position_id": "open-rate-unreliable-use-alternatives",
+          "stance": "Open rates are increasingly unreliable due to bot inflation, security scanning, and Apple Mail Privacy Protection. Marketers should deprioritize open rates and instead use reply rate, unsubscribe rate, or business impact metrics as primary indicators of email health and performance.",
+          "supporters": [
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "Email deliverability and outbound specialist",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Open rates are skewed by security bots and email filters. A declining reply rate (from 7-8% down to 5%, 3%, 1%) is a reliable indicator that emails are no longer landing in the primary inbox. Recommends reply rate as the only meaningful metric for outbound.",
+              "practice_id": "track-reply-rate-not-opens"
+            },
+            {
+              "guest_name": "Sara McNamara",
+              "guest_context": "Email marketing specialist",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Recommends monitoring unsubscribe rate and unsubscribe reasons as primary deliverability indicators rather than open rates. Also recommends using ESP health pane tools rather than manually analyzing open rates.",
+              "practice_id": "track-unsubscribe-rate-not-opens"
+            },
+            {
+              "guest_name": "Beth O'Malley",
+              "guest_context": "Email marketing strategist",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "Advocates moving beyond opens and clicks to measure email's actual business impact on pipeline, deal influence, and brand awareness. Opens and clicks are insufficient proxies for business outcomes.",
+              "practice_id": "measure-email-business-impact"
+            },
+            {
+              "guest_name": "Jay Schewedelson",
+              "guest_context": "Email marketing expert",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "Demonstrated that bots inflate click metrics significantly (2 AM send test shows most early clicks are bots). Recommends segmenting by initiative type rather than relying on aggregate open/click rates.",
+              "practice_id": "detect-bot-activity-with-2am-send-test"
+            },
+            {
+              "guest_name": "Alyssa",
+              "guest_context": "Email marketing practitioner",
+              "episode_number": 312,
+              "episode_date": "2025-12-15",
+              "evidence": "Recommends moving beyond open rates and click-through rates to focus on engagement narratives, contact frequency, and unsubscribe patterns as more meaningful indicators of email strategy health.",
+              "practice_id": "avoid-vanity-metrics-email"
+            }
+          ]
+        },
+        {
+          "position_id": "open-rate-useful-as-trend-signal",
+          "stance": "While open rates alone are not a reliable success metric, a dramatic decline in open rates over time is a strong early warning signal for deliverability problems and should be monitored as a trend indicator, not a standalone KPI.",
+          "supporters": [
+            {
+              "guest_name": "Jaina Mistry",
+              "guest_context": "Email deliverability specialist",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "A dramatic decline in open rates over time—especially for regularly-sent newsletters—is a strong indicator that deliverability issues are occurring. Recommends monitoring open rates by inbox provider and cadence as an early warning system, not as a success metric.",
+              "practice_id": "monitor-open-rate-decline-for-deliverability"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: the 'open rate as trend signal' position applies specifically to newsletter/broadcast email deliverability monitoring, while the 'avoid open rates' position applies most strongly to outbound sales email and campaign performance measurement. For newsletters, both positions can coexist.",
+      "trend_note": null,
+      "why_it_matters": "Marketers who optimize for open rates may be chasing bot-inflated numbers while missing real engagement signals; choosing the right primary metric determines whether email programs are actually improving or just appearing to improve."
+    },
+    {
+      "disagreement_id": "utm-links-influencer-campaigns",
+      "title": "Should you use UTM links in influencer/creator social media posts?",
+      "category": "channel-and-campaign-measurement",
+      "positions": [
+        {
+          "position_id": "avoid-utm-links",
+          "stance": "Do not use UTM links in influencer social posts because platforms like LinkedIn deprioritize posts with external links, killing organic reach. Instead, use time-series attribution (compare signup volume during campaign vs. baseline), self-reported attribution, and engagement-based analysis to measure impact.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 163,
+              "episode_date": "2024-08-01",
+              "evidence": "Social platforms deprioritize posts containing links, which kills organic reach from the start. Recommends custom vanity URLs or landing pages if trackable links are needed, and time-based correlation for measurement.",
+              "practice_id": "avoid-utm-links-social-influencer"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "B2B influencer marketing practitioner",
+              "episode_number": 286,
+              "episode_date": "2025-09-29",
+              "evidence": "LinkedIn and other platforms strip referral data and add friction to link clicks, making UTM-tracked clicks unreliable. Recommends time-series attribution and self-reported attribution instead.",
+              "practice_id": "time-series-attribution-influencer-campaigns"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "B2B influencer marketing practitioner",
+              "episode_number": 179,
+              "episode_date": "2024-09-26",
+              "evidence": "Influencer content on LinkedIn doesn't generate trackable referral traffic because links get stripped and friction is added. Advocates for time-series analysis and self-reported attribution as the measurement approach.",
+              "practice_id": "time-series-attribution-influencer-campaigns"
+            },
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "Influencer marketing practitioner",
+              "episode_number": 162,
+              "episode_date": "2024-07-29",
+              "evidence": "Recommends measuring influencer impact through directional signals (signup spikes on launch day, engagement metrics, self-reported attribution) rather than UTM-tracked links, especially on platforms like LinkedIn that discourage external links.",
+              "practice_id": "influencer-campaign-measurement-without-utm"
+            }
+          ]
+        },
+        {
+          "position_id": "use-baseline-uplift-not-utm",
+          "stance": "Explicitly avoid UTM parameters on influencer posts because it breaks user experience and influencers won't use them. Instead, measure impact by comparing signup baseline before and after a post goes live, then apply standard conversion rates and LTV to estimate revenue impact.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "Growth marketer",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "UTM parameters break user experience and influencers won't use them. Recommends baseline uplift model: compare signups before and after post, apply conversion rates and LTV to estimate revenue. This avoids false precision while enabling influencer comparison.",
+              "practice_id": "influencer-attribution-baseline-uplift-model"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Genuine disagreement regardless of context on the UTM question — all agree to avoid them. The split between time-series vs. baseline uplift is a tactical nuance, not a genuine disagreement, as both approaches can be used together.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong measurement approach for influencer campaigns either kills organic reach (if you force UTM links) or leaves you with no data to justify spend. Marketers need a clear alternative attribution method before launching influencer programs."
+    },
+    {
+      "disagreement_id": "community-engagement-vs-access-kpi",
+      "title": "Should community success be measured by daily engagement activity or by membership retention and access?",
+      "category": "channel-and-campaign-measurement",
+      "positions": [
+        {
+          "position_id": "measure-engagement-activity",
+          "stance": "Community health should be measured through active engagement metrics: monthly active users (MAU), post volume, comment volume, post-to-comment ratio, and churn rate correlation with engagement. Target 40% MAU as a top-tier benchmark.",
+          "supporters": [
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Tracks community as a full business unit with MAU percentage, post volume, comment volume, and post-to-comment ratio. Targets 40% MAU as a top-tier benchmark on platforms like Circle. Also tracks churn correlation with engagement.",
+              "practice_id": "community-as-business-unit"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 233,
+              "episode_date": "2025-03-31",
+              "evidence": "Tracks the direct relationship between engagement metrics and churn rate. As engagement increases, churn decreases. Exit Five reduced churn by at least 0.5% per month as engagement increased, demonstrating ROI of engagement strategy.",
+              "practice_id": "direct-relationship-churn-engagement"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 307,
+              "episode_date": "2025-11-27",
+              "evidence": "Uses NPS as primary community health metric, conducting surveys twice per year with continuous feedback loops through daily community interactions. Monitors engagement patterns to inform product roadmap decisions.",
+              "practice_id": "nps-as-community-health-metric"
+            }
+          ]
+        },
+        {
+          "position_id": "measure-access-and-retention",
+          "stance": "Stop optimizing for daily engagement metrics like likes, comments, and posts. Instead measure membership success by access — whether members retain their membership year-over-year and use the resource when they need it. A member who logs in once every 60 days but finds critical resources is more valuable than a daily commenter who derives no lasting value.",
+          "supporters": [
+            {
+              "guest_name": "Greg Isenberg",
+              "guest_context": "Community builder and entrepreneur",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Argues that chasing daily engagement metrics becomes unsustainable as communities grow and leads to optimizing for viral posts rather than member value. Recommends measuring yearly retention and access as the primary KPI instead.",
+              "practice_id": "membership-vs-engagement-kpi-shift"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Potentially context-dependent: Greg Isenberg's position may apply more to large, mature communities where daily engagement optimization becomes unsustainable, while the engagement-focused approach may be more appropriate for growing communities where building activity is the primary challenge. However, both are presented as general principles.",
+      "trend_note": null,
+      "why_it_matters": "Community managers who optimize for the wrong KPI risk either building a ghost town (if they ignore engagement) or burning out their team chasing viral posts that don't drive member retention or business outcomes."
+    },
+    {
+      "disagreement_id": "event-roi-measurement-approach",
+      "title": "What is the primary metric for measuring event ROI?",
+      "category": "channel-and-campaign-measurement",
+      "positions": [
+        {
+          "position_id": "revenue-and-pipeline-primary",
+          "stance": "Event ROI should be measured primarily through revenue-related metrics: pipeline generated, revenue represented by attendees in the room, deal progression, and retention/expansion metrics. These hard business metrics justify event investment to finance and leadership.",
+          "supporters": [
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Measures event ROI by calculating total prospect revenue and retention revenue represented by attendees. Tracks this metric across events to demonstrate cumulative impact (e.g., touching 20% of total company revenue across a multi-city roadshow).",
+              "practice_id": "revenue-in-the-room-event-roi"
+            },
+            {
+              "guest_name": "Stephanie Christensen",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Recommends measuring events across three pillars: new revenue/pipeline, target account penetration, and retention/expansion. Defines primary metric as revenue-related and secondary metrics as brand/NPS. Also tracks correlation between event attendance and annual sales quota achievement.",
+              "practice_id": "event-roi-measurement-three-pillars"
+            },
+            {
+              "guest_name": "Kristina DeBrito",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Aligns event metrics to funnel stage: TOFU events measured on pipeline/new leads, MOFU on bookings/renewal rates, BOFU on product adoption/NPS/expansion. Uses source attribution for TOFU and influenced attribution for MOFU/BOFU.",
+              "practice_id": "event-metrics-by-funnel-stage"
+            },
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Recommends measuring event ROI over 2-3 quarters with a portfolio approach, working with sales and finance to set expectations. Emphasizes strong SDR follow-up to capture pipeline and documenting wins that trace back to past events.",
+              "practice_id": "events-long-term-influence-measurement"
+            },
+            {
+              "guest_name": "Stephanie Christensen",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Defines primary metric as revenue-related (pipeline, bookings, NRR) and secondary metrics as brand awareness, NPS, social mentions. Recommends measuring across three pillars: new revenue/pipeline, target account penetration, and retention/expansion.",
+              "practice_id": "event-primary-secondary-metrics"
+            }
+          ]
+        },
+        {
+          "position_id": "community-and-relationships-primary",
+          "stance": "The real ROI of in-person events is the community and relationships built — connections that compound over time and drive word-of-mouth growth. This is harder to measure than pipeline but more valuable long-term. Measure event quality through NPS rather than just ticket sales or immediate pipeline.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 294,
+              "episode_date": "2025-10-16",
+              "evidence": "Argues the real ROI of in-person events is community and relationships that compound over time and drive word-of-mouth. Recommends NPS surveys immediately after events to quantify attendee satisfaction, treating the event like a product measured on NPS.",
+              "practice_id": "event-community-roi-focus"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: Dave Gerhardt's position applies specifically to community-building events (like Exit Five DRIVE), while the revenue-focused positions apply to demand generation and customer events. Holly Xiao's practice (episode 270) also supports distinguishing event types by purpose. The disagreement partially dissolves when you account for event type, but there is still a genuine philosophical difference about what events are fundamentally for.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong primary metric for events can lead to either killing valuable community-building events because they don't show immediate pipeline, or continuing expensive events that feel good but don't drive business outcomes."
+    },
+    {
+      "disagreement_id": "content-attribution-approach",
+      "title": "Should content ROI be measured through direct attribution or time-based/qualitative methods?",
+      "category": "channel-and-campaign-measurement",
+      "positions": [
+        {
+          "position_id": "time-based-attribution",
+          "stance": "Direct last-click attribution for content is increasingly unreliable. Instead, measure content campaigns over weeks or months (e.g., 'this 8-week campaign generated X signups') or use correlation analysis between content metrics and business outcomes. This acknowledges that content influence is cumulative and indirect.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Advocates measuring content initiatives over weeks and months rather than individual pieces with direct attribution. Compares it to billboard measurement — you can't measure one billboard's exact impact but can measure a campaign over time. Privacy changes and platform limitations make direct attribution increasingly unreliable.",
+              "practice_id": "measure-content-on-time-basis-not-attribution"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Recommends time-based attribution for content campaigns: 'This content campaign ran for 8 weeks and generated X signups.' Works better for brand and awareness content where attribution is unclear.",
+              "practice_id": "measure-content-via-time-based-attribution"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing analytics expert",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Uses correlation analysis (plotting weekly content metrics against weekly demo bookings on scatter charts) as a five-minute alternative to complex attribution. Provides directional evidence without requiring data science infrastructure.",
+              "practice_id": "linkedin-impressions-demos-correlation"
+            }
+          ]
+        },
+        {
+          "position_id": "pipeline-influence-attribution",
+          "stance": "Content ROI can and should be measured through pipeline influence using event tracking, cookie tracking, and CRM attribution. Track when users consume content and then convert to quality held meetings (QHM), creating measurable connections between content engagement and pipeline regardless of channel.",
+          "supporters": [
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content marketing leader",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Uses event tracking and cookie tracking to identify content consumption, then measures whether users book and attend meetings (QHM). Creates attribution reports showing pipeline content influenced, regardless of conversion channel. This captures content's influence without requiring last-click attribution.",
+              "practice_id": "measure-content-via-quality-held-meetings"
+            },
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content marketing leader",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Sets up event and cookie tracking to measure content engagement and connect it to quality held meetings as a pipeline attribution metric. Provides measurable connection between content and pipeline without direct last-click attribution.",
+              "practice_id": "measure-content-via-quality-held-meetings"
+            }
+          ]
+        },
+        {
+          "position_id": "qualitative-feedback-primary",
+          "stance": "Qualitative signals (comments, DMs, mentions of how content helped solve problems) should be treated as primary content metrics, especially for brand-building content. Five comments from ideal customers saying 'this helped me close a deal' is more meaningful than 1,000 views from random traffic.",
+          "supporters": [
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content marketing leader",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Recommends collecting qualitative signals (LinkedIn/YouTube comments, DMs, requests for follow-up content) in a centralized place. Argues these signals are especially valuable for brand-building content where direct attribution is difficult.",
+              "practice_id": "measure-content-via-qualitative-feedback"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2 vs 1",
+      "context_dependency": "Partially context-dependent: time-based attribution works best for brand/awareness content with long sales cycles; pipeline influence attribution works better for mid-funnel content where tracking infrastructure exists; qualitative feedback is most relevant for thought leadership content. However, the core disagreement about whether to invest in technical attribution infrastructure vs. simpler time-based methods is genuine regardless of context.",
+      "trend_note": null,
+      "why_it_matters": "Content teams that can't demonstrate pipeline influence risk budget cuts, while teams that over-invest in complex attribution infrastructure may spend more on measurement than on content creation itself."
+    },
+    {
+      "disagreement_id": "time-to-expect-social-media-roi",
+      "title": "How long should you wait before evaluating ROI from a social media strategy?",
+      "category": "channel-and-campaign-measurement",
+      "positions": [
+        {
+          "position_id": "six-plus-months-social-roi",
+          "stance": "Social media strategy requires at least 6 months before expecting meaningful attribution or results. Companies abandon social too early because they expect immediate ROI, but the buying cycle is 200+ days and social builds awareness and preference over time.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "Social media strategist; worked with ClickUp",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "ClickUp took 3 months before seeing significant views and 4-5 months before clear pipeline attribution emerged. Recommends budgeting conservatively ($7-8K/month) so leadership can tolerate the ramp-up. Buying cycle is 200+ days so social's role is long-term awareness.",
+              "practice_id": "give-time-for-social-strategy-to-work"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Recommends committing to 6-12 months of consistent LinkedIn posting before evaluating whether the channel works. Posting for 3 weeks and seeing no direct sales is not a valid test. The channel builds trust through osmosis over time.",
+              "practice_id": "linkedin-long-term-commitment-6-12-months"
+            }
+          ]
+        },
+        {
+          "position_id": "track-leading-indicators-early",
+          "stance": "While business metrics (demos, sales) may take 1-3 months to materialize, you should track social metrics (follower growth, impressions, ICP follower quality) as leading indicators from week one to validate the strategy is working before waiting for lagging business outcomes.",
+          "supporters": [
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "LinkedIn content strategist",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Recommends tracking both social metrics (leading indicators: follower growth, impressions, follower ICP quality) and business metrics (lagging indicators: inbound demos, sales calls). Social metrics should trend upward week-over-week if strategy is working, providing earlier validation signals.",
+              "practice_id": "linkedin-early-success-metrics"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: the 'track leading indicators early' position is compatible with a long-term commitment but argues you don't have to wait months to know if the strategy is directionally correct. The disagreement is real but narrow — it's about intermediate checkpoints, not the overall time horizon.",
+      "trend_note": null,
+      "why_it_matters": "If marketers wait 6-12 months with no intermediate signals, they risk wasting budget on a fundamentally broken strategy; if they evaluate too early on business metrics alone, they may kill a working strategy prematurely."
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "category": "funnel-pipeline-and-revenue-metrics",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 4,
+  "disagreements": [
+    {
+      "disagreement_id": "primary-marketing-metric-mql-vs-pipeline-vs-revenue",
+      "title": "What should be marketing's primary accountability metric?",
+      "category": "funnel-pipeline-and-revenue-metrics",
+      "positions": [
+        {
+          "position_id": "pipeline-as-primary-metric",
+          "stance": "Marketing should be held accountable to pipeline generation (qualified opportunities and pipeline value), not MQLs or lead volume. MQLs are gameable vanity metrics that don't correlate to revenue; pipeline forces marketing to optimize for quality and actual business outcomes.",
+          "supporters": [
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "Marketing leader",
+              "episode_number": 286,
+              "episode_date": "2025-09-29",
+              "evidence": "Replaced MQL as primary metric with pipeline; cut budget in half while increasing pipeline 30-50% by eliminating programs that drove MQLs but not pipeline.",
+              "practice_id": "shift-metric-from-mql-to-pipeline"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "Marketing leader",
+              "episode_number": 179,
+              "episode_date": "2024-09-26",
+              "evidence": "Explicitly advocates shifting from MQL to pipeline as the primary success metric, identifying which activities drive pipeline rather than intermediate metrics.",
+              "practice_id": "shift-metric-from-mql-to-pipeline"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B marketing/GTM leader",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Holds marketing accountable to two pipeline metrics: count of qualified opportunities and pipeline value. Explicitly rejects lead-count metrics as gameable.",
+              "practice_id": "pipeline-value-and-opportunity-count-metrics"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B marketing/GTM leader",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Measures marketing on qualified opportunity count and pipeline value; rejects lead count entirely.",
+              "practice_id": "pipeline-metrics-opportunities-and-value"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Replaces MQL-based measurement with account-based funnel tracking; positions marketing as owning pipeline generation across all sources.",
+              "practice_id": "marketing-owns-pipeline-definition"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "Advocates replacing MQL/lead metrics with account-based funnel stages and pipeline ownership.",
+              "practice_id": "marketing-owns-pipeline-definition"
+            },
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Aligns marketing team compensation to pipeline outcomes rather than lead or MQL volume, arguing MQL accountability disconnects marketing from sales.",
+              "practice_id": "align-marketing-comp-to-pipeline-outcomes"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Explicitly advocates stopping optimization for lead volume and shifting to lead quality and actual business outcomes (deals closed, revenue).",
+              "practice_id": "shift-from-lead-volume-to-lead-quality"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing leader; guest on Exit Five",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Replaces MQL-based measurement with account-based funnel tracking; positions marketing as owning pipeline generation across all sources.",
+              "practice_id": "account-funnel-measurement-framework"
+            },
+            {
+              "guest_name": "Michael Cole",
+              "guest_context": "B2B marketing leader; guest on Exit Five",
+              "episode_number": 212,
+              "episode_date": "2025-01-21",
+              "evidence": "Explicitly states lead goals make sense early because they give marketing a visible lever; advocates transitioning to revenue goals as the company matures and data improves.",
+              "practice_id": "transition-from-lead-goals-to-revenue-goals"
+            },
+            {
+              "guest_name": "Rowan Tonkin",
+              "guest_context": "B2B marketing leader; guest on Exit Five",
+              "episode_number": 197,
+              "episode_date": "2024-11-28",
+              "evidence": "Classifies MQL counts as 'operational metrics' for internal team use; advocates using them to build plans internally but communicating results to executives in commercial and financial terms (pipeline, revenue).",
+              "practice_id": "classify-metrics-by-type-for-stakeholder-communication"
+            }
+          ]
+        },
+        {
+          "position_id": "hand-raisers-explicit-intent-as-primary-metric",
+          "stance": "Marketing should be held accountable to explicit hand-raisers (demo requests, trial signups, pricing page visits) — not MQLs, not pipeline, and not revenue. In long sales cycles, pipeline and revenue are too far downstream and include factors outside marketing's control. Hand-raisers are objective, unambiguous, and directly within marketing's influence.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing measurement expert",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Explicitly argues against holding marketing accountable to revenue or qualified pipeline in long sales cycles (12-18 months); advocates for hand-raisers as the metric marketing directly controls.",
+              "practice_id": "select-marketing-metric-in-control-of-marketing"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing measurement expert",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "Argues against MQL/SQL jargon; advocates for explicit intent signals (demo requests, pricing page visits) as the foundation of marketing measurement.",
+              "practice_id": "avoid-qualified-lead-jargon"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing measurement expert",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Recommends choosing a leading indicator (qualified demos, meetings held) rather than revenue for long sales cycles; also suggests traffic as a proxy when infrastructure is lacking.",
+              "practice_id": "select-leading-metric-not-revenue"
+            }
+          ]
+        },
+        {
+          "position_id": "nrr-as-primary-metric",
+          "stance": "NRR (Net Revenue Retention) should be the primary plumb-line metric for GTM health, superseding pipeline, MQLs, and even top-line revenue. Marketing should prioritize retention and expansion metrics before optimizing acquisition, because a leaky bucket makes all pipeline generation futile.",
+          "supporters": [
+            {
+              "guest_name": "Sangram Vajre",
+              "guest_context": "B2B GTM strategist and author",
+              "episode_number": 299,
+              "episode_date": "2025-10-30",
+              "evidence": "Argues NRR above 120% can double revenue in 3.8 years without new customers; below 75% is existential risk. Advocates using NRR as the filter for all marketing prioritization decisions.",
+              "practice_id": "nrr-as-primary-business-metric"
+            }
+          ]
+        }
+      ],
+      "support_summary": "11 vs 3 vs 1",
+      "context_dependency": "Partially context-dependent: Pranav Piyush's hand-raiser position is explicitly scoped to long sales cycles (12-18+ months), which partially dissolves the conflict with the pipeline camp for shorter-cycle businesses. However, even for long-cycle businesses, the pipeline camp (e.g., Kyle Coleman, Gurdeep Dhillon) still advocates pipeline as the right metric — so there is genuine disagreement within the same context. The NRR position applies most strongly to companies with significant existing customer bases, making it less applicable to early-stage or new-logo-focused companies.",
+      "trend_note": null,
+      "why_it_matters": "The metric marketing is held accountable to shapes every investment decision, hiring profile, and program prioritization. Choosing the wrong primary metric can cause marketing to optimize for volume over quality (MQLs), or to claim credit for pipeline it didn't truly influence."
+    },
+    {
+      "disagreement_id": "include-employee-costs-in-cac-calculation",
+      "title": "Should employee/headcount costs be included in CAC calculations?",
+      "category": "funnel-pipeline-and-revenue-metrics",
+      "positions": [
+        {
+          "position_id": "include-all-costs-in-cac",
+          "stance": "True blended CAC must include all go-to-market costs: advertising spend, marketing headcount, sales headcount, SDR/BDR headcount, technology, agencies, consultants, RevOps, and leadership. Excluding these costs leads to false conclusions about efficiency — companies celebrate 3x ROAS on a single channel while their true CAC payback is 5+ years.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B GTM and revenue strategy expert",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Argues most companies only look at channel ROAS without accounting for full cost structure, leading to systematically wrong conclusions about marketing efficiency.",
+              "practice_id": "calculate-true-blended-cac-all-costs"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B GTM and revenue strategy expert",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Repeats the same argument: true CAC payback must reflect total cost to acquire a customer across all functions, not just ad spend.",
+              "practice_id": "calculate-blended-cac-with-full-costs"
+            }
+          ]
+        },
+        {
+          "position_id": "exclude-employee-costs-from-demand-gen-efficiency-metric",
+          "stance": "When calculating cost per opportunity for demand generation efficiency, exclude employee salaries because they are fixed costs that support multiple programs simultaneously. The actionable question is: if we invest more variable/programmatic spend, how many more opportunities will we generate? Including fixed headcount costs muddies this signal.",
+          "supporters": [
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Explicitly recommends calculating cost per opportunity using only programmatic spend (paid media, tools, contractors), not employee salaries, because salaries are fixed and support multiple programs.",
+              "practice_id": "programmatic-cost-per-opportunity"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: these positions may be measuring different things. Chris Walker is talking about blended CAC for evaluating overall GTM efficiency and investment decisions. Aditya Vempaty is talking about a specific demand-gen efficiency metric (cost per opportunity) used to make marginal spend decisions. If scoped to their respective use cases, the disagreement partially dissolves — but both are responding to the same underlying question of 'what costs belong in your marketing ROI calculation,' and they give opposite answers.",
+      "trend_note": null,
+      "why_it_matters": "How you calculate CAC determines whether you think your marketing is profitable. Including vs. excluding headcount can swing the apparent efficiency of a program by 3-5x, leading to dramatically different budget and hiring decisions."
+    },
+    {
+      "disagreement_id": "measure-pipeline-by-count-vs-value",
+      "title": "Should you measure pipeline generation by opportunity count or pipeline value?",
+      "category": "funnel-pipeline-and-revenue-metrics",
+      "positions": [
+        {
+          "position_id": "measure-by-count-not-value",
+          "stance": "Track the number of opportunities created rather than total pipeline value. Pipeline value is distorted by occasional large deals and creates false confidence. Opportunity count is more predictable and actionable for capacity planning.",
+          "supporters": [
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Explicitly recommends measuring pipeline by opportunity count, not value, to prevent distortion from large deals and enable working backward from sales targets.",
+              "practice_id": "pipeline-metric-opportunity-count-over-value"
+            }
+          ]
+        },
+        {
+          "position_id": "measure-by-both-count-and-value",
+          "stance": "Hold marketing accountable to both opportunity count AND pipeline value simultaneously. Count ensures sales capacity is filled; value ensures sufficient coverage for revenue targets. Using only one metric leaves a blind spot.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B marketing/GTM leader",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Explicitly advocates for a dual-metric approach: count of qualified opportunities AND pipeline value, arguing each metric catches what the other misses.",
+              "practice_id": "pipeline-value-and-opportunity-count-metrics"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B marketing/GTM leader",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Same dual-metric framework: qualified opportunity count plus pipeline value, explicitly rejecting lead count alone.",
+              "practice_id": "pipeline-metrics-opportunities-and-value"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Genuine disagreement regardless of context. Both positions are addressing the same question for similar B2B sales-led motions. Aditya Vempaty's concern about large-deal distortion is a real phenomenon that Kyle Coleman's dual-metric approach doesn't fully address.",
+      "trend_note": null,
+      "why_it_matters": "If you track only pipeline value, one whale deal can mask a broken demand generation engine. If you track only count, you may fill sales capacity with tiny deals that can't hit revenue targets. The choice shapes how marketing teams prioritize deal quality vs. volume."
+    }
+  ]
+}

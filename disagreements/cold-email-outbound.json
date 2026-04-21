@@ -1,0 +1,64 @@
+{
+  "category": "cold-email-outbound",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "links-in-cold-email",
+      "title": "Should you include links in cold outbound emails?",
+      "category": "cold-email-outbound",
+      "positions": [
+        {
+          "position_id": "no-links-in-cold-email",
+          "stance": "Cold outbound emails should contain no links whatsoever, including unsubscribe links. Links—even tracking pixels—are read by spam filters as potential phishing indicators and can trigger deliverability failures. Reply-based opt-outs should replace unsubscribe links.",
+          "supporters": [
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "Cold email and outbound deliverability expert",
+              "episode_number": 245,
+              "episode_date": "2025-05-12",
+              "evidence": "Explicitly stated that cold emails should avoid links, images, open tracking, and click tracking pixels because even tracking pixels are read by spam filters as links and can trigger phishing alerts. Goal is to make emails appear as plain, legitimate person-to-person messages.",
+              "practice_id": "cold-email-spam-filter-avoidance-tactics"
+            },
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "Cold email and outbound deliverability expert",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Recommended reply-based opt-out ('reply with no thank you to opt out') instead of unsubscribe links, explicitly because links in emails—including unsubscribe links—can trigger phishing filters. Also noted reply-based opt-outs improve sender reputation by generating reply activity.",
+              "practice_id": "avoid-unsubscribe-links-in-outbound"
+            }
+          ]
+        },
+        {
+          "position_id": "links-acceptable-with-personalization",
+          "stance": "AI personalization tools that dynamically insert relevant content into cold email bodies are recommended without any caveat about avoiding links. The focus is on relevance and personalization rather than link avoidance as a deliverability strategy.",
+          "supporters": [
+            {
+              "guest_name": "Joe",
+              "guest_context": "B2B outbound practitioner using AI tools",
+              "episode_number": 312,
+              "episode_date": "2025-12-15",
+              "evidence": "Recommended using AI personalization tools like Sing.ai to dynamically insert relevant details into email bodies, including case studies and vertical-specific examples, with no mention of avoiding links or tracking as a deliverability concern.",
+              "practice_id": "ai-personalization-for-cold-outreach"
+            },
+            {
+              "guest_name": "Tom Wentworth",
+              "guest_context": "CMO-level practitioner using AI for outbound",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Recommended feeding AI systems rich context to generate personalized outbound emails using tools like Clay and Qualified, with no mention of link avoidance or tracking pixel restrictions as deliverability concerns.",
+              "practice_id": "use-ai-context-for-outbound-emails"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: Alex Fine's no-links advice is most critical for high-volume automated cold outbound where deliverability risk is highest. Joe and Tom Wentworth may be operating in lower-volume or warmer outbound contexts where deliverability risk is lower. However, both sets of advice are framed as applying to cold outreach generally, making this a genuine disagreement in that shared context.",
+      "trend_note": "Alex Fine's no-links position appears in episodes from May and June 2025. Joe and Tom Wentworth's link-permissive approaches appear in November–December 2025. If anything, the more recent guests are moving away from strict link avoidance, though the sample is too small to draw firm conclusions.",
+      "why_it_matters": "Including links in cold emails could tank deliverability and sender reputation if Alex Fine is right, but avoiding them entirely may limit personalization effectiveness and case study sharing if Joe and Tom Wentworth are right. Marketers need to decide whether deliverability protection or content richness takes priority in their cold outbound strategy."
+    }
+  ]
+}

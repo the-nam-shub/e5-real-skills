@@ -1,0 +1,48 @@
+{
+  "category": "international-market-expansion",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "localization-approach-ai-vs-native-human",
+      "title": "Should you use AI voice cloning to localize executive video content across all language pairs, or does the approach need to vary by language distance?",
+      "category": "international-market-expansion",
+      "positions": [
+        {
+          "position_id": "ai-voice-cloning-universally",
+          "stance": "Use AI voice cloning to replicate an executive's voice across all target languages. This maintains brand consistency and executive presence without requiring multilingual recordings or hiring separate voice talent for each market.",
+          "supporters": [
+            {
+              "guest_name": "Luke",
+              "guest_context": "Guest, episode 345",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Luke recommends cloning a CEO or executive's native-language voice to produce ads in other languages, citing brand consistency and executive presence as the primary benefits without qualifying which language pairs this works for.",
+              "practice_id": "ai-voice-cloning-multilingual"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-voice-cloning-conditional-on-language-pair",
+          "stance": "AI voice cloning only sounds natural for closely related language families (e.g., romance-to-romance). For distant language pairs—such as American English to Asian languages—voice cloning sounds unnatural and you should use pre-recorded native voices for dubbing instead. Build a localization playbook that documents which approach works for each combination.",
+          "supporters": [
+            {
+              "guest_name": "Carter",
+              "guest_context": "Guest, episode 345",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Carter explicitly tested both approaches and found voice cloning works for romance-to-romance language pairs but sounds unnatural when cloning across distant language families, recommending native pre-recorded voices for those cases.",
+              "practice_id": "ai-video-localization-experimentation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially. Luke's advice may implicitly assume language pairs where cloning works well, while Carter is explicitly accounting for cross-family language distance. However, both guests are speaking in the same episode about the same tactic (AI voice cloning for multilingual video ads), making this a genuine tactical disagreement about when and whether to apply the approach universally versus conditionally.",
+      "trend_note": null,
+      "why_it_matters": "Marketers who apply AI voice cloning indiscriminately across all language pairs risk producing unnatural-sounding ads in key markets like Japan or Korea, damaging brand perception. Knowing which language pairs require native voice talent versus AI cloning directly affects localization budget, workflow, and output quality."
+    }
+  ]
+}

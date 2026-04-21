@@ -1,0 +1,48 @@
+{
+  "category": "vendor-evaluation",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "leader-personal-trial-vs-committee-vetting",
+      "title": "Should AI/new tool evaluation be done by individual leaders personally trialing tools, or through a formal cross-functional committee process?",
+      "category": "vendor-evaluation",
+      "positions": [
+        {
+          "position_id": "individual-leader-trial-first",
+          "stance": "Leaders should personally sign up for and trial new tools before recommending them to the team. This personal filtering process eliminates 90% of tools that look good on the surface but underdeliver. Recommendations should then be framed as suggestions, not mandates, allowing teams to opt in.",
+          "supporters": [
+            {
+              "guest_name": "Kris Rudeegraap",
+              "guest_context": "CEO/Co-founder, Sendoso",
+              "episode_number": 159,
+              "episode_date": "2024-07-18",
+              "evidence": "Argued that personal trials filter out the vast majority of tools that don't deliver in practice, and that leaders recommending only personally tested tools builds credibility with their teams.",
+              "practice_id": "early-adopter-tool-evaluation"
+            }
+          ]
+        },
+        {
+          "position_id": "formal-cross-functional-committee",
+          "stance": "New tool adoption should go through a structured, formal process involving a cross-functional committee including IT/security and people team leaders. Employees can pilot tools on free trials without ingesting proprietary data, but promising tools must be brought to the committee for fast-track evaluation before full adoption. This balances experimentation with compliance and security guardrails.",
+          "supporters": [
+            {
+              "guest_name": "Bill Glenn",
+              "guest_context": "CMO, CData Software",
+              "episode_number": 328,
+              "episode_date": "2026-02-11",
+              "evidence": "Advocated for a formal committee structure specifically because individual experimentation without guardrails creates security and compliance risks, particularly when proprietary company data could be ingested by unapproved AI tools.",
+              "practice_id": "ai-tool-evaluation-process"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: the individual-leader trial approach may be more appropriate for smaller companies or non-AI tools with lower security risk, while the committee approach is explicitly designed for AI tools at companies with meaningful compliance and data security obligations. However, both guests are giving general advice about tool evaluation processes, and the approaches are structurally in conflict — one centers individual judgment, the other requires institutional approval — regardless of company size.",
+      "trend_note": "The more recent guest (Bill Glenn, 2026) advocates for the committee/governance approach, while the earlier guest (Kris Rudeegraap, 2024) advocates for individual leader trials. This may reflect the growing security concerns around AI tool adoption specifically, which have intensified since mid-2024.",
+      "why_it_matters": "Choosing the wrong evaluation model can either slow down tool adoption with bureaucratic overhead or expose the company to data security and compliance risks — B2B marketers need a deliberate stance on which tradeoff they're willing to accept."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "category": "cro-program-management",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "ab-testing-b2b-value",
+      "title": "Should B2B marketers run A/B tests on landing page elements?",
+      "category": "cro-program-management",
+      "positions": [
+        {
+          "position_id": "stop-ab-testing-micro-elements",
+          "stance": "B2B companies should stop A/B testing button colors, copy variations, and other micro-elements on landing pages. Insufficient conversion volume means statistical significance is rarely achieved, and teams draw premature conclusions. Focus instead on larger strategic decisions where impact is meaningful.",
+          "supporters": [
+            {
+              "guest_name": "Tom Wentworth",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "B2B companies lack sufficient conversion volume to achieve statistical significance, and most teams don't understand statistical significance anyway, leading to premature conclusions. Marginal gains from micro-testing are negligible.",
+              "practice_id": "stop-ab-testing-b2b-landing-pages"
+            }
+          ]
+        },
+        {
+          "position_id": "ab-testing-valuable-with-right-approach",
+          "stance": "A/B testing is valuable in B2B when preceded by proper research and used to validate hypotheses. The problem is not testing itself but testing without research-informed hypotheses. When traffic is too low for traditional A/B tests, use alternative methods like preference tests or user testing platforms rather than abandoning testing entirely.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "CRO strategist and founder",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Recommends conducting foundational customer research before A/B testing to identify page-level problems, then testing systematically. Also advocates testing messaging in email and ads before implementing on the website.",
+              "practice_id": "customer-research-before-ab-testing"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "CRO strategist and founder",
+              "episode_number": 132,
+              "episode_date": "2024-04-15",
+              "evidence": "Explicitly recommends using research to form hypotheses and then validating those hypotheses through A/B testing and experimentation as a core CRO practice.",
+              "practice_id": "research-informs-hypothesis-testing"
+            },
+            {
+              "guest_name": "Haley Carpenter",
+              "guest_context": "CRO practitioner",
+              "episode_number": 282,
+              "episode_date": "2025-09-15",
+              "evidence": "Frames CRO as a two-bucket system of research and testing, with testing as an essential component. For low-traffic sites, recommends alternative testing methods (preference tests, user testing platforms) rather than abandoning testing. Sets 200K monthly users as the threshold for controlled A/B tests, implying testing is valid above that threshold.",
+              "practice_id": "low-traffic-alternative-testing-methods"
+            },
+            {
+              "guest_name": "Eli Rubel",
+              "guest_context": "Design and growth agency founder",
+              "episode_number": 120,
+              "episode_date": "2024-02-26",
+              "evidence": "Recommends systematically testing design and creative variations in paid media to drive conversion improvements, and identifies micro-surfaces across the buyer journey as high-value testing opportunities.",
+              "practice_id": "design-creative-testing-paid-media"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "CRO expert and founder of Wynter",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Advocates for message testing on key pages before launch and iterating based on feedback, implying ongoing testing is a core practice rather than something to abandon.",
+              "practice_id": "message-testing-key-pages-first"
+            },
+            {
+              "guest_name": "Haley Carpenter",
+              "guest_context": "CRO practitioner and consultant",
+              "episode_number": 282,
+              "episode_date": "2025-09-15",
+              "evidence": "Structured CRO as a two-bucket system (research + testing), with research always preceding testing. Provided a traffic threshold of 200K monthly users for controlled A/B tests, and recommended alternative methods (preference tests, user testing) for lower-traffic sites rather than abandoning testing altogether.",
+              "practice_id": "cro-research-testing-framework"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 1",
+      "context_dependency": "Partially. Tom Wentworth's argument is strongest for companies with very low traffic where statistical significance is genuinely unachievable. Haley Carpenter's 200K monthly user threshold and alternative testing methods partially bridge the gap — both agree that naive micro-testing without statistical rigor is problematic. But Wentworth goes further by recommending abandonment of the practice entirely, while others say fix the approach, not abandon it. This is a genuine disagreement on whether testing has value in B2B at all, not just a context difference.",
+      "trend_note": null,
+      "why_it_matters": "If Wentworth is right, B2B marketers are wasting significant time and resources on inconclusive tests that create false confidence. If the testing advocates are right, abandoning experimentation means leaving conversion gains on the table and making strategic decisions without validation."
+    },
+    {
+      "disagreement_id": "single-vs-multiple-ctas-per-email",
+      "title": "Should every email have exactly one call-to-action, with no exceptions?",
+      "category": "cro-program-management",
+      "positions": [
+        {
+          "position_id": "strict-single-cta",
+          "stance": "Every email should have one primary CTA, and all links should lead to the same destination. Multiple CTAs dilute impact and create context-switching friction. If you need to send people to two resources, consolidate them into a single hub landing page.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 314,
+              "episode_date": "2025-12-22",
+              "evidence": "States each email should have one clear primary CTA, and you can repeat the same CTA link multiple times (top and bottom) but it must be the same ask. Frames this as respecting limited recipient attention.",
+              "practice_id": "single-cta-per-asset"
+            },
+            {
+              "guest_name": "Pierce Uijainwalla",
+              "guest_context": "Email marketing expert",
+              "episode_number": 167,
+              "episode_date": "2024-08-15",
+              "evidence": "Recommends defaulting to a single CTA in emails to maximize focus and click-through rates, with multiple CTAs only acceptable in specific scenarios where they are highly relevant to each other.",
+              "practice_id": "use-single-cta-as-default-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "single-cta-with-explicit-exceptions",
+          "stance": "One CTA per email is the default rule, but explicit exceptions exist — for example, an email promoting a calendar of five separate events legitimately requires multiple distinct CTAs. The rule is about avoiding unnecessary dilution, not a rigid prohibition.",
+          "supporters": [
+            {
+              "guest_name": "Samar Owais",
+              "guest_context": "Email conversion strategist",
+              "episode_number": 247,
+              "episode_date": "2025-05-19",
+              "evidence": "Recommends one type of CTA per email (all links to same destination) but explicitly carves out an exception: if the email's purpose is to highlight multiple distinct options (e.g., a calendar of five separate events), multiple CTAs are appropriate.",
+              "practice_id": "one-cta-per-email-rule"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "This disagreement is narrow — it's about whether exceptions to the single-CTA rule are legitimate, not whether the rule itself is sound. All three agree on the default. The disagreement is genuine but minor: it matters most for email marketers running event-heavy programs where multiple distinct CTAs may be unavoidable.",
+      "trend_note": null,
+      "why_it_matters": "For email marketers managing complex programs with multiple offers, knowing whether exceptions are legitimate affects how they structure promotional emails — strict adherence to single-CTA may force awkward consolidation that reduces clarity rather than improving it."
+    },
+    {
+      "disagreement_id": "motivation-vs-friction-in-cro",
+      "title": "Should CRO focus primarily on increasing motivation or reducing friction?",
+      "category": "cro-program-management",
+      "positions": [
+        {
+          "position_id": "motivation-over-friction",
+          "stance": "Motivation is 10x more powerful than friction reduction. Users with high motivation will tolerate significant friction. Focus messaging and copy on making people want to take action rather than optimizing form fields or removing steps. Motivation is driven by words and messaging, not design.",
+          "supporters": [
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "CRO expert and founder of Wynter",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Explicitly states motivation is 10x more powerful than friction reduction and that users with high motivation will tolerate significant friction. Argues focus should be on messaging and copy to increase motivation.",
+              "practice_id": "motivation-over-friction-reduction"
+            }
+          ]
+        },
+        {
+          "position_id": "friction-reduction-and-journey-simplification-matter",
+          "stance": "Reducing friction and simplifying the user journey are foundational CRO priorities. B2B sites often have complex journeys with multiple CTAs and service pages that confuse users. Simplifying the journey and clarifying the value proposition should come before advanced tactics — implying friction is a primary lever, not secondary.",
+          "supporters": [
+            {
+              "guest_name": "Haley Carpenter",
+              "guest_context": "CRO practitioner",
+              "episode_number": 282,
+              "episode_date": "2025-09-15",
+              "evidence": "Emphasizes that B2B sites struggle with complex journeys that confuse users, and that simplifying the journey is a foundational step before personalization or other tactics. The CRO foundation pyramid places journey clarity as a base requirement.",
+              "practice_id": "cro-foundation-pyramid-messaging-clarity"
+            },
+            {
+              "guest_name": "Haley Carpenter",
+              "guest_context": "CRO practitioner",
+              "episode_number": 282,
+              "episode_date": "2025-09-15",
+              "evidence": "Frames B2B CRO as starting with messaging clarity and value proposition, but also explicitly includes journey simplification as a prerequisite — implying friction in the journey is a meaningful conversion barrier.",
+              "practice_id": "b2b-messaging-clarity-value-prop"
+            },
+            {
+              "guest_name": "Eli Rubel",
+              "guest_context": "Design and growth agency founder",
+              "episode_number": 120,
+              "episode_date": "2024-02-26",
+              "evidence": "Identifies micro-surfaces across the buyer journey — including lead routing, automated booking, and nurture sequences — as high-value optimization targets, implying that reducing friction at these touchpoints compounds into significant conversion gains.",
+              "practice_id": "micro-surfaces-funnel-optimization"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially. Peep Laja's argument may apply more to top-of-funnel messaging optimization where motivation is the primary barrier, while Haley Carpenter and Eli Rubel may be addressing mid-funnel and journey-level friction where structural barriers are the bottleneck. However, both are making general claims about CRO priority, not stage-specific claims, making this a genuine disagreement on emphasis and resource allocation.",
+      "trend_note": null,
+      "why_it_matters": "Where a CRO team focuses its effort — on copywriting and messaging to increase desire, versus on journey simplification and friction removal — determines the entire program roadmap and skill set required."
+    }
+  ]
+}

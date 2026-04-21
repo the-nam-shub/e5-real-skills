@@ -1,0 +1,317 @@
+{
+  "category": "seo-and-search-marketing",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "seo-investment-worthiness",
+      "title": "Should B2B companies continue investing heavily in SEO, or shift resources elsewhere?",
+      "category": "seo-and-search-marketing",
+      "positions": [
+        {
+          "position_id": "seo-remains-viable-layer-ai-on-top",
+          "stance": "Traditional SEO remains a viable and important channel. Google clicks are relatively flat despite AI search growth, and companies at Series A/B should increase SEO investment while adding AI search optimization as an additional layer. SEO is an owned distribution channel that pays dividends over time.",
+          "supporters": [
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "SEO/growth strategist",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Data shows Google clicks are relatively flat (down ~5%) despite AI search growth, meaning traditional SEO remains viable. Series A/B companies should increase SEO investment while simultaneously building AI search presence.",
+              "practice_id": "ai-seo-hybrid-strategy"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Founder, Foundation Marketing",
+              "episode_number": 209,
+              "episode_date": "2025-01-09",
+              "evidence": "Search is an owned distribution channel that doesn't require paid spend or algorithm luck. Intent-driven, recurring traffic pays significant dividends over time.",
+              "practice_id": "search-as-owned-distribution-channel"
+            },
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "SEO consultant and content strategist",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Identified underserved niches where SEO is still wide open and effective, and advocated for systematic content improvement checklists that drove 200K to 240K monthly visitors in 30 days at ActiveCampaign.",
+              "practice_id": "focus-on-seo-in-underserved-niches"
+            },
+            {
+              "guest_name": "Bruno Estrella",
+              "guest_context": "Head of Marketing, Clay",
+              "episode_number": 180,
+              "episode_date": "2024-09-30",
+              "evidence": "Built SEO strategy around product use cases and buyer decision-making keywords, treating SEO as a core acquisition channel.",
+              "practice_id": "seo-strategy-from-use-cases"
+            },
+            {
+              "guest_name": "Tom Whatley",
+              "guest_context": "Founder, Grizzle (content marketing agency)",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Pipedrive achieved a 33% increase in user signups in 12 months by pivoting to bottom-of-funnel SEO keywords, demonstrating SEO's direct conversion impact.",
+              "practice_id": "bottom-of-funnel-seo-strategy"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Founder, Foundation Marketing",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Recommends establishing monthly content production cadence of 10-15 high-value assets targeting the same keywords as paid ads, converting paid spend into organic rankings over time.",
+              "practice_id": "content-production-cadence-high-value-keywords"
+            },
+            {
+              "guest_name": "Bruno Estrella",
+              "guest_context": "Head of Marketing, Clay",
+              "episode_number": 180,
+              "episode_date": "2024-09-30",
+              "evidence": "Builds SEO tools and calculators using product data to drive organic traffic, and maps product use cases to buyer decision-making keywords as a core SEO strategy.",
+              "practice_id": "build-seo-tools-using-product-data"
+            }
+          ]
+        },
+        {
+          "position_id": "seo-declining-shift-to-other-channels",
+          "stance": "SEO traffic is declining meaningfully due to LLMs and AI search overviews answering questions directly without clicks. Rather than doubling down on SEO, marketers should shift resources to YouTube, webinars, events, and other channels less vulnerable to AI disruption.",
+          "supporters": [
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "SEO traffic is declining across the industry because LLMs and AI search overviews answer questions directly. Google Search Console data shows rising impressions but declining clicks as a leading indicator. Recommends shifting to YouTube, webinars, and in-person events.",
+              "practice_id": "seo-declining-shift-to-video-and-events"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "VP Marketing / growth executive",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "The B2B buyer journey is shifting from searching for answers on Google to using LLM assistants to get direct actions. Informational content that ranks on Google is becoming less valuable; marketers must shift strategy to focus on awareness and attention at the top of the funnel.",
+              "practice_id": "shift-from-answers-to-actions"
+            },
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Recommends repurposing blog posts into YouTube videos to offset the 10-20% decline in traditional organic search traffic that many companies are experiencing due to AI search adoption.",
+              "practice_id": "use-youtube-to-offset-seo-traffic-decline"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Notes that 60% of searches don't result in clicks in an AI-driven world, recommending a shift from traffic metrics to search rankings and AI visibility as the primary measurement framework.",
+              "practice_id": "measure-content-by-search-rankings"
+            }
+          ]
+        }
+      ],
+      "support_summary": "7 vs 4",
+      "context_dependency": "Partially context-dependent: Jess Lytle explicitly carves out seed-stage companies as an exception (too slow a payoff), so the disagreement is most genuine for Series A+ companies. Holly Xiao and Kieran Flanagan do not specify stage, suggesting their concern applies broadly. The disagreement does not fully dissolve by stage.",
+      "trend_note": "The two guests arguing for shifting away from SEO (Holly Xiao, episodes 270 and 279; Kieran Flanagan, episode 257) all appeared in mid-2025, while the guests advocating for continued SEO investment span 2024 through early 2026. This could suggest a field shift, but Jess Lytle (episode 319, January 2026) explicitly counters the shift narrative with flat-click data, so the pattern is not conclusive.",
+      "why_it_matters": "Deciding whether to maintain or reduce SEO investment has major budget and headcount implications. Getting this wrong means either abandoning a still-viable acquisition channel or continuing to pour resources into a declining one."
+    },
+    {
+      "disagreement_id": "branded-search-spend-incrementality",
+      "title": "Is branded search advertising driving incremental conversions, or just cannibalizing organic traffic?",
+      "category": "seo-and-search-marketing",
+      "positions": [
+        {
+          "position_id": "branded-search-often-non-incremental-test-it",
+          "stance": "Branded search spend frequently cannibalizes organic traffic rather than driving incremental conversions. Companies with strong organic SEO can cut branded search spend to zero and see organic absorb the volume with no performance loss, freeing up significant budget. This should be tested rigorously with geo holdouts or conversion lift studies.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Co-founder/CEO, Paramark (marketing measurement)",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Two Series C and Series E SaaS companies ran geo holdout tests cutting branded search to zero for 4-6 weeks and found millions in savings with no performance loss when organic SEO was strong.",
+              "practice_id": "branded-search-geotest-holdout"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Co-founder/CEO, Paramark (marketing measurement)",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Recommends pausing all branded search advertising for a defined test period to measure whether organic absorbs the lost paid volume or whether there is actual incremental loss.",
+              "practice_id": "branded-search-incrementality-test"
+            }
+          ]
+        },
+        {
+          "position_id": "branded-search-as-brand-health-signal-worth-tracking",
+          "stance": "Branded search volume and clicks are valuable metrics for measuring brand awareness and health, implying the channel has ongoing value worth monitoring and maintaining. Growing branded search clicks indicate brand marketing is working; flat or declining clicks signal a problem.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "CMO, LivePerson",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Hold the brand team accountable to growing branded keyword clicks quarter over quarter as evidence that brand awareness is increasing. This metric is simple, measurable, and directly tied to brand building efforts.",
+              "practice_id": "branded-keyword-clicks-brand-awareness-metric"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Co-founder/CEO, Paramark (marketing measurement)",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Branded search click volume serves as a sanity check for brand health—growing clicks indicate people are actively searching for your brand. However, explicitly notes this is a lagging indicator and should not be presented to the CFO as a primary metric.",
+              "practice_id": "use-branded-search-clicks-as-brand-health-check"
+            },
+            {
+              "guest_name": "Tagg Bozied",
+              "guest_context": "B2B demand generation leader",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Monitor organic search traffic for your brand name in Google Analytics as a measurable indicator of brand awareness campaign impact, tracking month-over-month or quarter-over-quarter trends.",
+              "practice_id": "track-branded-impressions-google-analytics"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Recommends tracking total organic web traffic (branded and unbranded combined) as a company-wide brand effectiveness metric, implying branded search is a meaningful component worth preserving.",
+              "practice_id": "organic-web-traffic-brand-effectiveness"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially resolvable: Pranav Piyush's position is specifically about paid branded search spend being non-incremental when organic SEO is strong, while the opposing camp is largely discussing branded search volume (organic + paid combined) as a brand health metric. However, the practical implication—whether to spend money on branded search ads—is a genuine disagreement that doesn't dissolve by context.",
+      "trend_note": null,
+      "why_it_matters": "Branded search is often one of the largest line items in a paid search budget; determining whether it's truly incremental versus organic-cannibalistic can free up or justify significant spend reallocation."
+    },
+    {
+      "disagreement_id": "skyscraper-seo-content-approach",
+      "title": "Should you write long, comprehensive 'skyscraper' SEO content to outrank competitors?",
+      "category": "seo-and-search-marketing",
+      "positions": [
+        {
+          "position_id": "anti-skyscraper-unique-perspective-over-volume",
+          "stance": "Skyscraper SEO—writing longer, more comprehensive versions of competitor content—produces traffic with no business value because it says nothing different. Focus instead on unique insights, original perspective, and content that says something different rather than just saying the same things at greater length.",
+          "supporters": [
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content strategist / B2B content leader",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Skyscraper content often produces traffic with no business value. Instead of copying competitor structure and adding more information, write content that says something different or provides unique perspective.",
+              "practice_id": "avoid-skyscraper-seo-trap"
+            },
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content strategist / B2B content leader",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Skyscraper content says nothing different from competitors, just says the same things longer. Prioritize unique insights and value over volume and comprehensiveness.",
+              "practice_id": "avoid-skyscraper-seo-trap"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Proposed using AI to extract expert insights from existing interviews and map them to SEO keywords, explicitly as an alternative to writing generic skyscraper content—combining authority of expert voices with keyword optimization.",
+              "practice_id": "use-ai-to-extract-seo-content-from-existing-interviews"
+            },
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "SEO/content strategist",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "Avoid generic, copycat content that LLMs can generate themselves; instead include original data, expertise, and examples that competitors cannot replicate.",
+              "practice_id": "create-topical-coverage-content"
+            }
+          ]
+        },
+        {
+          "position_id": "pro-comprehensive-content-depth",
+          "stance": "Content should be deep and comprehensive, covering a topic from multiple angles and related subtopics. Depth and topical coverage are signals that help both Google and LLMs identify your content as authoritative. Matching content depth to search intent—including the 'why,' 'how,' examples, and next steps—is essential for ranking.",
+          "supporters": [
+            {
+              "guest_name": "Tom Whatley",
+              "guest_context": "Founder, Grizzle (content marketing agency)",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Content must fully address search intent—provide not just context and definitions but also the 'why,' 'how,' examples, and next steps. Thin content that sets the stage but doesn't expand on actionable information fails to satisfy searcher needs.",
+              "practice_id": "content-depth-vs-search-intent"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Founder, Foundation Marketing",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Advocated for 10-15 high-value content assets per month targeting high-value keywords, with linkable assets like graphics, charts, and data visualizations to earn backlinks—implying comprehensive, well-resourced content production.",
+              "practice_id": "content-production-cadence-high-value-keywords"
+            },
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "SEO consultant and content strategist",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Recommends using tools like Clearscope or MarketMuse to ensure all relevant entities and phrases are covered in content, and advocates for matching content depth to search intent.",
+              "practice_id": "content-checklist-for-existing-content-improvement"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 3",
+      "context_dependency": "Partially resolvable: the anti-skyscraper camp is specifically objecting to comprehensiveness without differentiation, while the pro-depth camp emphasizes matching depth to intent. A nuanced reading is 'be comprehensive AND differentiated,' but Chelsea Castle explicitly frames skyscraper content as a trap even when done well, making this a genuine tactical disagreement about where to invest content effort.",
+      "trend_note": null,
+      "why_it_matters": "Content production is expensive; choosing between a differentiation-first versus comprehensiveness-first approach determines how you brief writers, what you measure, and whether your content budget drives pipeline or just traffic."
+    },
+    {
+      "disagreement_id": "seo-retainer-timeline",
+      "title": "Does SEO genuinely take 6-12 months to show results, justifying long-term retainers?",
+      "category": "seo-and-search-marketing",
+      "positions": [
+        {
+          "position_id": "seo-timeline-narrative-is-flawed-front-load-work",
+          "stance": "The '6-12 months for SEO to work' narrative is used to justify retainer contracts but is largely flawed. Many SEO improvements (internal linking, content optimization, crawlability fixes) can show results in weeks. Work should be front-loaded in the first 2-3 months with sprint-based engagements, then clients execute independently.",
+          "supporters": [
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "SEO consultant and content strategist",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "The retainer model incentivizes agencies to drip out work over time rather than deliver upfront. SEO improvements like internal linking and content optimization can show results in weeks or months. Advocates for sprint-based engagements that front-load all strategic work in the first 2-3 months.",
+              "practice_id": "seo-retainer-narrative-is-flawed"
+            }
+          ]
+        },
+        {
+          "position_id": "seo-is-long-term-channel-requiring-sustained-investment",
+          "stance": "SEO is a long-term owned channel that requires sustained investment and pays dividends over time. It is not a quick-win channel—it requires more upfront work than paid and has a slower payoff, which is why seed-stage companies should not heavily invest in it.",
+          "supporters": [
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Founder, Foundation Marketing",
+              "episode_number": 209,
+              "episode_date": "2025-01-09",
+              "evidence": "Search requires more upfront work than paid (no credit card cheat code) and pays significant dividends over time. Framing implies a longer time horizon for results.",
+              "practice_id": "search-as-owned-distribution-channel"
+            },
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "SEO/growth strategist",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Explicitly states seed-stage founders should not heavily invest in SEO because it is 'too time-intensive with slow payoff,' implying the long timeline is real and not a myth.",
+              "practice_id": "ai-seo-hybrid-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially resolvable: Brendan Hufford is specifically critiquing the retainer business model and arguing that tactical SEO work (technical fixes, internal linking) shows results quickly, while Simmonds and Lytle are describing the overall channel's compounding nature. These could be compatible if 'quick wins exist but full channel maturity takes time,' but Hufford explicitly frames the long-timeline claim as a myth used to extract fees, making it a genuine disagreement about how to set client/stakeholder expectations.",
+      "trend_note": null,
+      "why_it_matters": "How you frame SEO timelines affects budget approval, agency contract structures, and how quickly leadership loses patience with the channel—getting this wrong leads to either wasted retainer spend or premature abandonment of a working strategy."
+    }
+  ]
+}

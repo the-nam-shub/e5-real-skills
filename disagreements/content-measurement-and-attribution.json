@@ -1,0 +1,104 @@
+{
+  "category": "content-measurement-and-attribution",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 4,
+  "disagreements": [
+    {
+      "disagreement_id": "content-attribution-model-approach",
+      "title": "Should you use time-based attribution or touchpoint/influence-based attribution to measure content?",
+      "category": "content-measurement-and-attribution",
+      "positions": [
+        {
+          "position_id": "time-based-attribution",
+          "stance": "Content campaigns should be measured over a defined time window (e.g., 8 weeks) rather than trying to attribute individual pieces to revenue. Direct attribution is increasingly unreliable due to privacy changes and the indirect, cumulative nature of content influence. Think of it like a billboard campaign—you measure the campaign's aggregate impact over time, not each individual impression.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Explicitly recommended measuring content campaigns as 'this ran for 8 weeks and generated X signups' rather than direct last-click attribution, acknowledging content influence happens across multiple touchpoints over time.",
+              "practice_id": "measure-content-via-time-based-attribution"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Argued that direct attribution is increasingly unreliable and that content initiatives should be measured over weeks and months, analogizing to billboard campaigns where you measure campaign-level impact rather than individual ad impact.",
+              "practice_id": "measure-content-on-time-basis-not-attribution"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "Content/SEO strategist",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Cited the statistic that 60% of searches don't result in clicks, arguing that ranking visibility and appearance in AI summaries matters more than click-through traffic as a content performance metric.",
+              "practice_id": "measure-content-by-search-rankings"
+            },
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content leader",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Argued that aggregated qualitative feedback from ICP members is more valuable than raw view counts, especially for brand-building content where direct attribution is difficult.",
+              "practice_id": "measure-qualitative-content-impact"
+            },
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content leader",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Recommended collecting qualitative signals (LinkedIn comments, DMs, application stories) in a centralized place as a primary metric for brand content.",
+              "practice_id": "measure-content-via-qualitative-feedback"
+            }
+          ]
+        },
+        {
+          "position_id": "touchpoint-influence-attribution",
+          "stance": "Content impact can and should be measured through touchpoint or influence-based attribution tied to pipeline events. Using event tracking, cookie tracking, and CRM data, you can connect content engagement to quality held meetings and pipeline influence without requiring last-click attribution. This provides concrete, defensible numbers for finance and leadership.",
+          "supporters": [
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content leader",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Described a specific system using event tracking and cookie tracking to identify content consumers and then measure whether they booked and attended a quality held meeting (QHM), creating attribution reports showing pipeline influence across inbound, SDR, and other channels.",
+              "practice_id": "measure-content-via-quality-held-meetings"
+            },
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Content leader",
+              "episode_number": 172,
+              "episode_date": "2024-09-02",
+              "evidence": "Recommended setting up event and cookie tracking to measure when users engage with content and then convert to a quality held meeting, explicitly framing this as a measurable connection between content engagement and pipeline.",
+              "practice_id": "measure-content-via-quality-held-meetings"
+            },
+            {
+              "guest_name": "Kristina DeBrito",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Recommended using source attribution for top-of-funnel content/events and influenced attribution for middle/bottom-funnel, explicitly advocating for touchpoint-based models rather than time-window measurement.",
+              "practice_id": "event-source-vs-influenced-attribution"
+            },
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "Content and demand generation leader",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Recommended tracking which target accounts viewed ungated content using tools like Clearbit or Koala, then checking CRM for active opportunities and deal velocity—a touchpoint-influence model rather than time-window measurement.",
+              "practice_id": "measure-ungated-content-via-account-visibility"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 4",
+      "context_dependency": "Partially context-dependent: time-based attribution may be more practical for early-stage teams without tracking infrastructure, while touchpoint/influence attribution requires event tracking and CRM integration. However, both guests are speaking to B2B marketing teams generally, and Chelsea Castle explicitly positions QHM tracking as an alternative to time-based measurement for the same content types, making this a genuine methodological disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong attribution model can either undersell content's impact (if time-based windows miss pipeline connections) or create false precision (if touchpoint models overfit noisy data). The approach you pick will directly affect budget decisions and headcount justification for content teams."
+    }
+  ]
+}

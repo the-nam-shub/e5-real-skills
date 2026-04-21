@@ -1,0 +1,260 @@
+{
+  "category": "cmo-role-definition-and-career-navigation",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "cmo-hands-on-execution-vs-strategic-delegation",
+      "title": "Should CMOs stay hands-on with execution or fully delegate to focus on strategy?",
+      "category": "cmo-role-definition-and-career-navigation",
+      "positions": [
+        {
+          "position_id": "stay-connected-to-execution",
+          "stance": "CMOs and senior marketing leaders must remain involved in execution—attending events, reviewing creative, listening to customer feedback in real-time. Separation from execution makes it impossible to drive strategy effectively, and leaders who retreat into meetings lose ground truth about what customers care about.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Founder/CEO, Refine Labs",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Argued that CMOs at $50M+ ARR companies who become purely political/administrative lose the ground truth about what messaging resonates and what customers care about. Staying in execution is especially critical at scale.",
+              "practice_id": "senior-leaders-stay-in-execution"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "CMO/marketing executive; AI and growth expert",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Argued the future CMO role will shift toward being a hands-on craftsperson and operator with a smaller team, reversing the trend toward CMOs becoming pure managers. AI reduces the need for large execution teams, enabling CMOs to stay deeply involved in creative execution.",
+              "practice_id": "cmo-as-craftsperson-operator"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "CMO/marketing executive; AI and growth expert",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Described the future CMO as a cross-functional practitioner who can actually do the work, not just manage boxes, with smaller teams and more hands-on craft work.",
+              "practice_id": "cmo-role-evolution-smaller-teams-more-craft"
+            }
+          ]
+        },
+        {
+          "position_id": "delegate-execution-focus-on-strategy",
+          "stance": "As you advance to CMO, you must deliberately let go of day-to-day execution details and shift into cross-functional strategic leadership. The CMO role requires constant context-switching between strategic planning and team management, not hands-on execution in a single area of passion.",
+          "supporters": [
+            {
+              "guest_name": "Kady Srinivasan",
+              "guest_context": "CMO, Lightspeed",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Stated that to reach CMO level, you must deliberately let go of day-to-day details and shift into a cross-functional leadership role focused on company strategy, serving as the glue across product, sales, and customer success.",
+              "practice_id": "cmo-strategic-role-vs-tactical"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "CMO, Kyndryl",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Explicitly warned that CMO roles require constant context-switching between strategic planning, team management, and only occasional tactical execution. If your passion comes primarily from day-to-day execution, a CMO role may make you miserable.",
+              "practice_id": "cmo-role-limits-hands-on-execution"
+            },
+            {
+              "guest_name": "Jessica Andrews",
+              "guest_context": "VP Marketing, Notion",
+              "episode_number": 217,
+              "episode_date": "2025-02-06",
+              "evidence": "Described the VP Marketing role as not an execution role but a strategic one. Advised using freed-up mental space from delegating execution to think strategically, and to avoid immediately pushing new tactical ideas to the team.",
+              "practice_id": "transition-ic-to-leadership-mindset-shift"
+            },
+            {
+              "guest_name": "Matt Devincentis",
+              "guest_context": "VP Product Marketing, Salesforce",
+              "episode_number": 260,
+              "episode_date": "2025-06-30",
+              "evidence": "Stated that as you move from IC to VP level, your job shifts from executing the work to inspiring and leading people, requiring letting go of the need to control execution.",
+              "practice_id": "shift-mindset-from-ic-to-vp"
+            },
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "CMO, Nuance Communications",
+              "episode_number": 128,
+              "episode_date": "2024-04-01",
+              "evidence": "Distinguished between 'running marketing' (execution) and 'leading marketing' (setting direction, improving the function). Argued the CMO's primary job is leading, not running, and that running is merely the baseline.",
+              "practice_id": "distinguish-running-vs-leading-marketing"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 3",
+      "context_dependency": "Partially context-dependent: Kieran Flanagan's position is explicitly forward-looking (AI-enabled future state with smaller teams), while Chris Walker's position is most applicable at $50M+ ARR companies where CMOs risk becoming purely administrative. The delegation camp tends to speak about the transition period from IC to CMO. However, the core tension—whether a sitting CMO should be personally executing work—is a genuine disagreement that persists even within similar company stages.",
+      "trend_note": "The hands-on/craftsperson position is more recent (2025-2026, episodes 257, 318), while the delegation/strategy position spans 2024-2025. This may reflect an emerging AI-driven shift in thinking about the CMO role, but the sample is too small to confirm a clear trend.",
+      "why_it_matters": "A CMO who stays too hands-on may fail to provide strategic leadership and cross-functional alignment; one who fully delegates may lose the ground truth needed to make good strategic decisions. Getting this balance wrong in either direction is a common CMO failure mode."
+    },
+    {
+      "disagreement_id": "new-role-listening-period-length",
+      "title": "How long should a new marketing leader spend listening before acting?",
+      "category": "cmo-role-definition-and-career-navigation",
+      "positions": [
+        {
+          "position_id": "extended-listening-2-3-months",
+          "stance": "New marketing leaders should spend 2-3 months consuming information about the organization, strategy, people, and processes before making structural changes. Rushing into decisions without this learning phase leads to reactive, poorly-contextualized changes.",
+          "supporters": [
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "CMO, Nuance Communications",
+              "episode_number": 202,
+              "episode_date": "2024-12-16",
+              "evidence": "Explicitly recommended spending 2-3 months listening and learning before making structural changes, developing a mental picture of the future state before diving into details.",
+              "practice_id": "listen-learn-assess-before-restructuring"
+            },
+            {
+              "guest_name": "Tara Robertson",
+              "guest_context": "Marketing leader",
+              "episode_number": 188,
+              "episode_date": "2024-10-28",
+              "evidence": "Recommended a structured 90-day learning plan with the first 30 days dedicated entirely to learning: interviewing team and executives, conducting competitive research, and gathering market intelligence before moving to strategy.",
+              "practice_id": "first-90-days-learning-plan"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Marketing leader",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Advised listening to the existing team's perspective and understanding unique constraints before applying lessons from previous experience, noting the team knows their business well.",
+              "practice_id": "listen-and-learn-new-company-context"
+            },
+            {
+              "guest_name": "Kady Srinivasan",
+              "guest_context": "CMO",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Recommended resisting the urge to immediately apply a previous playbook and instead spending time assessing where demand comes from, what's working, and what the market opportunity is before building strategy.",
+              "practice_id": "assess-go-to-market-before-applying-playbook"
+            },
+            {
+              "guest_name": "Amanda Goetz",
+              "guest_context": "Fractional CMO",
+              "episode_number": 158,
+              "episode_date": "2024-07-15",
+              "evidence": "Recommended beginning with a listening phase even as a fractional CMO, introducing yourself and making clear you're coming to listen first before prescribing solutions.",
+              "practice_id": "fractional-cmo-onboarding-listening-phase"
+            }
+          ]
+        },
+        {
+          "position_id": "rapid-listening-move-fast",
+          "stance": "The listening tour should be short—not 60 days—because CEOs won't accept a lengthy listening period and strategic decisions cannot be delayed. Move fast enough to get up to speed on positioning and what's working, then act.",
+          "supporters": [
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "Head of Marketing, Common Room",
+              "episode_number": 286,
+              "episode_date": "2025-09-29",
+              "evidence": "Explicitly advised keeping the listening tour short (not 60 days) to avoid delaying strategic decisions, while still moving fast enough to understand positioning and messaging.",
+              "practice_id": "listening-tour-rapid-assessment"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "Head of Marketing, Common Room",
+              "episode_number": 179,
+              "episode_date": "2024-09-26",
+              "evidence": "Reiterated that the listening tour should be short, not 60 days, because the CEO won't accept a lengthy listening period. Prioritize speed over comprehensiveness.",
+              "practice_id": "rapid-listening-tour-onboarding"
+            }
+          ]
+        },
+        {
+          "position_id": "quick-wins-alongside-listening",
+          "stance": "Rather than a pure listening phase, new marketing leaders should simultaneously pursue quick wins that build credibility while learning the business. Delivering a visible win in week one or two buys political capital for longer-term initiatives.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 133,
+              "episode_date": "2024-04-18",
+              "evidence": "Recommended shipping a small, visible win in week one or two of a new role to build credibility with leadership and generate momentum, rather than spending weeks purely listening.",
+              "practice_id": "demonstrate-impact-early-in-new-role"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "Head of Content & Communications, Clay",
+              "episode_number": 266,
+              "episode_date": "2025-07-21",
+              "evidence": "Recommended pursuing quick wins (e.g., adding a CTA button, writing a blog post) alongside strategic planning from the start of a new role, not waiting for a listening phase to conclude.",
+              "practice_id": "balance-long-term-strategy-with-quick-wins"
+            },
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "Marketing leader",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Recommended identifying low-hanging fundamental gaps and fixing them quickly when joining a new company, framing these as favors for stakeholders to build credibility faster than large initiatives.",
+              "practice_id": "quick-wins-favor-economy-new-role"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 3 vs 2",
+      "context_dependency": "Partially context-dependent: the extended listening recommendation (Peter Mahoney) may apply more to large, complex organizations where structural changes have significant downstream effects. The rapid listening and quick-wins positions may be more appropriate for smaller companies or roles where the CEO expects fast impact. However, all guests appear to be speaking about marketing leadership roles generally, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "A new marketing leader who listens too long risks losing credibility and the window for change; one who acts too fast risks making poorly-informed decisions that damage relationships and strategy. The right balance directly affects whether a new CMO succeeds or fails in their first year."
+    },
+    {
+      "disagreement_id": "cmo-personal-brand-building",
+      "title": "Should CMOs actively build a personal brand through external visibility?",
+      "category": "cmo-role-definition-and-career-navigation",
+      "positions": [
+        {
+          "position_id": "personal-brand-with-caution",
+          "stance": "CMOs can engage in personal brand-building (speaking, writing, social media) but must do so strategically and with explicit transparency to their CEO and CRO. The risk is that peers—especially in sales—will resent external visibility while they're grinding internally. Frame external activities as professional development, not personal fame-seeking.",
+          "supporters": [
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "EIR, Balderton Capital; former CEO and CMO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "Identified 'Self Promoter' as one of eight CMO failure archetypes—being overexposed externally. Advised that self-promotion is possible but requires proactive communication with CEO/CRO and framing as professional development, not personal branding.",
+              "practice_id": "self-promotion-with-awareness"
+            }
+          ]
+        },
+        {
+          "position_id": "personal-brand-as-core-strategy",
+          "stance": "Building a personal brand through content, speaking, and external visibility is a legitimate and valuable strategy for marketing leaders. It demonstrates thought leadership, builds credibility, and is part of how modern CMOs create value for their companies.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 316,
+              "episode_date": "2025-12-29",
+              "evidence": "Has built his entire career and Exit Five community around the premise that marketing leaders should build personal brands and share their expertise publicly. Treats external visibility as a core professional strategy, not a risk to be managed.",
+              "practice_id": "no-universal-playbook-adapt-to-context"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Founder/CEO, Refine Labs",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Structures his entire schedule around producing strategic thought leadership content (podcast recording on Tuesdays, maker days for writing), treating external content creation as a core part of his professional role.",
+              "practice_id": "manager-schedule-vs-maker-schedule"
+            },
+            {
+              "guest_name": "Andrew Davies",
+              "guest_context": "CMO",
+              "episode_number": 195,
+              "episode_date": "2024-11-21",
+              "evidence": "Recommended structuring the marketing org so the CMO has only 3 direct reports specifically to enable 50% of CMO time on outward-facing activities including speaking at conferences, customer meetings, and prospect meetings — treating external visibility as a core CMO function, not a risk.",
+              "practice_id": "narrow-span-of-control-for-cmo-outward-focus"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Dave Kellogg is speaking specifically about CMOs at companies where they report to a CEO and have peers in sales who may resent external visibility. Chris Walker and Dave Gerhardt are speaking from the perspective of founders/independent operators where external visibility is unambiguously beneficial. However, the tension is real for employed CMOs specifically.",
+      "trend_note": null,
+      "why_it_matters": "An employed CMO who builds a high-profile personal brand without managing internal perceptions risks being seen as self-serving and damaging relationships with sales and the CEO—potentially accelerating their departure from the role."
+    }
+  ]
+}

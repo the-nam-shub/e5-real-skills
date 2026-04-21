@@ -1,0 +1,365 @@
+{
+  "category": "ai-search-optimization",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "own-site-vs-third-party-content-for-ai-visibility",
+      "title": "Should you prioritize your own website content or third-party/external content to maximize AI search visibility?",
+      "category": "ai-search-optimization",
+      "positions": [
+        {
+          "position_id": "prioritize-third-party-mentions",
+          "stance": "85% of brand mentions in AI search come from third-party content, not your own website. Focus on getting your content cited and mentioned by external sources, and consider building media properties on separate domains that LLMs treat as independent third-party sources.",
+          "supporters": [
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Guest, episodes 336 and 290",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Cites data that 85% of brand mentions in AI search come from third-party content. Recommends ensuring quality content is well-distributed off your website to maximize third-party pickup.",
+              "practice_id": "prioritize-third-party-brand-mentions"
+            },
+            {
+              "guest_name": "Sylvia LePoidevin",
+              "guest_context": "Guest, episode 306",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Built a branded media property on a separate domain (thesequence.com for Kandji) because LLMs treat external domains as third-party sources and cite them more readily than company-owned content. Reported 17% of inbound traffic attributing to LLM search within weeks of launch.",
+              "practice_id": "media-property-separate-domain"
+            },
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "Guest, episode 269",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "Recommends replacing traditional backlink strategy with branded mentions across PR, community, and influencer channels. States the hyperlink is optional; the mention itself is what matters for LLM visibility.",
+              "practice_id": "build-branded-anchor-text-mentions"
+            },
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "Guest, episode 289",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Recommends publishing content in multiple places (syndication partners, review sites) because LLMs look for confirmation across multiple sources to establish citation authority.",
+              "practice_id": "answer-engine-optimization-content-strategy"
+            },
+            {
+              "guest_name": "Marcy Comer",
+              "guest_context": "Guest, episode 324",
+              "episode_number": 324,
+              "episode_date": "2026-01-27",
+              "evidence": "Recommends multi-page press releases distributed via wire services (not just your website) because LLMs treat third-party citations as signals of truth — when multiple sources cite the same information, LLMs rank it higher.",
+              "practice_id": "long-form-press-releases-aeo"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "Guest, episode 304",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Recommends leading with distribution when planning any content, identifying partners and practitioners who will amplify it, because AI systems now prioritize mentions and shares over domain authority.",
+              "practice_id": "distribution-first-content-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "prioritize-own-site-content",
+          "stance": "Focus on creating high-quality content on your own website, particularly proprietary data, expert voices, and frontier knowledge that LLMs cannot generate themselves. Strong on-site content naturally attracts third-party citations.",
+          "supporters": [
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Guest, episodes 336 and 290",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Recommends surfacing proprietary product data and internal expert insights on your own pages (e.g., Ramp surfacing credit card transaction data). Also recommends quarterly content refresh on existing pages and proper heading/schema structure on your own site.",
+              "practice_id": "focus-on-frontier-knowledge-in-content"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest, episode 285",
+              "episode_number": 285,
+              "episode_date": "2025-09-25",
+              "evidence": "Argues that focusing on creating genuinely good content that answers real customer problems will naturally appear in LLM outputs. Explicitly warns against gaming LLM-based search with technical hacks, favoring sustainable content quality on your own site.",
+              "practice_id": "focus-on-customer-outcomes-not-llm-optimization"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "Guest, episode 304",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Recommends measuring content performance by search rankings and visibility in AI results, and leading with distribution planning — but the core investment is in creating quality content assets that earn authority signals.",
+              "practice_id": "measure-content-by-search-rankings"
+            },
+            {
+              "guest_name": "Connor Beaulieu",
+              "guest_context": "Guest, episode 336",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Recommends building content strategy around surfacing unique value your company owns—subject matter expert perspectives, proprietary data, first-hand product experience—on your own site rather than focusing on external distribution.",
+              "practice_id": "prioritize-unique-value-over-incremental-improvements"
+            },
+            {
+              "guest_name": "Rita Cidre",
+              "guest_context": "Guest, episode 224",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Recommends building programmatic SEO pages using proprietary data on your own site, noting this is resistant to AI overview disruption because it uses data LLMs cannot access.",
+              "practice_id": "programmatic-seo-data-pages"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 5",
+      "context_dependency": "These positions are not mutually exclusive in practice, but they represent genuinely different prioritization advice. The third-party camp says external mentions are the primary driver (85% stat). The own-site camp says quality content on your site is the foundation that earns those mentions. The disagreement is about where to direct primary effort and investment, not whether both matter.",
+      "trend_note": "The third-party emphasis position is more concentrated in recent episodes (2025-2026), while own-site content quality advice spans the full date range. This may reflect growing awareness of how LLMs weight external citations.",
+      "why_it_matters": "If 85% of AI search visibility comes from third-party mentions, teams should be investing heavily in PR, syndication, and external distribution rather than on-site optimization — a significant budget and strategy reallocation."
+    },
+    {
+      "disagreement_id": "seo-investment-vs-abandonment",
+      "title": "Should B2B marketers continue investing in traditional SEO, or shift resources away from it?",
+      "category": "ai-search-optimization",
+      "positions": [
+        {
+          "position_id": "maintain-and-layer-seo",
+          "stance": "Traditional SEO remains viable and should be maintained while AI search optimization is added as an additional layer. Google clicks are relatively flat despite AI search growth, and foundational SEO efforts continue to pay off for Series A/B+ companies.",
+          "supporters": [
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "Guest, episode 319",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Data shows Google clicks are relatively flat (down ~5%) despite AI search growth, meaning traditional SEO remains viable. Recommends Series A/B companies increase SEO investment while simultaneously building AI search presence.",
+              "practice_id": "ai-seo-hybrid-strategy"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Guest, episodes 209, 224, 121",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Advocates for SERP domination across multiple content formats, building programmatic SEO pages, and creating 10-15 high-value content assets per month targeting keywords. Treats SEO as a core, ongoing investment.",
+              "practice_id": "content-production-cadence-high-value-keywords"
+            },
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "Guest, episode 242",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Recommends systematic content improvement checklists for existing blog content and building alternatives/versus pages to capture high-intent buyers in search. Treats SEO as a primary channel worth ongoing investment.",
+              "practice_id": "content-checklist-for-existing-content-improvement"
+            },
+            {
+              "guest_name": "Bruno Estrella",
+              "guest_context": "Guest, episode 180",
+              "episode_number": 180,
+              "episode_date": "2024-09-30",
+              "evidence": "Recommends building SEO tools and calculators using product data to drive organic traffic, and mapping product use cases to buyer decision-making keywords as a core SEO strategy.",
+              "practice_id": "build-seo-tools-using-product-data"
+            },
+            {
+              "guest_name": "Marcy Comer",
+              "guest_context": "Guest, episode 324",
+              "episode_number": 324,
+              "episode_date": "2026-01-27",
+              "evidence": "Recommends committing to a 6-month content calendar focused on 1-2 primary keywords and updating existing ranking content at least annually, treating SEO as a sustained investment.",
+              "practice_id": "circle-the-buyer-content-mapping"
+            },
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "Guest, episode 269",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "Recommends measuring current AI search traffic baseline before investing in optimization, and treating informational content as top-of-funnel awareness rather than abandoning it. Advocates omnichannel distribution including SEO alongside AI search.",
+              "practice_id": "assess-ai-traffic-baseline-before-optimizing"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Guest, episodes 209, 224, 121",
+              "episode_number": 209,
+              "episode_date": "2025-01-09",
+              "evidence": "Advocates SERP domination and mindshare domination as dual content goals, building content across multiple formats to own search results pages. Continues recommending SEO investment including programmatic pages and content production cadences.",
+              "practice_id": "serp-and-mindshare-domination-strategy"
+            },
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "Guest, episode 242",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Recommends creating alternatives pages, competitor versus pages, and content improvement checklists for SEO—implying continued investment in traditional SEO tactics.",
+              "practice_id": "alternatives-and-versus-pages-for-consideration"
+            }
+          ]
+        },
+        {
+          "position_id": "shift-away-from-seo",
+          "stance": "SEO traffic is declining because LLMs and AI search overviews answer questions directly without requiring clicks. Marketers should shift resources to video (YouTube), webinars, and events rather than doubling down on SEO.",
+          "supporters": [
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Guest, episode 270",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "Cites rising impressions but declining clicks in Google Search Console as a leading indicator of SEO decline. Recommends shifting focus to YouTube, webinars, and in-person events as less AI-disrupted channels.",
+              "practice_id": "seo-declining-shift-to-video-and-events"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest, episode 318",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Predicts LLM assistants will be the primary interface for 95% of B2B buyer journeys by 2027, making traditional informational content lose value. Recommends shifting from answer-based content to content that drives awareness at the top of the funnel.",
+              "practice_id": "shift-from-informational-to-action-content"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "Guest, episode 148",
+              "episode_number": 148,
+              "episode_date": "2024-06-10",
+              "evidence": "Notes that generative AI is primarily cannibalizing upper-funnel informational search traffic. Recommends adjusting strategy to focus upper-funnel efforts on building brand trust and direct relationships rather than relying on organic search.",
+              "practice_id": "upper-funnel-content-most-impacted-by-ai-search"
+            }
+          ]
+        }
+      ],
+      "support_summary": "8 vs 3",
+      "context_dependency": "Partially context-dependent: Jess Lytle explicitly carves out seed-stage startups as an exception (too slow a payoff), recommending SEO only for Series A/B+. Holly Xiao's shift recommendation may reflect her specific company's traffic profile. However, the core disagreement about whether SEO remains a viable primary channel persists even among guests discussing the same company stages.",
+      "trend_note": "The shift-away position is not strictly more recent — John Short (2024-06-10) is older than Jess Lytle (2026-01-08) who advocates maintaining SEO. No clear chronological clustering.",
+      "why_it_matters": "Deciding whether to maintain SEO investment or reallocate budget to video and events is a major resource allocation decision. Getting this wrong means either abandoning a still-viable channel prematurely or continuing to invest in a declining one."
+    },
+    {
+      "disagreement_id": "skyscraper-seo-content-approach",
+      "title": "Should you use the skyscraper method to create comprehensive SEO content that outperforms competitors?",
+      "category": "ai-search-optimization",
+      "positions": [
+        {
+          "position_id": "avoid-skyscraper",
+          "stance": "Skyscraper SEO content — writing longer, more comprehensive versions of competitor articles — produces traffic with no business value because it says nothing different. Focus on unique insights and perspective instead of volume and comprehensiveness.",
+          "supporters": [
+            {
+              "guest_name": "Chelsea Castle",
+              "guest_context": "Guest, episodes 262 and 172",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Argues skyscraper content often ranks but doesn't convert or serve business goals because it replicates competitor structure without adding differentiated value.",
+              "practice_id": "avoid-skyscraper-seo-trap"
+            },
+            {
+              "guest_name": "Connor Beaulieu",
+              "guest_context": "Guest, episode 336",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Explicitly recommends stopping the 'skyscraper' approach of creating marginally better versions of existing content. Instead, identify what your company uniquely offers that AI engines cannot provide.",
+              "practice_id": "prioritize-unique-value-over-incremental-improvements"
+            }
+          ]
+        },
+        {
+          "position_id": "comprehensive-content-still-valuable",
+          "stance": "Creating comprehensive, topically-clustered content that covers a topic from multiple angles remains a valid strategy for LLM retrieval and SEO. The key is adding original data and expertise, not just length.",
+          "supporters": [
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "Guest, episode 269",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "Recommends creating deep, comprehensive content covering a topic from multiple angles because LLMs use cosine similarity to match semantically related content. Distinguishes this from generic copycat content by requiring original data and expertise.",
+              "practice_id": "create-topical-coverage-content"
+            },
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "Guest, episode 242",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Recommends using tools like Clearscope or MarketMuse to ensure all relevant entities and phrases are covered in content, and building comprehensive comparison pages. Treats thoroughness as a feature, not a bug.",
+              "practice_id": "content-checklist-for-existing-content-improvement"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially resolvable: Chelsea Castle and Connor Beaulieu are specifically arguing against content that adds no unique value beyond length. Andrei Țiț and Brendan Hufford both explicitly caveat that comprehensive content must include original data and expertise. The disagreement may narrow to whether 'comprehensive' inherently means 'generic' — but the tactical advice still conflicts on whether depth/coverage is a primary optimization target.",
+      "trend_note": null,
+      "why_it_matters": "Skyscraper content is a significant time and resource investment. If it produces traffic without conversions and is increasingly displaced by AI-generated summaries, teams need to know whether to abandon the approach entirely or evolve it."
+    },
+    {
+      "disagreement_id": "ai-traffic-volume-vs-quality-priority",
+      "title": "Should you optimize AI search strategy for traffic volume or conversion quality?",
+      "category": "ai-search-optimization",
+      "positions": [
+        {
+          "position_id": "optimize-for-conversion-quality",
+          "stance": "AI search traffic is currently tiny in volume but converts at significantly higher rates than other channels. Don't obsess over traffic volume metrics — focus on conversion rate optimization and ensuring the right experience for these high-intent visitors.",
+          "supporters": [
+            {
+              "guest_name": "Marcy Comer",
+              "guest_context": "Guest, episode 324",
+              "episode_number": 324,
+              "episode_date": "2026-01-27",
+              "evidence": "For EagleView, AEO traffic was 0.1% of total traffic but converted at 5% vs. lower rates on other channels. Explicitly recommends focusing on conversion rate rather than traffic volume.",
+              "practice_id": "aeo-traffic-volume-vs-quality"
+            },
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "Guest, episode 269",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "Reports AI traffic at ~0.5% of total referrals but driving ~12% of signups. Recommends measuring success by lead quality and intent rather than raw traffic volume.",
+              "practice_id": "measure-ai-traffic-quality-not-volume"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest, episode 318",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Predicts LLM assistants will be the primary interface for 95% of B2B buyer journeys by 2027, implying urgent investment now regardless of current traffic volumes.",
+              "practice_id": "shift-from-informational-to-action-content"
+            },
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Guest, episodes 336 and 290",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Recommends comprehensive AI search optimization investments (content refreshes, structural changes, third-party distribution) without qualifying them as contingent on current traffic volume.",
+              "practice_id": "refresh-content-quarterly-for-ai-citations"
+            },
+            {
+              "guest_name": "Sylvia LePoidevin",
+              "guest_context": "Guest, episode 306",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Built a separate media property specifically for LLM citation, reporting 17% of inbound traffic attributing to LLM search within weeks of launch—suggesting early investment pays off quickly.",
+              "practice_id": "media-property-separate-domain"
+            }
+          ]
+        },
+        {
+          "position_id": "assess-volume-before-optimizing",
+          "stance": "Before committing resources to AI search optimization, first determine whether your site is receiving meaningful AI traffic at all. If AI traffic is negligible, focus on foundational brand-building first and revisit optimization as the channel matures.",
+          "supporters": [
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "Guest, episode 269",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "Recommends using analytics to track referral traffic from AI sources before investing in optimization. If AI traffic is negligible, focus on foundational content quality first.",
+              "practice_id": "assess-ai-traffic-baseline-before-optimizing"
+            },
+            {
+              "guest_name": "Marcy Comer",
+              "guest_context": "Guest, episode 324",
+              "episode_number": 324,
+              "episode_date": "2026-01-27",
+              "evidence": "For startups with minimal budget, explicitly recommends not starting with AEO tools or complex content strategies — focus first on positioning and messaging, then build content strategy around real buyer questions.",
+              "practice_id": "startup-positioning-first-aeo"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "This disagreement largely dissolves by company stage: the 'assess volume first' advice is explicitly targeted at startups and early-stage companies with limited budgets, while the 'optimize for conversion quality' advice applies to companies already receiving some AI traffic. Genuine disagreement is minimal once context is accounted for.",
+      "trend_note": null,
+      "why_it_matters": "Teams that invest heavily in AEO optimization before their site receives meaningful AI traffic may be misallocating resources; teams that wait too long may miss the window to establish AI search presence before competitors do."
+    }
+  ]
+}

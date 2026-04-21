@@ -1,0 +1,277 @@
+{
+  "category": "sales-marketing-organizational-alignment",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "sdr-bdr-reporting-structure",
+      "title": "Should SDR/BDR teams report to marketing or sales?",
+      "category": "sales-marketing-organizational-alignment",
+      "positions": [
+        {
+          "position_id": "sdrs-report-to-marketing",
+          "stance": "SDR/BDR teams should report to marketing to create unified pipeline accountability, eliminate the blame game between departments, and allow marketing to optimize the full funnel from lead generation through qualified meeting. The distinction between BDR and SDR is semantic; what matters is consolidated ownership under marketing.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Argued that consolidating all prospecting under a single marketing-led pipeline creation function eliminates the blame game, provides clear visibility into blended prospecting efficiency, and allows the CMO to own the entire path from lead generation through qualified meeting.",
+              "practice_id": "consolidate-prospecting-under-marketing"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Reiterated that moving prospecting under marketing creates a unified pipeline creation function that eliminates split accountability and enables marketing to optimize the full funnel as one system.",
+              "practice_id": "consolidate-prospecting-under-marketing"
+            },
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Recommended placing the SDR/ADR team under marketing's organizational structure to eliminate misalignment between marketing's account selection and sales' prospecting activities, create unified accountability for pipeline generation, and simplify metrics. Advised negotiating this structure before hiring the first sales rep.",
+              "practice_id": "marketing-owns-sdrs-adr-team"
+            },
+            {
+              "guest_name": "Kelly Cheng",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 297,
+              "episode_date": "2025-10-23",
+              "evidence": "Recommended moving the BDR team from sales to marketing when pipeline is a key north star metric for marketing and BDR activities are closely aligned with marketing campaigns, positioning this as a way to leverage outbound as a pipeline lever that marketing can own and optimize.",
+              "practice_id": "bdr-team-reporting-to-marketing"
+            },
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Argued that outbound sales development should report to the marketing leader because outbound is fundamentally another distribution channel for messaging, and the marketing leader controls messaging strategy, landing pages, ads, and content.",
+              "practice_id": "outbound-reporting-to-marketing"
+            }
+          ]
+        },
+        {
+          "position_id": "sdrs-report-to-sales",
+          "stance": "Sales teams should own demand generation responsibility and not be structurally separated from sales leadership. Salespeople should take entrepreneurial ownership of their pipeline, and the traditional model of SDRs reporting to sales maintains accountability to the revenue team closest to the customer.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Sales and demand generation expert",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Argued that when salespeople complain about insufficient leads, the response should be to push back and ask what they can do to generate demand themselves—implying sales ownership of demand, not a structural shift to marketing.",
+              "practice_id": "sales-leader-accountability-for-demand"
+            },
+            {
+              "guest_name": "Jen Allen Knuth",
+              "guest_context": "Sales and demand generation expert",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Stated that sales teams should not rely solely on marketing to generate leads and should take responsibility for creating their own demand through content, thought leadership, and direct outreach.",
+              "practice_id": "sales-ownership-of-demand-generation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially context-dependent: the pro-marketing-ownership voices (Walker, Nguyen, Cheng, Lattanzio) are largely speaking about ABM-heavy or pipeline-focused marketing motions at growth-stage companies. The pro-sales-ownership voices (Allen-Knuth) are speaking more about individual sales rep behavior and entrepreneurialism, not necessarily the org chart. However, both sides are making structural claims about where accountability should live, so there is genuine disagreement on the organizational question.",
+      "trend_note": "The pro-marketing-ownership position clusters heavily in 2025 episodes (219, 268, 281, 297), while the pro-sales-ownership position appears in 2024 episodes (170) and early 2025 (232), suggesting a possible shift toward marketing ownership of SDR/BDR functions in more recent thinking.",
+      "why_it_matters": "Where SDRs report determines who owns pipeline accountability and who gets blamed when pipeline misses—getting this wrong creates structural misalignment that no amount of alignment meetings can fix. The reporting structure also determines whether outbound messaging stays consistent with marketing strategy or drifts toward whatever sales finds tactically convenient."
+    },
+    {
+      "disagreement_id": "marketing-sourced-pipeline-as-metric",
+      "title": "Should marketing be measured on marketing-sourced pipeline specifically, or on total company pipeline?",
+      "category": "sales-marketing-organizational-alignment",
+      "positions": [
+        {
+          "position_id": "avoid-marketing-sourced-pipeline",
+          "stance": "Marketing should never be measured on marketing-sourced pipeline in isolation. Instead, measure success on overall pipeline attainment across marketing, outbound, and partners combined. Isolating marketing-sourced pipeline creates misalignment with sales-led motions, incentivizes attribution fights, and encourages teams to optimize their own metrics rather than shared outcomes.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Explicitly stated that for sales-led motions, you should measure success on overall pipeline attainment across marketing, outbound, and partners combined—never isolate marketing-sourced pipeline. Argued this removes the incentive for teams to argue about attribution.",
+              "practice_id": "align-incentives-to-shared-north-star"
+            },
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Advised including a revenue kicker in marketing compensation but explicitly avoiding tying it solely to marketing-sourced revenue, which creates misalignment with sales-led motions and outbound efforts.",
+              "practice_id": "align-marketing-to-company-revenue"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Argued for removing the need to assign credit to one team or the other, focusing both teams on the shared goal of revenue to eliminate attribution debates.",
+              "practice_id": "sales-marketing-alignment-shared-revenue-goal"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 148,
+              "episode_date": "2024-06-10",
+              "evidence": "Recommended establishing one shared goal for both sales and marketing (e.g., pipeline generation, revenue) rather than separate KPIs and credit attribution, to eliminate friction over handoffs and credit.",
+              "practice_id": "align-sales-marketing-around-shared-business-goals"
+            }
+          ]
+        },
+        {
+          "position_id": "tie-marketing-comp-to-pipeline-outcomes",
+          "stance": "Marketing team compensation and KPIs should be structured around pipeline outcomes and revenue impact. While this doesn't necessarily mean marketing-sourced pipeline exclusively, holding marketing accountable to pipeline outcomes (rather than lead volume) creates alignment with sales and eliminates vanity metrics.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Argued for structuring marketing team compensation and KPIs around pipeline outcomes and revenue impact rather than lead or MQL volume, stating this creates alignment between marketing and sales and eliminates turf wars over lead sourcing.",
+              "practice_id": "align-marketing-comp-to-pipeline-outcomes"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 118,
+              "episode_date": "2024-02-19",
+              "evidence": "Recommended tying a significant portion of marketing leader compensation to actual company revenue (new revenue added, or all-up revenue including churn), framing this as shifting the marketer from a cost center mindset to a revenue owner mindset.",
+              "practice_id": "revenue-based-marketing-comp"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "The disagreement partially dissolves on closer inspection: the 'avoid marketing-sourced pipeline' camp is specifically arguing against siloed attribution, while the 'pipeline outcomes' camp is arguing against vanity metrics like MQLs. Both camps agree marketing should be accountable to revenue. The genuine tension is whether marketing should have its own pipeline number or share one with sales.",
+      "trend_note": null,
+      "why_it_matters": "How marketing is measured determines what behavior it optimizes for—a marketing-sourced pipeline metric incentivizes gaming attribution, while a shared revenue metric can make marketing's contribution invisible to the CFO and board."
+    },
+    {
+      "disagreement_id": "cro-vs-ceo-alignment-priority",
+      "title": "When CEO and CRO goals conflict, whose direction should the CMO follow?",
+      "category": "sales-marketing-organizational-alignment",
+      "positions": [
+        {
+          "position_id": "prioritize-cro-over-ceo",
+          "stance": "When the CEO's strategic direction conflicts with the CRO's revenue targets, the CMO should follow the CRO. The CRO's compensation and accountability are tied to immediate results, and the CMO's primary partnership and accountability should be to the revenue leader. The CRO is effectively the CMO's primary internal customer.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO and B2B marketing executive",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Explicitly stated that when CEO strategic direction conflicts with CRO revenue targets, the CMO should follow the CRO, because the CRO's compensation and accountability are tied to immediate results while the CEO may be focused on longer-term vision that creates misaligned initiatives.",
+              "practice_id": "cro-alignment-over-ceo-alignment"
+            },
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "Argued that when conflicts arise between CEO and CRO direction, the CMO should prioritize the CRO (their customer) over the CEO (their boss) because sales will ultimately come for you if you don't treat them as your primary customer. Framed the CRO relationship as a 'first-ring partnership' that supersedes other relationships.",
+              "practice_id": "build-first-ring-cro-partnership"
+            }
+          ]
+        },
+        {
+          "position_id": "resolve-conflicts-directly-without-escalation",
+          "stance": "When conflicts arise with peer executives including the CRO, CMOs should resolve them directly rather than escalating to the CEO or defaulting to one party's authority. The CEO doesn't care who wins; they care that the business grows. Direct peer resolution builds credibility.",
+          "supporters": [
+            {
+              "guest_name": "Amrita Mathur",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 188,
+              "episode_date": "2024-10-28",
+              "evidence": "Advised resisting the temptation to run to the CEO to referee conflicts with peer executives like the VP of Sales. Argued that CMOs are hired to figure it out themselves, and direct resolution builds credibility. Did not endorse defaulting to the CRO's direction.",
+              "practice_id": "resist-urge-to-escalate-peer-conflicts"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Coleman and Kellogg may be speaking to situations where the CEO is product-focused and less revenue-oriented, while Mathur may be speaking to more balanced leadership teams. However, the core question of whether to structurally prioritize the CRO over the CEO is a genuine disagreement in principle.",
+      "trend_note": null,
+      "why_it_matters": "A CMO who defaults to the CRO risks being seen as a sales order-taker rather than a strategic executive; one who tries to balance both without a clear framework risks being caught in the middle when priorities diverge. The answer shapes how the CMO builds credibility with the full C-suite."
+    },
+    {
+      "disagreement_id": "responding-to-sales-feedback-data-vs-action",
+      "title": "When sales complains about marketing (leads, campaigns, awareness), should you act on it or demand data first?",
+      "category": "sales-marketing-organizational-alignment",
+      "positions": [
+        {
+          "position_id": "validate-with-data-before-acting",
+          "stance": "Treat sales claims as hypotheses, not facts. Before committing budget or changing strategy based on sales feedback, bring data to validate or refute the claim. Sales is reactive and may report on two lost deals out of 1000 as if it's a systemic problem. Push back with data requests and approach the situation as a dispassionate analyst.",
+          "supporters": [
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "Explicitly advised writing down sales claims and bringing data to validate or refute them before committing budget. Noted that CRM data has availability bias and that claims like 'nobody has heard of us' require market research, not just internal data. Framed this as acting like a dispassionate analyst.",
+              "practice_id": "bring-data-to-sales-claims"
+            },
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Advised pushing back on sales feedback by requesting data before reacting, noting that sales may report on two lost deals out of 1000 opportunities as if it's a systemic problem. Recommended asking 'Can you show me the deals we lost because of this?' to prevent overreacting to anecdotal feedback.",
+              "practice_id": "request-data-before-reacting-to-sales-feedback"
+            }
+          ]
+        },
+        {
+          "position_id": "prioritize-sales-satisfaction-and-responsiveness",
+          "stance": "The CMO's primary goal should be making sales love marketing. This means being responsive to sales needs, delivering high-quality pipeline, and giving sales tools they're proud to use. Treating sales as your primary internal customer means being oriented toward their satisfaction, not pushing back on their claims.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "CMO",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "Defined the #1 CMO goal as making sales love marketing, measured by pipeline quality and brand pride. Framed sales team satisfaction and advocacy as the primary success metric, with the entire marketing function cascading from this goal.",
+              "practice_id": "cmo-primary-goal-sales-alignment"
+            },
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "While also advocating for data validation, Kellogg simultaneously argued for treating the CRO as your primary customer and building a first-ring partnership where you prioritize the CRO over the CEO—implying a high degree of responsiveness to sales leadership.",
+              "practice_id": "build-first-ring-cro-partnership"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Recommended running quarterly internal CSAT surveys with the sales team and using results to identify alignment gaps and proactively address issues before they escalate, rather than waiting for complaints and then validating them with data.",
+              "practice_id": "sales-marketing-alignment-csat-quarterly"
+            },
+            {
+              "guest_name": "Jeff Hardison",
+              "guest_context": "Product marketing leader",
+              "episode_number": 335,
+              "episode_date": "2026-03-05",
+              "evidence": "Recommended including a KPI that measures how satisfied the sales team is with product marketing support, surveying the sales team on how well they're being supported, to ensure accountability to the internal customer.",
+              "practice_id": "measure-sales-team-satisfaction-product-marketing"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "These positions are not fully mutually exclusive—one can validate claims with data while still being oriented toward sales satisfaction. The genuine tension is in the default posture: do you start from a place of skepticism toward sales claims (data-first) or from a place of service to sales (satisfaction-first)? This is a real behavioral disagreement regardless of context.",
+      "trend_note": null,
+      "why_it_matters": "A marketer who always defers to sales feedback will waste budget on awareness campaigns when the real bottleneck is sales conversion; a marketer who always demands data before acting will be seen as defensive and unresponsive, damaging the relationship that makes the entire GTM engine work."
+    }
+  ]
+}

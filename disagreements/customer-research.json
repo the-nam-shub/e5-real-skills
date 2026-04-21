@@ -1,0 +1,159 @@
+{
+  "category": "customer-research",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 7,
+  "disagreements": [
+    {
+      "disagreement_id": "customer-interviews-vs-sales-team-as-proxy",
+      "title": "Should you interview customers directly, or can sales team insights substitute?",
+      "category": "customer-research",
+      "positions": [
+        {
+          "position_id": "direct-customer-interviews-primary",
+          "stance": "Direct customer interviews are the gold standard for messaging, positioning, and research. Sales team input is secondary or a fallback when interviews aren't feasible. Customer language, emotional context, and decision criteria can only be fully captured by talking to buyers directly.",
+          "supporters": [
+            {
+              "guest_name": "Emma Stratton",
+              "guest_context": "Messaging consultant and founder of Punchy",
+              "episode_number": 295,
+              "episode_date": "2025-10-20",
+              "evidence": "Described customer interviews as the primary method for messaging research, with sales team input explicitly framed as a secondary source 'when customer interviews aren't feasible.'",
+              "practice_id": "customer-interviews-for-messaging"
+            },
+            {
+              "guest_name": "April Dunford",
+              "guest_context": "Positioning expert and author of Obviously Awesome",
+              "episode_number": 309,
+              "episode_date": "2025-12-04",
+              "evidence": "Recommended job-to-be-done interviews directly with customers as the primary research method for companies without sales teams, asking specific questions about the decision journey that only customers can answer.",
+              "practice_id": "conduct-job-to-be-done-customer-research"
+            },
+            {
+              "guest_name": "Shoshana Kordova",
+              "guest_context": "Customer insights and content strategist",
+              "episode_number": 250,
+              "episode_date": "2025-05-29",
+              "evidence": "Built an entire framework around direct customer interviews as the primary intelligence source, with secondary sources (sales calls, G2 reviews) only supplementing when bandwidth is limited.",
+              "practice_id": "focus-on-problem-before-solution-interviews"
+            },
+            {
+              "guest_name": "Kira Federer",
+              "guest_context": "B2B positioning and messaging consultant",
+              "episode_number": 254,
+              "episode_date": "2025-06-12",
+              "evidence": "Stated that phone conversations with actual buyers yield more fruitful insights than mass surveys or blast-out message testing, and that this upstream work must happen before any positioning exercise.",
+              "practice_id": "identify-differentiator-with-ceo-and-buyers"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "CRO expert and founder of GetUplift",
+              "episode_number": 231,
+              "episode_date": "2025-03-24",
+              "evidence": "Advocated for customer interviews and surveys as the foundation of CRO and messaging work, with emotional targeting research driving all optimization decisions.",
+              "practice_id": "emotional-targeting-framework-cro"
+            },
+            {
+              "guest_name": "Kira Federer",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 184,
+              "episode_date": "2024-10-14",
+              "evidence": "Explicitly stated phone conversations with buyers yield more fruitful insights than surveys or blast-out message testing.",
+              "practice_id": "validate-differentiator-with-sellers-and-buyers"
+            }
+          ]
+        },
+        {
+          "position_id": "sales-team-as-valid-primary-proxy",
+          "stance": "Sales teams run daily messaging tests through real conversations and have realistic, down-to-earth insights into what buyers care about. Listening to how salespeople naturally articulate value—and learning from their language choices—is a valid primary research method, not just a fallback.",
+          "supporters": [
+            {
+              "guest_name": "Emma Stratton",
+              "guest_context": "Messaging consultant and founder of Punchy",
+              "episode_number": 295,
+              "episode_date": "2025-10-20",
+              "evidence": "Noted that sales teams 'run daily messaging tests through conversations and emails with prospects' and have 'realistic, down-to-earth insights into what potential customers actually care about'—though she still frames this as secondary.",
+              "practice_id": "sales-team-messaging-input"
+            },
+            {
+              "guest_name": "Jessica Andrews",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 217,
+              "episode_date": "2025-02-06",
+              "evidence": "Argued that observing how salespeople naturally communicate with prospects—and learning from their language choices—is a primary source of positioning intelligence, not just a distribution channel for marketing assets.",
+              "practice_id": "learn-from-sales-language-and-positioning"
+            },
+            {
+              "guest_name": "April Dunford",
+              "guest_context": "Positioning expert and author of Obviously Awesome",
+              "episode_number": 309,
+              "episode_date": "2025-12-04",
+              "evidence": "Recommended interviewing sales leadership about objections, competitive dynamics, and deal patterns as a primary method for validating positioning hypotheses—distinct from and complementary to customer interviews.",
+              "practice_id": "use-sales-data-to-inform-positioning-decisions"
+            },
+            {
+              "guest_name": "Talya Heller",
+              "guest_context": "Product marketing leader",
+              "episode_number": 246,
+              "episode_date": "2025-05-15",
+              "evidence": "Recommended interviewing sales, CS, support, and implementation teams as a primary method for uncovering competitive positioning insights and buyer signals.",
+              "practice_id": "customer-facing-team-interviews-for-positioning"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 4",
+      "context_dependency": "Partially context-dependent: for PLG or zero-touch companies without sales teams, direct customer interviews are the only option (April Dunford explicitly addresses this). For companies with mature sales teams and Gong data, sales insights become more accessible. However, the disagreement about whether sales team input is primary vs. secondary is genuine for companies that have both options.",
+      "trend_note": null,
+      "why_it_matters": "If you rely primarily on sales team proxies instead of direct customer interviews, you risk inheriting sales team biases and missing the emotional context that only buyers can articulate. But if you ignore sales team intelligence, you miss real-time, high-volume signal from daily buyer conversations."
+    },
+    {
+      "disagreement_id": "research-cadence-annual-vs-biannual",
+      "title": "How frequently should you conduct formal buyer behavior research?",
+      "category": "customer-research",
+      "positions": [
+        {
+          "position_id": "biannual-during-rapid-change",
+          "stance": "When market conditions are changing rapidly (as with AI adoption), conduct buyer behavior research twice per year instead of annually. G2 saw LLM usage in buying processes jump 71% in just four months—a shift that would have been missed with annual research.",
+          "supporters": [
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "CMO at G2",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Cited specific data showing LLM usage in buying processes jumped from 29% to 50% in four months (April to August), arguing this rate of change requires twice-yearly research rather than annual.",
+              "practice_id": "buyer-behavior-research-frequency"
+            }
+          ]
+        },
+        {
+          "position_id": "continuous-real-time-feedback",
+          "stance": "Rather than periodic formal research (annual or biannual), use podcasts, live events, and social media engagement to gather continuous, real-time feedback on customer objections and needs. This compresses the feedback cycle from weeks or months to real-time.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Founder of Refine Labs and Passetto",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Explicitly argued against relying on surveys or periodic customer research, advocating instead for podcasts, live events, and social media engagement as continuous real-time feedback loops.",
+              "practice_id": "real-time-feedback-loops-product-strategy"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Founder of Refine Labs and Passetto",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Reiterated the same position: host podcasts and live events to gather immediate feedback rather than relying on surveys or periodic research, compressing the feedback cycle to real-time.",
+              "practice_id": "real-time-feedback-loops-product-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: formal buyer behavior research (Sydney Sloan's approach) is more relevant for companies with large customer bases and research infrastructure. Real-time feedback loops (Chris Walker's approach) are more accessible for companies with active content programs. However, the underlying disagreement—whether periodic formal research is necessary or whether continuous informal feedback suffices—is genuine.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong cadence means either missing rapid market shifts (if you research too infrequently) or lacking the structured data needed to make confident strategic decisions (if you rely only on informal real-time signals)."
+    }
+  ]
+}

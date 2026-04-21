@@ -1,0 +1,213 @@
+{
+  "category": "email-marketing-and-nurture",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 3,
+  "disagreements": [
+    {
+      "disagreement_id": "email-as-primary-channel-vs-deprioritize",
+      "title": "Should B2B marketers invest heavily in email marketing, or is it acceptable to deprioritize it in favor of LinkedIn?",
+      "category": "email-marketing-and-nurture",
+      "positions": [
+        {
+          "position_id": "email-as-primary-owned-channel",
+          "stance": "Email is a critical owned channel that should be a primary investment. A large, engaged email list is the top driver for product launches and major announcements, consistently outperforming other channels.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "CMO at Kandji",
+              "episode_number": 283,
+              "episode_date": "2025-09-18",
+              "evidence": "Kandji's 14,000-subscriber blog email list is their largest contributor to product launch signups, demonstrating email's continued effectiveness for engaged audiences.",
+              "practice_id": "email-list-product-launch-promotion"
+            },
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "CMO at Kandji",
+              "episode_number": 199,
+              "episode_date": "2024-12-05",
+              "evidence": "Email consistently outperforms other channels for launch promotion and should be tracked as the top contributor to launch success metrics.",
+              "practice_id": "email-list-as-primary-launch-driver"
+            },
+            {
+              "guest_name": "Jaina Mistry",
+              "guest_context": "Director of Email Marketing at Litmus",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "Positions email as a relationship-building channel essential for nurturing the 95% of the audience not in-market, integrated with other channels to surround the audience.",
+              "practice_id": "think-email-as-relationship-building"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Recommends investing in a dedicated newsletter writer to build an engaged audience, treating the newsletter as a product in its own right.",
+              "practice_id": "dedicated-newsletter-writer-investment"
+            }
+          ]
+        },
+        {
+          "position_id": "deprioritize-email-for-linkedin-first",
+          "stance": "If your audience is primarily on LinkedIn and you lack resources for a genuinely valuable newsletter, it is acceptable to deprioritize email marketing entirely—including automation software, forms, and nurture sequences—and focus all distribution on LinkedIn.",
+          "supporters": [
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "Head of Marketing at Storylane",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Storylane deliberately chose not to invest in email automation software, forms for email capture, or email nurture sequences, focusing all distribution efforts on LinkedIn where their audience is active.",
+              "practice_id": "intentional-email-deprioritization"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent: Bhandari's position is explicitly conditioned on audience being primarily on LinkedIn and lacking dedicated email resources, making it a resource-allocation argument rather than a claim that email doesn't work. However, the majority position holds email as a primary channel regardless of LinkedIn presence, so there is a genuine disagreement about whether email should be a default investment or an optional one.",
+      "trend_note": null,
+      "why_it_matters": "Deciding whether to invest in email infrastructure and list-building has long-term compounding effects on owned audience size; getting this wrong means either over-investing in a channel your audience doesn't use or under-investing in an asset that compounds over years."
+    },
+    {
+      "disagreement_id": "email-frequency-more-vs-less",
+      "title": "Should B2B marketers send more email or less email to improve engagement?",
+      "category": "email-marketing-and-nurture",
+      "positions": [
+        {
+          "position_id": "send-more-email",
+          "stance": "B2B marketers are not sending enough email. Low engagement is caused by boring content, not high frequency. Sending less email actually hurts performance and can push you into spam folders because engagement signals (clicks, replies) are what modern spam filters use.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Claims modern spam filtering is based on engagement signals, not content triggers. Lower frequency leads to lower performance. The solution is more email with better content, not less email.",
+              "practice_id": "email-frequency-engagement-not-volume"
+            },
+            {
+              "guest_name": "Jay Schewedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 167,
+              "episode_date": "2024-08-15",
+              "evidence": "Advocates using multiple friendly from names to justify sending 5-6 emails per day to the same address (citing Apple as an example), delineating by content type to avoid annoying recipients.",
+              "practice_id": "use-multiple-friendly-froms-to-increase-send-frequency"
+            },
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 167,
+              "episode_date": "2024-08-15",
+              "evidence": "Advocates using multiple friendly from names to justify sending 5-6 emails per day to the same address (citing Apple as an example), enabling higher send frequency without annoying recipients.",
+              "practice_id": "use-multiple-friendly-froms-to-increase-send-frequency"
+            }
+          ]
+        },
+        {
+          "position_id": "send-less-email",
+          "stance": "High-frequency newsletters cause subscribers to disengage and ignore content by default. Reducing cadence (e.g., to monthly) allows subscribers to anticipate and look forward to content, improving engagement and retention. Content saturation is hitting a cap.",
+          "supporters": [
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "B2B content marketer",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Argues high-frequency newsletters cause audience fatigue and default disengagement. Lower cadence creates anticipation similar to a seasonal release, improving retention.",
+              "practice_id": "reduce-newsletter-cadence"
+            },
+            {
+              "guest_name": "Amanda Natividad",
+              "guest_context": "VP Marketing at SparkToro",
+              "episode_number": 205,
+              "episode_date": "2024-12-26",
+              "evidence": "Sets a hard cap of two promotional emails per week maximum, and advocates only sending when you have a specific defensible reason—never to meet a sending quota.",
+              "practice_id": "email-frequency-cap-two-per-week"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: Schwedelson's advice appears aimed at marketers with large lists and strong content pipelines, while Lattanzio's advice may apply more to content newsletters where quality is the differentiator. However, both are making general B2B claims without restricting to a specific stage or list size, so there is a genuine underlying disagreement about the direction of the frequency-engagement relationship.",
+      "trend_note": null,
+      "why_it_matters": "Getting frequency wrong in either direction costs you: too much email risks unsubscribes and spam complaints, too little risks losing top-of-mind awareness and deliverability signals. Marketers need to know which failure mode is more common before setting their sending cadence."
+    },
+    {
+      "disagreement_id": "nurture-sequence-cadence",
+      "title": "How fast and how long should a B2B nurture email sequence run?",
+      "category": "email-marketing-and-nurture",
+      "positions": [
+        {
+          "position_id": "two-per-week-three-weeks",
+          "stance": "A proper nurture sequence should send two emails per week and conclude within three weeks. Sending one email every two weeks is not nurturing—it's sporadic outreach that fails to build momentum or stay top-of-mind.",
+          "supporters": [
+            {
+              "guest_name": "Samar Owais",
+              "guest_context": "Email conversion strategist",
+              "episode_number": 247,
+              "episode_date": "2025-05-19",
+              "evidence": "Explicitly states two emails per week for three weeks as the correct cadence, and argues that slower cadences fail to build the momentum needed to move prospects forward.",
+              "practice_id": "nurture-sequence-cadence-two-per-week"
+            }
+          ]
+        },
+        {
+          "position_id": "two-week-window-simplified",
+          "stance": "Simplify nurture to a concentrated two-week window with clear exit criteria, then move non-responders to monthly broader updates. If someone hasn't responded after 5-7 emails, additional emails are unlikely to change behavior.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 129,
+              "episode_date": "2024-04-04",
+              "evidence": "Advocates mapping the actual buying experience first, then building a simplified two-week nurture around it rather than arbitrary multi-step sequences. Recommends moving non-responders to a different treatment after the window.",
+              "practice_id": "nurture-sequence-simplification-two-week-window"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "These positions are broadly compatible in timeline (both suggest roughly two to three weeks of active nurturing) but genuinely conflict on cadence: Owais prescribes two emails per week (4-6 total), while Gerhardt suggests 5-7 emails over two weeks before moving on—which is actually similar in volume but framed differently. The real tension is whether you should send two per week as a rule or calibrate based on the buying journey map. Genuine disagreement regardless of context on the prescriptive cadence question.",
+      "trend_note": null,
+      "why_it_matters": "Setting the wrong nurture cadence either burns out prospects with too-frequent contact or fails to build enough momentum to move them forward; knowing the right rhythm directly affects pipeline conversion rates."
+    },
+    {
+      "disagreement_id": "email-preview-text-strategy",
+      "title": "Should you optimize your email preview text, or remove it entirely to create white space?",
+      "category": "email-marketing-and-nurture",
+      "positions": [
+        {
+          "position_id": "optimize-preview-text-with-continuation-words",
+          "stance": "Preview text is a critical engagement lever. Start it with continuation words ('and,' 'but,' 'plus') to create a psychological chain from the subject line, which significantly lifts open rates.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Recommends using 'and,' 'but,' or 'plus' at the start of preview text to leverage how human brains process sequential information, creating a pull from subject line to preview text.",
+              "practice_id": "email-preheader-continuation-words"
+            }
+          ]
+        },
+        {
+          "position_id": "remove-preview-text-entirely",
+          "stance": "Remove preview text entirely and use short subject lines (3 words or fewer) to create stark white space in the inbox. Since 98% of emails include preview text, the absence of it makes your email stand out and significantly increases open rates.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Recommends using hidden code/images to suppress preview text entirely, creating visual differentiation since nearly all other senders populate this field. Presents this as a separate, complementary tactic to test.",
+              "practice_id": "email-white-space-no-preview-text"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "This is an internal contradiction from the same guest (Jay Schwedelson) within the same episode. He presents both as valid tactics to test, suggesting they may apply to different send types or list segments. However, they are structurally contradictory: you cannot simultaneously optimize preview text with continuation words and remove preview text entirely. Marketers must choose one approach per send.",
+      "trend_note": null,
+      "why_it_matters": "Preview text is one of the few inbox-visible elements you control before the open; choosing the wrong strategy for your audience and send type means leaving open rate improvements on the table."
+    }
+  ]
+}

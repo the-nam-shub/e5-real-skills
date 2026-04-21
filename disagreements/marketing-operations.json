@@ -1,0 +1,164 @@
+{
+  "category": "marketing-operations",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-tools-general-vs-specialized",
+      "title": "Should marketers prefer general-purpose AI tools or specialized AI marketing tools?",
+      "category": "marketing-operations",
+      "positions": [
+        {
+          "position_id": "prefer-general-purpose-ai",
+          "stance": "Invest in general-purpose AI tools like Claude, ChatGPT, Notebook LM, and Zapier/Clay rather than specialized AI marketing tools. General tools are more cost-effective, versatile, and reduce tool sprawl. Only invest in niche tools when there's a specific, high-impact use case that general tools can't address.",
+          "supporters": [
+            {
+              "guest_name": "Lindsay O'Brien",
+              "guest_context": "Marketing leader (context from episode 304)",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "General tools are more cost-effective and versatile; can be combined to solve multiple problems; reduces tool sprawl and keeps costs down while giving teams flexibility.",
+              "practice_id": "use-general-ai-tools-over-specialized"
+            }
+          ]
+        },
+        {
+          "position_id": "require-ai-in-all-new-tools",
+          "stance": "Establish a corporate mandate that any new tool brought into the stack must have an AI component built in. This ensures the tech stack evolves with AI capabilities rather than treating AI as a separate layer.",
+          "supporters": [
+            {
+              "guest_name": "Sara Ajemian",
+              "guest_context": "Marketing operations leader (context from episode 288)",
+              "episode_number": 288,
+              "episode_date": "2025-10-06",
+              "evidence": "Requiring AI in all new tools ensures the stack evolves with AI capabilities and forces intentional decisions about what gets added, preventing tool sprawl through a procurement gate.",
+              "practice_id": "ai-company-tech-stack-audit-with-ai-requirement"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-embedded-in-existing-tools",
+          "stance": "AI will be embedded as a feature in core marketing tools rather than existing as standalone tools. Plan for AI to function as a capability enhancer within tools you already use, shifting evaluation from 'do we need an AI tool?' to 'which tools have the best AI features?'",
+          "supporters": [
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "CMO (context from episode 182)",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "AI capabilities are being integrated into existing platforms like Gong and HubSpot; separate AI tool procurement is the wrong frame — evaluate AI features within tools you already use.",
+              "practice_id": "ai-embedded-in-tools-not-standalone"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: company size and budget may influence whether a mandate approach (Ajemian) or a minimalist general-tools approach (O'Brien) is more practical. However, the core tension — whether to seek AI as a standalone layer, require it in all tools, or expect it embedded in existing tools — is a genuine strategic disagreement about how to architect AI adoption regardless of company stage.",
+      "trend_note": null,
+      "why_it_matters": "How a marketing ops team frames AI procurement determines budget allocation, vendor relationships, and workflow architecture. Choosing the wrong frame can lead to either tool sprawl or missed capability gains."
+    },
+    {
+      "disagreement_id": "martech-stack-size-minimize-vs-expand",
+      "title": "Should marketing teams minimize their tool stack or actively expand it with new capabilities?",
+      "category": "marketing-operations",
+      "positions": [
+        {
+          "position_id": "minimize-tool-stack",
+          "stance": "Reduce reliance on multiple marketing tools and focus on a minimal set of core tools (CRM, LinkedIn, Slack, Loom). This reduces context switching, simplifies workflows, and allows teams to focus on content and relationships rather than tool management.",
+          "supporters": [
+            {
+              "guest_name": "Max Van Den Ingh",
+              "guest_context": "B2B marketing consultant (context from episode 161)",
+              "episode_number": 161,
+              "episode_date": "2024-07-25",
+              "evidence": "Data privacy constraints and tracking limitations are driving a move away from tool-dependent marketing toward relationship and content-driven approaches; fewer tools reduce context switching.",
+              "practice_id": "minimize-marketing-tool-stack"
+            },
+            {
+              "guest_name": "Rowan Tonkin",
+              "guest_context": "CMO (context from episode 197)",
+              "episode_number": 197,
+              "episode_date": "2024-11-28",
+              "evidence": "Auditing and consolidating martech frees annualized software costs that can be reallocated to campaign spend; redundant and underutilized tools should be cut.",
+              "practice_id": "consolidate-martech-to-free-budget-for-campaigns"
+            }
+          ]
+        },
+        {
+          "position_id": "expand-with-integrated-specialized-tools",
+          "stance": "Actively integrate specialized tools (Qualified, Clay, Vector, Hockey Stack, DreamData, Metadata IO, Sendoso, etc.) to enable visibility, attribution, and automation that general tools cannot provide. The right tool for the right job unlocks capabilities that justify the stack complexity.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Cheng",
+              "guest_context": "Marketing leader (context from episode 297)",
+              "episode_number": 297,
+              "episode_date": "2025-10-23",
+              "evidence": "Implementing Qualified gives both marketing and outbound teams visibility into website visitor behavior; Clay improves data enrichment and phone number accuracy for higher-converting outbound.",
+              "practice_id": "outbound-tooling-integration"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist (context from episode 243)",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Hockey Stack and DreamData provide full customer journey attribution across channels that built-in tools cannot; Metadata IO consolidates LinkedIn and website data into a single source of truth.",
+              "practice_id": "use-hockey-stack-or-dreamdata-for-multi-touch"
+            },
+            {
+              "guest_name": "Kris Rudeegraap",
+              "guest_context": "CEO of Sendoso (context from episode 159)",
+              "episode_number": 159,
+              "episode_date": "2024-07-18",
+              "evidence": "Specialized fulfillment platforms like Sendoso provide economies of scale and CRM-triggered automation that general tools cannot replicate for swag and gifting at scale.",
+              "practice_id": "swag-fulfillment-automation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: minimization advice (Van Den Ingh, Tonkin) may apply more to teams that have accumulated tool sprawl or are resource-constrained, while expansion advice applies to teams with mature operations seeking incremental capability gains. However, both camps are making general recommendations about stack philosophy, not purely stage-specific ones.",
+      "trend_note": null,
+      "why_it_matters": "Stack size directly affects budget allocation, team cognitive load, and data integration complexity. Getting this wrong either wastes budget on unused tools or leaves capability gaps that hurt pipeline visibility and conversion."
+    },
+    {
+      "disagreement_id": "lead-scoring-keep-vs-eliminate",
+      "title": "Should marketing teams use lead scoring models, or eliminate them in favor of clear intent signals?",
+      "category": "marketing-operations",
+      "positions": [
+        {
+          "position_id": "eliminate-traditional-lead-scoring",
+          "stance": "Stop lead scoring based on form fills and engagement actions. Eliminate the internal debates about what constitutes a lead. Only pass contacts to sales when they demonstrate clear buying intent (e.g., demo request, specific engagement threshold). Use AI to set a clear threshold rather than a complex scoring model.",
+          "supporters": [
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "CMO (context from episode 304)",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Lead scoring based on form fills and engagement creates theater — endless internal debates about lead vs. contact definitions — without improving sales outcomes. Clear intent signals are more actionable.",
+              "practice_id": "stop-lead-scoring-theater"
+            }
+          ]
+        },
+        {
+          "position_id": "replace-with-ml-scoring-model",
+          "stance": "Replace multiple disparate scoring models with a single machine learning scoring model aligned to your CRM lifecycle object. Score buying committees (not just individuals) and continuously validate that scores correlate with actual conversion to meetings and opportunities.",
+          "supporters": [
+            {
+              "guest_name": "Morgan Cole",
+              "guest_context": "Marketing operations leader (context from episode 315)",
+              "episode_number": 315,
+              "episode_date": "2025-12-25",
+              "evidence": "A single ML model aligned to the CRM lifecycle object replaces fragmented scoring approaches; scoring buying committees and validating against actual conversion rates makes scoring more accurate and actionable.",
+              "practice_id": "machine-learning-scoring-lifecycle-object"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Vempaty's advice may apply more to teams with immature or over-engineered scoring systems, while Cole's ML approach assumes sufficient data volume and technical capability to build and validate a model. However, both are addressing the same question — how to qualify leads for sales — and give directly opposing answers (eliminate scoring vs. improve it with ML).",
+      "trend_note": "Both episodes are recent (late 2025), so no chronological pattern can be identified.",
+      "why_it_matters": "Lead scoring directly determines which contacts sales spends time on; getting it wrong either floods sales with unqualified leads or starves them of pipeline, both of which damage marketing-sales alignment and revenue outcomes."
+    }
+  ]
+}

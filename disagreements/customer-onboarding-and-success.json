@@ -1,0 +1,56 @@
+{
+  "category": "customer-onboarding-and-success",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "demos-in-email-vs-in-app",
+      "title": "Should product demos be included in onboarding emails or kept in-app?",
+      "category": "customer-onboarding-and-success",
+      "positions": [
+        {
+          "position_id": "demos-belong-in-email",
+          "stance": "Interactive product demos should be embedded or linked in onboarding emails, especially for PLG sequences. This re-engages users who haven't logged in after day one by educating them without requiring them to be in the product first.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Guest on Exit Five podcast; interactive demo advocate",
+              "episode_number": 176,
+              "episode_date": "2024-09-16",
+              "evidence": "Recommended embedding or linking interactive product demos in email campaigns and PLG onboarding sequences to re-engage users who haven't logged in, using email personalization variables to tailor demo content.",
+              "practice_id": "demo-in-email-campaigns"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Guest on Exit Five podcast; interactive demo advocate",
+              "episode_number": 122,
+              "episode_date": "2024-03-04",
+              "evidence": "Advocated deploying interactive demos as async training resources for customer success, enabling self-serve product education without dedicated CS resources.",
+              "practice_id": "demo-customer-success-training-use-case"
+            }
+          ]
+        },
+        {
+          "position_id": "demos-belong-in-app-not-email",
+          "stance": "Product demos and feature walkthroughs do not belong in onboarding emails. Email should focus solely on driving a single micro-conversion action; once the user is in the product, in-app onboarding should handle demo and feature discovery where you have more control and interactivity.",
+          "supporters": [
+            {
+              "guest_name": "Samar Owais",
+              "guest_context": "Guest on Exit Five podcast; SaaS email onboarding specialist",
+              "episode_number": 247,
+              "episode_date": "2025-05-19",
+              "evidence": "Explicitly stated that product demos and lengthy feature walkthroughs belong in the in-app onboarding experience, not in email. Email's job is to drive the user to take the first micro-conversion action, after which in-app guidance takes over.",
+              "practice_id": "avoid-demo-in-onboarding-email"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Natalie Marcotullio's advice targets users who have already dropped off and not logged in (re-engagement scenario), while Samar Owais is prescribing the initial onboarding email flow for active new signups. However, both are explicitly discussing onboarding email sequences for SaaS/PLG products, and Owais directly states demos do not belong in email as a categorical rule, creating a genuine conflict with Marcotullio's recommendation to include them in onboarding sequences.",
+      "trend_note": "The more recent guest (Samar Owais, May 2025) argues against demos in email, while the earlier guest (Natalie Marcotullio, Sep 2024 and Mar 2024) argues for them. This may reflect a maturing view that email and in-app onboarding should be more strictly separated, but the sample is too small to confirm a field-wide shift.",
+      "why_it_matters": "Where you place product demos in the onboarding flow directly affects activation rates and time-to-value; putting demos in the wrong channel can either overwhelm users in email or fail to re-engage drop-offs who never return to the product."
+    }
+  ]
+}

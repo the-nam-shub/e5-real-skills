@@ -1,0 +1,356 @@
+{
+  "category": "executive-stakeholder-management",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "ceo-as-cmo-dynamic",
+      "title": "Should a marketing leader accept that the CEO is always the real CMO and execute their vision, or should they push for independent strategic authority?",
+      "category": "executive-stakeholder-management",
+      "positions": [
+        {
+          "position_id": "accept-ceo-as-cmo",
+          "stance": "The CEO will always ultimately own the marketing vision and strategy regardless of titles. Rather than fighting this, marketing leaders should position themselves as the CEO's right-hand executor, internalize this dynamic quickly, and focus on delivering the CEO's vision exceptionally well rather than imposing their own marketing agenda.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and B2B SaaS investor",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "The CEO is always the CMO. Rather than fighting this dynamic, embrace it by becoming the CEO's right-hand executor. Ask the CEO what they want marketing to accomplish and execute their vision effectively.",
+              "practice_id": "understand-ceo-is-cmo-dynamic"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and B2B SaaS investor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Accept that the CEO will ultimately drive the marketing vision and strategy. The faster you internalize this dynamic, the more effective you'll be. Success comes from understanding what the CEO wants and delivering it, not from imposing your own marketing agenda.",
+              "practice_id": "understand-ceo-is-cmo"
+            },
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "Head of Marketing at a B2B SaaS company",
+              "episode_number": 162,
+              "episode_date": "2024-07-29",
+              "evidence": "The CEO/founder is the primary driver of brand vision and messaging strategy. The marketing leader's role is to understand that vision deeply and translate it into executable campaigns—acting as a translator and executor, not the primary strategist.",
+              "practice_id": "founder-led-brand-vision-marketing-execution"
+            }
+          ]
+        },
+        {
+          "position_id": "marketing-leader-owns-strategy-with-ceo-partnership",
+          "stance": "Marketing leaders should own positioning and brand strategy decisions, not merely execute the CEO's vision. The CMO should establish a tight partnership with the CEO where the CEO publicly empowers the marketing lead to own positioning decisions. Positioning by committee or pure CEO dictation fails because it dilutes creative vision.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "Position your company through a tight partnership between the CEO and one or two key marketers rather than seeking consensus. The CEO should publicly empower the marketing lead to own positioning decisions. Committee-based positioning fails because it dilutes creative vision.",
+              "practice_id": "positioning-committee-avoidance-ceo-partnership"
+            },
+            {
+              "guest_name": "Megan Lueders",
+              "guest_context": "CMO with experience at multiple B2B tech companies",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "Before stepping into a CMO role, ensure there is explicit alignment between how you define marketing and how the CEO defines it. The CEO's definition shapes what you're hired to do—implying the CMO should negotiate for a definition that matches their own strategic vision, not simply accept the CEO's framing.",
+              "practice_id": "align-cmo-role-with-ceo-definition"
+            },
+            {
+              "guest_name": "Katelyn Bourgoin",
+              "guest_context": "Founder and customer research expert",
+              "episode_number": 344,
+              "episode_date": "2026-04-07",
+              "evidence": "The founder must have a strong, genuine point of view on the market—marketing cannot be an afterthought or delegated without founder input. But if the founder lacks a strong point of view, the marketing team cannot manufacture one, implying marketing leadership must have genuine strategic authority, not just execution.",
+              "practice_id": "founder-marketing-ownership-requirement"
+            },
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "CMO at Demandbase",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "Actively work to be seen as a strategic business partner equal to the CPO and CRO, not as a second-class citizen. This requires bringing a different perspective on the market and contributing to company strategy beyond marketing tactics.",
+              "practice_id": "cmo-peer-status-with-product-revenue"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 3",
+      "context_dependency": "Partially context-dependent: the CEO-as-CMO dynamic may be more pronounced at early-stage startups where the founder is deeply involved in everything. At growth-stage companies with a seasoned CMO, more strategic independence may be appropriate. However, both camps are addressing the same fundamental question about who owns marketing strategy, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "A marketing leader who accepts pure executor status may lack the authority to make bold brand decisions, while one who overestimates their strategic independence may find themselves constantly overruled or fired. Getting this dynamic right determines whether a CMO can do meaningful work."
+    },
+    {
+      "disagreement_id": "founder-marketing-ownership-vs-marketing-leader-authority",
+      "title": "Should the founder/CEO own marketing strategy and point of view, or should the marketing leader have genuine strategic authority?",
+      "category": "executive-stakeholder-management",
+      "positions": [
+        {
+          "position_id": "founder-must-own-marketing-pov",
+          "stance": "For marketing to be authentic and effective, the founder must have a strong, genuine point of view on the market and the company's approach. Marketing cannot manufacture a founder's conviction—it must come from the top. If a founder lacks this, the marketing team cannot compensate. The founder's beliefs should be visible throughout the company's product, messaging, and brand.",
+          "supporters": [
+            {
+              "guest_name": "Katelyn Bourgoin",
+              "guest_context": "Founder and customer research expert",
+              "episode_number": 344,
+              "episode_date": "2026-04-07",
+              "evidence": "If a founder lacks a strong point of view on marketing and the market they're entering, the marketing team cannot manufacture one—this is a foundational issue that must be addressed at the leadership level. Marketing is a core function of the business DNA, not a promotional layer on top.",
+              "practice_id": "founder-marketing-ownership-requirement"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 184,
+              "episode_date": "2024-10-14",
+              "evidence": "Strong positioning starts with the founder's vision and conviction. A marketing consultant or positioning exercise cannot invent your differentiator—it must be embedded in your product, story, and vision. If the founder has no vision beyond the current product, positioning work will fail.",
+              "practice_id": "founder-vision-drives-positioning-not-consultant"
+            },
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "Marketing leader at a B2B company",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "When a founder has marketing background, they can make confident brand-building decisions without requiring ROI justification for every initiative. Non-marketing founders often require attribution for every dollar spent, which handcuffs teams from doing important brand work.",
+              "practice_id": "founder-led-marketing-advantage"
+            }
+          ]
+        },
+        {
+          "position_id": "marketing-leader-owns-strategy-execution",
+          "stance": "The marketing leader should own the strategy process and have genuine decision-making authority, not merely execute the founder's vision. The CMO facilitates cross-functional alignment and drives the brand strategy process. Positioning by committee or pure founder dictation fails. The marketing leader must be a peer to product and revenue leaders, not a subordinate executor.",
+          "supporters": [
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "CMO at Plannuh",
+              "episode_number": 128,
+              "episode_date": "2024-04-01",
+              "evidence": "The CMO and marketing team should own the responsibility and process for developing brand strategy. Marketing is the 'lightning rod' for driving alignment, but must collaborate with product, sales, and CEO. The CMO facilitates the cross-functional conversation.",
+              "practice_id": "cmo-brand-strategy-ownership"
+            },
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "CMO at Demandbase",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "Actively work to be seen as a strategic business partner equal to the Chief Product Officer and Chief Revenue Officer, not as a second-class citizen. When you achieve peer status, you get a seat at strategic discussions that shape the company's direction.",
+              "practice_id": "cmo-peer-status-with-product-revenue"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "Position your company through a tight partnership between the CEO and one or two key marketers. The CEO should publicly empower the marketing lead to own positioning decisions. Committee-based positioning fails because it dilutes creative vision.",
+              "practice_id": "positioning-committee-avoidance-ceo-partnership"
+            },
+            {
+              "guest_name": "Udi Ledergor",
+              "guest_context": "Former CMO at Gong",
+              "episode_number": 237,
+              "episode_date": "2025-04-14",
+              "evidence": "CEOs without marketing background who hire early-stage marketers without authority or experience create a 'deadly combination' that results in mediocre, consensus-driven marketing. A CEO with marketing credibility or vision provides permission for courageous marketing decisions — implying the marketing leader needs that permission and authority to act independently.",
+              "practice_id": "select-ceo-with-marketing-experience-or-vision"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 3",
+      "context_dependency": "Partially context-dependent by company stage: founder ownership of POV is most critical at early-stage companies where brand identity is being established. CMO strategic authority becomes more important at growth-stage companies with dedicated marketing leadership. However, both camps are addressing the same question about who ultimately owns marketing strategy, making this a genuine tension.",
+      "trend_note": null,
+      "why_it_matters": "If a marketing leader assumes they have strategic authority when the founder expects to own the POV, the result is wasted work and political conflict. If a founder assumes they can delegate marketing strategy without providing genuine conviction, the result is inauthentic, ineffective marketing."
+    },
+    {
+      "disagreement_id": "presenting-detailed-vs-simplified-metrics-to-executives",
+      "title": "Should you show executives simplified, aggregated metrics or detailed breakdowns when reporting marketing performance?",
+      "category": "executive-stakeholder-management",
+      "positions": [
+        {
+          "position_id": "simplify-for-executives",
+          "stance": "When reporting to the C-suite, use high-level, easy-to-understand aggregated metrics only. Do not segment into sub-categories unless explicitly asked. Detailed breakdowns confuse non-marketing audiences and obscure the core story. Reserve granular metrics for internal marketing team use.",
+          "supporters": [
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "VP of Marketing at a B2B SaaS company",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Report simplified, aggregated metrics to executives; reserve detailed breakdowns for internal teams. Detailed breakdowns confuse non-marketing audiences and obscure the core story. The goal is to communicate impact in a common language, not to showcase marketing sophistication.",
+              "practice_id": "simplify-metrics-for-executive-audience"
+            },
+            {
+              "guest_name": "Jaleh Rezaei",
+              "guest_context": "CEO and co-founder of Mutiny",
+              "episode_number": 248,
+              "episode_date": "2025-05-22",
+              "evidence": "When presenting marketing strategy to the CEO or board, distill your work into 1-2 core investments rather than listing all activities. Avoid overwhelming leadership with 'mice nuts' (small, disconnected initiatives). This prevents leadership from offering opinions on non-critical details.",
+              "practice_id": "simplify-marketing-narrative-for-ceos"
+            }
+          ]
+        },
+        {
+          "position_id": "show-detailed-context-to-prevent-misinterpretation",
+          "stance": "Showing executives a single attribution table or simplified metric without context creates 'retinal burn'—the number burns into their memory and they reference it as fact for years, even if misleading. You must show multiple attribution models side-by-side, provide context about what data does and doesn't measure, or have sales partners defend joint decisions. Simplification without context is dangerous.",
+          "supporters": [
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "Executive-in-residence at Balderton Capital; former CEO and CMO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "Showing a single attribution table that highlights one channel as dramatically more expensive without context creates 'retinal burn.' The CEO will reference that misleading number for three years. You must show multiple attribution models side-by-side or provide context about what the data does and doesn't measure.",
+              "practice_id": "avoid-retinal-burn-attribution"
+            },
+            {
+              "guest_name": "Rowan Tonkin",
+              "guest_context": "CMO at Planful",
+              "episode_number": 197,
+              "episode_date": "2024-11-28",
+              "evidence": "Classify metrics into operational, commercial, and financial categories and communicate results to executives in commercial and financial terms—not simplified vanity metrics. Present your plan using financial and commercial metrics with specific numbers (e.g., '$2M in incremental pipeline, converting at 14% to $450k in incremental revenue') rather than high-level summaries.",
+              "practice_id": "classify-metrics-by-type-for-stakeholder-communication"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: Kellogg's 'retinal burn' concern applies specifically to attribution data where a single number can be misleading, while Vempaty's advice applies to operational metrics like email click-through rates that genuinely don't matter to executives. These may be addressing different types of metrics rather than the same question. However, both are giving advice about what to show executives in marketing performance reviews, making this a genuine tension.",
+      "trend_note": null,
+      "why_it_matters": "Oversimplifying metrics risks executives making bad budget decisions based on incomplete information, while over-detailing risks losing their attention or giving them ammunition to micromanage tactics they don't understand."
+    },
+    {
+      "disagreement_id": "how-to-handle-ceo-ideas-and-requests",
+      "title": "When a CEO or founder proposes a new marketing idea, should you act on it quickly or use a structured system to defer and filter?",
+      "category": "executive-stakeholder-management",
+      "positions": [
+        {
+          "position_id": "structured-deferral-and-filtering",
+          "stance": "Do not act on CEO ideas immediately. Use structured systems—a shared backlog, a 'three mentions' rule, or a formal three-step process (ask why, swap it out, experiment)—to filter genuine priorities from passing thoughts. Make trade-offs visible by showing what existing work would be displaced. This prevents reactive pivots and burnout from constant context-switching.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth and Operations at Navattic",
+              "episode_number": 194,
+              "episode_date": "2024-11-18",
+              "evidence": "Use a three-step process: ask why the idea is a priority, swap it out against existing work to make trade-offs visible, or propose a small bounded experiment. Maintain a shared one-on-one doc so you can prepare thoughtful responses rather than reacting in the moment.",
+              "practice_id": "three-step-no-process"
+            },
+            {
+              "guest_name": "Danielle Messler",
+              "guest_context": "Head of Content at Exit Five",
+              "episode_number": 169,
+              "episode_date": "2024-08-22",
+              "evidence": "Use the 'three mentions' rule: if a founder mentions an idea three times and follows up three times, it's a genuine priority. If they mention it once or twice and don't follow up, it's a passing thought. This prevents wasting resources on ideas that aren't actually strategic priorities.",
+              "practice_id": "founder-idea-triage-three-mentions"
+            },
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "Former VP of Marketing at G2",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Defer ad-hoc ideas to structured review meetings: 'I'll add this to our backlog of ideas. We're reviewing them next Friday.' This prevents reactive pivots while still capturing ideas and showing respect for the suggestion.",
+              "practice_id": "defer-ideas-to-structured-review"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "VP of Marketing at Intercom",
+              "episode_number": 118,
+              "episode_date": "2024-02-19",
+              "evidence": "Create a centralized database where all CEO and founder ideas are captured and explicitly prioritized by discipline. Groom this backlog on a regular cadence. When the CEO proposes a new idea, use this system to show them what existing work it would displace.",
+              "practice_id": "ceo-idea-backlog-system"
+            }
+          ]
+        },
+        {
+          "position_id": "strategic-yes-to-build-trust",
+          "stance": "Sometimes the right move is to say yes strategically when your CEO is visibly stressed or genuinely committed to an idea, even if it wasn't on your roadmap. Saying yes in these moments builds trust and goodwill that makes your future 'no' responses more credible. Communicate that this is a special case, not a pattern.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth and Operations at Navattic",
+              "episode_number": 194,
+              "episode_date": "2024-11-18",
+              "evidence": "When you detect that your CEO is ruminating on an issue or stressed, sometimes it's worth saying yes and prioritizing that work to relieve their anxiety. When you say yes strategically, your CEO is more likely to trust you when you say no.",
+              "practice_id": "strategic-yes-for-ceo-stress"
+            },
+            {
+              "guest_name": "Louis Grenier",
+              "guest_context": "Marketing strategist and founder of Everyone Hates Marketers",
+              "episode_number": 322,
+              "episode_date": "2026-01-19",
+              "evidence": "To get approval for unconventional ideas, run a small test within your existing budget authority that proves the concept works — this is an 'ask forgiveness, not permission' approach that bypasses the structured no/yes conversation entirely.",
+              "practice_id": "ask-forgiveness-not-permission-bold-ideas"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "This disagreement partially dissolves on closer inspection: Marcotullio herself holds both positions, suggesting the real answer is 'usually defer, but sometimes say yes strategically.' The four-person consensus on structured deferral is strong. Genuine disagreement exists only on whether strategic yes-saying is a legitimate tool.",
+      "trend_note": null,
+      "why_it_matters": "Marketing leaders who always say yes to CEO ideas burn out their teams and lose strategic focus; those who always defer risk being seen as obstructionist. The right balance determines whether a marketing leader is seen as a strategic partner or a bottleneck."
+    },
+    {
+      "disagreement_id": "marketing-reporting-to-cro",
+      "title": "Should marketing report to a Chief Revenue Officer?",
+      "category": "executive-stakeholder-management",
+      "positions": [
+        {
+          "position_id": "against-marketing-under-cro",
+          "stance": "Marketing should never report to a CRO. CROs are incentivized to hit short-term sales numbers and will corrupt marketing's ability to invest in brand-building and long-term pipeline. Separate reporting lines for sales, marketing, and customer success—all to the CEO—preserve the checks and balances that make marketing effective.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and B2B SaaS investor",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "CROs are incentivized to hit short-term sales numbers and will prioritize rapid capital deployment over strategic brand building and long-term pipeline development. This creates misalignment and removes the check-and-balance on spending.",
+              "practice_id": "avoid-marketing-under-cro"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and B2B SaaS investor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "When marketing rolls up to sales, it loses strategic independence and becomes focused only on short-term lead generation. CROs are incentivized to hit monthly numbers, which corrupts marketing's ability to invest in longer-term initiatives.",
+              "practice_id": "avoid-marketing-under-cro"
+            }
+          ]
+        },
+        {
+          "position_id": "prioritize-cro-alignment-over-ceo",
+          "stance": "The CMO's primary partnership and accountability should be to the CRO, not the CEO. When the CEO's strategic direction conflicts with the CRO's revenue targets, follow the CRO. The CMO's job is to drive immediate revenue results alongside the revenue leader, and the CRO's credibility with the CFO multiplies marketing's influence.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO at Copy.ai",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "When the CEO's strategic direction conflicts with the CRO's revenue targets, follow the CRO. The CRO's compensation and accountability are tied to immediate results, and the CMO's primary partnership and accountability should be to the revenue leader.",
+              "practice_id": "cro-alignment-over-ceo-alignment"
+            },
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "Executive-in-residence at Balderton Capital; former CEO and CMO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "When conflicts arise between CEO and CRO direction, prioritize the CRO (your customer) over the CEO (your boss) because sales will ultimately come for you if you don't treat them as your primary customer. The CRO has more leverage with the CEO and CFO than you do.",
+              "practice_id": "build-first-ring-cro-partnership"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO at Copy.ai",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "CMO and CRO should jointly present marketing strategy and budget to the CFO, positioning marketing as a revenue-generating function accountable to revenue outcomes.",
+              "practice_id": "cro-cfo-joint-marketing-planning"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: Lemkin's advice is most relevant to early-stage SaaS companies where brand and long-term pipeline are being built from scratch. Coleman and Kellogg's advice may apply more to growth-stage companies where revenue execution is the dominant priority. However, both sets of guests are explicitly addressing the same structural question about CMO reporting relationships and primary loyalty, making this a genuine disagreement regardless of stage.",
+      "trend_note": null,
+      "why_it_matters": "How a CMO structures their primary loyalty—to the CEO's long-term vision or the CRO's quarterly targets—fundamentally shapes which marketing investments get made and which get cut. Getting this wrong means either losing your job to sales pressure or building brand equity that never converts to revenue."
+    }
+  ]
+}

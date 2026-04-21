@@ -1,0 +1,260 @@
+{
+  "category": "social-media-strategy-and-operations",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "single-channel-focus-vs-multi-platform-from-start",
+      "title": "Should you focus on mastering one social channel before expanding, or create for multiple platforms simultaneously?",
+      "category": "social-media-strategy-and-operations",
+      "positions": [
+        {
+          "position_id": "single-channel-first",
+          "stance": "Pick one social platform where your audience is active and commit to mastering it before adding any others. Each platform has unique algorithms, formats, and audience expectations, and spreading effort across multiple channels simultaneously dilutes focus and prevents momentum.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 209,
+              "episode_date": "2025-01-09",
+              "evidence": "Gerhardt explicitly recommends picking one platform and committing to learning its dynamics before adding a second channel, arguing that simultaneous multi-channel execution dilutes effort and makes it harder to achieve momentum.",
+              "practice_id": "focus-on-one-channel-before-expanding"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Gerhardt reiterates dominating one channel (e.g., LinkedIn) before expanding to secondary channels, using learnings from the primary channel to inform secondary strategy.",
+              "practice_id": "focus-on-one-channel-before-expanding"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 121,
+              "episode_date": "2024-02-29",
+              "evidence": "Gerhardt again recommends focusing exclusively on one platform until momentum is built, noting that not all content translates across platforms and mastery requires singular focus.",
+              "practice_id": "focus-single-channel-before-expanding"
+            }
+          ]
+        },
+        {
+          "position_id": "create-for-two-distribute-everywhere",
+          "stance": "Select two primary platforms to create content for, then distribute that same content across all other platforms. This reduces production complexity while maintaining multi-platform presence from the start, and is viable even at scale.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "CMO, ClickUp",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Cunningham describes ClickUp's strategy of creating for two core platforms (TikTok/Instagram Reels for short-form video, LinkedIn for thought leadership) and distributing across all other channels including Facebook Reels and YouTube Shorts, explicitly framing this as a way to reduce complexity while maintaining broad reach.",
+              "practice_id": "create-for-two-platforms-distribute-everywhere"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Gerhardt's advice is aimed at early-stage or resource-constrained teams building from scratch, while Cunningham is describing a mature, well-resourced marketing operation at a large SaaS company. However, Gerhardt's advice is stated as a general principle, not explicitly limited to early stage, making this a genuine disagreement about the right default approach.",
+      "trend_note": "The more recent guest (Cunningham, April 2026) advocates for multi-platform distribution from the start, while the single-channel-first advice comes from earlier episodes (2024). This may reflect a maturing of social media infrastructure and tooling that makes multi-platform distribution more accessible.",
+      "why_it_matters": "A marketer who spreads too thin across channels risks building momentum nowhere; one who focuses too narrowly may miss high-performing distribution channels like Facebook Reels that competitors ignore."
+    },
+    {
+      "disagreement_id": "pre-schedule-vs-reactive-daily-posting",
+      "title": "Should you pre-schedule social content in advance or post reactively based on daily observations?",
+      "category": "social-media-strategy-and-operations",
+      "positions": [
+        {
+          "position_id": "pre-schedule-in-advance",
+          "stance": "Build a full year's worth of pre-scheduled content in advance to ensure consistent output and remove daily decision-making burden. Scheduling tools allow you to maintain a baseline presence even during busy periods, and you can still layer in reactive content on top of the scheduled baseline.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "Founder/CEO, SaaStr",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Lemkin recommends building a full year's worth of pre-scheduled morning LinkedIn and Twitter posts in advance so baseline content output is guaranteed regardless of daily circumstances.",
+              "practice_id": "pre-schedule-content-calendar"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "Founder/CEO, SaaStr",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Lemkin reiterates pre-scheduling a full year of content to reduce ongoing execution burden, noting you can still create reactive content separately but the scheduled baseline provides a safety net.",
+              "practice_id": "pre-schedule-content-calendar"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "CEO, Foundation Marketing",
+              "episode_number": 121,
+              "episode_date": "2024-02-29",
+              "evidence": "Simmonds recommends batch-writing social posts monthly and scheduling them using tools like Buffer and Typefully to reduce friction and maintain consistency without constant context-switching.",
+              "practice_id": "batch-write-social-content-with-scheduling-tools"
+            }
+          ]
+        },
+        {
+          "position_id": "reactive-daily-posting",
+          "stance": "Rather than batching and scheduling content in advance, post daily based on what you observe in real-time—conversations, meetings, or market signals. This keeps content timely and authentic, and prevents it from feeling like a duty or obligation.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen Knuth",
+              "guest_context": "Demand Generation Leader, Lavender",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Allen Knuth explicitly argues against pre-scheduling, recommending instead that you wake up each day and identify one thing you observed recently that reveals a flawed belief, then create content around that observation in the moment for authenticity and timeliness.",
+              "practice_id": "post-content-daily-based-on-market-signals"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: pre-scheduling may suit founders or executives with heavy travel schedules (Lemkin's context) while reactive posting may suit practitioners whose value proposition is real-time market insight (Allen Knuth's context). However, both are giving general advice about social content workflow, so there is a genuine underlying disagreement about whether spontaneity or consistency is the higher priority.",
+      "trend_note": null,
+      "why_it_matters": "The choice between pre-scheduling and reactive posting affects both content quality and operational workflow; a marketer who pre-schedules gains consistency but may miss timely relevance, while one who posts reactively stays fresh but risks inconsistency during busy periods."
+    },
+    {
+      "disagreement_id": "instagram-vs-tiktok-for-b2b",
+      "title": "Should B2B marketers prioritize Instagram or TikTok for short-form video?",
+      "category": "social-media-strategy-and-operations",
+      "positions": [
+        {
+          "position_id": "instagram-over-tiktok",
+          "stance": "Instagram is the better choice for B2B due to its 25-45 demographic (primary B2B decision-makers), platform longevity backed by Meta's infrastructure, robust ad capabilities, and the fact that Instagram posts now rank in Google search. TikTok's uncertain future has turned its experts into generic 'short-form video experts.'",
+          "supporters": [
+            {
+              "guest_name": "Jenn Herman",
+              "guest_context": "Instagram marketing expert and consultant",
+              "episode_number": 168,
+              "episode_date": "2024-08-19",
+              "evidence": "Herman explicitly argues for Instagram over TikTok for B2B, citing audience demographics (25-45 on Instagram vs. younger on TikTok), platform stability, Meta's infrastructure, global reach, and Instagram posts appearing in Google search results.",
+              "practice_id": "instagram-vs-tiktok-b2b-channel-selection"
+            }
+          ]
+        },
+        {
+          "position_id": "tiktok-as-primary-short-form-platform",
+          "stance": "TikTok (alongside Instagram Reels) should be one of the two primary creation platforms for short-form video content in B2B, with content then distributed to Facebook Reels and YouTube Shorts. TikTok's format drives significant reach and brand awareness even among older B2B decision-makers.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "CMO, ClickUp",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Cunningham describes ClickUp's strategy of creating for TikTok/Instagram Reels as one of two primary platforms, generating hundreds of millions of impressions monthly. He does not treat TikTok's uncertain future as a disqualifying factor and positions it as a core creation platform.",
+              "practice_id": "create-for-two-platforms-distribute-everywhere"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Herman's advice was given in August 2024 when TikTok's US ban was less imminent, while Cunningham's advice comes from April 2026 after TikTok's regulatory situation evolved. Company size also matters—ClickUp has resources to manage both platforms simultaneously. However, both are giving general B2B channel selection advice, making this a genuine disagreement.",
+      "trend_note": "Herman's pro-Instagram advice (August 2024) predates Cunningham's TikTok-inclusive strategy (April 2026). The more recent expert treats TikTok as viable despite regulatory uncertainty, suggesting the field has not converged on avoiding TikTok.",
+      "why_it_matters": "Choosing the wrong primary short-form video platform wastes production resources and may result in content reaching the wrong demographic; B2B marketers need to know whether Instagram's demographic stability outweighs TikTok's reach potential."
+    },
+    {
+      "disagreement_id": "organic-social-vs-paid-ads-budget-priority",
+      "title": "When budget is constrained, should you prioritize organic social or paid advertising?",
+      "category": "social-media-strategy-and-operations",
+      "positions": [
+        {
+          "position_id": "organic-social-first",
+          "stance": "When choosing between paid ads and organic social with limited budget, invest in organic social (LinkedIn, Twitter, newsletters). Organic social builds authentic audience relationships and brand reputation without large ad spend, and allows you to discover what resonates before committing paid budget.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "Gerhardt explicitly recommends prioritizing organic social over paid advertising when budget is constrained, arguing organic builds authentic relationships and brand reputation.",
+              "practice_id": "organic-social-over-paid-ads"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "CEO, Paramark",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Piyush recommends startups prioritize organic social channels first to test messaging with zero spend, then amplify winning content through paid ads—explicitly framing organic as the starting point before paid.",
+              "practice_id": "start-with-organic-social-for-startups"
+            },
+            {
+              "guest_name": "Harry Dry",
+              "guest_context": "Founder of Marketing Examples",
+              "episode_number": 303,
+              "episode_date": "2025-11-13",
+              "evidence": "Test story-driven content on social media first to validate resonance before committing budget to paid channels. If it performs well organically (e.g., hundreds of thousands of views), then consider scaling through paid or premium placements.",
+              "practice_id": "test-story-on-social-before-paid"
+            }
+          ]
+        },
+        {
+          "position_id": "paid-social-to-prove-incremental-impact",
+          "stance": "Paid social (specifically Facebook ads) should be actively used and measured through conversion lift tests to prove incremental business impact. Rather than defaulting to organic, run structured experiments to demonstrate whether paid social drives demos or conversions beyond organic demand.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "CEO, Paramark",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Piyush recommends running DIY Facebook Conversion Lift tests to measure the incremental impact of paid Facebook ads on business outcomes like demos or conversions, implying paid social is worth investing in and measuring rigorously rather than deprioritizing.",
+              "practice_id": "facebook-conversion-lift-diy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Gerhardt and Piyush (ep. 239) are explicitly addressing early-stage or budget-constrained scenarios, while Piyush (ep. 191) is addressing measurement methodology for companies already running paid social. The disagreement partially dissolves when accounting for stage, but Piyush's two appearances show him giving somewhat different emphases across episodes.",
+      "trend_note": null,
+      "why_it_matters": "A marketer who defaults to organic when paid could prove incremental ROI misses a measurable growth lever; one who invests in paid before validating organic messaging may waste budget on unproven content."
+    },
+    {
+      "disagreement_id": "twitter-posting-frequency",
+      "title": "How frequently should you post on Twitter/X?",
+      "category": "social-media-strategy-and-operations",
+      "positions": [
+        {
+          "position_id": "high-frequency-testing-on-twitter",
+          "stance": "Post 10+ times per day on Twitter to rapidly test which messaging ideas resonate, since each tweet lives independently and Twitter's algorithm doesn't penalize frequency. Use Twitter as a high-volume testing ground before scaling proven ideas to LinkedIn.",
+          "supporters": [
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder, Wynter",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Laja explicitly recommends posting 10+ times per day on Twitter because the algorithm doesn't penalize frequency and each tweet lives independently, making it ideal for rapid message testing.",
+              "practice_id": "twitter-for-testing-linkedin-for-scaling"
+            },
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "Social media leader at ClickUp",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "ClickUp discovered that posting twice daily on their comedy account actually decreased impressions—audiences preferred one video per day. The sweet spot varies by account type and is not intuitive. Run tests for 2-3 months before settling on a cadence.",
+              "practice_id": "post-frequency-sweet-spot-testing"
+            }
+          ]
+        },
+        {
+          "position_id": "quality-over-frequency-on-twitter",
+          "stance": "Avoid generic CTAs and focus on making each piece of content scroll-stopping and curiosity-driven rather than maximizing posting volume. Use long-form posts and mid-post teasers to drive followers rather than relying on frequency.",
+          "supporters": [
+            {
+              "guest_name": "Greg Isenberg",
+              "guest_context": "CEO, Late Checkout",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Isenberg focuses on crafting individual high-quality long-form posts with strategic mid-post teasers rather than high-frequency posting, implying quality and craft per post matters more than volume.",
+              "practice_id": "twitter-long-form-posts-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Laja is explicitly using Twitter as a testing mechanism for messaging strategy, while Isenberg is focused on audience building and storytelling. These are somewhat different use cases, but both are giving advice about how to approach Twitter as a content channel, making this a genuine tension.",
+      "trend_note": null,
+      "why_it_matters": "A marketer who posts 10+ times daily expecting testing benefits may instead dilute their brand signal; one who focuses only on crafted long-form posts may miss the rapid feedback loop that high-frequency posting enables."
+    }
+  ]
+}

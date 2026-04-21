@@ -1,0 +1,230 @@
+{
+  "category": "outbound-abm-and-account-targeting",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "cold-vs-warm-outbound-approach",
+      "title": "Should outbound start with cold personalized outreach or warm relationship-building first?",
+      "category": "outbound-abm-and-account-targeting",
+      "positions": [
+        {
+          "position_id": "cold-personalized-outbound",
+          "stance": "Cold outbound works when it is deeply personalized with genuine hooks (college, recent moves, shared connections, specific signals). The key is relevance and timing, not whether the prospect already knows you. AI and signal-based targeting can make cold outreach highly effective at scale.",
+          "supporters": [
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "CMO at Qualified",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Advocates for hyper-personalized outbound using deep research on each prospect to find genuine hooks. States this works better than generic outbound and remains effective even as inboxes become more crowded.",
+              "practice_id": "hyper-personalized-outbound-research"
+            },
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "VP of Marketing at UserGems",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Recommends identifying 600 target accounts monthly using weighted signals and sending personalized cold emails referencing specific signals. States 1%+ reply rates are viable and this gives reps a real reason to call.",
+              "practice_id": "outbound-signal-based-targeting"
+            },
+            {
+              "guest_name": "Kady Srinivasan",
+              "guest_context": "CMO at Lightspeed",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Argues AI SDRs should deliver hyper-personalized, context-aware outreach at scale targeting micro-segments with specific contextual references. Relevance and timing matter more than volume.",
+              "practice_id": "hyper-personalized-ai-outreach-context"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "Head of Growth at Common Room",
+              "episode_number": 179,
+              "episode_date": "2024-09-26",
+              "evidence": "Recommends combining digital signals with ICP filtering for outbound prospecting, generating 120% higher conversion than traditional ABM-only outbound. Does not require prior relationship.",
+              "practice_id": "signal-based-outbound-with-icp-filtering"
+            },
+            {
+              "guest_name": "Jeremy Chung",
+              "guest_context": "Founder/agency marketer",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Sent 1,200 cold postcards to VC GPs with personalized Loom video audits, booking 22 meetings at $500 cost per meeting. Cold outreach with high personalization and a clear value hook produced strong results.",
+              "practice_id": "direct-mail-qr-code-retargeting-sequence"
+            },
+            {
+              "guest_name": "Kady Srinvivasan",
+              "guest_context": "CMO, Lightspeed",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Argues AI SDRs should deliver hyper-personalized, context-aware cold outreach at scale (e.g., referencing a recent office lease or known business event). Relevance and timing matter more than volume, but the motion is still cold outreach.",
+              "practice_id": "hyper-personalized-ai-outreach-context"
+            }
+          ]
+        },
+        {
+          "position_id": "warm-relationship-first-outbound",
+          "stance": "Pure cold outreach is saturated and ignored. Outbound should prioritize building relationships first—connecting on LinkedIn before pitching, asking for introductions, or inviting prospects to events. Cold outreach should be reserved for specific high-value asks, not generic pitches.",
+          "supporters": [
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "B2B Marketing Leader / LinkedIn influencer",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Explicitly argues to move away from cold email and cold DM campaigns that pitch directly. States pure cold outreach is saturated and ignored; warm signals and relationship cultivation have higher engagement and conversion potential.",
+              "practice_id": "warm-outreach-over-cold-outreach"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Co-founder and CEO at Paramark",
+              "episode_number": 144,
+              "episode_date": "2024-05-27",
+              "evidence": "For early-stage B2B SaaS, recommends prioritizing warm outbound to existing network before investing in other channels. Only after exhausting warm outbound should you invest in broader marketing.",
+              "practice_id": "leverage-warm-outbound-for-early-growth"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 2",
+      "context_dependency": "Partially context-dependent: warm-first outbound advice (Pranav Piyush) is explicitly scoped to early-stage companies with existing networks. Sara Lattanzio's advice applies more broadly but may reflect a specific LinkedIn-centric context. The cold personalized outbound advocates are generally speaking to growth-stage or established companies with signal infrastructure. However, even accounting for stage, Sara Lattanzio explicitly argues cold outreach is saturated for any company, which directly conflicts with the signal-based cold outreach advocates who say it still works when personalized.",
+      "trend_note": "More recent guests (2025-2026) cluster toward cold-but-personalized signal-based outbound, while the warm-first position appears in mid-2024 to mid-2025. This may reflect growing confidence in AI-driven personalization tools making cold outreach viable again.",
+      "why_it_matters": "Choosing the wrong approach wastes significant SDR and marketing resources—if cold outreach is truly saturated, investing in signal-based cold sequences is wasted effort; if warm-first is too slow, you leave pipeline on the table."
+    },
+    {
+      "disagreement_id": "abm-platform-necessity",
+      "title": "Do you need an ABM platform or paid tooling to run effective ABM?",
+      "category": "outbound-abm-and-account-targeting",
+      "positions": [
+        {
+          "position_id": "no-platform-needed",
+          "stance": "ABM can be executed with zero technology—a spreadsheet, direct outreach, email, and free platforms are sufficient. Expensive ABM platforms are not required and often conflate ABM with display advertising. Creativity and personalization matter far more than technology.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "CEO at Pipeline360",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Explicitly states ABM does not require expensive platforms. A minimal viable ABM program uses a spreadsheet, direct personal outreach, and free tools. Argues display advertising is not ABM and that vendors have conflated the two, making ROI hard to prove.",
+              "practice_id": "abm-minimum-viable-execution"
+            },
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "Head of Growth at Common Room",
+              "episode_number": 179,
+              "episode_date": "2024-09-26",
+              "evidence": "Recommends starting signal-based marketing manually with a spreadsheet before investing in technology. Validate the approach generates pipeline first, then invest in tooling.",
+              "practice_id": "start-signal-based-marketing-manually"
+            }
+          ]
+        },
+        {
+          "position_id": "platform-and-tooling-accelerates-abm",
+          "stance": "While ABM can start manually, dedicated platforms and tools (LinkedIn native targeting, Clay.com, intent data providers, predictive scoring) meaningfully improve targeting precision, personalization at scale, and attribution. These tools are worth investing in once you have a proven motion.",
+          "supporters": [
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "B2B LinkedIn Ads Consultant",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "Advocates using LinkedIn's native targeting for ABM campaigns ranging from 100 to 10,000+ accounts, calling it the most cost-effective distribution channel for ABM. Recommends multi-step retargeting sequences within the platform.",
+              "practice_id": "linkedin-abm-targeting-capabilities"
+            },
+            {
+              "guest_name": "Kris Rudeegraap",
+              "guest_context": "CEO at Sendoso",
+              "episode_number": 159,
+              "episode_date": "2024-07-18",
+              "evidence": "Recommends Clay.com as a centralized AI-driven outbound orchestration platform that replaces manual SDR tasks, reduces headcount, and improves conversion rates compared to traditional SDR-heavy models.",
+              "practice_id": "clay-orchestration-outbound-automation"
+            },
+            {
+              "guest_name": "Jean Cameron",
+              "guest_context": "VP of Marketing at 6sense or similar ABM platform user",
+              "episode_number": 315,
+              "episode_date": "2025-12-25",
+              "evidence": "Recommends replacing lead scoring with predictive pipeline scoring on a 0-100 scale using behavioral, technographic, and engagement data—requiring dedicated tooling. Also advocates automated swarm workflows triggered by intent signals.",
+              "practice_id": "predictive-pipeline-scoring-vs-lead-scoring"
+            },
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "VP of Marketing at UserGems",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Recommends AI-augmented ADR capacity using Salesforce-integrated tools to automatically identify prospects, add them to sequences, and generate personalized emails. Frames this as essential for scaling outbound without proportional headcount.",
+              "practice_id": "ai-augmented-adr-capacity-outbound"
+            },
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "Co-founder, Understory",
+              "episode_number": 245,
+              "episode_date": "2025-05-12",
+              "evidence": "Recommends an integrated 'Allbound' strategy using Clay for enrichment to stitch together email, LinkedIn, and paid ad touchpoints in a single CRM record. Requires tooling to track unique identifiers across channels.",
+              "practice_id": "allbound-integrated-channel-tracking"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially context-dependent: the no-platform advocates are often speaking to early-stage or resource-constrained teams, while platform advocates are typically at growth-stage companies with existing GTM infrastructure. However, Chris Rack's position is a principled one—he argues ABM platforms are fundamentally misrepresented and overpriced regardless of stage, which creates genuine disagreement with the platform advocates.",
+      "trend_note": "The no-platform position appears in mid-2024 while platform/tooling advocacy is more prominent in late 2024 through 2025, possibly reflecting growing maturity and accessibility of AI-driven tools making the investment case stronger over time.",
+      "why_it_matters": "Investing in ABM platforms can cost tens of thousands of dollars annually; if manual execution is equally effective, that budget is better spent elsewhere—but if tooling meaningfully improves conversion rates, forgoing it leaves pipeline on the table."
+    },
+    {
+      "disagreement_id": "abm-scope-focused-vs-broad",
+      "title": "Should ABM be your primary GTM motion or balanced with broader prospecting?",
+      "category": "outbound-abm-and-account-targeting",
+      "positions": [
+        {
+          "position_id": "abm-as-primary-motion",
+          "stance": "ABM should be the core GTM strategy, with resources concentrated on a defined target account list. Signal-based targeting, predictive scoring, and multi-channel orchestration should all be organized around penetrating specific accounts. This focus drives better conversion and efficiency.",
+          "supporters": [
+            {
+              "guest_name": "Jean Cameron",
+              "guest_context": "ABM practitioner",
+              "episode_number": 315,
+              "episode_date": "2025-12-25",
+              "evidence": "Advocates allocating marketing spend and sales effort proportionally based on predictive pipeline scores, with highest-scoring accounts getting full investment. The entire framework is account-centric with no mention of balancing with broader prospecting.",
+              "practice_id": "predictive-pipeline-scoring-vs-lead-scoring"
+            },
+            {
+              "guest_name": "Mason Cosby",
+              "guest_context": "Founder at Scrappy ABM",
+              "episode_number": 186,
+              "episode_date": "2024-10-21",
+              "evidence": "Recommends starting ABM with close-loss or website re-engagement programs and expanding from there. The entire framework is ABM-centric, building toward full-funnel ABM coverage.",
+              "practice_id": "start-abm-with-reengagement"
+            },
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "B2B LinkedIn Ads Consultant",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "Structures entire LinkedIn ad strategy around ABM retargeting sequences targeting specific account lists. No mention of balancing with broader demand gen.",
+              "practice_id": "linkedin-abm-retargeting-sequence"
+            }
+          ]
+        },
+        {
+          "position_id": "balance-abm-with-greenfield-prospecting",
+          "stance": "ABM should not be your only GTM playbook. Over-focusing on a defined account list causes you to miss entire industries or buyer personas you don't yet know are a fit. Maintain a greenfield mentality alongside ABM, especially at early stages where the next big customer may come from an unexpected place.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "CEO at Pipeline360",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Explicitly warns that ABM as the only playbook causes you to miss emerging opportunities. Recommends balancing ABM with broader demand-generation and prospecting activities that cast a wider net.",
+              "practice_id": "abm-not-only-playbook"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Chris Rack's greenfield argument is especially relevant for early-stage companies still discovering their ICP. The ABM-as-primary-motion advocates are generally speaking to companies with a well-defined ICP and existing customer base. However, Chris Rack frames this as a general principle, not just an early-stage one, creating genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Committing fully to ABM without greenfield prospecting can create ICP tunnel vision that prevents discovering new market segments, while spreading too thin across both motions can dilute the focus that makes ABM effective."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "category": "podcast-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "podcast-episode-length",
+      "title": "Should B2B podcast episodes be kept short (18-22 minutes) or can they be longer?",
+      "category": "podcast-strategy",
+      "positions": [
+        {
+          "position_id": "short-episodes-preferred",
+          "stance": "Podcast episodes should be kept short (18-22 minutes) and focused on single topics. Shorter episodes get more downloads because listeners decide based on title and length before listening, and higher download counts improve algorithmic distribution on Apple Podcasts and Spotify. Long interviews should be broken into multiple focused segments.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Podcast host and email/subject line expert",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Shorter episodes trigger more downloads regardless of content quality, which signals to Apple Podcasts and Spotify algorithms to circulate the show more. Recommends breaking an 80-minute interview into four 20-minute segments to maximize total downloads.",
+              "practice_id": "podcast-episode-length-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "long-form-episodes-valuable",
+          "stance": "Long-form podcast content (20-30 minutes of uninterrupted solo recording, or full-length interviews) is valuable as a thinking tool, brand-building mechanism, and deep engagement driver. Batch-recording full seasons over two days produces consistent energy across longer episodes. The value is in depth of connection, not algorithmic optimization.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist and founder",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Recommends recording 20-30 minutes of uninterrupted long-form content and re-listening to refine strategic thinking. Allocates 3 hours per week to podcast recording as a thinking and positioning tool.",
+              "practice_id": "podcast-as-creative-outlet-and-thinking-tool"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist and founder",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Explicitly recommends 20-30 minute uninterrupted recordings as a creative and strategic thinking tool, with re-listening to identify insights.",
+              "practice_id": "podcast-as-creative-thinking-tool"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "Content marketing leader",
+              "episode_number": 321,
+              "episode_date": "2026-01-15",
+              "evidence": "Recommends batch-recording full seasons of 8-10 episodes over two days in-person, implying longer, substantive episodes with detailed outlines—not short segmented clips.",
+              "practice_id": "batch-record-podcast-season"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Jay Schwedelson's advice is specifically about maximizing algorithmic distribution and download counts, while the long-form advocates are focused on depth of engagement, thinking development, and brand building. If your goal is algorithmic reach and download growth, short episodes may win. If your goal is deep audience connection or internal strategic value, long-form may be better. However, both camps are implicitly addressing the same B2B podcast context, making this a genuine tactical disagreement about what to optimize for.",
+      "trend_note": null,
+      "why_it_matters": "Episode length directly affects both production strategy (whether to split interviews) and distribution outcomes (algorithmic visibility vs. depth of engagement), so getting this wrong means either leaving downloads on the table or sacrificing the relationship-building value that makes B2B podcasts worthwhile."
+    },
+    {
+      "disagreement_id": "podcast-launch-approach",
+      "title": "Should you launch a podcast quickly with minimal setup, or validate and plan carefully first?",
+      "category": "podcast-strategy",
+      "positions": [
+        {
+          "position_id": "launch-fast-minimal-setup",
+          "stance": "Don't wait for perfect production or budget approval—just start. Use free tools like GarageBand and Anchor, focus on consistency and content quality, and iterate based on feedback. Every successful creator started with minimal gear. Don't ask for permission; just launch and learn.",
+          "supporters": [
+            {
+              "guest_name": "Erin May",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Recommends using free tools (GarageBand, Anchor) to lower the barrier to entry and test the concept quickly without waiting for perfect setup or budget approval.",
+              "practice_id": "podcast-low-barrier-launch"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Explicitly advises not delaying a podcast launch waiting for perfect equipment. Start with a basic USB microphone and simple editing tools, prove consistency first, then invest in production quality.",
+              "practice_id": "podcast-start-simple-equipment"
+            }
+          ]
+        },
+        {
+          "position_id": "validate-and-plan-before-launch",
+          "stance": "Before investing in a podcast, validate that your target audience actually listens to podcasts and that there is a gap in existing podcast coverage for your niche. Conduct desk research and talk to users. Only launch if you confirm audience consumption habits and identify a clear gap. Also define a clear purpose connected to business strategy before starting.",
+          "supporters": [
+            {
+              "guest_name": "Erin May",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Recommends validating audience podcast consumption habits and identifying a gap in existing coverage before launching—checking if the audience listens to podcasts, whether competitors exist, and whether there is room for a new entrant.",
+              "practice_id": "podcast-audience-validation-before-launch"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "States you should not start a podcast without a clear answer to why you're doing it, connected to overall business strategy and brand goals. Without this clarity, the podcast becomes a vanity project.",
+              "practice_id": "podcast-launch-requires-clear-purpose"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "This disagreement partially dissolves on closer inspection: Erin May actually holds both positions simultaneously (validate first, then launch lean), and Dave Gerhardt holds both positions across different episodes (launch lean in ep. 320, plan clearly in ep. 189). The genuine tension is between the 'bias to action' framing (just start) and the 'strategic validation' framing (confirm fit first). This is a real tactical tension for marketers deciding how much pre-work to do before committing.",
+      "trend_note": null,
+      "why_it_matters": "Launching a podcast without audience validation risks wasting months of production effort on a channel your audience doesn't use, while over-planning risks never launching at all—knowing which failure mode to guard against depends on which advice you follow."
+    },
+    {
+      "disagreement_id": "podcast-guest-sourcing-approach",
+      "title": "Should you prioritize podcast guests you already have relationships with, or use analytics to find the best performers?",
+      "category": "podcast-strategy",
+      "positions": [
+        {
+          "position_id": "prioritize-existing-relationships",
+          "stance": "Interviewing people you already have a relationship with requires significantly less mental energy and preparation, and produces more natural, conversational content. Prioritize guests you know, or invest heavily in preparation for cold interviews to compensate for the lack of existing rapport.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and B2B SaaS investor",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "States that interviewing someone you don't know requires significantly higher mental energy and preparation than interviewing someone you have a prior relationship with, and recommends prioritizing known guests or investing heavily in prep for cold interviews.",
+              "practice_id": "interview-prep-relationship-advantage"
+            }
+          ]
+        },
+        {
+          "position_id": "use-analytics-to-identify-top-performers",
+          "stance": "Use podcast download analytics to identify which guests generated the most downloads and engagement, then invite those guests to future episodes and events. This data-driven approach validates content quality before booking and creates a flywheel where your best-performing content informs your guest pipeline.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Recommends analyzing podcast download data to identify top-performing episodes and guests, then reaching out to those speakers for events and future appearances.",
+              "practice_id": "use-podcast-analytics-to-identify-speakers"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Recommends reviewing podcast analytics to identify which guests generated the most downloads and using that data to inform event speaker lineups and future guest sourcing.",
+              "practice_id": "podcast-guest-sourcing-from-analytics"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Explicitly recommends sorting podcast analytics by most downloads over the past year, identifying the top 10 episodes, and inviting those speakers to events—validating content resonance before booking.",
+              "practice_id": "use-podcast-analytics-for-speaker-selection"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "These positions are not fully in conflict—they address different aspects of guest sourcing. Jason Lemkin is speaking about interview quality and host preparation burden, while Dave Gerhardt is speaking about audience resonance and content performance. A podcast could use analytics to identify top performers AND prioritize those it has existing relationships with. However, they do conflict when a high-performing analytics pick is someone the host doesn't know, forcing a choice between relationship ease and data-validated performance.",
+      "trend_note": null,
+      "why_it_matters": "Guest sourcing strategy directly affects both content quality and production sustainability—choosing the wrong framework means either booking analytically strong guests who produce awkward interviews, or defaulting to comfortable relationships that may not resonate with your audience."
+    }
+  ]
+}

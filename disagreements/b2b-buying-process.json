@@ -1,0 +1,119 @@
+{
+  "category": "b2b-buying-process",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "status-quo-vs-roi-as-primary-message",
+      "title": "Should outbound messaging lead with the cost of the status quo or with ROI/value upside?",
+      "category": "b2b-buying-process",
+      "positions": [
+        {
+          "position_id": "lead-with-status-quo-cost",
+          "stance": "Lead with messaging that surfaces the hidden costs and negative consequences of staying with the current approach. ROI messaging is secondary because prospects must first believe their current method is costly before they'll care about the upside of switching.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Founder of DemandJen; B2B sales and pipeline generation expert",
+              "episode_number": 308,
+              "episode_date": "2025-12-01",
+              "evidence": "Prospects are already solving their problem with existing methods. They need to understand why staying with that method is costly before ROI becomes relevant. Status quo cost messaging reframes the conversation from 'we're better' to 'staying the same has hidden costs.'",
+              "practice_id": "status-quo-vs-roi-messaging-priority"
+            },
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Founder of DemandJen; B2B sales and pipeline generation expert",
+              "episode_number": 343,
+              "episode_date": "2026-04-03",
+              "evidence": "The primary competitor is buyer status quo, not other vendors. Traditional competitive messaging ('we're better than X') fails against status quo. Messaging should focus on unintended negative consequences of the current state.",
+              "practice_id": "status-quo-vs-competitor-framing"
+            },
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Founder of DemandJen; B2B sales and pipeline generation expert",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Start by identifying customer beliefs and assumptions driving their current approach, introduce information that challenges those assumptions, then back into your solution. Problem-first, not value-first.",
+              "practice_id": "start-with-customer-beliefs-not-features"
+            }
+          ]
+        },
+        {
+          "position_id": "lead-with-emotional-trust-then-rational-roi",
+          "stance": "Enterprise buyers make decisions emotionally (trust, confidence, career safety) and justify with rational arguments like ROI afterward. Lead marketing with emotional brand trust appeals; ROI and feature comparisons come after the emotional decision is made.",
+          "supporters": [
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "CMO-level enterprise marketing leader",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Sports sponsorships and brand-building create the emotional foundation; rational arguments come after the decision is made. This is especially critical in security buying where risk aversion is high. Leading with ROI or feature comparisons is explicitly secondary.",
+              "practice_id": "emotional-marketing-for-enterprise-trust"
+            },
+            {
+              "guest_name": "Kimberly Storin",
+              "guest_context": "B2B enterprise marketing executive",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "B2B is more emotional than B2C because the buyer's job is on the line. Marketing must make the buyer feel like a hero for choosing your solution. Emotional dimension should inform positioning and messaging before rational arguments.",
+              "practice_id": "b2b-emotional-decision-making"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: Jen Allen-Knuth is primarily addressing outbound pipeline generation and sales conversations, while Melton Littlepage and Kimberly Storin are addressing brand marketing and enterprise trust-building. However, both camps are making claims about what should come first in buyer messaging, which creates a genuine conflict for marketers designing their messaging hierarchy and content strategy.",
+      "trend_note": null,
+      "why_it_matters": "Getting the messaging sequence wrong—leading with ROI when buyers haven't yet acknowledged their status quo is broken, or leading with status quo pain when buyers need emotional reassurance first—can cause messaging to land flat and fail to move prospects through the funnel."
+    },
+    {
+      "disagreement_id": "who-to-target-first-junior-vs-executive",
+      "title": "Should you target junior/mid-level buyers first or lead with executive-level messaging?",
+      "category": "b2b-buying-process",
+      "positions": [
+        {
+          "position_id": "target-junior-buyers-first",
+          "stance": "In enterprise sales, focus messaging on junior and mid-level buyers first because they create the shortlist that executives review. Winning over managers and directors is the prerequisite to getting an executive conversation at all.",
+          "supporters": [
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "CEO of Wynter; B2B messaging expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Executives delegate initial vendor evaluation to junior staff who create a shortlist of 5-10 companies. Junior buyers are the gatekeepers who determine if you make the shortlist before executives engage.",
+              "practice_id": "appeal-to-junior-buyers-to-reach-executives"
+            }
+          ]
+        },
+        {
+          "position_id": "target-executives-with-brand-awareness-first",
+          "stance": "Decision makers and economic buyers should receive brand awareness content (video, out-of-home, LinkedIn ads) before proposals arrive, so they already have familiarity with your brand when the shortlist reaches them. Practitioners are nurtured separately through consideration and conversion stages.",
+          "supporters": [
+            {
+              "guest_name": "Kym Parker",
+              "guest_context": "B2B enterprise marketing strategist",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Surgical targeting of different buying committee roles reduces waste and improves close rates. Decision makers need brand awareness content specifically so they recognize you when the shortlist arrives—implying you must reach them proactively, not wait for junior buyers to surface you.",
+              "practice_id": "target-buying-committee-members-differently"
+            },
+            {
+              "guest_name": "Ari Yablock",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 284,
+              "episode_date": "2025-09-22",
+              "evidence": "Lead with the highest-level executive (e.g., CIO) with a visionary message first, then follow with tactical benefits. The framing explicitly prioritizes the executive persona as the primary messaging target.",
+              "practice_id": "balance-visionary-and-tactical-messaging"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Peep Laja's advice applies specifically to the initial vendor evaluation/shortlisting phase, while Kym Parker and Ari Yablock are describing ongoing multi-touch brand and messaging strategy across the full buying committee. However, there is a genuine tactical conflict: Laja says don't bother with executives until you've won over junior buyers, while Parker and Yablock say you must proactively reach executives with brand content in parallel or even first. For a marketer deciding where to allocate limited budget and messaging effort, these are conflicting directives.",
+      "trend_note": null,
+      "why_it_matters": "Misallocating messaging effort—spending budget on executives who won't see you until junior buyers surface you, or ignoring executives who could veto a shortlist—directly affects pipeline conversion rates and sales cycle length in enterprise deals."
+    }
+  ]
+}

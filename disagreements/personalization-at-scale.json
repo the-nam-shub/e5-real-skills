@@ -1,0 +1,143 @@
+{
+  "category": "personalization-at-scale",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "personalization-depth-individual-vs-segment",
+      "title": "Should personalization target individual companies/people or broader segments like industry and company size?",
+      "category": "personalization-at-scale",
+      "positions": [
+        {
+          "position_id": "individual-level-personalization",
+          "stance": "Personalization should go all the way down to the individual company or person level. AI makes it feasible to generate custom microsites, one-to-one newsletters, and hyper-personalized outreach for each specific prospect or account. Segment-based marketing leaves value on the table.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Argues that AI makes code and content generation cheap enough to build dynamic microsites per company and one-to-one newsletters tailored to individual preferences, moving beyond segment-based marketing entirely.",
+              "practice_id": "micro-audience-personalization-at-scale"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Explicitly advocates moving beyond segment-based marketing to company-level personalization using AI to dynamically optimize websites and build separate microsites for individual companies.",
+              "practice_id": "micro-audience-personalization-at-company-level"
+            },
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "B2B outbound practitioner",
+              "episode_number": 245,
+              "episode_date": "2025-05-12",
+              "evidence": "Recommends building AI agent workflows in Clay that calculate personalized business impact metrics (e.g., estimated annual fraud losses) specific to each individual prospect's business context.",
+              "practice_id": "agentic-research-personalization-workflow"
+            },
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Advocates for deep individual research on each prospect—college attended, recent company moves, local events, shared connections—as the bar for outbound personalization, explicitly warning against using AI agents to scale generic messaging.",
+              "practice_id": "hyper-personalized-outbound-research"
+            },
+            {
+              "guest_name": "Tom Wentworth",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Recommends feeding AI systems comprehensive individual-level context (LinkedIn profile, company info, website behavior) to generate outbound emails that feel human and contextual rather than generic.",
+              "practice_id": "use-ai-context-for-outbound-emails"
+            }
+          ]
+        },
+        {
+          "position_id": "segment-level-personalization",
+          "stance": "Effective personalization should use safe, non-creepy dimensions like industry, use case, or company size rather than individual-level tracking. This approach is easier to implement, avoids privacy concerns, and is sufficient to drive meaningful engagement.",
+          "supporters": [
+            {
+              "guest_name": "Guy Yalif",
+              "guest_context": "Website personalization expert",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Explicitly recommends personalizing by industry, use case, or company size and warns against reverse IP lookups or individually identifying tactics that feel invasive. Frames segment-level personalization as 'effective, easy to implement, and doesn't trigger privacy concerns.'",
+              "practice_id": "personalize-by-industry-use-case-company-size"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: Guy Yalif is specifically discussing website personalization where individual tracking raises privacy concerns, while the individual-level advocates are primarily discussing outbound email and direct outreach where you already have a named prospect. However, Kieran Flanagan explicitly addresses website personalization at the individual company level (microsites, dynamic homepages), which directly conflicts with Yalif's segment-only recommendation for the same channel.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong level of personalization either wastes significant AI/engineering investment on granularity that doesn't move the needle, or leaves meaningful conversion gains on the table by treating distinct companies as interchangeable members of a segment."
+    },
+    {
+      "disagreement_id": "transparent-vs-stealth-tracking-personalization",
+      "title": "Should you be transparent with prospects about the tracking data you're using to personalize outreach?",
+      "category": "personalization-at-scale",
+      "positions": [
+        {
+          "position_id": "be-transparent-about-tracking",
+          "stance": "Explicitly acknowledge in your outreach what you know about the prospect's behavior (e.g., 'We saw you were looking at our pricing page'). Testing shows transparent acknowledgment outperforms stealth tracking, and B2B recipients expect to be tracked and appreciate directness.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schewedelson",
+              "guest_context": "Email marketing expert",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "Cites A/B testing showing that explicitly acknowledging website behavior in subject lines and headlines outperforms stealth tracking. States that B2B recipients expect to be tracked and appreciate directness.",
+              "practice_id": "behavioral-personalization-website-tracking"
+            },
+            {
+              "guest_name": "Scott Cappuzzo",
+              "guest_context": "Website personalization practitioner",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Recommends using upfront quizzes to gather personalization data transparently, arguing this avoids the 'creepy' feeling of invisible tracking and actually increases visitor willingness to share information.",
+              "practice_id": "use-quiz-for-transparent-personalization"
+            },
+            {
+              "guest_name": "Guy Yalif",
+              "guest_context": "Website personalization expert",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Explicitly warns against reverse IP lookups and individually identifying tactics, recommending only 'safe, non-creepy' personalization dimensions to avoid triggering privacy concerns.",
+              "practice_id": "personalize-by-industry-use-case-company-size"
+            }
+          ]
+        },
+        {
+          "position_id": "use-tracking-data-without-explicit-disclosure",
+          "stance": "Use tracking data (website behavior, IP data, social signals) to inform personalization and delivery decisions without necessarily disclosing the tracking mechanism to the recipient. The goal is relevance and timing, not transparency about data collection methods.",
+          "supporters": [
+            {
+              "guest_name": "Kris Rudeegraap",
+              "guest_context": "CEO of Sendoso",
+              "episode_number": 159,
+              "episode_date": "2024-07-18",
+              "evidence": "Describes using IP data and social media content analysis to determine home vs. office delivery location without any mention of disclosing this tracking to recipients—framed as creating 'surprise/delight moments.'",
+              "practice_id": "smart-delivery-location-optimization"
+            },
+            {
+              "guest_name": "Kady Srinvivasan",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Advocates using AI to identify micro-segments and reference specific context (e.g., a recent office lease, a known business event) in outreach without framing this as something to disclose explicitly to the prospect.",
+              "practice_id": "hyper-personalized-ai-outreach-context"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: the transparency advocates are primarily discussing email/website behavior tracking, while the non-disclosure practitioners are discussing physical gifting logistics and AI-driven micro-segmentation. However, the underlying question of whether to surface your data sources to prospects applies across all these channels and represents a genuine philosophical disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Getting this wrong in either direction has real consequences: being too opaque about tracking can feel creepy and damage trust, while being unnecessarily transparent about data collection could raise concerns that wouldn't otherwise exist and reduce response rates."
+    }
+  ]
+}

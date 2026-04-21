@@ -1,0 +1,339 @@
+{
+  "category": "abm-pipeline-attribution-alignment",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "attribution-dispute-resolution-approach",
+      "title": "How should marketing and sales resolve attribution disputes—shared credit agreements, avoiding attribution entirely, or documented rules?",
+      "category": "abm-pipeline-attribution-alignment",
+      "positions": [
+        {
+          "position_id": "avoid-attribution-entirely-use-control-groups",
+          "stance": "Explicitly agree at the C-level to stop fighting over attribution altogether. Replace attribution with control groups, treatment groups, and progression metrics. Attribution debates are culturally damaging and a waste of time.",
+          "supporters": [
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "B2B revenue and marketing leader",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Fighting over attribution is a waste of time and culturally damaging; use control/treatment groups and progression metrics instead. Make this a C-level cultural norm.",
+              "practice_id": "abm-avoid-attribution-disputes"
+            }
+          ]
+        },
+        {
+          "position_id": "shared-credit-agreement-50-50",
+          "stance": "Implement a formal 50/50 attribution agreement between marketing and sales to reduce finger-pointing and create shared accountability. Use algorithms to weight touchpoints across the funnel journey.",
+          "supporters": [
+            {
+              "guest_name": "Kristine Segrist",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "Establish a 50/50 attribution agreement with sales to reduce finger-pointing; measure pipeline contribution as a shared metric with each team responsible for driving that number.",
+              "practice_id": "multi-metric-attribution-model-b2b"
+            }
+          ]
+        },
+        {
+          "position_id": "account-based-territories-no-source-credit",
+          "stance": "Eliminate attribution disputes by assigning named accounts to territories and crediting the team when any meeting is booked, regardless of which function initiated contact. Measure total meetings and pipeline by account, not by source.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "When a meeting is booked with any named account, credit the win to the team regardless of which function initiated contact; use cohort analysis to measure channel effectiveness without perfect attribution.",
+              "practice_id": "account-based-territories-shared-credit"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Assign named accounts to territories and measure success by meetings generated within those accounts regardless of which function drove the touch; success is celebrated when a meeting happens, not when one function claims credit.",
+              "practice_id": "account-based-territories-shared-credit"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Stop tracking marketing-sourced vs. sales-sourced meetings; measure total meetings booked with prospects to eliminate internal credit-claiming and focus both teams on growing overall pipeline.",
+              "practice_id": "focus-on-overall-meetings-not-credit-split"
+            }
+          ]
+        },
+        {
+          "position_id": "document-attribution-rules-explicitly",
+          "stance": "Create and maintain written documentation defining pipeline readiness, first touch, and attribution rules, agreed upon by both marketing and sales. This removes ambiguity and reduces conflict without abandoning attribution measurement.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Written documentation of pipeline readiness, first touch, and attribution rules agreed by both teams reduces conflict and evaluates whether marketing is delivering qualified pipeline, especially in enterprise sales with multiple channel touches.",
+              "practice_id": "document-pipeline-readiness-attribution-rules"
+            }
+          ]
+        },
+        {
+          "position_id": "written-sales-marketing-contract",
+          "stance": "Create a formal written agreement signed by VP of Sales and VP of Marketing defining lead definitions, delivery commitments, and responsibilities. Attribution is resolved through explicit contractual accountability, not cultural norms or measurement frameworks.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "B2B ABM practitioner",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Sales and marketing alignment requires explicit written contracts signed by both VPs defining lead definitions, delivery volumes, and what each team will do with leads; prevents blame dynamics and scope creep.",
+              "practice_id": "abm-sales-marketing-contract"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1 vs 1 vs 1 vs 1",
+      "context_dependency": "Partially. The account-based territory approach (Coleman, Piyush) presupposes a named-account ABM motion, while the documented rules approach (Zive) is more applicable to enterprise sales with complex multi-touch journeys. The 50/50 model (Segrist) and the written contract (Rack) could apply broadly. The core disagreement—whether to abandon attribution measurement vs. formalize it vs. restructure credit—is a genuine disagreement across similar B2B contexts.",
+      "trend_note": null,
+      "why_it_matters": "The mechanism chosen to resolve attribution disputes directly shapes team culture, incentive structures, and whether marketing investment in brand and awareness gets fairly credited or systematically undercounted."
+    },
+    {
+      "disagreement_id": "marketing-accountability-metric-choice",
+      "title": "What metric should marketing be held accountable to: pipeline value, hand-raisers, or qualified opportunity count?",
+      "category": "abm-pipeline-attribution-alignment",
+      "positions": [
+        {
+          "position_id": "pipeline-value-and-opportunity-count",
+          "stance": "Marketing should be held accountable to two metrics: count of qualified opportunities created and pipeline value of those opportunities. This dual approach ensures both volume and quality, and rejects lead count as gameable. Marketing should own pipeline generation across all sources.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Hold marketing to count of qualified opportunities and pipeline value at the same funnel stage; reject lead-count metrics which can be gamed by purchasing low-quality lists.",
+              "practice_id": "pipeline-value-and-opportunity-count-metrics"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Measure marketing on qualified opportunities count and pipeline value; prevents gaming metrics with cheap lead lists.",
+              "practice_id": "pipeline-metrics-opportunities-and-value"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Position marketing as owning pipeline generation across all sources; eliminate source-based credit disputes and align around a single pipeline metric.",
+              "practice_id": "marketing-owns-pipeline-definition"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "Work with sales to define pipeline collaboratively, then have marketing own pipeline generation across all sources to eliminate attribution fights.",
+              "practice_id": "marketing-owns-pipeline-definition"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Argued for shifting from lead volume to lead quality and actual sales outcomes, measuring success by qualified opportunities and closed deals rather than form fills or email opens.",
+              "practice_id": "shift-from-lead-volume-to-lead-quality"
+            }
+          ]
+        },
+        {
+          "position_id": "hand-raisers-only-in-long-cycles",
+          "stance": "In long sales cycles (12-18 months), marketing should not be held accountable to pipeline or revenue—only to hand-raisers (demo requests, trial signups, contact form submissions) that are directly within marketing's control. A separate model tracks conversion downstream, but those factors are outside marketing's influence.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "In 12-18 month sales cycles, holding marketing to pipeline or revenue includes factors outside marketing's control (product, sales, pricing, CS). Only hand-raisers are truly within marketing's control.",
+              "practice_id": "select-marketing-metric-in-control-of-marketing"
+            }
+          ]
+        },
+        {
+          "position_id": "revenue-supply-chain-owned-and-influenced",
+          "stance": "Marketing should own some funnel stages entirely (site visits, demo requests) and influence but not own others (qualification, deal closure). Metrics should reflect both owned and influenced stages, not just one point in the funnel.",
+          "supporters": [
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "B2B revenue and marketing leader",
+              "episode_number": 118,
+              "episode_date": "2024-02-19",
+              "evidence": "Map the revenue supply chain to identify which stages marketing wholly owns vs. influences; set metrics accordingly to prevent hitting demo targets while deals don't close.",
+              "practice_id": "revenue-supply-chain-metrics"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1 vs 1",
+      "context_dependency": "Partially. Pranav Piyush explicitly scopes his position to 12-18 month sales cycles, which could dissolve the tension with Kyle Coleman and Gurdeep Dhillon if they are speaking about shorter cycles. However, Gurdeep Dhillon and Kyle Coleman do not restrict their advice to short cycles, and Brian Kotlyar's model applies broadly. The core disagreement about whether marketing should own pipeline as a metric vs. only own hand-raisers is a genuine disagreement even within enterprise B2B contexts.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong accountability metric either lets marketing off the hook for business outcomes or holds them responsible for factors they cannot control, both of which damage credibility and alignment with sales."
+    },
+    {
+      "disagreement_id": "mql-sql-terminology-retention",
+      "title": "Should B2B marketing teams keep MQL/SQL terminology or replace it with explicit intent signals?",
+      "category": "abm-pipeline-attribution-alignment",
+      "positions": [
+        {
+          "position_id": "replace-mql-sql-with-explicit-intent",
+          "stance": "Eliminate MQL and SQL terminology entirely because these labels are subjective, disputed, and create friction between marketing and sales. Replace them with objective, explicit intent signals such as demo requests, pricing page visits, or direct hand-raises that require no qualification debate.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "MQL and SQL terms create friction because they're subjective and disputed; replace with explicit intent signals like demo requests or pricing inquiries that are objective and measurable without qualification debates.",
+              "practice_id": "avoid-qualified-lead-jargon"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Eliminate lead scoring models based on form fills and engagement; stop internal debates about lead vs. contact definitions; only assign leads to sales when clear buying intent is demonstrated.",
+              "practice_id": "stop-lead-scoring-theater"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Proposed ICP + ICT intersection as the qualification standard, requiring both the right company and the right person. This replaces MQL/SQL with a more structured two-dimensional framework.",
+              "practice_id": "qualified-opportunity-definition-icp-ict"
+            }
+          ]
+        },
+        {
+          "position_id": "standardize-terminology-via-written-agreement",
+          "stance": "Rather than abandoning MQL/SQL terminology, standardize it through a written agreement between sales and marketing. Every organization uses different terminology, so the solution is to define and align on shared terms explicitly, not to eliminate them.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "B2B ABM practitioner",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Every organization uses different terminology (MQL, SQL, etc.); the solution is to write down and have both VPs sign agreements on what defines a good lead and standardize terminology, not to abandon it.",
+              "practice_id": "abm-sales-marketing-contract"
+            },
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Recommended documenting definitions of pipeline readiness and qualification criteria to remove ambiguity, rather than abandoning qualification frameworks entirely.",
+              "practice_id": "document-pipeline-readiness-attribution-rules"
+            },
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Recommended qualifying leads at top of funnel on firmographics and buying intent signals, implying a structured qualification framework rather than abandoning qualification entirely.",
+              "practice_id": "qualify-leads-on-firmographics-and-intent"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 3",
+      "context_dependency": "Genuine disagreement regardless of context. All three guests are speaking to the same problem (marketing-sales misalignment over lead definitions) and prescribing directly opposing solutions: elimination vs. standardization.",
+      "trend_note": null,
+      "why_it_matters": "Whether you eliminate or standardize lead qualification terminology determines how marketing and sales communicate about pipeline quality, and getting it wrong perpetuates the exact misalignment both approaches are trying to solve."
+    },
+    {
+      "disagreement_id": "abm-account-list-size",
+      "title": "How many accounts should be on an ABM target list—a small focused list or a large mapped universe?",
+      "category": "abm-pipeline-attribution-alignment",
+      "positions": [
+        {
+          "position_id": "small-focused-list-2-5-accounts",
+          "stance": "True ABM works best with a very small, highly focused list of 2-5 accounts per quarter. ABM is inherently not scalable—applying the same tactics to hundreds or thousands of accounts defeats the purpose. The goal is creative differentiation, not volume.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "B2B ABM practitioner",
+              "episode_number": 140,
+              "episode_date": "2024-05-13",
+              "evidence": "True ABM works best with 2-5 accounts per quarter; ABM by nature is not scalable and attempting to apply tactics to hundreds of accounts defeats the purpose.",
+              "practice_id": "abm-small-account-list-creative-execution"
+            },
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Recommended starting with trailing six months of CRM data, layering in industry triggers and validated intent signals to build a list that is neither too small nor too large—explicitly a 'Goldilocks' approach.",
+              "practice_id": "abm-target-account-list-goldilocks"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "VP Marketing, Intercom",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Argued that account selection is a CRO-level decision requiring data science input and sales veto, with dynamic updates throughout the year. Did not specify a target list size but emphasized quality and process over volume.",
+              "practice_id": "abm-account-selection-cro-alignment"
+            }
+          ]
+        },
+        {
+          "position_id": "large-mapped-universe-50k-100k-accounts",
+          "stance": "Map your total addressable market as a specific list of 50,000 to 100,000 target accounts. This large universe becomes the organizing principle for both sales and marketing strategy, simplifying alignment and enabling measurement of which accounts entered pipeline.",
+          "supporters": [
+            {
+              "guest_name": "Jaleh Rezaei",
+              "guest_context": "B2B GTM and AI leader",
+              "episode_number": 248,
+              "episode_date": "2025-05-22",
+              "evidence": "Map your TAM as a specific list of 50,000 or 100,000 accounts; use this as the organizing principle for both sales and marketing to eliminate funnel debates and enable account-based measurement.",
+              "practice_id": "target-account-simplification"
+            }
+          ]
+        },
+        {
+          "position_id": "named-account-territories-50-200-per-rep",
+          "stance": "Assign named accounts to sales territories at a manageable scale—50 accounts per enterprise seller, 200 per mid-market seller. This is neither a tiny 2-5 account list nor a 100,000-account universe, but a structured middle ground that enables both focus and coverage.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Assign 50 accounts per enterprise seller and 200 per mid-market seller as named account territories; measure success by meetings generated within those accounts.",
+              "practice_id": "account-based-territories-shared-credit"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Assign named accounts to sales territories at 50 per enterprise seller and 200 per mid-market seller; measure success by meetings generated within those accounts regardless of which function drove the touch.",
+              "practice_id": "account-based-territories-shared-credit"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2 vs 1",
+      "context_dependency": "Partially. Chris Rack's 2-5 account recommendation may apply to a high-touch enterprise ABM motion, while Jaleh Rezaei's 50,000-100,000 account universe may reflect a tech-enabled programmatic ABM approach. Kyle Coleman's territory model sits between these. However, all three are framing their advice as the right way to do ABM, not as context-specific variants, making this a genuine disagreement about ABM philosophy and execution.",
+      "trend_note": null,
+      "why_it_matters": "Account list size determines the entire resource allocation, personalization depth, and measurement approach for an ABM program—getting this wrong either spreads resources too thin or limits market coverage unnecessarily."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "category": "creative-brainstorming-and-ideation",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "immediate-vs-delayed-ideation",
+      "title": "Should you brainstorm ideas immediately or give yourself days to incubate first?",
+      "category": "creative-brainstorming-and-ideation",
+      "positions": [
+        {
+          "position_id": "immediate-ideation-with-ai",
+          "stance": "Start generating ideas immediately using AI as a brainstorming partner. Rather than waiting for perfect ideas to emerge, use AI tools to quickly explore multiple angles and get unstuck from day one. The ability to produce rough versions instantly removes the need for extended pre-production incubation.",
+          "supporters": [
+            {
+              "guest_name": "Vicente",
+              "guest_context": "Creative professional discussing AI in marketing workflows",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "AI tools allow you to generate rough versions of your concept on day one, shifting the process from 'sell the idea first, then execute' to 'start creating immediately and iterate.'",
+              "practice_id": "ai-creative-ideation-iteration"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 307,
+              "episode_date": "2025-11-27",
+              "evidence": "Recommended starting every project by using AI as a brainstorming partner to quickly explore multiple angles and get unstuck, rather than waiting for perfect human-generated ideas.",
+              "practice_id": "use-ai-as-brainstorm-partner"
+            }
+          ]
+        },
+        {
+          "position_id": "delayed-incubation-ideation",
+          "stance": "Do not expect to generate good ideas on the spot or in a meeting. Have a conversation about the problem, then give yourself 2-3 days or longer to think away from your desk. Ideas come when you're not forcing them, and good creative work requires protected incubation time.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 295,
+              "episode_date": "2025-10-20",
+              "evidence": "Explicitly stated that when asked for ideas in a meeting, you shouldn't expect to generate good ones immediately; instead give yourself 2-3 days to think about it away from the desk because ideas come when you're not forcing them.",
+              "practice_id": "brainstorm-with-time-delay"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: immediate AI-assisted ideation may suit execution-heavy or time-pressured projects, while delayed incubation may suit high-stakes messaging or positioning work. However, both Dave Gerhardt episodes frame their advice as general creative practice, not stage- or context-specific, making this a genuine tension in his own stated approach across time.",
+      "trend_note": "Dave Gerhardt's own position appears to have shifted: in October 2025 (ep. 295) he advocated for delayed incubation, but by November 2025 (ep. 307) he was recommending immediate AI-assisted brainstorming. Vicente in April 2026 reinforces the immediate-start position. The more recent cluster favors immediate ideation.",
+      "why_it_matters": "How a marketing team structures its ideation process affects both speed and quality of creative output. If immediate AI-assisted brainstorming produces ideas as good as incubated ones, teams can move significantly faster; if it doesn't, rushing ideation may produce mediocre creative that wastes downstream execution resources."
+    }
+  ]
+}

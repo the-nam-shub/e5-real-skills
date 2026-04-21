@@ -1,0 +1,174 @@
+{
+  "category": "sales-enablement",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "templated-vs-co-created-sales-language",
+      "title": "Should marketing create templates for sales to use, or co-create content collaboratively?",
+      "category": "sales-enablement",
+      "positions": [
+        {
+          "position_id": "avoid-templates-use-conversational-language",
+          "stance": "Marketing-created templates with formal, branded language don't work in real sales conversations. Sales teams reject them because they use 'twelfth-grade English sentences' that no rep would naturally say to a prospect in 30 seconds. The solution is conversational, authentic copy—not templates.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Sales messaging and outbound expert; guest on Exit Five",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Explicitly advises against templated language in customer-facing sales conversations, arguing that formal marketing language doesn't work when you have 30 seconds of attention and that sales needs to feel comfortable actually saying the words.",
+              "practice_id": "avoid-templated-customer-conversations"
+            },
+            {
+              "guest_name": "Jen Allen Knuth",
+              "guest_context": "Sales messaging and outbound expert; guest on Exit Five",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Reiterates that sales teams reject marketing-created templates because they use formal, branded language that doesn't sound natural in real conversation. Recommends writing copy a salesperson would actually feel comfortable saying aloud.",
+              "practice_id": "avoid-templated-language-in-sales-materials"
+            }
+          ]
+        },
+        {
+          "position_id": "co-create-templates-collaboratively",
+          "stance": "The problem isn't templates themselves—it's that marketing creates them in isolation. The solution is to sit down with sales reps and co-create content (emails, decks, talking points) in real-time in shared documents. This ensures content is usable and builds shared ownership.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Recommends co-creating sales enablement content with sales team in real-time rather than marketing creating templates in isolation, arguing this ensures content is actually usable and builds credibility between functions.",
+              "practice_id": "co-create-sales-content-with-marketing"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Recommends sitting down with sales reps and collaboratively writing content together in shared documents, building messaging in real-time based on what sales actually says to prospects.",
+              "practice_id": "co-create-sales-content-with-marketing"
+            },
+            {
+              "guest_name": "Kira Federer",
+              "guest_context": "Sales enablement and product marketing leader; guest on Exit Five",
+              "episode_number": 254,
+              "episode_date": "2025-06-12",
+              "evidence": "Recommends including a ground-level seller in the core team for every content launch to ensure content is usable and to create internal advocates, implying structured content creation (including templates) is valuable when done collaboratively.",
+              "practice_id": "co-create-sales-content-with-ground-level-seller"
+            },
+            {
+              "guest_name": "Kira Federer",
+              "guest_context": "Sales enablement and product marketing leader; guest on Exit Five",
+              "episode_number": 184,
+              "episode_date": "2024-10-14",
+              "evidence": "Recommends providing modular content including single-slide options, FAQs, and pre-written social posts—structured templates—as long as they're created with seller input.",
+              "practice_id": "co-create-sales-content-with-ground-level-sellers"
+            },
+            {
+              "guest_name": "Zach Roberts",
+              "guest_context": "Product marketing practitioner; guest on Exit Five",
+              "episode_number": 163,
+              "episode_date": "2024-08-01",
+              "evidence": "Recommends co-creating sales collateral with sales teams through clarifying questions and joint development, rather than creating independently and handing off—implying structured collateral is valuable when built collaboratively.",
+              "practice_id": "co-create-sales-collateral"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially: Jen Allen-Knuth's critique focuses specifically on formal, product-centric language in outbound emails and cold outreach, while the co-creation advocates are speaking more broadly about all sales enablement content. However, both sides are addressing the same core question of whether marketing-produced structured content works for sales, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "This determines how product marketing and sales enablement teams should spend their time—whether the goal is to eliminate templates in favor of conversational coaching, or to build better templates through collaborative processes."
+    },
+    {
+      "disagreement_id": "battle-cards-effective-vs-ineffective",
+      "title": "Are battle cards an effective sales enablement format?",
+      "category": "sales-enablement",
+      "positions": [
+        {
+          "position_id": "battle-cards-ineffective-use-alternatives",
+          "stance": "Battle cards are fundamentally ineffective because they overwhelm sales with too much information in a format that doesn't map to real selling situations. They try to be comprehensive rather than contextual. Replace them with capability-based positioning maps and targeted talk tracks.",
+          "supporters": [
+            {
+              "guest_name": "Talya Heller",
+              "guest_context": "Competitive positioning expert; guest on Exit Five",
+              "episode_number": 246,
+              "episode_date": "2025-05-15",
+              "evidence": "Explicitly recommends rejecting the battle card format in favor of capability-based frameworks (competitive positioning maps) that show which capabilities to emphasize against which competitors, and creating targeted talk tracks only for situations sales will actually encounter.",
+              "practice_id": "avoid-battle-card-format"
+            }
+          ]
+        },
+        {
+          "position_id": "battle-cards-useful-repurpose-with-ai",
+          "stance": "Battle cards are existing assets worth repurposing rather than discarding. Use AI tools like NotebookLM to convert them into alternative formats (e.g., audio summaries, podcasts) that sales teams can consume more easily, increasing adoption without starting from scratch.",
+          "supporters": [
+            {
+              "guest_name": "Talya Heller",
+              "guest_context": "Competitive positioning expert; guest on Exit Five",
+              "episode_number": 246,
+              "episode_date": "2025-05-15",
+              "evidence": "In the same episode, also recommends repurposing battle cards into alternative formats using AI as a way to increase adoption—creating an internal tension where she both rejects the format and suggests repurposing existing ones.",
+              "practice_id": "ai-format-experimentation-for-enablement"
+            },
+            {
+              "guest_name": "Michael Cole",
+              "guest_context": "Product marketing practitioner; guest on Exit Five",
+              "episode_number": 212,
+              "episode_date": "2025-01-21",
+              "evidence": "Recommends building battle cards by analyzing competitor mentions across all sales calls using Gong or Fathom transcripts—treating battle cards as a valuable, actively-built deliverable rather than a format to be replaced.",
+              "practice_id": "use-call-transcripts-for-product-marketing"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Heller's critique may apply more to large, comprehensive battle card documents, while Cole's use case is more targeted competitive intelligence extraction. However, both are speaking to the same general sales enablement context, making this a genuine disagreement about format value.",
+      "trend_note": null,
+      "why_it_matters": "Battle cards are one of the most common sales enablement deliverables product marketers produce; if they're fundamentally the wrong format, teams are wasting significant effort creating content that won't be used."
+    },
+    {
+      "disagreement_id": "events-first-touch-vs-influence",
+      "title": "Should events be used primarily for new pipeline generation or for influencing existing pipeline?",
+      "category": "sales-enablement",
+      "positions": [
+        {
+          "position_id": "events-for-influence-not-first-touch",
+          "stance": "Events deliver the highest ROI when used strategically for influence on existing pipeline—accelerating deals already in progress or in renewal cycles—rather than as a first-touch lead generation channel. Using events for first-touch sourcing is less effective and higher cost.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "CMO at LivePerson; guest on Exit Five",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "States that at LivePerson, events are used to drive face-to-face time with prospects already in the pipeline or in renewal cycles, which accelerates deal closure. Explicitly notes events are less effective as a first-touch sourcing channel.",
+              "practice_id": "events-for-influence-not-first-touch"
+            }
+          ]
+        },
+        {
+          "position_id": "events-for-long-term-pipeline-with-structured-followup",
+          "stance": "Events can and should generate pipeline, but the ROI accrues over 2-3 quarters rather than immediately. Measure event impact over medium to long-term influence with structured SDR follow-up, and document wins that trace back to past events to validate continued investment.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "Marketing leader; guest on Exit Five",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Recommends a portfolio approach where event ROI is measured over 2-3 quarters, with strong SDR follow-up processes post-event to capture leads. Implies events are a legitimate pipeline generation channel when measured correctly, not just an influence tool.",
+              "practice_id": "events-long-term-influence-measurement"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Ruth Zive is speaking from a specific enterprise context (LivePerson), while Jason Lyman's advice may apply more broadly. However, both are addressing the same strategic question of how to deploy events in a B2B GTM motion, making this a genuine disagreement about primary event purpose.",
+      "trend_note": null,
+      "why_it_matters": "How you frame the primary purpose of events determines your event strategy, budget allocation, attendee targeting, and how you measure success—getting this wrong means either underinvesting in pipeline acceleration or misattributing event ROI."
+    }
+  ]
+}

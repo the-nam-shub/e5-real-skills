@@ -1,0 +1,291 @@
+{
+  "category": "channel-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "single-channel-focus-vs-multi-channel-diversification",
+      "title": "Should early-stage or resource-constrained marketers focus on one channel at a time or diversify across multiple channels?",
+      "category": "channel-strategy",
+      "positions": [
+        {
+          "position_id": "single-channel-first",
+          "stance": "Focus all resources on one channel at a time, prove it works, then add the next. Spreading across multiple channels simultaneously creates noise, dilutes effort, and prevents you from achieving meaningful results on any single channel. This is especially critical for early-stage companies with limited budgets.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "When you have limited budget, pick one channel you believe in, concentrate all spend there, prove it works, then move to the next. This creates clear signal and prevents noise from obscuring results.",
+              "practice_id": "concentrate-spend-single-channel-clear-signal"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "For early-stage companies or those with limited marketing budgets (under $100K annual spend), test a single channel thoroughly until you prove it works, then layer in the next channel. This makes it obvious which channel is driving results without needing complex attribution infrastructure.",
+              "practice_id": "test-one-channel-at-time-early-stage"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "B2B content marketer",
+              "episode_number": 233,
+              "episode_date": "2025-03-31",
+              "evidence": "Choose one platform where your target customers concentrate and make it your 'workhorse' platform. Put all your effort into that one channel first before expanding to others.",
+              "practice_id": "focus-single-platform-audience-growth"
+            },
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "B2B social media strategist",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Focus 97-100% of your social effort on LinkedIn before attempting to build presence on other platforms. LinkedIn has enough sub-channels to keep you busy for years. Spreading effort across multiple platforms dilutes your impact.",
+              "practice_id": "linkedin-focus-one-platform-before-expansion"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 209,
+              "episode_date": "2025-01-09",
+              "evidence": "Pick one social platform where your audience is active and commit to learning its unique dynamics before adding another channel. Trying to execute across multiple channels simultaneously dilutes effort and makes it harder to achieve momentum.",
+              "practice_id": "focus-on-one-channel-before-expanding"
+            },
+            {
+              "guest_name": "Erin May",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Build marketing distribution by adding one channel at a time rather than trying to execute across multiple channels simultaneously. This allows you to deeply understand what works in each channel before moving to the next and avoid spreading resources too thin.",
+              "practice_id": "channel-stacking-sequential"
+            },
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B growth and paid ads leader",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "When scaling paid ads from zero, start with a single channel (Google Ads/search) because it's easier to master than social ads. Only after proving search, expand to social platforms like LinkedIn.",
+              "practice_id": "paid-ads-channel-sequencing-strategy"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Select your core content distribution channel based on what you're naturally good at and have been doing for years. Your primary channel should leverage your existing strength; you can add secondary channels later.",
+              "practice_id": "content-channel-selection-by-personal-strength"
+            }
+          ]
+        },
+        {
+          "position_id": "multi-channel-diversification",
+          "stance": "Marketers should build a diversified channel mix rather than relying on any single channel. Over-dependence on one channel creates fragility—if that channel dries up or budgets are cut, you have no fallback. A diversified portfolio is more resilient and reaches buyers across their complex, multi-channel journeys.",
+          "supporters": [
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Customers come into your business through many different paths. Rather than over-indexing on one or two channels, build a diversified marketing mix that accounts for the complexity of how customers actually discover and evaluate your product.",
+              "practice_id": "marketing-mix-diversification-customer-journey"
+            },
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "When a single channel is over-performing and consuming most of the budget, deliberately cap spend on that channel and require the team to hit revenue targets using alternative channels. This forces discovery of non-paid channels and prevents over-reliance on a single tactic.",
+              "practice_id": "budget-constraint-forcing-function"
+            },
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B growth and paid ads leader",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Don't be 100% dependent on brand acquisition because you can't control it, but also don't be 100% dependent on paid because the day the money runs out, it's over. Use paid ads to diversify your acquisition mix so you have both organic/brand channels and paid channels working together.",
+              "practice_id": "paid-ads-budget-diversification-control"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 262,
+              "episode_date": "2025-07-07",
+              "evidence": "Dedicate 70% of content resources to proven channels and 30% to experimental channels. This balance allows you to fund the business while still making strategic bets on future channels.",
+              "practice_id": "allocate-70-30-budget-for-content"
+            }
+          ]
+        }
+      ],
+      "support_summary": "8 vs 4",
+      "context_dependency": "Partially context-dependent: the single-channel-first camp explicitly targets early-stage or budget-constrained companies (Pranav Piyush specifies under $100K spend). The diversification camp tends to address more mature companies or those already operating at scale. However, there is genuine disagreement even within similar contexts—multiple guests give conflicting advice without specifying stage, and some (like Tommy Clark and Dave Gerhardt) advocate single-channel focus without limiting it to early-stage companies.",
+      "trend_note": "The single-channel-first position is well-represented across both older and newer episodes. However, the sequential stacking approach articulated by Erin May (ep. 337, March 2026) adds nuance by framing it as a long-term portfolio-building strategy rather than just an early-stage tactic, suggesting the field may be converging on 'sequential diversification' as a synthesis.",
+      "why_it_matters": "Choosing between focused depth and diversified breadth has direct implications for budget allocation, team structure, and how quickly you can prove ROI. Getting this wrong means either missing signal because you spread too thin, or creating dangerous single-channel dependency that collapses when that channel underperforms."
+    },
+    {
+      "disagreement_id": "seo-viability-in-ai-era",
+      "title": "Is SEO still a viable primary channel given AI search disruption, or should marketers shift resources elsewhere?",
+      "category": "channel-strategy",
+      "positions": [
+        {
+          "position_id": "seo-declining-shift-channels",
+          "stance": "SEO traffic is declining materially due to AI search tools answering queries directly without click-throughs. Marketers should shift resources to video (YouTube), webinars, and events as supplementary channels less vulnerable to AI disruption. Monitor Google Search Console for rising impressions but declining clicks as a leading indicator.",
+          "supporters": [
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "B2B marketing leader at HeyGen",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "SEO traffic is declining across the industry because LLMs and AI search overviews answer questions directly without requiring users to click through to websites. Shift focus to video-based channels like YouTube, webinars, and in-person events.",
+              "practice_id": "seo-declining-shift-to-video-and-events"
+            },
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "B2B marketing leader at HeyGen",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "As AI search tools (ChatGPT, Perplexity) reduce traditional search traffic, repurpose blog posts and landing pages into YouTube videos. YouTube remains a strong search and discovery channel and can help offset the 10-20% decline in traditional organic search traffic.",
+              "practice_id": "use-youtube-to-offset-seo-traffic-decline"
+            }
+          ]
+        },
+        {
+          "position_id": "seo-still-viable-in-underserved-niches",
+          "stance": "Rather than abandoning SEO, identify underserved niches and verticals where SEO competition is low and search intent is high. In many B2B verticals, competitors haven't invested heavily in content, making SEO a wide-open and effective channel. The key is niche selection, not channel abandonment.",
+          "supporters": [
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "B2B SEO and content strategist",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Rather than competing in saturated SEO spaces, look for vertical markets where SEO is underdeveloped. Examples include AI call trainers for sales teams and revenue cycle management, where competitors haven't invested heavily in content and search intent is high.",
+              "practice_id": "focus-on-seo-in-underserved-niches"
+            }
+          ]
+        },
+        {
+          "position_id": "seo-adapt-with-omnichannel-for-ai-visibility",
+          "stance": "Rather than abandoning SEO, adapt by distributing content across multiple channels that LLMs crawl (Reddit, Quora, G2, influencer content, PR). The goal is AI search visibility through omnichannel presence, not traditional SEO alone. This is an evolution of SEO strategy, not a replacement.",
+          "supporters": [
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "B2B content and SEO strategist",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "LLMs crawl multiple sources including Reddit, Quora, Wikipedia, G2/Capterra reviews, influencer content, PR mentions, and event coverage. Repurpose core content into different formats and distribute across channels where LLMs can find it.",
+              "practice_id": "adopt-omnichannel-distribution-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: Brendan Hufford's pro-SEO position is explicitly about underserved niches, which may not apply to companies in competitive categories. Holly Xiao's shift-away position is based on observed traffic declines at HeyGen specifically. However, the core question of whether SEO is worth investing in represents a genuine disagreement about channel trajectory.",
+      "trend_note": "All three positions come from episodes published between May and September 2025, so there is no meaningful chronological pattern. The disagreement appears to be a live debate happening simultaneously among practitioners rather than a field shifting over time.",
+      "why_it_matters": "If SEO traffic is genuinely declining due to AI search, continuing to invest heavily in traditional SEO content is a misallocation of resources. But if the decline is niche-specific or addressable through adaptation, abandoning SEO prematurely could cede ground to competitors."
+    },
+    {
+      "disagreement_id": "paid-vs-organic-as-primary-acquisition-channel",
+      "title": "Should B2B marketers prioritize paid media or owned/organic media as their primary acquisition driver?",
+      "category": "channel-strategy",
+      "positions": [
+        {
+          "position_id": "organic-owned-media-first",
+          "stance": "Owned and organic media is more efficient than paid media for customer acquisition. Paid media stops working the moment you stop spending, while organic channels compound over time and produce higher-quality leads. Airbnb's experience of turning off paid search without slowing growth is cited as evidence.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Kennada",
+              "guest_context": "B2B CMO and category creation expert",
+              "episode_number": 145,
+              "episode_date": "2024-05-30",
+              "evidence": "Owned media is more efficient than paid media for customer acquisition and retention. Airbnb turned off paid search spend and growth did not slow. In downturns, owned media is recession-proof because it doesn't depend on ad spend and produces higher-quality leads that renew and refer.",
+              "practice_id": "organic-growth-efficiency-vs-paid"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "For startups with limited budgets, prioritize organic social channels where you can test messaging and content with zero spend. Identify what resonates organically, then amplify the winning content through paid ads.",
+              "practice_id": "start-with-organic-social-for-startups"
+            }
+          ]
+        },
+        {
+          "position_id": "paid-media-as-necessary-control-lever",
+          "stance": "Paid media is essential because it gives marketers a controllable lever for predictable acquisition. Being 100% dependent on organic/brand channels means you have no way to accelerate growth on demand. Paid and organic should work together, but paid is indispensable for control and scalability.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B growth and paid ads leader",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Don't be 100% dependent on brand acquisition because you can't control it—if someone asks you to double acquisition next month, you have no lever to pull. Use paid ads to diversify your acquisition mix so you have both organic/brand channels and paid channels working together.",
+              "practice_id": "paid-ads-budget-diversification-control"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Pranav Piyush's organic-first advice is explicitly for startups with limited budgets, while Domi de Saint-Exupéry's argument for paid as a control lever likely applies more to growth-stage companies. However, Anthony Kennada's organic-first argument is not stage-limited and represents a genuine philosophical disagreement about channel efficiency.",
+      "trend_note": null,
+      "why_it_matters": "The choice between organic-first and paid-first strategies has major budget implications and determines how quickly a company can scale acquisition. If organic is truly more efficient, over-investing in paid is wasteful; if paid is the necessary control lever, under-investing in it creates growth ceilings."
+    },
+    {
+      "disagreement_id": "search-vs-social-as-first-paid-channel",
+      "title": "Should B2B marketers start with paid search or paid social as their first paid channel?",
+      "category": "channel-strategy",
+      "positions": [
+        {
+          "position_id": "paid-search-first",
+          "stance": "Start with paid search (Google Ads) before paid social. Search is easier to master, more cost-effective, and targets high-intent buyers who are actively looking for solutions. LinkedIn and other paid social platforms should be secondary channels added after search is proven.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B growth and paid ads leader",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Start with a single channel (Google Ads/search) because it's easier to master than social ads. Search works well when market demand is mature and people actively search for your solution. Only after proving search, expand to social platforms like LinkedIn.",
+              "practice_id": "paid-ads-channel-sequencing-strategy"
+            },
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "B2B paid media and landing page strategist",
+              "episode_number": 154,
+              "episode_date": "2024-07-01",
+              "evidence": "When starting with paid distribution for B2B SaaS landing pages, begin with paid search (Google Ads) before LinkedIn. Paid search is typically more cost-effective and allows you to target high-intent keywords. LinkedIn can be expensive and should be considered as a secondary channel.",
+              "practice_id": "paid-search-primary-channel"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "For startups with limited budgets, prioritize organic social channels (LinkedIn, Instagram, TikTok, Reddit, communities) where you can test messaging and content with zero spend. Identify what resonates organically, then amplify the winning content through paid ads.",
+              "practice_id": "start-with-organic-social-for-startups"
+            }
+          ]
+        },
+        {
+          "position_id": "channel-depends-on-demand-maturity",
+          "stance": "The right first paid channel depends on whether market demand already exists. Search only works when buyers are actively searching for your solution. If you're creating a new category or demand doesn't yet exist, social or other channels may be more appropriate first movers.",
+          "supporters": [
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B CMO",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Only ~10% of your target account universe is in-market at any given time. For that 10%, demand capture (paid search, analyst reports) is appropriate. For the 90% out-of-market, demand generation through content and engagement is needed. These require different strategies and channels.",
+              "practice_id": "demand-capture-vs-demand-gen"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Domi de Saint-Exupéry explicitly notes search works when 'market demand is mature and people actively search for your solution,' which aligns with Gurdeep Dhillon's demand-maturity framing. The disagreement may partially dissolve if both camps are accounting for demand maturity—but Tas Bober recommends search-first without this caveat, suggesting a genuine difference in default recommendation.",
+      "trend_note": null,
+      "why_it_matters": "Starting with the wrong paid channel wastes budget and delays learning. If you invest in paid search for a category where buyers aren't yet searching, you'll see poor results; if you invest in paid social when high-intent search demand exists, you're paying more for lower-intent traffic."
+    }
+  ]
+}

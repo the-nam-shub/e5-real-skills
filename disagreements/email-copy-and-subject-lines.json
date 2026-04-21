@@ -1,0 +1,150 @@
+{
+  "category": "email-copy-and-subject-lines",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "from-name-strategy",
+      "title": "Should you send emails from a person's name or vary the from name by content type?",
+      "category": "email-copy-and-subject-lines",
+      "positions": [
+        {
+          "position_id": "send-from-person-name",
+          "stance": "Send marketing emails from a person's name (e.g., 'Jen from Gong') rather than just the company name. This creates a direct, personal connection and performs significantly better.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 167,
+              "episode_date": "2024-08-15",
+              "evidence": "Recommended using a person's name in the friendly from field (e.g., 'Dave from Exit Five') as a best practice for creating personal connection and improving performance.",
+              "practice_id": "send-from-person-not-company-name"
+            }
+          ]
+        },
+        {
+          "position_id": "vary-from-name-by-content",
+          "stance": "Treat the friendly from name as an extension of the subject line and change it with each send to reflect the email's content or offer (e.g., 'Acme Events,' 'Acme Demo,' 'Acme Special Guide'). This increases open rates ~31% and lets you send more emails without fatiguing recipients.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 167,
+              "episode_date": "2024-08-15",
+              "evidence": "Also recommended varying the friendly from name per send to reflect content type, citing a ~31% open rate lift and reduced recipient fatigue—a tactic that conflicts with always using a personal name.",
+              "practice_id": "use-friendly-from-names-as-subject-line-extension"
+            },
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Reiterated the chain optimization framework where the from name/alias should go beyond just the brand name (e.g., 'Acme Special Content' or 'Acme Live Event'), reinforcing content-specific from names over personal names.",
+              "practice_id": "email-chain-optimization-framework"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "These two tactics could theoretically be combined (e.g., 'Jen from Acme Events'), but as stated they represent distinct and conflicting recommendations about what the from name should prioritize—personal identity vs. content-type signaling.",
+      "trend_note": "Schwedelson's later episode (329, Feb 2026) emphasizes content-specific from names without mentioning personal names, suggesting a possible shift in his own thinking toward the content-type approach.",
+      "why_it_matters": "The from name is the first thing recipients see and directly affects open rates; marketers need a clear principle for whether to optimize it for personal connection or content relevance, and these two recommendations pull in opposite directions."
+    },
+    {
+      "disagreement_id": "email-length-for-prospects",
+      "title": "How long should emails to new prospects be?",
+      "category": "email-copy-and-subject-lines",
+      "positions": [
+        {
+          "position_id": "under-75-words",
+          "stance": "For prospects new to your brand, keep emails under 75 words. New prospects barely opened the email and won't read long blocks of text, so brevity is essential.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "Explicitly stated that for prospects new to your brand, keep emails tight (under 75 words) because they barely opened the email and won't read long blocks of text.",
+              "practice_id": "match-email-length-to-recipient-relationship"
+            }
+          ]
+        },
+        {
+          "position_id": "curiosity-driven-structure-no-word-limit",
+          "stance": "Cold outbound emails should follow a multi-step curiosity structure—establishing context, a statistic, a behavior gap, a peer reference, and a question—without a strict word-count ceiling. The structure and prospect-centricity matter more than brevity alone.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Sales and demand creation expert; founder of DemandJen",
+              "episode_number": 343,
+              "episode_date": "2026-04-03",
+              "evidence": "Described a five-step 'perception curiosity' cold email structure that inherently requires more than 75 words to execute properly, with no mention of a word-count constraint—the emphasis is on the structural elements that trigger curiosity.",
+              "practice_id": "perception-curiosity-cold-email"
+            },
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Sales and demand creation expert; founder of DemandJen",
+              "episode_number": 308,
+              "episode_date": "2025-12-01",
+              "evidence": "Advocated for prospect-centric outbound messaging focused on context, behavior, and unintended consequences—a framework that prioritizes structure and relevance over strict brevity.",
+              "practice_id": "avoid-we-centric-outbound-messaging"
+            },
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "Outbound sales and cold email expert",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Recommended writing outbound emails to look like internal company conversations—casual language, short sentences, conversational tone—to increase open and reply rates and avoid spam filters. Did not specify a word count limit.",
+              "practice_id": "write-emails-like-internal-conversation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Schwedelson's under-75-word rule is explicitly for brand-new prospects, while Allen-Knuth's framework is also aimed at cold outbound. Both are addressing the same scenario, making this a genuine disagreement on approach rather than a context mismatch.",
+      "trend_note": "Allen-Knuth's most recent appearance (ep. 343, April 2026) reaffirms the structured multi-step approach, suggesting no convergence toward Schwedelson's brevity rule over time.",
+      "why_it_matters": "Choosing the wrong length strategy for cold prospects directly affects reply rates; a marketer following Schwedelson's rule would cut Allen-Knuth's five-step structure in half, potentially eliminating the curiosity mechanism that drives responses."
+    },
+    {
+      "disagreement_id": "ai-as-email-copywriter",
+      "title": "Should AI be used as a primary email copywriter?",
+      "category": "email-copy-and-subject-lines",
+      "positions": [
+        {
+          "position_id": "ai-as-assistant-only",
+          "stance": "AI should not be your primary email copywriter. It produces generic, median-quality output lacking specificity and personality. Use it for ideation and editing, but have a human write the core copy.",
+          "supporters": [
+            {
+              "guest_name": "Sofia Silva",
+              "guest_context": "Email marketing strategist",
+              "episode_number": 247,
+              "episode_date": "2025-05-19",
+              "evidence": "Explicitly warned against using AI as the primary copywriter, citing its tendency toward generic output that lacks the human insight needed to stand out, especially in nurture emails.",
+              "practice_id": "avoid-ai-as-primary-copywriter"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-integrated-into-copy-workflow",
+          "stance": "AI tools can be trained to match your voice and brand and integrated into the copy workflow. The issue is not AI itself but using it without proper training or human oversight.",
+          "supporters": [
+            {
+              "guest_name": "Sofia Silva",
+              "guest_context": "Email marketing strategist",
+              "episode_number": 247,
+              "episode_date": "2025-05-19",
+              "evidence": "While cautioning against AI as primary copywriter, Silva also noted that AI can be trained to match voice and brand—implying a more integrated role is acceptable with proper setup.",
+              "practice_id": "avoid-ai-as-primary-copywriter"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "N/A",
+      "trend_note": null,
+      "why_it_matters": "N/A"
+    }
+  ]
+}

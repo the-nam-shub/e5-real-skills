@@ -1,0 +1,127 @@
+{
+  "category": "landing-page-and-web-copy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "copy-first-vs-structure-first",
+      "title": "Should you write copy before designing, or prioritize page structure first?",
+      "category": "landing-page-and-web-copy",
+      "positions": [
+        {
+          "position_id": "copy_first",
+          "stance": "Write all copy and messaging before any design or wireframing begins. Copy should drive information hierarchy and design decisions. Starting with design leads to copy being treated as decoration rather than strategy.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization and landing page expert",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Advocates writing the full narrative story about the customer first—where they are, what they're struggling with, what hasn't worked, the solution—then designing to amplify that message.",
+              "practice_id": "write-copy-before-design"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization and landing page expert",
+              "episode_number": 231,
+              "episode_date": "2025-03-24",
+              "evidence": "Explicitly recommends reversing the typical workflow: write full copy first, then wireframe around that copy, then design. Argues that starting with design creates a product-centric mentality.",
+              "practice_id": "write-copy-before-design"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder of CXL; conversion optimization expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "States copy should drive information hierarchy and design decisions, not the reverse. When designers allocate space first, copywriters become decorators rather than strategists.",
+              "practice_id": "copy-first-design-second"
+            }
+          ]
+        },
+        {
+          "position_id": "structure_first",
+          "stance": "Page structure and information hierarchy should be prioritized before polishing copy. A well-written headline in the wrong position will underperform even with great copy, so getting the structure right is the prerequisite.",
+          "supporters": [
+            {
+              "guest_name": "Will Hoekenga",
+              "guest_context": "B2B copywriter and conversion strategist",
+              "episode_number": 181,
+              "episode_date": "2024-10-03",
+              "evidence": "Argues that in the hierarchy of web page effectiveness, structure (what information appears where) matters more than copy polish. Recommends working with design and product marketing to determine information order before writing polished copy.",
+              "practice_id": "page-structure-before-copy-polish"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent. The copy-first vs. structure-first debate may dissolve if interpreted as sequential steps in the same process—Hoekenga may mean 'plan structure before polishing copy' rather than 'design before writing.' However, the explicit advice conflicts: Wolf and Laja say write copy before wireframing/design, while Hoekenga says structure decisions precede copy polish. This is a genuine disagreement about workflow sequencing.",
+      "trend_note": null,
+      "why_it_matters": "The workflow order determines whether messaging or visual layout drives the page, which has downstream effects on whether copy serves the customer's decision-making process or fills pre-allocated design boxes. Getting this wrong can result in copy that's strategically misaligned with how buyers actually evaluate products."
+    },
+    {
+      "disagreement_id": "motivation-vs-friction-reduction-priority",
+      "title": "Should conversion optimization focus primarily on increasing motivation or reducing friction?",
+      "category": "landing-page-and-web-copy",
+      "positions": [
+        {
+          "position_id": "motivation_first",
+          "stance": "Motivation is 10x more powerful than friction reduction. Users with high motivation will tolerate significant friction. Focus messaging and copy on making people want to take action rather than optimizing form fields or removing steps.",
+          "supporters": [
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder of CXL; conversion optimization expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Explicitly states motivation is 10x more powerful than friction reduction and that motivated users will tolerate long forms and gated content. Argues motivation is driven by words and messaging, not design.",
+              "practice_id": "motivation-over-friction-reduction"
+            }
+          ]
+        },
+        {
+          "position_id": "friction_reduction_matters",
+          "stance": "Reducing friction is a meaningful and actionable lever for conversion optimization. Specific friction points like vague CTAs, mismatched expectations, and cognitive overload in the hero section directly reduce conversions and should be actively addressed.",
+          "supporters": [
+            {
+              "guest_name": "Gabby Sellam",
+              "guest_context": "Landing page and conversion optimization specialist",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "Recommends limiting hero content to reduce cognitive load, keeping headlines to three lines maximum, and avoiding overloading visitors with too much information above the fold—all friction-reduction tactics.",
+              "practice_id": "avoid-overloading-information"
+            },
+            {
+              "guest_name": "Robert Kaminski",
+              "guest_context": "B2B product page and messaging strategist",
+              "episode_number": 222,
+              "episode_date": "2025-02-24",
+              "evidence": "Argues that mismatched CTAs (e.g., 'Get started' leading to a demo form) create friction and reduce conversions, and that excessive copy overwhelms visitors. Treats friction reduction as a primary optimization lever.",
+              "practice_id": "product-page-cta-match-prospect-expectation"
+            },
+            {
+              "guest_name": "Scott Cappuzzo",
+              "guest_context": "CRO and landing page optimization specialist",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Recommends testing CTA copy as a 'low-friction optimization' and using action-oriented language to reduce friction and increase clarity, treating friction reduction as a meaningful conversion lever.",
+              "practice_id": "test-cta-copy-for-quick-wins"
+            },
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Landing page strategist and B2B conversion expert",
+              "episode_number": 185,
+              "episode_date": "2024-10-17",
+              "evidence": "Recommends using a single consistent CTA throughout the page specifically to reduce decision fatigue — a friction-reduction argument — as a primary conversion optimization tactic.",
+              "practice_id": "single-cta-reduce-decision-fatigue"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent. Laja's claim that motivation is '10x more powerful' than friction reduction may apply more to top-of-funnel or high-consideration purchases where desire is the bottleneck, while friction reduction may matter more for high-intent, bottom-of-funnel pages where motivation is already present. However, Laja makes the claim as a general principle, not stage-specific, making this a genuine disagreement at the level of strategic prioritization.",
+      "trend_note": "The three friction-reduction advocates all appear in more recent episodes (2025), while Laja's motivation-first argument is from early 2024. This may reflect a field shift toward tactical friction optimization, though the sample is too small to be conclusive.",
+      "why_it_matters": "If Laja is right, B2B marketers are wasting time on CTA copy tests and form optimization when they should be investing in stronger messaging and value propositions. If the friction-reduction camp is right, ignoring tactical page improvements leaves measurable conversion gains on the table."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "category": "content-planning-and-editorial-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 4,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-vs-human-content-creation",
+      "title": "Should B2B marketers prioritize human-created content over AI-generated content as a competitive moat?",
+      "category": "content-planning-and-editorial-strategy",
+      "positions": [
+        {
+          "position_id": "human-creativity-as-moat",
+          "stance": "Human creativity, real actors, and authentic human moments create emotional connection that AI cannot replicate. In a world of commoditized AI content, investing in real creators and writers is the primary competitive advantage. AI-generated content feels artificial and lacks the nuance that makes content resonate.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "Guest, episode 347",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Argued that audiences still prefer human-created content and that real actors, genuine scripts, and authentic human moments create emotional connection AI cannot replicate. Framed human creativity as the primary competitive advantage when product differentiation is increasingly difficult.",
+              "practice_id": "human-creativity-moat-over-ai"
+            },
+            {
+              "guest_name": "Mark Schaefer",
+              "guest_context": "Guest, episode 261",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "Advocated for raw, unpolished, lo-fi content with intentional imperfection to signal authenticity and human emotion, explicitly noting that audiences are rejecting over-polished, mass-produced content. Framed this as a trend across gaming, video, and social platforms.",
+              "practice_id": "raw-lo-fi-content-over-polish"
+            },
+            {
+              "guest_name": "Ryan Narod",
+              "guest_context": "Guest, episode 330",
+              "episode_number": 330,
+              "episode_date": "2026-02-17",
+              "evidence": "Recommended moving away from corporate, faceless content and hiring people with distinctive personalities who are comfortable being on camera. Argued individual personalities become brand assets and make content more trustworthy and shareable.",
+              "practice_id": "inject-human-personality-into-content"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Argued that in the AI era, audiences are skeptical of generic AI-generated content and trust human expertise and voice, making founder expertise and authentic human perspective the most compelling marketing content.",
+              "practice_id": "founder-brand-content-leverage"
+            }
+          ]
+        },
+        {
+          "position_id": "shift-content-strategy-for-ai-era",
+          "stance": "As LLMs become the primary interface for information discovery, traditional informational content loses value regardless of whether it's human or AI-created. Marketers must shift from answer-based content to awareness and attention content at the top of the funnel, and optimize conversion experiences once a contact is captured. The human vs. AI distinction matters less than the strategic shift in content purpose.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest, episode 318 and 257",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Predicted that 95% of B2B buyer journeys will start with LLM assistants by 2027, making informational content (regardless of creator) less valuable. Argued the strategic imperative is shifting from answer-based content to awareness content, not doubling down on human creation.",
+              "practice_id": "shift-from-informational-to-action-content"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent: Kieran Flanagan's position applies most forcefully to SEO-driven informational content, while the human creativity advocates are speaking more broadly about brand and social content. However, both camps are making claims about the same AI-disrupted environment, and their prescriptions genuinely conflict—one says invest more in human creators, the other says the content type itself needs to change regardless of creator.",
+      "trend_note": "The human creativity advocates span 2024-2026, so there is no clear chronological clustering. However, Kieran Flanagan's position (episodes 257 and 318, mid-2025 to early 2026) represents a more structurally disruptive view that emerged as LLM adoption accelerated.",
+      "why_it_matters": "B2B marketers deciding where to invest limited content budgets need to know whether doubling down on human creators is the right hedge against AI commoditization, or whether the entire content strategy model needs to change regardless of who creates the content."
+    },
+    {
+      "disagreement_id": "gated-content-vs-interactive-tools",
+      "title": "Should mid-funnel content be gated ebooks/whitepapers or interactive tools?",
+      "category": "content-planning-and-editorial-strategy",
+      "positions": [
+        {
+          "position_id": "replace-gated-content-with-interactive-tools",
+          "stance": "Replace traditional gated content (ebooks, whitepapers) with interactive tools that solve a specific problem for prospects in the mid-funnel. Tools like website graders, A/B test previews, or product trial tools provide immediate value, capture intent data, and create engagement moments that move prospects closer to sales conversations without requiring a demo request upfront.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 271,
+              "episode_date": "2025-08-07",
+              "evidence": "Explicitly recommended replacing traditional gated content with interactive tools, citing examples like website graders and A/B test previews as superior mid-funnel assets.",
+              "practice_id": "mid-funnel-tools-over-gated-content"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "Guest, episode 201",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Recommended building free mid-intent tools or calculators that solve a specific problem, citing HubSpot's Website Grader and Drift's free chatbot trial as examples. Argued these work well in paid campaigns because they provide genuine utility and can be shared.",
+              "practice_id": "build-mid-intent-funnel-tools"
+            },
+            {
+              "guest_name": "Dave Steer",
+              "guest_context": "Guest, episode 324",
+              "episode_number": 324,
+              "episode_date": "2026-01-27",
+              "evidence": "Recommended building free assessment tools that provide real value to prospects without immediate conversion pressure, citing Webflow's free AEO assessment tool as an example. Argued this builds trust and creates authentic touchpoints.",
+              "practice_id": "generous-content-value-principle"
+            }
+          ]
+        },
+        {
+          "position_id": "use-high-value-content-assets-not-direct-response",
+          "stance": "In sales-led B2B organizations, replace direct response ads and gated lead-gen content with high-value content assets like playbooks or reports that help prospects with their job regardless of whether they use your product. This reduces ad spend waste and improves intent quality by letting prospects self-select into consideration.",
+          "supporters": [
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "Guest, episode 190",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Recommended stopping direct response ads and gated content in sales-led B2B companies, arguing the gap between awareness and demo is too large. Advocated for high-value content assets like playbooks or reports instead.",
+              "practice_id": "kill-direct-response-ads-for-sales-led"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "These positions are more complementary than conflicting—both reject traditional gated ebooks, but one recommends interactive tools while the other recommends ungated high-value content assets. The disagreement is about what replaces gated content, not whether to replace it. This may dissolve if you account for different funnel stages and GTM motions.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong replacement for gated content wastes budget—interactive tools require engineering investment while ungated content assets require content investment, and the right choice depends on your GTM motion and funnel structure."
+    },
+    {
+      "disagreement_id": "content-format-selection-criteria",
+      "title": "Should you choose your content format based on personal strength/passion or based on where your audience is?",
+      "category": "content-planning-and-editorial-strategy",
+      "positions": [
+        {
+          "position_id": "choose-format-by-personal-strength",
+          "stance": "Select your primary content format based on what you're naturally good at and genuinely enjoy, not based on what's trendy or where the audience is. If you've been making videos since childhood, start with video. If you're a natural writer, write. This removes the learning curve and lets you focus on quality and consistency. You can add secondary channels later.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Explicitly recommended choosing your primary content channel based on personal strength and fluency, not market trends, arguing this removes the learning curve and lets you focus on quality.",
+              "practice_id": "content-channel-selection-by-personal-strength"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "Guest, episode 207 and 142",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Recommended choosing content format based on what you genuinely enjoy creating and your natural strengths, arguing that forcing yourself into a format you don't enjoy results in mediocre output and burnout.",
+              "practice_id": "match-content-format-to-passion"
+            }
+          ]
+        },
+        {
+          "position_id": "choose-format-by-audience-and-channel",
+          "stance": "Start by identifying which channels will distribute the content and where your pipeline will come from, then design content to fit those channels. Content should be optimized for distribution and reach your audience where they actually are, not where the creator is most comfortable.",
+          "supporters": [
+            {
+              "guest_name": "Erin May",
+              "guest_context": "Guest, episode 337",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Recommended a channel-first approach to content planning, arguing that starting with channel selection ensures content reaches your audience where they actually are rather than creating content and hoping it finds an audience.",
+              "practice_id": "bangers-channel-first-planning"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Erin May's advice is specifically about planning major tentpole campaigns where distribution is a primary constraint, while Gerhardt and Lemkin are speaking about personal brand and ongoing content strategy. However, the underlying question—what should drive format selection—is the same, and the answers genuinely conflict.",
+      "trend_note": null,
+      "why_it_matters": "A marketer who picks a format they're bad at because it's where the audience is will produce low-quality content; a marketer who picks a format they love but that doesn't reach their audience will produce great content nobody sees—understanding which constraint matters more is critical."
+    },
+    {
+      "disagreement_id": "competitor-mentions-in-content",
+      "title": "Should you mention competitors in your content?",
+      "category": "content-planning-and-editorial-strategy",
+      "positions": [
+        {
+          "position_id": "mention-competitors-for-credibility",
+          "stance": "Acknowledge and mention competitors in your content to build credibility and authenticity. When answering questions, name competing tools alongside your own. This shows you're not biased, makes content feel more authentic, and builds trust with audiences who see you as a genuine resource rather than a sales pitch.",
+          "supporters": [
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Guest, episode 200",
+              "episode_number": 200,
+              "episode_date": "2024-12-09",
+              "evidence": "Explicitly recommended mentioning competitors in content, giving the example of saying 'there are actually a handful of great tools out there, like Close, HubSpot, Salesforce' rather than only pushing your own product. Argued this drives higher engagement and trust.",
+              "practice_id": "mention-competitors-in-content"
+            },
+            {
+              "guest_name": "Dan Cmejla",
+              "guest_context": "Guest, episode 134",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Recommended using competitive commentary as a content pillar, calling out competitor weaknesses or practices (with ethical guardrails: don't punch down, don't make it personal, don't share private information). Argued this creates engaging content that resonates with customers who have had negative experiences with competitors.",
+              "practice_id": "competitive-commentary-within-bounds"
+            }
+          ]
+        },
+        {
+          "position_id": "avoid-competitor-mentions-at-top-of-funnel",
+          "stance": "Resist creating comparison content or mentioning competitors at the top of the funnel. Instead, architect a 'from-to' journey that forces your audience to choose a different future state rather than compare you to alternatives. This avoids introducing competitors to prospects who may not have heard of them and keeps the conversation focused on your unique vision.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "Guest, episode 206",
+              "episode_number": 206,
+              "episode_date": "2024-12-30",
+              "evidence": "Explicitly recommended avoiding competitor comparison pages or content at the top of the funnel, arguing that such content introduces competitors to prospects who may not have heard of them and shifts focus away from your unique vision and problem definition.",
+              "practice_id": "force-choice-not-comparison"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Kyle Coleman's advice is specifically about top-of-funnel content and comparison pages, while Ross Simmonds is talking about general content credibility and Dan Cmejla is talking about competitive commentary as a content pillar. However, all three are addressing the same underlying question of whether to name competitors in your content, and the prescriptions conflict at the top-of-funnel stage.",
+      "trend_note": null,
+      "why_it_matters": "Mentioning competitors can build credibility and authenticity but risks educating prospects about alternatives they hadn't considered—getting this wrong at the top of funnel could actively send prospects to competitors."
+    }
+  ]
+}

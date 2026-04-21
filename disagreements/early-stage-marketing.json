@@ -1,0 +1,48 @@
+{
+  "category": "early-stage-marketing",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "single-channel-vs-multi-channel-early-stage",
+      "title": "Should early-stage companies test one marketing channel at a time or stack channels sequentially?",
+      "category": "early-stage-marketing",
+      "positions": [
+        {
+          "position_id": "strict-one-channel-at-a-time",
+          "stance": "Early-stage companies with under $100K in annual marketing spend should test a single channel thoroughly until it is fully validated before adding any additional channels. Running multiple channels simultaneously creates attribution complexity that cannot be resolved without expensive infrastructure, and dilutes learning.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "CEO/Co-founder, Paramark",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Explicitly recommends testing one channel at a time for companies spending under $100K annually, arguing it makes results obvious without needing attribution software. Only layer in the next channel after the first is fully proven.",
+              "practice_id": "test-one-channel-at-time-early-stage"
+            }
+          ]
+        },
+        {
+          "position_id": "sequential-channel-stacking",
+          "stance": "Build marketing distribution by adding one channel at a time sequentially, but the goal is to build a diversified portfolio of channels over time. Once a channel is established and generating results, add the next one, and actively throttle and dial up/down investment across channels as they mature.",
+          "supporters": [
+            {
+              "guest_name": "Erin May",
+              "guest_context": "VP Marketing, User Interviews",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Recommends stacking channels sequentially to avoid spreading resources thin and to deeply understand each channel before moving on, with the explicit end goal of building a diversified multi-channel portfolio that can be actively managed.",
+              "practice_id": "channel-stacking-sequential"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially. Pranav Piyush explicitly scopes his advice to companies spending under $100K annually, while Erin May does not specify a budget threshold. The core tension—whether the end goal is a single validated channel or a growing portfolio—remains a genuine disagreement in the early-stage context both are addressing. Pranav's framing is more restrictive (prove one fully before touching another), while Erin's framing treats sequential stacking as a path to deliberate multi-channel diversification.",
+      "trend_note": "The more recent guest (Erin May, March 2026) advocates for sequential stacking toward a multi-channel portfolio, while the earlier guest (Pranav Piyush, April 2025) advocates for strict single-channel focus. This may reflect a modest shift toward accepting channel diversification as a near-term goal even for early-stage companies, but the sample is too small to draw a firm conclusion.",
+      "why_it_matters": "The choice between strict single-channel focus and sequential stacking toward a portfolio directly affects how a startup allocates its limited time and budget in its first 12–18 months. Getting this wrong either leaves growth on the table (too narrow) or creates measurement chaos and diluted execution (too broad, too soon)."
+    }
+  ]
+}

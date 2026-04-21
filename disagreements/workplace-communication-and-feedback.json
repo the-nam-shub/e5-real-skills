@@ -1,0 +1,64 @@
+{
+  "category": "workplace-communication-and-feedback",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "direct-feedback-vs-curiosity-questions",
+      "title": "Should managers give direct feedback and directives, or use probing questions and curiosity to guide team members?",
+      "category": "workplace-communication-and-feedback",
+      "positions": [
+        {
+          "position_id": "direct-feedback-and-directives",
+          "stance": "When you have a strong point of view, state it directly rather than using probing questions to steer people toward your thinking. Direct feedback is faster, more honest, and more respectful of people's time. Teams appreciate leaders with high standards who can articulate them clearly.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "SVP Marketing, HubSpot",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Flanagan argues that asking probing questions while steering toward a predetermined answer is a form of manipulation. He says teams prefer working for craftspeople who will say 'I want to do it this way' rather than pretending to ask questions.",
+              "practice_id": "direct-feedback-over-probing-questions"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "SVP Marketing, HubSpot",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Flanagan reiterates that direct creative feedback is faster, more honest, and helps people learn better than being guided through questions used as disguised directives.",
+              "practice_id": "direct-creative-feedback-over-probing"
+            }
+          ]
+        },
+        {
+          "position_id": "curiosity-and-listening-over-directing",
+          "stance": "When facing conflict or criticism, adopt genuine curiosity and listen more rather than immediately stating your position or defending. Asking 'Why does this bother you?' or 'Tell me more' helps you understand the other person's perspective and prevents premature defensiveness. Listening is a tactical first step to break unproductive communication patterns.",
+          "supporters": [
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "Executive-in-residence, Balderton Capital; former CEO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "Kellogg draws on sales training around 'selling through curiosity' and argues that asking questions like 'Why does this bother you so much?' helps you step out of emotional reactions and understand the other person's perspective rather than winning the argument.",
+              "practice_id": "use-genuine-curiosity-in-conflict"
+            },
+            {
+              "guest_name": "Dave Kellogg",
+              "guest_context": "Executive-in-residence, Balderton Capital; former CEO",
+              "episode_number": 342,
+              "episode_date": "2026-03-31",
+              "evidence": "Kellogg identifies defensive interruption ('But you don't understand...') as a common CMO failure pattern and prescribes listening more as the simplest corrective action, arguing that you literally cannot be defensive while receiving information.",
+              "practice_id": "listen-more-reduce-defensiveness"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent. Flanagan's advice is specifically about giving feedback on creative work and directing team members when you have expertise and strong opinions. Kellogg's advice is specifically about receiving criticism from peers, board members, or sales — a defensive reaction context. The disagreement partially dissolves if you separate 'giving feedback downward to your team' (Flanagan's context) from 'responding to criticism from peers or superiors' (Kellogg's context). However, both guests frame their advice broadly enough that there is genuine tension: Flanagan explicitly argues against using questions as a communication tool in favor of directness, while Kellogg explicitly argues for questions and listening as the superior communication move.",
+      "trend_note": "Both positions appear in 2025–2026 episodes, so no chronological pattern exists.",
+      "why_it_matters": "A B2B marketing leader who defaults to one approach in all situations risks either being perceived as manipulative (overusing probing questions) or as dismissive and closed-off (defaulting to directives when listening would build more trust). Knowing which mode to apply in which context is a core leadership communication skill."
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "category": "testing-and-experimentation",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 3,
+  "disagreements": [
+    {
+      "disagreement_id": "experimentation-budget-allocation-percentage",
+      "title": "What percentage of marketing budget should be allocated to experimentation?",
+      "category": "testing-and-experimentation",
+      "positions": [
+        {
+          "position_id": "five-to-ten-percent",
+          "stance": "Allocate 5-10% of marketing budget to experimentation. This is sufficient to test new channels and unforeseen opportunities without overcommitting to uncertain outcomes. In a profitability-focused environment, experimentation should be capped at 5% of total spend.",
+          "supporters": [
+            {
+              "guest_name": "Udi Ledergor",
+              "guest_context": "Former CMO, Gong",
+              "episode_number": 237,
+              "episode_date": "2025-04-14",
+              "evidence": "Recommends 5-10% of annual program budgets as an official 'marketing experiments' line item, justified to CFO/CEO as covering unforeseen opportunities and continuous channel testing.",
+              "practice_id": "marketing-experiments-budget-line-item"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "CMO, Kyndryl",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Recommends reserving 10% of marketing budget and team time for true experiments with genuinely unknown outcomes, separate from core performance goals.",
+              "practice_id": "carve-10-percent-budget-experimentation"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "CEO, Paramark",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Recommends allocating 10-20% of annual marketing budget specifically for testing new channels and validating hypotheses, secured during annual planning.",
+              "practice_id": "reserve-10-20-percent-testing-budget"
+            },
+            {
+              "guest_name": "Ido Mart",
+              "guest_context": "VP Marketing",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "In a profitability-focused environment, reduce experimentation allocation to 5% of total spend, down from the 20-30% that was common in growth-at-all-costs eras.",
+              "practice_id": "experimentation-budget-efficiency-era"
+            },
+            {
+              "guest_name": "Kym Parker",
+              "guest_context": "B2B paid media consultant",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Caps testing budget at 15% of total budget when testing new paid channels.",
+              "practice_id": "test-budget-cap-and-duration"
+            }
+          ]
+        },
+        {
+          "position_id": "twenty-to-thirty-percent",
+          "stance": "Allocate 20-30% of marketing budget to experimentation. The rapid pace of change in AI and marketing requires a higher experimentation budget. This higher allocation ensures teams can discover new growth levers before current channels saturate.",
+          "supporters": [
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "CMO, Domo",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Advocates shifting from a 70-20-10 model to a 60-20-20 model where 20% is dedicated to experimentation, reflecting the rapid pace of change in AI and marketing.",
+              "practice_id": "experimentation-budget-allocation"
+            },
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "Founder, Curdly; former VP Marketing",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Recommends allocating 20-30% of marketing budget and team capacity for experiments and brand initiatives that don't require immediate ROI reporting, framing 80% for today's goals and 20% for tomorrow's.",
+              "practice_id": "allocate-20-30-percent-budget-experimentation"
+            },
+            {
+              "guest_name": "Rowan Tonkin",
+              "guest_context": "CMO, Planful",
+              "episode_number": 197,
+              "episode_date": "2024-11-28",
+              "evidence": "Recommends 10-20% of budget for experiments as a distinct category, with 55-75% for strategic/productive spend.",
+              "practice_id": "segment-budget-by-strategic-vs-experimental-spend"
+            }
+          ]
+        },
+        {
+          "position_id": "seventy-thirty-proven-experimental",
+          "stance": "Allocate 70% to proven channels and 30% to experimental bets. The 30% experimental allocation should have its own budget carve-out so underperformance on new tests does not tank overall marketing metrics.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "VP Marketing, Crossbeam",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Explicitly recommends a 70/30 split between mature proven channels and experimental new channels or tactics, with the 30% having its own carve-out.",
+              "practice_id": "70-30-budget-allocation-proven-experimental"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 274,
+              "episode_date": "2025-08-18",
+              "evidence": "Recommends roughly 70% of marketing budget to people, programs, and tools that directly support hitting this year's goals, and 30% to experiments and longer-term foundational work.",
+              "practice_id": "budget-allocation-70-30-split"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 187,
+              "episode_date": "2024-10-24",
+              "evidence": "Recommends splitting marketing budget roughly 70% toward programs directly supporting current year goals and 30% toward experiments and longer-term investments.",
+              "practice_id": "70-30-budget-allocation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 3 vs 3",
+      "context_dependency": "Partially context-dependent: Ido Mart explicitly ties the lower 5% figure to a profitability-focused environment versus the 20-30% that was common in growth-at-all-costs eras. However, even controlling for company stage and financial environment, there is genuine disagreement—Udi Ledergor (5-10%) and Adam Goyette (20-30%) are both speaking about healthy, growth-oriented companies without specifying a profitability constraint. The 70/30 framing from Drew Pinta and Dave Gerhardt is structurally different (it's about proven vs. experimental, not a small carve-out), making this a genuine multi-position disagreement.",
+      "trend_note": "The two most recent guests (Drew Pinta, ep. 346, April 2026; Sydney Sloan, ep. 289, Oct 2025) land on opposite ends—30% and 20% respectively—so no clear directional trend by recency.",
+      "why_it_matters": "The difference between a 5% and 30% experimentation budget is enormous in practice: it determines how many new channels a team can test per year and how much organizational risk they're taking on. Getting this wrong in either direction either starves innovation or destabilizes core performance."
+    },
+    {
+      "disagreement_id": "organic-first-vs-paid-first-creative-validation",
+      "title": "Should you test creative organically before investing in paid distribution?",
+      "category": "testing-and-experimentation",
+      "positions": [
+        {
+          "position_id": "organic-first-validate-then-amplify",
+          "stance": "Always test content organically first to validate resonance before spending paid budget. Use organic engagement signals (likes, comments, shares) as proof that the message will perform when amplified. Only pay to scale content that has already demonstrated audience appeal.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Recommends posting content organically on LinkedIn first to validate resonance before investing paid media budget, using organic engagement as a clear indicator of paid performance.",
+              "practice_id": "organic-to-paid-creative-validation"
+            },
+            {
+              "guest_name": "Dasha Shakov",
+              "guest_context": "B2B LinkedIn marketing specialist",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "Recommends posting content organically on LinkedIn first to validate engagement before allocating paid budget, then boosting high-performing posts as thought leader ads.",
+              "practice_id": "linkedin-organic-test-before-paid-ads"
+            },
+            {
+              "guest_name": "Harry Dry",
+              "guest_context": "Founder, Marketing Examples",
+              "episode_number": 303,
+              "episode_date": "2025-11-13",
+              "evidence": "Recommends testing story-driven content on social media first to validate resonance before committing budget to paid channels or mainstream publications.",
+              "practice_id": "test-story-on-social-before-paid"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Recommends analyzing last 60+ posts to find highest-engagement topics, then using those signals to inform which video concepts are worth producing—organic signals inform production investment.",
+              "practice_id": "test-video-ideas-organic-social-before-production"
+            },
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "Founder, Clark Content Studio",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Recommends amplifying high-performing organic posts with LinkedIn thought leader ads, explicitly stating this is more efficient than spending paid budget upfront to test messaging.",
+              "practice_id": "linkedin-organic-to-paid-amplification"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "CEO, Passetto; founder, Refine Labs",
+              "episode_number": 139,
+              "episode_date": "2024-05-09",
+              "evidence": "Recommends creating 10 pieces of content and distributing organically to identify which resonate before spending paid media budget, explicitly contrasting this with the old 2015 approach of running everything in ads and hoping something works.",
+              "practice_id": "organic-first-paid-amplification-strategy"
+            },
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "B2B demand gen marketer",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Recommends testing creative on organic channels first to validate performance before deploying to paid.",
+              "practice_id": "creative-investment-multi-channel-campaigns"
+            }
+          ]
+        },
+        {
+          "position_id": "paid-ads-as-primary-testing-vehicle",
+          "stance": "Paid ads are a fast and effective way to test messaging hypotheses, especially when entering new markets or validating positioning. Use paid channels as the testing mechanism itself rather than as an amplification layer after organic validation.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "B2B growth marketer",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Recommends using paid ads to test messaging hypotheses across new geographic markets before full investment, running small ad tests with standard messaging first and using poor performance as a signal to test alternative messaging hypotheses.",
+              "practice_id": "paid-ads-market-testing-messaging"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder, Wynter and CXL",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Recommends testing messaging with target customers before launching paid campaigns, but frames paid campaigns as the vehicle for scaling validated messages—not organic as the validation step.",
+              "practice_id": "message-testing-before-paid-spend"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Founder, GetUplift; CRO specialist",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Recommends using email and paid advertising as testing grounds for messaging before implementing on the website, treating paid ads as a testing mechanism rather than an amplification layer.",
+              "practice_id": "test-email-and-ad-messaging-before-website"
+            }
+          ]
+        }
+      ],
+      "support_summary": "7 vs 3",
+      "context_dependency": "Partially context-dependent: the organic-first approach assumes you have an existing organic audience large enough to generate meaningful signal. For new brands, new markets, or new geographies (Domi's use case), organic audiences may not exist, making paid ads the only viable testing mechanism. However, for established brands with existing LinkedIn or social followings, the disagreement is genuine—Tommy Clark explicitly says organic-first is 'more efficient than spending paid budget upfront to test messaging.'",
+      "trend_note": null,
+      "why_it_matters": "The organic-first approach saves paid budget by only amplifying proven content, but it requires patience and an existing audience. The paid-first approach generates faster signal but burns budget on unvalidated creative—choosing the wrong approach can waste significant spend or slow down learning velocity."
+    },
+    {
+      "disagreement_id": "single-channel-vs-multi-channel-testing",
+      "title": "Should early-stage or budget-constrained companies test one channel at a time or multiple channels simultaneously?",
+      "category": "testing-and-experimentation",
+      "positions": [
+        {
+          "position_id": "one-channel-at-a-time",
+          "stance": "When you have limited budget (under $100K annual spend), test a single channel thoroughly until you prove it works, then layer in the next channel. Concentrating spend on one channel creates clear signal and prevents noise from obscuring results. Spreading spend across five channels simultaneously makes it impossible to know what's working.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "CEO, Paramark",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Explicitly recommends: 'When you have limited budget, do not spray spend across five channels simultaneously. Instead, pick one channel you believe in, concentrate all spend there, prove it works, then move to the next channel.' Specifies this is especially important for early-stage companies with small budgets.",
+              "practice_id": "concentrate-spend-single-channel-clear-signal"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "CEO, Paramark",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "For early-stage companies or those with under $100K annual spend, recommends testing a single channel thoroughly until proven, then layering in the next channel, explicitly stating this makes it obvious which channel is driving results without complex attribution infrastructure.",
+              "practice_id": "test-one-channel-at-time-early-stage"
+            },
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "B2B marketing consultant",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Recommends isolating variables by running only one thing at a specific point in the funnel to establish causation rather than correlation.",
+              "practice_id": "single-variable-testing-for-causation"
+            }
+          ]
+        },
+        {
+          "position_id": "start-spending-across-channels-to-learn",
+          "stance": "When allocating a new marketing budget with limited historical data, start spending and testing immediately across channels rather than waiting for perfect information. The only way to understand efficiency curves and performance on each channel is to spend money and collect data points.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "VP Marketing, Crossbeam",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Recommends starting spending and testing immediately rather than waiting for perfect information, arguing the only way to understand efficiency curves is to spend money and collect data points across channels.",
+              "practice_id": "start-spending-to-learn-efficiency-curves"
+            }
+          ]
+        },
+        {
+          "position_id": "multi-channel-surround-sound-from-start",
+          "stance": "Running a multi-channel surround sound strategy from the outset—showing up everywhere your audience is—is more effective than sequential single-channel testing. Test creative variants within a single channel first, but execute across multiple channels simultaneously.",
+          "supporters": [
+            {
+              "guest_name": "Tess Pfeifle",
+              "guest_context": "B2B demand gen marketer",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Recommends testing different creative approaches on one channel to identify top performers before scaling to multi-channel campaigns—but the end goal is multi-channel execution, not single-channel focus.",
+              "practice_id": "test-creative-variants-before-scaling"
+            },
+            {
+              "guest_name": "Richard Meyer",
+              "guest_context": "B2B paid media specialist",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Recommends validating third-party audience data on one channel (LinkedIn) before scaling to multiple channels (Facebook, Google Display, etc.)—the framework assumes multi-channel execution is the goal.",
+              "practice_id": "validate-targeting-before-scaling-channels"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "Recommends running bold marketing experiments in parallel with existing marketing efforts rather than stopping core activities to pursue the experiment, reducing organizational risk.",
+              "practice_id": "parallel-experimentation-not-replacement"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 3 vs 1",
+      "context_dependency": "Partially context-dependent: Pranav Piyush explicitly scopes his single-channel advice to companies under $100K annual spend. Drew Pinta's advice about starting to spend immediately may apply to companies with larger budgets entering new channels. However, the core question of whether to concentrate or diversify early-stage spend is a genuine disagreement even within the same budget context.",
+      "trend_note": null,
+      "why_it_matters": "For budget-constrained B2B marketers, the difference between concentrating spend on one channel versus spreading across multiple channels determines whether you get clear signal or noisy, uninterpretable data—directly affecting how quickly you can identify what's actually driving pipeline."
+    },
+    {
+      "disagreement_id": "ab-testing-b2b-landing-pages-worth-it",
+      "title": "Should B2B marketers run A/B tests on landing page elements?",
+      "category": "testing-and-experimentation",
+      "positions": [
+        {
+          "position_id": "stop-ab-testing-micro-elements",
+          "stance": "B2B companies should stop A/B testing button colors, copy variations, and other micro-elements on landing pages. B2B companies lack sufficient conversion volume to achieve statistical significance, and most teams don't understand statistical significance anyway, leading to premature and misleading conclusions. Focus instead on larger strategic decisions.",
+          "supporters": [
+            {
+              "guest_name": "Tom Wentworth",
+              "guest_context": "CMO, Recorded Future",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Explicitly recommends discontinuing A/B testing of button colors, copy variations, and micro-elements on B2B landing pages due to insufficient conversion volume for statistical significance.",
+              "practice_id": "stop-ab-testing-b2b-landing-pages"
+            }
+          ]
+        },
+        {
+          "position_id": "continue-ab-testing-with-right-approach",
+          "stance": "B2B marketers should continue A/B testing landing pages, but with the right methodology. Use alternative testing methods (preference tests, user testing) when traffic is too low for controlled A/B tests. The 200K monthly user threshold applies to controlled hypothesis tests; below that, use other methods rather than abandoning testing entirely.",
+          "supporters": [
+            {
+              "guest_name": "Haley Carpenter",
+              "guest_context": "CRO consultant",
+              "episode_number": 282,
+              "episode_date": "2025-09-15",
+              "evidence": "Recommends 200K monthly users as the threshold for controlled A/B tests, but explicitly advocates for alternative testing methods (preference tests, user testing platforms) for lower-traffic sites rather than abandoning testing. Frames CRO as a two-bucket system of research + testing.",
+              "practice_id": "low-traffic-alternative-testing-methods"
+            },
+            {
+              "guest_name": "Gabby Sellam",
+              "guest_context": "Paid media and landing page specialist",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "Recommends continuously A/B testing landing pages regularly, even with low traffic volumes, iterating on headlines, CTAs, form fields, and design elements.",
+              "practice_id": "test-landing-pages-regularly"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Founder, GetUplift; CRO specialist",
+              "episode_number": 231,
+              "episode_date": "2025-03-24",
+              "evidence": "Recommends pitching a single small A/B test backed by research data as the entry point for CRO work, framing it as a foot in the door to build credibility for larger changes.",
+              "practice_id": "get-stakeholder-buy-in-with-data-first-test"
+            },
+            {
+              "guest_name": "Haley Carpenter",
+              "guest_context": "CRO Consultant",
+              "episode_number": 282,
+              "episode_date": "2025-09-15",
+              "evidence": "Sets 200K average monthly users as the threshold for controlled A/B tests, but explicitly recommends alternative testing methods (preference tests, user testing platforms) for lower-traffic sites rather than abandoning testing. Frames CRO as a two-bucket system of research + testing.",
+              "practice_id": "traffic-threshold-testing-eligibility"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Founder, GetUplift; CRO Consultant",
+              "episode_number": 132,
+              "episode_date": "2024-04-15",
+              "evidence": "Recommends using research to inform hypotheses and then validating through A/B testing and experimentation as a standard B2B practice.",
+              "practice_id": "research-informs-hypothesis-testing"
+            }
+          ]
+        },
+        {
+          "position_id": "test-big-differences-not-micro",
+          "stance": "A/B testing is valuable but should focus on large, meaningful differences—different ad formats, entirely different messages, different value propositions—not micro-variations like button color or minor headline tweaks. Big tests teach more and find breakthrough creative.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Explicitly argues against testing micro-variations like button color, advocating instead for testing big meaningful differences in ad format, message, and value proposition.",
+              "practice_id": "test-big-differences-not-micro-variations"
+            },
+            {
+              "guest_name": "Lee Reshef",
+              "guest_context": "Growth and CRO specialist",
+              "episode_number": 220,
+              "episode_date": "2025-02-17",
+              "evidence": "Recommends testing the homepage as a complete composition rather than individual components in isolation, arguing that testing every component independently can result in a page where each element converts well individually but the overall experience becomes incoherent.",
+              "practice_id": "test-homepage-as-whole-not-components"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2 vs 1",
+      "context_dependency": "Partially context-dependent: Haley Carpenter's 200K monthly user threshold provides a traffic-based qualifier that partially reconciles the disagreement—Tom Wentworth's critique may apply specifically to low-traffic B2B sites running underpowered tests. However, Gabby Sellam explicitly recommends testing 'even with low traffic volumes,' which directly contradicts both Wentworth's 'stop testing' position and Carpenter's traffic threshold. Genuine disagreement remains regardless of context.",
+      "trend_note": null,
+      "why_it_matters": "If Tom Wentworth is right, most B2B teams are wasting time and potentially harming performance by running underpowered tests and drawing false conclusions. If the pro-testing camp is right, abandoning landing page testing leaves significant conversion optimization on the table."
+    }
+  ]
+}

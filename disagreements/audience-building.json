@@ -1,0 +1,126 @@
+{
+  "category": "audience-building",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "newsletter-frequency-high-vs-low",
+      "title": "Should you publish your newsletter at high frequency or reduce cadence to avoid fatigue?",
+      "category": "audience-building",
+      "positions": [
+        {
+          "position_id": "high-frequency-dedicated-writer",
+          "stance": "Invest in a dedicated newsletter writer and treat the newsletter as a product, implying consistent and regular publishing. The focus is on quality and genuine value delivered reliably, with the newsletter functioning as an ongoing engagement channel.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Recommended hiring a dedicated newsletter writer (not a contractor) to focus exclusively on high-quality, non-promotional content, treating the newsletter as a product in its own right similar to Morning Brew or Monday Insights. Implies consistent, regular publishing as a core investment.",
+              "practice_id": "dedicated-newsletter-writer-investment"
+            }
+          ]
+        },
+        {
+          "position_id": "reduce-cadence-for-retention",
+          "stance": "Reduce newsletter publishing frequency (e.g., to monthly or less) to avoid audience fatigue and improve retention. High-frequency newsletters cause subscribers to disengage; lower cadence makes each issue feel anticipated and special.",
+          "supporters": [
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "B2B marketing practitioner",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Argued that content saturation is hitting a cap and high-frequency newsletters cause subscribers to disengage and ignore content by default. Recommended shifting to lower cadence (monthly or less) so subscribers anticipate and look forward to each issue like a seasonal release.",
+              "practice_id": "reduce-newsletter-cadence"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Dave Gerhardt's advice may apply more to brands building a media-style newsletter as a core product (where consistency signals professionalism), while Sara Lattanzio's advice may apply more to brands whose newsletters are supplementary to other channels and risk blending into inbox noise. However, both are speaking to B2B newsletter strategy broadly, making this a genuine disagreement on default cadence philosophy.",
+      "trend_note": "Sara Lattanzio's lower-cadence recommendation is more recent (July 2025) vs. Dave Gerhardt's high-investment/consistent approach (October 2024), potentially reflecting a growing concern about inbox saturation as AI-generated content floods email.",
+      "why_it_matters": "Newsletter cadence directly affects open rates, unsubscribe rates, and list health. Choosing the wrong frequency can either erode audience trust through fatigue or signal inconsistency and lose top-of-mind awareness."
+    },
+    {
+      "disagreement_id": "gated-vs-ungated-content-for-list-building",
+      "title": "Should you gate your best content to build your email list, or publish it ungated with optional capture?",
+      "category": "audience-building",
+      "positions": [
+        {
+          "position_id": "gate-content-for-list-building",
+          "stance": "Create a high-value asset (report, guide, benchmark data) and gate it behind a form to capture emails. Promote the gated offer via paid ads to drive signups and build a high-quality, opted-in list. Include a welcome sequence to onboard new subscribers.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Explicitly recommended gating a high-value asset based on customer research, promoting it via LinkedIn ads, and using a welcome sequence to convert new subscribers. Framed this as the primary mechanism for building an opt-in list.",
+              "practice_id": "build-list-with-gated-offer"
+            }
+          ]
+        },
+        {
+          "position_id": "ungated-with-soft-capture",
+          "stance": "Make primary content freely accessible without a gate to maximize organic reach and SEO value, but include a non-coercive optional email capture (e.g., a popup offering to send the content via email). This approach can still achieve strong email conversion rates (13% reported) without forcing users to provide their email.",
+          "supporters": [
+            {
+              "guest_name": "Erin May",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Achieved a 13% email conversion rate on ungated content by offering a compelling reason to subscribe (email delivery of a structured learning experience) without forcing users to provide their email to access the content. Argued this maximizes both reach and conversion.",
+              "practice_id": "ungated-content-with-soft-conversion"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: gating may work better when the asset is a discrete, high-value download (report, benchmark), while ungated with soft capture may work better for ongoing content experiences (courses, newsletters). However, both guests are addressing the same core question of how to build an email list from content, making this a genuine tactical disagreement.",
+      "trend_note": "Erin May's ungated approach is more recent (March 2026) vs. Dave Gerhardt's gated approach (June 2025), potentially reflecting a broader industry shift away from hard gates as audiences become more resistant to mandatory form fills.",
+      "why_it_matters": "The choice between gating and ungating content affects both list quality and list size — gating may yield fewer but more intentional subscribers, while ungated with soft capture may yield broader reach with comparable conversion rates, directly impacting the ROI of content investment."
+    },
+    {
+      "disagreement_id": "subject-line-vs-sender-trust-for-open-rates",
+      "title": "What drives newsletter open rates more: subject line optimization or sender trust and consistency?",
+      "category": "audience-building",
+      "positions": [
+        {
+          "position_id": "subject-line-optimization",
+          "stance": "The subject line of the first email (and subsequent emails) is critical to open rates and inbox placement. Use compelling, curiosity-driven subject lines rather than generic ones like 'Welcome.' The first email in particular trains email clients and recipients on whether to open your future emails.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schewedelson",
+              "guest_context": "Email marketing expert",
+              "episode_number": 167,
+              "episode_date": "2024-08-15",
+              "evidence": "Argued the first email is the most important email you'll ever send and that subject line quality directly affects inbox placement and open rates. Recommended specific compelling subject line formulas over generic ones.",
+              "practice_id": "optimize-first-email-to-new-subscribers"
+            }
+          ]
+        },
+        {
+          "position_id": "sender-trust-and-consistency",
+          "stance": "Open rates are primarily driven by readers recognizing and trusting the sender name and developing a habit of opening based on consistent, valuable content delivered on a predictable schedule. When readers trust the sender, they open regardless of subject line quality.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 166,
+              "episode_date": "2024-08-12",
+              "evidence": "Argued that sender trust and consistent delivery schedule matter more than subject line optimization. Cited examples like 'Monday Insights' where readers open based on sender recognition, not subject line cleverness.",
+              "practice_id": "newsletter-open-rate-sender-trust"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "These positions may be complementary rather than fully conflicting — subject line optimization may matter most early in a newsletter's life before sender trust is established, while sender trust dominates for mature newsletters with loyal audiences. However, both guests are making general claims about what primarily drives open rates, representing a genuine difference in emphasis and tactical priority.",
+      "trend_note": null,
+      "why_it_matters": "Where you invest your optimization effort — copywriting for subject lines vs. long-term brand consistency — has compounding effects on list engagement and deliverability over time."
+    }
+  ]
+}

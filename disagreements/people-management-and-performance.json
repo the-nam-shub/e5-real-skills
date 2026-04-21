@@ -1,0 +1,166 @@
+{
+  "category": "people-management-and-performance",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 3,
+  "disagreements": [
+    {
+      "disagreement_id": "direct-feedback-vs-collaborative-ideation",
+      "title": "Should managers give direct feedback and directives, or use collaborative questioning to guide teams?",
+      "category": "people-management-and-performance",
+      "positions": [
+        {
+          "position_id": "direct-feedback-directives",
+          "stance": "Managers with strong opinions and expertise should state their point of view directly and tell team members what they want done. Probing questions used to steer people toward a predetermined answer are manipulative, slower, and less respectful of people's time. Direct feedback—including marking up work with corrections—is how people actually learn craft skills.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest; marketing executive",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Argued that asking probing questions while actually steering toward a predetermined answer is dishonest and slower; teams appreciate craftspeople who say 'I want to do it this way' directly.",
+              "practice_id": "direct-feedback-over-probing-questions"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest; marketing executive",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Reiterated that direct creative feedback is faster, more honest, and produces better learning than probing questions used as disguised directives.",
+              "practice_id": "direct-creative-feedback-over-probing"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Endorsed teaching craft skills through marked-up feedback and direct rewrites rather than Socratic questioning, citing that copywriters learn through repetition and seeing expert rewrites.",
+              "practice_id": "learn-through-marked-up-feedback"
+            }
+          ]
+        },
+        {
+          "position_id": "collaborative-questioning-ideation",
+          "stance": "When managers have an idea, they should present it as a question ('What do you think of this idea?') rather than a directive, collaborating with the team to develop it. This approach increases team ownership and creative investment, and often results in team members improving the idea or making it their own.",
+          "supporters": [
+            {
+              "guest_name": "Dan Cmejla",
+              "guest_context": "Guest; marketing leader",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Recommended presenting ideas as questions to shift creative burden to the collective team and increase ownership; argued this empowers team members rather than positioning the manager as the sole source of ideas.",
+              "practice_id": "collaborative-ideation-with-team"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: direct feedback may be more appropriate when the manager has deep craft expertise (e.g., copywriting, creative direction) and the goal is skill transfer, while collaborative questioning may be more appropriate when the manager wants to build team ownership of ideas and is not the domain expert. However, both Flanagan and Cmejla are speaking generally about management style, not limiting their advice to specific contexts, making this a genuine disagreement in default approach.",
+      "trend_note": null,
+      "why_it_matters": "The choice between direct directives and collaborative questioning shapes team culture, learning speed, and ownership—managers who default to the wrong style risk either slowing skill development or undermining team autonomy and creative investment."
+    },
+    {
+      "disagreement_id": "one-on-one-meeting-purpose",
+      "title": "Should one-on-ones focus on blockers and decisions only, or also include status updates?",
+      "category": "people-management-and-performance",
+      "positions": [
+        {
+          "position_id": "blockers-and-decisions-only",
+          "stance": "One-on-ones should be reserved exclusively for blockers, decision-making, and personnel matters. Status updates should be handled asynchronously or in group meetings. Allowing status updates in one-on-ones wastes synchronous time and turns them into complaint sessions rather than problem-solving sessions.",
+          "supporters": [
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Guest; marketing leader",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Explicitly structured one-on-ones around blockers and decision-making; when a blocker comes up, she clarifies whether the report wants awareness or action, preventing status-update drift.",
+              "practice_id": "one-on-one-blocker-focus-not-status"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Guest; marketing leader",
+              "episode_number": 193,
+              "episode_date": "2024-11-14",
+              "evidence": "Recommended using asynchronous PowerPoint updates from leaders instead of one-on-ones for status, reserving one-on-ones for personnel matters and issues requiring private discussion.",
+              "practice_id": "marketing-leader-one-on-one-efficiency"
+            }
+          ]
+        },
+        {
+          "position_id": "structured-async-prep-with-status-included",
+          "stance": "One-on-ones can include status updates, but these should be submitted asynchronously in advance (e.g., via Fellow app) so the manager can review them before the meeting. Synchronous time is then used for discussion items—problems, challenges, and opportunities—rather than reading status updates aloud. This is a hybrid approach that doesn't fully exclude status from the one-on-one ecosystem.",
+          "supporters": [
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "Guest; CMO",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Used Fellow app to allow team members to add status updates asynchronously throughout the week; manager reviews them offline before the meeting, while discussion items are reserved for synchronous time. Status is part of the one-on-one system, just consumed async.",
+              "practice_id": "fellow-app-meeting-agenda-management"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Mild context dependency: Mollot's approach may suit larger teams where the manager needs a structured intake system, while Barolo's approach may suit smaller teams with more direct communication. However, both are speaking to general one-on-one management practice, making this a genuine disagreement in default structure.",
+      "trend_note": null,
+      "why_it_matters": "How one-on-ones are structured directly affects whether managers spend synchronous time solving real problems or listening to updates they could have read, which compounds across an entire team's weekly calendar."
+    },
+    {
+      "disagreement_id": "ai-positioning-replacement-vs-empowerment",
+      "title": "Should leaders frame AI as empowering employees, or acknowledge it may replace some work?",
+      "category": "people-management-and-performance",
+      "positions": [
+        {
+          "position_id": "ai-as-empowerment-not-replacement",
+          "stance": "When communicating about AI to teams, leaders should explicitly frame AI as an enabler of human creativity and efficiency, not a replacement for marketers. This framing helps retain talent, manage change anxiety, and set realistic expectations. Language suggesting AI can replace human judgment or value should be avoided.",
+          "supporters": [
+            {
+              "guest_name": "Davang Shah",
+              "guest_context": "Guest; marketing leader",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Argued AI cannot replace human creativity, judgment, authentic connection, and trust-building; the future is a 'marriage of AI-driven efficiency and human-centered creativity.'",
+              "practice_id": "ai-enables-not-replaces-marketing"
+            },
+            {
+              "guest_name": "Rachel Weeks",
+              "guest_context": "Guest; marketing leader",
+              "episode_number": 273,
+              "episode_date": "2025-08-14",
+              "evidence": "Recommended framing AI tools as capabilities that make employees more powerful and productive, not replacements; connect benefits to employee goals (e.g., 'this will help you close more deals').",
+              "practice_id": "ai-adoption-positioning-for-teams"
+            },
+            {
+              "guest_name": "Rachel Weeks",
+              "guest_context": "Guest; marketing/HR leader",
+              "episode_number": 273,
+              "episode_date": "2025-08-14",
+              "evidence": "Argued that continuing recognition programs during AI integration signals the company values employees and doesn't view them as replaceable by technology; stopping recognition accelerates departures.",
+              "practice_id": "recognition-during-organizational-stress"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-adoption-requires-accepting-performance-dips",
+          "stance": "Leaders should give teams explicit permission to temporarily reduce performance on existing initiatives to invest time in learning AI tools. This top-down mandate acknowledges that short-term metric dips are acceptable during the transition, which is a more honest framing than pure empowerment messaging—it acknowledges real trade-offs rather than only upside.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest; marketing leader",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Recommended establishing a mandate that teams can deprioritize current work to learn AI, with leadership explicitly communicating that short-term metric dips are acceptable—implying AI adoption has real costs, not just benefits.",
+              "practice_id": "ai-adoption-mandate-permission-drop-ball"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "These positions are not mutually exclusive in all respects—empowerment framing and acknowledging trade-offs can coexist. However, the empowerment-only camp explicitly avoids language suggesting replacement or cost, while Pinta's approach requires leaders to openly communicate that current work will suffer. This is a genuine disagreement in communication strategy during AI rollout.",
+      "trend_note": "The most recent episode (346, April 2026) takes the more candid trade-off position, while the empowerment-only framing appears in earlier episodes (338, 273). This may reflect a maturation in AI adoption discourse where early 'don't worry' messaging is giving way to more honest acknowledgment of transition costs, but the sample is too small to confirm a trend.",
+      "why_it_matters": "The framing leaders choose when rolling out AI affects employee trust and psychological safety—overpromising empowerment without acknowledging real disruption can backfire when employees experience actual workload conflicts or role changes."
+    }
+  ]
+}

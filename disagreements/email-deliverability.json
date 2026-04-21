@@ -1,0 +1,87 @@
+{
+  "category": "email-deliverability",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "email-frequency-send-more-vs-less",
+      "title": "When engagement drops, should you send more email or less?",
+      "category": "email-deliverability",
+      "positions": [
+        {
+          "position_id": "send-more-email",
+          "stance": "Low engagement is caused by boring content, not high frequency. Sending less email actually hurts performance because modern spam filters rely on engagement signals—if you're not generating enough replies and clicks, you end up in spam. The fix is more email with better content, not less email.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing expert and founder of Outcome Media",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Argues that B2B marketers are not sending enough email, that lower frequency leads to lower performance, and that spam filtering is engagement-based—meaning insufficient volume starves the algorithm of positive signals and causes inbox placement to deteriorate.",
+              "practice_id": "email-frequency-engagement-not-volume"
+            }
+          ]
+        },
+        {
+          "position_id": "send-less-irrelevant-email",
+          "stance": "Spam is defined as email that is irrelevant, low-value, and sent too frequently. Over-communicating to recipients who don't find value triggers spam complaints and filter flags. The solution is to reduce frequency and improve relevance, not to blast more volume.",
+          "supporters": [
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "Cold email and outbound deliverability expert",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Explicitly defines spam as email that is 'not relevant to the recipient, provides no value, and is sent too frequently,' and warns that sending the same generic message to many recipients without personalization triggers spam filters and user complaints.",
+              "practice_id": "define-spam-relevance-value-frequency"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Schwedelson is speaking primarily about opted-in marketing lists where the sender already has permission and a relationship, while Fine is speaking primarily about cold outbound prospecting where no prior relationship exists. However, both make general claims about frequency and engagement that overlap in the opted-in marketing context, making this a genuine disagreement for that shared scenario.",
+      "trend_note": null,
+      "why_it_matters": "Marketers facing declining engagement must choose between doubling down on volume or pulling back—getting this wrong either accelerates deliverability decay or unnecessarily shrinks reach and pipeline contribution."
+    },
+    {
+      "disagreement_id": "open-rate-as-deliverability-signal",
+      "title": "Is open rate a useful signal for diagnosing deliverability problems?",
+      "category": "email-deliverability",
+      "positions": [
+        {
+          "position_id": "open-rate-useful-trend-signal",
+          "stance": "While open rates are not a reliable success metric in isolation, a dramatic decline in open rates over time is one of the most valuable early warning signals for deliverability problems. Marketers should actively monitor open rate trends by inbox provider and cadence to catch issues before they escalate.",
+          "supporters": [
+            {
+              "guest_name": "Jaina Mistry",
+              "guest_context": "Email marketing strategist and deliverability expert",
+              "episode_number": 241,
+              "episode_date": "2025-04-28",
+              "evidence": "States that a dramatic decline in open rates over time—especially for regularly-sent newsletters—is a strong indicator of deliverability issues and recommends monitoring open rates by inbox provider as one of the most valuable uses of open rate data.",
+              "practice_id": "monitor-open-rate-decline-for-deliverability"
+            }
+          ]
+        },
+        {
+          "position_id": "open-rate-unreliable-use-reply-rate",
+          "stance": "Open rates and click-through rates are increasingly skewed by security bots and email filters and should not be relied upon as deliverability indicators. Reply rate is the only meaningful performance metric for outbound email—a declining reply rate is the reliable signal that emails are no longer landing in the primary inbox.",
+          "supporters": [
+            {
+              "guest_name": "Alex Fine",
+              "guest_context": "Cold email and outbound deliverability expert",
+              "episode_number": 256,
+              "episode_date": "2025-06-19",
+              "evidence": "Recommends tracking positive reply rate as the only meaningful metric and explicitly warns against relying on open rates or click-through rates because they are skewed by security bots and filters. Describes a declining reply rate (e.g., from 7-8% down to 1%) as the reliable deliverability indicator.",
+              "practice_id": "track-reply-rate-not-opens"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Mistry is speaking about opted-in newsletter and marketing email programs where bot inflation is a known but manageable factor, while Fine is speaking specifically about cold outbound prospecting where bot inflation is more severe and reply rate is more actionable. However, both make claims about open rate reliability as a deliverability diagnostic that conflict in the overlapping context of any bulk email program.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong primary metric for deliverability monitoring means either acting on false signals (bot-inflated opens) or missing real problems until they become severe—directly affecting pipeline and sender reputation."
+    }
+  ]
+}

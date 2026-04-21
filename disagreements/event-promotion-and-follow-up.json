@@ -1,0 +1,64 @@
+{
+  "category": "event-promotion-and-follow-up",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "event-follow-up-timing",
+      "title": "When should you send the initial post-event follow-up — same night or planned in advance with no specific same-night urgency?",
+      "category": "event-promotion-and-follow-up",
+      "positions": [
+        {
+          "position_id": "same-night-follow-up",
+          "stance": "Send initial follow-up communications the same night of the event, not the next day or later. Being first to respond signals responsiveness and creates a timing advantage for conversion. Lead capture, CRM entry, and outreach should all happen within hours of the event ending.",
+          "supporters": [
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "Event marketing practitioner",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Sydney argues that same-night follow-up signals that your company is responsive and on top of things, and that this timing advantage matters for conversion and perception.",
+              "practice_id": "event-lead-follow-up-same-night"
+            }
+          ]
+        },
+        {
+          "position_id": "pre-planned-follow-up-no-same-night-urgency",
+          "stance": "Post-event follow-up should be planned before the event starts as part of the overall event strategy, with ownership assigned and messaging mapped out in advance. The emphasis is on strategic planning and consistent execution rather than speed on the night itself.",
+          "supporters": [
+            {
+              "guest_name": "Stephanie Christensen",
+              "guest_context": "Event marketing practitioner",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Stephanie emphasizes assigning a dedicated follow-up owner, planning the strategy before the event, and monitoring execution daily — but does not specify same-night timing as a requirement.",
+              "practice_id": "event-post-event-follow-up-planning"
+            },
+            {
+              "guest_name": "Anna Vermillion",
+              "guest_context": "Event marketing practitioner",
+              "episode_number": 294,
+              "episode_date": "2025-10-16",
+              "evidence": "Anna stresses mapping out post-event deliverables (slides, recordings, sponsor recaps, follow-up emails) before the event starts, treating follow-up as a planned program rather than an urgent same-night sprint.",
+              "practice_id": "event-post-event-strategy"
+            },
+            {
+              "guest_name": "Stephanie Christensen",
+              "guest_context": "Event marketing strategist",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Christensen emphasizes assigning a dedicated person to own follow-up and monitor analytics daily, and creating unique personalized offers based on attendee context. The focus is on deliberate, personalized outreach rather than immediate generic follow-up.",
+              "practice_id": "event-dedicated-follow-up-owner"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: same-night follow-up may matter more for high-volume trade shows where speed-to-lead is competitive, while pre-planned strategic follow-up may be more relevant for intimate executive dinners or owned events where relationship quality matters more than speed. However, both contexts involve the same tactical question of timing, so there is a genuine underlying tension.",
+      "trend_note": null,
+      "why_it_matters": "Marketers investing in events need to know whether to optimize their post-event workflow for speed (same-night outreach) or strategic quality (pre-planned, segmented follow-up), as these require different resourcing and coordination models."
+    }
+  ]
+}

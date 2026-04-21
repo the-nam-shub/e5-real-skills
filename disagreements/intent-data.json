@@ -1,0 +1,96 @@
+{
+  "category": "intent-data",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "first-party-vs-third-party-intent-reliability",
+      "title": "Should you trust third-party intent data, or is first-party intent data fundamentally more reliable?",
+      "category": "intent-data",
+      "positions": [
+        {
+          "position_id": "first-party-superior-third-party-skepticism",
+          "stance": "First-party intent signals are more reliable and should be weighted more heavily than third-party intent data. Third-party intent data is often low-quality, commoditized, and sold by multiple vendors under different names. Marketers should be deeply skeptical of third-party intent vendors and use first-party signals as the primary driver of targeting and budget allocation.",
+          "supporters": [
+            {
+              "guest_name": "Richard Meyer",
+              "guest_context": "B2B marketing practitioner building intent-based paid media systems",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Richard explicitly prioritizes first-party signals (pricing page visits, guided tour interactions) over third-party intent data in account scoring, using third-party only as a secondary layer to expand reach. His results showed 3.5x average monthly pipeline and 5.2x pipeline from paid channels by weighting first-party signals.",
+              "practice_id": "prioritize-first-party-intent-over-third-party"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth/Marketing at Navattic (interactive demo platform)",
+              "episode_number": 176,
+              "episode_date": "2024-09-16",
+              "evidence": "Natalie argues that first-party intent from interactive demo engagement is more accurate than third-party intent data because you know exactly what the prospect cared about, not just that they were 'in-market.' She recommends combining first-party data with any remaining third-party tools, implying first-party is the anchor.",
+              "practice_id": "demo-as-first-party-intent-data"
+            },
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "ABM and demand generation strategist",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Chris states most intent data in the market is low-quality and sold by multiple vendors under different names. He advises asking vendors whether they share/resell data and what constitutes a signal, arguing that most third-party intent data conflates intent-to-learn with intent-to-purchase, making it unreliable. He asserts only Google and Bing reliably capture true purchase intent.",
+              "practice_id": "abm-intent-data-vendor-questions"
+            },
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "ABM and demand generation strategist",
+              "episode_number": 140,
+              "episode_date": "2024-05-13",
+              "evidence": "Chris recommends vetting intent data providers on data sourcing and ownership, noting many providers purchase the same data from the same 1-2 sources, meaning competitors receive identical signals. He also advises placing accounts with weak/unproven intent into nurture rather than direct outreach, implying low confidence in third-party signals by default.",
+              "practice_id": "vet-intent-data-provider-sourcing"
+            }
+          ]
+        },
+        {
+          "position_id": "third-party-intent-valuable-when-layered",
+          "stance": "Third-party intent data, including from platforms like Bombora, 6sense, G2, and partner data platforms, provides valuable signals when layered with first-party data and industry-specific triggers. The key is using multiple intent sources together rather than relying on any single provider, and expanding beyond standard providers to find proprietary signals competitors aren't using.",
+          "supporters": [
+            {
+              "guest_name": "Jean Cameron",
+              "guest_context": "B2B demand generation and ABM practitioner",
+              "episode_number": 315,
+              "episode_date": "2025-12-25",
+              "evidence": "Jean recommends using third-party intent data (G2 reviews, competitor website visits, comparison pages) to identify accounts showing competitive intent and orchestrating dedicated automation workflows to reach them. No skepticism of third-party data quality is expressed; it is treated as actionable.",
+              "practice_id": "competitive-intent-signal-orchestration"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "B2B demand generation and ABM strategist",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "John recommends going beyond Bombora and 6sense to find industry-specific behavioral signals (job board activity, 10-K filings, real estate transactions), implying third-party providers are a valid baseline worth supplementing rather than replacing. The framing is additive, not dismissive.",
+              "practice_id": "identify-intent-signals-beyond-platforms"
+            },
+            {
+              "guest_name": "Kris Rudeegraap",
+              "guest_context": "CEO of Sendoso (gifting and direct mail platform)",
+              "episode_number": 159,
+              "episode_date": "2024-07-18",
+              "evidence": "Kris recommends using partner data platforms (Crossbeam, Reveal) for third-party intent signals in acquisition and cross-sell, treating them as a complement to first-party and web intent data without expressing skepticism about data quality.",
+              "practice_id": "partner-intent-data-crosssell"
+            },
+            {
+              "guest_name": "Cindy Dubon",
+              "guest_context": "B2B paid media and demand generation practitioner",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Cindy recommends using tools like Clearbit and 6sense to identify behavioral intent signals (video presence, webinar activity, event participation) for ICP targeting in paid media, treating third-party enrichment tools as reliable inputs without qualification.",
+              "practice_id": "use-intent-signals-for-icp-targeting"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 4",
+      "context_dependency": "Partially context-dependent: Chris Rack's skepticism is most applicable when evaluating commodity intent data vendors selling resold bitstream data. Jean Cameron and Kris Rudeegraap are referencing more specific third-party signals (G2 review activity, partner overlap data) that are arguably higher-quality than generic web traffic signals. However, the core disagreement — whether third-party intent data is trustworthy enough to act on directly versus requiring heavy vetting or replacement with first-party signals — is a genuine disagreement that applies broadly regardless of company stage.",
+      "trend_note": "The skepticism position (Chris Rack, episodes 140 and 150, mid-2024) predates the more pragmatic layering approach seen in later episodes (Jean Cameron, ep. 315, Dec 2025; Richard Meyer, ep. 341, Mar 2026). However, Richard Meyer in the most recent episode (341) still explicitly prioritizes first-party over third-party, so the skepticism has not fully given way to acceptance of third-party data.",
+      "why_it_matters": "Marketers allocating budget to intent data vendors need to know whether third-party signals are worth paying for or whether investing in first-party signal infrastructure (interactive demos, website visitor tracking, guided tours) will yield better ROI. Getting this wrong means either wasting budget on commoditized data or under-investing in proprietary signal capture."
+    }
+  ]
+}

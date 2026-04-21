@@ -1,0 +1,205 @@
+{
+  "category": "product-marketing",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "product-marketing-first-hire-priority",
+      "title": "Should a product marketer be your first marketing hire at a startup?",
+      "category": "product-marketing",
+      "positions": [
+        {
+          "position_id": "pmm-first-hire",
+          "stance": "A product marketer should be the first marketing hire at a startup because positioning, messaging, and competitive intelligence are foundational work that makes all downstream tactics (paid, content, events) more effective. Without this foundation, no amount of tactical optimization will succeed.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Argued that product marketing is often overlooked because it's not immediately measurable in pipeline terms, but it creates the narrative and positioning that makes all other marketing work more effective.",
+              "practice_id": "product-marketing-first-hire"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "Head of Marketing",
+              "episode_number": 266,
+              "episode_date": "2025-07-21",
+              "evidence": "When moving from Head of Content to Head of Marketing, she prioritized hiring a product marketer as her first direct report to fill gaps in messaging and positioning, noting it created minimal overlap and ensured coverage of product-focused messaging.",
+              "practice_id": "hire-product-marketer-first-as-head-of-marketing"
+            }
+          ]
+        },
+        {
+          "position_id": "execution-before-strategy",
+          "stance": "Early-stage marketers should prioritize executing visible, measurable wins in the first 6 months before attempting to influence strategic decisions like positioning. Spending weeks on research or frameworks before showing results is a mistake; execution track record earns you the right to lead positioning work.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "Advised early-stage solo marketers to deliver quick wins (launching blog, driving website traffic, building email list) before seeking strategic influence, explicitly warning against spending weeks on research or frameworks before showing results.",
+              "practice_id": "early-stage-marketer-credibility-through-execution"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially dissolves with context: the 'PMM first hire' advice (ep. 219, 266) addresses what role to hire, while the 'execution first' advice (ep. 189) addresses how a solo marketer should behave after joining. However, both touch on the same underlying question of whether positioning/strategy work should come before measurable execution at early-stage companies, and the advice genuinely conflicts on that point.",
+      "trend_note": null,
+      "why_it_matters": "Early-stage marketing leaders face real resource constraints and must decide whether to invest in foundational positioning work or prove value through measurable execution first — getting this wrong can either waste budget on tactics without a strategy or delay credibility-building that unlocks strategic influence."
+    },
+    {
+      "disagreement_id": "positioning-framework-complexity",
+      "title": "Should positioning and messaging rely on established frameworks, or should simplicity and human clarity take priority over frameworks?",
+      "category": "product-marketing",
+      "positions": [
+        {
+          "position_id": "simplicity-over-frameworks",
+          "stance": "Don't get caught up in complex positioning and messaging frameworks. Think like a normal human: figure out what customers you serve, what you do for them, what benefit they get, and how you're different. Use simple, memorable frameworks because they're easy for the entire company to remember and use. The real work (80%) is getting people to actually use the messaging, not writing it (20%).",
+          "supporters": [
+            {
+              "guest_name": "Jeff Hardison",
+              "guest_context": "Head of Product Marketing, Calendly",
+              "episode_number": 335,
+              "episode_date": "2026-03-05",
+              "evidence": "Explicitly advised against complex frameworks, recommending simple human thinking and adaptable messaging formats that teams actually want to consume rather than forcing them to use a preferred framework.",
+              "practice_id": "positioning-messaging-simplicity-over-frameworks"
+            }
+          ]
+        },
+        {
+          "position_id": "invest-heavily-in-positioning-as-priority",
+          "stance": "Positioning and messaging are among the most important investments a company can make and should be treated as a core marketing priority. Strong positioning informs all downstream marketing efforts and should be revisited and refined regularly. This is foundational work that requires significant investment.",
+          "supporters": [
+            {
+              "guest_name": "Megan Lueders",
+              "guest_context": "CMO",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "Described positioning and messaging as among the most important investments a company can make, emphasizing that strong positioning informs all downstream marketing efforts.",
+              "practice_id": "positioning-messaging-investment"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 133,
+              "episode_date": "2024-04-18",
+              "evidence": "Argued that before investing in any tactical channel optimization, companies must fix positioning first — positioning is the foundation that makes all channels work, and weak positioning means no tactical optimization will succeed.",
+              "practice_id": "positioning-drives-channel-execution"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder, Wynter",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Distinguished positioning (internal strategy) from messaging (external communication) as a formal framework distinction, and recommended buyer intelligence surveys and structured research before writing messaging—implying a more rigorous, process-heavy approach.",
+              "practice_id": "positioning-vs-messaging-distinction"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "This largely dissolves on inspection: Jeff Hardison is arguing against over-engineering the framework process, while Megan Lueders and Dave Gerhardt are arguing for prioritizing positioning as a strategic investment. These are compatible — you can invest heavily in positioning while keeping the framework simple. Not a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "If these were genuinely conflicting, it would affect how much time and process PMMs invest in positioning work versus moving quickly to execution — but the positions are largely complementary."
+    },
+    {
+      "disagreement_id": "gating-interactive-demos",
+      "title": "Should interactive product demos be gated or ungated?",
+      "category": "product-marketing",
+      "positions": [
+        {
+          "position_id": "ungated-demos-preferred",
+          "stance": "Ungated interactive demos dramatically outperform gated ones. 73% of top-performing demos are ungated, and ungated demos drive 40-60% visitor engagement versus 10-15% for product videos. Removing the gate maximizes the number of prospects who experience product value.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth and Operations, Navattic",
+              "episode_number": 122,
+              "episode_date": "2024-03-04",
+              "evidence": "Cited benchmark data showing 40-60% engagement for ungated demos vs. 10-15% for videos, and that 73% of top performers use ungated demos. Recommended ungated placement above the fold.",
+              "practice_id": "ungated-demo-higher-engagement"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth and Operations, Navattic",
+              "episode_number": 176,
+              "episode_date": "2024-09-16",
+              "evidence": "Reiterated the ungated approach in a later episode, recommending demos as a prominent secondary CTA alongside 'Get a Demo' or 'Free Trial' without requiring form fills.",
+              "practice_id": "personalize-demos-by-persona-use-case"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth and Operations, Navattic",
+              "episode_number": 176,
+              "episode_date": "2024-09-16",
+              "evidence": "Reiterated the ungated approach in a later episode, framing demos as an 'appetizer' that should be freely accessible to maximize prospect exposure to product value.",
+              "practice_id": "demo-length-8-15-steps-30-seconds"
+            }
+          ]
+        },
+        {
+          "position_id": "gate-at-step-five-if-needed",
+          "stance": "If you must gate a demo for lead capture, place the gate at step 5 rather than the beginning to increase engagement by 15%. This is a compromise position — gating is acceptable but should be delayed to let visitors experience value first.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth and Operations, Navattic",
+              "episode_number": 122,
+              "episode_date": "2024-03-04",
+              "evidence": "Provided specific data that placing a gate at step 5 increases engagement by 15% compared to gating at the start, while still acknowledging ungated demos outperform gated ones overall.",
+              "practice_id": "gated-demo-step-five-placement"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "The step-5 gating advice is explicitly framed as a fallback for teams that 'must' gate, not a competing philosophy. This is not a genuine disagreement between experts — it is one expert providing a primary recommendation and a contingency. Returning as minimal disagreement.",
+      "trend_note": null,
+      "why_it_matters": "The decision to gate or ungate demos directly affects how many prospects experience product value before being asked to identify themselves, with significant downstream impact on pipeline quality and volume."
+    },
+    {
+      "disagreement_id": "product-marketing-measurement-focus",
+      "title": "Should product marketing be measured primarily on business outcomes (revenue/pipeline) or on a balanced mix of outputs, outcomes, and outtakes?",
+      "category": "product-marketing",
+      "positions": [
+        {
+          "position_id": "revenue-outcomes-only",
+          "stance": "Product marketers should measure themselves against business outcomes like revenue and pipeline growth, not marketing inputs like leads, website visits, or content pieces. Holding yourself accountable for outcomes you influence but don't directly control is what earns a seat at the executive table.",
+          "supporters": [
+            {
+              "guest_name": "Matt Devincentis",
+              "guest_context": "Product Marketing Leader",
+              "episode_number": 260,
+              "episode_date": "2025-06-30",
+              "evidence": "Argued that tying product marketing to revenue and pipeline — even for roles not directly tied to sales — is the mindset shift that gets PMMs taken seriously by executives who care about revenue, not vanity metrics.",
+              "practice_id": "own-outcome-not-task"
+            }
+          ]
+        },
+        {
+          "position_id": "balanced-three-dimensional-measurement",
+          "stance": "Product marketing should be measured across three dimensions — outputs (activities), outcomes (engagement), and outtakes (business impact) — without favoring one over the others. Goals should change quarterly based on company OKRs and data maturity, preventing rigid frameworks that don't adapt to company needs.",
+          "supporters": [
+            {
+              "guest_name": "Jeff Hardison",
+              "guest_context": "Head of Product Marketing, Calendly",
+              "episode_number": 335,
+              "episode_date": "2026-03-05",
+              "evidence": "Recommended a three-dimensional measurement framework (outputs, outcomes, outtakes) and explicitly advised against favoring one dimension, noting that appropriate metrics change based on company OKRs and data maturity each quarter.",
+              "practice_id": "product-marketing-measurement-framework"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Matt Devincentis's advice may apply more to PMMs trying to establish credibility or influence in revenue-focused organizations, while Jeff Hardison's balanced framework may suit more mature PMM functions with established credibility. However, both are speaking to general PMM measurement philosophy, so a genuine tension remains.",
+      "trend_note": "Jeff Hardison's more nuanced balanced framework comes from the more recent episode (2026), while Matt Devincentis's revenue-first stance is from mid-2025. Too few data points to call a trend.",
+      "why_it_matters": "How product marketing is measured determines what work gets prioritized and whether the function is seen as strategic or tactical — choosing the wrong framework can either make PMMs invisible to leadership or cause them to optimize for the wrong activities."
+    }
+  ]
+}

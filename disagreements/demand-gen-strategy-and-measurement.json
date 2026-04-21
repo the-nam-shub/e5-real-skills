@@ -1,0 +1,385 @@
+{
+  "category": "demand-gen-strategy-and-measurement",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "mql-vs-pipeline-as-primary-metric",
+      "title": "Should marketing's primary metric be MQLs or pipeline/opportunities?",
+      "category": "demand-gen-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "pipeline-and-opportunities-not-mqls",
+          "stance": "Replace MQL as the primary marketing metric with pipeline contribution—specifically qualified opportunity count and pipeline value. MQLs can be gamed, don't correlate to revenue, and create misaligned incentives. Marketing should be held accountable to the same funnel stage as sales.",
+          "supporters": [
+            {
+              "guest_name": "Kevin White",
+              "guest_context": "Guest, episode 286 and 179",
+              "episode_number": 286,
+              "episode_date": "2025-09-29",
+              "evidence": "Cut budget in half while increasing pipeline 30–50% by shifting from MQL to pipeline as primary metric. Identified that 50% of self-serve signups convert to demo requests.",
+              "practice_id": "shift-metric-from-mql-to-pipeline"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "Guest, episodes 198 and 123",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Explicitly recommended measuring marketing on qualified opportunity count and pipeline value, rejecting lead-count metrics as gameable. Co-created ICP+ICT definition of qualified opportunity with sales.",
+              "practice_id": "pipeline-value-and-opportunity-count-metrics"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "Guest, episodes 280 and 203",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Recommended replacing MQL-based measurement with an account-based funnel tracking stages from unaware to customer, reporting on account progression rather than lead volume.",
+              "practice_id": "account-funnel-measurement-framework"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "Guest, episode 235",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Recommended tracking opportunity count (not value) and maintaining 3x pipeline coverage ratio. Provided specific formula: programmatic spend ÷ opportunities = cost per opportunity.",
+              "practice_id": "pipeline-metric-opportunity-count-over-value"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Guest, episodes 281 and 211",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Advocated extending marketing ops measurement through to qualified opportunities (>25% win probability), not stopping at form fills or demo requests.",
+              "practice_id": "extend-marketing-ops-through-qualified-opportunity"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B marketing and sales leader (guest)",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Repeated the same framework: qualified opportunity count plus pipeline value, explicitly rejecting lead count.",
+              "practice_id": "pipeline-metrics-opportunities-and-value"
+            }
+          ]
+        },
+        {
+          "position_id": "mqls-with-full-funnel-context",
+          "stance": "MQLs remain a useful leading indicator when paired with full-funnel analysis. Rather than abandoning MQLs, work backwards from revenue targets using MQL volume as an input, while also diagnosing conversion bottlenecks downstream. The problem is not MQLs per se but treating them as the end goal rather than a waypoint.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "Guest, episode 175",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Recommended working backwards from revenue targets to calculate required pipeline and MQL volume. Used MQLs as a planning input while also diagnosing stage-by-stage conversion bottlenecks.",
+              "practice_id": "work-backwards-from-revenue-targets"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest, episode 130",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "Recommended modeling business around leading indicators like demo requests and trial signups (functionally similar to MQLs), explicitly avoiding the term 'MQL' but using equivalent intent signals as the primary measurement layer.",
+              "practice_id": "model-business-leading-indicators"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 2",
+      "context_dependency": "Partially context-dependent: the account-based funnel approach (Dhillon) is most applicable to enterprise deals ($100k+ ACV) with long cycles and multiple stakeholders. For high-volume, lower-ACV businesses, MQL-like leading indicators may remain more operationally useful. However, the core disagreement—whether MQL should be the primary accountability metric—is genuine across most B2B contexts.",
+      "trend_note": "All five guests advocating for pipeline/opportunity metrics appear in episodes from 2024 onward, while the MQL-as-planning-input position (Zive, Piyush) also appears in 2024. No clear chronological divergence, but the pipeline-first position is numerically dominant in recent episodes.",
+      "why_it_matters": "The choice of primary metric shapes what programs get funded, how marketing and sales align, and whether marketing is seen as a revenue driver or a lead factory. Getting this wrong creates systematic misalignment between marketing activity and business outcomes."
+    },
+    {
+      "disagreement_id": "attribution-vs-brand-heat-primary-measurement",
+      "title": "Should marketing prioritize attribution metrics or brand perception as its primary success measure?",
+      "category": "demand-gen-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "brand-heat-over-attribution",
+          "stance": "Stop over-indexing on marketing attribution as the primary success metric. Attribution captures only the 2–3% of buyers actively in-market and cannot make a company 'hot.' Focus instead on brand perception and category leadership, which drive higher win rates and deal velocity independent of attribution data.",
+          "supporters": [
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "Guest, episode 223",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Argued that attribution alone cannot make a company hot in the market. Brand building influences the 97–98% not yet in-market; attribution only captures the 2–3% actively evaluating.",
+              "practice_id": "brand-vs-attribution-measurement"
+            },
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Guest, episode 154",
+              "episode_number": 154,
+              "episode_date": "2024-07-01",
+              "evidence": "Recommended measuring overall website lift (handraisers and return visitor rates) rather than channel-specific ROI, to account for the long B2B sales cycle where initial touchpoints don't result in immediate conversions.",
+              "practice_id": "b2b-attribution-overall-lift"
+            },
+            {
+              "guest_name": "Davang Shah",
+              "guest_context": "Guest, episode 338",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Used the 95%/5% in-market benchmark to argue that short-term, last-click attribution is insufficient and that sustained brand-building investment is essential to reach the 95% not yet evaluating.",
+              "practice_id": "95-percent-buyers-not-in-market"
+            },
+            {
+              "guest_name": "Anthony Kennada",
+              "guest_context": "B2B marketing leader (guest)",
+              "episode_number": 145,
+              "episode_date": "2024-05-30",
+              "evidence": "Argued owned/organic media is more efficient than paid, citing Airbnb turning off paid search without slowing growth, and that organic produces higher-quality leads.",
+              "practice_id": "organic-growth-efficiency-vs-paid"
+            }
+          ]
+        },
+        {
+          "position_id": "attribution-as-essential-accountability",
+          "stance": "Clean attribution data and measurement infrastructure are essential before optimizing spend. Without proper attribution, companies make decisions based on gut feel and waste significant budget. Attribution should be the foundation of marketing accountability, even if imperfect.",
+          "supporters": [
+            {
+              "guest_name": "Eli Rubel",
+              "guest_context": "Guest, episode 120",
+              "episode_number": 120,
+              "episode_date": "2024-02-26",
+              "evidence": "Argued that establishing clean data and measurement infrastructure is the first step to optimizing paid spend. Said proper attribution often reveals companies can cut spend 30% while maintaining pipeline by eliminating waste in unmeasured channels.",
+              "practice_id": "establish-clean-measurement-baseline"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Guest, episodes 281 and 211",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Advocated extending marketing ops measurement through to qualified opportunities, requiring rigorous attribution infrastructure to calculate true blended CAC and evaluate channel efficiency.",
+              "practice_id": "calculate-true-blended-cac-all-costs"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "These positions are not fully mutually exclusive—Rubel and Walker are arguing for better attribution infrastructure, not necessarily last-click attribution, while Littlepage/Bober/Shah are arguing against over-reliance on attribution as the primary success signal. The genuine disagreement is whether attribution should be the primary accountability mechanism or whether brand/lift metrics should take precedence. This tension is real regardless of company stage.",
+      "trend_note": "The brand-heat/lift position is represented by more recent episodes (2024–2026), while the attribution-as-foundation position appears in earlier episodes (2024). Weak signal at best given the small sample.",
+      "why_it_matters": "How marketing is measured determines what gets funded; teams optimizing for attribution will systematically underinvest in brand and top-of-funnel activities that don't show up in last-touch models, potentially ceding long-term market position."
+    },
+    {
+      "disagreement_id": "demand-creation-vs-demand-redirection",
+      "title": "Can marketers create new demand, or can they only redirect existing demand?",
+      "category": "demand-gen-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "cannot-create-demand-only-redirect",
+          "stance": "Marketers cannot create demand from scratch—they can only redirect existing demand that already flows in the market. Demand exists as a river of pre-existing needs; marketing positions your product as a canal that diverts some of that flow. You can only generate demand within a category that already has demand.",
+          "supporters": [
+            {
+              "guest_name": "Louis Grenier",
+              "guest_context": "Guest, episode 322",
+              "episode_number": 322,
+              "episode_date": "2026-01-19",
+              "evidence": "Argued explicitly that marketers cannot make people care about something they don't already care about. Used the river/canal metaphor. Said to validate demand exists by checking if competitors exist.",
+              "practice_id": "demand-redirection-not-creation"
+            }
+          ]
+        },
+        {
+          "position_id": "demand-creation-is-real-and-necessary",
+          "stance": "Demand creation is a distinct and necessary marketing function, especially when your product category is not yet recognized by analysts or buyers. Allocate significant marketing capital to educating the market about the problem and solution category before buyers know to look for it.",
+          "supporters": [
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "Guest, episode 182",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Described allocating significant budget to demand creation for an undefined category (Knak), separate from demand capture. Used 6sense to identify intent signals while simultaneously educating the market.",
+              "practice_id": "demand-creation-vs-capture-strategy"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "Guest, episodes 280 and 203",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Distinguished demand generation (for the 90% out-of-market) from demand capture (for the 10% in-market), treating demand generation as a real function that builds brand and shapes buyer perception and timing.",
+              "practice_id": "demand-capture-vs-demand-gen"
+            },
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "Guest, episode 223",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Described a three-motion marketing structure that explicitly includes 'new category demand generation' targeting buyers not yet looking for a solution—treating demand creation as a distinct, fundable motion.",
+              "practice_id": "three-motion-marketing-structure"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "B2B marketing leader (guest)",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "Described demand generation as playing a longer-term game to influence out-of-market accounts, framing it as a distinct and real marketing function.",
+              "practice_id": "demand-capture-vs-demand-generation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent: Grenier's position may be most applicable to established categories where demand already exists and the job is competitive positioning. Mollot and Littlepage are explicitly discussing new/undefined categories where no existing demand flow exists to redirect. However, Grenier's claim is stated as a universal principle, not category-specific, making this a genuine disagreement at the level of marketing philosophy.",
+      "trend_note": null,
+      "why_it_matters": "If Grenier is right, marketers in new categories are wasting money trying to educate a market that isn't ready; if the demand-creation camp is right, failing to invest in category education means ceding the market to whoever does."
+    },
+    {
+      "disagreement_id": "bdr-sdr-reporting-structure",
+      "title": "Should BDR/SDR prospecting functions report to marketing or sales?",
+      "category": "demand-gen-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "consolidate-under-marketing",
+          "stance": "Consolidate all prospecting functions (BDR and SDR) under marketing leadership to own the full pipeline creation machine. This eliminates the blame game between departments, provides clear visibility into blended prospecting efficiency, and allows the CMO to optimize the entire path from lead generation through qualified meeting.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Guest, episodes 281 and 211",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Argued that the split between BDR and SDR is semantic; what matters is unified ownership under marketing of the entire prospecting layer to eliminate split accountability and optimize the full funnel as one system.",
+              "practice_id": "consolidate-prospecting-under-marketing"
+            }
+          ]
+        },
+        {
+          "position_id": "sales-owns-demand-generation-responsibility",
+          "stance": "Sales teams should not rely on marketing to generate leads—individual salespeople should take responsibility for creating their own demand through content, thought leadership, and direct outreach. When salespeople complain about lead quality, push back and ask what they can do themselves.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "Guest, episodes 232 and 170",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Argued that when salespeople complain about insufficient leads, the response should be to push back and ask what they can do to generate demand themselves. This creates accountability and often leads to salespeople building personal brands.",
+              "practice_id": "sales-leader-accountability-for-demand"
+            },
+            {
+              "guest_name": "Jen Allen Knuth",
+              "guest_context": "Guest, episode 170",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Stated that sales should own demand generation responsibility and not wait for marketing to deliver leads. Salespeople should be as good at creating demand as marketing is.",
+              "practice_id": "sales-ownership-of-demand-generation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "These positions address different aspects of the same question: Walker is arguing about org structure and reporting lines, while Allen-Knuth is arguing about mindset and accountability culture. They could theoretically coexist (SDRs report to marketing AND salespeople build personal brands), but they represent genuinely different philosophies about where demand generation accountability should sit. The disagreement is real regardless of company stage.",
+      "trend_note": null,
+      "why_it_matters": "Where prospecting reports determines who is accountable for pipeline shortfalls, how performance is measured, and whether marketing or sales leadership has the authority to fix conversion problems across the full funnel."
+    },
+    {
+      "disagreement_id": "budget-allocation-brand-vs-pipeline",
+      "title": "What percentage of marketing budget should go to brand vs. pipeline/demand gen?",
+      "category": "demand-gen-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "heavy-pipeline-80-90-percent",
+          "stance": "Allocate 80–90% of marketing budget to measurable pipeline-generating activities and only 10–20% to brand/unmeasured activities. The majority of spend should be accountable to direct pipeline outcomes, with brand as a smaller reserve for harder-to-measure investments.",
+          "supporters": [
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "Guest, episode 219",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Explicitly recommended 80–90% pipeline/demand gen and 10–20% brand/unmeasured, adjusting seasonally based on business needs.",
+              "practice_id": "budget-allocation-pipeline-vs-brand"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 316,
+              "episode_date": "2025-12-29",
+              "evidence": "Argued both short-term revenue and long-term brand building are necessary simultaneously, suggesting carving out ~20% for brand bets while delivering short-term results first to earn credibility.",
+              "practice_id": "balance-short-term-revenue-long-term-brand"
+            }
+          ]
+        },
+        {
+          "position_id": "balanced-60-40-pipeline-brand",
+          "stance": "Allocate roughly 60% to pipeline generation and 40% to brand/reputation building. At a mature, competitive company, significant brand investment serves as 'air cover' for pipeline activities and is necessary to differentiate.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "Guest, episode 175",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "At LivePerson (mature public company in competitive space), allocates ~60% to pipeline and ~40% to brand/reputation. Frames brand as essential air cover, not a luxury.",
+              "practice_id": "budget-allocation-pipeline-vs-brand"
+            }
+          ]
+        },
+        {
+          "position_id": "brand-first-organic-over-paid",
+          "stance": "Prioritize brand and organic/owned media over paid pipeline generation. Owned media is more efficient, recession-proof, and produces higher-quality leads. Paid media should be layered on top only after a strong brand and organic foundation is established.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Kennada",
+              "guest_context": "Guest, episode 145",
+              "episode_number": 145,
+              "episode_date": "2024-05-30",
+              "evidence": "Cited Airbnb turning off paid search with no growth slowdown and Meta's ad business suffering as companies shift to organic. Argued owned media is more efficient and recession-proof.",
+              "practice_id": "organic-growth-efficiency-vs-paid"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Recommended establishing strong brand and organic content first, then layering paid on top at scale (~$5M+ ARR). Framed it as a sequencing issue where brand comes before paid amplification.",
+              "practice_id": "combine-brand-and-demand-gen-for-scale"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2 vs 1",
+      "context_dependency": "Partially context-dependent: Ruth Zive explicitly ties her 60/40 split to being a mature public company in a competitive market, and Dave Gerhardt's sequencing advice is stage-gated (~$5M+ ARR for paid). However, Trinity Nguyen's 80–90% pipeline recommendation is presented as a general principle, not stage-specific, creating a genuine disagreement with Ruth Zive even at similar company stages. The brand-first position from Kennada/Gerhardt applies most clearly to earlier-stage companies, which partially dissolves the tension with Nguyen.",
+      "trend_note": null,
+      "why_it_matters": "Budget allocation between brand and pipeline is one of the most consequential decisions a CMO makes each year. Getting the ratio wrong in either direction means either starving long-term brand equity or failing to hit near-term revenue targets."
+    },
+    {
+      "disagreement_id": "cost-per-opportunity-calculation-include-headcount",
+      "title": "Should employee headcount be included when calculating cost per opportunity?",
+      "category": "demand-gen-strategy-and-measurement",
+      "positions": [
+        {
+          "position_id": "exclude-headcount-programmatic-only",
+          "stance": "Calculate cost per opportunity using only programmatic (variable) spend—paid media, tools, contractors—and exclude employee salaries. Salaries are fixed costs that support multiple programs simultaneously and don't answer the marginal question: if we invest more variable spend, how many more opportunities will we generate?",
+          "supporters": [
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "Guest, episode 235",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Explicitly recommended excluding employee salaries from cost per opportunity calculation because they are fixed costs. Provided example: $3.2M programmatic spend ÷ 120 opportunities = $26,667 cost per opportunity.",
+              "practice_id": "programmatic-cost-per-opportunity"
+            }
+          ]
+        },
+        {
+          "position_id": "include-all-costs-true-blended-cac",
+          "stance": "Calculate true blended CAC by including all go-to-market costs: advertising spend, marketing headcount, sales headcount, SDR/BDR headcount, agencies, consultants, technology, leadership, and RevOps. Excluding headcount creates a false picture of unit economics and leads companies to celebrate strong ROAS while hiding a 5-year CAC payback.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Guest, episodes 281 and 211",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Argued that most companies celebrate 3x ROAS on Google Ads but fail to account for full cost structure including all headcount, which often reveals a 5-year CAC payback or worse. Requires integrating finance data with marketing attribution.",
+              "practice_id": "calculate-true-blended-cac-all-costs"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "These two positions are answering slightly different questions: Vempaty's metric is designed to answer 'what is the marginal return on incremental variable spend?' while Walker's metric is designed to answer 'what is the true cost of acquiring a customer?' Both are valid for different decisions (budget allocation vs. unit economics assessment), which partially dissolves the disagreement. However, if a company uses only one metric, the choice has real consequences for how they evaluate marketing efficiency.",
+      "trend_note": null,
+      "why_it_matters": "Using programmatic-only cost per opportunity can make demand gen look far more efficient than it actually is, leading to over-investment in paid channels while obscuring the true cost of the people required to convert those leads."
+    }
+  ]
+}

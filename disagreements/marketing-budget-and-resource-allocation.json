@@ -1,0 +1,319 @@
+{
+  "category": "marketing-budget-and-resource-allocation",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "experimentation-budget-percentage",
+      "title": "What percentage of marketing budget should be allocated to experimentation?",
+      "category": "marketing-budget-and-resource-allocation",
+      "positions": [
+        {
+          "position_id": "five-to-ten-percent",
+          "stance": "Reserve 5–10% of marketing budget for experimentation. In a profitability-focused environment, 5% is appropriate. A separate 10% carve-out for true experiments (with genuinely unknown outcomes) protects core performance goals while allowing exploration.",
+          "supporters": [
+            {
+              "guest_name": "Udi Ledergor",
+              "guest_context": "Former CMO, Gong",
+              "episode_number": 237,
+              "episode_date": "2025-04-14",
+              "evidence": "Recommended 5–10% of annual program budgets as an official 'marketing experiments' line item, justified to CFO as covering unforeseen opportunities and continuous channel testing.",
+              "practice_id": "marketing-experiments-budget-line-item"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "CMO, Kyndryl",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Recommended reserving exactly 10% of marketing budget and team time for true experiments with genuinely unknown outcomes, ensuring the remaining 90% is sufficient to hit annual targets independently.",
+              "practice_id": "carve-10-percent-budget-experimentation"
+            },
+            {
+              "guest_name": "Ido Mart",
+              "guest_context": "VP Marketing, Similarweb",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "Explicitly stated that in a profitability-focused environment, experimentation allocation should drop to 5% of total spend, down from the 20–30% that was acceptable in growth-at-all-costs eras.",
+              "practice_id": "experimentation-budget-efficiency-era"
+            }
+          ]
+        },
+        {
+          "position_id": "twenty-to-thirty-percent",
+          "stance": "Allocate 20–30% of marketing budget to experimentation and longer-term brand bets. This higher allocation reflects the rapid pace of change and ensures the team is building the foundation for future growth, not just hitting this year's targets.",
+          "supporters": [
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "Founder, Curdis; former VP Marketing, G2",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Recommended 20–30% of marketing budget and team capacity for experiments and brand initiatives that don't require immediate ROI, framing it as necessary to hit tomorrow's goals while 80% hits today's.",
+              "practice_id": "allocate-20-30-percent-budget-experimentation"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 274,
+              "episode_date": "2025-08-18",
+              "evidence": "Recommended a 70/30 split where 30% goes to experiments, longer-term foundational work, and initiatives with less direct ROI such as podcasts, with accountability checkpoints at 30/60/90/120 days.",
+              "practice_id": "budget-allocation-70-30-split"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 187,
+              "episode_date": "2024-10-24",
+              "evidence": "Repeated the 70/30 framework: 30% toward experiments, longer-term investments, and foundational work that will pay dividends for years.",
+              "practice_id": "70-30-budget-allocation"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Recommended allocating 30% of budget to longer-term brand and awareness bets (podcasts, content, SEO) to build the foundation for next year's growth.",
+              "practice_id": "invest-in-future-bets-before-scaling"
+            },
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "VP Marketing, Crossbeam",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Endorsed a 70/30 split with 30% for experimental bets, with a separate budget carve-out so underperformance on new tests does not tank overall marketing metrics.",
+              "practice_id": "70-30-budget-allocation-proven-experimental"
+            },
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "CMO, Drata",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Advocated for a 60-20-20 model where 20% is dedicated to experimentation, arguing the rapid pace of AI and marketing change justifies a higher experimentation budget than the traditional 70-20-10 model.",
+              "practice_id": "experimentation-budget-allocation"
+            }
+          ]
+        },
+        {
+          "position_id": "ten-to-twenty-percent",
+          "stance": "A middle-ground allocation of 10–20% for experimentation and channel testing is appropriate, secured during annual planning and used for controlled experiments like geo tests and holdout groups.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Co-founder & CEO, Paramark",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Recommended setting aside 10–20% of total annual marketing budget specifically for testing new channels and validating hypotheses, secured during annual planning rather than carved out mid-year.",
+              "practice_id": "reserve-10-20-percent-testing-budget"
+            },
+            {
+              "guest_name": "Rowan Tonkin",
+              "guest_context": "CMO, Planful",
+              "episode_number": 197,
+              "episode_date": "2024-11-28",
+              "evidence": "Recommended segmenting budget into strategic/productive spend (55–75%), experiments (10–20%), and non-strategic spend, with experiments defined as new initiatives with uncertain outcomes that may graduate to strategic spend.",
+              "practice_id": "segment-budget-by-strategic-vs-experimental-spend"
+            },
+            {
+              "guest_name": "Kym Parker",
+              "guest_context": "Paid media consultant",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Recommended capping testing budget at 15% of total budget, with new channels requiring at least $5k/month for 60 days to generate meaningful learning.",
+              "practice_id": "test-budget-cap-and-duration"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 3 vs 3",
+      "context_dependency": "Partially context-dependent: Ido Mart explicitly ties the lower 5% figure to a profitability-focused environment versus a growth-at-all-costs environment. Sydney Sloan ties the higher 20% figure to the rapid pace of AI change. However, even controlling for company stage and market conditions, there is genuine disagreement: multiple guests at similar stages recommend meaningfully different percentages (e.g., 10% vs. 30% for growth-stage companies).",
+      "trend_note": "More recent episodes (2025–2026) cluster toward the 70/30 framework (30% experimentation), while the 5% figure appears in a 2025 episode explicitly tied to a profitability-focused era. No clear chronological shift toward lower or higher allocations overall.",
+      "why_it_matters": "The difference between allocating 5% vs. 30% to experimentation is enormous in practice — it determines whether a team is primarily optimizing existing channels or actively discovering new growth levers. Getting this wrong in either direction risks either stagnation or missing near-term targets."
+    },
+    {
+      "disagreement_id": "team-size-small-vs-large-internal-headcount",
+      "title": "Should marketing teams stay small with external support, or scale internal headcount as the company grows?",
+      "category": "marketing-budget-and-resource-allocation",
+      "positions": [
+        {
+          "position_id": "keep-teams-small-use-external-experts",
+          "stance": "Maintain small internal marketing teams (4–5 people) and use external consultants, agencies, and part-time specialists for specific needs. Smaller teams move faster, avoid bureaucracy, and free up budget for programs and strategic external expertise.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "CEO, Passetto; founder, Refine Labs",
+              "episode_number": 281,
+              "episode_date": "2025-09-11",
+              "evidence": "Argued that 4–5 person internal teams outperform 50–100 person teams because they avoid meeting bloat and approval hierarchies, and freed headcount budget can go to strategic consultants and programs.",
+              "practice_id": "smaller-internal-teams-higher-program-budget"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "CEO, Passetto; founder, Refine Labs",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Stated most mature companies ($50M+ ARR) are over-staffed; recommended reinvesting headcount savings into external expert consultants for 3–6 month engagements ($50–200K) that deliver more value than full-time hires.",
+              "practice_id": "smaller-internal-marketing-teams"
+            },
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "Co-founder & CEO, Plannuh",
+              "episode_number": 202,
+              "episode_date": "2024-12-16",
+              "evidence": "Cited OpenAI (~1,500 employees, ~$100B enterprise value) and Berkshire Hathaway (25–30 corporate staff) as examples; recommended maintaining 10–50 interim/part-time roles and outsourcing non-core work to avoid over-building.",
+              "practice_id": "build-smallest-org-necessary"
+            }
+          ]
+        },
+        {
+          "position_id": "scale-team-with-budget-threshold",
+          "stance": "Scale internal team size based on marketing budget thresholds. At $10M+ in marketing budget, a full CMO structure with specialized roles (brand, demand gen, field, growth) is justified and necessary. Below that threshold, expect the marketing leader to execute hands-on.",
+          "supporters": [
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "Founder, SaaStr",
+              "episode_number": 207,
+              "episode_date": "2025-01-02",
+              "evidence": "Stated that below $10M marketing budget, the VP/CMO should do hands-on execution; at $10M+ you can afford specialized roles. Hiring multiple specialists below this threshold creates unsustainable cost structures.",
+              "practice_id": "marketing-budget-threshold-for-team-structure"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "Founder, SaaStr",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Repeated the $10M budget threshold for justifying a full CMO structure with specialized teams and supporting agencies.",
+              "practice_id": "marketing-budget-threshold-for-team"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: Jason Lemkin's position is explicitly tied to a $10M budget threshold, which could be seen as complementary to Chris Walker's view (small teams at lower budgets). However, Walker's argument applies even at $50M+ ARR where Lemkin would presumably endorse larger teams, making this a genuine disagreement at scale.",
+      "trend_note": null,
+      "why_it_matters": "The choice between a large internal team and a small team with external experts has major implications for fixed cost structure, budget flexibility, and execution speed — getting this wrong can lock a company into high fixed costs that constrain program spend during downturns."
+    },
+    {
+      "disagreement_id": "pipeline-vs-brand-budget-split",
+      "title": "How should marketing budget be split between pipeline/demand generation and brand/awareness activities?",
+      "category": "marketing-budget-and-resource-allocation",
+      "positions": [
+        {
+          "position_id": "eighty-to-ninety-percent-pipeline",
+          "stance": "Allocate 80–90% of marketing budget to measurable pipeline-generating activities and only 10–20% to brand and harder-to-measure creative investments. The bulk of spend must be accountable to pipeline.",
+          "supporters": [
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "VP Marketing, UserGems",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Recommended 80–90% to measurable pipeline-generating activities (paid, outbound, nurture, ABM) and 10–20% for brand and creative investments that are harder to measure directly.",
+              "practice_id": "budget-allocation-pipeline-vs-brand"
+            }
+          ]
+        },
+        {
+          "position_id": "sixty-percent-pipeline-forty-brand",
+          "stance": "At a mature, competitive company, allocate approximately 60% to pipeline generation and 40% to brand/reputation building. Brand investment serves as 'air cover' for pipeline activities and is essential for differentiation in crowded markets.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "CMO, LivePerson",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Allocates approximately 60% to pipeline generation and 40% to brand/reputation at LivePerson, a mature public company in a competitive space, arguing brand investment provides air cover for pipeline activities.",
+              "practice_id": "budget-allocation-pipeline-vs-brand"
+            }
+          ]
+        },
+        {
+          "position_id": "seventy-percent-current-thirty-brand",
+          "stance": "Allocate 70% to direct sales/ROI activities supporting current-year goals and 30% to longer-term brand and awareness bets. This ensures you're building next year's growth foundation while hitting this year's targets.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "Recommended 70% to activities driving immediate sales and 30% to long-term brand building (podcasts, content, thought leadership) to avoid sacrificing short-term revenue while building brand equity.",
+              "practice_id": "podcast-strategy-70-30-budget-split"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Recommended 70% to direct sales/ROI activities and 30% to longer-term brand and awareness bets, noting that being too focused on this year's targets means never investing in initiatives that drive future growth.",
+              "practice_id": "invest-in-future-bets-before-scaling"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: Ruth Zive explicitly notes that early-stage companies should weight more toward pipeline, while her 60/40 split applies to a mature public company. Trinity Nguyen's 80–90% pipeline allocation may reflect a growth-stage company context. However, even accounting for stage, the range from 10–20% brand to 40% brand represents a genuine disagreement about how much unmeasured brand investment is warranted.",
+      "trend_note": null,
+      "why_it_matters": "The difference between allocating 10% vs. 40% to brand activities is a multi-million dollar decision at scale, and getting the balance wrong either starves long-term brand equity or leaves near-term pipeline targets unmet."
+    },
+    {
+      "disagreement_id": "channel-concentration-vs-diversification",
+      "title": "Should you concentrate spend on one channel at a time or diversify across multiple channels simultaneously?",
+      "category": "marketing-budget-and-resource-allocation",
+      "positions": [
+        {
+          "position_id": "concentrate-one-channel-first",
+          "stance": "When budget is limited, concentrate all spend on one channel at a time to get clear signal before diversifying. Spreading spend across multiple channels simultaneously creates noise and prevents you from understanding what's working.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Co-founder & CEO, Paramark",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Explicitly advised against spraying spend across five channels simultaneously; recommended picking one channel, concentrating all spend there, proving it works, then moving to the next. Especially important for early-stage companies with small budgets.",
+              "practice_id": "concentrate-spend-single-channel-clear-signal"
+            }
+          ]
+        },
+        {
+          "position_id": "focus-on-four-core-channels",
+          "stance": "Rather than spreading resources across all possible channels or concentrating on just one, deliberately choose 3–4 core channels and execute with depth on each. This provides focus without the risk of single-channel dependency.",
+          "supporters": [
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Head of B2B Marketing, HeyGen",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "HeyGen's B2B team deliberately chose four channels (paid social, ABM, webinars, field events) from eight possible options, allowing a lean team to execute with depth rather than breadth.",
+              "practice_id": "four-channel-enterprise-gtm-focus"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "CMO, Kyndryl",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Recommended identifying 1–2 major conferences per year and committing significant budget to make a big impact, explicitly choosing not to attend others — a concentration strategy applied to events specifically.",
+              "practice_id": "event-strategy-go-big-or-skip"
+            }
+          ]
+        },
+        {
+          "position_id": "diversify-to-prevent-channel-dependency",
+          "stance": "Deliberately cap spend on over-performing channels and force the team to hit revenue targets using alternative channels. Budget constraints should be used as a forcing function to discover non-paid channels and prevent dangerous over-reliance on a single tactic.",
+          "supporters": [
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "VP Marketing, UserGems",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "When paid ads were over-performing and consuming most of the budget, deliberately capped spend on that channel and required the team to hit revenue targets using alternative channels, forcing discovery of non-paid channels.",
+              "practice_id": "budget-constraint-forcing-function"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: Pranav Piyush's single-channel concentration advice is explicitly for early-stage companies with limited budgets. Trinity Nguyen's diversification advice appears to apply to a more mature company where one channel was already proven. The 4-channel focus from HeyGen applies to an enterprise GTM motion. Accounting for stage reduces but does not eliminate the disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Concentrating on one channel risks missing complementary demand signals, while spreading too thin prevents any channel from reaching statistical significance — the right approach directly determines whether a team gets actionable data or noise."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "category": "marketing-metrics-and-measurement",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "marketing-accountability-metric-long-sales-cycles",
+      "title": "What should marketing be held accountable to in long sales cycles—hand-raisers, pipeline, or revenue?",
+      "category": "marketing-metrics-and-measurement",
+      "positions": [
+        {
+          "position_id": "hold-marketing-to-hand-raisers-only",
+          "stance": "In long sales cycles (12-18 months), marketing should only be held accountable to metrics it directly controls—hand-raisers like demo requests, trial signups, and contact form submissions. Pipeline and revenue include too many factors outside marketing's control (sales execution, product, pricing) to be fair accountability metrics for marketing.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement expert/founder",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Explicitly argued against holding marketing accountable to revenue or even qualified pipeline in long sales cycles, recommending hand-raisers as the appropriate metric because it's what marketing directly controls.",
+              "practice_id": "select-marketing-metric-in-control-of-marketing"
+            },
+            {
+              "guest_name": "Kimberly Storin",
+              "guest_context": "Marketing leader",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "Explicitly recommended deal velocity and deal size as the right metrics for long-sales-cycle businesses, framing it under the principle that 'Marketing is never green when the business is red.'",
+              "practice_id": "measure-marketing-impact-business-red"
+            }
+          ]
+        },
+        {
+          "position_id": "use-leading-indicator-correlated-to-revenue",
+          "stance": "For long sales cycles, use a leading indicator that correlates with future revenue but moves faster—such as qualified demos booked, pipeline generated, or meetings held. The key is finding a metric that reflects marketing's contribution to eventual revenue, not just activity volume.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement expert/founder",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Recommended identifying a leading indicator that correlates with future revenue (qualified demos, pipeline, meetings) rather than closed-won revenue for businesses with 18+ month sales cycles.",
+              "practice_id": "select-leading-metric-not-revenue"
+            }
+          ]
+        },
+        {
+          "position_id": "finance-sets-revenue-efficiency-guardrails",
+          "stance": "Finance should set strict guardrails on marketing investments including CAC payback periods and blended ROAS targets. Marketing should not define its own success metrics—external financial accountability prevents inflated attribution claims and ensures true efficiency.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist/founder",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Argued that finance-driven guardrails (CAC payback, ROAS targets) should constrain marketing rather than marketing self-measuring ROI, with manager/director targets set 4-5x above baseline.",
+              "practice_id": "finance-guardrails-marketing-investment"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1 vs 1",
+      "context_dependency": "Partially. Pranav Piyush's two positions may reflect evolution in his thinking between episodes (May 2024 vs. April 2025) rather than a true contradiction—hand-raisers could be a subset of leading indicators. However, Chris Walker's finance-first accountability model genuinely conflicts with Pranav's marketing-controls-its-own-metric approach regardless of context.",
+      "trend_note": "Pranav Piyush shifted from 'hold marketing to hand-raisers only' (November 2024) to 'use a leading indicator correlated to revenue like qualified pipeline' (April 2025), suggesting possible evolution in his own thinking toward slightly broader accountability.",
+      "why_it_matters": "CMOs in long-cycle B2B businesses face constant pressure to justify marketing spend; choosing the wrong accountability metric either sets marketing up to be blamed for factors it can't control or lets it hide behind metrics that don't connect to business outcomes."
+    },
+    {
+      "disagreement_id": "attribution-rigor-vs-directional-signals",
+      "title": "How rigorous does marketing attribution need to be—precise incrementality measurement or directional signals?",
+      "category": "marketing-metrics-and-measurement",
+      "positions": [
+        {
+          "position_id": "incrementality-and-investor-rigor",
+          "stance": "Marketing measurement should focus on incrementality—net new business that wouldn't have happened without marketing—and be evaluated with an investor-first mindset asking whether the ROI justifies the spend. This is a rigorous, business-fundamentals approach that goes beyond directional signals.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement expert/founder",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "Argued for incrementality testing and an investor-first mindset as the gold standard for measurement, explicitly framing this as moving away from credit-allocation disputes toward rigorous business ROI evaluation.",
+              "practice_id": "incrementality-over-attribution-credit"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist/founder",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Explicitly argued that marketing self-measuring ROI leads to inflated attribution claims, and that finance-driven guardrails are necessary to ensure investments are truly efficient.",
+              "practice_id": "finance-guardrails-marketing-investment"
+            }
+          ]
+        },
+        {
+          "position_id": "directional-attribution-is-sufficient",
+          "stance": "Stop trying to achieve 100% attribution. Use attribution tools to understand directional trends—is brand investment moving in the right direction, is organic traffic growing? When founders understand marketing and are bought into the strategy, directional progress is sufficient to justify continued investment without requiring a spreadsheet proving every dollar's return.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Cheng",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 297,
+              "episode_date": "2025-10-23",
+              "evidence": "Explicitly recommended accepting directional attribution rather than perfect attribution, noting this is especially viable with founder-led companies who trust the overall strategy.",
+              "practice_id": "directional-attribution-over-perfect-attribution"
+            },
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "B2B marketing/sales professional",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Recommended prioritizing storytelling and narrative over obsessive tracking and attribution, suggesting a simple attribution tag paired with pipeline value is often enough.",
+              "practice_id": "focus-on-storytelling-over-metrics"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially. Kelly Cheng's directional approach is explicitly conditioned on having founder-led companies with high marketing trust, while Pranav Piyush's incrementality approach is framed for companies at scale with complex channel mixes. However, both are giving advice about how to think about attribution rigor as a general philosophy, and the underlying tension—precise measurement vs. directional signals—is a genuine disagreement about what 'good enough' looks like.",
+      "trend_note": "The two guests favoring directional attribution (episodes 232 and 297) are both more recent than Pranav Piyush's incrementality argument (episode 130), potentially suggesting a field shift toward accepting measurement imprecision as AI and dark social make precise attribution harder.",
+      "why_it_matters": "Marketing leaders deciding how much to invest in measurement infrastructure and how to defend budget decisions to CFOs need to know whether 'directional is good enough' is a defensible position or a rationalization for avoiding accountability."
+    },
+    {
+      "disagreement_id": "when-to-start-formal-measurement",
+      "title": "At what company stage should you invest in formal marketing measurement systems?",
+      "category": "marketing-metrics-and-measurement",
+      "positions": [
+        {
+          "position_id": "defer-until-scale",
+          "stance": "Early-stage startups (pre-5M ARR) should not invest in formal marketing measurement systems. At this stage, founders can viscerally understand what's working by being close to day-to-day operations. Formal measurement only becomes necessary at 10M+ ARR when you have a complex multi-channel mix and need predictability for board reporting.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Marketing measurement expert/founder",
+              "episode_number": 144,
+              "episode_date": "2024-05-27",
+              "evidence": "Explicitly stated pre-5M ARR companies should focus on generating great ideas, validating PMF, and building through warm outbound and organic channels rather than investing in formal measurement software.",
+              "practice_id": "defer-measurement-until-scale"
+            }
+          ]
+        },
+        {
+          "position_id": "measure-before-strategy",
+          "stance": "Before building any marketing strategy—regardless of stage—you should collect all available data on customer acquisition, bookings, and revenue trends and organize it to reveal what's already working. Measurement is a prerequisite to strategy, not a luxury for later-stage companies.",
+          "supporters": [
+            {
+              "guest_name": "Michael Cole",
+              "guest_context": "Marketing leader/consultant",
+              "episode_number": 212,
+              "episode_date": "2025-01-21",
+              "evidence": "Recommended collecting all reporting and data into a month-by-month spreadsheet before developing marketing strategy, framing this as a foundational step regardless of company stage.",
+              "practice_id": "measure-growth-before-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially. Pranav Piyush is explicitly talking about formal measurement systems and software, while Michael Cole is describing a simpler baseline data exercise (a spreadsheet). These could be reconciled if 'formal measurement' means different things—but Pranav's advice to not invest in measurement pre-5M ARR still conflicts with Michael's advice to measure before any strategy work, even at early stages. Genuine disagreement on whether measurement is a prerequisite or a later-stage investment.",
+      "trend_note": null,
+      "why_it_matters": "A founding marketing team deciding whether to invest time and budget in measurement infrastructure needs to know if this is table stakes from day one or a distraction until they hit scale. Getting this wrong either wastes early resources or leaves teams flying blind."
+    }
+  ]
+}

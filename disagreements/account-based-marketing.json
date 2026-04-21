@@ -1,0 +1,379 @@
+{
+  "category": "account-based-marketing",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "paid-social-for-abm-awareness",
+      "title": "Should you use paid social ads for top-of-funnel ABM brand awareness?",
+      "category": "account-based-marketing",
+      "positions": [
+        {
+          "position_id": "stop-paid-social-abm-awareness",
+          "stance": "Paid social (LinkedIn, Facebook) should not be used for top-of-funnel ABM awareness campaigns targeting small account lists. Digital channels are too crowded, creative fatigue sets in quickly with small audiences, and paid social morphs into targeted demand gen rather than true ABM. Budget should be redirected to in-person and physical activations that create genuine differentiation.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Argued that paid social quickly becomes saturated for small ABM account lists and creates pattern interruption problems; recommended redirecting budget to in-person activations instead.",
+              "practice_id": "abm-stop-paid-social-awareness"
+            }
+          ]
+        },
+        {
+          "position_id": "use-paid-social-abm-awareness",
+          "stance": "Paid social is a viable and recommended channel for ABM awareness and nurture campaigns. LinkedIn's native targeting capabilities are powerful enough for ABM without third-party platforms, and multi-step retargeting sequences can move accounts through awareness to conversion. Thought leader ads amplified to target account lists drive meaningful nurture. The key is rotating creative every 2-3 weeks to combat fatigue.",
+          "supporters": [
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "LinkedIn ads specialist, guest on Exit Five",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "Recommended building multi-step LinkedIn ABM campaigns using retargeting audiences, starting with educational content and progressing to conversion messaging. Called LinkedIn native targeting powerful enough for ABM without separate platforms.",
+              "practice_id": "linkedin-abm-retargeting-sequence"
+            },
+            {
+              "guest_name": "Taylor Udell",
+              "guest_context": "B2B marketing practitioner, guest on Exit Five",
+              "episode_number": 190,
+              "episode_date": "2024-11-04",
+              "evidence": "Recommended amplifying organic thought leader posts with paid ads targeted to specific target account lists and personas for awareness and nurture, measuring success by tracking what percentage of open opportunities had prior engagement with these ads.",
+              "practice_id": "thought-leader-ads-nurture-strategy"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Recommended building ABM ad audiences using Hightouch to push account groups to LinkedIn and Facebook, and advised rotating creative every 2-3 weeks to combat fatigue—implying paid social is a valid ABM channel that requires management, not abandonment.",
+              "practice_id": "abm-audience-building-hightouch-snowflake"
+            },
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "B2B paid media specialist, guest on Exit Five",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Recommended surround-sound multi-channel campaigns including LinkedIn brand solution ads and thought leader ads as core ABM channels, reporting 41% pipeline increase month-over-month from this approach.",
+              "practice_id": "surround-sound-multi-channel-icp-targeting"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader, guest on Exit Five",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Recommended splitting named account universe into cohorts to test brand impression impact via LinkedIn display ads, implying paid social brand impressions are a legitimate ABM tactic worth measuring.",
+              "practice_id": "cohort-testing-brand-impressions-abm"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist, guest on Exit Five",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Recommended uploading target account lists to LinkedIn to measure impression coverage as a front-end ABM metric, treating LinkedIn paid as a primary ABM channel.",
+              "practice_id": "use-target-account-list-for-coverage"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 1",
+      "context_dependency": "Partially context-dependent: Drew Pinta's objection is specifically about very small account lists (e.g., 20 accounts with 10 decision-makers each) where saturation is near-instant. The pro-paid-social guests are generally discussing larger target account lists (hundreds to thousands of accounts). The disagreement may dissolve for very small lists but is genuine for mid-sized ABM programs.",
+      "trend_note": null,
+      "why_it_matters": "Paid social is often the default ABM channel and represents significant budget; if it genuinely doesn't work for small-list ABM, marketers are wasting money that should go to in-person tactics. Getting this wrong in either direction means either burning budget on saturated digital or missing the scale benefits of paid social for larger ABM programs."
+    },
+    {
+      "disagreement_id": "abm-account-list-size-cap",
+      "title": "How many accounts should a true ABM program target?",
+      "category": "account-based-marketing",
+      "positions": [
+        {
+          "position_id": "very-small-list-2-to-100",
+          "stance": "True ABM should be capped at 100 accounts maximum, with the ideal being 2-5 accounts per quarter. Beyond 100 accounts, you are executing segmented B2B marketing, not ABM. Creativity, uniqueness, and directness—the core elements of ABM—cannot scale beyond this threshold.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "ABM practitioner and consultant, guest on Exit Five",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Explicitly stated that true ABM (one-to-one and one-to-few) should not exceed 100 accounts, and that 2-5 accounts per quarter is the ideal for creative, differentiated execution. Called anything larger 'segmented B2B marketing.'",
+              "practice_id": "abm-one-to-one-one-to-few-cap"
+            },
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "ABM practitioner and consultant, guest on Exit Five",
+              "episode_number": 140,
+              "episode_date": "2024-05-13",
+              "evidence": "Reiterated that ABM works best with 2-5 accounts per quarter, bringing cross-functional teams together for creative, coordinated outreach specific to each account.",
+              "practice_id": "abm-small-account-list-creative-execution"
+            }
+          ]
+        },
+        {
+          "position_id": "hundreds-to-thousands-of-accounts",
+          "stance": "ABM programs can and should operate at scale across hundreds to thousands of accounts. Quarterly target lists of 500-600 accounts, ICP universes of 15,000 accounts, and surround-sound campaigns targeting 120K-180K contacts are all described as legitimate ABM. Technology (Hightouch, LinkedIn native targeting, 6sense) enables this scale.",
+          "supporters": [
+            {
+              "guest_name": "Trinity Nguyen",
+              "guest_context": "B2B marketing leader, guest on Exit Five",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Described selecting the top 500-600 accounts per quarter from a 15,000-account ICP universe as the core ABM execution model, with one-to-one creative personalization at that scale using templated assembly-line processes.",
+              "practice_id": "abm-account-scoring-and-selection"
+            },
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "LinkedIn ads specialist, guest on Exit Five",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "Described LinkedIn native targeting as powerful enough for ABM campaigns ranging from 100 to 10,000+ accounts.",
+              "practice_id": "linkedin-abm-targeting-capabilities"
+            },
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "B2B paid media specialist, guest on Exit Five",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Described building a single ICP audience of 120K-180K contacts and deploying surround-sound campaigns across 4+ channels simultaneously as an ABM strategy, reporting strong pipeline results.",
+              "practice_id": "surround-sound-multi-channel-icp-targeting"
+            },
+            {
+              "guest_name": "Casey Patterson",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Described capping ABM at 120-150 total prospect accounts per ABM marketer (2-3 per sales rep), implying programs well above the 100-account threshold are standard ABM practice.",
+              "practice_id": "abm-account-limit-per-marketer"
+            },
+            {
+              "guest_name": "Mason Cosby",
+              "guest_context": "ABM strategist and consultant, guest on Exit Five",
+              "episode_number": 186,
+              "episode_date": "2024-10-21",
+              "evidence": "Described ABM eligibility for companies with TAM of 2,000+ accounts (recommending demand gen instead only below $50K ACV with large TAM), implying ABM programs can span hundreds of accounts with proper scoring and playbooks.",
+              "practice_id": "abm-eligibility-criteria"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially context-dependent: Chris Rack explicitly distinguishes one-to-one/one-to-few ABM from one-to-many segmented marketing, and the scale-friendly guests may be describing what Rack would call 'segmented B2B marketing.' However, all guests use the term 'ABM' for their approaches, making this a genuine disagreement about what ABM means in practice and how it should be executed.",
+      "trend_note": null,
+      "why_it_matters": "The account list size decision determines your entire ABM operating model—staffing ratios, technology stack, creative approach, and measurement framework all change dramatically between a 10-account and a 500-account program. Getting this wrong means either under-investing in personalization or over-engineering a program that can't scale."
+    },
+    {
+      "disagreement_id": "abm-landing-page-personalization",
+      "title": "Should you create company-specific personalized landing pages for each ABM target account?",
+      "category": "account-based-marketing",
+      "positions": [
+        {
+          "position_id": "yes-one-to-one-landing-pages",
+          "stance": "Build one-to-one personalized landing pages for each target account (e.g., 'Account Name, we know you need X. We provide X.'). This makes prospects feel seen and known, and can be done with zero additional budget using any landing page builder. Sales reps become the free distribution channel for these pages.",
+          "supporters": [
+            {
+              "guest_name": "Casey Patterson",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Recommended building one-to-one landing pages for each target account with personalized messaging and a CTA, using sales reps as the distribution channel. Described this as a zero-budget tactic.",
+              "practice_id": "abm-scrappy-one-to-one-landing-pages"
+            }
+          ]
+        },
+        {
+          "position_id": "no-core-journey-landing-pages",
+          "stance": "Do not create a unique landing page for every company on your ABM list. Instead, create 5-6 core landing pages that address different stages of the buyer journey and send all companies to the appropriate page based on their stage. This is scalable and provides clean data for optimization.",
+          "supporters": [
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "B2B landing page and conversion specialist, guest on Exit Five",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "Explicitly argued against creating a unique landing page for every company on an ABM list, recommending 5-6 core pages by buyer journey stage instead for scalability and cleaner optimization data.",
+              "practice_id": "create-core-landing-pages-abm"
+            },
+            {
+              "guest_name": "Kym Parker",
+              "guest_context": "B2B paid media and ABM strategist, guest on Exit Five",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Argued that you don't need fully personalized landing pages to run effective ABM—personalization can happen in ad copy and sales conversations rather than on the landing page itself.",
+              "practice_id": "abm-without-full-personalization"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Casey Patterson's one-to-one approach is explicitly framed as a scrappy, low-budget tactic for a small number of accounts, while Tas Bober's advice appears aimed at teams running ABM at scale across many accounts. The disagreement is genuine for mid-scale ABM programs where both approaches are feasible.",
+      "trend_note": null,
+      "why_it_matters": "Landing page strategy directly affects both conversion rates and operational overhead; building hundreds of personalized pages is expensive and time-consuming, but generic pages may underperform for high-value ABM accounts where personalization is the whole point."
+    },
+    {
+      "disagreement_id": "abm-fit-threshold-acv",
+      "title": "What is the minimum ACV threshold for ABM to make sense?",
+      "category": "account-based-marketing",
+      "positions": [
+        {
+          "position_id": "50k-acv-minimum",
+          "stance": "ABM is appropriate for B2B companies with an average contract value of at least $50,000, a dedicated sales team, clear product-market fit, and expansion opportunities. For companies below $50K ACV with large TAM (2,000+ accounts), demand generation is more appropriate than ABM.",
+          "supporters": [
+            {
+              "guest_name": "Mason Cosby",
+              "guest_context": "ABM strategist and consultant, guest on Exit Five",
+              "episode_number": 186,
+              "episode_date": "2024-10-21",
+              "evidence": "Explicitly stated $50,000 ACV as the minimum threshold for ABM eligibility, with the exception of vertical SaaS with very small TAMs (500 accounts) where ABM is warranted regardless of ACV.",
+              "practice_id": "abm-eligibility-criteria"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "B2B paid media strategist, guest on Exit Five",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Recommended using the 'Five Ways to Build a $100M Business' framework, advising ABM with personalization for companies with ~$50K+ ACV and lower customer volume, and inbound/demand gen for lower ACV with infinite addressable accounts.",
+              "practice_id": "strategy-selection-by-acv-and-customer-volume"
+            }
+          ]
+        },
+        {
+          "position_id": "1m-revenue-readiness-not-acv",
+          "stance": "ABM viability is better assessed by company revenue stage ($1M+) and having dedicated sales and marketing leadership than by ACV alone. Very early-stage startups are inherently doing scrappy ABM through founder-led outreach regardless of ACV. The threshold is organizational readiness, not deal size.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "ABM practitioner and consultant, guest on Exit Five",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Framed ABM readiness around $1M+ revenue and dedicated sales/marketing leadership rather than ACV, noting that early-stage founders are already doing scrappy ABM. Did not cite a specific ACV threshold.",
+              "practice_id": "abm-company-size-readiness"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: the $50K ACV threshold and the $1M revenue threshold are measuring different things (deal economics vs. organizational readiness) and could be complementary rather than conflicting. However, they give practitioners different decision rules for the same question of 'should we do ABM?', making this a genuine practical disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong GTM motion wastes significant budget and sales capacity; a company that pursues ABM when demand gen is more appropriate (or vice versa) will consistently underperform on pipeline generation."
+    },
+    {
+      "disagreement_id": "abm-attribution-approach",
+      "title": "How should you handle marketing-sales attribution in ABM programs?",
+      "category": "account-based-marketing",
+      "positions": [
+        {
+          "position_id": "avoid-attribution-disputes-shared-credit",
+          "stance": "Explicitly agree at the C-level to stop fighting over attribution. Use control/treatment groups and progression metrics instead. Assign all named accounts to sales territories and credit wins to the team regardless of which function initiated contact. This removes cultural friction and focuses everyone on what actually drives deals.",
+          "supporters": [
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Recommended establishing company-wide C-level agreement to avoid attribution disputes, using control/treatment groups instead of attribution models.",
+              "practice_id": "abm-avoid-attribution-disputes"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader, guest on Exit Five",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Recommended account-based territories where any meeting with a named account is credited to the team regardless of which function drove it, using cohort analysis to measure channel effectiveness separately from attribution.",
+              "practice_id": "account-based-territories-shared-credit"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "B2B GTM leader, guest on Exit Five",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Reiterated the account-based territory model where success is celebrated when a meeting happens, not when one function claims credit.",
+              "practice_id": "account-based-territories-shared-credit"
+            },
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "ABM practitioner and consultant, guest on Exit Five",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Recommended combining easy-to-attribute tactics with brand-building efforts, and explicitly advised making friends with RevOps to connect marketing activities to closed revenue. Framed clear attribution as necessary for executive confidence.",
+              "practice_id": "abm-prove-roi-simple-attribution"
+            }
+          ]
+        },
+        {
+          "position_id": "measure-marketing-influence-on-all-pipeline",
+          "stance": "Instead of sourced attribution, measure marketing's influence on all revenue and pipeline. This incentivizes marketing to focus on pipeline acceleration and deal expansion rather than top-of-funnel volume. A CRO example achieved 90% marketing-influenced pipeline while increasing sales velocity and deal values by removing revenue goals from marketing and measuring influence instead.",
+          "supporters": [
+            {
+              "guest_name": "Mason Cosby",
+              "guest_context": "ABM strategist and consultant, guest on Exit Five",
+              "episode_number": 186,
+              "episode_date": "2024-10-21",
+              "evidence": "Recommended measuring marketing's influence on all pipeline rather than just marketing-sourced deals, citing a CRO example that achieved 90% marketing-influenced pipeline with this approach.",
+              "practice_id": "measure-marketing-influence-not-just-sourced-pipeline"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "These positions are more complementary than conflicting — both reject traditional sourced attribution and both focus on account-level measurement. The disagreement is about the specific alternative: shared territory credit (Coleman/Kotlyar) vs. marketing influence scoring (Cosby). Genuine disagreement exists about which replacement metric to use.",
+      "trend_note": null,
+      "why_it_matters": "Attribution models directly affect how marketing budgets are justified and how marketing and sales teams are incentivized; choosing the wrong model creates perverse incentives that undermine ABM program effectiveness."
+    },
+    {
+      "disagreement_id": "abm-sales-engagement-timing",
+      "title": "When should sales get involved in high-touch ABM outreach?",
+      "category": "account-based-marketing",
+      "positions": [
+        {
+          "position_id": "delay-until-meaningful-engagement",
+          "stance": "Do not involve sellers in high-touch outreach until accounts reach the meaningful engagement stage (visiting product pages, case studies, pricing pages). Use marketing-only programs to drive awareness and initial engagement first. This prevents wasting seller time on cold outreach and improves conversion rates.",
+          "supporters": [
+            {
+              "guest_name": "Mason Cosby",
+              "guest_context": "ABM strategist and consultant, guest on Exit Five",
+              "episode_number": 186,
+              "episode_date": "2024-10-21",
+              "evidence": "Explicitly recommended delaying high-touch sales engagement until the meaningful engagement stage, using marketing-only programs for awareness and initial engagement to avoid wasting seller time.",
+              "practice_id": "delay-sales-engagement-until-meaningful-engagement"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Separately recommended lunch-and-learns as a scrappy, nearly-free ABM tactic where you identify a target account's biggest pain point and offer to visit their office with food—framing this as a top-of-funnel awareness tactic, not just a mid-funnel one.",
+              "practice_id": "abm-scrappy-lunch-and-learn"
+            }
+          ]
+        },
+        {
+          "position_id": "sales-leads-abm-from-the-start",
+          "stance": "The most effective ABM in-person events are those where the salesperson originates the idea and drives strategy, with marketing in a support role. Sales reps know their accounts best and should drive event strategy from the beginning, not wait for marketing to warm accounts first.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Argued that the most effective ABM in-person events are sales-originated, with sales reps driving strategy around hyper-specific pain points that marketing wouldn't have thought of. Marketing's role is support, not lead.",
+              "practice_id": "abm-in-person-sales-led-events"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "ABM practitioner, guest on Exit Five",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Recommended not using expensive ABM tactics for cold accounts, but also described sales-led lunch-and-learns and in-person visits as early-stage ABM tactics—implying sales involvement before meaningful digital engagement signals are present.",
+              "practice_id": "abm-avoid-mid-funnel-cold-outreach"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: Mason Cosby's advice applies specifically to digital/programmatic ABM where engagement signals are trackable, while Drew Pinta and Brian Kotlyar are discussing in-person event tactics where sales relationship knowledge is the primary input. The disagreement is most genuine for hybrid programs that use both digital and in-person tactics.",
+      "trend_note": null,
+      "why_it_matters": "Involving sales too early wastes expensive seller time on cold accounts; involving them too late means missing relationship-building opportunities that only humans can create. The timing decision directly affects both sales productivity and pipeline conversion rates."
+    }
+  ]
+}

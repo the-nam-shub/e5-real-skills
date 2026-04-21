@@ -1,0 +1,150 @@
+{
+  "category": "brand-building-tactics-and-creative",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 3,
+  "disagreements": [
+    {
+      "disagreement_id": "in-house-vs-agency-creative",
+      "title": "Should creative and design work be kept in-house or outsourced to agencies?",
+      "category": "brand-building-tactics-and-creative",
+      "positions": [
+        {
+          "position_id": "keep-creative-in-house",
+          "stance": "Embed a creative and design team directly within marketing to maintain brand consistency, reduce briefing overhead, and ensure every asset reflects the brand without extensive specification. In-house teams understand company rhythms and strategic direction deeply enough to execute with minimal direction.",
+          "supporters": [
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "Guest, episode 182",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Argued that in-house creative teams understand brand essence and company rhythms deeply, reducing transactional overhead of briefing external resources and ensuring consistent execution.",
+              "practice_id": "in-house-creative-team-brand-consistency"
+            },
+            {
+              "guest_name": "Tom Wentworth",
+              "guest_context": "Guest, episode 304",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Advocated investing in hiring talented in-house designers as a defensible competitive advantage, arguing design is one area where AI still struggles and a strong in-house team allows obsessing over details that generic AI-generated creative cannot match.",
+              "practice_id": "invest-in-design-talent"
+            }
+          ]
+        },
+        {
+          "position_id": "use-external-agencies-or-specialists",
+          "stance": "Bring in external creative specialists (agencies or freelancers) for brand and design work, particularly for establishing creative risk boundaries and preselling concepts to stakeholders. External experts bring fresh perspective and structured processes like mood boards that internal teams may lack.",
+          "supporters": [
+            {
+              "guest_name": "Eli Rubel",
+              "guest_context": "Guest, episodes 120 and 153",
+              "episode_number": 153,
+              "episode_date": "2024-06-27",
+              "evidence": "As a creative agency operator, Eli Rubel described structured external processes (mood boards to establish risk boundaries, preselling creative with brand story) that imply an external agency relationship, and framed design investment as a conversion lever that external specialists are positioned to deliver.",
+              "practice_id": "establish-creative-risk-boundaries-with-moodboards"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Eli Rubel speaks from an agency operator's perspective and his advice is directed at clients engaging external help, while Mychelle Mollot and Tom Wentworth speak from in-house CMO perspectives. However, the underlying question of where creative capability should live is a genuine strategic disagreement, not merely a framing difference.",
+      "trend_note": null,
+      "why_it_matters": "Where creative capability lives affects brand consistency, speed of execution, and cost structure; getting this wrong either creates briefing overhead and brand drift (over-reliance on agencies) or limits creative freshness and specialized expertise (over-reliance on in-house)."
+    },
+    {
+      "disagreement_id": "product-messaging-vs-attention-first-in-brand-creative",
+      "title": "Should brand awareness creative lead with product messaging or earn attention first without product messaging?",
+      "category": "brand-building-tactics-and-creative",
+      "positions": [
+        {
+          "position_id": "attention-first-product-messaging-second",
+          "stance": "Lead with plays designed purely to get attention—without product features or benefits—and only introduce product messaging after you've earned mindshare. Most people are not actively shopping, so generic product messaging will not hook them; attention must come first.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 316,
+              "episode_date": "2025-12-29",
+              "evidence": "Explicitly described a two-step sequence: (1) run a play designed purely to get attention without leading with product features or benefits, (2) then use that attention to tell the product story. Argued most people are not actively shopping so product messaging alone won't work.",
+              "practice_id": "attention-before-product-messaging"
+            },
+            {
+              "guest_name": "Ryan Narod",
+              "guest_context": "Guest, episode 330",
+              "episode_number": 330,
+              "episode_date": "2026-02-17",
+              "evidence": "Argued that mass-market creative (e.g., Super Bowl ads) should move away from product-specific messaging and instead focus on the emotional pain point and aspiration, using that as the hook before introducing the solution.",
+              "practice_id": "emotional-pain-point-super-bowl-messaging"
+            }
+          ]
+        },
+        {
+          "position_id": "integrate-demand-gen-ctas-into-brand-awareness-campaigns",
+          "stance": "When running large brand awareness campaigns, simultaneously create landing pages and CTAs that drive B2B actions (demo signups, contact sales). Brand awareness and product/demand messaging should be integrated in the same campaign rather than sequenced.",
+          "supporters": [
+            {
+              "guest_name": "Kristine Segrist",
+              "guest_context": "Guest, episode 277",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "Described integrating demand generation pull-through (landing pages, CTAs for demos and sales contact) directly into brand awareness campaigns (OOH, digital, TV) to measure both brand perception lift and immediate business outcomes from the same campaign.",
+              "practice_id": "brand-awareness-campaign-with-demand-gen-pull-through"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: the attention-first approach is most explicitly argued for mass-market or top-of-funnel audiences not actively shopping, while Kristine Segrist's integrated approach may suit audiences already somewhat aware of the category. However, the disagreement about whether product/demand messaging belongs in the same creative moment as brand awareness is a genuine strategic tension.",
+      "trend_note": null,
+      "why_it_matters": "Whether to separate attention-getting from product messaging or integrate them affects campaign structure, budget allocation, and how you measure brand vs. demand outcomes—getting this wrong can mean either wasted brand spend with no pipeline or product messaging that fails to break through to unaware audiences."
+    },
+    {
+      "disagreement_id": "authentic-influencer-vs-casual-influencer-mentions",
+      "title": "Should influencer marketing require formal authentic advocacy, or do casual unpaid mentions work just as well?",
+      "category": "brand-building-tactics-and-creative",
+      "positions": [
+        {
+          "position_id": "formal-authentic-advocacy-no-pay-to-play",
+          "stance": "Influencer and analyst partnerships must be built on genuine advocacy. Paying for favorable content damages credibility because audiences detect it. Earned recognition (e.g., Gartner Magic Quadrant) carries far more weight than paid arrangements. Only use influencers who are genuine product advocates.",
+          "supporters": [
+            {
+              "guest_name": "Megan Lueders",
+              "guest_context": "Guest, episode 229",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "Explicitly warned against paying analysts or influencers to write favorable content, arguing audiences detect pay-to-play arrangements and it damages brand credibility. Argued earned recognition carries far more weight.",
+              "practice_id": "authentic-influencer-marketing"
+            },
+            {
+              "guest_name": "Brianna Doe",
+              "guest_context": "Founder at Verbatim, influencer marketing consultant",
+              "episode_number": 305,
+              "episode_date": "2025-11-20",
+              "evidence": "Doe's example of a brand partnering with a Love Island couple (a commercial arrangement) to ride a cultural wave and sell out in two hours demonstrates that paid influencer partnerships can deliver strong results when timed to authentic cultural moments.",
+              "practice_id": "ride-cultural-waves-dont-manufacture"
+            }
+          ]
+        },
+        {
+          "position_id": "casual-unpaid-mentions-highly-effective",
+          "stance": "Casual, unpaid mentions by influential people in your space—such as a comment on LinkedIn recommending your product—drive significant awareness and signups because they carry third-party credibility. The relationship-building focus should be on getting influential people to organically mention you, not on formal advocacy programs.",
+          "supporters": [
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Guest, episode 119",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Cited specific examples of influential people (Kathleen Booth, Guillaume) casually mentioning Wynter in LinkedIn comments without being paid, which drove signups. Argued this is more effective than direct advertising due to third-party credibility.",
+              "practice_id": "influencer-mentions-drive-awareness"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "These positions are more complementary than conflicting on close inspection: Megan Lueders argues against paid inauthentic arrangements, while Peep Laja describes unpaid organic mentions—both actually agree that authenticity matters. The disagreement is subtle: Lueders implies a formal (but genuine) advocacy program, while Laja suggests the most effective form is entirely informal and relationship-driven. This is a mild tension rather than a strong disagreement.",
+      "trend_note": null,
+      "why_it_matters": "How you structure influencer relationships—formal programs vs. organic relationship cultivation—affects both budget and credibility; misreading which approach works can mean wasted spend on formal programs or missed opportunities from not nurturing organic advocates."
+    }
+  ]
+}

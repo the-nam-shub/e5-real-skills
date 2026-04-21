@@ -1,0 +1,261 @@
+{
+  "category": "video-content-marketing",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "iphone-vs-professional-camera-video",
+      "title": "Should B2B marketers shoot video on iPhone or professional cameras?",
+      "category": "video-content-marketing",
+      "positions": [
+        {
+          "position_id": "iphone-preferred",
+          "stance": "Shoot the majority of short-form social content on iPhone rather than professional cameras. iPhone footage performs better because it looks raw and authentic—similar to user-generated content. The casual aesthetic is a feature, not a limitation.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "Video content strategist",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "iPhone footage performs better on social because it looks raw and authentic. Reserve professional cameras only for high-end music videos or special productions.",
+              "practice_id": "iphone-video-production-over-professional-gear"
+            },
+            {
+              "guest_name": "Ryan Narod",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 330,
+              "episode_date": "2026-02-17",
+              "evidence": "Low-cost iPhone videos featuring team members in unexpected scenarios often outperform static, polished promotional content despite near-zero production cost.",
+              "practice_id": "scrappy-iphone-video-webinar-promo"
+            },
+            {
+              "guest_name": "Connor Lewis",
+              "guest_context": "B2B video marketing strategist",
+              "episode_number": 240,
+              "episode_date": "2025-04-24",
+              "evidence": "Authenticity and conversational tone matter more than production quality. Filming in non-traditional settings creates pattern interruption. Stiff, overproduced videos kill reach.",
+              "practice_id": "pattern-interrupt-video-settings"
+            },
+            {
+              "guest_name": "Max Van Den Ingh",
+              "guest_context": "B2B marketing consultant",
+              "episode_number": 161,
+              "episode_date": "2024-07-25",
+              "evidence": "Imperfect, scrappy content often resonates more than heavily produced, formal content. Audiences respond to authenticity and directness.",
+              "practice_id": "embrace-imperfect-scrappy-content"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Video success is determined primarily by hook, angle, and storytelling—not production quality or editing. A simple, authentic video with a strong hook will outperform a highly polished video with weak messaging.",
+              "practice_id": "focus-on-hook-not-production-quality-for-video-success"
+            }
+          ]
+        },
+        {
+          "position_id": "professional-setup-preferred",
+          "stance": "Start video production with a proper in-house equipment setup (DSLR camera, lighting kit) rather than relying on phone cameras. Even a modest sub-$1,000 setup is preferable to pure iPhone shooting for building a credible video content program.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Kennada",
+              "guest_context": "B2B marketing executive and founder",
+              "episode_number": 145,
+              "episode_date": "2024-05-30",
+              "evidence": "Recommends starting with under $1,000 in equipment including a DSLR camera on desk and Amazon lighting kit, rather than outsourcing to agencies. This implies a step up from phone-only production.",
+              "practice_id": "low-cost-in-house-video-production-setup"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: iPhone-first advice is most clearly directed at short-form social content (LinkedIn, Instagram Reels), while the DSLR recommendation from Kennada is aimed at building a show/content program. However, both contexts involve B2B social video content, and the underlying question of whether raw/authentic or more structured production is better is a genuine disagreement.",
+      "trend_note": "More recent guests (2025-2026) consistently favor iPhone/scrappy production, while the DSLR recommendation comes from a 2024 episode. This may reflect a genuine shift in platform norms toward authenticity.",
+      "why_it_matters": "Choosing the wrong production approach wastes budget and time—over-investing in polished production may actually hurt performance if authenticity drives engagement, but under-investing in basic setup could undermine credibility for certain content programs."
+    },
+    {
+      "disagreement_id": "video-before-vs-after-messaging-validation",
+      "title": "Should you invest in video ads before or after validating your messaging?",
+      "category": "video-content-marketing",
+      "positions": [
+        {
+          "position_id": "validate-messaging-first",
+          "stance": "Don't invest in production-heavy video ads until you've validated what messaging works. Start with virtual production, animation, or text-on-screen ads to test messaging first, then move into higher-production video once you know what resonates.",
+          "supporters": [
+            {
+              "guest_name": "Connor Lewis",
+              "guest_context": "B2B video marketing strategist",
+              "episode_number": 240,
+              "episode_date": "2025-04-24",
+              "evidence": "Explicitly advises avoiding production-heavy video ads with actors and professional lighting until messaging is validated. Recommends starting with virtual production ads or non-paid video content to test first.",
+              "practice_id": "avoid-premature-video-ads"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Recommends testing video ideas on organic social before investing in production, and using AI video generation to test multiple variations cheaply before committing to expensive production.",
+              "practice_id": "test-video-ideas-organic-social-before-production"
+            }
+          ]
+        },
+        {
+          "position_id": "lead-with-video-as-primary-format",
+          "stance": "Video is the most effective format for B2B LinkedIn ads and should be prioritized as the lead creative format. While harder to produce, it delivers significantly better results and should be used across all funnel stages.",
+          "supporters": [
+            {
+              "guest_name": "Tagg Bozied",
+              "guest_context": "LinkedIn ads specialist",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Video is the most effective format for B2B LinkedIn ads when executed well. It allows you to convey more information and creates higher-fidelity interactions than static images. Prioritize video as your lead creative.",
+              "practice_id": "use-video-as-primary-creative-format"
+            },
+            {
+              "guest_name": "Davang Shah",
+              "guest_context": "LinkedIn marketing leader",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "LinkedIn data shows video performs well across all funnel stages. Expands the creative toolkit for demand gen teams and allows for more consistent, engaging messaging throughout the buyer journey.",
+              "practice_id": "video-ads-across-all-funnel-stages"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: Lewis and Gerhardt are speaking to marketers with limited budgets or early-stage programs, while Bozied and Shah are speaking to marketers with established budgets running LinkedIn campaigns. However, the core question of whether to lead with video or validate first applies broadly to any B2B marketer considering video ads.",
+      "trend_note": null,
+      "why_it_matters": "Investing in polished video ads before validating messaging can waste significant budget; but being too cautious about video adoption may mean missing the channel's performance advantages at a time when LinkedIn is algorithmically favoring it."
+    },
+    {
+      "disagreement_id": "scripted-vs-unscripted-video-content",
+      "title": "Should subject matter expert video content be scripted or unscripted?",
+      "category": "video-content-marketing",
+      "positions": [
+        {
+          "position_id": "unscripted-conversational",
+          "stance": "Rather than scripting video content, have a skilled producer ask targeted questions to a subject matter expert and film their natural responses. Unscripted, conversational content performs better than scripted material because it feels authentic.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "B2B sales and marketing thought leader",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Partner a subject matter expert with a skilled interviewer who asks smart questions. The expert responds conversationally in 60 seconds or less. The producer handles shooting and editing; the expert just shows up and speaks naturally.",
+              "practice_id": "short-form-video-with-subject-matter-expert"
+            },
+            {
+              "guest_name": "Jen Allen Knuth",
+              "guest_context": "B2B sales and marketing thought leader",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Have a skilled producer ask targeted questions to a subject matter expert and film their natural responses. Keep videos short with no preamble. Unscripted approach generates authentic, conversational content that performs better than scripted material.",
+              "practice_id": "create-short-unscripted-video-with-subject-matter-expert"
+            },
+            {
+              "guest_name": "Connor Lewis",
+              "guest_context": "B2B video marketing strategist",
+              "episode_number": 240,
+              "episode_date": "2025-04-24",
+              "evidence": "Authenticity and conversational tone matter more than production quality. Stiff, overproduced videos kill reach.",
+              "practice_id": "pattern-interrupt-video-settings"
+            }
+          ]
+        },
+        {
+          "position_id": "write-script-first",
+          "stance": "Start with written scripts and messaging before producing video. Writing first allows you to test and iterate on the story cheaply before investing in video production, and ensures messaging is validated before committing to a format.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Start with written content (scripts, blog posts, articles) before producing video. This allows you to test messaging cheaply and iterate on the story before investing in video production.",
+              "practice_id": "write-first-then-generate-video-from-script"
+            },
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "B2B content strategist",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Conduct structured 'content interviews' with 15 pre-prepared prompts. While conversational in delivery, the approach is structured and prompt-driven rather than purely spontaneous, implying scripted preparation.",
+              "practice_id": "linkedin-video-content-interview-format"
+            },
+            {
+              "guest_name": "Vicente",
+              "guest_context": "AI video production specialist",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Described an AI-powered video production workflow that starts with Claude to develop and iterate the script before any visual production begins, treating the script as the foundational step.",
+              "practice_id": "ai-video-production-workflow"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 3",
+      "context_dependency": "Partially context-dependent: the unscripted approach is specifically recommended for short-form social video with subject matter experts, while the write-first approach is more broadly applicable and also addresses AI video generation workflows. Both camps are addressing social video content, making this a genuine disagreement on approach.",
+      "trend_note": null,
+      "why_it_matters": "The choice between scripted and unscripted video affects both production workflow and content authenticity—getting this wrong either produces stiff content that underperforms or wastes time on scripts that constrain natural delivery."
+    },
+    {
+      "disagreement_id": "vertical-vs-horizontal-video-linkedin",
+      "title": "Should you use vertical or horizontal video format on LinkedIn?",
+      "category": "video-content-marketing",
+      "positions": [
+        {
+          "position_id": "horizontal-preferred-linkedin",
+          "stance": "Despite the industry trend toward vertical video, LinkedIn's algorithm and user experience actually favor horizontal videos. Vertical videos display poorly in the LinkedIn feed, showing only your face with no context, while horizontal videos display better and generate higher engagement.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Explicitly states LinkedIn favors horizontal videos. Vertical video displays poorly in the feed. Frames this as a 'reverse growth hack' where LinkedIn's platform limitation creates a differentiation opportunity.",
+              "practice_id": "use-horizontal-video-on-linkedin"
+            }
+          ]
+        },
+        {
+          "position_id": "vertical-or-platform-trend",
+          "stance": "The broader industry trend toward vertical video (driven by TikTok, Instagram Reels, YouTube Shorts) should inform LinkedIn video strategy, and LinkedIn's own video push aligns with short-form vertical formats popular on other platforms.",
+          "supporters": [
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "B2B content marketing strategist",
+              "episode_number": 200,
+              "episode_date": "2024-12-09",
+              "evidence": "LinkedIn's algorithm is shifting toward video content, prominently featuring it on the homepage and mobile app. Implies alignment with broader short-form video trends without specifying horizontal vs. vertical.",
+              "practice_id": "linkedin-video-priority-algorithm"
+            },
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "Video content strategist",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Recommends shooting on iPhone for authenticity and raw aesthetic similar to Snapchat/UGC—formats that are natively vertical. Does not explicitly address LinkedIn format but implies vertical-first thinking.",
+              "practice_id": "iphone-video-production-over-professional-gear"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "B2B content marketer",
+              "episode_number": 266,
+              "episode_date": "2025-07-21",
+              "evidence": "Recommended YouTube Shorts (vertical format) as a primary distribution channel for video content, noting it drives significantly more views and engagement than long-form content alone.",
+              "practice_id": "youtube-shorts-clips-distribution-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "This disagreement is specific to LinkedIn. Gerhardt's advice is explicitly about LinkedIn's display behavior, while Simmonds and Cunningham are speaking more broadly about video trends. The disagreement is most genuine for LinkedIn-specific video strategy.",
+      "trend_note": "Gerhardt's horizontal recommendation (Nov 2025) is more recent than Simmonds' general video push (Dec 2024), but Cunningham's iPhone/vertical-native approach is the most recent (Apr 2026), suggesting no clear chronological resolution.",
+      "why_it_matters": "Choosing the wrong format for LinkedIn could mean your video displays poorly in the feed and loses engagement—a tactical decision with direct impact on organic reach and ad performance."
+    }
+  ]
+}

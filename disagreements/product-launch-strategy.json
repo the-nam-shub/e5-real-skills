@@ -1,0 +1,224 @@
+{
+  "category": "product-launch-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "launch-frequency-cadence",
+      "title": "How frequently should you run major product launches?",
+      "category": "product-launch-strategy",
+      "positions": [
+        {
+          "position_id": "weekly-feature-launches",
+          "stance": "Launch one new product feature every single week and create short-form video content for each. This weekly cadence signals product momentum to prospects and early customers, differentiating you in crowded markets where buyers purchase based on velocity and vision.",
+          "supporters": [
+            {
+              "guest_name": "Emir Atli",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 165,
+              "episode_date": "2024-08-12",
+              "evidence": "Described hiring an in-house designer to create short videos for each weekly feature, distributed across founder and team member profiles including engineers, creating a consistent content drumbeat.",
+              "practice_id": "weekly-feature-launch-cadence"
+            }
+          ]
+        },
+        {
+          "position_id": "monthly-launches",
+          "stance": "Establish a fixed monthly launch cadence (e.g., first Tuesday of each month) for product features, announcements, or marketing initiatives. Monthly is frequent enough to create momentum and give sales predictable windows, without requiring weekly shipping velocity.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Recommended monthly marketable moments on a fixed calendar day to create predictable rhythm aligned with sales cycles, front-loading launches early in the month to maximize sales cycle impact.",
+              "practice_id": "monthly-marketable-moments-cadence"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Reiterated the monthly 'marketable moment' forcing function, coordinating with product on roadmap and filling non-product months with marketing-owned launches.",
+              "practice_id": "monthly-marketable-moments-launch-cadence"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Advocated for a predictable monthly launch cadence tied to strategic narrative, creating momentum independent of third-party validation.",
+              "practice_id": "monthly-product-launch-cadence"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 133,
+              "episode_date": "2024-04-18",
+              "evidence": "Recommended shipping product updates or features at least monthly to maintain narrative momentum and force prioritization.",
+              "practice_id": "monthly-shipping-cadence-for-momentum"
+            }
+          ]
+        },
+        {
+          "position_id": "monthly-plus-quarterly-major-launches",
+          "stance": "Structure marketing around a monthly-to-quarterly rhythm: one major quarterly launch anchored to a virtual event, plus smaller monthly on-demand launches. The quarterly anchor provides a high-production moment while monthly launches maintain ongoing engagement.",
+          "supporters": [
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Described building an in-house creative studio enabling 3-4 shoots per week to execute monthly launches, with quarterly virtual events as major anchors including keynote, product demo, and customer story.",
+              "practice_id": "monthly-quarterly-product-launch-cadence"
+            }
+          ]
+        },
+        {
+          "position_id": "one-to-two-major-launches-per-year",
+          "stance": "Plan 1-2 major 'lightning strike' marketing moments per year (or quarterly for fast-moving companies) where all resources concentrate on a single coordinated initiative. Fewer, bigger moments prevent budget dilution across incremental campaigns.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Argued that 1-2 major marketing moments per year (or quarterly) prevent peanut-butter-spreading budgets and ensure all marketing efforts ladder up to the category vision.",
+              "practice_id": "lightning-strike-strategy-marquee-moments"
+            },
+            {
+              "guest_name": "Jeff Hardison",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 335,
+              "episode_date": "2026-03-05",
+              "evidence": "Recommended scheduling tier-one product launches a couple times per year as artificial deadlines to rally the entire company, even if individual features feel small.",
+              "practice_id": "product-launches-as-rallying-mechanism"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: weekly launches (Emir Atli) appear most suited to early-stage startups competing on velocity in crowded markets. The monthly vs. quarterly vs. 1-2/year debate applies more broadly to growth-stage B2B companies and represents a genuine disagreement about optimal cadence even within similar contexts. Kyle Coleman and Jeff Hardison's 'fewer, bigger' position conflicts directly with Dave Gerhardt's monthly cadence advice regardless of company stage.",
+      "trend_note": "The most recent episode (335, March 2026) supports fewer major launches per year, while the monthly cadence advice clusters in earlier episodes (133, 134, 198, 214). This may suggest a shift toward consolidating launches into bigger moments rather than maintaining high-frequency cadence, though the sample is small.",
+      "why_it_matters": "Launch frequency directly determines how marketing allocates budget, creative resources, and cross-functional attention — choosing the wrong cadence either dilutes impact across too many small moments or misses opportunities to maintain market momentum between infrequent big events."
+    },
+    {
+      "disagreement_id": "feature-bundling-vs-individual-release",
+      "title": "Should you bundle features into a single launch story or release and announce them individually as they ship?",
+      "category": "product-launch-strategy",
+      "positions": [
+        {
+          "position_id": "bundle-features-for-bigger-story",
+          "stance": "Hold related features and bundle them together to tell a stronger, more cohesive narrative. Rearrange release schedules if needed to launch related features simultaneously, creating a more compelling story that addresses a specific buyer pain point rather than a collection of disconnected features.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 163,
+              "episode_date": "2024-08-01",
+              "evidence": "Explicitly recommended evaluating whether multiple features can be bundled to tell a stronger story, even if it means rearranging the release schedule.",
+              "practice_id": "bundle-features-for-launch-story"
+            },
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "Argued that enterprise buyers need packaged stories to understand value — bundle releases into larger narratives with clear messaging about why each feature matters, rather than launching every feature as it ships.",
+              "practice_id": "package-features-into-narrative-for-enterprise"
+            }
+          ]
+        },
+        {
+          "position_id": "ship-and-announce-individually-at-high-frequency",
+          "stance": "Ship and announce one new feature every week as it's ready. The high-frequency individual release cadence itself is the signal — it demonstrates product velocity and momentum to prospects, and early customers buy based on that velocity and vision rather than feature completeness.",
+          "supporters": [
+            {
+              "guest_name": "Emir Atli",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 165,
+              "episode_date": "2024-08-12",
+              "evidence": "Described a weekly feature launch cadence with individual short-form videos for each feature, arguing that the velocity itself differentiates you in crowded markets.",
+              "practice_id": "weekly-feature-launch-cadence"
+            }
+          ]
+        },
+        {
+          "position_id": "separate-internal-from-external-launch",
+          "stance": "Release features internally to customers or beta groups first, gather real usage data and testimonials, then bundle that evidence into a public marketing launch. This separates the product release from the marketing announcement, allowing the external launch to be grounded in real customer outcomes.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 133,
+              "episode_date": "2024-04-18",
+              "evidence": "Recommended releasing internally weeks or months before announcing publicly, using the gap to gather testimonials, case studies, and proof points for the marketing announcement.",
+              "practice_id": "separate-internal-launch-from-marketing-launch"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: Holly Xiao explicitly frames bundling as an enterprise audience need, while Emir Atli's weekly individual releases appear suited to early-stage startups targeting self-serve or developer audiences. However, Natalie Taylor's bundling advice is not explicitly limited to enterprise, creating genuine tension with the individual release approach even for similar audiences.",
+      "trend_note": null,
+      "why_it_matters": "The choice between bundling and individual releases determines how buyers perceive your product's value — bundling creates clearer narrative impact per launch while individual releases signal velocity, and getting this wrong means either confusing buyers with fragmented announcements or losing the momentum signal that drives early adoption."
+    },
+    {
+      "disagreement_id": "launch-timing-control",
+      "title": "Who should control product launch timing — marketing or product?",
+      "category": "product-launch-strategy",
+      "positions": [
+        {
+          "position_id": "marketing-controls-timing",
+          "stance": "Marketing, not product, should decide launch timing. Time launches to windows when sales teams are mentally available and paying attention — avoiding Q4 crunch, vacation seasons, and other low-attention periods. Product readiness is a separate question from marketing launch timing.",
+          "supporters": [
+            {
+              "guest_name": "Kira Federer",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 184,
+              "episode_date": "2024-10-14",
+              "evidence": "Explicitly stated that marketing, not product, should decide launch timing, and gave specific windows to avoid (September 15 for Q4 focus, mid-July for vacations) and target (pre-Q1 kickoff).",
+              "practice_id": "time-content-launches-to-sales-readiness-windows"
+            }
+          ]
+        },
+        {
+          "position_id": "joint-calendar-set-in-advance",
+          "stance": "Marketing and product should jointly calendar launch dates 6+ months in advance, even before knowing what will ship. This creates a forcing function for product to ship on schedule while giving marketing time to plan campaigns. Neither team unilaterally controls timing — the shared calendar does.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Recommended working with the VP of Product to calendar major launch dates 6+ months in advance so both teams can plan around a shared commitment.",
+              "practice_id": "product-marketing-partnership-forcing-functions"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Described calendaring 'lightning strike' moments in advance so product has a forcing function to ship on schedule and marketing can align all resources to those dates.",
+              "practice_id": "lightning-strike-strategy-marquee-moments"
+            },
+            {
+              "guest_name": "Jeff Hardison",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 335,
+              "episode_date": "2026-03-05",
+              "evidence": "Framed launch dates as artificial deadlines that rally product, engineering, design, sales, CS, and marketing together — implying a jointly owned date rather than marketing-controlled timing.",
+              "practice_id": "product-launches-as-rallying-mechanism"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Genuine disagreement regardless of context. Kira Federer's advice that marketing should control timing is a direct philosophical contrast to the joint-calendar approach, even though both are trying to solve the same problem of launches landing at bad times.",
+      "trend_note": null,
+      "why_it_matters": "If marketing defers timing to product readiness, launches land at commercially suboptimal moments; if marketing unilaterally controls timing without product buy-in, it creates cross-functional friction and may force premature or delayed shipping — the right answer determines how much leverage marketing has over go-to-market execution."
+    }
+  ]
+}

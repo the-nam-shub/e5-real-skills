@@ -1,0 +1,246 @@
+{
+  "category": "category-creation-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "category-creation-vs-existing-category-competition",
+      "title": "Should B2B companies pursue category creation or compete in existing categories?",
+      "category": "category-creation-strategy",
+      "positions": [
+        {
+          "position_id": "category-creation-is-strategic-imperative",
+          "stance": "Category creation is a legitimate and powerful strategic path, especially when you cannot achieve #1 in an existing category. Category leaders capture disproportionate economics—larger deal sizes, higher win rates, shorter sales cycles—and the potential upside is billion-dollar scale. The risk is real but the reward justifies it for the right companies.",
+          "supporters": [
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "Marketing leader focused on category creation strategy",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Framed category creation vs. existing category as an explicit risk-reward decision: category creation enables billion-dollar potential and category leadership economics (larger deals, higher win rates, shorter cycles), while competing in existing categories caps potential at multi-hundred-million and requires constant differentiation fighting. Argued if you can't be #1 in your current category, category creation becomes the strategic imperative.",
+              "practice_id": "category-creation-decision-framework"
+            },
+            {
+              "guest_name": "Ari Yablock",
+              "guest_context": "Startup founder/marketing leader",
+              "episode_number": 284,
+              "episode_date": "2025-09-22",
+              "evidence": "Argued category creation is valid when your product is genuinely new—something the world has never bought before. Emphasized it requires long-term founder commitment and cannot be abandoned based on short-term results. Framed it as a core identity decision, not a marketing tactic.",
+              "practice_id": "category-creation-requires-founder-commitment"
+            },
+            {
+              "guest_name": "Jared Fuller",
+              "guest_context": "Founder/GTM strategist",
+              "episode_number": 174,
+              "episode_date": "2024-09-09",
+              "evidence": "Advocated building a media company and audience around an emerging trend first, then productizing the category—arguing this approach lets you own the category narrative and distribution from day one.",
+              "practice_id": "category-creation-through-media"
+            },
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "CMO at Qualified",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Actively pursuing ownership of 'agent marketing' as a category through books, summits, and frameworks—positioning the company as category leader rather than just a product vendor.",
+              "practice_id": "thought-leadership-category-ownership"
+            },
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "Marketing leader with category creation experience",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Category leaders capture disproportionate economics: larger deal sizes, higher win rates, shorter sales cycles, and automatic column-A positioning. If you cannot achieve #1 in your current category, category creation becomes the strategic imperative. High risk but billion-dollar potential vs. capped multi-hundred-million potential in existing categories.",
+              "practice_id": "category-leadership-market-positioning"
+            }
+          ]
+        },
+        {
+          "position_id": "category-creation-is-risky-and-usually-unnecessary",
+          "stance": "Category creation is harder and riskier than competing in existing categories, and most companies don't need it. Data shows 92% of tech companies that went public competed in existing categories. Strong differentiated value within an existing category is sufficient to win, and alternative approaches like naming problems, creating frameworks, or sub-category positioning are more achievable and equally effective.",
+          "supporters": [
+            {
+              "guest_name": "April Dunford",
+              "guest_context": "Positioning expert and author",
+              "episode_number": 309,
+              "episode_date": "2025-12-04",
+              "evidence": "Cited data that 92% of tech companies that went public competed in existing market categories, not new ones they created. Argued that compelling, differentiated value within an existing category is sufficient to win in crowded markets without inventing a new category.",
+              "practice_id": "avoid-generic-category-creation"
+            },
+            {
+              "guest_name": "Katelyn Bourgoin",
+              "guest_context": "Marketing strategist and educator",
+              "episode_number": 344,
+              "episode_date": "2026-04-07",
+              "evidence": "Argued category creation is just one type of ownable idea strategy and not always the best one. Coined problems, frameworks, identity labels, and X vs. Y distinctions can be more achievable and equally effective. Category creation is harder and riskier; other ownable idea types may deliver the same result.",
+              "practice_id": "category-creation-not-always-answer"
+            },
+            {
+              "guest_name": "Louis Grenier",
+              "guest_context": "Positioning and differentiation strategist",
+              "episode_number": 322,
+              "episode_date": "2026-01-19",
+              "evidence": "Argued true category creation is rare and most successful positioning is actually sub-category creation ('like X but different in Y way'). Recommended leaning on existing mental models because buyers understand new things by comparing them to what already exists.",
+              "practice_id": "subcategory-vs-category-creation"
+            },
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "Content marketing strategist",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Advocated naming a specific problem ('conceptual scoop') rather than creating a new category name, arguing this is more defensible, memorable, and gives audiences language to describe their own pain without the risk of category creation.",
+              "practice_id": "name-the-problem-not-the-category"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 4",
+      "context_dependency": "Partially context-dependent: April Dunford and Louis Grenier are speaking to the general case (most companies), while Melton Littlepage and Ari Yablock are speaking to companies that are genuinely building something new or cannot achieve #1 in their current category. However, there is still genuine disagreement about the default recommendation—Dunford and Grenier say the default should be competing in existing categories, while Littlepage frames category creation as a strategic imperative when you can't lead your current category, which is a common situation. The disagreement doesn't fully dissolve with context.",
+      "trend_note": "The two most recent guests (Katelyn Bourgoin, ep. 344, April 2026; Louis Grenier, ep. 322, January 2026) both argue against defaulting to category creation, as does April Dunford (ep. 309, December 2025). The pro-category-creation voices are clustered in earlier episodes (ep. 174, 223, 284). This suggests a possible shift in the field toward skepticism about category creation as a default strategy.",
+      "why_it_matters": "Choosing to pursue category creation vs. competing in an existing category is one of the highest-stakes strategic decisions a B2B marketing leader can make—it shapes budget allocation, messaging, sales motion, and timeline to results. Getting this wrong means either leaving category leadership on the table or burning resources on an unnecessary and risky multi-year education campaign."
+    },
+    {
+      "disagreement_id": "category-naming-approach",
+      "title": "Should you invent a new category name or modify an existing one?",
+      "category": "category-creation-strategy",
+      "positions": [
+        {
+          "position_id": "modify-existing-category-name",
+          "stance": "Rather than inventing an entirely new category name, add a modifier to an existing, well-understood category to signal differentiation. This leverages existing buyer mental models and makes the new category instantly understandable while clearly articulating what makes you different.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO at Copy.ai",
+              "episode_number": 198,
+              "episode_date": "2024-12-02",
+              "evidence": "Recommended appending a modifier to an existing category (e.g., 'cloud BI' instead of 'business intelligence') to signal differentiation while leveraging existing market understanding. The modifier should reflect a genuine shift in how the problem is solved.",
+              "practice_id": "category-naming-existing-category-modifier"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO at Copy.ai",
+              "episode_number": 123,
+              "episode_date": "2024-03-11",
+              "evidence": "Repeated the same advice: take an existing category name and prepend or append a differentiating word rather than inventing from scratch. The word choice should reflect the core value prop and the market shift you're riding.",
+              "practice_id": "category-naming-adjacent-word-strategy"
+            },
+            {
+              "guest_name": "Louis Grenier",
+              "guest_context": "Positioning and differentiation strategist",
+              "episode_number": 322,
+              "episode_date": "2026-01-19",
+              "evidence": "Argued people's brains understand new things by comparing them to what already exists (the 'horseless carriage' principle), so sub-category positioning that leans on existing mental models is more effective than inventing entirely new category names.",
+              "practice_id": "subcategory-vs-category-creation"
+            }
+          ]
+        },
+        {
+          "position_id": "invent-new-category-name-signaling-advancement",
+          "stance": "When creating a genuinely new category, invent a new name that signals advancement over the legacy category while still connecting to it through familiar terminology. The name should be memorable, catchy as an abbreviation, and position the new category as the next generation of the existing one.",
+          "supporters": [
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "Marketing leader focused on category creation strategy",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Recommended naming new categories to signal advancement (e.g., 'Extended Access Management'/XAM over 'Identity and Access Management'/IAM), with a memorable abbreviation. The name should signal it as the next generation while connecting to the legacy category—a more deliberate invention than simply adding a modifier.",
+              "practice_id": "category-naming-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Melton Littlepage's advice applies specifically to true category creation scenarios (genuinely new products), while Kyle Coleman's modifier approach is more broadly applicable. However, even in true category creation, the two approaches conflict on whether to invent a new name or modify an existing one.",
+      "trend_note": null,
+      "why_it_matters": "The category name you choose affects how quickly buyers understand your product, how easily analysts can classify you, and how much education budget you need to spend—getting the naming strategy wrong can slow adoption or create confusion in the market."
+    },
+    {
+      "disagreement_id": "category-vs-problem-ownership",
+      "title": "Should you focus on owning a category name or owning the language around a specific problem?",
+      "category": "category-creation-strategy",
+      "positions": [
+        {
+          "position_id": "own-the-problem-language-not-category",
+          "stance": "Instead of trying to create or own a new category name, identify and name a specific problem your target audience experiences. This 'conceptual scoop' approach is more defensible, more memorable, and gives your audience language to describe their own pain. The category name is secondary to owning a clear point of view and problem definition.",
+          "supporters": [
+            {
+              "guest_name": "Brendan Hufford",
+              "guest_context": "Content marketing strategist",
+              "episode_number": 242,
+              "episode_date": "2025-05-01",
+              "evidence": "Explicitly argued for naming a specific problem (e.g., 'revenue leak,' 'go-to-market bloat,' 'the great ignore') rather than creating a new product category. Called this a 'conceptual scoop' and argued it is more defensible and memorable than category creation.",
+              "practice_id": "name-the-problem-not-the-category"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO at Copy.ai",
+              "episode_number": 206,
+              "episode_date": "2024-12-30",
+              "evidence": "Argued the most important asset is owning a clear, differentiated point of view—not a category name. Even if a new category doesn't take off, strong point-of-view language (like 'go-to-market bloat') provides differentiation and drives results. The category name is secondary to clarity and consistency of thinking.",
+              "practice_id": "point-of-view-over-category-name"
+            },
+            {
+              "guest_name": "Katelyn Bourgoin",
+              "guest_context": "Marketing strategist and educator",
+              "episode_number": 344,
+              "episode_date": "2026-04-07",
+              "evidence": "Argued coined problems, frameworks, identity labels, and X vs. Y distinctions are often more achievable and equally effective alternatives to category creation. Naming a problem is one of the most powerful ownable idea strategies.",
+              "practice_id": "category-creation-not-always-answer"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO at Copy.ai",
+              "episode_number": 206,
+              "episode_date": "2024-12-30",
+              "evidence": "Kyle Coleman created the term 'go-to-market bloat' to describe the problem Copy.ai solves. When prospects search this term, they find Copy.ai. Owning a problem name ('languaging') allows you to own a concept in the market and control the conversation around it.",
+              "practice_id": "create-language-to-own-concept"
+            }
+          ]
+        },
+        {
+          "position_id": "own-the-category-itself",
+          "stance": "The goal should be to own the category itself—not just a problem name or point of view. Category ownership through thought leadership, analyst relations, events, and frameworks elevates a company from vendor to category leader, capturing disproportionate economics and market positioning.",
+          "supporters": [
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "Marketing leader focused on category creation strategy",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Argued category leaders capture disproportionate economics and that the goal is to establish undeniable market leadership perception in the category itself—not just own a problem name. Recommended analyst relations, buyer community engagement, and thought leadership all in service of category ownership.",
+              "practice_id": "category-leadership-market-positioning"
+            },
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "CMO at Qualified",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Actively pursuing ownership of 'agent marketing' as a category through books, summits, and frameworks—explicitly framing the goal as owning the category, not just a problem statement.",
+              "practice_id": "thought-leadership-category-ownership"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Cited HubSpot winning with 'inbound marketing' philosophy and Drift creating 'conversational marketing' movement as examples of owning a category narrative—framing category/philosophy ownership as the winning move in commoditized markets.",
+              "practice_id": "differentiate-on-philosophy-not-features"
+            },
+            {
+              "guest_name": "Melton Littlepage",
+              "guest_context": "Marketing leader with category creation experience",
+              "episode_number": 223,
+              "episode_date": "2025-02-27",
+              "evidence": "Category leaders capture disproportionate economics: larger deal sizes, higher win rates, shorter sales cycles. The category name (e.g., XAM) is what gets recognized by analysts like Gartner and Forrester, which is essential for enterprise buyer credibility.",
+              "practice_id": "category-naming-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 4",
+      "context_dependency": "Partially context-dependent: problem-language ownership may be more practical for earlier-stage or resource-constrained companies, while full category ownership may be more relevant for well-funded companies with long time horizons. However, both groups are giving general B2B marketing advice without explicitly restricting to a specific stage, so genuine disagreement remains.",
+      "trend_note": "The most recent guests (Katelyn Bourgoin ep. 344, April 2026; Brendan Hufford ep. 242, May 2025) favor problem-language ownership over category creation. The category-ownership advocates are clustered in earlier episodes (ep. 214, 223, 301). This may reflect a maturing view that category creation is overrated relative to simpler problem-naming approaches.",
+      "why_it_matters": "This choice determines where a marketing team invests its content, analyst relations, and brand-building budget—owning a problem name is faster and cheaper, while owning a category requires sustained multi-year investment; choosing the wrong path wastes significant resources."
+    }
+  ]
+}

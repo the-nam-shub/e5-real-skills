@@ -1,0 +1,159 @@
+{
+  "category": "ai-governance-and-responsible-use",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-adoption-top-down-vs-bottom-up",
+      "title": "Should AI adoption be driven top-down (mandates, goals, committees) or bottom-up (power users, peer evangelism)?",
+      "category": "ai-governance-and-responsible-use",
+      "positions": [
+        {
+          "position_id": "top-down-mandate",
+          "stance": "AI adoption requires explicit top-down leadership: executive alignment, formal committees, mandated goals, and structured rollout phases. Leadership must model behavior, set policy, and create accountability structures before expecting team-wide adoption.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest, episode 346",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Recommends a top-down mandate explicitly giving teams permission to deprioritize current work to learn AI, with leadership communicating that short-term metric dips are acceptable.",
+              "practice_id": "ai-adoption-mandate-permission-drop-ball"
+            },
+            {
+              "guest_name": "Bill Glenn",
+              "guest_context": "Guest, episode 328",
+              "episode_number": 328,
+              "episode_date": "2026-02-11",
+              "evidence": "Recommends aligning the executive leadership team before company-wide rollout, assigning an AI coordinator, requiring each functional leader to develop their own AI strategy, and partnering the CPO with the CEO on change management.",
+              "practice_id": "executive-leadership-ai-alignment"
+            },
+            {
+              "guest_name": "Jennifer Cannizzaro",
+              "guest_context": "Guest, episode 267",
+              "episode_number": 267,
+              "episode_date": "2025-07-24",
+              "evidence": "Recommends embedding AI adoption into annual goal-setting for all team members and building AI culture through multi-level integration including goals, meetings, and one-on-ones.",
+              "practice_id": "ai-adoption-goal-setting"
+            },
+            {
+              "guest_name": "Jennifer Delevante-Moulen",
+              "guest_context": "Guest, episode 288",
+              "episode_number": 288,
+              "episode_date": "2025-10-06",
+              "evidence": "Recommends creating a formal AI committee with designated champions in each department to drive adoption, distributing responsibility beyond the CMO through structured governance.",
+              "practice_id": "ai-adoption-committee-with-department-champions"
+            },
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "Guest, episode 136",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Recommends creating a dedicated full-time AI champion role with authority to set guidelines and train teams, and establishing organizational AI guidelines and a responsible adoption framework before broad rollout.",
+              "practice_id": "dedicated-ai-champion-role-full-time"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Recommends presenting a formal, structured AI adoption strategy to leadership rather than asking for permission, framing it as a strategic initiative with business case, implementation plan, and measurement approach.",
+              "practice_id": "present-ai-adoption-strategy-to-leadership"
+            }
+          ]
+        },
+        {
+          "position_id": "bottom-up-peer-evangelism",
+          "stance": "AI adoption spreads most effectively through peer-to-peer learning driven by internal power users and evangelists. Identifying who is already experimenting and amplifying their work is more effective than top-down training or mandates.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest, episode 346",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Recommends creating a dashboard to identify power users and recruiting them as evangelists to record demos and share workflows, arguing that bottom-up adoption driven by peer examples is more effective than top-down training.",
+              "practice_id": "identify-evangelist-bottom-up-adoption"
+            },
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "Guest, episode 328",
+              "episode_number": 328,
+              "episode_date": "2026-02-11",
+              "evidence": "Recommends identifying team members already experimenting with AI and empowering them as internal change agents rather than hiring external specialists or relying on top-down mandates.",
+              "practice_id": "identify-internal-ai-power-users"
+            },
+            {
+              "guest_name": "Tara Robertson",
+              "guest_context": "Guest, episode 288",
+              "episode_number": 288,
+              "episode_date": "2025-10-06",
+              "evidence": "Recommends a recurring weekly show-and-tell where team members casually share AI experiments with no formal preparation, creating organic, low-pressure peer learning rather than structured top-down training.",
+              "practice_id": "weekly-ai-show-and-tell-team-learning"
+            },
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "Guest, episode 136",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Recommends getting skeptics hands-on with tools directly rather than convincing them through arguments or mandates, letting firsthand experience drive adoption.",
+              "practice_id": "overcome-skepticism-through-hands-on-experience"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 4",
+      "context_dependency": "Partially. Top-down approaches may be more appropriate for larger organizations with formal governance needs, while bottom-up may work better in smaller or more agile teams. However, several guests explicitly argue their preferred approach is universally more effective, making this a genuine disagreement in framing and emphasis even when company size is held constant.",
+      "trend_note": "More recent guests (2026) like Drew Pinta explicitly advocate for bottom-up peer evangelism as the primary driver, while earlier guests (2024-2025) tended to emphasize formal governance structures. This may reflect a maturation of AI adoption thinking from 'build the infrastructure' to 'activate the people already using it.'",
+      "why_it_matters": "Choosing the wrong adoption strategy wastes time and budget: over-investing in governance before people are ready creates bureaucracy without behavior change, while relying purely on organic adoption leaves most of the team behind. Knowing which lever to pull first—or how to sequence them—directly affects how quickly a marketing team captures AI productivity gains."
+    },
+    {
+      "disagreement_id": "ai-disclosure-functional-content",
+      "title": "Must you disclose AI generation for functional/informational content (not direct interactions)?",
+      "category": "ai-governance-and-responsible-use",
+      "positions": [
+        {
+          "position_id": "disclosure-required-for-direct-interactions-only",
+          "stance": "Disclosure of AI generation is ethically required for direct, personal interactions (chat, email, conversations) where a person might think they're talking to a human. For functional or informational content like how-to articles, disclosure is less critical if the content is high quality and serves the user's need.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest, episode 318",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Explicitly distinguishes between direct interactions (must disclose) and functional content (disclosure less critical if quality is high). States the key distinction is personal/relational versus functional/informational.",
+              "practice_id": "disclose-ai-generated-interactions"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest, episode 257",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Reiterates the same position across two episodes: disclose in direct customer interactions, but for functional content that solves a problem, disclosure is less critical.",
+              "practice_id": "disclose-ai-in-direct-interactions"
+            }
+          ]
+        },
+        {
+          "position_id": "broad-disclosure-and-guidelines-required",
+          "stance": "Organizations should establish comprehensive guidelines covering all AI-generated content, including requirements for human editorial review of all outputs and clear policies on what data can be input. This implies a broader disclosure and governance posture that goes beyond just direct interactions.",
+          "supporters": [
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "Guest, episode 136",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Recommends organizational AI guidelines requiring human editorial review of all AI outputs and a charter articulating company values around AI use, implying a more comprehensive governance stance rather than limiting disclosure only to direct interactions.",
+              "practice_id": "establish-ai-guidelines-and-responsible-adoption-framework"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Flanagan's nuanced position may apply more to content marketing contexts, while Hreha's broader framework may reflect enterprise compliance needs. However, both are speaking to general B2B marketing practice, making this a genuine disagreement on where the ethical line sits.",
+      "trend_note": null,
+      "why_it_matters": "Getting this wrong in either direction has real consequences: over-disclosing on all content may undermine trust in your brand unnecessarily, while under-disclosing in the wrong contexts creates ethical and reputational risk. Marketers need a clear principle for where the line is."
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "category": "founder-led-marketing",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 5,
+  "disagreements": [
+    {
+      "disagreement_id": "ghostwriting-founder-linkedin-content",
+      "title": "Should founders use ghostwriters for LinkedIn content, or must they be directly involved in creation?",
+      "category": "founder-led-marketing",
+      "positions": [
+        {
+          "position_id": "ghostwriting-acceptable-with-input",
+          "stance": "Ghostwriting is acceptable and even recommended, especially early on, as long as the founder provides raw input through conversations or interviews. A ghostwriter handles drafting and formatting while the founder's voice and ideas drive the content. This removes barriers for time-constrained founders.",
+          "supporters": [
+            {
+              "guest_name": "Adam Robinson",
+              "guest_context": "Founder/CEO at RB2B",
+              "episode_number": 157,
+              "episode_date": "2024-07-11",
+              "evidence": "Recommends hiring a ghostwriter for 3-6 months to establish LinkedIn content foundation, meeting 1-2 hours per week for idea generation, with the ghostwriter drafting posts. Suggests transitioning to self-writing after 9-12 months once the founder has internalized the approach.",
+              "practice_id": "linkedin-ghostwriter-onboarding"
+            },
+            {
+              "guest_name": "Finn Thormeier",
+              "guest_context": "LinkedIn growth strategist",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "Recommends interview-based ghostwriting where you conduct podcast-style interviews with the executive, use transcripts as the basis for drafts, and optionally train AI on the executive's past writing. Frames this as preserving authenticity better than writing without direct input.",
+              "practice_id": "linkedin-ghostwriting-with-interview-method"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Marketing manager at Exit Five",
+              "episode_number": 131,
+              "episode_date": "2024-04-11",
+              "evidence": "Describes a weekly CEO interview process where a marketer conducts a 30-minute interview, transcribes insights, converts them into 2-3 LinkedIn posts, and sends drafts to the CEO for tone review before posting.",
+              "practice_id": "ceo-linkedin-interview-content-extraction"
+            },
+            {
+              "guest_name": "Devin Reed",
+              "guest_context": "Content strategist and LinkedIn growth expert",
+              "episode_number": 196,
+              "episode_date": "2024-11-25",
+              "evidence": "Describes a five-day CEO content production process where a marketer writes the first draft based on a 20-minute idea dump call with the executive, who then reviews and revises. The marketer is explicitly doing the drafting.",
+              "practice_id": "ceo-content-production-process"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "Head of Content at Island",
+              "episode_number": 266,
+              "episode_date": "2025-07-21",
+              "evidence": "Recommends recording conversations with CEOs/founders, transcribing them, and using AI to generate multiple content pieces, explicitly framing this as scaling founder-led content without requiring the founder to write or create content themselves.",
+              "practice_id": "use-ai-to-scale-founder-content-production"
+            },
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "B2B social media strategist",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Recommended conducting structured 'content interviews' with founders using 15 pre-prepared prompts, then extracting video clips or transcribing audio into text posts—a ghostwriting-adjacent workflow that doesn't require the founder to write.",
+              "practice_id": "linkedin-video-content-interview-format"
+            }
+          ]
+        },
+        {
+          "position_id": "founder-must-be-directly-involved-no-full-ghostwriting",
+          "stance": "Founders must actively participate in content creation—ideation, storytelling, and editing—and should not fully outsource to a ghostwriter. Audiences can detect ghostwritten content that lacks genuine founder input, and it underperforms. The founder's authentic voice is the asset, not just their name on a post.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 156,
+              "episode_date": "2024-07-08",
+              "evidence": "Explicitly states founders should not fully outsource LinkedIn content creation to a ghostwriter. The founder should talk through stories verbally, review drafts, and edit for voice and tone. Argues ghostwritten content lacking founder input is detectable and underperforms.",
+              "practice_id": "linkedin-founder-voice-authenticity-requirement"
+            },
+            {
+              "guest_name": "Devin Reed",
+              "guest_context": "Content strategist and LinkedIn expert",
+              "episode_number": 196,
+              "episode_date": "2024-11-25",
+              "evidence": "Built a production process requiring the executive to participate in a 20-minute idea dump call, review drafts, and revise for tone—explicitly avoiding ghostwriting comments on behalf of the executive and emphasizing that the executive's voice must drive the content.",
+              "practice_id": "executive-engagement-strategy"
+            },
+            {
+              "guest_name": "Kait Stephens",
+              "guest_context": "Founder and B2B marketer",
+              "episode_number": 156,
+              "episode_date": "2024-07-08",
+              "evidence": "Required the founder to talk through stories verbally in weekly recorded sessions and edit drafts for voice and tone, ensuring content feels genuinely authored by the founder rather than fully ghostwritten.",
+              "practice_id": "linkedin-slack-content-backlog"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 3",
+      "context_dependency": "The disagreement partially dissolves on close reading: Gerhardt opposes full ghostwriting without founder involvement, while the pro-ghostwriting camp all require founder input (interviews, idea dumps, tone review). The genuine tension is about how much founder involvement is sufficient to maintain authenticity—a real disagreement about degree, not kind.",
+      "trend_note": null,
+      "why_it_matters": "Founders and marketing teams need to know whether investing in a ghostwriter is a legitimate shortcut or a credibility risk. Getting this wrong either wastes budget on a process that produces inauthentic content or leaves founder content potential unrealized due to time constraints."
+    },
+    {
+      "disagreement_id": "linkedin-posting-frequency",
+      "title": "How often should founders/executives post on LinkedIn?",
+      "category": "founder-led-marketing",
+      "positions": [
+        {
+          "position_id": "daily-or-twice-daily",
+          "stance": "Post once or twice daily on LinkedIn to maximize algorithmic visibility and audience growth. High-frequency posting keeps you consistently in followers' feeds and compounds over time. This cadence is necessary for top-tier results.",
+          "supporters": [
+            {
+              "guest_name": "Amanda Goetz",
+              "guest_context": "Fractional CMO and founder",
+              "episode_number": 158,
+              "episode_date": "2024-07-15",
+              "evidence": "Amanda's LinkedIn growth system explicitly calls for posting twice daily plus engaging with ten specific users daily and spending 30 minutes responding to comments immediately after publishing.",
+              "practice_id": "linkedin-content-system-growth"
+            },
+            {
+              "guest_name": "Kait Stephens",
+              "guest_context": "Founder/CEO at Brij",
+              "episode_number": 156,
+              "episode_date": "2024-07-08",
+              "evidence": "Recommends posting once to twice daily—one primary post plus often a second post that is a share or commentary—using LinkedIn's native scheduler while maintaining flexibility for timely content.",
+              "practice_id": "linkedin-daily-posting-cadence"
+            }
+          ]
+        },
+        {
+          "position_id": "three-times-per-week",
+          "stance": "Post three times per week as a sustainable middle ground. Daily posting is not necessary and can lead to burnout or quality degradation. Three posts per week is enough to build credibility and audience over time.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 131,
+              "episode_date": "2024-04-11",
+              "evidence": "Explicitly recommends writing 3 posts per week as a 'sustainable middle ground between daily and weekly' in his five-part framework for CEO/founder LinkedIn growth.",
+              "practice_id": "linkedin-personal-brand-focus-areas"
+            },
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "B2B marketer and LinkedIn content creator",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Recommends posting 3 times per week maximum to maintain quality and avoid audience fatigue, explicitly framing this as a ceiling rather than a floor.",
+              "practice_id": "carousel-format-personal-brand"
+            }
+          ]
+        },
+        {
+          "position_id": "daily-real-time-no-scheduling",
+          "stance": "Post daily but based on real-time observations rather than pre-scheduled batches. The key is responsiveness to what's happening in the market, not a fixed cadence. Scheduling content in advance makes it feel manufactured.",
+          "supporters": [
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "B2B sales and marketing practitioner",
+              "episode_number": 232,
+              "episode_date": "2025-03-27",
+              "evidence": "Advocates waking up each day and identifying one observation from recent conversations or industry activity to post about immediately, explicitly contrasting this with scheduling content weeks in advance.",
+              "practice_id": "daily-content-without-scheduling"
+            },
+            {
+              "guest_name": "Jen Allen Knuth",
+              "guest_context": "B2B sales and marketing practitioner",
+              "episode_number": 170,
+              "episode_date": "2024-08-26",
+              "evidence": "Reiterates the same approach: post daily based on real-time market observations without pre-scheduling, arguing this keeps content timely and authentic.",
+              "practice_id": "post-content-daily-based-on-market-signals"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2 vs 2",
+      "context_dependency": "Partially context-dependent: twice-daily posting may suit founders with dedicated content support teams, while solo practitioners may find three times per week more sustainable. However, Gerhardt and Lattanzio explicitly frame three-per-week as the right ceiling even for well-resourced teams, while Goetz and Stephens recommend twice-daily regardless of support level. The real-time vs. scheduled dimension is a genuine disagreement about philosophy, not resources.",
+      "trend_note": null,
+      "why_it_matters": "Posting frequency directly affects time investment, content quality, and burnout risk for founders and executives. Choosing the wrong cadence either leaves audience-building potential on the table or degrades content quality and sustainability."
+    },
+    {
+      "disagreement_id": "linkedin-timeline-for-results",
+      "title": "How long should you commit to LinkedIn before expecting meaningful business results?",
+      "category": "founder-led-marketing",
+      "positions": [
+        {
+          "position_id": "twelve-months-minimum",
+          "stance": "Commit to at least 12 months before evaluating whether LinkedIn is working as a business channel. Meaningful results—content-market fit, inbound pipeline, business metrics—require this runway. Quitting after 3-4 months is premature.",
+          "supporters": [
+            {
+              "guest_name": "Finn Thormeier",
+              "guest_context": "LinkedIn growth strategist",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "States that meaningful results from LinkedIn content strategy require a minimum 12-month commitment, warning that initial signals may appear in 3-6 months but full impact takes longer.",
+              "practice_id": "linkedin-long-term-commitment-minimum"
+            },
+            {
+              "guest_name": "Adam Robinson",
+              "guest_context": "Founder/CEO at RB2B",
+              "episode_number": 157,
+              "episode_date": "2024-07-11",
+              "evidence": "Plans for a 12-month runway before LinkedIn content strategy reliably drives business results, noting that months 0-9 may build awareness without directly sourcing sales demos, and that correlation between content and business metrics typically appears around month 9-12.",
+              "practice_id": "linkedin-content-market-fit-timeline"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "B2B content marketer",
+              "episode_number": 321,
+              "episode_date": "2026-01-15",
+              "evidence": "Cited nearly 4 years of consistent posting to build to 37k followers, framing LinkedIn as a long-term play where consistency over years matters more than short-term results.",
+              "practice_id": "linkedin-content-strategy-help-others"
+            }
+          ]
+        },
+        {
+          "position_id": "one-quarter-bounded-experiment",
+          "stance": "Frame LinkedIn as a one-quarter (roughly 3-month) bounded experiment with specific success metrics defined upfront. This reduces perceived risk for leadership and creates a clear evaluation point without requiring an open-ended multi-year commitment.",
+          "supporters": [
+            {
+              "guest_name": "Dasha Shakov",
+              "guest_context": "LinkedIn content strategist",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "Recommends framing LinkedIn strategy as a bounded one-quarter experiment to secure leadership buy-in, with specific success metrics outlined upfront and a clear review point at the end of the quarter.",
+              "practice_id": "linkedin-commitment-timeline-for-leadership"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Shakov's one-quarter framing is explicitly about how to pitch the strategy to skeptical leadership, not necessarily when to expect full ROI. However, framing it as a one-quarter experiment implicitly sets a 3-month evaluation window that conflicts with the 12-month runway the others recommend. A marketer following Shakov's advice risks having leadership pull the plug at month 3 based on the framing they used to get buy-in.",
+      "trend_note": null,
+      "why_it_matters": "Setting the wrong timeline expectation with leadership can result in premature cancellation of a channel that would have paid off, or alternatively, locking in resources for a year on a strategy that isn't working. The framing used to secure buy-in directly shapes when the strategy gets evaluated."
+    }
+  ]
+}

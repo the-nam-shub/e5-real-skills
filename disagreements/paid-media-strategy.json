@@ -1,0 +1,308 @@
+{
+  "category": "paid-media-strategy",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 3,
+  "disagreements": [
+    {
+      "disagreement_id": "paid-social-abm-awareness-value",
+      "title": "Should you use paid social for top-of-funnel ABM brand awareness?",
+      "category": "paid-media-strategy",
+      "positions": [
+        {
+          "position_id": "pro_paid_social_abm_awareness",
+          "stance": "Paid social (LinkedIn, Facebook) is a core channel for ABM awareness campaigns. Build audience segments from enriched account data, rotate creative every 2-3 weeks to combat fatigue, and use multi-channel surround sound approaches to saturate target accounts with impressions across platforms.",
+          "supporters": [
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "Guest, episode 331",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Described using Hightouch to push enriched account cohorts to LinkedIn and Facebook for ABM paid social, with mandatory 2-3 week creative rotation to manage fatigue in small audiences.",
+              "practice_id": "abm-audience-building-hightouch-snowflake"
+            },
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "Guest, episode 341",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Executed surround sound campaigns across LinkedIn CTV, YouTube, LinkedIn brand solution ads, and thought leader ads targeting a single ICP audience of 120K-180K contacts, achieving 41% pipeline increase month-over-month.",
+              "practice_id": "surround-sound-multi-channel-icp-targeting"
+            },
+            {
+              "guest_name": "Richard Meyer",
+              "guest_context": "Guest, episode 341",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Built an intent flywheel feeding first-party signals into Facebook, Google Display, and LinkedIn simultaneously; moving 20% of budget from LinkedIn-only to multi-channel generated 2x impressions and 3.5x average monthly pipeline.",
+              "practice_id": "intent-flywheel-multi-channel-signal-based-targeting"
+            },
+            {
+              "guest_name": "Cindy Dubon",
+              "guest_context": "Guest, episode 341",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Paired influencer posts with paid ads targeting ICP accounts defined by intent signals, generating $700K pipeline on $8K ad spend.",
+              "practice_id": "influencer-product-launch-paid-distribution"
+            },
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "Guest, episode 127",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "Described a full LinkedIn ABM funnel including thought leader ads, retargeting, and conversion ads as a standard effective approach for B2B companies.",
+              "practice_id": "linkedin-thought-leader-ads-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "anti_paid_social_abm_awareness",
+          "stance": "Stop using paid social for top-of-funnel ABM brand awareness targeting small account lists. Digital channels are too crowded for pattern interruption, paid social quickly becomes saturated and morphs into generic demand gen, and budget is better redirected to in-person and physical activations.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest, episode 331",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Explicitly recommended discontinuing paid social ABM awareness campaigns, citing digital channel crowding and saturation, and advocating for in-person/physical activations instead.",
+              "practice_id": "abm-stop-paid-social-awareness"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: Drew Pinta's objection is specifically about small ABM account lists (e.g., 20 accounts with 10 decision-makers each) where saturation is rapid. The pro-paid-social guests are often working with larger ICP audiences (120K-180K contacts) or using more sophisticated intent-based targeting. The disagreement partially dissolves for large-audience ABM but remains genuine for small, named-account ABM programs.",
+      "trend_note": null,
+      "why_it_matters": "Paid social is often the default ABM channel, and misallocating budget to it for small account lists can waste significant spend on saturated, low-impact impressions. Knowing when to redirect to physical or in-person channels could meaningfully improve ABM ROI."
+    },
+    {
+      "disagreement_id": "organic-first-vs-paid-first-creative-validation",
+      "title": "Should you test creative organically before amplifying with paid, or treat all content as paid fuel from the start?",
+      "category": "paid-media-strategy",
+      "positions": [
+        {
+          "position_id": "organic_first_validate_then_paid",
+          "stance": "Post content organically first to validate resonance with your audience before investing paid budget behind it. Use organic engagement signals (likes, comments, shares) as proof that the message will perform when amplified. Only scale winners with paid spend.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Explicitly recommended posting on LinkedIn organically first to validate resonance before investing paid media budget, using engagement as a clear indicator of paid performance potential.",
+              "practice_id": "organic-to-paid-creative-validation"
+            },
+            {
+              "guest_name": "Davang Shah",
+              "guest_context": "Guest, episode 338",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "Recommended testing creative approaches organically first to validate they resonate before scaling with paid spend, as part of a broader creative effectiveness framework.",
+              "practice_id": "creative-effectiveness-60-70-percent"
+            },
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "Guest, episode 341",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Advised testing creative on organic channels first to validate performance before deploying to paid, noting that high-performing creative (30%+ view-through rate on YouTube) justifies upfront investment.",
+              "practice_id": "creative-investment-multi-channel-campaigns"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Guest, episode 139",
+              "episode_number": 139,
+              "episode_date": "2024-05-09",
+              "evidence": "Explicitly described creating 10 pieces of content, distributing organically to identify winners, then using paid only to amplify validated content—calling this a reversal of the old 'create and hope' approach.",
+              "practice_id": "organic-first-paid-amplification-strategy"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Described using organic content performance data (engagement, comments) to inform which messages to feed into paid media campaigns.",
+              "practice_id": "use-organic-insights-to-inform-paid-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "all_content_as_paid_fuel",
+          "stance": "Do not create content purely for organic distribution. Develop all creative assets with the intention of amplifying them through paid channels from the start. Even scrappy, low-cost content should be backed by paid media to maximize reach and enable measurement through paid metrics and incrementality testing.",
+          "supporters": [
+            {
+              "guest_name": "Ryan Narod",
+              "guest_context": "Guest, episode 330",
+              "episode_number": 330,
+              "episode_date": "2026-02-17",
+              "evidence": "Explicitly stated that all organic creative should be treated as fuel for paid media campaigns, arguing that even scrappy content should be backed by paid to maximize reach and ensure accountability through paid metrics.",
+              "practice_id": "all-creative-fuels-paid-engine"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: Ryan Narod's 'all content as paid fuel' stance may reflect a more mature, well-funded marketing operation where paid amplification is the default. The organic-first approach is more commonly recommended for companies still validating messaging or with limited paid budgets. However, both guests are speaking generally about content strategy, not limiting their advice to specific company stages, making this a genuine disagreement in principle.",
+      "trend_note": null,
+      "why_it_matters": "The sequencing decision affects both budget efficiency and creative strategy: if you commit paid budget before organic validation, you risk scaling content that doesn't resonate; if you always wait for organic signals, you may miss time-sensitive amplification windows or underinvest in paid channels."
+    },
+    {
+      "disagreement_id": "audience-targeting-vs-conversion-signal-optimization",
+      "title": "Should you manually build custom audiences for paid ads, or let platforms optimize based on conversion signals?",
+      "category": "paid-media-strategy",
+      "positions": [
+        {
+          "position_id": "manual_audience_targeting",
+          "stance": "Build precise, manually defined ICP audiences using third-party data, intent signals, and account lists, then deploy those audiences across channels. Validate targeting accuracy before scaling. The precision of your audience definition is a key driver of campaign performance.",
+          "supporters": [
+            {
+              "guest_name": "Richard Meyer",
+              "guest_context": "Guest, episode 341",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Built a 13+ intent source scoring model to define ICP accounts, validated targeting on LinkedIn before scaling to other channels, and used this manual audience approach to achieve 3.5x average monthly pipeline.",
+              "practice_id": "validate-targeting-before-scaling-channels"
+            },
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "Guest, episode 341",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Built a single precise ICP audience of 120K-180K contacts using third-party data like Vector, then deployed that same audience across 4+ channels simultaneously.",
+              "practice_id": "surround-sound-multi-channel-icp-targeting"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "Guest, episode 331",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Used Hightouch to load enriched contact data from Snowflake, group contacts into account-based cohorts by vertical, and push these manually defined groups to ad platforms.",
+              "practice_id": "abm-audience-building-hightouch-snowflake"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "Guest, episodes 228 and 243",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Provided specific audience size benchmarks (30-80K sweet spot) and detailed targeting precision guidance for LinkedIn campaigns.",
+              "practice_id": "audience-size-benchmarks"
+            }
+          ]
+        },
+        {
+          "position_id": "conversion_signal_optimization",
+          "stance": "Move away from manually building custom audiences and detailed targeting rules. Instead, provide the ad platform with a strong conversion signal—tell it whenever someone converts and how valuable that conversion is—and let the platform's machine learning find similar users. Platform algorithms are sophisticated enough to identify patterns humans cannot.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Guest, episode 346",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Explicitly recommended moving away from manual custom audiences and detailed targeting rules in favor of providing strong conversion signals to Meta and Google and letting machine learning find similar users.",
+              "practice_id": "optimize-paid-platforms-conversion-signal"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent: Drew Pinta's conversion-signal approach is most applicable to Meta and Google, which have large enough user bases for ML to find patterns. The manual audience approach is more commonly discussed in the context of LinkedIn and ABM, where the platform's ML has less data and B2B targeting signals are more important. The disagreement is genuine for Meta/Google B2B campaigns but may dissolve when platform context is specified.",
+      "trend_note": "Drew Pinta's conversion-signal stance is the most recent episode (April 2026), potentially reflecting a trend toward trusting platform ML as algorithms improve. However, with only one data point on this side, it's insufficient to declare a field shift.",
+      "why_it_matters": "Choosing between manual audience building and conversion-signal optimization affects how you allocate time and budget: manual targeting requires significant data infrastructure and ongoing maintenance, while signal-based optimization requires strong CRM-to-platform integration and enough conversion volume for the algorithm to learn effectively."
+    },
+    {
+      "disagreement_id": "paid-search-vs-paid-social-first-channel",
+      "title": "When starting paid media from scratch, should you begin with paid search or paid social?",
+      "category": "paid-media-strategy",
+      "positions": [
+        {
+          "position_id": "search_first",
+          "stance": "Start with paid search (Google Ads) before social platforms like LinkedIn. Search is easier to master, works well when market demand is mature, and allows methodical iteration. Only expand to social after proving search works.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "Guest, episode 332",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Explicitly recommended sequencing paid channels by mastery difficulty, starting with Google Ads/search because it's easier to master than social ads, and only expanding to LinkedIn after proving search.",
+              "practice_id": "paid-ads-channel-sequencing-strategy"
+            },
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Guest, episodes 154 and 185",
+              "episode_number": 154,
+              "episode_date": "2024-07-01",
+              "evidence": "Recommended prioritizing paid search as the first paid channel for B2B SaaS, noting it is typically more cost-effective than LinkedIn, which should be a secondary channel.",
+              "practice_id": "paid-search-primary-channel"
+            }
+          ]
+        },
+        {
+          "position_id": "social_retargeting_first",
+          "stance": "Start with retargeting warm traffic on LinkedIn (website visitors or company page visitors) before scaling to cold audiences or other channels. This maximizes ROI when budget is constrained by capturing already-engaged prospects first.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "Guest, episodes 228 and 243",
+              "episode_number": 228,
+              "episode_date": "2025-03-17",
+              "evidence": "Described a LinkedIn-first funnel sequencing where retargeting warm traffic is step one, followed by thought leader ads, then lead gen, then demand gen—with no mention of starting with search.",
+              "practice_id": "linkedin-funnel-sequencing-by-budget"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Context-dependent to a degree: Domi de Saint-Exupéry's search-first advice applies when market demand is mature and people actively search for your solution. Anthony Blatner's LinkedIn-first approach assumes you already have some website traffic to retarget. For companies with zero website traffic and mature search demand, search-first makes sense; for companies with existing traffic but no paid program, LinkedIn retargeting first may be better. However, both guests frame their advice as general starting-point guidance, making this a genuine disagreement for the common case.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong first paid channel wastes early budget and delays learning; search and social have fundamentally different mechanics, costs, and optimization timelines, so the sequencing decision has real consequences for early-stage paid media ROI."
+    },
+    {
+      "disagreement_id": "branded-search-incrementality",
+      "title": "Is branded search advertising truly incremental, or does it cannibalize organic traffic?",
+      "category": "paid-media-strategy",
+      "positions": [
+        {
+          "position_id": "branded_search_not_incremental",
+          "stance": "Branded search advertising is often not incremental—it cannibalizes organic traffic rather than driving new conversions. Companies with strong organic SEO can cut branded search spend entirely with no performance loss, saving significant budget. Test this with a geotest holdout before assuming branded search is necessary.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest, episodes 239 and 259",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Cited two Series C and Series E SaaS companies that ran geotest holdouts on branded search, found millions in savings with no performance loss when organic SEO was strong, and recommended this as a standard test before assuming branded search value.",
+              "practice_id": "branded-search-geotest-holdout"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest, episodes 239 and 259",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Recommended pausing all branded search advertising for a defined test period to measure whether organic search absorbs the lost paid volume, as a standard practice to right-size branded search budget.",
+              "practice_id": "branded-search-incrementality-test"
+            }
+          ]
+        },
+        {
+          "position_id": "branded_search_as_standard_practice",
+          "stance": "Branded search and competitor keyword bidding are standard, recommended paid search tactics for B2B SaaS. Bidding on competitor alternative keywords and product-category keywords captures high-intent demand from people actively evaluating your space.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "Guest, episodes 199 and 283",
+              "episode_number": 283,
+              "episode_date": "2025-09-18",
+              "evidence": "Recommended bidding on competitor alternative keywords and product-category keywords as core paid search strategy, without questioning incrementality.",
+              "practice_id": "paid-search-competitor-keywords"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Context-dependent: Pranav Piyush's finding that branded search is non-incremental applies specifically when organic SEO is strong. If a company has weak organic presence, branded search may genuinely drive incremental conversions. Sylvia Lepoidevin's competitor keyword strategy is about non-branded competitor terms, which is somewhat different from pure branded search—though the underlying question of search incrementality applies to both. The disagreement is genuine for companies with strong organic SEO.",
+      "trend_note": null,
+      "why_it_matters": "Branded search spend can represent a significant portion of paid search budgets; if it's merely cannibalizing organic traffic, reallocating that budget to genuinely incremental channels could meaningfully improve overall marketing efficiency."
+    }
+  ]
+}

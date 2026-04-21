@@ -1,0 +1,103 @@
+{
+  "category": "gtm-strategy-cross-functional-alignment",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "ceo-vs-sales-first-for-gtm-alignment",
+      "title": "Who should you align with first when driving GTM or positioning change — the CEO or sales leadership?",
+      "category": "gtm-strategy-cross-functional-alignment",
+      "positions": [
+        {
+          "position_id": "ceo-first",
+          "stance": "The CEO should be the first point of alignment for GTM strategy because they have the authority to drive cross-functional alignment across sales, product, and customer success. Framing GTM questions as business questions (not marketing questions) and getting CEO buy-in first gives the initiative organizational legitimacy and top-down momentum.",
+          "supporters": [
+            {
+              "guest_name": "Sangram Vajre",
+              "guest_context": "Author and GTM strategist; co-founder of Terminus",
+              "episode_number": 299,
+              "episode_date": "2025-10-30",
+              "evidence": "Vajre argues the CEO owns go-to-market by default and has the authority to drive alignment across functions. He recommends framing the conversation as a business problem for the CEO, then proposing the eight-question GTM exercise as an executive team. Explicitly advises against framing it as a 'sales and marketing alignment meeting.'",
+              "practice_id": "ceo-owns-gtm-alignment"
+            }
+          ]
+        },
+        {
+          "position_id": "sales-first",
+          "stance": "Sales leadership should be the first point of alignment when repositioning or changing messaging, because sales is closest to customer objections and win/loss data. Their buy-in is critical for execution, and positioning the effort as a service to sales (not a marketing initiative) increases adoption and grounds the work in real customer conversations.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 189,
+              "episode_date": "2024-10-31",
+              "evidence": "Gerhardt explicitly recommends prioritizing alignment with the VP of Sales or sales leader before seeking CEO or product approval when repositioning. He frames the repositioning effort as a service to sales to ensure adoption.",
+              "practice_id": "positioning-sales-partnership-first"
+            },
+            {
+              "guest_name": "Jen Allen-Knuth",
+              "guest_context": "B2B sales and messaging strategist",
+              "episode_number": 308,
+              "episode_date": "2025-12-01",
+              "evidence": "Allen-Knuth recommends aligning sales and marketing by presenting close-lost audit findings to sales leadership as a shared problem before moving to messaging changes. Sales agreement that status quo is a material blocker is the prerequisite for any messaging change initiative.",
+              "practice_id": "align-sales-marketing-before-messaging-change"
+            },
+            {
+              "guest_name": "April Dunford",
+              "guest_context": "Positioning expert and author",
+              "episode_number": 309,
+              "episode_date": "2025-12-04",
+              "evidence": "Dunford advises framing positioning problems as a sales productivity issue (not a marketing initiative) and using sales call signals and pipeline data to convince sales leadership that positioning work is necessary — implying sales leadership alignment is the critical first step.",
+              "practice_id": "identify-positioning-problems-via-sales-signals"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Sangram Vajre is speaking about broad GTM operating system alignment across an entire company, while Gerhardt, Allen-Knuth, and Dunford are specifically addressing repositioning or messaging change initiatives. However, all four are addressing the same underlying question of who to align with first when driving GTM change, and the advice genuinely conflicts on that question even within overlapping contexts.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong starting point for alignment can kill a repositioning or GTM initiative before it starts — going to the CEO first without sales buy-in can create top-down mandates that sales ignores, while going to sales first without CEO backing can leave the initiative without organizational authority to stick."
+    },
+    {
+      "disagreement_id": "plg-vs-sales-led-motion",
+      "title": "Should B2B companies build a product-led growth motion alongside or instead of a sales-led motion?",
+      "category": "gtm-strategy-cross-functional-alignment",
+      "positions": [
+        {
+          "position_id": "plg-alongside-sales-led",
+          "stance": "Enterprise SaaS companies should build a product-led growth foundation in parallel with their sales-led motion. Offering a free tier creates bottom-up adoption within target accounts and prevents competitors with strong PLG from displacing you at renewal time. PLG fuels the enterprise motion rather than replacing it.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "B2B SaaS marketing leader",
+              "episode_number": 162,
+              "episode_date": "2024-07-29",
+              "evidence": "Taylor cites the Figma vs. Envision example as a cautionary tale: companies that don't build PLG foundations get displaced by competitors with bottom-up adoption when enterprise contracts come up for renewal. She recommends a free tier that fuels the enterprise motion.",
+              "practice_id": "product-led-growth-foundation-enterprise-sales"
+            }
+          ]
+        },
+        {
+          "position_id": "caution-on-pure-plg",
+          "stance": "Over-indexing on product-led growth limits relationship-building, customer success engagement, and expansion opportunities. PLG customers often resist talking to sales or success teams, making it harder to gather renewal insights or provide consultative support. Human touchpoints should be inserted strategically even in PLG models.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Kennada",
+              "guest_context": "B2B SaaS CMO and category creation expert",
+              "episode_number": 145,
+              "episode_date": "2024-05-30",
+              "evidence": "Kennada argues that pure PLG acquires many customers but limits relationship-building and customer success engagement. PLG customers resist talking to sales or success teams, making renewal insights and expansion harder to capture. He recommends inserting human touchpoints at strategic moments.",
+              "practice_id": "product-led-vs-sales-led-tradeoff"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Taylor is speaking specifically about enterprise SaaS companies at risk of bottom-up competitive displacement, while Kennada is speaking about the risks of pure PLG for customer success and expansion. However, both are addressing the same strategic question of how much to invest in PLG relative to sales-led motions, and their advice points in genuinely different directions on the value of PLG adoption.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong GTM motion mix can either leave you vulnerable to bottom-up competitive displacement (too little PLG) or undermine customer relationships and expansion revenue (too much PLG) — both are costly mistakes for B2B SaaS companies."
+    }
+  ]
+}

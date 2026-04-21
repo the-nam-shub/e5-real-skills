@@ -1,0 +1,182 @@
+{
+  "category": "ai-workflow-automation-and-agent-building",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "atomic-steps-vs-end-to-end-prompts",
+      "title": "Should AI workflows be broken into small discrete steps or handled in fewer, larger prompts?",
+      "category": "ai-workflow-automation-and-agent-building",
+      "positions": [
+        {
+          "position_id": "break-into-atomic-steps",
+          "stance": "AI workflows should be decomposed into small, single-purpose steps where each step does one thing well. This makes workflows easier to debug, test independently, and refine. It also allows human checkpoints between steps to maintain quality control.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "AI workflow builder/marketer",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Advocates decomposing workflows into 'atomic skills' with defined inputs/outputs and test cases (evals), then chaining them into agents. Emphasizes reusability and testability of each discrete piece.",
+              "practice_id": "decompose-workflow-into-atomic-skills"
+            },
+            {
+              "guest_name": "Dan",
+              "guest_context": "AI workflow practitioner/marketer",
+              "episode_number": 290,
+              "episode_date": "2025-10-13",
+              "evidence": "Explicitly recommends breaking workflows into single-purpose steps rather than one large end-to-end prompt. Example: instead of 'generate a complete webinar package,' break into title generation, guest research, agenda, and email copy as separate steps.",
+              "practice_id": "break-workflows-into-single-purpose-steps"
+            }
+          ]
+        },
+        {
+          "position_id": "codify-as-multi-step-workflow-one-click",
+          "stance": "The goal should be encoding the entire multi-step content process into a single automated workflow that runs end-to-end with one click, removing the need for repeated manual prompting. The workflow handles all steps internally without requiring human intervention between them.",
+          "supporters": [
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO/AI marketing practitioner",
+              "episode_number": 206,
+              "episode_date": "2024-12-30",
+              "evidence": "Recommends encoding the full content creation process (transcript → extract key points → structure as blog → maintain voice → add quotes → translate) into a tool like Copy.ai so it runs with one click. The emphasis is on removing prompting friction entirely, not on inserting human checkpoints between steps.",
+              "practice_id": "ai-workflow-codification"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent. The atomic/step-by-step approach is more appropriate when workflows are being built and refined (iteration phase), while the one-click end-to-end approach suits mature, validated workflows. However, Dan and Drew explicitly argue for discrete steps even in production workflows for debuggability, while Kyle argues for collapsing steps into a single automated run — a genuine tactical disagreement about workflow architecture even for established processes.",
+      "trend_note": "The two more recent guests (Drew Pinta, ep. 346, April 2026; Dan, ep. 290, Oct 2025) both advocate for atomic step decomposition, while the earlier guest (Kyle Coleman, ep. 206, Dec 2024) favors end-to-end one-click workflows. This may reflect a maturing understanding of agentic workflow design favoring modularity over convenience.",
+      "why_it_matters": "How you architect AI workflows determines how easy they are to debug, improve, and maintain at scale. Choosing end-to-end automation for speed may create brittle workflows that are hard to fix when outputs degrade."
+    },
+    {
+      "disagreement_id": "prompt-engineering-burden-on-users",
+      "title": "Should end users write their own prompts or be guided through structured UI workflows?",
+      "category": "ai-workflow-automation-and-agent-building",
+      "positions": [
+        {
+          "position_id": "guided-ui-removes-prompt-burden",
+          "stance": "End users should not be expected to write effective prompts from scratch. AI tools should use structured UI workflows that guide users through required inputs step-by-step, removing the burden of prompt engineering while ensuring consistent, high-quality inputs.",
+          "supporters": [
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "Marketing AI practitioner",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Explicitly recommends guided UI workflows over freeform prompting, arguing that structured interfaces asking contextual follow-up questions produce better results without requiring users to know how to prompt well.",
+              "practice_id": "structured-ai-prompting-with-guided-uis"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Marketer, Exit Five community",
+              "episode_number": 155,
+              "episode_date": "2024-07-04",
+              "evidence": "Recommended building custom GPTs that embed proven content patterns and ask users clarifying questions, turning best practices into a scalable tool that requires minimal prompting expertise from team members.",
+              "practice_id": "create-custom-gpt-from-content-patterns"
+            }
+          ]
+        },
+        {
+          "position_id": "build-prompt-expertise-and-libraries",
+          "stance": "Marketers should develop prompt engineering expertise directly, building custom GPT libraries trained on successful prompt frameworks and using advanced models like O3 to generate optimized prompts for other tools. The skill of prompting is itself a competitive advantage to be cultivated.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Marketing executive and AI practitioner",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Recommends building a library of custom GPTs trained on different prompt methodologies, and using O3 to generate optimized prompts for specialized tools. Frames prompt engineering as a skill to be systematized and owned, not abstracted away.",
+              "practice_id": "custom-gpt-prompt-library"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Marketing executive and AI practitioner",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "Reiterates the same approach: train custom GPTs on prompt frameworks, use O3 to write prompts for other tools. Treats prompt crafting as a core competency rather than something to be hidden behind a UI.",
+              "practice_id": "train-custom-gpts-on-prompt-frameworks"
+            },
+            {
+              "guest_name": "Eoin",
+              "guest_context": "AI workflow practitioner/marketer",
+              "episode_number": 290,
+              "episode_date": "2025-10-13",
+              "evidence": "Recommends structuring prompts using system prompt + user prompt + assistant pairs, treating prompt architecture as a skill marketers should learn and apply directly rather than delegating to a UI layer.",
+              "practice_id": "prompt-engineering-system-user-pairs"
+            },
+            {
+              "guest_name": "Dan",
+              "guest_context": "AI workflow practitioner, Exit Five community",
+              "episode_number": 290,
+              "episode_date": "2025-10-13",
+              "evidence": "Explicitly stated that the first prompt will produce poor results and that multiple iterations are normal and expected, framing prompt refinement as a skill practitioners must develop rather than something to be abstracted away.",
+              "practice_id": "iterative-prompt-refinement"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Somewhat context-dependent by audience. Guided UIs may be more appropriate for large teams where most members are not power users, while prompt library building suits power users or marketing ops specialists. However, both sets of guests are speaking to B2B marketing practitioners generally, making this a genuine disagreement about the right default approach.",
+      "trend_note": "The guided UI position comes from the earliest episode (136, April 2024). All more recent guests (2025-2026) favor building prompt expertise directly. This may reflect a field shift as marketers have become more comfortable with AI tools and prompt engineering has become more accessible.",
+      "why_it_matters": "If you abstract prompting away from your team, you may get consistent but mediocre outputs; if you invest in prompt expertise, you may unlock significantly better results but require more training and skill development."
+    },
+    {
+      "disagreement_id": "validate-manually-before-automating-vs-automate-to-discover",
+      "title": "Should you prove a tactic works manually before automating it, or use automation to discover what works?",
+      "category": "ai-workflow-automation-and-agent-building",
+      "positions": [
+        {
+          "position_id": "validate-manually-first",
+          "stance": "Before building any AI workflow or automation, first prove the underlying tactic drives results when done manually. Only after confirming the tactic works should you invest in automating it. Automation should scale what already works, not salvage a broken process.",
+          "supporters": [
+            {
+              "guest_name": "Dan",
+              "guest_context": "AI workflow practitioner/marketer",
+              "episode_number": 290,
+              "episode_date": "2025-10-13",
+              "evidence": "Explicitly states: run 10-15 webinars manually first to confirm they generate pipeline before building automation. Frames automation as a tool to do more of what already works, not a way to test whether something works.",
+              "practice_id": "validate-before-automating"
+            }
+          ]
+        },
+        {
+          "position_id": "automate-to-scale-discovery-and-expansion",
+          "stance": "AI agents and automation can themselves be the mechanism for discovering and expanding into new opportunities at scale. Building agents to automate vertical go-to-market expansion or content gap discovery enables you to test many things simultaneously that would be impractical to validate manually first.",
+          "supporters": [
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "AI workflow builder/marketer",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Describes building an end-to-end AI agent that researches new verticals, generates SEO content at scale, and creates sales materials — all triggered by a single input. The agent enables scaling from one vertical to dozens, implying automation is used to explore and expand rather than only to replicate proven manual work.",
+              "practice_id": "vertical-machine-agent-go-to-market"
+            },
+            {
+              "guest_name": "Jennifer Delevante-Moulen",
+              "guest_context": "Marketing practitioner/AI workflow builder",
+              "episode_number": 288,
+              "episode_date": "2025-10-06",
+              "evidence": "Recommends building an AI content research engine that runs queries across multiple LLMs, identifies content gaps, and suggests new topics — using automation as the discovery mechanism itself rather than validating content topics manually first.",
+              "practice_id": "ai-content-research-engine-competitive-analysis"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "CMO, Contentstack",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "Framed AI-first automation as a strategic imperative for marketing teams, with the vision of reducing campaign execution time by 95% through AI-powered asset generation. Did not mention manual validation as a prerequisite.",
+              "practice_id": "ai-first-marketing-automation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent. Dan's validate-first advice applies most clearly to high-investment workflows (like webinar production) where building automation is costly. The automate-to-discover approach may be more appropriate for lower-cost content or research tasks where running many experiments in parallel is feasible. However, the underlying philosophical disagreement — whether automation should follow or precede validation — is genuine.",
+      "trend_note": null,
+      "why_it_matters": "Automating an unvalidated tactic wastes engineering and operational resources; but being too conservative about requiring manual validation first may cause teams to miss the speed advantages of AI-driven experimentation at scale."
+    }
+  ]
+}

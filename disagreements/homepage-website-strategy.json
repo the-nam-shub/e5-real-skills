@@ -1,0 +1,308 @@
+{
+  "category": "homepage-website-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "mid-funnel-cta-strategy",
+      "title": "Should your primary website CTA push visitors toward a demo, or toward middle-of-funnel tools and content first?",
+      "category": "homepage-website-strategy",
+      "positions": [
+        {
+          "position_id": "mid-funnel-tools-before-demo",
+          "stance": "Rather than driving all traffic to a demo request, build valuable middle-of-funnel assets (interactive tools, calculators, assessments, on-demand content) as primary CTAs. These build trust and create multiple conversion opportunities before asking for a demo, which has low conversion rates from cold traffic.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 206,
+              "episode_date": "2024-12-30",
+              "evidence": "Recommended building middle-of-funnel assets as primary CTAs instead of pushing directly to demo, arguing this approach is more effective than pushing prospects from awareness to demo with low conversion rates.",
+              "practice_id": "middle-funnel-tools-vs-demo-cta"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 271,
+              "episode_date": "2025-08-07",
+              "evidence": "Recommended replacing traditional gated content with interactive tools (website graders, A/B test previews, product trial tools) that provide immediate value and capture intent without requiring a demo request upfront.",
+              "practice_id": "mid-funnel-tools-over-gated-content"
+            },
+            {
+              "guest_name": "Kyle Coleman",
+              "guest_context": "CMO at Copy.ai",
+              "episode_number": 206,
+              "episode_date": "2024-12-30",
+              "evidence": "Recommended building always-on conversion points (product tours, blog subscriptions, LinkedIn follows, on-demand content) that capture demand without forcing every visitor into a demo funnel.",
+              "practice_id": "always-on-conversion-points"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth at Navattic; interactive demo specialist",
+              "episode_number": 178,
+              "episode_date": "2024-09-23",
+              "evidence": "Recommended embedding an ROI calculator above the fold to bridge the mid-funnel gap, giving prospects a reason to engage without immediately booking a demo.",
+              "practice_id": "roi-calculator-mid-funnel"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "CEO of Compound Growth Marketing",
+              "episode_number": 148,
+              "episode_date": "2024-06-10",
+              "evidence": "Recommended building free tools and templates that solve specific problems for target audiences without requiring a demo, using them to capture intent and educate buyers before introducing the product.",
+              "practice_id": "free-tool-templates-for-early-funnel-engagement"
+            }
+          ]
+        },
+        {
+          "position_id": "segmented-demo-ctas-as-primary-conversion",
+          "stance": "Keep demo booking as the primary conversion goal but segment CTAs by buyer intent level (e.g., 'Quick Learning Call,' 'Full Product Demo,' 'Start Buying') to reduce friction and match the CTA to actual intent rather than eliminating the demo CTA.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth at Navattic; interactive demo specialist",
+              "episode_number": 178,
+              "episode_date": "2024-09-23",
+              "evidence": "Recommended creating multiple demo booking pathways segmented by intent level rather than replacing the demo CTA with mid-funnel tools. This reduces friction while keeping demo booking as the conversion goal.",
+              "practice_id": "tiered-demo-booking-cta"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: the mid-funnel tools approach may be more appropriate for high-ACV enterprise products where buyers need more education before a demo, while segmented demo CTAs may work better for PLG or mid-market products. However, the core tension—whether to de-emphasize the demo CTA in favor of earlier-stage conversion points—is a genuine strategic disagreement applicable across most B2B contexts.",
+      "trend_note": "More recent episodes (2024-2025) cluster strongly around the mid-funnel tools position, suggesting a shift away from demo-first website strategy.",
+      "why_it_matters": "Choosing between demo-first and mid-funnel-first CTA strategy determines how you structure your entire website conversion architecture and directly impacts pipeline volume and quality."
+    },
+    {
+      "disagreement_id": "homepage-hero-specificity-vs-outcome-messaging",
+      "title": "Should your homepage hero lead with a specific capability/audience, or with the customer's problem and emotional outcome?",
+      "category": "homepage-website-strategy",
+      "positions": [
+        {
+          "position_id": "lead-with-specific-capability-and-audience",
+          "stance": "The hero section should clearly state what the product does (a specific capability) and who it's for, rather than a vague outcome. Audience-specific headlines that name the target customer allow visitors to instantly self-qualify.",
+          "supporters": [
+            {
+              "guest_name": "Robert Kaminski",
+              "guest_context": "Product marketing and positioning consultant",
+              "episode_number": 222,
+              "episode_date": "2025-02-24",
+              "evidence": "Recommended leading with a clear, specific capability in the hero (e.g., 'Advanced monitoring and reporting for Microsoft 365') rather than a generic outcome like 'Boost engagement.' Argued vague value propositions could apply to any product.",
+              "practice_id": "product-page-hero-clear-capability-not-outcome"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 178,
+              "episode_date": "2024-09-23",
+              "evidence": "Recommended writing homepage headlines that explicitly name the target audience (e.g., 'For HubSpot Super Admins') to immediately qualify visitors. Argued this 'plants the flag' and is more effective than generic or clever headlines.",
+              "practice_id": "headline-audience-targeting"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "CEO of Wynter; conversion optimization expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Recommended structuring the homepage with category definition first (what is it?), then value proposition, then differentiation. Argued specificity wins over generic language.",
+              "practice_id": "homepage-framework-category-value-prop"
+            },
+            {
+              "guest_name": "Guy Yalif",
+              "guest_context": "CEO of Intellimize; website personalization expert",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Argued that generic headlines like 'Unlock Insights, Drive Revenue' fail to communicate what the product does or who it's for, and that strong hero headlines should clearly state what the product does.",
+              "practice_id": "avoid-generic-hero-headlines"
+            }
+          ]
+        },
+        {
+          "position_id": "lead-with-customer-problem-and-emotional-drivers",
+          "stance": "The hero section should communicate the specific pain the customer is experiencing and the result they'll get—not features, technology, or product details. Leading with customer problems and emotional drivers differentiates you from competitors who all lead with features.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Founder of GetUplift; conversion optimization specialist",
+              "episode_number": 132,
+              "episode_date": "2024-04-15",
+              "evidence": "Argued the hero has three seconds to communicate the specific pain solved and the result the visitor will get—not features or technology. The hero should create an 'aha moment' by focusing on the customer's problem.",
+              "practice_id": "hero-section-three-second-rule"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Founder of GetUplift; conversion optimization specialist",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Argued B2B homepages that focus on features cause all competitors to look the same. Instead, lead with what the customer is struggling with, what they've tried that hasn't worked, and why your solution matters emotionally.",
+              "practice_id": "focus-on-customer-problems-not-features"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Genuine disagreement regardless of context, though it may be partially reconcilable: Peep Laja's framework includes both category definition AND value proposition, which could incorporate emotional drivers. However, the core tension between leading with 'what it does and who it's for' vs. 'what problem it solves emotionally' is a real strategic choice that affects headline writing and hero structure.",
+      "trend_note": null,
+      "why_it_matters": "The hero section is the highest-stakes copy on your website; the choice between capability-first and problem-first framing determines whether visitors immediately self-qualify or emotionally connect with your message."
+    },
+    {
+      "disagreement_id": "homepage-conversion-vs-navigation-roadmap",
+      "title": "Should your homepage be optimized primarily for conversion, or function as a navigation roadmap for multiple audiences?",
+      "category": "homepage-website-strategy",
+      "positions": [
+        {
+          "position_id": "homepage-as-conversion-asset",
+          "stance": "Treat the homepage as a critical marketing asset that must be optimized for conversion. It should have a clear, user-centric value proposition in the first fold and be designed to drive visitors toward a primary conversion goal.",
+          "supporters": [
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "CMO-level marketing executive",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Described the website as a foundational marketing pillar that must be beautiful, simple, clearly communicate its message, and be optimized for conversion.",
+              "practice_id": "website-conversion-optimization-focus"
+            },
+            {
+              "guest_name": "Lee Reshef",
+              "guest_context": "VP Marketing at Fiverr",
+              "episode_number": 220,
+              "episode_date": "2025-02-17",
+              "evidence": "Recommended placing CTAs top and bottom, introducing the primary value proposition in the first fold, and focusing on what's in it for the user. Explicitly said not to test each section separately but to treat the homepage as a balanced experience with conversion-focused sections.",
+              "practice_id": "homepage-dos-and-donts"
+            }
+          ]
+        },
+        {
+          "position_id": "homepage-as-navigation-roadmap",
+          "stance": "For companies with multiple personas or use cases, the homepage should function as a roadmap or jumping board rather than a pure conversion page. After the hero, use the homepage to direct different visitor segments to the pages they need, rather than forcing everyone through the same conversion path.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Founder of GetUplift; conversion optimization specialist",
+              "episode_number": 132,
+              "episode_date": "2024-04-15",
+              "evidence": "Explicitly recommended treating the homepage as a navigation roadmap for multi-persona audiences, using content sections to segment audiences by intent and stage of awareness rather than pushing everyone toward a single conversion.",
+              "practice_id": "homepage-as-navigation-roadmap"
+            },
+            {
+              "guest_name": "Diane Wiredu",
+              "guest_context": "Founder of Lion Words; B2B messaging strategist",
+              "episode_number": 300,
+              "episode_date": "2025-11-03",
+              "evidence": "Argued that when you have multiple products or personas, the homepage's job is not to explain everything but to funnel people to the right destination quickly, routing them efficiently to product-specific or persona-specific pages.",
+              "practice_id": "homepage-cannot-do-everything"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: the navigation roadmap approach is explicitly recommended for multi-product or multi-persona companies, while the conversion-focused approach may be more appropriate for single-product companies with a clear ICP. However, both Talia Wolf and Lee Reshef are speaking about general homepage best practices, and their advice genuinely conflicts on whether conversion or navigation should be the primary organizing principle.",
+      "trend_note": null,
+      "why_it_matters": "The primary organizing principle of your homepage—conversion funnel vs. navigation hub—determines how you structure CTAs, content hierarchy, and messaging, making this a foundational strategic decision with significant downstream impact."
+    },
+    {
+      "disagreement_id": "product-screenshots-vs-people-visuals",
+      "title": "Should you use real product screenshots or people/contextual visuals as hero/page images?",
+      "category": "homepage-website-strategy",
+      "positions": [
+        {
+          "position_id": "use-real-product-screenshots",
+          "stance": "Use actual product screenshots (or GIFs) instead of decorative graphics, stock imagery, or abstract visuals. Buyers want to see how the product works, and real screenshots provide clarity and reduce friction. Design graphics have become the new stock photo.",
+          "supporters": [
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "CEO of Wynter; conversion optimization expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Argued that buyers want to see how the product works, not whimsical brand graphics. Real screenshots reduce friction and provide clarity. Design graphics are the new stock photo trend everyone copies.",
+              "practice_id": "use-real-screenshots-over-design-graphics"
+            },
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "Head of Marketing at a SaaS company; product page optimization expert",
+              "episode_number": 222,
+              "episode_date": "2025-02-24",
+              "evidence": "Established a visual hierarchy: product GIFs first, then screenshots, then abstract visuals, and absolutely avoid stock photography. Stock images waste valuable product page real estate.",
+              "practice_id": "product-gifs-over-screenshots-and-stock-images"
+            }
+          ]
+        },
+        {
+          "position_id": "avoid-generic-screenshots-use-people-or-contextual-visuals",
+          "stance": "Avoid using generic product screenshots as hero images unless they directly amplify your core message. Instead, use images of real people, real customers, or contextual visuals. If you don't know what visual to use, use no visual rather than a generic screenshot.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Founder of GetUplift; conversion optimization specialist",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Argued that generic product screenshots (especially showing both desktop and mobile) take up valuable space without adding messaging value. Visitors already assume software works on multiple devices. Real people or contextual visuals that amplify the core message are more effective.",
+              "practice_id": "avoid-product-screenshots-without-context"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Peep Laja and Madhav Bhandari are primarily discussing product pages and homepages for SaaS products where showing the UI is critical to buyer education. Talia Wolf's advice applies specifically to hero sections where a generic screenshot adds no messaging value. The disagreement partially dissolves if you distinguish between 'differentiated, meaningful screenshots' (which all three would support) vs. 'generic screenshots that don't amplify the message' (which Talia opposes but the others don't explicitly endorse). However, there is a genuine tension: Peep and Madhav treat screenshots as categorically preferable to other visuals, while Talia treats them as potentially inferior to people/contextual imagery.",
+      "trend_note": null,
+      "why_it_matters": "Hero and product page visuals are among the highest-impact design decisions on a website; choosing the wrong visual type can undermine messaging clarity or fail to build emotional connection with buyers."
+    },
+    {
+      "disagreement_id": "product-page-length",
+      "title": "How long should a product page be?",
+      "category": "homepage-website-strategy",
+      "positions": [
+        {
+          "position_id": "keep-pages-short-3-4-scrolls",
+          "stance": "Limit product pages to approximately 3-4 scrolls maximum. Longer pages overwhelm visitors and reduce engagement. Apply the 80/20 principle and surface only the top features and key information.",
+          "supporters": [
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "Head of Marketing at a SaaS company; product page optimization expert",
+              "episode_number": 222,
+              "episode_date": "2025-02-24",
+              "evidence": "Explicitly recommended keeping product pages to 3-4 scrolls maximum, arguing that longer pages (7-8+ scrolls) overwhelm visitors and reduce engagement.",
+              "practice_id": "product-page-length-three-to-four-scrolls"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Head of Growth and Operations at Navattic",
+              "episode_number": 178,
+              "episode_date": "2024-09-23",
+              "evidence": "Recommended using progressive disclosure to structure website content — starting with a 5-8 step overview then offering the option to explore specific features in more detail — rather than imposing a strict scroll limit.",
+              "practice_id": "progressive-disclosure-website-content"
+            }
+          ]
+        },
+        {
+          "position_id": "avoid-excessive-copy-but-no-strict-length-limit",
+          "stance": "Avoid excessive copy and prioritize clarity and scanability, but the goal is conciseness and digestibility rather than a strict scroll limit. Use headers, bullet points, and visual breaks to make content scannable.",
+          "supporters": [
+            {
+              "guest_name": "Robert Kaminski",
+              "guest_context": "Product marketing and positioning consultant",
+              "episode_number": 222,
+              "episode_date": "2025-02-24",
+              "evidence": "Recommended avoiding excessive text and prioritizing concise, scannable copy, but framed this as a quality/clarity issue rather than prescribing a specific scroll limit.",
+              "practice_id": "product-page-avoid-excessive-copy"
+            },
+            {
+              "guest_name": "Diane Wiredu",
+              "guest_context": "Founder of Lion Words; B2B messaging strategist",
+              "episode_number": 220,
+              "episode_date": "2025-02-17",
+              "evidence": "Argued that more copy is not inherently bad but must be edited for clarity and necessity, using whitespace and design to guide the reader. Did not prescribe a length limit.",
+              "practice_id": "homepage-copy-editing-whitespace"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: Madhav Bhandari's 3-4 scroll recommendation may apply more to feature-specific product pages, while Robert Kaminski distinguishes between homepage-style product pages and deep-dive feature pages (which might warrant more length). However, the specific scroll-count prescription is a genuine point of disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Product page length directly affects how much information you can convey to prospects and whether visitors engage with or abandon the page before reaching key conversion points."
+    }
+  ]
+}

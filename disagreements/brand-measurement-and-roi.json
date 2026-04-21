@@ -1,0 +1,219 @@
+{
+  "category": "brand-measurement-and-roi",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "brand-campaign-short-term-vs-long-term-measurement",
+      "title": "Should brand campaigns be required to show short-term measurable lift, or is long-term patience acceptable?",
+      "category": "brand-measurement-and-roi",
+      "positions": [
+        {
+          "position_id": "require-short-term-lift",
+          "stance": "All effective marketing, including brand campaigns, must show measurable short-term impact. If a campaign cannot demonstrate short-term lift in conversion metrics, it is highly unlikely to show long-term lift either. Marketers who accept 'long-term only' results are simply failing to measure correctly.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing measurement expert",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Explicitly stated that brand campaigns (billboards, podcasts, content, events) must prove incrementality quickly or they are not working. If a campaign does not show short-term lift, it is highly unlikely to show long-term lift.",
+              "practice_id": "brand-content-short-term-lift-requirement"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing measurement expert",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "Argued that every piece of effective marketing drives some measurable impact in the short term. If you think a campaign only works long-term, it usually means you don't know how to measure its short-term effect.",
+              "practice_id": "every-marketing-has-short-term-effect"
+            }
+          ]
+        },
+        {
+          "position_id": "accept-long-term-patience-for-brand",
+          "stance": "Brand and awareness campaigns inherently operate on long time horizons and should not be held to short-term conversion metrics. Patience of 6+ months is required before expecting attribution or results, and forcing brand work into direct-response measurement frameworks kills creative marketing.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "Social media and brand marketing expert",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Cited ClickUp's experience: 3 months before significant views, 4-5 months before clear pipeline attribution. Argued buying cycles are 200+ days so social builds awareness over time, not immediate conversions.",
+              "practice_id": "give-time-for-social-strategy-to-work"
+            },
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Marketing measurement strategist",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Argued that brand and creative initiatives should not be measured like direct response campaigns. The fastest way to kill creative marketing is to measure it with direct response metrics.",
+              "practice_id": "measurement-meets-marketing-not-vice-versa"
+            },
+            {
+              "guest_name": "Erin May",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Stated podcast ROI is long-term and relationship-based, not transactional, and that fuzzy attribution is expected and acceptable for podcasts.",
+              "practice_id": "podcast-roi-relationship-depth"
+            },
+            {
+              "guest_name": "Tagg Bozied",
+              "guest_context": "B2B brand and demand marketing leader",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "For brand awareness campaigns with 9-12 month sales cycles, recommended establishing leading indicators (branded impressions) before launching and accepting that bottom-line results appear later.",
+              "practice_id": "branded-impressions-as-leading-indicator"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "CMO with experience at Zoom and Neat",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Stated brand awareness is expensive and harder to measure ROI on, but the difficulty in measurement shouldn't prevent investment.",
+              "practice_id": "brand-awareness-investment-despite-roi-difficulty"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Recommended allocating 30% of budget to longer-term brand and awareness bets (podcasts, content, SEO), explicitly noting these are harder-to-measure initiatives that build future-year growth.",
+              "practice_id": "invest-in-future-bets-before-scaling"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 2",
+      "context_dependency": "Partially context-dependent: Pranav Piyush's position may apply more to performance-oriented or well-instrumented teams with sufficient budget for incrementality testing, while the long-term patience position may reflect the practical reality for smaller teams without sophisticated measurement infrastructure. However, both sides are explicitly addressing the same question of whether brand campaigns must show short-term lift, making this a genuine disagreement regardless of context.",
+      "trend_note": "Pranav Piyush's short-term-lift position appears in episodes 130 (April 2024) and 259 (June 2025), while the long-term patience position is represented by more recent guests in episodes 337, 346, and 347 (2026). If anything, the more recent cluster leans toward accepting long-term measurement horizons for brand work.",
+      "why_it_matters": "This disagreement determines how marketers set expectations with leadership and whether brand campaigns get killed prematurely. If Piyush is right, teams that accept 'long-term only' results are wasting budget; if the majority is right, teams that demand short-term proof are systematically underinvesting in brand."
+    },
+    {
+      "disagreement_id": "primary-brand-measurement-metric",
+      "title": "What is the best primary metric for measuring brand health and awareness?",
+      "category": "brand-measurement-and-roi",
+      "positions": [
+        {
+          "position_id": "branded-search-volume",
+          "stance": "Branded keyword search volume (clicks or impressions in Google Search Console) is the best primary metric for brand health. It directly measures whether people are actively seeking out your brand, is simple to track, and can be held as an accountability metric for the brand team.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "CMO at LivePerson",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Recommended holding the brand team accountable to growing branded keyword clicks quarter over quarter as evidence that brand awareness is increasing.",
+              "practice_id": "branded-keyword-clicks-brand-awareness-metric"
+            },
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Recommended tracking branded search volume spikes following events as a leading indicator of brand awareness lift.",
+              "practice_id": "brand-search-lift-as-event-success-metric"
+            },
+            {
+              "guest_name": "Tagg Bozied",
+              "guest_context": "B2B brand and demand marketing leader",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Recommended building a brand tracker combining organic and paid branded impressions and monitoring month-over-month trends as the primary quantifiable proof of brand campaign influence.",
+              "practice_id": "branded-impressions-as-leading-indicator"
+            },
+            {
+              "guest_name": "Andrei Țiț",
+              "guest_context": "SEO and brand visibility expert",
+              "episode_number": 269,
+              "episode_date": "2025-07-31",
+              "evidence": "Recommended monitoring global branded search volume over 12-month periods as a leading indicator of brand health and AI visibility.",
+              "practice_id": "track-branded-search-volume-growth"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing measurement expert",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Recommended branded search click volume as a sanity check for brand health, though noted it should not be presented to the CFO as a primary metric.",
+              "practice_id": "use-branded-search-clicks-as-brand-health-check"
+            }
+          ]
+        },
+        {
+          "position_id": "direct-traffic",
+          "stance": "Direct website traffic (people typing your domain directly or arriving without a tracked source) is the best primary signal of brand awareness and reputation, as it shows people are actively seeking you out unprompted and is simpler and more reliable than branded search attribution.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 307,
+              "episode_date": "2025-11-27",
+              "evidence": "Recommended tracking the percentage of traffic arriving directly versus through paid or organic channels as a primary indicator of brand awareness. Rising direct traffic signals more people know your company exists.",
+              "practice_id": "measure-brand-via-direct-traffic"
+            }
+          ]
+        },
+        {
+          "position_id": "aided-unaided-recall-surveys",
+          "stance": "Aided and unaided brand recall surveys conducted with external audiences are the most meaningful primary metric for brand health, as they directly measure whether your brand is on the consideration shortlist in buyers' minds.",
+          "supporters": [
+            {
+              "guest_name": "Amrita Gurney",
+              "guest_context": "CMO at Float",
+              "episode_number": 287,
+              "episode_date": "2025-10-02",
+              "evidence": "Distinguished between aided and unaided recall as the key brand metrics, arguing the goal is to get on the consideration shortlist so buyers recognize and choose you.",
+              "practice_id": "define-brand-recall-aided-unaided"
+            },
+            {
+              "guest_name": "Aditya Vempaty",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 235,
+              "episode_date": "2025-04-07",
+              "evidence": "Recommended semi-annual aided and unaided recall surveys with external audiences as the primary brand measurement approach, supplemented by organic web traffic.",
+              "practice_id": "brand-awareness-aided-unaided-survey"
+            },
+            {
+              "guest_name": "Drew Pinta",
+              "guest_context": "Marketing measurement strategist",
+              "episode_number": 346,
+              "episode_date": "2026-04-13",
+              "evidence": "Recommended weekly brand awareness surveys with geographic segmentation as the appropriate measurement tool for upper-funnel brand initiatives.",
+              "practice_id": "brand-awareness-survey-geo-component"
+            },
+            {
+              "guest_name": "Kristine Segrist",
+              "guest_context": "Brand and growth marketing leader",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "Recommended brand tracking surveys that assess perception shifts, then connecting those perception changes to behavioral outcomes as the measurement framework.",
+              "practice_id": "brand-tracking-perception-measurement"
+            }
+          ]
+        },
+        {
+          "position_id": "market-penetration",
+          "stance": "Market penetration—the actual share of your addressable market using your product versus competitors—is the only meaningful, revenue-connected measure of brand strength. Awareness surveys and impression counts are vanity metrics that don't connect to business outcomes.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing measurement expert",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Explicitly argued to stop measuring brand through awareness surveys or impression counts and instead measure actual market share of the addressable market using your product versus competitors.",
+              "practice_id": "measure-brand-through-penetration-not-awareness"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 4 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: branded search volume is more accessible for most teams, while surveys require budget and external panel access. Market penetration measurement requires competitive intelligence infrastructure. However, all guests are addressing the same question of what to use as a primary brand metric, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "The metric a team chooses as its primary brand health indicator shapes what gets optimized and what gets reported to leadership. Choosing the wrong proxy metric could lead to misallocating brand budget or failing to demonstrate brand ROI convincingly."
+    }
+  ]
+}

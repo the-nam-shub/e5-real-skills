@@ -1,0 +1,285 @@
+{
+  "category": "community-building",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "free-vs-paid-community-model",
+      "title": "Should you charge for community access or keep it free?",
+      "category": "community-building",
+      "positions": [
+        {
+          "position_id": "charge-for-access",
+          "stance": "Communities should charge for access to filter out low-commitment members, reduce spam, and protect the community from internal sales pressure. Even a small fee creates a commitment signal and improves quality. Free communities attract bad actors and self-promoters that degrade the experience.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Explicitly stated 'do not build free communities' — free communities attract low-commitment members, spam, and self-promotion. Charging even a small amount creates a commitment signal and filters for serious members.",
+              "practice_id": "avoid-free-community-model"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Recommended paid membership model to naturally filter out low-intent members and reduce spam, comparing it to a gym membership dynamic where paying members are more committed.",
+              "practice_id": "paid-community-spam-prevention"
+            },
+            {
+              "guest_name": "Greg Isenberg",
+              "guest_context": "Community builder and entrepreneur",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Argued that charging for community access protects it from being co-opted by sales teams and executives — when a community generates its own MRR, leadership views it as a business unit rather than a lead generation asset to exploit.",
+              "practice_id": "paid-community-protect-from-sales-pressure"
+            }
+          ]
+        },
+        {
+          "position_id": "platform-agnostic-engagement-first",
+          "stance": "The specific platform and whether it's free or paid matters less than getting members actively talking to each other. Start on whatever platform your audience already uses and focus on engagement over platform or pricing model choice.",
+          "supporters": [
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Advised launching community on any platform (Facebook, Slack, Circle, etc.) and focusing on engagement over platform choice, with no requirement that it be paid. Emphasized that you can migrate later as the community matures.",
+              "practice_id": "platform-agnostic-community-launch"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Distinguished between broad community building (which can be free) and specific community platforms. Did not advocate for paid-only models; instead emphasized that the model should match the goal. Focused on quality curation and active management as the solution to spam, not necessarily charging.",
+              "practice_id": "community-definition-broad-vs-specific"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 139,
+              "episode_date": "2024-05-09",
+              "evidence": "Argued that the most successful communities grow organically from genuine passion and value creation, not from forced monetization goals. Suggested measuring success by repeat engagement rather than conversion or revenue metrics, implying free models can work when built authentically.",
+              "practice_id": "community-organic-vs-forced-growth"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 3",
+      "context_dependency": "Partially context-dependent: the paid model advice is most clearly aimed at standalone community products or media companies. Matthew Carnevale's platform-agnostic advice may apply more to early-stage community validation. However, Dave Gerhardt and Greg Isenberg both explicitly argue against free communities as a general principle, making this a genuine disagreement on default approach.",
+      "trend_note": null,
+      "why_it_matters": "Choosing a free vs. paid model fundamentally shapes who joins, how they behave, and how the community is perceived internally — getting this wrong can doom a community to spam or kill it before it gains traction."
+    },
+    {
+      "disagreement_id": "community-success-metric-engagement-vs-access",
+      "title": "Should you measure community success by engagement activity or by membership retention and access?",
+      "category": "community-building",
+      "positions": [
+        {
+          "position_id": "optimize-for-engagement-activity",
+          "stance": "Community health should be measured by active participation metrics: monthly active users (targeting 40%+), post volume, comment volume, post-to-comment ratio, and daily engagement. Members should have recurring reasons to log in monthly, and the community manager should maintain an always-on presence responding to every post.",
+          "supporters": [
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Recommended targeting 40% monthly active users as a top-tier benchmark, tracking post volume, comment volume, and post-to-comment ratio monthly, and spending at least one hour daily responding to all posts and comments.",
+              "practice_id": "monthly-active-users-benchmark"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Emphasized always-on community manager presence — reading every post, responding to comments — because members don't visit frequently and need a well-maintained, responsive space when they do.",
+              "practice_id": "community-manager-always-on-presence"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 139,
+              "episode_date": "2024-05-09",
+              "evidence": "Argued that community success should be measured by repeat engagement — 'do people come back next week?' — rather than conversion metrics.",
+              "practice_id": "community-organic-vs-forced-growth"
+            },
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Recommended creating monthly engagement hooks to drive recurring community logins, arguing members need a concrete reason to return each month they're paying.",
+              "practice_id": "monthly-engagement-hooks"
+            }
+          ]
+        },
+        {
+          "position_id": "optimize-for-access-and-retention",
+          "stance": "Stop optimizing for daily engagement metrics. Instead, measure whether members retain their membership year-over-year and use the community as a resource when they need it. A member who logs in once every 60 days but finds critical resources is more valuable than a daily commenter who derives no lasting value.",
+          "supporters": [
+            {
+              "guest_name": "Greg Isenberg",
+              "guest_context": "Community builder and entrepreneur",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Explicitly argued to shift KPI from engagement to access — optimize for yearly retention, not daily activity. Described the failure mode of chasing viral posts and engagement metrics that become unsustainable as community grows.",
+              "practice_id": "membership-vs-engagement-kpi-shift"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 146,
+              "episode_date": "2024-06-03",
+              "evidence": "Recommended designing community as a resource hub optimized for searchability and reference value rather than daily discussion, explicitly to avoid the trap of chasing engagement metrics.",
+              "practice_id": "community-value-beyond-discussion-forum"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially context-dependent: the access/retention model may apply more to resource-library-style communities, while engagement metrics may suit peer-discussion communities. However, both sides are making general claims about what community success should look like, making this a genuine strategic disagreement.",
+      "trend_note": null,
+      "why_it_matters": "The metric you optimize for shapes every community management decision — if you chase engagement, you may create noise; if you optimize for access, you may miss early warning signs of member disengagement."
+    },
+    {
+      "disagreement_id": "community-as-marketing-channel-vs-standalone-product",
+      "title": "Should community be built as a standalone product or can it serve as a marketing/lead generation channel?",
+      "category": "community-building",
+      "positions": [
+        {
+          "position_id": "community-as-standalone-product",
+          "stance": "Community should be treated as a standalone product with its own manager, roadmap, and success metrics — completely separate from marketing's demand generation goals. Using community as a marketing channel or lead generation tactic introduces competing objectives that undermine authenticity and cause most communities to fail.",
+          "supporters": [
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Explicitly stated not to default to building a Slack group as a marketing tactic — if the goal is to nurture prospects or drive sales, a newsletter or social media might work better. Community must be treated as a standalone product.",
+              "practice_id": "community-not-slack-strategy"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Identified that most internal company communities fail because leadership measures success by short-term pipeline impact rather than long-term brand building, and because community is treated as a marketing channel rather than a product.",
+              "practice_id": "community-internal-failure-reasons"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 139,
+              "episode_date": "2024-05-09",
+              "evidence": "Argued that when you start with a company and try to build community as a sidecar to your product, you introduce competing objectives (nurturing audience vs. converting them to customers) that undermine authenticity. Successful communities are often independent entities.",
+              "practice_id": "community-organic-vs-forced-growth"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 307,
+              "episode_date": "2025-11-27",
+              "evidence": "Advocated for companies to treat community as a real product with roadmap and metrics, with dedicated ownership and regular feedback loops. Argued this transforms community from ad-hoc content distribution into a measurable business asset.",
+              "practice_id": "treat-community-as-product"
+            },
+            {
+              "guest_name": "Anthony Kennada",
+              "guest_context": "B2B marketing executive",
+              "episode_number": 145,
+              "episode_date": "2024-05-30",
+              "evidence": "Advocated for companies to build both audience and community intentionally, distinguishing between the two and arguing CMOs should invest in both as strategic assets.",
+              "practice_id": "audience-vs-community-distinction"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 118,
+              "episode_date": "2024-02-19",
+              "evidence": "Argued that walled community platforms without underlying shared identity tend to die, and that community should be built through open channels around a shared identity rather than as a company-controlled platform — implying organic identity formation is the prerequisite.",
+              "practice_id": "community-identity-over-walled-gardens"
+            }
+          ]
+        },
+        {
+          "position_id": "community-as-business-unit-with-funnel-metrics",
+          "stance": "Community can and should be measured as a full business unit with acquisition, conversion, and retention metrics — including new trial signups, trial-to-paid conversion rate, and churn rate. This treats community as a revenue-generating asset rather than just a content channel.",
+          "supporters": [
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Recommended tracking community performance across the full funnel: new trial signups per month, trial-to-paid conversion rate, and churn rate — explicitly framing community as a revenue-generating business unit.",
+              "practice_id": "community-as-business-unit"
+            },
+            {
+              "guest_name": "Andrew Davies",
+              "guest_context": "CMO at Paddle",
+              "episode_number": 195,
+              "episode_date": "2024-11-21",
+              "evidence": "Described running an accelerator program with community (Slack, Zoom calls) explicitly designed to acquire early-stage customers and generate a halo effect — directly using community as a customer acquisition channel.",
+              "practice_id": "ai-launchpad-accelerator-low-cost-acquisition"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 2",
+      "context_dependency": "Partially context-dependent: the standalone product argument is strongest for media companies or communities built around a professional identity (like Exit Five), while the business unit/acquisition framing may apply more to product-led companies using community to drive trials. However, both sides are making general claims about how to approach community, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "How you frame community internally determines resourcing, metrics, and whether it survives the first quarter of disappointing pipeline numbers — getting this framing wrong is cited as the primary reason most B2B communities fail."
+    },
+    {
+      "disagreement_id": "community-platform-choice",
+      "title": "Does platform choice matter when launching a community, or should you just start anywhere?",
+      "category": "community-building",
+      "positions": [
+        {
+          "position_id": "platform-matters-use-dedicated-tool",
+          "stance": "For paid communities, platform choice matters significantly. Avoid Slack (per-user costs, limited search history) and Facebook (ephemeral feed, poor data access). Use a dedicated platform like Circle that offers persistent searchable content, white-labeling, mobile app, and automation. Budget $20-30k annually for the platform.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 225,
+              "episode_date": "2025-03-06",
+              "evidence": "Explicitly recommended against Slack and Facebook for paid communities and advocated for Circle specifically, citing persistent searchable content library, white-labeled experience, mobile app, automation capabilities, and no per-user fees.",
+              "practice_id": "community-platform-selection-circle"
+            }
+          ]
+        },
+        {
+          "position_id": "platform-agnostic-start-anywhere",
+          "stance": "The specific platform matters less than getting members actively talking to each other. Start on whichever platform your audience already uses or is most comfortable with. You can migrate to a different platform later as the community matures — avoid analysis paralysis on platform selection.",
+          "supporters": [
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Community manager at Exit Five",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Advised that Facebook, Slack, Circle, etc. are all acceptable starting points and that platform choice is secondary to engagement. Explicitly said to avoid analysis paralysis on platform selection.",
+              "practice_id": "platform-agnostic-community-launch"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "B2B marketing strategist",
+              "episode_number": 118,
+              "episode_date": "2024-02-19",
+              "evidence": "Argued for building community through shared identity across open channels rather than investing primarily in walled platforms. Suggested that a strong identity can be moved into a walled space later, but a walled community without underlying identity tends to die — implying platform is secondary to identity.",
+              "practice_id": "community-identity-over-walled-gardens"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Dave Gerhardt's advice is specifically for paid communities, while Matthew Carnevale's platform-agnostic advice may apply more to early-stage or free communities. However, both are giving general launch advice, and the conflict is real for anyone deciding where to start.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong platform can create technical debt, limit data access, and increase costs as the community scales — but over-engineering the platform decision can delay launch and prevent learning."
+    }
+  ]
+}

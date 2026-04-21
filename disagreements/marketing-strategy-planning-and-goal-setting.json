@@ -1,0 +1,322 @@
+{
+  "category": "marketing-strategy-planning-and-goal-setting",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "planning-horizon-annual-vs-quarterly-vs-monthly",
+      "title": "What planning horizon should B2B marketing teams use?",
+      "category": "marketing-strategy-planning-and-goal-setting",
+      "positions": [
+        {
+          "position_id": "annual-with-quarterly-execution",
+          "stance": "Set annual OKRs or strategic goals, then break them into quarterly execution plans. Annual planning provides strategic direction while quarterly plans allow for agility. Finance needs annual budget visibility, but detailed execution should not be planned more than a quarter out.",
+          "supporters": [
+            {
+              "guest_name": "Shane Murphy",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 173,
+              "episode_date": "2024-09-05",
+              "evidence": "Explicitly recommends annual OKRs with ~90% lock-in, quarterly deliverables, monthly check-ins, and weekly project tracking for high-impact initiatives.",
+              "practice_id": "annual-okr-quarterly-deliverables-cadence"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Recommends identifying 'big rocks' annually and planning quarterly execution, explicitly arguing against granular annual plans because market conditions change too rapidly.",
+              "practice_id": "quarterly-planning-with-agility"
+            },
+            {
+              "guest_name": "Rowan Tonkin",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 197,
+              "episode_date": "2024-11-28",
+              "evidence": "Recommends aligning marketing goals to company goals before budgeting, with annual budget allocation and quarterly execution flexibility.",
+              "practice_id": "align-marketing-goals-to-company-goals-before-budgeting"
+            },
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 128,
+              "episode_date": "2024-04-01",
+              "evidence": "Recommends balancing short-term annual execution with long-term 2-3 year strategic vision, starting from business goals and deriving marketing agenda.",
+              "practice_id": "balance-short-term-long-term-planning"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Recommends 5-6 broad annual goals broken into quarterly must-have/should-have/nice-to-have OKRs.",
+              "practice_id": "okr-framework-must-should-nice-prioritization"
+            }
+          ]
+        },
+        {
+          "position_id": "monthly-planning-for-early-stage",
+          "stance": "Early-stage or rapidly changing companies should use monthly planning cycles instead of annual plans. Monthly cycles allow teams to respond to pivots and market changes without feeling like the plan is constantly broken.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 210,
+              "episode_date": "2025-01-13",
+              "evidence": "Explicitly recommends monthly planning cycles for early-stage companies, with quarterly bridging between monthly execution and longer-term direction.",
+              "practice_id": "use-monthly-planning-for-early-stage-companies"
+            }
+          ]
+        },
+        {
+          "position_id": "two-month-sprint-cycles",
+          "stance": "Run marketing in two-month sprint cycles aligned with product releases instead of traditional quarterly planning. This enables faster feedback loops and keeps marketing synchronized with product and engineering.",
+          "supporters": [
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "Recommends two-month sprint cycles aligned with product releases, arguing this enables faster hypothesis testing and pivoting in a fast-moving AI market.",
+              "practice_id": "two-month-sprint-marketing-cadence"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: Dave Gerhardt explicitly scopes monthly planning to early-stage companies, and Holly Xiao's two-month sprint recommendation is tied to fast-moving AI markets. However, the core tension between annual strategic planning and shorter execution cycles applies broadly to B2B marketing teams regardless of stage.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong planning horizon leads to either strategic drift (too short) or inability to respond to market changes (too long), directly affecting how well marketing can align with business goals and adapt to new information."
+    },
+    {
+      "disagreement_id": "commit-to-core-idea-vs-bold-risk-taking",
+      "title": "Should marketers commit to a stable core idea long-term, or embrace bold risk-taking and constant experimentation?",
+      "category": "marketing-strategy-planning-and-goal-setting",
+      "positions": [
+        {
+          "position_id": "commit-to-ownable-idea-long-term",
+          "stance": "Once you identify your ownable idea, commit to it for an extended period. Many companies pivot too quickly when results aren't immediate. Test messaging and tactics, but keep the core idea stable. Consistency and repetition of proven messaging—not creative reinvention—is what drives GTM success.",
+          "supporters": [
+            {
+              "guest_name": "Katelyn Bourgoin",
+              "guest_context": "Marketing strategist (episode guest)",
+              "episode_number": 344,
+              "episode_date": "2026-04-07",
+              "evidence": "Argues companies pivot too quickly and that ownable ideas require time to take hold; distinguishes between testing messaging (acceptable) vs. changing the core idea (not acceptable).",
+              "practice_id": "commit-to-ownable-idea-long-term"
+            },
+            {
+              "guest_name": "Sangram Vajre",
+              "guest_context": "GTM strategist and author (episode guest)",
+              "episode_number": 299,
+              "episode_date": "2025-10-30",
+              "evidence": "Research across 100 companies shows successful GTM relies on consistency and repetition, not creative reinvention. Cites Chick-fil-A, Salesforce, and HubSpot keeping the same campaigns for decades despite internal pressure to change.",
+              "practice_id": "boring-marketing-consistency"
+            }
+          ]
+        },
+        {
+          "position_id": "bold-risk-taking-required",
+          "stance": "When competing against larger competitors, playing it safe guarantees failure. Bold marketing—trying new tactics, testing unconventional offers, experimenting with new formats—is a strategic necessity, not optional. Reject cookie-cutter marketing templates and focus on ideation and innovation.",
+          "supporters": [
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Argues bold risk-taking is a prerequisite for competing against larger competitors; playing it safe guarantees invisibility in crowded markets.",
+              "practice_id": "bold-risk-taking-prerequisite"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 203,
+              "episode_date": "2024-12-19",
+              "evidence": "Repeats the same argument: in crowded markets, only bold moves create the attention and memory needed to win; cookie-cutter marketing will not create differentiation.",
+              "practice_id": "bold-risk-taking-marketing-strategy"
+            },
+            {
+              "guest_name": "Mark Schaefer",
+              "guest_context": "Marketing author and strategist (episode guest)",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "Argues best practices become fossilized dogma creating industry-wide conformity. Real competitive advantage comes from non-conformity and questioning whether 'best practices' actually make sense for your business.",
+              "practice_id": "question-best-practices-conformity"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: Gurdeep Dhillon's bold risk-taking advice is explicitly framed around competing against larger, better-resourced competitors (David vs. Goliath). Bourgoin and Vajre's consistency advice applies more broadly. However, both positions claim to apply to competitive B2B markets generally, making this a genuine disagreement in overlapping contexts.",
+      "trend_note": null,
+      "why_it_matters": "Committing to consistency vs. embracing bold experimentation represents a fundamental strategic choice that affects budget allocation, team culture, and how marketing leadership responds to short-term underperformance."
+    },
+    {
+      "disagreement_id": "short-term-vs-long-term-marketing-focus",
+      "title": "Should marketers prioritize short-term revenue generation or long-term brand building?",
+      "category": "marketing-strategy-planning-and-goal-setting",
+      "positions": [
+        {
+          "position_id": "both-simultaneously",
+          "stance": "Both short-term sales tactics and long-term brand building are necessary and should coexist. Carve out dedicated time and resources for brand activities (e.g., 20% of effort) while maintaining short-term revenue delivery. You may need to deliver short-term results first to earn credibility, but both should run in parallel.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 316,
+              "episode_date": "2025-12-29",
+              "evidence": "Explicitly argues the two are not mutually exclusive and recommends allocating dedicated time to brand activities while maintaining short-term revenue delivery.",
+              "practice_id": "balance-short-term-revenue-long-term-brand"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "Marketing leader (episode guest)",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Distinguishes demand capture (in-market 10%) from demand generation (out-of-market 90%), arguing both require different strategies and must coexist.",
+              "practice_id": "demand-capture-vs-demand-gen"
+            },
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "CMO (episode guest)",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "Recommends dynamically allocating focus between pipeline (short-term) and positioning (long-term) based on business performance, but maintains both are always present.",
+              "practice_id": "balance-pipeline-positioning-by-season"
+            },
+            {
+              "guest_name": "Sangram Vajre",
+              "guest_context": "GTM strategist and author (episode guest)",
+              "episode_number": 299,
+              "episode_date": "2025-10-30",
+              "evidence": "Argues marketing should shift from 'marketing the business' to 'the business of marketing,' using NRR as the primary filter. Claims 60-70% of marketing activities would not be missed if stopped, implying most brand-building activity is waste.",
+              "practice_id": "understand-business-of-marketing"
+            }
+          ]
+        },
+        {
+          "position_id": "nrr-and-business-outcomes-first",
+          "stance": "Marketing's job is to drive business outcomes, not execute marketing activities. 60-70% of marketing activities would not be missed if stopped. Prioritize by NRR impact and say no to initiatives that don't connect to retention, expansion, or time-to-value. Brand building for its own sake is a distraction.",
+          "supporters": [
+            {
+              "guest_name": "Sangram Vajre",
+              "guest_context": "GTM strategist and author (episode guest)",
+              "episode_number": 299,
+              "episode_date": "2025-10-30",
+              "evidence": "Argues most marketing activities don't drive business outcomes and should be cut; uses NRR as the filter for all initiatives, implicitly deprioritizing brand-for-brand's-sake.",
+              "practice_id": "prioritize-by-nrr-connection"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Sangram Vajre's position is framed around mature companies with existing customer bases where NRR is the primary metric, while the 'both simultaneously' camp includes early-stage and growth-stage contexts. This partially dissolves the disagreement by stage, but both camps are making claims about B2B marketing generally.",
+      "trend_note": null,
+      "why_it_matters": "How a marketing leader allocates time and budget between brand and demand directly determines whether the company builds durable competitive advantage or optimizes only for near-term pipeline."
+    },
+    {
+      "disagreement_id": "community-launch-threshold",
+      "title": "Should most B2B companies launch a private community?",
+      "category": "marketing-strategy-planning-and-goal-setting",
+      "positions": [
+        {
+          "position_id": "most-should-not-launch-community",
+          "stance": "Most companies should not launch a private community. Most communities fail because they become spam or noise within weeks. Only launch if you have clear product-market fit signals: existing audience demand, engaged members, and a specific reason members want to connect with each other. If under revenue pressure, focus on faster-moving channels first.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 307,
+              "episode_date": "2025-11-27",
+              "evidence": "Explicitly states most communities fail and recommends only launching with clear PMF signals; argues content and education should come first as the foundation.",
+              "practice_id": "most-companies-should-not-launch-community"
+            },
+            {
+              "guest_name": "Matthew Carnevale",
+              "guest_context": "Community strategist (episode guest)",
+              "episode_number": 213,
+              "episode_date": "2025-01-23",
+              "evidence": "Advises against launching a community if under immediate revenue pressure; community building is a long-term play requiring sustained effort.",
+              "practice_id": "dont-launch-community-under-pressure"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Community strategist (episode guest)",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Argues against defaulting to a Slack group as a marketing tactic; recommends treating community as a standalone product with its own manager and roadmap, not a marketing channel.",
+              "practice_id": "community-not-slack-strategy"
+            },
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "B2B marketing strategist (episode guest)",
+              "episode_number": 139,
+              "episode_date": "2024-05-09",
+              "evidence": "Argues the most successful communities grow organically from genuine passion, not from companies forcing community-building as a lead gen tactic. Frames community as potentially valuable when built authentically, measured by repeat engagement.",
+              "practice_id": "community-organic-vs-forced-growth"
+            }
+          ]
+        },
+        {
+          "position_id": "community-fails-due-to-leadership-commitment",
+          "stance": "Communities fail primarily because leadership doesn't fully commit—measuring success by short-term pipeline rather than long-term brand building, not allocating sufficient resources, and treating community as a marketing channel rather than a product. The problem is execution and commitment, not whether to launch.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 320,
+              "episode_date": "2026-01-12",
+              "evidence": "Identifies four reasons communities fail inside companies, framing the issue as a leadership commitment and resource problem rather than an inherent flaw in community as a strategy.",
+              "practice_id": "community-internal-failure-reasons"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "The disagreement partially dissolves when accounting for company stage and resources—both camps agree community requires significant commitment. The genuine tension is whether the bar for launching should be very high (most shouldn't do it) or whether the problem is execution quality.",
+      "trend_note": null,
+      "why_it_matters": "Launching a community prematurely wastes significant resources and can damage brand perception; understanding the right threshold prevents costly mistakes in a channel that requires long-term investment."
+    },
+    {
+      "disagreement_id": "abm-acv-threshold",
+      "title": "What ACV threshold makes ABM appropriate?",
+      "category": "marketing-strategy-planning-and-goal-setting",
+      "positions": [
+        {
+          "position_id": "50k-acv-threshold",
+          "stance": "ABM is appropriate for B2B companies with a dedicated sales team and average contract value of at least $50,000. For companies below $50K ACV with large TAM (2,000+ accounts), use demand generation instead. Exception: vertical-specific SaaS with small TAM should run ABM regardless of ACV.",
+          "supporters": [
+            {
+              "guest_name": "Mason Cosby",
+              "guest_context": "ABM strategist (episode guest)",
+              "episode_number": 186,
+              "episode_date": "2024-10-21",
+              "evidence": "Gives a specific $50K ACV threshold with a carve-out for small-TAM verticals, and explains the 12-month revenue timeline that justifies the cost only at sufficient ACV.",
+              "practice_id": "abm-eligibility-criteria"
+            }
+          ]
+        },
+        {
+          "position_id": "1m-revenue-readiness-threshold",
+          "stance": "ABM becomes viable once a company reaches approximately $1M in revenue and has dedicated sales and marketing leadership. Very early-stage startups are inherently doing scrappy ABM through founder-led outreach, but formal ABM requires a small team. Before $1M revenue, focus on product-market fit and general demand generation.",
+          "supporters": [
+            {
+              "guest_name": "Chris Rack",
+              "guest_context": "Sales and marketing leader (episode guest)",
+              "episode_number": 150,
+              "episode_date": "2024-06-17",
+              "evidence": "Frames ABM readiness around company revenue stage ($1M+) and organizational maturity rather than ACV, arguing early-stage companies should focus on PMF first.",
+              "practice_id": "abm-company-size-readiness"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "These thresholds are measuring different things (ACV per deal vs. total company revenue), so they may be complementary rather than conflicting—a company could meet one threshold but not the other. However, both guests are answering the same question ('when should you do ABM?') with different primary criteria, making this a genuine disagreement about what the key qualifying factor is.",
+      "trend_note": null,
+      "why_it_matters": "Launching ABM too early or with the wrong deal economics wastes significant resources; understanding the right threshold prevents premature investment in a motion that won't generate sufficient ROI."
+    }
+  ]
+}

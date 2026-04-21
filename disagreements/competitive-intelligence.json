@@ -1,0 +1,95 @@
+{
+  "category": "competitive-intelligence",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "battle-cards-vs-capability-frameworks",
+      "title": "Should you use battle cards as your primary competitive sales enablement format?",
+      "category": "competitive-intelligence",
+      "positions": [
+        {
+          "position_id": "reject-battle-cards",
+          "stance": "Battle cards are ineffective because they overwhelm sales reps with too much information in a format that doesn't map to real selling situations. Instead, use capability-based frameworks like competitive positioning maps that show which capabilities to emphasize against which competitors, and create targeted talk tracks only for situations sales will actually encounter.",
+          "supporters": [
+            {
+              "guest_name": "Talya Heller",
+              "guest_context": "Competitive intelligence/product marketing expert",
+              "episode_number": 246,
+              "episode_date": "2025-05-15",
+              "evidence": "Battle cards fail because they try to be comprehensive rather than contextual. Proposed alternative: a simple table mapping 3-5 distinct capabilities against status quo and specific competitors, marking what's possible vs. impossible for each pairing.",
+              "practice_id": "avoid-battle-card-format"
+            }
+          ]
+        },
+        {
+          "position_id": "use-battle-cards-with-primary-research",
+          "stance": "Battle cards are a valid and valuable competitive enablement tool when built from rigorous primary research rather than surface-level feature comparisons. Rebuild them using scraped competitor sitemaps, G2 reviews, live product flows, and sales call insights, and structure them to include sections where competitors win—not just your advantages.",
+          "supporters": [
+            {
+              "guest_name": "Adina Timar",
+              "guest_context": "Product marketing and competitive intelligence practitioner",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Advocated rebuilding competitor comparison pages (the foundation of battle cards) from scratch using primary research, with specific sourced claims and balanced coverage, to create non-biased detailed comparisons that LLMs and humans trust.",
+              "practice_id": "rebuild-competitor-pages-with-primary-research"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Talya Heller's critique may apply more to large sales teams with many competitors where reps are overwhelmed, while Adina Timar's approach may suit teams that need detailed written comparisons for both human and AI consumption. However, both are explicitly addressing competitive sales enablement materials, so there is a genuine underlying disagreement about whether the battle card format itself is salvageable.",
+      "trend_note": null,
+      "why_it_matters": "Sales enablement is one of the highest-leverage outputs of competitive intelligence work; choosing the wrong format means reps either ignore the materials or use them incorrectly, directly impacting win rates."
+    },
+    {
+      "disagreement_id": "competitive-gap-first-vs-pov-first-positioning",
+      "title": "Should you start brand positioning by analyzing competitive gaps or by defining your own point of view first?",
+      "category": "competitive-intelligence",
+      "positions": [
+        {
+          "position_id": "competitive-gap-first",
+          "stance": "Before building any ownable idea or positioning, map the competitive landscape to find white space. Identifying what competitors are already saying is one of three required dimensions for discovering your central argument, and this analysis must happen before messaging is constructed.",
+          "supporters": [
+            {
+              "guest_name": "Katelyn Bourgoin",
+              "guest_context": "Positioning and buyer psychology strategist",
+              "episode_number": 344,
+              "episode_date": "2026-04-07",
+              "evidence": "Described a three-dimensional discovery process where mapping competitor messaging to find white space is explicitly required before identifying your central argument and building positioning on top of it.",
+              "practice_id": "identify-central-argument-ownable-idea"
+            },
+            {
+              "guest_name": "Erin May",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Recommended conducting gap analysis—assessing what content or services already exist for your audience and identifying where offerings are crowded or low-quality—as the method for choosing channels and positioning before committing to a strategy.",
+              "practice_id": "gap-analysis-competitive-positioning"
+            }
+          ]
+        },
+        {
+          "position_id": "pov-first",
+          "stance": "Establish the company's authentic point of view before assessing the competitive landscape. Leading with competitive gaps dilutes authentic messaging and makes you reactive to competitors. Only after defining your genuine POV should you assess gaps to find opportunities that still align with your core differentiation.",
+          "supporters": [
+            {
+              "guest_name": "Dmitry Shamis",
+              "guest_context": "Brand and marketing strategist",
+              "episode_number": 238,
+              "episode_date": "2025-04-17",
+              "evidence": "Explicitly warned against leading with competitive gaps, arguing it causes companies to chase white space that doesn't reflect genuine differentiation. Recommended POV-first sequencing to preserve authentic messaging.",
+              "practice_id": "pov-first-competitive-analysis"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Dmitry Shamis may be speaking more to brand/creative positioning for established companies, while Katelyn Bourgoin and Erin May may be addressing early-stage or channel-level strategy. However, all three are explicitly discussing the sequencing of competitive analysis relative to positioning development, making this a genuine disagreement about process order.",
+      "trend_note": "The two guests advocating for competitive-gap-first analysis (episodes 337 and 344) are more recent than the POV-first advocate (episode 238), though the sample is too small to draw a firm trend conclusion.",
+      "why_it_matters": "The sequencing decision shapes whether your positioning is driven by authentic differentiation or by reactive gap-filling, with significant downstream effects on messaging consistency and brand credibility."
+    }
+  ]
+}

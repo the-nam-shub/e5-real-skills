@@ -1,0 +1,64 @@
+{
+  "category": "interactive-product-demos",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "demo-gating-step-number",
+      "title": "If you gate an interactive demo, at which step should the gate be placed?",
+      "category": "interactive-product-demos",
+      "positions": [
+        {
+          "position_id": "gate-at-step-four",
+          "stance": "Gate the interactive demo at step 4, after providing a 3-step ungated preview. This balances lead capture with engagement by giving prospects a meaningful teaser before asking for information.",
+          "supporters": [
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "Guest; interactive demo strategist at Storylane",
+              "episode_number": 222,
+              "episode_date": "2025-02-24",
+              "evidence": "Recommends gating at step 4 specifically, with the first 3 steps ungated as a teaser. States this generates better-quality leads than gating at the start.",
+              "practice_id": "interactive-demo-gating-strategy-step-four"
+            }
+          ]
+        },
+        {
+          "position_id": "gate-at-step-five",
+          "stance": "Gate the interactive demo at step 5, not at the beginning. This placement showed 15% higher engagement rates compared to upfront gating, and five steps is enough for prospects to experience meaningful value before being asked for information.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Guest; Head of Growth at Navattic",
+              "episode_number": 176,
+              "episode_date": "2024-09-16",
+              "evidence": "Cites 15% higher engagement rates for step-5 gating versus upfront gating. Also notes that five steps is not enough to reveal the entire product.",
+              "practice_id": "gate-demo-at-step-five"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Guest; Head of Growth at Navattic",
+              "episode_number": 122,
+              "episode_date": "2024-03-04",
+              "evidence": "Reiterates step-5 gate placement with the same 15% engagement lift data point, noting ungated demos still outperform gated ones overall.",
+              "practice_id": "gated-demo-step-five-placement"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Guest; Head of Growth at Navattic",
+              "episode_number": 178,
+              "episode_date": "2024-09-23",
+              "evidence": "Recommends gating after 5-8 steps so prospects understand what they're signing up for and have already seen enough to be interested.",
+              "practice_id": "gate-content-after-value-delivery"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Both guests are speaking about the same context: B2B SaaS interactive demos used for lead capture on websites. The difference is a single step (step 4 vs. step 5), which is a genuine tactical disagreement, though the underlying principle—gate after some ungated preview—is shared. The disagreement is narrow but real for practitioners optimizing this specific mechanic.",
+      "trend_note": "The more recent guest (Madhav Bhandari, Feb 2025) recommends step 4, while the earlier guest (Natalie Marcotullio, Sep 2024 and Mar 2024) recommends step 5. This could suggest a slight shift toward earlier gating, but the sample is too small to draw a firm conclusion.",
+      "why_it_matters": "The exact step at which you gate a demo affects both lead volume and lead quality; placing the gate one step earlier or later can meaningfully change conversion rates, so practitioners need a defensible rationale for their choice."
+    }
+  ]
+}

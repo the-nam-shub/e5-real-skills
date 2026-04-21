@@ -1,0 +1,127 @@
+{
+  "category": "meeting-design-and-facilitation",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "status-updates-in-meetings-vs-async",
+      "title": "Should status updates be handled in synchronous meetings or asynchronously?",
+      "category": "meeting-design-and-facilitation",
+      "positions": [
+        {
+          "position_id": "status-updates-fully-async",
+          "stance": "Status updates, project progress, and information sharing should be handled entirely asynchronously—via Confluence pages, Loom videos, Jira Goals, or Slack—and should never consume synchronous meeting time. Sync meetings should be reserved exclusively for sparring and connection.",
+          "supporters": [
+            {
+              "guest_name": "Ashley Faus",
+              "guest_context": "Head of Lifecycle Marketing, Atlassian; guest on Exit Five",
+              "episode_number": 264,
+              "episode_date": "2025-07-14",
+              "evidence": "Faus explicitly states that status updates, project progress, and information sharing should be async (Confluence pages, Loom videos, Jira Goals updates) and that sync meetings should be reserved only for sparring and connection.",
+              "practice_id": "distinguish-status-updates-from-sparring-meetings"
+            },
+            {
+              "guest_name": "Molly Sands",
+              "guest_context": "Head of Teamwork Lab, Atlassian; guest on Exit Five",
+              "episode_number": 264,
+              "episode_date": "2025-07-14",
+              "evidence": "Sands recommends weekly Loom check-in videos and Jira Goals tweet-length updates as replacements for status-update meetings, and advocates for bursty communication patterns that protect deep async work time.",
+              "practice_id": "weekly-loom-check-in-with-structure"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Marketing leader guest, episode 302",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Explicitly said status updates and project updates should be handled asynchronously or in group meetings, while one-on-ones should focus on blockers and decision-making.",
+              "practice_id": "one-on-one-blocker-focus-not-status"
+            }
+          ]
+        },
+        {
+          "position_id": "status-updates-in-dedicated-sync-meetings",
+          "stance": "A dedicated weekly sync meeting (e.g., a pipeline call with sales leadership and RevOps) is appropriate for reviewing numbers and progress, separate from the broader leadership meeting. Not all status-related information can or should be handled purely async.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Cheng",
+              "guest_context": "CMO; guest on Exit Five",
+              "episode_number": 297,
+              "episode_date": "2025-10-23",
+              "evidence": "Cheng separates numbers review into a dedicated weekly pipeline call on the same day as the leadership meeting, with sales leadership and RevOps present—implying that some status/numbers review warrants synchronous time.",
+              "practice_id": "weekly-leadership-meeting-structure"
+            },
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Marketing leader; guest on Exit Five",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Barolo recommends supplementing with async updates (PowerPoint decks, Slack messages) for frequently traveling leaders, but still maintains a weekly leadership meeting structure that includes alignment discussions—suggesting sync time is not purely reserved for sparring.",
+              "practice_id": "remote-team-meeting-structure-cadence"
+            },
+            {
+              "guest_name": "Sean Lane",
+              "guest_context": "Marketing ops leader guest, episode 274",
+              "episode_number": 274,
+              "episode_date": "2025-08-18",
+              "evidence": "Recommended a recurring sync meeting between marketing and ops that explicitly covers 'progress against goals' and 'tactical operational items' — content that the async-first camp would classify as status updates.",
+              "practice_id": "establish-regular-operating-rhythms"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 3",
+      "context_dependency": "Partially context-dependent: the fully-async position comes from Atlassian employees who work in a highly async-native culture with mature tooling (Confluence, Jira, Loom). CMOs at companies with less async infrastructure or cross-functional dependencies (e.g., sales alignment) may find dedicated sync status reviews necessary. The disagreement is genuine but may reflect different organizational maturity levels.",
+      "trend_note": null,
+      "why_it_matters": "Defaulting to sync status updates is one of the most common sources of meeting bloat; getting this right can reclaim significant calendar time for deep work, but eliminating sync status reviews entirely requires organizational discipline and tooling that not all teams have."
+    },
+    {
+      "disagreement_id": "one-on-one-frequency-by-seniority",
+      "title": "How frequently should you hold one-on-ones with direct reports?",
+      "category": "meeting-design-and-facilitation",
+      "positions": [
+        {
+          "position_id": "weekly-for-all-direct-reports",
+          "stance": "Weekly one-on-ones should be held with all direct reports, regardless of seniority. This cadence maintains alignment and ensures blockers are addressed promptly. The focus should be on problem-solving and decision-making rather than status updates.",
+          "supporters": [
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Marketing leader; guest on Exit Five",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Barolo recommends weekly one-on-ones specifically for direct reports who manage large functions, but her broader framework differentiates cadence by seniority level rather than applying weekly universally to all direct reports.",
+              "practice_id": "remote-team-meeting-structure-cadence"
+            }
+          ]
+        },
+        {
+          "position_id": "variable-cadence-by-seniority",
+          "stance": "One-on-one cadence should vary based on seniority and alignment needs: weekly for direct reports managing large functions, monthly for functional leaders, quarterly for country/regional leads, and twice yearly for junior employees. This prevents calendar overload while maintaining alignment.",
+          "supporters": [
+            {
+              "guest_name": "Priscilla Barolo",
+              "guest_context": "Marketing leader; guest on Exit Five",
+              "episode_number": 302,
+              "episode_date": "2025-11-10",
+              "evidence": "Barolo explicitly recommends a tiered cadence—weekly for large-function direct reports, monthly for functional leaders, quarterly for country/regional leads, twice yearly for junior employees—citing calendar overload prevention as the rationale.",
+              "practice_id": "remote-team-meeting-structure-cadence"
+            },
+            {
+              "guest_name": "Kelly Cheng",
+              "guest_context": "CMO; guest on Exit Five",
+              "episode_number": 297,
+              "episode_date": "2025-10-23",
+              "evidence": "Cheng structures her weekly leadership meeting with all direct reports as a group format rather than individual one-on-ones, implying that not every relationship requires a dedicated weekly one-on-one slot.",
+              "practice_id": "weekly-leadership-meeting-structure"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "This disagreement partially dissolves by context: Barolo is explicitly discussing remote teams with geographically distributed staff, which may require different cadences than co-located or smaller teams. The variable-cadence approach is most relevant for large, distributed organizations.",
+      "trend_note": null,
+      "why_it_matters": "Setting the wrong one-on-one cadence either wastes calendar time or leaves team members without sufficient support; knowing when weekly vs. monthly check-ins are appropriate directly affects team performance and manager bandwidth."
+    }
+  ]
+}

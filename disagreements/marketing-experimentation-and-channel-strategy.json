@@ -1,0 +1,155 @@
+{
+  "category": "marketing-experimentation-and-channel-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "channel-focus-vs-parallel-presence",
+      "title": "Should you master one channel before expanding, or build presence across multiple channels simultaneously?",
+      "category": "marketing-experimentation-and-channel-strategy",
+      "positions": [
+        {
+          "position_id": "master-one-channel-first",
+          "stance": "Focus 97-100% of social effort on one platform (LinkedIn) before attempting to build presence elsewhere. Spreading effort across multiple platforms dilutes impact and prevents reaching the depth needed to see results on any single channel.",
+          "supporters": [
+            {
+              "guest_name": "Tommy Clark",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 171,
+              "episode_date": "2024-08-29",
+              "evidence": "Argued LinkedIn has enough sub-channels (founder account, company page, team accounts, video, text) to keep a team busy for years, and that success on one platform improves odds of success when expanding.",
+              "practice_id": "linkedin-focus-one-platform-before-expansion"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Recommended picking one primary channel (e.g., LinkedIn) and going hard on it until achieving mastery and clear results before expanding. Learnings from the primary channel inform strategy on secondary channels.",
+              "practice_id": "focus-on-one-channel-before-expanding"
+            },
+            {
+              "guest_name": "Tim Davidson",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 127,
+              "episode_date": "2024-03-25",
+              "evidence": "When seeing significantly better traction on one platform vs. others, concentrate effort there. The time investment to repurpose content across platforms often doesn't justify lower returns on secondary platforms.",
+              "practice_id": "linkedin-video-platform-focus-over-distribution"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Applied the 80/20 rule to channels: focus on 2-3 channels where you can achieve meaningful results rather than being present everywhere with minimal impact. Cited YouTube videos with 17 views as an example of diluted effort.",
+              "practice_id": "focus-on-fewer-channels-with-depth"
+            }
+          ]
+        },
+        {
+          "position_id": "run-experiments-in-parallel",
+          "stance": "Run bold marketing experiments alongside existing marketing efforts rather than stopping core activities to pursue the experiment. This reduces organizational risk and allows you to prove concepts without cannibalizing current marketing.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "Recommended running audacious or unconventional marketing ideas in parallel to existing efforts to reduce organizational risk and demonstrate value before scaling.",
+              "practice_id": "parallel-experimentation-not-replacement"
+            },
+            {
+              "guest_name": "Mark Schaefer",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "Advocated for time-bound pilot programs (6 months) that run alongside existing marketing, noting pilots cost almost nothing with internet and social media today.",
+              "practice_id": "pilot-program-culture-change"
+            },
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Recommends allocating 20-30% of marketing budget and time to experimentation across new channels and brand initiatives, explicitly framing this as necessary for future growth alongside core channel investment.",
+              "practice_id": "allocate-20-30-percent-budget-experimentation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 3",
+      "context_dependency": "Partially context-dependent: the 'master one channel first' advice is primarily about organic social presence and channel depth, while the 'parallel experimentation' advice is about testing bold or unconventional ideas without disrupting core programs. However, both address the same resource allocation question of whether to concentrate or spread effort, and the tension is genuine for any team deciding whether to add a new channel.",
+      "trend_note": "The parallel experimentation position comes from the more recent episode (261, July 2025), while the master-one-channel-first position is represented across older episodes (127, 134, 171, 183). This may reflect a shift toward more experimental, parallel-track thinking as marketing teams have matured their core channel operations.",
+      "why_it_matters": "A team that concentrates on one channel may miss opportunities on emerging platforms; a team that runs too many parallel experiments may never achieve depth on any channel. The right answer determines how to allocate limited headcount and budget across channel bets."
+    },
+    {
+      "disagreement_id": "how-many-iterations-before-channel-validation",
+      "title": "How many iterations/tests should you run before validating a new marketing channel?",
+      "category": "marketing-experimentation-and-channel-strategy",
+      "positions": [
+        {
+          "position_id": "6-7-iterations",
+          "stance": "Expect the first 3-5 attempts to show limited results and continue iterating. By the 6th-7th iteration, you should see measurable improvements. This requires high conviction and patience before abandoning a channel.",
+          "supporters": [
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Described a webinar channel example where the first 3-5 attempts showed limited quantitative results, but by the 6th-7th iteration, measurable improvements in open rates, click-through rates, and conversion rates appeared.",
+              "practice_id": "build-conviction-through-iterative-proof-points"
+            }
+          ]
+        },
+        {
+          "position_id": "10-15-manual-runs",
+          "stance": "Before even building automation around a tactic, run it manually 10-15 times to confirm it generates pipeline. Only after proving the tactic works at that scale should you invest in automation or scaling.",
+          "supporters": [
+            {
+              "guest_name": "Dan",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 290,
+              "episode_date": "2025-10-13",
+              "evidence": "Used webinar production as an example: run 10-15 webinars manually first to confirm they generate pipeline before automating. This prevents wasting effort automating something that doesn't work.",
+              "practice_id": "validate-before-automating"
+            }
+          ]
+        },
+        {
+          "position_id": "7-plus-failures-expected",
+          "stance": "Expect that most tests will fail. A B2C brand ran 7 consecutive failed tests before the 8th worked. Apply a sales mindset of hearing seven 'nos' to get three 'yeses.' Do not give up on a channel after one failed test.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Cited a real B2C brand example of 7 consecutive failed tests before success, and framed experimentation with a sales conversion mindset where failure is the norm before finding winners.",
+              "practice_id": "persist-through-failed-tests"
+            }
+          ]
+        },
+        {
+          "position_id": "minimum-viable-test-first",
+          "stance": "Launch the smallest viable version of a test first rather than committing to many iterations. Validate demand with a single episode or simple ad test before planning a multi-iteration strategy.",
+          "supporters": [
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "Guest on Exit Five podcast",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Recommended recording one podcast episode and posting to LinkedIn before planning multi-channel distribution, and starting Reddit with simple ad tests rather than a comprehensive strategy. Prioritizes speed of iteration over depth of iteration.",
+              "practice_id": "minimize-mvp-test-scope"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: the 10-15 manual runs advice is specifically about pre-automation validation, while the 6-7 iteration advice is about building internal conviction for a new channel. The MVP-first advice is about reducing waste before committing to iteration depth. However, all four are answering the same underlying question of 'how much should you invest before concluding a channel works or doesn't,' and the specific numbers genuinely conflict regardless of context.",
+      "trend_note": null,
+      "why_it_matters": "Committing too few iterations risks abandoning a channel prematurely; committing too many wastes budget on a channel that may never work. The right threshold directly determines how much runway to give new channel experiments before cutting losses."
+    }
+  ]
+}

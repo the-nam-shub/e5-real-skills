@@ -1,0 +1,268 @@
+{
+  "category": "landing-page-design-optimization",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "single-vs-multiple-ctas",
+      "title": "Should landing pages have one primary CTA or offer multiple CTA paths for different visitor intents?",
+      "category": "landing-page-design-optimization",
+      "positions": [
+        {
+          "position_id": "single-primary-cta",
+          "stance": "Landing pages should have one consistent, primary CTA used throughout the page. Multiple CTA variations create decision fatigue and confuse visitors about what action to take. Secondary options should be visually subordinate (e.g., text links below the button) and never compete with the primary action.",
+          "supporters": [
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Landing page strategist and conversion consultant",
+              "episode_number": 185,
+              "episode_date": "2024-10-17",
+              "evidence": "Cited decision fatigue: multiple CTA labels (e.g., 'Book a Meeting,' 'Talk to an Expert,' 'Get a Demo') all leading to the same destination make users anxious they'll choose the wrong option. Recommended testing one CTA variation at a time.",
+              "practice_id": "single-cta-reduce-decision-fatigue"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization specialist and founder of GetUplift",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Recommended consolidating multiple CTAs into one primary button with secondary actions as text links below. Argued this reduces cognitive load and makes the primary conversion goal clear. Also advised using consistent button styling so visitors learn to recognize the primary action.",
+              "practice_id": "consolidate-multiple-ctas-into-primary-action"
+            },
+            {
+              "guest_name": "Gabby Sellam",
+              "guest_context": "Landing page and paid media specialist",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "Recommended displaying only one primary CTA above the fold, with secondary CTAs visually de-emphasized. Argued this reduces decision paralysis and directs user attention to the intended conversion action.",
+              "practice_id": "single-primary-cta-top-fold"
+            }
+          ]
+        },
+        {
+          "position_id": "multiple-cta-paths-by-intent",
+          "stance": "Landing pages should offer multiple CTA pathways that match different visitor commitment levels (e.g., 'Just Learning,' 'Want a Demo,' 'Ready to Buy'). This reduces friction for early-stage prospects while still capturing high-intent leads, and acknowledges that not all visitors are at the same buying stage.",
+          "supporters": [
+            {
+              "guest_name": "Guy Yalif",
+              "guest_context": "CEO and co-founder of Intellimize",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Recommended providing visitors with multiple pathways based on where they are in the buying journey so visitors can self-select the level of commitment they're ready to make. Argued this reduces friction for early-stage prospects while still capturing high-intent leads.",
+              "practice_id": "offer-multiple-cta-paths-by-commitment-level"
+            },
+            {
+              "guest_name": "Gabby Sellam",
+              "guest_context": "Landing page and paid media specialist",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "While recommending a single primary CTA above the fold, also advocated for providing multiple engagement paths beyond the primary CTA lower on the page to serve users at different stages or with different intents, acknowledging not all visitors are ready to convert immediately.",
+              "practice_id": "multiple-engagement-paths"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: the single-CTA camp tends to focus on the hero/above-the-fold section, while the multiple-paths camp often refers to the full page experience. However, Guy Yalif explicitly advocates for multiple co-equal CTAs in the hero itself, which directly conflicts with Talia Wolf and Tas Bober's advice. The disagreement is genuine for hero section design regardless of context.",
+      "trend_note": null,
+      "why_it_matters": "Choosing between a single CTA and multiple intent-matched paths directly affects conversion rate and lead quality — getting this wrong either creates decision paralysis or alienates early-stage prospects who aren't ready to commit."
+    },
+    {
+      "disagreement_id": "copy-first-vs-collaborative-design-process",
+      "title": "Should copy be written before design begins, or should copywriters and designers collaborate simultaneously from the start?",
+      "category": "landing-page-design-optimization",
+      "positions": [
+        {
+          "position_id": "copy-first-then-design",
+          "stance": "Write all copy and finalize messaging before creating wireframes or design. Copy should drive information hierarchy and design decisions. When designers allocate space first and copywriters fill it, messaging clarity suffers and the result becomes product-centric rather than customer-centric.",
+          "supporters": [
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization specialist and founder of GetUplift",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Recommended establishing core message, value proposition, and CTA copy before beginning design. Argued that design elements should be chosen to amplify and support the message, not the other way around.",
+              "practice_id": "write-copy-before-design"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization specialist and founder of GetUplift",
+              "episode_number": 231,
+              "episode_date": "2025-03-24",
+              "evidence": "Explicitly recommended reversing the typical workflow: write full copy first, then create wireframes around that copy, then design. Argued this prevents the product-centric mentality that emerges when designers create layouts with placeholder text.",
+              "practice_id": "write-copy-before-design"
+            },
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder of CXL and Wynter; conversion optimization expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Argued that copy should drive information hierarchy and design decisions. When designers allocate space first and ask copywriters to fill it, copywriters become decorators rather than strategists.",
+              "practice_id": "copy-first-design-second"
+            }
+          ]
+        },
+        {
+          "position_id": "collaborative-simultaneous-process",
+          "stance": "Rather than a strict copy-first handoff, copywriters and designers should work together from the start. The copywriter leads with research and a hypothesis about page structure, shares it early with the designer, gets feedback on visual approaches, and iterates together. This allows visuals to do work that would otherwise require additional copy.",
+          "supporters": [
+            {
+              "guest_name": "Will Hoekenga",
+              "guest_context": "Conversion copywriter and landing page strategist",
+              "episode_number": 181,
+              "episode_date": "2024-10-03",
+              "evidence": "Explicitly recommended a collaborative process where copywriter and designer work together from the start rather than a sequential handoff. Argued this prevents siloed work where copy and design work at cross-purposes, and allows visuals to do work that would otherwise require additional copy.",
+              "practice_id": "collaborative-copy-design-process"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Genuine disagreement regardless of context. Both camps are speaking to the same scenario: B2B landing page creation. The disagreement is about workflow philosophy — sequential vs. collaborative — not about company stage or industry.",
+      "trend_note": null,
+      "why_it_matters": "The chosen workflow determines whether messaging or aesthetics drives the page, which has downstream effects on conversion rate and whether the page actually addresses customer pain points versus looking polished but generic."
+    },
+    {
+      "disagreement_id": "gated-vs-ungated-content",
+      "title": "Should high-value content assets be gated behind a form or made freely accessible?",
+      "category": "landing-page-design-optimization",
+      "positions": [
+        {
+          "position_id": "gate-high-value-assets",
+          "stance": "Gate high-value assets (checklists, templates, detailed guides) behind a form to capture lead information. Gated assets still drive conversion and can be effective for lead generation despite the trend toward ungated content. Use gating strategically on resources that justify the friction of form submission.",
+          "supporters": [
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Founder and CEO of Foundation Marketing",
+              "episode_number": 224,
+              "episode_date": "2025-03-03",
+              "evidence": "Argued that gated assets still drive conversion and can be effective for lead generation, pushing back against the blanket trend toward ungated content. Recommended using gating strategically on high-value, in-depth resources.",
+              "practice_id": "gate-assets-for-conversion"
+            }
+          ]
+        },
+        {
+          "position_id": "ungated-with-soft-capture",
+          "stance": "Make primary content freely accessible without a gate to maximize organic reach and SEO value. Include a non-coercive, optional email capture mechanism (e.g., a popup offering to send the content via email) rather than forcing users to provide their email to access content. This approach can still achieve meaningful email conversion rates.",
+          "supporters": [
+            {
+              "guest_name": "Erin May",
+              "guest_context": "VP of Marketing at User Interviews",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Achieved a 13% email conversion rate on ungated content by offering a compelling reason to subscribe (email delivery of a structured learning experience) without forcing users to provide their email to access the content. Cited maximizing organic reach and SEO value as key benefits.",
+              "practice_id": "ungated-content-with-soft-conversion"
+            },
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Landing page strategist and conversion consultant",
+              "episode_number": 154,
+              "episode_date": "2024-07-01",
+              "evidence": "Explicitly recommended against using lead magnets as the primary conversion goal on foundational B2B landing pages. Argued that gating content before building trust is like 'asking someone to marry you before you've even dated them,' and that B2B buyers need to consume information before making contact decisions.",
+              "practice_id": "b2b-landing-page-offer-structure"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: Tas Bober's advice is specifically scoped to foundational B2B SaaS landing pages, while Ross Simmonds may be referring to content marketing assets more broadly. However, Erin May's data point (13% soft conversion on ungated content) applies broadly to content assets, creating a genuine disagreement about whether gating is worth the friction trade-off even for high-value resources.",
+      "trend_note": "The two ungated/soft-capture advocates (Tas Bober, July 2024; Erin May, March 2026) are more recent than or concurrent with Ross Simmonds (March 2025), but the sample is too small to establish a clear chronological trend.",
+      "why_it_matters": "The gating decision directly affects both lead volume and content reach — getting it wrong either starves the pipeline of contacts or limits the content's ability to build brand awareness and SEO equity."
+    },
+    {
+      "disagreement_id": "form-placement-above-vs-below-fold",
+      "title": "Should forms be placed above the fold or below the fold on landing pages?",
+      "category": "landing-page-design-optimization",
+      "positions": [
+        {
+          "position_id": "form-below-the-fold",
+          "stance": "Move forms to the bottom of the page for exploratory landing pages. This preserves valuable above-the-fold real estate for showcasing product value and building interest before asking for information. Use a button CTA above the fold that anchors to the form below. For low-intent or awareness campaigns especially, do not place a form in the hero section.",
+          "supporters": [
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Landing page strategist and conversion consultant",
+              "episode_number": 185,
+              "episode_date": "2024-10-17",
+              "evidence": "Recommended moving forms to the bottom of the page for exploratory landing pages, arguing this preserves real estate for product/value showcase. Cited that transparency about post-submission next steps below the form increases submissions.",
+              "practice_id": "form-placement-bottom-of-page"
+            },
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Landing page strategist and conversion consultant",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "For low-intent or awareness campaigns, explicitly recommended moving forms below the fold and using a button CTA instead, showing product screenshots and benefits above the fold to build interest before asking for information.",
+              "practice_id": "move-form-below-fold-low-intent"
+            },
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Landing page strategist and conversion consultant",
+              "episode_number": 154,
+              "episode_date": "2024-07-01",
+              "evidence": "Stated that for B2B SaaS foundational landing pages, the form should appear at the bottom of the page, not at the top. Argued this prioritizes information consumption and buyer education over immediate lead capture.",
+              "practice_id": "b2b-landing-page-offer-structure"
+            }
+          ]
+        },
+        {
+          "position_id": "form-placement-depends-on-intent",
+          "stance": "Form placement should be calibrated to user intent level. High-intent users (actively searching, clicking paid ads) can tolerate forms above the fold and more direct CTAs. Low-intent users require more education first. Iterate form fields and placement based on sales team feedback to balance lead volume with quality.",
+          "supporters": [
+            {
+              "guest_name": "Gabby Sellam",
+              "guest_context": "Landing page and paid media specialist",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "Recommended tailoring form friction and CTA aggressiveness based on the intent level of the traffic source. High-intent users can tolerate more friction and direct CTAs; low-intent users require softer approaches. Also recommended iterating form fields based on sales team feedback.",
+              "practice_id": "high-intent-vs-low-intent-messaging"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Partially context-dependent: Tas Bober's below-the-fold recommendation is explicitly scoped to 'exploratory' and 'low-intent' pages, and Gabby Sellam agrees low-intent pages should have softer CTAs. The genuine disagreement is about high-intent pages: Gabby Sellam says forms above the fold are appropriate for high-intent traffic, while Tas Bober's overall framework still favors bottom-of-page forms even for demo-request pages (his only exception). This is a real tactical disagreement for high-intent paid search landing pages.",
+      "trend_note": null,
+      "why_it_matters": "Form placement directly affects conversion rate and lead quality — placing forms too early may deter prospects who need more education, while placing them too late may lose high-intent visitors who are ready to act immediately."
+    },
+    {
+      "disagreement_id": "abm-landing-page-personalization-depth",
+      "title": "For ABM campaigns, should you create one-to-one company-specific landing pages or a small set of journey-stage pages?",
+      "category": "landing-page-design-optimization",
+      "positions": [
+        {
+          "position_id": "one-to-one-account-specific-pages",
+          "stance": "Create personalized landing pages for each individual target account (e.g., 'Account Name, we know you need X'). This makes prospects feel seen and known, and can be executed with zero additional budget using any landing page builder. Sales reps serve as the free distribution channel.",
+          "supporters": [
+            {
+              "guest_name": "Casey Patterson",
+              "guest_context": "ABM and demand generation strategist",
+              "episode_number": 331,
+              "episode_date": "2026-02-19",
+              "evidence": "Recommended building one-to-one landing pages for each target account with minimal budget, arguing that hyper-personalization makes prospects feel seen and known. Positioned sales reps as the distribution channel for these pages.",
+              "practice_id": "abm-scrappy-one-to-one-landing-pages"
+            }
+          ]
+        },
+        {
+          "position_id": "five-to-six-journey-stage-pages",
+          "stance": "Do not create a unique landing page for every company on your ABM list. Instead, create 5-6 core landing pages that address different stages of the buyer journey. Send all companies to the appropriate page based on their stage, not their company name. This approach is scalable and provides clean data for optimization.",
+          "supporters": [
+            {
+              "guest_name": "Tas Bober",
+              "guest_context": "Landing page strategist and conversion consultant",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "Explicitly recommended against company-specific ABM pages, arguing for 5-6 core pages mapped to buyer journey stages instead. Cited scalability and data cleanliness as key advantages. Also separately warned against creating excessive numbers of landing pages (e.g., 200 pages) due to management overhead.",
+              "practice_id": "create-core-landing-pages-abm"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Casey Patterson's approach may be better suited to smaller, highly targeted ABM lists (e.g., 20-50 accounts) where the personalization ROI justifies the effort, while Tas Bober's approach may be better for larger ABM programs. However, both guests are speaking to ABM landing page strategy generally without explicitly scoping to list size, making this a genuine tactical disagreement.",
+      "trend_note": null,
+      "why_it_matters": "The choice between hyper-personalized and journey-stage pages affects both the scalability of the ABM program and the quality of optimization data — one-to-one pages may feel more relevant to prospects but make it nearly impossible to run statistically meaningful tests."
+    }
+  ]
+}

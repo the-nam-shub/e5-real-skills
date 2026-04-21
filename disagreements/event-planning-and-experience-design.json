@@ -1,0 +1,252 @@
+{
+  "category": "event-planning-and-experience-design",
+  "analysis_date": "2026-04-21",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "event-relationship-vs-pipeline-focus",
+      "title": "Should events prioritize relationship-building or direct pipeline conversion?",
+      "category": "event-planning-and-experience-design",
+      "positions": [
+        {
+          "position_id": "relationship-building-no-hard-sell",
+          "stance": "Events are relationship-building tools. Hard-selling at events is counterproductive. Focus on creating value, having genuine conversations, and laying the groundwork for future sales conversations rather than trying to convert attendees on the spot.",
+          "supporters": [
+            {
+              "guest_name": "Kristina DeBrito",
+              "guest_context": "Event and field marketing professional",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Explicitly stated that events are relationship-building tools and that hard-selling at events is counterproductive, recommending focus on genuine conversations and trust-building.",
+              "practice_id": "event-relationship-building-over-selling"
+            },
+            {
+              "guest_name": "Sandra Rand",
+              "guest_context": "Marketing leader for non-SaaS B2B companies",
+              "episode_number": 265,
+              "episode_date": "2025-07-17",
+              "evidence": "Recommended hosting non-business-related social events (ax throwing, cooking classes, concerts) specifically to build relationships independent of product/service, noting this is especially effective where relationship depth matters more than lead volume.",
+              "practice_id": "non-business-events-relationship-building"
+            },
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "Marketing leader at a B2B SaaS company",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Recommended creative, non-pitch event formats that build trust and goodwill over medium to long term, noting pipeline conversion comes from strong SDR follow-up post-event rather than during the event itself.",
+              "practice_id": "events-with-creative-formats"
+            }
+          ]
+        },
+        {
+          "position_id": "design-events-for-direct-pipeline-conversion",
+          "stance": "Design events so that discovery conversations happen during the event itself, with the goal of at least 50% of attendees expressing interest in a demo or further conversation by the end. Events should be structured to convert attendees into pipeline because they've already had initial discovery and know they want to continue talking.",
+          "supporters": [
+            {
+              "guest_name": "Natalie Taylor",
+              "guest_context": "Event and revenue marketing leader",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Recommended structuring dinner events with embedded discovery conversations so that by the end of the event, at least 50% of attendees express interest in a demo or further conversation. Argued this converts attendees into pipeline because they've already had initial discovery.",
+              "practice_id": "event-discovery-conversation-structure"
+            },
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Founder of Outcome Media and GURU Media Hub",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Prioritized pipeline conversion and engagement quality over broad reach, implementing 'earned on-demand' specifically to drive higher-quality engagement and pipeline conversion rather than relationship-building at scale.",
+              "practice_id": "no-on-demand-earned-access"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: relationship-first approaches may suit longer sales cycles, non-SaaS companies, or community-building contexts; pipeline-conversion approaches may suit shorter sales cycles or companies with strong product-market fit where prospects are already in-market. However, guests like Natalie Taylor and Kristina DeBrito were both discussing similar dinner/field event formats in B2B contexts, making this a genuine strategic disagreement.",
+      "trend_note": null,
+      "why_it_matters": "How you frame the goal of an event determines how you design the agenda, train your team, and measure success—misaligning event design with the actual goal leads to either missed pipeline or awkward sales pressure that damages relationships."
+    },
+    {
+      "disagreement_id": "swag-vs-experiential-activations",
+      "title": "Should you use branded swag or experiential activations at trade show booths?",
+      "category": "event-planning-and-experience-design",
+      "positions": [
+        {
+          "position_id": "experiential-over-swag",
+          "stance": "Replace branded swag (hoodies, hats, stickers) with memorable experiential activations—tarot card readings, live pancake art, interactive product demos, hologram experiences. These create stronger brand recall, word-of-mouth buzz, and qualified interest without requiring attendees to leave contact info first.",
+          "supporters": [
+            {
+              "guest_name": "Stephanie Christensen",
+              "guest_context": "Event marketing leader",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Recommended replacing branded hoodies, hats, and stickers with experiential activations like tarot card readings, live pancake art with attendee likenesses, or cold brew coffee service to create word-of-mouth buzz and stronger brand recall.",
+              "practice_id": "event-booth-experience-activation"
+            },
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Marketing leader at HeyGen",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "At Abundance360, HeyGen partnered with Proto Holograms to display interactive avatars and created an avatar creation booth where executives could generate their own digital twins—driving engagement and memorable moments without relying on swag.",
+              "practice_id": "interactive-product-demo-booth-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "invest-in-distinctive-booth-design",
+          "stance": "Invest in custom, distinctive booth design that visually stands out from competitors rather than relying on generic templates. The booth itself—its layout, branding, and visual elements—is the primary differentiator.",
+          "supporters": [
+            {
+              "guest_name": "Kristina DeBrito",
+              "guest_context": "Event and field marketing professional",
+              "episode_number": 227,
+              "episode_date": "2025-03-13",
+              "evidence": "Recommended investing in custom booth design with thoughtful layout, branding, and visual elements that draw attendees in and create a professional impression, rather than accepting generic booth templates.",
+              "practice_id": "event-booth-design-differentiation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: experiential activations may suit consumer-facing or high-traffic events better, while booth design differentiation may matter more in crowded trade show floors where visual distinction is the first filter. However, both guests in episode 227 were discussing the same trade show context, making this a genuine disagreement in emphasis and approach.",
+      "trend_note": null,
+      "why_it_matters": "Budget allocation between swag, experiential activations, and booth design is a real trade-off; choosing the wrong emphasis can mean spending thousands on assets that don't drive qualified conversations or pipeline."
+    },
+    {
+      "disagreement_id": "event-session-length",
+      "title": "How long should individual speaker sessions be at events?",
+      "category": "event-planning-and-experience-design",
+      "positions": [
+        {
+          "position_id": "short-lightning-sessions-15-20-min",
+          "stance": "Keep speaker sessions to 15-20 minutes maximum as lightning talks. This maintains audience attention and creates space for meaningful Q&A or breakout discussions immediately after, rather than having attendees sit passively through long presentations.",
+          "supporters": [
+            {
+              "guest_name": "Kera Wright",
+              "guest_context": "Event strategist and community builder",
+              "episode_number": 124,
+              "episode_date": "2024-03-14",
+              "evidence": "Explicitly recommended 15-20 minute lightning sessions where each speaker delivers one specific, tactical lesson, arguing this keeps audience attention high and creates space for meaningful breakout discussions.",
+              "practice_id": "use-lightning-sessions-for-speaker-content"
+            },
+            {
+              "guest_name": "Sydney Sloan",
+              "guest_context": "CMO with enterprise event experience",
+              "episode_number": 289,
+              "episode_date": "2025-10-09",
+              "evidence": "Recommended keeping event presentation sessions short (15 minutes or less) with built-in interactive elements throughout, arguing this maintains engagement and prevents passive listening.",
+              "practice_id": "event-fast-paced-interactive-sessions"
+            }
+          ]
+        },
+        {
+          "position_id": "longer-sessions-with-extended-qa-45-min",
+          "stance": "Allocate 45-minute slots with 20-25 minutes for presentation and 20 minutes for open Q&A. This gives attendees meaningful time to engage directly with speakers and creates more value than lecture-only or overly compressed formats.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 147,
+              "episode_date": "2024-06-06",
+              "evidence": "Recommended 45-minute slots with 20-25 minutes for presentation and 20 minutes for open Q&A, arguing this gives attendees time to ask speakers questions directly and creates more value than lecture-only formats.",
+              "practice_id": "allocate-time-for-qa-in-event-sessions"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: lightning sessions may suit larger conferences with many speakers, while longer Q&A-heavy sessions may suit smaller, more intimate events where audience interaction is the primary value. However, all three guests are giving general event design advice without restricting to a specific event size, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Session length directly determines how many speakers you can feature, how much audience interaction is possible, and whether attendees leave feeling engaged or fatigued—a core programming decision for any event."
+    },
+    {
+      "disagreement_id": "on-demand-access-to-event-recordings",
+      "title": "Should you make event/webinar recordings available on-demand to all registrants?",
+      "category": "event-planning-and-experience-design",
+      "positions": [
+        {
+          "position_id": "restrict-on-demand-earned-access-only",
+          "stance": "Do not make recordings freely available to all registrants. Implement 'earned on-demand' where attendees must attend live for a minimum threshold to unlock access. This forces commitment, drives higher-quality engagement, and improves pipeline conversion—even if it generates negative feedback.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Founder of Outcome Media and GURU Media Hub",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Explicitly recommends restricting on-demand access and implementing 'earned on-demand' requiring live attendance of at least one hour of a multi-day event. Argues this drives higher-quality engagement and pipeline conversion by prioritizing human connection over broad reach, despite generating negative feedback.",
+              "practice_id": "no-on-demand-earned-access"
+            }
+          ]
+        },
+        {
+          "position_id": "distribute-recordings-broadly-post-event",
+          "stance": "Plan post-event deliverables including session recordings as part of event strategy, distributing them to extend ROI and keep momentum going after the event ends.",
+          "supporters": [
+            {
+              "guest_name": "Anna Vermillion",
+              "guest_context": "Event marketing professional",
+              "episode_number": 294,
+              "episode_date": "2025-10-16",
+              "evidence": "Recommended planning post-event deliverables including session recordings as part of event strategy, mapped out before the event starts, to extend ROI and keep momentum going—implying broad distribution rather than restriction.",
+              "practice_id": "event-post-event-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Jay Schwedelson's advice applies specifically to webinars and virtual events where live attendance is the primary engagement mechanism; Anna Vermillion's advice may apply more to in-person or hybrid events where recordings serve a different purpose. However, both are addressing the same post-event content distribution question, making this a genuine strategic disagreement.",
+      "trend_note": null,
+      "why_it_matters": "The decision to restrict or freely distribute recordings directly affects registrant behavior, live attendance rates, and how you measure event success—getting this wrong means either leaving pipeline on the table or diluting the value of live attendance."
+    },
+    {
+      "disagreement_id": "event-format-thought-leadership-vs-demo-vs-creative",
+      "title": "What format should virtual events and webinars use to drive attendance and engagement?",
+      "category": "event-planning-and-experience-design",
+      "positions": [
+        {
+          "position_id": "demo-focused-events",
+          "stance": "Stop running generic thought leadership webinars. Run demo days where a knowledgeable person demonstrates the product for 30-60 minutes followed by live Q&A. This drives significantly higher attendance (400-500 people) and engagement (200-300 questions per session) compared to thought leadership events.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia LePoidevin",
+              "guest_context": "Marketing leader focused on demand generation",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Reported that demo days drove 400-500 attendees and 200-300 questions per session, far outperforming thought leadership events. Argued attendees prefer practical, product-focused content over abstract thought leadership.",
+              "practice_id": "demo-day-format-virtual-events"
+            }
+          ]
+        },
+        {
+          "position_id": "unique-brand-launch-event-formats",
+          "stance": "Move away from standard webinar formats entirely and create unique, memorable live events designed as brand launches—award shows, product launches, GTM demo days, or other novel formats. These generate 8x higher attendance than standard webinars and create brand search volume spikes.",
+          "supporters": [
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "Marketing leader focused on brand and demand",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Reported 8x attendance lift over standard webinars by reframing webinars as one-of-a-kind brand launch events (award shows, product launches, GTM demo days). Also cited brand search volume spikes and sales team feedback on deal acceleration as success metrics.",
+              "practice_id": "reframe-webinars-as-brand-events"
+            },
+            {
+              "guest_name": "Jason Lyman",
+              "guest_context": "Marketing leader at a B2B SaaS company",
+              "episode_number": 263,
+              "episode_date": "2025-07-10",
+              "evidence": "Recommended creative, non-pitch event formats like musician performances paired with casual networking or Bob Ross-style webinars where presenters paint while discussing topics, arguing these build authentic relationships and trust over time.",
+              "practice_id": "events-with-creative-formats"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: demo days may work best for companies with a strong product story and an audience already in-market, while creative brand-launch formats may work better for building awareness and reactivating cold prospects. However, all guests are explicitly arguing against the same baseline (generic thought leadership webinars) and proposing different replacements, making this a genuine disagreement about which alternative format is superior.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong virtual event format wastes significant production budget and team time while potentially underperforming on attendance and pipeline—the format decision is foundational to event ROI."
+    }
+  ]
+}

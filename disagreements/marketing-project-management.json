@@ -1,0 +1,269 @@
+{
+  "category": "marketing-project-management",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "okr-vs-simple-priority-frameworks",
+      "title": "Should early-stage or small marketing teams use formal OKR frameworks or simpler priority systems?",
+      "category": "marketing-project-management",
+      "positions": [
+        {
+          "position_id": "use-formal-okrs",
+          "stance": "Formal OKR frameworks with annual goals broken into quarterly deliverables and monthly check-ins provide the structure needed for accountability and cross-functional alignment. Even complex must/should/nice-to-have breakdowns within OKRs are worth the overhead because they prevent misalignment between teams.",
+          "supporters": [
+            {
+              "guest_name": "Shane Murphy",
+              "guest_context": "Marketing leader discussing annual planning cadence",
+              "episode_number": 173,
+              "episode_date": "2024-09-05",
+              "evidence": "Recommended a multi-level planning cadence: annual OKRs with ~90% locked strategic initiatives, quarterly deliverables, monthly check-ins, and weekly project tracking for high-impact projects.",
+              "practice_id": "annual-okr-quarterly-deliverables-cadence"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "Marketing leader discussing team alignment",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Recommended 5-6 broad annual goals broken into quarterly must-have, should-have, and nice-to-have OKRs, with explicit cross-team prioritization to prevent downstream misalignment.",
+              "practice_id": "okr-framework-must-should-nice-prioritization"
+            },
+            {
+              "guest_name": "Kady Srinvivasan",
+              "guest_context": "Marketing leader discussing quarterly planning",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Advocated for quarterly roadmaps with monthly milestones and quarterly postmortems, borrowed from product management, to create accountability and enable course-correction.",
+              "practice_id": "quarterly-roadmap-planning-postmortem"
+            }
+          ]
+        },
+        {
+          "position_id": "use-simple-priority-systems",
+          "stance": "Formal OKR frameworks are too complex for early-stage companies and even mature teams. A simple P0/P1 stack-ranked system or napkin-test goals (fit on a postcard) are more actionable, easier to communicate, and more likely to be remembered and executed by the team.",
+          "supporters": [
+            {
+              "guest_name": "Amrita Mathur",
+              "guest_context": "Marketing leader advising early-stage companies",
+              "episode_number": 188,
+              "episode_date": "2024-10-28",
+              "evidence": "Explicitly recommended P0/P1 priority system over complex OKR frameworks for early-stage companies: 3-5 tangible priorities per quarter with numbers and clear owners.",
+              "practice_id": "p-zero-p-one-prioritization-early-stage"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 188,
+              "episode_date": "2024-10-28",
+              "evidence": "Argued that if goals don't fit on a napkin or postcard, they're too complicated. Explicitly said 'avoid getting married to frameworks like OKRs' and focus on clarity and simplicity instead.",
+              "practice_id": "keep-goals-simple-napkin-test"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: Amrita Mathur and Dave Gerhardt explicitly frame the simple approach as suited for early-stage companies, while Shane Murphy and Mychelle Mollot appear to be advising more mature organizations. However, Dave Gerhardt's napkin test is framed as a universal principle, not stage-specific, creating genuine tension with the formal OKR advocates.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong planning framework wastes significant time on process overhead that could go to execution, or alternatively leaves teams without enough structure to stay aligned — getting this right is foundational to marketing team effectiveness."
+    },
+    {
+      "disagreement_id": "handling-leadership-ideas-immediately-vs-deferred",
+      "title": "Should you act on leadership or founder ideas quickly, or systematically defer and filter them?",
+      "category": "marketing-project-management",
+      "positions": [
+        {
+          "position_id": "defer-and-filter-systematically",
+          "stance": "Do not act on leadership ideas immediately. Use structured systems — backlogs, review meetings, three-mentions rules, or three-step no processes — to filter which ideas are genuine priorities versus passing thoughts before committing resources.",
+          "supporters": [
+            {
+              "guest_name": "Danielle Messler",
+              "guest_context": "Marketing leader discussing founder idea management",
+              "episode_number": 169,
+              "episode_date": "2024-08-22",
+              "evidence": "Recommended the 'three mentions' rule: only act on an idea if the founder mentions and follows up on it three times, distinguishing genuine priorities from passing thoughts.",
+              "practice_id": "founder-idea-triage-three-mentions"
+            },
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "Marketing leader discussing prioritization",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Recommended deferring ad-hoc ideas to structured weekly review meetings rather than committing immediately, using the response: 'I'll add this to our backlog. We're reviewing them next Friday.'",
+              "practice_id": "defer-ideas-to-structured-review"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Marketing leader discussing CEO relationship management",
+              "episode_number": 194,
+              "episode_date": "2024-11-18",
+              "evidence": "Recommended a three-step no process (ask why, swap it out, experiment) and a shared CEO one-on-one doc to batch and prepare responses to ideas rather than reacting in the moment.",
+              "practice_id": "three-step-no-process"
+            },
+            {
+              "guest_name": "Brian Kotlyar",
+              "guest_context": "Marketing leader discussing CEO idea management",
+              "episode_number": 118,
+              "episode_date": "2024-02-19",
+              "evidence": "Recommended a structured Notion backlog system groomed weekly where CEO ideas are captured and prioritized by discipline, making trade-offs visible before committing to execution.",
+              "practice_id": "ceo-idea-backlog-system"
+            }
+          ]
+        },
+        {
+          "position_id": "use-goals-framework-to-self-filter-in-real-time",
+          "stance": "Rather than deferring ideas to review cycles, build a clear goals framework that allows you and your team to evaluate ideas in real-time against whether they are unique and valuable. This enables faster decisions without needing to wait for a scheduled review.",
+          "supporters": [
+            {
+              "guest_name": "Dmitry Shamis",
+              "guest_context": "Marketing leader discussing goal-setting and prioritization",
+              "episode_number": 238,
+              "episode_date": "2025-04-17",
+              "evidence": "Recommended setting 1-2 high-level goals specific enough to act as guardrails so team members can make independent decisions about what work to pursue without constant top-down approval cycles.",
+              "practice_id": "prioritization-via-high-level-goals"
+            },
+            {
+              "guest_name": "Natalie Marcotullio",
+              "guest_context": "Marketing leader discussing CEO relationship management",
+              "episode_number": 194,
+              "episode_date": "2024-11-18",
+              "evidence": "Also recommended a 'unique + valuable' framework that allows real-time filtering of ideas without needing to defer to a review meeting — complementing but partially conflicting with her own three-step process.",
+              "practice_id": "unique-valuable-marketing-framework"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Genuine disagreement regardless of context, though the defer-and-filter approach may be more important in organizations where leadership generates high volumes of ideas. The real-time framework approach assumes a stable, well-understood strategic direction that not all companies have.",
+      "trend_note": null,
+      "why_it_matters": "How you handle leadership ideas determines whether your team maintains strategic focus or gets pulled into reactive execution — the wrong approach either alienates leadership or destroys planned work."
+    },
+    {
+      "disagreement_id": "shipping-speed-vs-quality-threshold",
+      "title": "Should you ship marketing work at 80% done, or invest in quality and proper process before launching?",
+      "category": "marketing-project-management",
+      "positions": [
+        {
+          "position_id": "ship-at-80-percent",
+          "stance": "Ship marketing work at 80% completion to maintain velocity, gather real market feedback faster, and iterate. Waiting for perfection slows momentum and delays learning. Speed compounds, especially at early-stage companies.",
+          "supporters": [
+            {
+              "guest_name": "Eli Rubel",
+              "guest_context": "Marketing consultant and agency founder",
+              "episode_number": 120,
+              "episode_date": "2024-02-26",
+              "evidence": "Explicitly recommended shipping at 80% done for landing pages, emails, creative, and campaigns. Argued that speed and momentum compound at early-stage companies and that real feedback beats internal polish.",
+              "practice_id": "ship-marketing-velocity-80-percent-done"
+            },
+            {
+              "guest_name": "Adam Goyette",
+              "guest_context": "Marketing leader discussing experimentation frameworks",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Recommended labeling initiatives as 'tests' to bypass lengthy approval processes and launch faster, getting real data before iterating — implying speed over polish.",
+              "practice_id": "launch-tests-under-test-label-to-move-faster"
+            }
+          ]
+        },
+        {
+          "position_id": "invest-in-upfront-process-and-quality",
+          "stance": "Proper upfront process — detailed briefs, stakeholder alignment, structured brainstorming with guardrails, and time for ideas to marinate — produces better output and reduces costly rework. Rushing to ship without this foundation leads to mediocre work.",
+          "supporters": [
+            {
+              "guest_name": "Eli Rubel",
+              "guest_context": "Marketing consultant and agency founder",
+              "episode_number": 153,
+              "episode_date": "2024-06-27",
+              "evidence": "Recommended identifying hidden stakeholders before starting creative work and trusting creative experts to execute after proper setup — implying upfront investment in process prevents downstream problems.",
+              "practice_id": "identify-hidden-stakeholders-upfront"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 214,
+              "episode_date": "2025-01-27",
+              "evidence": "Recommended structured campaign brainstorming with upfront guardrails, reference examples, and letting briefs marinate for a day or two rather than expecting ideas in real-time — prioritizing quality of thinking over speed.",
+              "practice_id": "campaign-brainstorm-process-with-guardrails"
+            },
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "Solo marketer working with freelancers",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Recommended investing time in comprehensive briefs for freelancers to prevent back-and-forth and improve output quality — prioritizing upfront process investment over speed.",
+              "practice_id": "create-detailed-briefs-for-freelancers"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: the 80% shipping advice is explicitly framed for early-stage companies, while the process-first advice may apply more to established teams with agencies or freelancers. However, Eli Rubel appears on both sides (ship fast in ep. 120, invest in process in ep. 153), suggesting even the same expert holds tension between these positions depending on context.",
+      "trend_note": null,
+      "why_it_matters": "The choice between shipping fast and investing in upfront process directly affects both output quality and team velocity — getting the balance wrong either kills momentum or produces work that damages brand credibility."
+    },
+    {
+      "disagreement_id": "async-vs-sync-meeting-default",
+      "title": "Should status updates and information sharing happen asynchronously, or in structured synchronous meetings?",
+      "category": "marketing-project-management",
+      "positions": [
+        {
+          "position_id": "default-to-async-for-status-updates",
+          "stance": "Status updates, information sharing, and one-way communication should be handled asynchronously (via Loom videos, shared docs, or tools like Fellow). Reserve synchronous meeting time exclusively for debate, conflict resolution, and decisions that require real-time interaction.",
+          "supporters": [
+            {
+              "guest_name": "Matt Devincentis",
+              "guest_context": "Marketing leader discussing distributed team management",
+              "episode_number": 260,
+              "episode_date": "2025-06-30",
+              "evidence": "Explicitly recommended replacing recurring status and information-sharing meetings with async Loom recordings, reserving real-time meetings only for debate and decision-making.",
+              "practice_id": "async-work-loom-replace-meetings"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "Marketing leader discussing meeting management",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Recommended using Fellow so status updates are reviewed asynchronously before meetings, with synchronous time reserved for discussion items like problems and challenges.",
+              "practice_id": "fellow-app-meeting-agenda-management"
+            }
+          ]
+        },
+        {
+          "position_id": "use-structured-synchronous-cadence-for-alignment",
+          "stance": "Regular synchronous meetings — weekly leadership priority reviews, weekly squad syncs, and structured one-on-ones — are essential for team alignment, accountability, and surfacing blockers. These should not be replaced by async communication.",
+          "supporters": [
+            {
+              "guest_name": "Ruth Zive",
+              "guest_context": "Marketing leader discussing team management cadence",
+              "episode_number": 175,
+              "episode_date": "2024-09-12",
+              "evidence": "Recommended a weekly 30-minute synchronous marketing leadership meeting driven by a shared priorities document, with alternating weeks for synchronous problem-solving and async KPI review.",
+              "practice_id": "weekly-leadership-priorities-document"
+            },
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "Marketing leader discussing team structure",
+              "episode_number": 283,
+              "episode_date": "2025-09-18",
+              "evidence": "Recommended squad-based team structure with dedicated weekly synchronous meetings for each squad to reduce handoffs and enable faster execution.",
+              "practice_id": "squad-based-team-structure-with-weekly-syncs"
+            },
+            {
+              "guest_name": "Amanda Goetz",
+              "guest_context": "Fractional CMO discussing operating model",
+              "episode_number": 244,
+              "episode_date": "2025-05-08",
+              "evidence": "Recommended running regular standups and OKR reviews as part of a fractional CMO operating model, treating them as essential to team alignment rather than overhead to eliminate.",
+              "practice_id": "fractional-cmo-operational-setup"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: async-first approaches are more practical for distributed/global teams across time zones (as Matt Devincentis explicitly notes), while synchronous cadences may be more important for co-located or smaller teams. However, the disagreement about whether status updates belong in meetings is genuine regardless of team distribution.",
+      "trend_note": null,
+      "why_it_matters": "The choice between async and sync defaults directly affects team calendar load, focus time, and whether alignment actually happens — defaulting to the wrong mode either wastes hours in unnecessary meetings or creates information silos."
+    }
+  ]
+}

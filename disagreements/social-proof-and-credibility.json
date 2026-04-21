@@ -1,0 +1,119 @@
+{
+  "category": "social-proof-and-credibility",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "incentivizing-reviews-yes-or-no",
+      "title": "Should you incentivize customers to leave reviews or testimonials?",
+      "category": "social-proof-and-credibility",
+      "positions": [
+        {
+          "position_id": "pro-incentivizing-reviews",
+          "stance": "Offering small incentives (gift cards, raffle entries) in exchange for testimonials or reviews is an effective and legitimate way to collect social proof. Authentic, raw testimonials gathered this way are more credible than highly produced content, and the approach helps you build volume quickly.",
+          "supporters": [
+            {
+              "guest_name": "Haley Carpenter",
+              "guest_context": "Conversion rate optimization and social proof strategist",
+              "episode_number": 282,
+              "episode_date": "2025-09-15",
+              "evidence": "Recommends offering small incentives (Starbucks gift card, Amazon gift card, raffle entry) in exchange for 10 minutes of a customer's time to provide testimonials or reviews via platforms like Testimonial.to.",
+              "practice_id": "social-proof-collection-strategy"
+            }
+          ]
+        },
+        {
+          "position_id": "anti-incentivizing-reviews",
+          "stance": "Incentivizing reviews with monetary rewards or gifts violates the terms of service of all major review platforms (G2, Capterra, Trustpilot) and is considered malpractice. If caught, platforms will strip all your reviews. Instead, identify naturally happy customers via NPS and ask them without incentives.",
+          "supporters": [
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "B2B marketing and community growth expert",
+              "episode_number": 143,
+              "episode_date": "2024-05-23",
+              "evidence": "Explicitly states that offering $25 gift cards or other rewards for reviews violates TOS on all major review platforms and is malpractice. Recommends using NPS surveys to identify happy customers and asking them without incentives.",
+              "practice_id": "avoid-review-incentives"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1",
+      "context_dependency": "Partially context-dependent: Haley Carpenter may be referring to testimonials collected via private platforms (e.g., Testimonial.to) rather than public review sites like G2 or Capterra, where Matt Carnevale's TOS concern clearly applies. However, both guests frame their advice as general social proof collection strategy without explicitly scoping to different contexts, making this a genuine tactical conflict for anyone collecting reviews for public platforms.",
+      "trend_note": null,
+      "why_it_matters": "Getting this wrong in the direction of incentivizing public platform reviews can result in losing all accumulated reviews overnight, a catastrophic credibility setback. Marketers need to distinguish between private testimonial collection and public review platform solicitation."
+    },
+    {
+      "disagreement_id": "logo-walls-vs-specific-outcomes",
+      "title": "Are customer logo walls effective social proof, or should you replace them with specific outcomes?",
+      "category": "social-proof-and-credibility",
+      "positions": [
+        {
+          "position_id": "logos-as-table-stakes-use-outcomes-instead",
+          "stance": "Customer logos alone don't build trust—their absence creates doubt, but their presence is merely table stakes. What actually moves prospects is specific, quantified customer outcomes (e.g., '30% faster adoption') featured prominently, not generic logo walls. Moving specific outcomes above the fold can dramatically improve conversion.",
+          "supporters": [
+            {
+              "guest_name": "Peep Laja",
+              "guest_context": "Founder of CXL and Wynter; conversion optimization expert",
+              "episode_number": 119,
+              "episode_date": "2024-02-22",
+              "evidence": "Cites AppCues moving customer outcomes from a subpage to above the fold and doubling conversion rate. Argues logos are table stakes and specific quantified results resonate far more.",
+              "practice_id": "specific-outcomes-over-logo-social-proof"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization strategist",
+              "episode_number": 251,
+              "episode_date": "2025-06-02",
+              "evidence": "Argues against generic logos and testimonials used just to prove the product is good; instead recommends using social proof strategically to address specific objections and concerns.",
+              "practice_id": "use-social-proof-to-address-specific-concerns"
+            },
+            {
+              "guest_name": "Kristine Segrist",
+              "guest_context": "B2B brand and enterprise marketing expert",
+              "episode_number": 277,
+              "episode_date": "2025-08-28",
+              "evidence": "Recommends including customer proof points and case studies alongside brand-name customers (e.g., FedEx) in enterprise brand awareness campaigns to make the brand feel legitimate to C-suite audiences.",
+              "practice_id": "enterprise-credibility-through-customer-proof"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Conversion optimization and landing page expert",
+              "episode_number": 231,
+              "episode_date": "2025-03-24",
+              "evidence": "Recommends selecting logos strategically based on ICP fit rather than brand prestige—implying logos still matter but must be chosen carefully to resonate with the target audience.",
+              "practice_id": "segment-social-proof-by-icp"
+            }
+          ]
+        },
+        {
+          "position_id": "logos-and-trust-indicators-are-essential",
+          "stance": "Trust indicators including customer logos, testimonials, reviews, and award badges should be prominently included on homepages and landing pages. These elements are especially critical for lesser-known brands and are as important as feature descriptions for B2B audiences making significant decisions.",
+          "supporters": [
+            {
+              "guest_name": "Lee Reshef",
+              "guest_context": "B2B marketing and homepage optimization expert",
+              "episode_number": 220,
+              "episode_date": "2025-02-17",
+              "evidence": "Recommends trust indicators (customer testimonials, user/client counts, guarantees, certifications) be visible and relevant to the primary value proposition on the homepage.",
+              "practice_id": "homepage-trust-indicators-placement"
+            },
+            {
+              "guest_name": "Gabby Sellam",
+              "guest_context": "Landing page and conversion specialist",
+              "episode_number": 218,
+              "episode_date": "2025-02-10",
+              "evidence": "Recommends incorporating social proof elements including customer logos, testimonials, reviews, trust badges, and award logos throughout landing pages, especially for lesser-known brands.",
+              "practice_id": "trust-elements-testimonials-badges"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially context-dependent: Peep Laja and Talia Wolf are not arguing against logos entirely but against relying on them as the primary trust mechanism. The conflict is sharpest for well-known brands where logos are truly table stakes, versus lesser-known brands (Gabby Sellam's explicit context) where logos may still provide meaningful lift. However, the tactical question of whether to prioritize logos or specific outcomes remains a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Choosing between a logo wall and specific outcome callouts affects homepage and landing page design decisions with direct conversion rate implications; getting the emphasis wrong means leaving persuasion power on the table."
+    }
+  ]
+}

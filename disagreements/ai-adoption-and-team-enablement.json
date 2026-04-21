@@ -1,0 +1,222 @@
+{
+  "category": "ai-adoption-and-team-enablement",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 3,
+  "disagreements": [
+    {
+      "disagreement_id": "human-creativity-vs-ai-content-generation",
+      "title": "Should marketers invest in human-created content over AI-generated content as a competitive moat?",
+      "category": "ai-adoption-and-team-enablement",
+      "positions": [
+        {
+          "position_id": "human-creativity-as-moat",
+          "stance": "Human creativity, real actors, and authentic human moments create emotional connection that AI cannot replicate. In a world where AI content is ubiquitous, investing in genuine human-created content is the primary competitive advantage. AI-generated content feels artificial and lacks the nuance that makes content resonate with audiences.",
+          "supporters": [
+            {
+              "guest_name": "Chris Cunningham",
+              "guest_context": "Guest; advertising/creative industry expert",
+              "episode_number": 347,
+              "episode_date": "2026-04-16",
+              "evidence": "Argued that audiences still prefer human-created content and that real actors, genuine scripts, and authentic human moments create emotional connection AI cannot replicate. Positioned human creativity and brand personality as the primary competitive advantage when product differentiation is increasingly difficult.",
+              "practice_id": "human-creativity-moat-over-ai"
+            },
+            {
+              "guest_name": "Dmitry Shamis",
+              "guest_context": "Guest; marketing creative expert",
+              "episode_number": 238,
+              "episode_date": "2025-04-17",
+              "evidence": "Argued AI lacks lived experience and observational skills, so output is mediocre without human curation. Explicitly stated 'Don't outsource your thinking' and that AI should only handle tedious execution work while humans retain taste-making, strategy, and authentic creative work.",
+              "practice_id": "ai-for-bottleneck-elimination-not-thinking"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-as-content-accelerator",
+          "stance": "AI tools are legitimate accelerators for content creation and execution. Marketers should use AI to generate drafts, create variations, and speed up production—the quality of output depends on the quality of the human directing the AI, not on whether AI is involved. AI enables smaller teams to produce more output without sacrificing quality when used correctly.",
+          "supporters": [
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Guest; content marketing strategist",
+              "episode_number": 209,
+              "episode_date": "2025-01-09",
+              "evidence": "Argued AI tools speed up execution for great marketers—a great marketer using ChatGPT produces great content faster. Recommended using AI to translate content, convert voice notes to text, generate headline options, and create design briefs. Compared AI to calculators: they didn't devalue math, they made it faster.",
+              "practice_id": "use-ai-as-execution-accelerator-not-replacement"
+            },
+            {
+              "guest_name": "Ross Simmonds",
+              "guest_context": "Guest; content marketing strategist",
+              "episode_number": 121,
+              "episode_date": "2024-02-29",
+              "evidence": "Recommended using AI for specific content tasks: translating content, converting voice notes to posts, generating variations—treating AI as a force multiplier that makes good work faster.",
+              "practice_id": "ai-tools-as-productivity-multiplier"
+            },
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "Guest; B2B marketing leader",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Advocated using AI to rapidly generate campaign ideas and accelerate time from concept to execution, reducing 4-week timelines to 5 days. Positioned AI as a productivity multiplier for strategic work including content and creative.",
+              "practice_id": "ai-as-execution-accelerator"
+            },
+            {
+              "guest_name": "Gurdeep Dhillon",
+              "guest_context": "Guest; CMO/marketing executive",
+              "episode_number": 280,
+              "episode_date": "2025-09-08",
+              "evidence": "Explicitly recommended on-brand content generation from prompts and campaign asset creation as core AI use cases, positioning AI-first execution as an imperative for marketing teams.",
+              "practice_id": "ai-first-marketing-execution"
+            },
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Guest, episode 270",
+              "episode_number": 270,
+              "episode_date": "2025-08-04",
+              "evidence": "Recommended using ChatGPT and Gemini to generate initial drafts and brainstorm ideas, comparing outputs across tools and remixing with your own work. Framed AI as a legitimate starting point for content creation.",
+              "practice_id": "ai-tools-as-starting-point-not-replacement"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 199,
+              "episode_date": "2024-12-05",
+              "evidence": "Advocated for using AI tools to enable marketers to execute full-stack work across design, copy, and development, reducing dependencies on specialized roles.",
+              "practice_id": "full-stack-marketer-ai-tools"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 2",
+      "context_dependency": "Partially context-dependent: Chris Cunningham's argument is strongest for brand advertising and video content where emotional resonance is paramount. The AI-accelerator position is stronger for written content, variations, and execution-heavy tasks. However, both camps are making claims about the same general content creation question, so a genuine disagreement remains even after accounting for format differences.",
+      "trend_note": "The human-creativity-as-moat position (Cunningham, April 2026) is the most recent, potentially reflecting a backlash against AI content saturation. The AI-accelerator position dominated earlier episodes (2024–early 2025). This could indicate a field shift toward valuing human authenticity as AI content becomes commoditized.",
+      "why_it_matters": "Marketers deciding where to invest budget and team capacity need to know whether doubling down on human creators or scaling AI-generated content will differentiate them—getting this wrong means either overspending on production or producing undifferentiated content that audiences tune out."
+    },
+    {
+      "disagreement_id": "general-vs-specialized-ai-tools",
+      "title": "Should marketers prefer general-purpose AI tools or specialized AI marketing tools?",
+      "category": "ai-adoption-and-team-enablement",
+      "positions": [
+        {
+          "position_id": "prefer-general-purpose-tools",
+          "stance": "Invest in general-purpose AI tools like Claude, ChatGPT, and Notebook LM rather than specialized AI marketing tools. General tools are more cost-effective, versatile, and can be combined to solve multiple problems. Only invest in niche tools when there's a specific, high-impact use case that general tools can't address.",
+          "supporters": [
+            {
+              "guest_name": "Lindsay O'Brien",
+              "guest_context": "Guest; B2B marketing leader",
+              "episode_number": 304,
+              "episode_date": "2025-11-17",
+              "evidence": "Explicitly recommended general-purpose tools (Claude, ChatGPT, Notebook LM, Zapier/Clay) over specialized AI marketing tools, citing cost-effectiveness, versatility, and reduced tool sprawl. Said to only invest in niche tools for specific high-impact use cases general tools can't address.",
+              "practice_id": "use-general-ai-tools-over-specialized"
+            }
+          ]
+        },
+        {
+          "position_id": "use-specialized-tools-by-use-case",
+          "stance": "Select AI tools based on the specific use case rather than defaulting to general-purpose tools. Different tools excel at different tasks—combine complementary specialized tools for better output than any single general tool can provide. Work backwards from the problem to find the best tool for that specific job.",
+          "supporters": [
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "Guest; marketing operations and AI adoption leader",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "Recommended working backwards from the specific problem to identify which tool excels at that task, then combining complementary tools. Gave the example of GenSpark (good at following detailed instructions) combined with Gamma (rendering/visual polish) producing better slide decks than either alone. Explicitly warned against using one tool for everything just because it's familiar.",
+              "practice_id": "ai-tool-selection-framework"
+            },
+            {
+              "guest_name": "Mychelle Mollot",
+              "guest_context": "Guest; CMO/marketing executive",
+              "episode_number": 182,
+              "episode_date": "2024-10-07",
+              "evidence": "Argued AI capabilities are being integrated into existing specialized platforms (Gong, HubSpot, etc.), shifting the evaluation to 'which tools have the best AI features for our use case' rather than general-purpose standalone tools.",
+              "practice_id": "ai-embedded-in-tools-not-standalone"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 1",
+      "context_dependency": "Partially context-dependent: team size and budget may influence this. Smaller teams with limited budgets may benefit more from general-purpose tools, while larger teams with specific high-volume use cases may justify specialized tools. However, both Jess Lytle and Lindsay O'Brien appear to be speaking to similar mid-market B2B marketing contexts, making this a genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong approach leads to either tool sprawl and wasted budget on specialized tools that underperform, or leaving performance gains on the table by using general tools for tasks where specialized tools would produce meaningfully better output."
+    },
+    {
+      "disagreement_id": "ai-adoption-dedicated-role-vs-distributed-responsibility",
+      "title": "Should AI adoption be led by a dedicated full-time role, or distributed across the team?",
+      "category": "ai-adoption-and-team-enablement",
+      "positions": [
+        {
+          "position_id": "dedicated-ai-champion-role",
+          "stance": "Create a dedicated, full-time AI champion or program director role with authority to set guidelines, train teams, evangelize use cases, and measure impact. Assigning AI adoption as an additional responsibility on top of existing jobs is not sustainable past the pilot phase.",
+          "supporters": [
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "Guest; marketing AI adoption and enablement leader",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Explicitly recommended creating a dedicated full-time role focused on AI strategy, adoption, and training, distinct from marketing ops. Argued this role is necessary because AI adoption as an add-on responsibility is not sustainable beyond the pilot phase.",
+              "practice_id": "dedicated-ai-champion-role-full-time"
+            },
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "Guest, episode 136",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Explicitly stated that literacy training must precede tool training, arguing that teams who only learn how to use specific tools (Jasper, ChatGPT) without understanding what generative AI is become misusers and skeptics. Recommended broad-based literacy training across the organization.",
+              "practice_id": "ai-literacy-training-foundational-to-adoption"
+            }
+          ]
+        },
+        {
+          "position_id": "distributed-team-enablement",
+          "stance": "AI adoption should be distributed across the team through phased enablement programs, hack sessions, show-and-tells, and calendar-blocked experimentation time. Empower individual team members and early adopters to learn and teach peers, rather than centralizing AI expertise in a single role.",
+          "supporters": [
+            {
+              "guest_name": "Erin May",
+              "guest_context": "Guest; marketing leader/CMO",
+              "episode_number": 337,
+              "episode_date": "2026-03-12",
+              "evidence": "Recommended a phased team-wide approach: Year 1 meet team members where they are with budget for tools, L&D time, show-and-tells, and hack sessions. Year 2+ accelerate expectations. No mention of a centralized AI champion role.",
+              "practice_id": "ai-adoption-phased-enablement"
+            },
+            {
+              "guest_name": "Bill Glenn",
+              "guest_context": "Guest; marketing leader",
+              "episode_number": 328,
+              "episode_date": "2026-02-11",
+              "evidence": "Recommended calendar-blocked experimentation time for all team members, cross-functional hackathons, and empowering team members to teach peers—a distributed model of AI capability building rather than a centralized champion role.",
+              "practice_id": "calendar-block-experimentation-time"
+            },
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "Guest; marketing operations and AI adoption leader",
+              "episode_number": 328,
+              "episode_date": "2026-02-11",
+              "evidence": "Recommended teaching assignments where team members learn AI tools and teach them back to peers, distributing expertise organically across the team.",
+              "practice_id": "ai-learning-through-teaching-assignments"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Advocated for individual early adopters within companies to experiment and gain advantage, framing AI adoption as something driven by 1-2 motivated individuals rather than a centralized program or dedicated role.",
+              "practice_id": "be-early-adopter-of-ai-tools-for-competitive-advantage"
+            },
+            {
+              "guest_name": "Jessica Hreha",
+              "guest_context": "Guest, episode 136",
+              "episode_number": 136,
+              "episode_date": "2024-04-29",
+              "evidence": "Also recommended getting skeptics to actually log in and use tools themselves, framing it as applying their existing editorial and design skills to the tool. This is in tension with her own literacy-first recommendation, suggesting both approaches are needed.",
+              "practice_id": "overcome-skepticism-through-hands-on-experience"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Likely context-dependent by company size: Jessica Hreha's recommendation for a dedicated role may be more appropriate for larger enterprise marketing organizations where AI adoption at scale requires dedicated program management. The distributed approach may work better for smaller teams. However, Hreha explicitly argued the dedicated role is necessary even past the pilot phase, making this a genuine disagreement for mid-to-large teams.",
+      "trend_note": "The distributed enablement approach dominates more recent episodes (2026), while the dedicated role recommendation came from an earlier episode (April 2024). This may reflect a maturation of the field where AI adoption is now expected to be embedded in everyone's role rather than managed by a specialist.",
+      "why_it_matters": "Deciding whether to hire a dedicated AI program director or invest that headcount in distributed enablement programs has significant budget and organizational design implications—and the wrong choice either creates an AI bottleneck or leaves adoption fragmented and inconsistent."
+    }
+  ]
+}

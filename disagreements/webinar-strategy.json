@@ -1,0 +1,196 @@
+{
+  "category": "webinar-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 0,
+  "disagreements": [
+    {
+      "disagreement_id": "live-attendance-vs-on-demand-access",
+      "title": "Should you restrict on-demand access to drive live webinar attendance, or make recordings freely available to all registrants?",
+      "category": "webinar-strategy",
+      "positions": [
+        {
+          "position_id": "restrict-on-demand-to-force-live-attendance",
+          "stance": "Withhold recordings from registrants who don't attend live, using 'earned on-demand' mechanics to force commitment. Pair this with 'attend to receive' incentives that are only unlocked by live attendees. This drives higher-quality engagement and significantly better pipeline conversion.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing and webinar optimization expert",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "Data shows 'attend to receive' incentives increase show rates by over 30% and drive 4x higher pipeline conversion compared to on-demand viewing. 'Earned on-demand' requires attendees to stay live for a minimum threshold to unlock recording access, prioritizing human connection over broad reach.",
+              "practice_id": "no-on-demand-earned-access"
+            },
+            {
+              "guest_name": "Jay Schewedelson",
+              "guest_context": "Email marketing and webinar optimization expert",
+              "episode_number": 167,
+              "episode_date": "2024-08-15",
+              "evidence": "Offering exclusive content or benefits only to live attendees (e.g., special tip sheet, Q&A session) incentivizes live attendance and increases show-up rates.",
+              "practice_id": "use-attend-to-receive-for-webinars"
+            },
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Webinar and email marketing expert; founder of Guru Media Hub",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "A/B test data showing 30%+ increase in show rates and 4x higher pipeline conversion for live attendees vs. on-demand viewers. Also advocates restricting on-demand access to force live commitment, even though it generates negative feedback.",
+              "practice_id": "attend-to-receive-webinar-hook"
+            },
+            {
+              "guest_name": "Matt Carnevale",
+              "guest_context": "Marketing leader at Exit Five",
+              "episode_number": 155,
+              "episode_date": "2024-07-04",
+              "evidence": "Recommends offering tangible incentives (free lunch, swag, event tickets) to first N registrants to significantly boost both registration and attendance rates.",
+              "practice_id": "use-incentive-to-drive-webinar-registration"
+            }
+          ]
+        },
+        {
+          "position_id": "make-recordings-freely-available",
+          "stance": "Explicitly market webinars by telling registrants that live attendance is optional and recordings will be sent to everyone. Accept that 20-25% live attendance is normal consumption behavior and optimize for total content consumption rather than live attendance as a quality signal.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 137,
+              "episode_date": "2024-05-02",
+              "evidence": "Recommends writing into marketing copy that live attendance is optional and recordings will be sent to all registrants. Expects ~20-25% live attendance as normal and argues against artificially inflating it through incentives or restrictions. Focus should be on total content consumption.",
+              "practice_id": "webinar-live-attendance-not-required"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 137,
+              "episode_date": "2024-05-02",
+              "evidence": "Sets realistic expectation of 20-25% live attendance (e.g., 200 out of 800 sign-ups) and argues for optimizing the recorded content experience for the remaining 75-80% rather than trying to force live attendance.",
+              "practice_id": "webinar-live-attendance-realistic-expectations"
+            },
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "B2B webinar and content marketing practitioner",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Advocates for ungated webinars focused on delivering value and maximizing audience reach, with personalized follow-up based on engagement signals rather than restricting access to drive live attendance.",
+              "practice_id": "ungated-webinar-value-first-strategy"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 3",
+      "context_dependency": "Partially context-dependent: Jay Schwedelson's data may apply more to high-volume, lead-generation-focused webinar programs where pipeline conversion is the primary KPI. Dave Gerhardt and Eoin Clancy's approach may suit brand-building or thought leadership programs where reach and trust matter more than immediate conversion. However, both sides are explicitly addressing the same tactical question of whether to restrict recordings, making this a genuine disagreement even within similar contexts.",
+      "trend_note": "No clear chronological pattern — Jay Schwedelson appeared in both 2024 (ep. 167) and 2026 (ep. 329) advocating restriction, while Dave Gerhardt's open-access stance appeared in 2024 (ep. 137) and Eoin Clancy's in 2026 (ep. 326). Both positions have recent representation.",
+      "why_it_matters": "This is one of the most consequential tactical decisions in webinar strategy because it directly affects show rates, pipeline quality, and audience trust. Choosing the wrong approach could mean either leaving significant pipeline conversion on the table (by not restricting) or damaging audience relationships and reach (by restricting)."
+    },
+    {
+      "disagreement_id": "thought-leadership-vs-demo-webinar-format",
+      "title": "Should webinars focus on thought leadership and education, or product demos?",
+      "category": "webinar-strategy",
+      "positions": [
+        {
+          "position_id": "replace-thought-leadership-with-demos",
+          "stance": "Stop running generic thought leadership webinars. Replace them with demo-focused events where a knowledgeable person demonstrates the product for 30-60 minutes followed by live Q&A. This format drives dramatically higher attendance and engagement.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia LePoidevin",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Demo days drove 400-500 attendees and 200-300 questions per session compared to thought leadership events. Attendees prefer practical, product-focused content. The Q&A also provides valuable competitive and objection intelligence.",
+              "practice_id": "demo-day-format-virtual-events"
+            }
+          ]
+        },
+        {
+          "position_id": "education-and-value-first-not-product-pitch",
+          "stance": "Webinars should focus on delivering genuine value and education rather than product pitches. Measure success through engagement metrics and longer-term pipeline influence rather than immediate demo bookings. Building trust through education drives better long-term outcomes.",
+          "supporters": [
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "B2B webinar and content marketing practitioner",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Advocates for ungated, value-first webinars that avoid product pitches, measuring success through 30-90 day lag to pipeline influence. Argues this builds long-term trust and word-of-mouth distribution.",
+              "practice_id": "ungated-webinar-value-first-strategy"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 311,
+              "episode_date": "2025-12-11",
+              "evidence": "Frames webinar viability around whether content addresses genuine customer motivations (make me look good, save time, make money, avoid pain, reach next level) — a framework centered on audience value rather than product demonstration.",
+              "practice_id": "webinar-motivation-framework"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 219,
+              "episode_date": "2025-02-13",
+              "evidence": "Recommends running webinars as a mechanism to test and refine pitch and messaging, treating them like a stand-up comedian testing material — value extends beyond direct conversions to improving overall narrative.",
+              "practice_id": "webinar-as-content-and-pitch-testing"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 1",
+      "context_dependency": "Somewhat context-dependent: demo-day format may work better for mid-funnel audiences already aware of the product category, while thought leadership may be more appropriate for top-of-funnel awareness building. However, Sylvia LePoidevin explicitly argues to 'stop' running thought leadership webinars as a general recommendation, making this a genuine disagreement rather than purely a funnel-stage distinction.",
+      "trend_note": null,
+      "why_it_matters": "The format choice fundamentally shapes who attends, what they expect, and how you measure success — getting this wrong means either alienating top-of-funnel prospects with premature product pitches or failing to convert mid-funnel prospects who want to see the product in action."
+    },
+    {
+      "disagreement_id": "webinar-length-optimization",
+      "title": "How long should a webinar be promoted as?",
+      "category": "webinar-strategy",
+      "positions": [
+        {
+          "position_id": "promote-as-22-minutes",
+          "stance": "Promote webinars as exactly 22 minutes long. Non-round numbers feel more credible and specific, prospects block 30 minutes giving themselves buffer, and the shorter commitment increases registration rates. If you can't deliver in 22 minutes, the content is unfocused.",
+          "supporters": [
+            {
+              "guest_name": "Jay Schwedelson",
+              "guest_context": "Email marketing and webinar optimization expert",
+              "episode_number": 329,
+              "episode_date": "2026-02-12",
+              "evidence": "A/B test data showing that 22-minute framing outperforms 30, 45, or 60-minute framing for registration rates. Non-round numbers feel more credible.",
+              "practice_id": "webinar-length-22-minutes"
+            }
+          ]
+        },
+        {
+          "position_id": "test-various-lengths-including-very-short",
+          "stance": "Don't assume webinars must be 60 minutes. Experiment with different lengths including very short formats (e.g., 10-minute sessions) and use audience feedback and engagement metrics to determine what your specific audience prefers.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 155,
+              "episode_date": "2024-07-04",
+              "evidence": "Recommends testing alternative formats and lengths based on audience feedback rather than prescribing a specific duration. Suggests 10-minute sessions as one experiment worth trying.",
+              "practice_id": "test-alternative-webinar-formats-and-lengths"
+            }
+          ]
+        },
+        {
+          "position_id": "demo-format-30-60-minutes",
+          "stance": "Demo-focused webinars should run 30-60 minutes to allow sufficient product demonstration time followed by live Q&A, which is where the highest engagement occurs.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia LePoidevin",
+              "guest_context": "B2B marketing leader",
+              "episode_number": 306,
+              "episode_date": "2025-11-24",
+              "evidence": "Demo days running 30-60 minutes drove 400-500 attendees and 200-300 questions per session, suggesting longer formats work well for demo-focused content.",
+              "practice_id": "demo-day-format-virtual-events"
+            }
+          ]
+        }
+      ],
+      "support_summary": "1 vs 1 vs 1",
+      "context_dependency": "Partially context-dependent: Sylvia LePoidevin's 30-60 minute recommendation is specifically for demo-day formats, which is a different use case than Jay Schwedelson's general webinar registration optimization advice. However, Jay Schwedelson and Dave Gerhardt are both addressing general webinar length strategy and genuinely disagree on whether to prescribe a specific duration versus test empirically.",
+      "trend_note": null,
+      "why_it_matters": "Webinar length directly affects registration rates and completion rates — promoting the wrong length could reduce sign-ups or result in high drop-off, undermining the entire program's effectiveness."
+    }
+  ]
+}

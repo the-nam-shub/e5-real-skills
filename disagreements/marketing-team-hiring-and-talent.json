@@ -1,0 +1,198 @@
+{
+  "category": "marketing-team-hiring-and-talent",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 4,
+  "disagreements": [
+    {
+      "disagreement_id": "prove-function-before-hiring-vs-hire-early",
+      "title": "Should you prove out a marketing function before hiring a dedicated person, or hire early to build the function?",
+      "category": "marketing-team-hiring-and-talent",
+      "positions": [
+        {
+          "position_id": "prove-before-hiring",
+          "stance": "Before hiring a dedicated full-time person for a new marketing function or channel, first test and validate that the function works for your business. Run it yourself or with existing resources, confirm it drives results, and only then hire a specialist. This de-risks the hire and gives you clarity on what success looks like.",
+          "supporters": [
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "CMO discussing hiring strategy",
+              "episode_number": 283,
+              "episode_date": "2025-09-18",
+              "evidence": "Explicitly stated every hire is a bet and you should only place bets on things you've already validated; recommended running a function as part of someone's existing job first.",
+              "practice_id": "test-before-hiring-new-roles"
+            },
+            {
+              "guest_name": "Sylvia Lepoidevin",
+              "guest_context": "CMO discussing hiring strategy",
+              "episode_number": 199,
+              "episode_date": "2024-12-05",
+              "evidence": "Reiterated the same advice: prove out the function internally or with an agency before hiring a dedicated full-time person.",
+              "practice_id": "test-roles-before-hiring"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 143,
+              "episode_date": "2024-05-23",
+              "evidence": "Recommended doing the work yourself or having an existing team member execute it first to understand what success looks like before hiring a specialist.",
+              "practice_id": "prove-function-before-hiring-specialist"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 169,
+              "episode_date": "2024-08-22",
+              "evidence": "Shared personal example: spent 2 years doing content himself, then 1.5 years with a contractor, before hiring a full-time content person — explicitly advocating for doing the role before hiring for it.",
+              "practice_id": "do-role-before-hiring"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 138,
+              "episode_date": "2024-05-06",
+              "evidence": "Recommended running experiments for a quarter before committing to a full-time hire for a new function.",
+              "practice_id": "test-before-hiring-full-role"
+            }
+          ]
+        },
+        {
+          "position_id": "hire-gtm-engineer-early",
+          "stance": "For certain foundational roles like GTM engineer, hire early — ideally as one of the first three to five marketing hires — rather than waiting to prove out the function. Building efficient systems from the start sets the foundation for scalable operations.",
+          "supporters": [
+            {
+              "guest_name": "John Short",
+              "guest_context": "Marketing leader discussing early-stage team building",
+              "episode_number": 271,
+              "episode_date": "2025-08-07",
+              "evidence": "Argued that a GTM engineer should be brought on early in team building to build content creation systems, customer feedback loops, AI integration, and workflow automation from the start rather than waiting.",
+              "practice_id": "hire-gtm-engineer-in-first-five-marketing-roles"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 1",
+      "context_dependency": "Partially context-dependent: John Short's advice is specifically about GTM engineers as a systems-building role, which could be seen as a different category than channel-specific hires. However, the core question of whether to hire before or after validation is the same, making this a genuine disagreement in philosophy even if the specific role differs.",
+      "trend_note": "The lone dissenter (John Short, August 2025) is more recent than most of the 'prove before hiring' advocates, potentially reflecting a newer view that AI-era team building requires earlier infrastructure investment. However, one data point is insufficient to call a trend.",
+      "why_it_matters": "Hiring before validating a function wastes budget and sets up the new hire for failure; but waiting too long to hire foundational roles can mean building on a weak operational foundation — the sequencing decision has real cost implications."
+    },
+    {
+      "disagreement_id": "specialist-vs-generalist-hiring",
+      "title": "Should you hire marketing specialists or generalist multi-threaded marketers?",
+      "category": "marketing-team-hiring-and-talent",
+      "positions": [
+        {
+          "position_id": "hire-generalists-multi-threaded",
+          "stance": "Hire generalist marketers who can think strategically across multiple tactics and execute across integrated disciplines rather than siloed specialists. In AI-first environments especially, fewer people doing more across content, paid, lifecycle, and events creates competitive advantage.",
+          "supporters": [
+            {
+              "guest_name": "Kady Srinivasan",
+              "guest_context": "Marketing leader discussing AI-first team building",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "Argued that multi-threaded marketers who understand how tactics interconnect are more valuable than specialists, especially in AI-first companies where you need fewer people doing more.",
+              "practice_id": "multi-threaded-marketer-skill-set"
+            },
+            {
+              "guest_name": "Vicente",
+              "guest_context": "AI video team builder",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "For AI video teams specifically, prioritized generalist creatives who understand the full creative workflow (direction, cinematography, copy) over specialists in single disciplines like motion graphics.",
+              "practice_id": "ai-creative-generalist-hiring"
+            }
+          ]
+        },
+        {
+          "position_id": "hire-specialists-smarter-than-you",
+          "stance": "CMOs should deliberately hire VPs and specialists who are smarter than them in specific functional areas rather than generalists. Acknowledging expertise gaps and hiring deep specialists creates a stronger overall organization.",
+          "supporters": [
+            {
+              "guest_name": "Maura Rivera",
+              "guest_context": "CMO discussing team building strategy",
+              "episode_number": 301,
+              "episode_date": "2025-11-06",
+              "evidence": "Recommended hiring VPs and specialists who are smarter than you in demand gen, marketing ops, analytics, etc., and asking for master classes from them rather than managing junior generalists.",
+              "practice_id": "hire-specialists-smarter-than-you"
+            },
+            {
+              "guest_name": "Peter Mahoney",
+              "guest_context": "CMO/marketing leader discussing team portfolio strategy",
+              "episode_number": 128,
+              "episode_date": "2024-04-01",
+              "evidence": "Advocated a portfolio approach: hire 1-2 world-class experts in critical areas (blind spots, strategic priorities) and high-potential people elsewhere—explicitly valuing deep specialists in key functions.",
+              "practice_id": "hiring-portfolio-approach"
+            },
+            {
+              "guest_name": "Jason Lemkin",
+              "guest_context": "SaaStr founder and B2B investor",
+              "episode_number": 142,
+              "episode_date": "2024-05-20",
+              "evidence": "Argued against hiring generalist marketers and expecting them to excel at everything; instead match the person's specific superpower (brand, demand gen, product marketing, growth) to the company's immediate need.",
+              "practice_id": "hire-for-superpower-alignment"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: the generalist argument is strongest for small AI-first teams or early-stage companies where headcount is constrained, while the specialist argument applies more to scaling teams with budget for dedicated functional leaders. However, both Kady Srinivasan and the specialist advocates are explicitly discussing team-building strategy broadly, so there is genuine disagreement on the default hiring philosophy.",
+      "trend_note": null,
+      "why_it_matters": "The choice between generalists and specialists shapes org design, hiring criteria, and how marketing teams scale — getting this wrong means either hiring people who can't execute across the full funnel or hiring specialists who create silos and handoff friction."
+    },
+    {
+      "disagreement_id": "credentials-vs-hustle-in-hiring",
+      "title": "Should you weight credentials and prestigious backgrounds heavily when hiring marketers?",
+      "category": "marketing-team-hiring-and-talent",
+      "positions": [
+        {
+          "position_id": "deemphasize-credentials-value-hustle",
+          "stance": "Don't over-weight where someone went to school or which prestigious companies they worked at. The best marketers sometimes come from non-traditional backgrounds — small startups where they had to grind and wear multiple hats. Look for hustle, creativity, and ability to figure things out instead.",
+          "supporters": [
+            {
+              "guest_name": "Jeff Hardison",
+              "guest_context": "Product marketing leader",
+              "episode_number": 335,
+              "episode_date": "2026-03-05",
+              "evidence": "Explicitly argued against over-weighting school or prestigious company backgrounds; cited example of an NPR hire with no tech experience who could be an amazing hire with the right instincts.",
+              "practice_id": "hire-for-non-traditional-backgrounds"
+            },
+            {
+              "guest_name": "Dmitry Shamis",
+              "guest_context": "Design leader discussing designer hiring",
+              "episode_number": 238,
+              "episode_date": "2025-04-17",
+              "evidence": "Argued that a designer with 1,000 B2B websites in their portfolio may produce nothing fresh; prioritize curiosity and outside interests over portfolio depth or years of B2B experience.",
+              "practice_id": "hire-designers-for-curiosity-not-portfolio"
+            }
+          ]
+        },
+        {
+          "position_id": "weight-demonstrated-public-expertise",
+          "stance": "Prioritize hiring people who have demonstrated their expertise publicly through LinkedIn, speaking, writing, or previous company visibility. These practitioners bring credibility, an existing network, and the ability to represent your brand authentically.",
+          "supporters": [
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "Head of Marketing discussing team building",
+              "episode_number": 266,
+              "episode_date": "2025-07-21",
+              "evidence": "Recommended prioritizing candidates who have built their own audience and reputation publicly, as they can become evangelists and amplify marketing efforts.",
+              "practice_id": "hire-practitioners-with-external-presence"
+            },
+            {
+              "guest_name": "Dan Cmejla",
+              "guest_context": "Marketing leader discussing talent strategy",
+              "episode_number": 134,
+              "episode_date": "2024-04-22",
+              "evidence": "Recommended recruiting talent at the intersection of excellence and public content creation, looking for candidates with existing followings or content portfolios.",
+              "practice_id": "recruit-talent-who-create-content"
+            }
+          ]
+        }
+      ],
+      "support_summary": "2 vs 2",
+      "context_dependency": "Partially context-dependent: the 'public presence' advocates (Jess Cook, Dan Cmejla) may be specifically addressing content/brand roles where public visibility is itself a job requirement, while the 'hustle over credentials' advocates (Jeff Hardison, Dmitry Shamis) are speaking more broadly about product marketing and design. The disagreement partially dissolves if you account for role type, but both camps are making general hiring philosophy claims.",
+      "trend_note": null,
+      "why_it_matters": "Overweighting credentials screens out high-potential non-traditional candidates, while ignoring demonstrated public expertise may mean missing candidates who bring built-in distribution and credibility — the right filter depends on what the role actually requires."
+    }
+  ]
+}

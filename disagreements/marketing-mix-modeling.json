@@ -1,0 +1,222 @@
+{
+  "category": "marketing-mix-modeling",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "correlation-vs-experimentation-as-measurement-foundation",
+      "title": "Is correlation analysis a valid measurement approach, or must you run controlled experiments to prove marketing impact?",
+      "category": "marketing-mix-modeling",
+      "positions": [
+        {
+          "position_id": "correlation_is_sufficient_directionally",
+          "stance": "Correlation analysis — plotting channel impressions or reach against business outcomes over 12+ months — is a practical and valid method for identifying which channels contribute to growth. When impressions on a channel consistently move with demos or pipeline, that is meaningful evidence of channel contribution. This approach works across all channels including brand and offline, and can be done in a simple spreadsheet without data science resources.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest; co-founder of Paramark, B2B marketing measurement expert",
+              "episode_number": 144,
+              "episode_date": "2024-05-27",
+              "evidence": "Recommends correlation analysis as the first step to identify high-potential channels, putting all marketing channels on equal footing without relying on deterministic attribution models.",
+              "practice_id": "correlate-reach-to-output"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest; co-founder of Paramark, B2B marketing measurement expert",
+              "episode_number": 130,
+              "episode_date": "2024-04-08",
+              "evidence": "Advocates mapping channel impressions to business outcomes using correlation analysis in a simple spreadsheet over 12+ months to reveal which channels are actually correlated with business growth.",
+              "practice_id": "correlation-analysis-spreadsheet"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest; co-founder of Paramark, B2B marketing measurement expert",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Recommends correlating LinkedIn organic impressions to demo bookings over 52 weeks, and podcast listens to demo bookings, as directional evidence of channel effectiveness presentable to finance teams.",
+              "practice_id": "linkedin-impressions-demos-correlation"
+            },
+            {
+              "guest_name": "Madhav Bhandari",
+              "guest_context": "Guest; B2B SaaS marketing leader",
+              "episode_number": 183,
+              "episode_date": "2024-10-10",
+              "evidence": "Uses brand search volume as a leading indicator of marketing effectiveness, arguing that if brand searches increase following marketing activities and sales reports align, the marketing is working — without requiring controlled experiments.",
+              "practice_id": "multi-touch-attribution-brand-search-correlation"
+            }
+          ]
+        },
+        {
+          "position_id": "experimentation_required_for_causality",
+          "stance": "Correlation does not prove causation and can actively mislead — two metrics moving together may both be driven by a third untracked variable. Randomized controlled trials and A/B testing are the gold standard for proving cause and effect in marketing. Attribution models and correlation analysis cannot substitute for experimentation if you want to know whether your marketing actually caused an outcome.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest; co-founder of Paramark, B2B marketing measurement expert",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "Explicitly states that correlation is not causation using the LinkedIn impressions example: a podcast ad you're not tracking may be the real driver of both LinkedIn engagement and website visits. To prove causation, you must run an experiment with a control group.",
+              "practice_id": "distinguish-correlation-causation-linkedin-example"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest; co-founder of Paramark, B2B marketing measurement expert",
+              "episode_number": 259,
+              "episode_date": "2025-06-26",
+              "evidence": "States that attribution models do not prove causality and that randomized controlled trials and A/B testing are the gold standard — 'the basis of modern science and should be the basis of modern marketing measurement.'",
+              "practice_id": "experimentation-foundation-causality-not-correlation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially resolvable: correlation analysis may be appropriate as a first-pass, low-cost screening tool to identify candidate channels, while experimentation is required to confirm causality before making large budget commitments. However, Pranav Piyush's later position explicitly warns that presenting correlation to finance teams as evidence of channel effectiveness (which he recommended in earlier episodes) is misleading — making this a genuine disagreement about what counts as sufficient evidence.",
+      "trend_note": "Clear chronological pattern within a single guest: Pranav Piyush's earlier episodes (April–November 2024, episodes 130, 144, 191) recommend correlation analysis as a valid and presentable measurement method. His later episodes (June 2025, episode 259) explicitly argue that correlation is insufficient and experimentation is required for causality. This suggests a shift in his own thinking over approximately 14 months.",
+      "why_it_matters": "If correlation analysis is sufficient, most B2B marketing teams can measure channel impact today with a spreadsheet. If experimentation is required, most teams are making budget decisions on misleading evidence and need to invest in holdout testing infrastructure before trusting their channel data."
+    },
+    {
+      "disagreement_id": "multi-touch-vs-single-touch-attribution",
+      "title": "Should you use multi-touch attribution or avoid it due to double-counting problems?",
+      "category": "marketing-mix-modeling",
+      "positions": [
+        {
+          "position_id": "pro_multi_touch",
+          "stance": "Multi-touch attribution is valuable because it recognizes the cumulative contribution of many touchpoints across long buying journeys. A single conversion may have 25+ touchpoints, and multi-touch models over long time periods help justify brand and event investments that don't show immediate ROI. Custom, flexible multi-touch reports can tell coherent stories to executives and drive optimization decisions.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "Guest; B2B marketing leader",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "A single conversion may have 25+ touchpoints before it closes; multi-touch attribution over long time periods recognizes cumulative contribution, especially in up-market deals, and justifies brand and event investments.",
+              "practice_id": "brand-attribution-pipeline-connection"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "Guest; LinkedIn advertising specialist",
+              "episode_number": 243,
+              "episode_date": "2025-05-05",
+              "evidence": "Recommends Hockey Stack and DreamData as platforms that show the full customer journey (LinkedIn impression → Google search → website visit → demo request → deal closed), providing a more complete picture than single-platform attribution.",
+              "practice_id": "use-hockey-stack-or-dreamdata-for-multi-touch"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "Guest; B2B marketing and attribution expert",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Recommends triangulating data across first-touch, multi-touch, and last-touch attribution models using CRM, web analytics, and qualitative feedback to get a more complete picture of which channels drive revenue.",
+              "practice_id": "use-data-triangulation-for-attribution"
+            },
+            {
+              "guest_name": "Emir Atli",
+              "guest_context": "Guest; co-founder of HockeyStack",
+              "episode_number": 165,
+              "episode_date": "2024-08-12",
+              "evidence": "Advocates building custom, flexible attribution reports with multi-touch buyer journey views to tell coherent stories to CFOs/CEOs and get actionable optimization insights.",
+              "practice_id": "custom-attribution-reports-for-storytelling"
+            }
+          ]
+        },
+        {
+          "position_id": "anti_multi_touch_double_counting",
+          "stance": "Multi-touch attribution creates a fundamental double-counting problem where the same revenue dollar gets credited to multiple touchpoints simultaneously, inflating apparent ROI of every channel and distorting decision-making. Single-touch attribution or blended CAC is preferable because it forces a choice and prevents the same dollar from being counted 5-7 times across different tools.",
+          "supporters": [
+            {
+              "guest_name": "Chris Walker",
+              "guest_context": "Guest; B2B marketing strategist and founder of Refine Labs",
+              "episode_number": 211,
+              "episode_date": "2025-01-16",
+              "evidence": "Multi-touch attribution allows the same revenue dollar to be credited to multiple touchpoints (event, Google Ad, LinkedIn Ad, SDR, etc.), inflating apparent ROI of each channel and making it impossible to understand true efficiency. The same dollar in revenue may be counted 5-7 times across different tools.",
+              "practice_id": "avoid-multi-touch-attribution-double-counting"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Partially context-dependent: Chris Walker's critique applies most forcefully when multi-touch data is used to calculate ROI or defend budget to finance, while proponents like Kelly Hopping and Emir Atli use it more for directional storytelling and journey mapping. However, the double-counting problem is structural and applies regardless of use case, so this is a genuine disagreement on whether multi-touch models are net-useful.",
+      "trend_note": null,
+      "why_it_matters": "If Chris Walker is right, multi-touch attribution actively misleads budget allocation decisions by making every channel look more efficient than it is. If the pro-multi-touch camp is right, abandoning it means losing visibility into the cumulative, multi-step nature of B2B buying journeys."
+    },
+    {
+      "disagreement_id": "attribution-as-source-of-truth-vs-directional-tool",
+      "title": "Should attribution data be used as a source of truth for pipeline credit, or only as a directional decision-making tool?",
+      "category": "marketing-mix-modeling",
+      "positions": [
+        {
+          "position_id": "attribution_directional_only",
+          "stance": "No attribution model is perfectly accurate, so attribution data should only be used directionally to inform decisions and diagnose channel performance — not as gospel truth, not to defend marketing to the CFO, and not to settle disputes with sales over pipeline credit. Treating attribution as a scorekeeping mechanism leads to bad decisions.",
+          "supporters": [
+            {
+              "guest_name": "Ido Mart",
+              "guest_context": "Guest; B2B marketing and revenue operations leader",
+              "episode_number": 229,
+              "episode_date": "2025-03-20",
+              "evidence": "Explicitly states attribution should be a decision-making tool, not a scorekeeping mechanism or source of truth, and should not be used to defend marketing to the CFO or settle disputes with sales over credit.",
+              "practice_id": "attribution-decision-making-not-scorekeeping"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest; co-founder of Paramark, B2B marketing measurement expert",
+              "episode_number": 191,
+              "episode_date": "2024-11-07",
+              "evidence": "Recommends reframing the attribution conversation entirely around incrementality rather than touchpoint credit, arguing that first-touch, last-touch, and multi-touch models should be abandoned in favor of incrementality framing.",
+              "practice_id": "reframe-attribution-as-incrementality"
+            },
+            {
+              "guest_name": "John Short",
+              "guest_context": "Guest; B2B marketing and attribution expert",
+              "episode_number": 201,
+              "episode_date": "2024-12-12",
+              "evidence": "Recommends triangulating across multiple models rather than relying on any single one, implying no model is reliable enough to be treated as ground truth.",
+              "practice_id": "use-data-triangulation-for-attribution"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest; B2B marketing measurement expert",
+              "episode_number": 239,
+              "episode_date": "2025-04-21",
+              "evidence": "Explicitly called for shifting from attribution to incrementality as the primary framework, arguing attribution models create false causality and that incrementality through controlled experiments or MMM is the correct approach.",
+              "practice_id": "incrementality-over-attribution"
+            },
+            {
+              "guest_name": "Ryan Narod",
+              "guest_context": "Guest; B2B marketing leader",
+              "episode_number": 330,
+              "episode_date": "2026-02-17",
+              "evidence": "Recommended implementing mixed media models and incremental testing as the measurement approach for brand campaigns, measuring incremental effect on pipeline rather than using attribution models.",
+              "practice_id": "mixed-media-model-incremental-testing"
+            }
+          ]
+        },
+        {
+          "position_id": "attribution_can_answer_specific_questions_reliably",
+          "stance": "Attribution can be a reliable source of truth if you are clear about which specific question you are trying to answer. Campaign-level attribution is appropriate for answering 'should we continue this campaign and what was its ROI?' Pipeline contribution models are appropriate for answering 'which team should own what percentage of our pipeline goal?' The problem is not attribution itself but using one methodology to answer both questions simultaneously.",
+          "supporters": [
+            {
+              "guest_name": "Sean Lane",
+              "guest_context": "Guest; revenue operations and GTM strategy expert",
+              "episode_number": 274,
+              "episode_date": "2025-08-18",
+              "evidence": "Argues that campaign ROI questions and pipeline contribution questions require different methodologies, and that using the right model for the right question makes attribution reliable — the issue is conflating the two questions, not attribution itself.",
+              "practice_id": "distinguish-roi-questions"
+            },
+            {
+              "guest_name": "Emir Atli",
+              "guest_context": "Guest; co-founder of HockeyStack",
+              "episode_number": 165,
+              "episode_date": "2024-08-12",
+              "evidence": "Advocates building custom attribution reports that enable marketers to tell coherent stories to CFOs/CEOs about pipeline contribution — implying attribution can be a reliable enough source of truth for executive reporting when properly configured.",
+              "practice_id": "custom-attribution-reports-for-storytelling"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 2",
+      "context_dependency": "Partially resolvable: Sean Lane's position is that the methodology must match the question, which is compatible with Ido Mart's warning against using attribution as a universal scorekeeping mechanism. However, Emir Atli's advocacy for using custom attribution reports to tell pipeline contribution stories to CFOs directly conflicts with Ido Mart's explicit warning against using attribution to defend marketing to the CFO — making this a genuine disagreement in that specific use case.",
+      "trend_note": null,
+      "why_it_matters": "If attribution can be a reliable source of truth for specific questions, marketing teams should invest in building rigorous attribution infrastructure for executive reporting. If it is only directional, using it to defend budget or claim pipeline credit will undermine marketing's credibility when the numbers are scrutinized."
+    }
+  ]
+}

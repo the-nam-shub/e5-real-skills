@@ -1,0 +1,293 @@
+{
+  "category": "creative-strategy",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 1,
+  "disagreements": [
+    {
+      "disagreement_id": "brand-consistency-vs-pattern-interruption-in-ads",
+      "title": "Should ad creative prioritize brand consistency or pattern interruption, even if it means breaking brand guidelines?",
+      "category": "creative-strategy",
+      "positions": [
+        {
+          "position_id": "pattern-interruption-over-brand",
+          "stance": "Ad creative should prioritize interrupting the feed and capturing attention over maintaining brand guidelines or visual consistency. If the ad doesn't show your brand colors or logo but stops the scroll, that's a win. Breaking brand guidelines in paid media is justified if it drives conversion lift.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "LinkedIn ads practitioner",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Explicitly advises not worrying if the ad doesn't show brand colors or logo; the goal is clicks and engagement, not brand safety. Recommends building a library of ads team members like and why, to train on what works.",
+              "practice_id": "linkedin-ads-creative-break-pattern"
+            },
+            {
+              "guest_name": "Eli Rubel",
+              "guest_context": "Brand and design consultant",
+              "episode_number": 120,
+              "episode_date": "2024-02-26",
+              "evidence": "Argues many companies are constrained by outdated brand guidelines and recommends experimenting outside them in paid media. If a creative variation drives 25-50% lift in conversions, the performance gain justifies stepping outside guidelines.",
+              "practice_id": "break-brand-guidelines-paid-creative"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 120,
+              "episode_date": "2024-02-26",
+              "evidence": "Recommends using unconventional creative (iPhone photos, candid team photos, hand-drawn elements) to interrupt the feed, noting that simple, authentic, or quirky creative often outperforms polished corporate creative.",
+              "practice_id": "use-distinctive-creative-to-interrupt-feed"
+            },
+            {
+              "guest_name": "Louis Grenier",
+              "guest_context": "Marketing differentiation strategist",
+              "episode_number": 322,
+              "episode_date": "2026-01-19",
+              "evidence": "States that ads matching brand guidelines (company logos, fonts, looking like flyers) fail because they blend into noise. Advocates for plain text emails, handwritten notes, and unconventional creative that stands out.",
+              "practice_id": "attention-first-sell-later"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 153,
+              "episode_date": "2024-06-27",
+              "evidence": "Explicitly states every post is an advertisement and should be designed to stop the scroll and earn the click, not to be 'perfectly on-brand and invisible.' Recommends intentionally designing creative that stands out visually and breaks the pattern.",
+              "practice_id": "interrupt-feed-pattern-with-bold-creative"
+            },
+            {
+              "guest_name": "Mark Schaefer",
+              "guest_context": "Marketing strategist and author",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "Advocates for raw, unpolished content with intentional imperfection—slightly out of focus, imperfect audio—to signal authenticity. Argues starting ads with logos immediately signals 'advertisement' and triggers dismissal.",
+              "practice_id": "raw-lo-fi-content-over-polish"
+            }
+          ]
+        },
+        {
+          "position_id": "brand-consistency-as-differentiator",
+          "stance": "High-quality, on-brand creative is the primary differentiator in multi-channel campaigns and should represent your brand well. Investing in professional, consistent creative production is justified because it drives better results across all channels and builds brand recognition.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "B2B demand gen marketer",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Recommends allocating significant budget ($35K for 4 videos) for professional creative development in surround sound campaigns. States creative should be 'on-brand and represents your brand well, as it will be the primary differentiator when showing up everywhere.'",
+              "practice_id": "creative-investment-multi-channel-campaigns"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist",
+              "episode_number": 228,
+              "episode_date": "2025-03-17",
+              "evidence": "Recommends conducting custom photo shoots with consistent models to build visual brand recognition across ads, explicitly to stand out from generic stock imagery through consistency rather than rule-breaking.",
+              "practice_id": "custom-photoshoot-for-consistent-ad-creative"
+            }
+          ]
+        }
+      ],
+      "support_summary": "6 vs 2",
+      "context_dependency": "Partially context-dependent: the pattern-interruption camp tends to focus on cold/top-of-funnel LinkedIn ads where brand is unknown, while the brand-consistency camp (Kelly Arndt) is explicitly discussing multi-channel surround sound campaigns where the brand is already being built across touchpoints. However, Domi and Eli Rubel both make the argument broadly for paid creative regardless of funnel stage, so genuine disagreement remains even within the same context.",
+      "trend_note": "More recent episodes (2026) continue to favor pattern interruption (Domi, Louis Grenier), while the brand-consistency position appears in both older and newer episodes without a clear directional shift.",
+      "why_it_matters": "Marketers face a real tradeoff: breaking brand guidelines may boost short-term ad performance but could undermine long-term brand recognition and consistency. Choosing the wrong approach wastes either creative budget or media spend."
+    },
+    {
+      "disagreement_id": "production-quality-vs-authenticity-for-video",
+      "title": "Does production quality matter for video performance, or does hook and authenticity always win?",
+      "category": "creative-strategy",
+      "positions": [
+        {
+          "position_id": "hook-and-authenticity-over-production",
+          "stance": "Video success is determined primarily by the hook, angle, and storytelling—not production quality. Raw, lo-fi, authentic video with a strong hook will outperform highly polished video with weak messaging. Stiff, overproduced videos kill reach.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Explicitly states video success is determined primarily by hook, angle, and storytelling—not production quality or editing. A simple, authentic video with a strong hook will outperform a highly polished video with weak messaging.",
+              "practice_id": "focus-on-hook-not-production-quality-for-video-success"
+            },
+            {
+              "guest_name": "Connor Lewis",
+              "guest_context": "B2B video content creator",
+              "episode_number": 240,
+              "episode_date": "2025-04-24",
+              "evidence": "Recommends filming in non-traditional settings (outdoors, walking, casual clothing) rather than polished desk setups. States authenticity and conversational tone matter more than production quality, and that stiff, overproduced videos kill reach.",
+              "practice_id": "pattern-interrupt-video-settings"
+            },
+            {
+              "guest_name": "Mark Schaefer",
+              "guest_context": "Marketing strategist and author",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "Advocates for intentionally imperfect content—slightly out of focus, imperfect audio, dust on the lens—to signal authenticity. States raw, lo-fi aesthetics are trending as audiences reject over-polished, mass-produced content.",
+              "practice_id": "raw-lo-fi-content-over-polish"
+            }
+          ]
+        },
+        {
+          "position_id": "invest-in-production-quality",
+          "stance": "High production quality in video creative is worth significant investment, especially for multi-channel campaigns. High-performing creative (e.g., 30%+ view-through rate on YouTube) justifies upfront investment and drives better results across all channels.",
+          "supporters": [
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "B2B demand gen marketer",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "Allocated $35K for 4 professional videos in a surround sound campaign. Cites 30%+ view-through rate on YouTube for B2B as a benchmark that justifies the upfront investment in high-quality creative.",
+              "practice_id": "creative-investment-multi-channel-campaigns"
+            },
+            {
+              "guest_name": "Davang Shah",
+              "guest_context": "LinkedIn marketing solutions leader",
+              "episode_number": 338,
+              "episode_date": "2026-03-17",
+              "evidence": "States creative quality accounts for 60-70% of ad effectiveness, and prioritizes authentic, human-centered creative—but frames this as requiring genuine expertise and real human connection, not necessarily lo-fi aesthetics. Implies quality of substance and authenticity, not intentional imperfection.",
+              "practice_id": "creative-effectiveness-60-70-percent"
+            }
+          ]
+        }
+      ],
+      "support_summary": "3 vs 2",
+      "context_dependency": "Partially context-dependent: Kelly Arndt is specifically discussing multi-channel paid campaigns where creative is the primary differentiator across many touchpoints, while the hook/authenticity camp is more focused on organic social and individual video posts. However, Dave Gerhardt's position applies broadly to video regardless of channel, creating genuine disagreement.",
+      "trend_note": null,
+      "why_it_matters": "Misallocating budget toward production quality when hook and authenticity drive results (or vice versa) directly impacts both creative spend efficiency and video performance metrics like view-through rate and engagement."
+    },
+    {
+      "disagreement_id": "ai-for-ideation-use-or-eliminate-outputs",
+      "title": "Should you use AI-generated ideas as starting points, or eliminate them to force original thinking?",
+      "category": "creative-strategy",
+      "positions": [
+        {
+          "position_id": "ai-as-starting-point-refine-with-human-judgment",
+          "stance": "Use AI to generate campaign ideas at 50-70% quality, then apply human judgment and creativity to refine them. AI accelerates the zero-to-one phase and generates multiple options quickly, but human review and iteration is always required before execution.",
+          "supporters": [
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader and AI practitioner",
+              "episode_number": 285,
+              "episode_date": "2025-09-25",
+              "evidence": "Explicitly recommends treating AI-generated ideas as starting points at 50-70% quality. Advocates for ChatGPT Projects loaded with strategy documents to generate campaign hooks, ad ideas, and content repurposing ideas as a scalable engine.",
+              "practice_id": "ai-as-ideation-not-final-output"
+            },
+            {
+              "guest_name": "Vicente",
+              "guest_context": "Creative marketing practitioner",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Recommends using AI tools to generate rough versions of creative concepts on day one, shifting from 'sell the idea first' to 'start creating immediately and iterate.' Frames AI as an accelerant for the creative process.",
+              "practice_id": "ai-creative-ideation-iteration"
+            },
+            {
+              "guest_name": "Holly Xiao",
+              "guest_context": "Video content marketer",
+              "episode_number": 279,
+              "episode_date": "2025-09-04",
+              "evidence": "Recommends using ChatGPT and Perplexity to brainstorm and generate different angles, hooks, and messaging variations for video scripts, then testing these variations before committing to production.",
+              "practice_id": "use-ai-to-generate-script-variations-for-testing"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "B2B marketing leader and AI practitioner",
+              "episode_number": 285,
+              "episode_date": "2025-09-25",
+              "evidence": "Recommends setting up ChatGPT Projects with strategy documents to generate campaign ideas at scale. Expects 50-70% of outputs to be useful and treats AI as an idea-generation engine grounded in company narrative.",
+              "practice_id": "chatgpt-projects-for-campaign-ideation"
+            }
+          ]
+        },
+        {
+          "position_id": "eliminate-ai-ideas-to-force-originality",
+          "stance": "Ask AI to generate its top ideas, then remove all of them from consideration. Since AI generates averages of existing best practices, its suggestions represent the most obvious, consensus-driven ideas that competitors are likely already executing. Eliminating AI outputs forces teams to generate truly original ideas.",
+          "supporters": [
+            {
+              "guest_name": "Udi Ledergor",
+              "guest_context": "Former CMO at Gong",
+              "episode_number": 237,
+              "episode_date": "2025-04-14",
+              "evidence": "Explicitly recommends asking AI to generate top 10 ideas, then removing all of them from consideration. Rationale: AI generates averages of existing best practices, so its suggestions represent the most obvious ideas competitors are already executing.",
+              "practice_id": "use-ai-to-eliminate-obvious-ideas"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 1",
+      "context_dependency": "Genuine disagreement regardless of context. Both camps are discussing the same use case: using AI in creative ideation for marketing campaigns. The disagreement is about whether AI outputs are a useful scaffold or a trap that leads to derivative thinking.",
+      "trend_note": null,
+      "why_it_matters": "If AI outputs represent consensus thinking that competitors are already executing, using them as starting points may systematically produce derivative creative; but eliminating them entirely may waste a legitimate acceleration tool. The right approach directly affects creative differentiation."
+    },
+    {
+      "disagreement_id": "cold-ad-creative-brand-prominence",
+      "title": "Should cold/top-of-funnel ads lead with your brand or with prospect-focused imagery?",
+      "category": "creative-strategy",
+      "positions": [
+        {
+          "position_id": "lead-with-prospect-imagery-not-brand",
+          "stance": "For cold audiences who don't know your brand, avoid leading with your company name or logo. Instead, use imagery that reflects your target persona's workplace, tools, and demographics. Only introduce brand elements after someone has engaged with your content.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist",
+              "episode_number": 228,
+              "episode_date": "2025-03-17",
+              "evidence": "Explicitly recommends avoiding brand name or logo in cold LinkedIn ads. Use imagery reflecting the target persona's workplace and demographics. Introduce brand more prominently only in retargeting after initial engagement.",
+              "practice_id": "linkedin-cold-ad-creative-with-prospect-imagery"
+            },
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist",
+              "episode_number": 152,
+              "episode_date": "2024-06-24",
+              "evidence": "Repeats the same recommendation: for top-of-funnel cold ads, avoid leading with brand name or logo. Use imagery that reflects the target persona's workplace and tools to reduce brand-awareness friction and increase initial engagement.",
+              "practice_id": "linkedin-cold-ad-creative-persona-imagery"
+            }
+          ]
+        },
+        {
+          "position_id": "build-brand-recognition-through-consistent-creative",
+          "stance": "Use consistent branded creative with the same models/people across all ads, including cold campaigns, to build visual brand recognition and differentiate from competitors using generic stock imagery. Consistency across touchpoints is the differentiator.",
+          "supporters": [
+            {
+              "guest_name": "Anthony Blatner",
+              "guest_context": "LinkedIn ads specialist",
+              "episode_number": 228,
+              "episode_date": "2025-03-17",
+              "evidence": "Also recommends conducting custom photo shoots with consistent models to build visual brand recognition across ad creative—creating an internal tension in his own advice between leading with prospect imagery vs. building consistent brand recognition.",
+              "practice_id": "custom-photoshoot-for-consistent-ad-creative"
+            },
+            {
+              "guest_name": "Kelly Arndt",
+              "guest_context": "B2B demand gen marketer",
+              "episode_number": 341,
+              "episode_date": "2026-03-28",
+              "evidence": "States that on-brand creative 'will be the primary differentiator when showing up everywhere' in multi-channel campaigns, implying brand should be present and consistent from the first touchpoint.",
+              "practice_id": "creative-investment-multi-channel-campaigns"
+            },
+            {
+              "guest_name": "Louis Grenier",
+              "guest_context": "Marketing differentiation strategist",
+              "episode_number": 322,
+              "episode_date": "2026-01-19",
+              "evidence": "Recommends creating meaning-free brand assets (mascots, distinctive visual elements) that make you memorable and distinctive—implying brand elements should be present and prominent to build memory structures.",
+              "practice_id": "meaning-free-brand-assets"
+            },
+            {
+              "guest_name": "Jess Cook",
+              "guest_context": "B2B SaaS marketer",
+              "episode_number": 321,
+              "episode_date": "2026-01-15",
+              "evidence": "Recommends using a distinctive brand mascot consistently across all marketing channels including ads to create a memorable, differentiated brand identity that stands out and gives people something to remember.",
+              "practice_id": "brand-mascot-differentiation"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially context-dependent: Anthony Blatner's 'lead with prospect imagery' advice is specifically for cold LinkedIn ads, while his custom photoshoot advice is about building brand recognition across the full campaign. Kelly Arndt is discussing multi-channel surround sound campaigns. The disagreement may dissolve if 'lead with prospect imagery' is interpreted as a cold-only tactic within a broader brand-building strategy, but the tactical conflict on what to show first in cold ads remains genuine.",
+      "trend_note": null,
+      "why_it_matters": "Leading with brand vs. prospect imagery in cold ads directly affects initial click-through rates and the speed at which brand recognition builds—getting this wrong means either wasting impressions on unrecognized brand assets or missing the opportunity to build brand equity from the first touchpoint."
+    }
+  ]
+}

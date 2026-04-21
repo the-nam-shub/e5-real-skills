@@ -1,0 +1,326 @@
+{
+  "category": "ai-content-creation-and-repurposing",
+  "analysis_date": "2026-04-20",
+  "analysis_model": "claude-sonnet-4-6",
+  "analysis_runs": 2,
+  "filtered_count": 2,
+  "disagreements": [
+    {
+      "disagreement_id": "ai-as-content-generator-vs-assistant",
+      "title": "Should AI be used to generate original content from scratch, or only as a research/editing assistant?",
+      "category": "ai-content-creation-and-repurposing",
+      "positions": [
+        {
+          "position_id": "ai-as-assistant-not-generator",
+          "stance": "AI should not generate original content from scratch because it lacks context, experience, conviction, and the unique insights that make content compelling. AI works best as a research synthesizer, editing assistant, or repurposing tool when humans provide the core ideas, voice, and strategic direction. Publishing AI-generated content wholesale results in generic 'AI slop' that damages brand credibility.",
+          "supporters": [
+            {
+              "guest_name": "Domi de Saint-Exupéry",
+              "guest_context": "Guest, episode 332",
+              "episode_number": 332,
+              "episode_date": "2026-02-23",
+              "evidence": "Explicitly stated AI content generation from scratch is 'overrated' because it lacks context, experience, and anecdotal details. AI works better for repurposing and reframing existing content.",
+              "practice_id": "ai-content-generation-overrated"
+            },
+            {
+              "guest_name": "Mark Schaefer",
+              "guest_context": "Guest, episode 261",
+              "episode_number": 261,
+              "episode_date": "2025-07-03",
+              "evidence": "AI produces 'best average answers' by synthesizing billions of data points, resulting in generic, undifferentiated output. Unique insights, personality, humor, and POV cannot be outsourced to AI without losing what makes content valuable.",
+              "practice_id": "use-ai-for-research-not-core-creative"
+            },
+            {
+              "guest_name": "Harry Dry",
+              "guest_context": "Guest, episode 303",
+              "episode_number": 303,
+              "episode_date": "2025-11-13",
+              "evidence": "AI cannot generate ideas with conviction and lacks the deep category knowledge needed to make bold creative choices. It is useful only for identifying what's wrong with copy, not for writing replacement copy.",
+              "practice_id": "use-ai-to-flag-cliches-not-generate-ideas"
+            },
+            {
+              "guest_name": "Emma Stratton",
+              "guest_context": "Guest, episode 295",
+              "episode_number": 295,
+              "episode_date": "2025-10-20",
+              "evidence": "AI is currently good at copywriting (wordsmithing) but not at messaging (strategic decisions). Strategic messaging requires human judgment and cannot be automated.",
+              "practice_id": "messaging-vs-copywriting-distinction"
+            },
+            {
+              "guest_name": "Talia Wolf",
+              "guest_context": "Guest, episode 132",
+              "episode_number": 132,
+              "episode_date": "2024-04-15",
+              "evidence": "AI lacks emotional resonance and human understanding needed for effective B2B messaging. Human-written emails and copy consistently outperform AI-generated versions on engagement metrics.",
+              "practice_id": "ai-brainstorm-ideation-not-final-copy"
+            },
+            {
+              "guest_name": "Sofia Silva",
+              "guest_context": "Guest, episode 247",
+              "episode_number": 247,
+              "episode_date": "2025-05-19",
+              "evidence": "AI tends to produce generic, median-quality output that lacks specificity, personality, and human insight. Should not be the primary copywriter.",
+              "practice_id": "avoid-ai-as-primary-copywriter"
+            },
+            {
+              "guest_name": "Jess Lytle",
+              "guest_context": "Guest, episode 319",
+              "episode_number": 319,
+              "episode_date": "2026-01-08",
+              "evidence": "75% of internet content is already AI-generated, so differentiation comes from human-created original data and expertise. Use AI to distribute original content faster, not to generate the foundational content itself.",
+              "practice_id": "original-content-distribution-strategy"
+            },
+            {
+              "guest_name": "Kelly Hopping",
+              "guest_context": "Guest, episode 255",
+              "episode_number": 255,
+              "episode_date": "2025-06-16",
+              "evidence": "Invest in high-quality original work written by humans, then use AI to generate 45+ derivative pieces from it. AI accelerates distribution and repurposing, not creation.",
+              "practice_id": "ai-for-content-derivatives-not-generation"
+            },
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "Guest, episode 268",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Use AI for editing, grammar, and structure—not for generating core ideas. AI works best as an editor and formatter when you provide a clear idea or voice note.",
+              "practice_id": "ai-for-editing-not-ideation"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 275,
+              "episode_date": "2025-08-21",
+              "evidence": "Feed AI your own past posts and voice memos to build a personalized writing style guide, then use AI to help flesh out ideas—but always write the core content yourself. Never publish AI-generated content wholesale.",
+              "practice_id": "use-ai-as-writing-assistant-not-generator"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 345,
+              "episode_date": "2026-04-09",
+              "evidence": "Uses Claude as a research and editing assistant, not a content generator. Spends 30 minutes upfront creating a detailed brief, then uses Claude to help research and organize materials, followed by significant editing time.",
+              "practice_id": "ai-content-research-assistant"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-can-generate-content-at-scale-with-right-inputs",
+          "stance": "AI can and should be used to generate content at scale, including first drafts and full pieces, when given sufficient context, detailed prompts, and proper training inputs. The key is investing upfront in quality prompts, strategy documents, and brand guidelines so AI output is differentiated and on-brand. This enables small teams to achieve content volume impossible with manual creation.",
+          "supporters": [
+            {
+              "guest_name": "Kady Srinvivasan",
+              "guest_context": "Guest, episode 276",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "AI content generation requires significant upfront effort in prompt design (20-50+ revisions), but once dialed in, can generate highly specific, personalized content for micro-segments at scale optimized for LLM-based search.",
+              "practice_id": "ai-content-generation-prompt-iteration"
+            },
+            {
+              "guest_name": "Jean Cameron",
+              "guest_context": "Guest, episode 315",
+              "episode_number": 315,
+              "episode_date": "2025-12-25",
+              "evidence": "Leverage AI to scale production of thought leadership, customer stories, and customer videos at a pace impossible with manual creation. This allows small teams to achieve the content volume needed to build brand gravity.",
+              "practice_id": "ai-content-scale-brand-demand-dual-purpose"
+            },
+            {
+              "guest_name": "Jennifer Cannizzaro",
+              "guest_context": "Guest, episode 267",
+              "episode_number": 267,
+              "episode_date": "2025-07-24",
+              "evidence": "Deploy AI to generate first drafts of thought leadership, blogs, and website copy with 75% time savings while preserving quality such that AI's involvement is not detectable in the final output.",
+              "practice_id": "ai-content-first-draft-workflow"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Use AI to generate 80% drafts that you refine rather than starting from scratch. Provide context via custom instructions or detailed prompts to improve output quality.",
+              "practice_id": "use-ai-to-generate-80-percent-drafts"
+            },
+            {
+              "guest_name": "Kady Srinivasan",
+              "guest_context": "Guest, episode 276",
+              "episode_number": 276,
+              "episode_date": "2025-08-25",
+              "evidence": "AI content generation requires significant upfront effort in prompt design (20-50+ revisions) but can then generate highly specific, personalized content for micro-segments at scale, optimized for LLM-based search.",
+              "practice_id": "ai-content-generation-prompt-iteration"
+            },
+            {
+              "guest_name": "Adina Timar",
+              "guest_context": "Guest, episode 336",
+              "episode_number": 336,
+              "episode_date": "2026-03-09",
+              "evidence": "Build content through AI-assembled granular pieces—break content into small discrete sections, map research to each section using JSON, and write one section at a time. This granular approach maintains quality better than end-to-end generation.",
+              "practice_id": "ai-assembled-content-granular-approach"
+            }
+          ]
+        }
+      ],
+      "support_summary": "11 vs 6",
+      "context_dependency": "Partially context-dependent: the 'generate at scale' position (Kady Srinvivasan, Jean Cameron) appears more applicable to high-volume, data-driven content like personalized outreach or SEO content, while the 'assistant only' position is more relevant to brand thought leadership and narrative content. However, several guests on both sides are speaking about the same use cases (blog posts, thought leadership, social content), making this a genuine disagreement regardless of context for those overlapping use cases.",
+      "trend_note": null,
+      "why_it_matters": "Marketers choosing to use AI as a primary content generator risk producing undifferentiated 'AI slop' that erodes brand trust, while those who over-restrict AI use may fall behind on content volume and speed. Getting this balance right directly affects both content quality and team capacity."
+    },
+    {
+      "disagreement_id": "ai-copywriting-skill-requirement",
+      "title": "Do you need strong copywriting skills to get good output from AI, or can AI help marketers without those skills?",
+      "category": "ai-content-creation-and-repurposing",
+      "positions": [
+        {
+          "position_id": "copywriting-skill-required-for-good-ai-output",
+          "stance": "AI is not a substitute for copywriting skill—it amplifies existing skill. To get good copy from AI, you must already understand what good copy looks like and be able to prompt specifically for it. Marketers without strong copywriting foundations will just produce mediocre content faster, because they can't teach the AI what 'good' means.",
+          "supporters": [
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest, episode 318",
+              "episode_number": 318,
+              "episode_date": "2026-01-05",
+              "evidence": "Most marketers create average copy at scale because they lack the underlying copywriting ability to teach the AI what 'good' means. If you have strong copy skills, you can use AI as a creative partner to iterate and scale. Without those skills, AI will just produce mediocre content faster.",
+              "practice_id": "ai-copy-requires-copy-skill"
+            },
+            {
+              "guest_name": "Kieran Flanagan",
+              "guest_context": "Guest, episode 257",
+              "episode_number": 257,
+              "episode_date": "2025-06-23",
+              "evidence": "AI is not a great creative partner for copy unless you know how to prompt it well. To get good copy from AI, you need to be skilled at both copywriting and prompting—you need to understand what good copy looks like, be able to articulate it, and teach the AI through detailed prompts and examples.",
+              "practice_id": "ai-copy-requires-copywriting-skill"
+            },
+            {
+              "guest_name": "Harry Dry",
+              "guest_context": "Guest, episode 303",
+              "episode_number": 303,
+              "episode_date": "2025-11-13",
+              "evidence": "AI lacks the conviction needed to make bold creative choices and cannot generate ideas with conviction. Deep category knowledge is required to write replacement copy for weak spots AI identifies.",
+              "practice_id": "use-ai-to-flag-cliches-not-generate-ideas"
+            }
+          ]
+        },
+        {
+          "position_id": "ai-democratizes-content-creation-for-non-experts",
+          "stance": "AI tools enable people without deep copywriting expertise to produce usable content by providing detailed context, strategy documents, and examples. The key investment is in upfront strategy and prompt quality, not in pre-existing copywriting skill. AI lowers the barrier to content creation for generalist marketers.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 164,
+              "episode_date": "2024-08-05",
+              "evidence": "Use AI to generate 80% drafts that you refine rather than starting from scratch. Provide context via custom instructions or detailed prompts to improve output quality—framed as accessible to any marketer, not just skilled copywriters.",
+              "practice_id": "use-ai-to-generate-80-percent-drafts"
+            },
+            {
+              "guest_name": "Jennifer Cannizzaro",
+              "guest_context": "Guest, episode 267",
+              "episode_number": 267,
+              "episode_date": "2025-07-24",
+              "evidence": "Deploy AI to generate first drafts with 75% time savings while preserving quality. The approach is framed as a team workflow enabler, not requiring individual copywriting expertise.",
+              "practice_id": "ai-content-first-draft-workflow"
+            },
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Guest, episode 326",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Create hybrid human-AI workflows with product context documentation, brand style guides, and tone of voice guides to produce higher-quality output that sounds authentically like your brand—the skill investment is in building the system, not in individual copywriting ability.",
+              "practice_id": "hybrid-ai-workflow-tone-of-voice"
+            },
+            {
+              "guest_name": "Pranav Piyush",
+              "guest_context": "Guest, episode 285",
+              "episode_number": 285,
+              "episode_date": "2025-09-25",
+              "evidence": "By uploading foundational strategy documents into ChatGPT Projects, teams can generate campaign ideas at scale. The value-add is the strategy docs, not copywriting skill per se.",
+              "practice_id": "chatgpt-projects-for-campaign-ideation"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 285,
+              "episode_date": "2025-09-25",
+              "evidence": "Investing 1-2 hours organizing strategy documents yields dramatically better AI outputs than generic prompts—framing the barrier as strategic document quality, not copywriting skill.",
+              "practice_id": "invest-in-strategy-docs-before-ai-prompting"
+            }
+          ]
+        }
+      ],
+      "support_summary": "5 vs 3",
+      "context_dependency": "Genuine disagreement regardless of context. Both sides are speaking to the same scenario: a typical B2B marketer using AI to produce copy. Kieran Flanagan explicitly argues the skill gap is the binding constraint; others implicitly argue systems and context can compensate.",
+      "trend_note": null,
+      "why_it_matters": "If copywriting skill is truly required to get good AI output, then investing in AI tools without investing in copywriting training will yield mediocre results at scale; this has direct implications for how marketing teams should be trained and structured."
+    },
+    {
+      "disagreement_id": "authentic-unpolished-vs-polished-ai-assisted-content",
+      "title": "Should LinkedIn content be deliberately unpolished and human to stand out, or polished and well-structured?",
+      "category": "ai-content-creation-and-repurposing",
+      "positions": [
+        {
+          "position_id": "unpolished-authentic-content-wins",
+          "stance": "As AI-generated content floods LinkedIn, deliberately unpolished, human-written content with typos, casual language, and irregular capitalization increasingly stands out and drives better engagement. The authenticity signal itself is the differentiator—leaning into personal writing style rather than polished professional tone is a strategic advantage.",
+          "supporters": [
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 316,
+              "episode_date": "2025-12-29",
+              "evidence": "Noticed his own LinkedIn performance improving as he writes more casually from his phone with natural language and occasional typos, contrasting with the rise of generic AI-generated content.",
+              "practice_id": "authenticity-stands-out-vs-ai-slop"
+            },
+            {
+              "guest_name": "Dave Gerhardt",
+              "guest_context": "Host of Exit Five podcast; former CMO",
+              "episode_number": 298,
+              "episode_date": "2025-10-27",
+              "evidence": "Write posts with a distinctly human voice: unpolished, with typos, weird capitalization, and conversational rants. This approach signals authenticity and has been observed to drive renewed engagement.",
+              "practice_id": "linkedin-authentic-voice-over-polish"
+            }
+          ]
+        },
+        {
+          "position_id": "structured-polished-content-with-ai-assistance",
+          "stance": "Quality and structure matter more than deliberate imperfection. Use AI to help structure, polish, and refine content while maintaining authentic voice. The goal is content that sounds like you but is well-organized and error-free—not content that is intentionally rough.",
+          "supporters": [
+            {
+              "guest_name": "Sara Lattanzio",
+              "guest_context": "Guest, episode 268",
+              "episode_number": 268,
+              "episode_date": "2025-07-28",
+              "evidence": "Use voice dictation to capture raw ideas, then use AI to consolidate and polish. Follow up by manually fine-tuning and removing artifacts like em dashes to ensure the final post matches your brand voice—the goal is polished authenticity, not deliberate roughness.",
+              "practice_id": "voice-dictation-to-structured-post"
+            },
+            {
+              "guest_name": "Finn Thormeier",
+              "guest_context": "Guest, episode 317",
+              "episode_number": 317,
+              "episode_date": "2026-01-01",
+              "evidence": "Use interview-based ghostwriting and AI trained on executive writing to produce drafts that sound like the executive—the emphasis is on capturing authentic voice through structured process, not on deliberate imperfection.",
+              "practice_id": "linkedin-ghostwriting-with-interview-method"
+            },
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Guest, episode 326",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Identified telltale linguistic patterns (overuse of 'utilize', formal phrases) as signals of low-quality AI content—implying the goal is polished, natural-sounding content, not deliberately rough content.",
+              "practice_id": "three-signals-ai-slop-detection"
+            },
+            {
+              "guest_name": "Eoin Clancy",
+              "guest_context": "Guest, episode 326",
+              "episode_number": 326,
+              "episode_date": "2026-02-04",
+              "evidence": "Identified overuse of informal or non-standard language as a signal of low-quality AI content. Recommended hybrid human-AI workflows with brand style guides and tone of voice guides to produce higher-quality output.",
+              "practice_id": "hybrid-ai-workflow-tone-of-voice"
+            }
+          ]
+        }
+      ],
+      "support_summary": "4 vs 2",
+      "context_dependency": "Partially context-dependent: the unpolished approach may work better for personal brand content from founders/executives, while the polished approach may be more appropriate for company page content or ghostwritten executive content. However, Dave Gerhardt is speaking about personal LinkedIn content in both cases, and Sara Lattanzio and Finn Thormeier are also speaking about personal/executive LinkedIn content, making this a genuine disagreement for that specific context.",
+      "trend_note": null,
+      "why_it_matters": "Choosing the wrong approach for LinkedIn content strategy could mean either blending into AI-generated noise (if over-polished) or appearing unprofessional (if deliberately rough)—the right answer has direct implications for personal brand and executive thought leadership programs."
+    }
+  ]
+}
