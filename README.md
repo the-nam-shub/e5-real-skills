@@ -166,24 +166,9 @@ Every recommendation in these skills traces back to a specific guest, a specific
 
 Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
 
-**Top 10 debates by guest engagement** (ranked by total supporters across positions, with lopsided debates breaking ties):
+**9 notable debates** are curated in [`FEATURED_DEBATES.md`](./FEATURED_DEBATES.md) — hand-picked for what's genuinely contested between thoughtful practitioners.
 
-| Debate | Category | Support |
-|--------|----------|---------|
-| Should AI be used to generate original content from scratch, or only as a research/editing assistant? | Ai Content Creation And Repurposing | 11 vs 6 |
-| What should be marketing's primary accountability metric? | Funnel Pipeline And Revenue Metrics | 11 vs 3 vs 1 |
-| Should B2B marketing prioritize brand building and audience marketing over lead generation? | Brand And Content Demand Creation | 8 vs 5 |
-| Should early-stage or resource-constrained marketers focus on one channel at a time or diversify across multiple channels? | Channel Strategy | 8 vs 4 |
-| What percentage of marketing budget should be allocated to experimentation? | Marketing Budget And Resource Allocation | 6 vs 3 vs 3 |
-| Should B2B marketers continue investing in traditional SEO, or shift resources away from it? | Ai Search Optimization | 8 vs 3 |
-| What is the best primary metric for measuring brand health and awareness? | Brand Measurement And Roi | 5 vs 4 vs 1 vs 1 |
-| Should B2B companies continue investing heavily in SEO, or shift resources elsewhere? | Seo And Search Marketing | 7 vs 4 |
-| What percentage of marketing budget should be allocated to experimentation? | Testing And Experimentation | 5 vs 3 vs 3 |
-| Should you prioritize your own website content or third-party/external content to maximize AI search visibility? | Ai Search Optimization | 6 vs 5 |
-
-Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
-
-Browse all 264 disagreements in [`/disagreements`](./disagreements/).
+All 264 disagreements are available as structured JSON in [`/disagreements`](./disagreements/). Disagreements surface only when they reproduce across two independent Agent 4 runs on the same practice set — a stability filter that favors fewer, more trustworthy findings over exhaustive coverage.
 
 ## Per-Episode Analysis
 
