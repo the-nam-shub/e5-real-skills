@@ -291,10 +291,6 @@ Every recommendation in these skills traces back to a specific guest, a specific
 2. Copy any \`SKILL.md\` file into your Claude Project's skill directory
 3. Claude will automatically apply the skill when relevant to your task
 
-## Available Skills
-
-${renderSkillsTable(inputs.skillRows)}
-
 ## Where the Experts Disagree
 
 Not every best practice is settled. When podcast guests give directly conflicting advice on the same question, we track it, including how many guests support each position. A "6 vs 1" disagreement tells you different things than a "3 vs 3" one.
@@ -323,6 +319,10 @@ This repo is maintained by an automated pipeline that:
 7. Publishes updates after each new episode
 
 Every practice requires a specificity score of 3+ (out of 5) to be included. Generic advice like "know your audience" gets filtered out. What remains is the stuff you can actually do on Monday morning.
+
+## Available Skills
+
+${renderSkillsTable(inputs.skillRows)}
 
 ## Attribution
 
